@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   return (
     <div className={styles.page}>
-      Olá mundo
+      Olá mundo, olá internet
     </div>
   )
 }
