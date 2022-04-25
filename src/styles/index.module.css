@@ -1,6 +1,496 @@
-.page {
+.header {
   display: flex;
-  height: 100vh;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoPoint {
+  background-image: url(../assets/logopoint.png);
+  width: 111px;
+  height: 42px;
+  margin-left: 30px;
+}
+
+.hamburger {
+  background-image: url(../assets/hamburger.png);
+  width: 29px;
+  height: 37px;
+  margin: -3px 30px 0 0;
+}
+
+.news {
+  display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -40px;
+  flex-direction: column;
+}
+
+.carPicture {
+  background-image: url(../assets/tiggo.png);
+  width: 354px;
+  height: 349px;
+  transform: scale(1.06);
+}
+
+.tagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: absolute;
+  left: 47px;
+  top: 418px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.tagLine {
+  background-color: #6CABDE;
+  width: 55px;
+  height: 10px;
+  position: absolute;
+  left: 36px;
+  top: 431px;
+  z-index: 0;
+  transform: scale(1.06);
+}
+
+.newsBullet {
+  background-color: #6CABDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  transform: scale(1.06);
+  position: absolute;
+  top: 9px;
+  left: -12px;
+}
+
+.newsTitle {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 310px;
+  margin: 30px 0 0 20px;
+  transform: scale(1.06);
+}
+
+.newsText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 291px;
+  color: #707070;
+  transform: scale(1.06);
+  margin-top: 25px;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  align-self: flex-start;
+  margin: 30px 0 0 36px;
+}
+
+.playText {
+  font-family: PoppinsBold;
+  font-size: 12px;
+  transform: scale(1.06);
+}
+
+.playButton {
+  background-image: url(../assets/playbutton.png);
+  width: 44px;
+  height: 55px;
+  transform: scale(1.06);
+}
+
+.carouselBullets {
+  background-image: url(../assets/carouselbullets.png);
+  width: 112px;
+  height: 20px;
+  transform: scale(1.06);
+  margin: 40px 0 50px 0;
+}
+
+.about {
+  margin-top: -10px;
+}
+
+.aboutPoint {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 62px;
+  color: #6CABDE;
+  transform: scale(1.06);
+  margin-left: 45px;
+}
+
+.aboutTitle {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  transform: scale(1.06);
+  width: 310px;
+  margin: 10px 0 0 35px;
+}
+
+.aboutImage {
+  background-image: url(../assets/astronaut.png);
+  width: 287px;
+  height: 288px;
+  transform: scale(1.06);
+  margin: 30px 0 0 50px;
+}
+
+.aboutText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 291px;
+  color: #707070;
+  transform: scale(1.06);
+  margin: 30px 0 0 35px;
+  width: 320px;
+}
+
+.aboutLine {
+  background-color: #6CABDE;
+  width: 85vw;
+  height: 25px;
+  transform: scale(1.06);
+  margin-top: 55px;
+}
+
+.aboutOffice {
+  background-image: url(../assets/office.png);
+  width: 375px;
+  height: 281px;
+}
+
+.blackBg {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.owners {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutMychel {
+  margin: 30px 0 30px 0;
+}
+
+.aboutMychelPicture {
+  background-image: url(../assets/mychel.png);
+  width: 128px;
+  height: 131px;
+}
+
+.aboutMychelName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  margin: 10px 0 0 25px;
+  transform: scale(1.06);
+}
+
+.aboutMychelJob {
+  font-size: 12px;
+  margin: 0 0 0 25px;
+  transform: scale(1.06);
+}
+
+.aboutThiago {
+  margin: 30px 0 0 0;
+}
+
+.aboutThiagoPicture {
+  background-image: url(../assets/thiago.png);
+  width: 128px;
+  height: 131px;
+}
+
+.aboutThiagoName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  margin: 10px 0 0 25px;
+  transform: scale(1.06);
+}
+
+.aboutThiagoJob {
+  font-size: 12px;
+  margin: 0 0 0 25px;
+  transform: scale(1.06);
+}
+
+.aboutText2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 22px;
+  width: 315px;
+  align-self: center;
+}
+
+.aboutTitle2 {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #6CABDE;
+  width: 330px;
+  margin: 40px 0 50px 0;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamArt {
+  background-image: url(../assets/teamart.png);
+  width: 275px;
+  height: 275px;
+  align-self: center;
+  margin-top: -15px;
+}
+
+.teamTitle {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 62px;
+  margin: 15px 0 0 25px;
+}
+
+.teamText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 300px;
+  margin: 10px 0 0 25px;
+}
+
+.teamPictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Priscila {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.PriscilaPicture {
+  background-image: url(../assets/priscila.png);
+  width: 128px;
+  height: 131px;
+}
+
+.PriscilaName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.PriscilaJob {
+  font-size: 12px;
+  margin-left: -25px;
+}
+
+.Will {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.WillPicture {
+  background-image: url(../assets/will.png);
+  width: 128px;
+  height: 131px;
+}
+
+.WillName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.WillJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 50px;
+  margin-left: -20px;
+}
+
+.MarcellaAt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.MarcellaAtPicture {
+  background-image: url(../assets/marcellaat.png);
+  width: 128px;
+  height: 131px;
+}
+
+.MarcellaAtName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.MarcellaAtJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 50px;
+  margin-left: -20px;
+}
+
+.Louro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.LouroPicture {
+  background-image: url(../assets/louro.png);
+  width: 128px;
+  height: 131px;
+}
+
+.LouroName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -25px;
+}
+
+.LouroJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 70px;
+}
+
+.Robson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.RobsonPicture {
+  background-image: url(../assets/robson.png);
+  width: 128px;
+  height: 131px;
+}
+
+.RobsonName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -30px;
+}
+
+.RobsonJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.Tato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.TatoPicture {
+  background-image: url(../assets/tato.png);
+  width: 128px;
+  height: 131px;
+}
+
+.TatoName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -35px;
+}
+
+.TatoJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 80px;
+}
+
+.Danielle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.DaniellePicture {
+  background-image: url(../assets/danielle.png);
+  width: 128px;
+  height: 131px;
+}
+
+.DanielleName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -50px;
+}
+
+.DanielleJob {
+  font-size: 12px;
+  width: 100px;
+}
+
+.MarcellaRh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 30px 0 0 0;
+}
+
+.MarcellaRhPicture {
+  background-image: url(../assets/marcellarh.png);
+  width: 128px;
+  height: 131px;
+}
+
+.MarcellaRhName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.MarcellaRhJob {
+  font-size: 12px;
+  width: 70px;
+  margin-bottom: 200px;
 }
