@@ -1,3 +1,5 @@
+/******* HEADER *******/
+
 .header {
   display: flex;
   height: 120px;
@@ -113,6 +115,8 @@
   transform: scale(1.06);
   margin: 40px 0 50px 0;
 }
+
+/******* ABOUT *******/
 
 .about {
   margin-top: -10px;
@@ -244,6 +248,8 @@
   align-self: center;
   margin-left: 10px;
 }
+
+/******* TEAM *******/
 
 .team {
   display: flex;
@@ -492,5 +498,741 @@
 .MarcellaRhJob {
   font-size: 12px;
   width: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
+}
+
+/******* WHAT WE DO *******/
+
+.wwd {
+  background-color: #EB6099;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wwdAlien {
+  background-image: url(../assets/alien.png);
+  width: 300px;
+  height: 213px;
+  position: absolute;
+  top: 4079px;
+  left: 55px;
+}
+
+.wwdTitle {
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: -30px;
+}
+
+.wwdSubtitle {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  width: 300px;
+  margin: 20px 0 0 -10px;
+}
+
+.wwdWork1 {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin: 40px 0 20px 0;
+}
+
+.wwd1image {
+  background-image: url(../assets/symbol1.png);
+  width: 89px;
+  height: 89px;
+}
+
+.wwd1text {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  width: 160px;
+}
+
+.wwdWork2 {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+.wwd2image {
+  background-image: url(../assets/symbol2.png);
+  width: 89px;
+  height: 71px;
+  margin-top: 15px;
+}
+
+.wwd2text {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  width: 160px;
+}
+
+.wwdWork3 {
+  display: flex;
+  width: 95vw;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+.wwd3image {
+  background-image: url(../assets/symbol3.png);
+  width: 110px;
+  height: 104px;
+}
+
+.wwd3text {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  width: 160px;
+}
+
+.wwdWork4 {
+  display: flex;
+  width: 95vw;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+.wwd4image {
+  background-image: url(../assets/symbol4.png);
+  width: 118px;
+  height: 122px;
+}
+
+.wwd4text {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  width: 160px;
+}
+
+.wwdWork5 {
+  display: flex;
+  width: 95vw;
+  justify-content: space-around;
+  margin: 20px 0 20px -20px;
+}
+
+.wwd5image {
+  background-image: url(../assets/symbol5.png);
+  width: 97px;
+  height: 97px;
+}
+
+.wwd5text {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  width: 140px;
+}
+
+.wwdText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 300px;
+  margin: 30px 0 80px 0;
+}
+
+/******* HOW WE DO *******/
+
+.hwd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hwdBalls {
+  background-image: url(../assets/balls1.png);
+  width: 159px;
+  height: 80px;
+  position: absolute;
+  top: 5452px;
+  left: 20px;
+}
+
+.hwdTitle {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 60px;
+  margin: 50px 0 10px 0;
+}
+
+.hwdCircles {
+  background-image: url(../assets/teste.png);
+  width: 1120px;
+  height: 1120px;
+  z-index: 0;
+  position: relative;
+  /* animation: rotate 30s linear; */
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(-360deg)}
+}
+
+.hwdcPinkText1 {
+  position: absolute;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  top: 78px;
+  left: 430px;
+}
+
+.cpinkText1, .cpinkText3 {
+  color: #fff;
+}
+
+.hwdcPinkText2 {
+  position: absolute;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  width: 350px;
+  top: 320px;
+  left: 850px;
+  transform: rotate(60deg);
+}
+
+.hwdcPinkText3 {
+  position: absolute;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  top: 880px;
+  left: 750px;
+  transform: rotate(140deg);
+}
+
+.hwdcPinkText4 {
+  position: absolute;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  top: 860px;
+  left: 190px;
+  transform: rotate(220deg);
+}
+
+.hwdcPinkText5 {
+  position: absolute;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  top: 320px;
+  left: 90px;
+  transform: rotate(295deg);
+}
+
+.hwdcBlueText1 {
+  position: absolute;
+  top: 267px;
+  left: 480px;
+  z-index: 1;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.cblueText1 {
+  color: #fff;
+}
+
+.hwdcBlueText2 {
+  position: absolute;
+  top: 420px;
+  left: 740px;
+  z-index: 1;
+  transform: rotate(60deg);
+}
+
+.hwdcBlueText3 {
+  position: absolute;
+  top: 730px;
+  left: 650px;
+  z-index: 1;
+  transform: rotate(140deg);
+}
+
+.hwdcBlueText4 {
+  position: absolute;
+  top: 730px;
+  left: 330px;
+  z-index: 1;
+  transform: rotate(220deg);
+}
+
+.hwdcBlueText5 {
+  position: absolute;
+  top: 420px;
+  left: 250px;
+  z-index: 1;
+  transform: rotate(295deg);
+}
+
+.hwdArrows {
+  display: flex;
+  width: 85vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 5820px;
+}
+
+.arrowLeft {
+  background-image: url(../assets/arrowleft.png);
+  width: 31px;
+  height: 56px;
+}
+
+.arrowRight {
+  background-image: url(../assets/arrowright.png);
+  width: 31px;
+  height: 56px;
+}
+
+.hwdWhiteBg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 6050px;
+  width: 75vw;
+}
+
+.hwdwBgLight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hwdLightImage {
+  background-image: url(../assets/light.png);
+  width: 46px;
+  height: 45px;
+}
+
+.hwdLightText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.hwdwBgLogo {
+  background-image: url(../assets/logopoint2.png);
+  width: 60px;
+  height: 39px;
+}
+
+.hwdwBgMegaphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hwdMegaphoneImage {
+  background-image: url(../assets/megaphone.png);
+  width: 53px;
+  height: 32px;
+}
+
+.hwdMegaphoneText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+/******* PREVIOUS WORKS *******/
+
+.previousWorks {
+  background-color: #000;
+  position: absolute;
+  width: 100vw;
+  height: 1380px;
+  top: 6170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pwArt {
+  background-image: url(../assets/camera.png);
+  width: 298px;
+  height: 298px;
+  z-index: 4;
+  margin: 50px 0 0 0;
+}
+
+.pwBalls {
+  background-image: url(../assets/balls2.png);
+  width: 159px;
+  height: 80px;
+  position: absolute;
+  top: 173px;
+  left: 13px;
+  z-index: 3;
+}
+
+.pwTitle {
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.pwGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery1 {
+  background-image: url(../assets/pw1.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery2 {
+  background-image: url(../assets/pw2.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery3 {
+  background-image: url(../assets/pw3.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery4 {
+  background-image: url(../assets/pw4.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery5 {
+  background-image: url(../assets/pw5.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery6 {
+  background-image: url(../assets/pw6.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery7 {
+  background-image: url(../assets/pw7.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery8 {
+  background-image: url(../assets/pw8.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery9 {
+  background-image: url(../assets/pw9.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery10 {
+  background-image: url(../assets/pw10.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery11 {
+  background-image: url(../assets/pw11.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+.gallery12 {
+  background-image: url(../assets/pw12.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 5px;
+}
+
+/******* CASES *******/
+
+.cases {
+  color: #fff;
+  background-color: #000;
+  margin-top: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casesTitle {
+  color: #6CABDE;
+  padding-top: 50px;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 0 0 0 -50px;
+}
+
+.case1Title {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 62px;
+  margin: 0 0 20px -160px;
+}
+
+.casesArrows {
+  display: flex;
+  justify-content: space-between;
+  width: 92vw;
+  position: absolute;
+  top: 7880px;
+}
+
+.case1Image {
+  background-image: url(../assets/adops.png);
+  width: 876px;
+  height: 487px;
+  margin: 0 0 0 120px;
+}
+
+.case1Subtitle1 {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: -50px 0 30px -165px;
+}
+
+.case1Text1 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 270px;
+}
+
+.case1Subtitle2 {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 80px 0 30px -165px;
+}
+
+.case1Text2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 100px 0;
+}
+
+/******* CLIENTS *******/
+
+.clientsTitle {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 40px 0 45px 45px;
+}
+
+.clientsArt {
+  background-image: url(../assets/client.png);
+  width: 378px;
+  height: 249px;
+  margin: 0 0 20px -15px;
+}
+
+.clientsGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client1 {
+  background-image: url(../assets/client1.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client2 {
+  background-image: url(../assets/client2.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client3 {
+  background-image: url(../assets/client3.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client4 {
+  background-image: url(../assets/client4.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client5 {
+  background-image: url(../assets/client5.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client6 {
+  background-image: url(../assets/client6.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client7 {
+  background-image: url(../assets/client7.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client8 {
+  background-image: url(../assets/client8.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client9 {
+  background-image: url(../assets/client9.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client10 {
+  background-image: url(../assets/client10.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 30px 0;
+}
+
+.client11 {
+  background-image: url(../assets/client11.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client12 {
+  background-image: url(../assets/client12.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client13 {
+  background-image: url(../assets/client13.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client14 {
+  background-image: url(../assets/client14.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client15 {
+  background-image: url(../assets/client15.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+/******* CAREERS *******/
+
+.careers {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careersArt {
+  background-image: url(../assets/careers.png);
+  width: 304px;
+  height: 367px;
+  margin: 30px 0 40px 40px;
+}
+
+.careersTitle {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 62px;
+  color: #fff;
+  margin: 0 0 40px -170px;
+}
+
+.careersText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 290px;
+  margin: 0 0 50px 0;
+}
+
+.careersOpenings {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  width: 300px;
+  margin: 0 0 100px 0;
 }
