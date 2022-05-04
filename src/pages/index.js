@@ -15,6 +15,10 @@ export default function LandingPage() {
         <div className={styles.hamburger} />
       </div>
 
+
+
+
+
       <div className={styles.news}>
         <div className={styles.carPicture} />
         <div className={styles.tag}>
@@ -29,6 +33,10 @@ export default function LandingPage() {
         </div>
         <div className={styles.carouselBullets}></div>
       </div>
+
+
+
+
 
       <div className={styles.about}>
         <div className={styles.aboutPoint}>a POINT_</div>
@@ -54,6 +62,10 @@ export default function LandingPage() {
           <div className={styles.aboutTitle2}>Isso faz com que o trabalho operacional seja mais rápido e minimize erro de mensuração.</div>
         </div>
       </div>
+
+
+
+
 
       <div className={styles.team}>
         <div className={styles.teamArt} />
@@ -103,13 +115,17 @@ export default function LandingPage() {
         </div>
       </div>
       
+
+
+
+      
       <div className={styles.wwd}>
         <div className={styles.wwdAlien} />
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
         <div className={styles.wwdWork1}>
           <div className={styles.wwd1image} />
-          <div className={styles.wwd1text}>Criação e design (moodboard e kv + motion design;</div>
+          <div className={styles.wwd1text}>Criação e design (moodboard e kv + motion design);</div>
         </div>
         <div className={styles.wwdWork2}>
           <div className={styles.wwd2image} />
@@ -137,73 +153,57 @@ export default function LandingPage() {
       <div className={styles.hwd}>
         <div className={styles.hwdBalls} />
         <div className={styles.hwdTitle}>como a gente faz_</div>
-
-
         <div className={styles.hwdCircles}>
-          
-            <div className={styles.hwdcPinkText1}>
+          <div className={styles.hwdcPinkText1}>
               <div className={styles.cpinkText1}>Criação KV + peça master</div>
               <div className={styles.cpinkText2}>Replicação</div>
               <div className={styles.cpinkText3}>Motion design</div>
             </div>
-
             <div className={styles.hwdcPinkText2}>
               <div className={styles.cpinkText1}>Planejamento de mídia</div>
               <div className={styles.cpinkText2}>Plano tático</div>
               <div className={styles.cpinkText3}>Configuração de campanhas</div>
             </div>
-
             <div className={styles.hwdcPinkText3}>
               <div className={styles.cpinkText1}>Acompanhamento</div>
               <div className={styles.cpinkText2}>Otimização</div>
               <div className={styles.cpinkText3}>Status daily</div>
             </div>
-
             <div className={styles.hwdcPinkText4}>
               <div className={styles.cpinkText1}>Checking financeiro</div>
               <div className={styles.cpinkText2}>Report</div>
               <div className={styles.cpinkText3}>Under-Over</div>
             </div>
-
             <div className={styles.hwdcPinkText5}>
               <div className={styles.cpinkText1}>KPIs</div>
               <div className={styles.cpinkText2}>Métricas</div>
               <div className={styles.cpinkText3}>Relatório final</div>
             </div>
-          
-
             <div className={styles.hwdcBlueText1}>
               <div className={styles.cblueText1}>Produção</div>
               <div className={styles.cblueText2}>Pré-campanha</div>
             </div>
-
             <div className={styles.hwdcBlueText2}>
               <div className={styles.cblueText1}>Mídia</div>
               <div className={styles.cblueText2}>Pré-campanha</div>
             </div>
-
             <div className={styles.hwdcBlueText3}>
               <div className={styles.cblueText1}>Mídia</div>
               <div className={styles.cblueText2}>Campanha livre</div>
             </div>
-
             <div className={styles.hwdcBlueText4}>
               <div className={styles.cblueText1}>Controle</div>
               <div className={styles.cblueText2}>Campanha livre</div>
             </div>
-
             <div className={styles.hwdcBlueText5}>
               <div className={styles.cblueText1}>Dados resultados</div>
               <div className={styles.cblueText2}>Pós-campanha</div>
             </div>
-
         </div>
-
         <div className={styles.hwdArrows}>
           <div className={styles.arrowLeft} />
           <div className={styles.arrowRight} />
         </div>
-
         <div className={styles.hwdWhiteBg}>
           <div className={styles.hwdwBgLight}>
             <div className={styles.hwdLightImage} />
@@ -215,7 +215,6 @@ export default function LandingPage() {
             <div className={styles.hwdMegaphoneText}>Veículos</div>
           </div>
         </div>
-        
       </div>
 
 
@@ -253,7 +252,6 @@ export default function LandingPage() {
           <div className={styles.arrowLeft} />
           <div className={styles.arrowRight} />
         </div>
-        
         <div className={styles.case1Image} />
         <div className={styles.case1Subtitle1}>Highlights</div>
         <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
@@ -296,6 +294,58 @@ export default function LandingPage() {
         <div className={styles.careersTitle}>vagas_</div>
         <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atras de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
         <div className={styles.careersOpenings}>02 vagas para DA pleno <br/><br/>01 vaga para atendimento sênior<br/><br/>01 vaga para redator junior</div>
+      </div>
+
+
+
+
+
+      <div className={styles.contact}>
+        <div className={styles.contactArt} />
+        <div className={styles.contactTitle}>contato_</div>
+        <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
+        <div className={styles.contactForm}>
+          <select className={styles.formSubject}>
+            <option value="" disabled selected hidden>Escolha um assunto</option>
+            <option>Ajuda 1</option>
+            <option>Ajuda 2</option>
+            <option>Ajuda 3</option>
+          </select>
+          <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
+          <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
+          <input className={styles.formPhone} type="text" name="phone" placeholder="Telefone"></input>
+          <textarea className={styles.formMessage} type="textarea" name="message" placeholder="Deixe sua mensagem aqui..."></textarea>
+        </div>
+        <button className={styles.contactButton}>enviar &gt;</button>
+      </div>
+
+
+
+
+
+      <div className={styles.footer}>
+        <div className={styles.footerLinks}>
+          <div className={styles.linkAbout}>a POINT</div>
+          <div className={styles.linkTeam}>nosso time</div>
+          <div className={styles.linkWwd}>o que a gente faz</div>
+          <div className={styles.linkHwd}>como a gente faz</div>
+          <div className={styles.linkPw}>o que a gente já fez</div>
+          <div className={styles.linkCases}>nossos cases</div>
+          <div className={styles.linkClients}>nossos clientes</div>
+          <div className={styles.linkCareers}>vagas</div>
+          <div className={styles.linkContact}>contato</div>
+        </div>
+        <div className={styles.footerLogo} />
+        <div className={styles.footerSocials}>
+          <div className={styles.instagram}></div>
+          <div className={styles.twitter}></div>
+          <div className={styles.facebook}></div>
+        </div>
+        <div className={styles.footerLocation}>
+          <div className={styles.pin}></div>
+          <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>Telefone: (11) 3368-9006</div>
+        </div>
+        <div className={styles.footerCopyright}>© pointmedia 2022</div>
       </div>
 
 

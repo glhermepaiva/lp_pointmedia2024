@@ -301,6 +301,7 @@
 .PriscilaName {
   font-family: PoppinsBold;
   font-size: 15px;
+  line-height: 20px;
   width: 50px;
   margin: 10px 0 0 -20px;
 }
@@ -516,7 +517,7 @@
   width: 300px;
   height: 213px;
   position: absolute;
-  top: 4079px;
+  top: 4078px;
   left: 55px;
 }
 
@@ -665,7 +666,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5452px;
+  top: 5447px;
   left: 20px;
 }
 
@@ -677,7 +678,7 @@
 }
 
 .hwdCircles {
-  background-image: url(../assets/teste.png);
+  background-image: url(../assets/circles.png);
   width: 1120px;
   height: 1120px;
   z-index: 0;
@@ -713,9 +714,9 @@
   line-height: 25px;
   text-align: center;
   width: 350px;
-  top: 320px;
-  left: 850px;
-  transform: rotate(60deg);
+  top: 330px;
+  left: 800px;
+  transform: rotate(64deg);
 }
 
 .hwdcPinkText3 {
@@ -725,7 +726,7 @@
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  top: 880px;
+  top: 870px;
   left: 750px;
   transform: rotate(140deg);
 }
@@ -738,7 +739,7 @@
   line-height: 25px;
   text-align: center;
   top: 860px;
-  left: 190px;
+  left: 170px;
   transform: rotate(220deg);
 }
 
@@ -749,8 +750,8 @@
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  top: 320px;
-  left: 90px;
+  top: 330px;
+  left: 80px;
   transform: rotate(295deg);
 }
 
@@ -771,10 +772,14 @@
 
 .hwdcBlueText2 {
   position: absolute;
-  top: 420px;
-  left: 740px;
+  top: 425px;
+  left: 720px;
   z-index: 1;
-  transform: rotate(60deg);
+  transform: rotate(65deg);
+  text-align: center;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .hwdcBlueText3 {
@@ -783,22 +788,34 @@
   left: 650px;
   z-index: 1;
   transform: rotate(140deg);
+  text-align: center;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .hwdcBlueText4 {
   position: absolute;
   top: 730px;
-  left: 330px;
+  left: 320px;
   z-index: 1;
   transform: rotate(220deg);
+  text-align: center;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .hwdcBlueText5 {
   position: absolute;
-  top: 420px;
-  left: 250px;
+  top: 435px;
+  left: 230px;
   z-index: 1;
   transform: rotate(295deg);
+  text-align: center;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .hwdArrows {
@@ -1237,4 +1254,212 @@
   line-height: 25px;
   width: 300px;
   margin: 0 0 100px 0;
+}
+
+/******* CONTACT *******/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactArt {
+  background-image: url(../assets/contact.png);
+  width: 269px;
+  height: 232px;
+  margin: 20px 0 20px 0;
+}
+
+.contactTitle {
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 62px;
+  color: #EB6099;
+  margin: 0 0 10px -160px;
+}
+
+.contactText {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  width: 310px;
+  margin: 0 0 20px 0;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formSubject {
+  width: 313px;
+  height: 50px;
+  border: 2px #EB6099 solid;
+  border-radius: 30px;
+  color: #EB6099;
+  padding: 0 0 0 20px;
+
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+
+  margin: 0 0 5px 0;
+}
+
+.formName {
+  width: 313px;
+  height: 47px;
+  border: 2px #EB6099 solid;
+  border-radius: 30px;
+  color: #EB6099;
+  padding: 0 0 0 20px;
+
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+
+  margin: 5px 0 5px 0;
+}
+
+.formName::placeholder {
+  color: #EB6099;
+}
+
+.formEmail {
+  width: 313px;
+  height: 47px;
+  border: 2px #EB6099 solid;
+  border-radius: 30px;
+  color: #EB6099;
+  padding: 0 0 0 20px;
+
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+
+  margin: 5px 0 5px 0;
+}
+
+.formEmail::placeholder {
+  color: #EB6099;
+}
+
+.formPhone {
+  width: 313px;
+  height: 47px;
+  border: 2px #EB6099 solid;
+  border-radius: 30px;
+  color: #EB6099;
+  padding: 0 0 0 20px;
+
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+
+  margin: 5px 0 15px 0;
+}
+
+.formPhone::placeholder {
+  color: #EB6099;
+}
+
+.formMessage {
+  width: 295px;
+  height: 400px;
+  border: 2px #EB6099 solid;
+  border-radius: 30px;
+  color: #EB6099;
+  padding: 20px 0 0 20px;
+
+  margin: 15px 0 10px 0;
+}
+
+.formMessage::placeholder {
+  color: #EB6099;
+}
+
+.contactButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 241px;
+  height: 50px;
+
+  margin: 10px 0 80px 0;
+}
+
+/******* FOOTER *******/
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerLinks {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 50px 0 50px -60px;
+}
+
+.footerLogo {
+  background-image: url(../assets/logopoint3.png);
+  width: 187px;
+  height: 120px;
+  margin: 0 0 60px 0;
+}
+
+.footerSocials {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  margin: 0 0 90px 0;
+}
+
+.instagram {
+  background-image: url(../assets/insta.png);
+  width: 33px;
+  height: 33px;
+}
+
+.twitter {
+  background-image: url(../assets/twitter.png);
+  width: 33px;
+  height: 27px;
+}
+
+.facebook {
+  background-image: url(../assets/fb.png);
+  width: 17px;
+  height: 33px;
+}
+
+.pin {
+  background-image: url(../assets/pin.png);
+  width: 23px;
+  height: 31px;
+}
+
+.address {
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 20px 0 40px 0;
+}
+
+.footerCopyright {
+  color: #EB6099;
+  font-family: Poppins;
+  font-size: 10px;
+  line-height: 16px;
+  margin: 0 0 30px -135px;
 }
