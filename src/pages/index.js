@@ -26,7 +26,7 @@ export default function LandingPage() {
           <div className={styles.tagLine} />
         </div>
         <div className={styles.newsTitle}> <div className={styles.newsBullet} /> Tem novidade na POINT! <br/> Ganhamos a conta da CAOA para divulgação do novo Tiggo 8 2022.</div>
-        <div className={styles.newsText}>Conquistamos mais um super cliente! Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira aqui como ficou a peça master!</div>
+        <div className={styles.newsText}>Conquistamos mais um super cliente! <br/>Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira aqui como ficou a peça master!</div>
         <div className={styles.play}>
           <div className={styles.playText}>Dê um play!</div>
           <div className={styles.playButton} />
@@ -123,25 +123,27 @@ export default function LandingPage() {
         <div className={styles.wwdAlien} />
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
-        <div className={styles.wwdWork1}>
-          <div className={styles.wwd1image} />
-          <div className={styles.wwd1text}>Criação e design (moodboard e kv + motion design);</div>
-        </div>
-        <div className={styles.wwdWork2}>
-          <div className={styles.wwd2image} />
-          <div className={styles.wwd2text}>Produção e desdobramento de banners digitais;</div>
-        </div>
-        <div className={styles.wwdWork3}>
-          <div className={styles.wwd3image} />
-          <div className={styles.wwd3text}>Projetos de DCO para otimização de produção;</div>
-        </div>
-        <div className={styles.wwdWork4}>
-          <div className={styles.wwd4image} />
-          <div className={styles.wwd4text}>HUB mídia de performance e gestão de Adserver;</div>
-        </div>
-        <div className={styles.wwdWork5}>
-          <div className={styles.wwd5image} />
-          <div className={styles.wwd5text}>Projetos de automação para mídia e produção.</div>
+        <div className={styles.wwdWorks}>
+          <div className={styles.wwdWork1}>
+            <div className={styles.wwd1image} />
+            <div className={styles.wwd1text}>Criação e design (moodboard e kv + motion design);</div>
+          </div>
+          <div className={styles.wwdWork2}>
+            <div className={styles.wwd2image} />
+            <div className={styles.wwd2text}>Produção e desdobramento de banners digitais;</div>
+          </div>
+          <div className={styles.wwdWork3}>
+            <div className={styles.wwd3image} />
+            <div className={styles.wwd3text}>Projetos de DCO para otimização de produção;</div>
+          </div>
+          <div className={styles.wwdWork4}>
+            <div className={styles.wwd4image} />
+            <div className={styles.wwd4text}>HUB mídia de performance e gestão de Adserver;</div>
+          </div>
+          <div className={styles.wwdWork5}>
+            <div className={styles.wwd5image} />
+            <div className={styles.wwd5text}>Projetos de automação para mídia e produção.</div>
+          </div>
         </div>
         <div className={styles.wwdText}>Criamos Hubs de performance para agências e clientes diretos, onde operamos Mídia Programática, SEM, Social, Mobile, WebTV e podemos interligar a operação de mídia com a nossa equipe de produção, criando e desdobrando banners HTML5, vídeos e estáticos para que o processo operacional de mídia flua de forma unificada e ganhe dinâmica nas publicações das campanhas.</div>
       </div>

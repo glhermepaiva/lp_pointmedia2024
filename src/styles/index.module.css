@@ -8,14 +8,14 @@
 }
 
 .logoPoint {
-  background-image: url(../assets/logopoint.png);
+  background-image: url(../assets/mobile/logopoint.png);
   width: 111px;
   height: 42px;
   margin-left: 30px;
 }
 
 .hamburger {
-  background-image: url(../assets/hamburger.png);
+  background-image: url(../assets/mobile/hamburger.png);
   width: 29px;
   height: 37px;
   margin: -3px 30px 0 0;
@@ -30,7 +30,7 @@
 }
 
 .carPicture {
-  background-image: url(../assets/tiggo.png);
+  background-image: url(../assets/mobile/tiggo.png);
   width: 354px;
   height: 349px;
   transform: scale(1.06);
@@ -102,14 +102,14 @@
 }
 
 .playButton {
-  background-image: url(../assets/playbutton.png);
+  background-image: url(../assets/mobile/playbutton.png);
   width: 44px;
   height: 55px;
   transform: scale(1.06);
 }
 
 .carouselBullets {
-  background-image: url(../assets/carouselbullets.png);
+  background-image: url(../assets/mobile/carouselbullets.png);
   width: 112px;
   height: 20px;
   transform: scale(1.06);
@@ -141,7 +141,7 @@
 }
 
 .aboutImage {
-  background-image: url(../assets/astronaut.png);
+  background-image: url(../assets/mobile/astronaut.png);
   width: 287px;
   height: 288px;
   transform: scale(1.06);
@@ -167,7 +167,7 @@
 }
 
 .aboutOffice {
-  background-image: url(../assets/office.png);
+  background-image: url(../assets/mobile/office.png);
   width: 375px;
   height: 281px;
 }
@@ -189,7 +189,7 @@
 }
 
 .aboutMychelPicture {
-  background-image: url(../assets/mychel.png);
+  background-image: url(../assets/mobile/mychel.png);
   width: 128px;
   height: 131px;
 }
@@ -212,7 +212,7 @@
 }
 
 .aboutThiagoPicture {
-  background-image: url(../assets/thiago.png);
+  background-image: url(../assets/mobile/thiago.png);
   width: 128px;
   height: 131px;
 }
@@ -257,7 +257,7 @@
 }
 
 .teamArt {
-  background-image: url(../assets/teamart.png);
+  background-image: url(../assets/mobile/teamart.png);
   width: 275px;
   height: 275px;
   align-self: center;
@@ -293,7 +293,7 @@
 }
 
 .PriscilaPicture {
-  background-image: url(../assets/priscila.png);
+  background-image: url(../assets/mobile/priscila.png);
   width: 128px;
   height: 131px;
 }
@@ -320,7 +320,7 @@
 }
 
 .WillPicture {
-  background-image: url(../assets/will.png);
+  background-image: url(../assets/mobile/will.png);
   width: 128px;
   height: 131px;
 }
@@ -348,7 +348,7 @@
 }
 
 .MarcellaAtPicture {
-  background-image: url(../assets/marcellaat.png);
+  background-image: url(../assets/mobile/marcellaat.png);
   width: 128px;
   height: 131px;
 }
@@ -376,7 +376,7 @@
 }
 
 .LouroPicture {
-  background-image: url(../assets/louro.png);
+  background-image: url(../assets/mobile/louro.png);
   width: 128px;
   height: 131px;
 }
@@ -403,7 +403,7 @@
 }
 
 .RobsonPicture {
-  background-image: url(../assets/robson.png);
+  background-image: url(../assets/mobile/robson.png);
   width: 128px;
   height: 131px;
 }
@@ -431,7 +431,7 @@
 }
 
 .TatoPicture {
-  background-image: url(../assets/tato.png);
+  background-image: url(../assets/mobile/tato.png);
   width: 128px;
   height: 131px;
 }
@@ -458,7 +458,7 @@
 }
 
 .DaniellePicture {
-  background-image: url(../assets/danielle.png);
+  background-image: url(../assets/mobile/danielle.png);
   width: 128px;
   height: 131px;
 }
@@ -484,7 +484,7 @@
 }
 
 .MarcellaRhPicture {
-  background-image: url(../assets/marcellarh.png);
+  background-image: url(../assets/mobile/marcellarh.png);
   width: 128px;
   height: 131px;
 }
@@ -513,7 +513,7 @@
 }
 
 .wwdAlien {
-  background-image: url(../assets/alien.png);
+  background-image: url(../assets/mobile/alien.png);
   width: 300px;
   height: 213px;
   position: absolute;
@@ -545,7 +545,7 @@
 }
 
 .wwd1image {
-  background-image: url(../assets/symbol1.png);
+  background-image: url(../assets/mobile/symbol1.png);
   width: 89px;
   height: 89px;
 }
@@ -566,7 +566,7 @@
 }
 
 .wwd2image {
-  background-image: url(../assets/symbol2.png);
+  background-image: url(../assets/mobile/symbol2.png);
   width: 89px;
   height: 71px;
   margin-top: 15px;
@@ -588,7 +588,7 @@
 }
 
 .wwd3image {
-  background-image: url(../assets/symbol3.png);
+  background-image: url(../assets/mobile/symbol3.png);
   width: 110px;
   height: 104px;
 }
@@ -609,7 +609,7 @@
 }
 
 .wwd4image {
-  background-image: url(../assets/symbol4.png);
+  background-image: url(../assets/mobile/symbol4.png);
   width: 118px;
   height: 122px;
 }
@@ -630,7 +630,7 @@
 }
 
 .wwd5image {
-  background-image: url(../assets/symbol5.png);
+  background-image: url(../assets/mobile/symbol5.png);
   width: 97px;
   height: 97px;
   margin: 10px 0 0 0px;
@@ -662,7 +662,7 @@
 }
 
 .hwdBalls {
-  background-image: url(../assets/balls1.png);
+  background-image: url(../assets/mobile/balls1.png);
   width: 159px;
   height: 80px;
   position: absolute;
@@ -678,7 +678,7 @@
 }
 
 .hwdCircles {
-  background-image: url(../assets/circles.png);
+  background-image: url(../assets/mobile/circles.png);
   width: 1120px;
   height: 1120px;
   z-index: 0;
@@ -827,13 +827,13 @@
 }
 
 .arrowLeft {
-  background-image: url(../assets/arrowleft.png);
+  background-image: url(../assets/mobile/arrowleft.png);
   width: 31px;
   height: 56px;
 }
 
 .arrowRight {
-  background-image: url(../assets/arrowright.png);
+  background-image: url(../assets/mobile/arrowright.png);
   width: 31px;
   height: 56px;
 }
@@ -854,7 +854,7 @@
 }
 
 .hwdLightImage {
-  background-image: url(../assets/light.png);
+  background-image: url(../assets/mobile/light.png);
   width: 46px;
   height: 45px;
 }
@@ -866,7 +866,7 @@
 }
 
 .hwdwBgLogo {
-  background-image: url(../assets/logopoint2.png);
+  background-image: url(../assets/mobile/logopoint2.png);
   width: 60px;
   height: 39px;
 }
@@ -878,7 +878,7 @@
 }
 
 .hwdMegaphoneImage {
-  background-image: url(../assets/megaphone.png);
+  background-image: url(../assets/mobile/megaphone.png);
   width: 53px;
   height: 32px;
 }
@@ -903,7 +903,7 @@
 }
 
 .pwArt {
-  background-image: url(../assets/camera.png);
+  background-image: url(../assets/mobile/camera.png);
   width: 298px;
   height: 298px;
   z-index: 4;
@@ -911,7 +911,7 @@
 }
 
 .pwBalls {
-  background-image: url(../assets/balls2.png);
+  background-image: url(../assets/mobile/balls2.png);
   width: 159px;
   height: 80px;
   position: absolute;
@@ -935,84 +935,84 @@
 }
 
 .gallery1 {
-  background-image: url(../assets/pw1.png);
+  background-image: url(../assets/mobile/pw1.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery2 {
-  background-image: url(../assets/pw2.png);
+  background-image: url(../assets/mobile/pw2.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery3 {
-  background-image: url(../assets/pw3.png);
+  background-image: url(../assets/mobile/pw3.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery4 {
-  background-image: url(../assets/pw4.png);
+  background-image: url(../assets/mobile/pw4.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery5 {
-  background-image: url(../assets/pw5.png);
+  background-image: url(../assets/mobile/pw5.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery6 {
-  background-image: url(../assets/pw6.png);
+  background-image: url(../assets/mobile/pw6.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery7 {
-  background-image: url(../assets/pw7.png);
+  background-image: url(../assets/mobile/pw7.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery8 {
-  background-image: url(../assets/pw8.png);
+  background-image: url(../assets/mobile/pw8.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery9 {
-  background-image: url(../assets/pw9.png);
+  background-image: url(../assets/mobile/pw9.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery10 {
-  background-image: url(../assets/pw10.png);
+  background-image: url(../assets/mobile/pw10.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery11 {
-  background-image: url(../assets/pw11.png);
+  background-image: url(../assets/mobile/pw11.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
 }
 
 .gallery12 {
-  background-image: url(../assets/pw12.png);
+  background-image: url(../assets/mobile/pw12.png);
   width: 181px;
   height: 151px;
   margin-bottom: 5px;
@@ -1054,7 +1054,7 @@
 }
 
 .case1Image {
-  background-image: url(../assets/adops.png);
+  background-image: url(../assets/mobile/adops.png);
   width: 876px;
   height: 487px;
   margin: 0 0 0 120px;
@@ -1099,7 +1099,7 @@
 }
 
 .clientsArt {
-  background-image: url(../assets/client.png);
+  background-image: url(../assets/mobile/client.png);
   width: 378px;
   height: 249px;
   margin: 0 0 20px -15px;
@@ -1112,105 +1112,105 @@
 }
 
 .client1 {
-  background-image: url(../assets/client1.png);
+  background-image: url(../assets/mobile/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/client2.png);
+  background-image: url(../assets/mobile/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/client3.png);
+  background-image: url(../assets/mobile/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/client4.png);
+  background-image: url(../assets/mobile/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/client5.png);
+  background-image: url(../assets/mobile/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/client6.png);
+  background-image: url(../assets/mobile/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/client7.png);
+  background-image: url(../assets/mobile/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/client8.png);
+  background-image: url(../assets/mobile/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/client9.png);
+  background-image: url(../assets/mobile/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/client10.png);
+  background-image: url(../assets/mobile/client10.png);
   width: 170px;
   height: 70px;
   margin: 0 0 30px 0;
 }
 
 .client11 {
-  background-image: url(../assets/client11.png);
+  background-image: url(../assets/mobile/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/client12.png);
+  background-image: url(../assets/mobile/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/client13.png);
+  background-image: url(../assets/mobile/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/client14.png);
+  background-image: url(../assets/mobile/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/client15.png);
+  background-image: url(../assets/mobile/client15.png);
   width: 170px;
   height: 70px;
   margin: 0 0 60px 0;
@@ -1226,7 +1226,7 @@
 }
 
 .careersArt {
-  background-image: url(../assets/careers.png);
+  background-image: url(../assets/mobile/careers.png);
   width: 304px;
   height: 367px;
   margin: 30px 0 40px 40px;
@@ -1265,7 +1265,7 @@
 }
 
 .contactArt {
-  background-image: url(../assets/contact.png);
+  background-image: url(../assets/mobile/contact.png);
   width: 269px;
   height: 232px;
   margin: 20px 0 20px 0;
@@ -1412,7 +1412,7 @@
 }
 
 .footerLogo {
-  background-image: url(../assets/logopoint3.png);
+  background-image: url(../assets/mobile/logopoint3.png);
   width: 187px;
   height: 120px;
   margin: 0 0 60px 0;
@@ -1426,25 +1426,25 @@
 }
 
 .instagram {
-  background-image: url(../assets/insta.png);
+  background-image: url(../assets/mobile/insta.png);
   width: 33px;
   height: 33px;
 }
 
 .twitter {
-  background-image: url(../assets/twitter.png);
+  background-image: url(../assets/mobile/twitter.png);
   width: 33px;
   height: 27px;
 }
 
 .facebook {
-  background-image: url(../assets/fb.png);
+  background-image: url(../assets/mobile/fb.png);
   width: 17px;
   height: 33px;
 }
 
 .pin {
-  background-image: url(../assets/pin.png);
+  background-image: url(../assets/mobile/pin.png);
   width: 23px;
   height: 31px;
 }
@@ -1462,4 +1462,321 @@
   font-size: 10px;
   line-height: 16px;
   margin: 0 0 30px -135px;
+}
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+  /******* HEADER *******/
+
+.header {
+  height: 150px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.logoPoint {
+  background-image: url(../assets/mobile/logopoint.png);
+  width: 111px;
+  height: 42px;
+}
+
+.hamburger {
+  background-image: url(../assets/tablet/hamburger.png);
+  width: 41px;
+  height: 53px;
+}
+
+.carPicture {
+  background-image: url(../assets/tablet/tiggo.png);
+  width: 426px;
+  height: 423px;
+  margin: 0 0 0 -320px;
+}
+
+.tagText {
+  font-size: 15px;
+  line-height: 18px;
+  left: 430px;
+  top: 160px;
+}
+
+.tagLine {
+  width: 52px;
+  height: 10px;
+  left: 427px;
+  top: 169px;
+}
+
+.newsTitle {
+  width: 260px;
+  margin: -300px 0 0 360px;
+}
+
+.newsText {
+  width: 320px;
+  margin: 25px 0 0 375px;
+  transform: scale(0.9);
+}
+
+.carouselBullets {
+  transform: scale(1.06) rotate(270deg);
+  position: absolute;
+  right: -30px;
+  top: 440px;
+}
+
+.play {
+  width: 165px;
+  margin: 30px 0 0 435px;
+}
+
+.playText {
+  transform: scale(1.2);
+}
+
+.playButton {
+  background-image: url(../assets/tablet/playbutton.png);
+  width: 51px;
+  height: 64px;
+}
+
+/******* ABOUT *******/
+
+.about {
+  margin-top: 50px;
+}
+
+.aboutPoint {
+  font-size: 45px;
+  margin-left: 70px;
+}
+
+.aboutTitle {
+  font-size: 25px;
+  line-height: 30px;
+  width: 330px;
+  margin: 30px 0 0 60px;
+}
+
+.aboutText {
+  margin: 30px 0 0 60px;
+  width: 320px;
+}
+
+.aboutImage {
+  background-image: url(../assets/tablet/astronaut.png);
+  width: 331px;
+  height: 488px;
+  transform: scale(1);
+  position: absolute;
+  top: 650px;
+  right: 0px;
+}
+
+.aboutLine {
+  width: 480px;
+  height: 375px;
+  position: absolute;
+  top: 1200px;
+  left: 40px;
+}
+
+.aboutOffice {
+  background-image: url(../assets/tablet/office.png);
+  width: 492px;
+  height: 369px;
+  margin: 50px 0 0 0;
+  position: absolute;
+}
+
+.blackBg {
+  position: absolute;
+  width: 484px;
+  height: 583px;
+  right: 0px;
+  top: 1300px;
+  padding-top: 10px;
+}
+
+.owners {
+  width: 400px;
+  margin: 0 0 0 20px;
+}
+
+.aboutText2 {
+  width: 340px;
+}
+
+.aboutTitle2 {
+  width: 360px;
+}
+
+/******* TEAM *******/
+
+.team {
+  margin: 800px 0 0 0;
+}
+
+.teamArt {
+  background-image: url(../assets/tablet/teamart.png);
+  width: 373px;
+  height: 373px;
+  position: absolute;
+  top: 1515px;
+  left: -15px;
+}
+
+.teamTitle {
+  font-size: 45px;
+  margin: 15px 0 0 50px;
+}
+
+.teamText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 600px;
+  margin: 20px 0 30px 50px;
+}
+
+.teamPictures {
+  width: 740px;
+  align-self: center;
+}
+
+.MarcellaRhJob {
+  margin-bottom: 140px;
+}
+
+/******* WHAT WE DO *******/
+
+.wwd {
+  padding-top: 150px;
+}
+
+.wwdAlien {
+  background-image: url(../assets/tablet/alien.png);
+  width: 351px;
+  height: 337px;
+  position: absolute;
+  top: 2668px;
+  left: 410px;
+}
+
+.wwdTitle {
+  font-size: 45px;
+  line-height: 50px;
+  margin: -80px 0 0 -350px;
+  width: 300px;
+}
+
+.wwdSubtitle {
+  font-size: 25px;
+  line-height: 30px;
+  width: 310px;
+  margin: 40px 0 0 -330px;
+}
+
+.wwdWorks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 710px;
+  margin: 80px 0 0 100px;
+}
+
+.wwdWork1 {
+  width: 180px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: -10px 70px 0px 0;
+}
+
+.wwd1image {
+  background-image: url(../assets/mobile/symbol1.png);
+  width: 89px;
+  height: 89px;
+}
+
+.wwd1text {
+  width: 160px;
+  margin-top: 20px;
+}
+
+.wwdWork2 {
+  width: 180px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: -30px 50px 0px 0;
+}
+
+.wwd2image {
+  background-image: url(../assets/mobile/symbol2.png);
+  width: 89px;
+  height: 71px;
+  margin-top: 15px;
+}
+
+.wwd2text {
+  width: 160px;
+}
+
+.wwdWork3 {
+  width: 180px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: -30px 0 0px 0;
+}
+
+.wwd3image {
+  background-image: url(../assets/mobile/symbol3.png);
+  width: 110px;
+  height: 104px;
+}
+
+.wwd3text {
+  width: 160px;
+}
+
+.wwdWork4 {
+  width: 180px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 60px 70px 0px 0;
+}
+
+.wwd4image {
+  background-image: url(../assets/mobile/symbol4.png);
+  width: 118px;
+  height: 122px;
+}
+
+.wwd4text {
+  width: 160px;
+  margin-top: 20px;
+}
+
+.wwdWork5 {
+  width: 180px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 0 -35px 0px;
+}
+
+.wwd5image {
+  background-image: url(../assets/mobile/symbol5.png);
+  width: 97px;
+  height: 97px;
+  margin: 10px 0 0 0px;
+  transform: scale(1.1);
+}
+
+.wwd5text {
+  width: 140px;
+  margin-top: -30px;
+}
+
+.wwdText {
+  width: 650px;
+  margin: 40px 0 170px 0;
+}
+  
 }
