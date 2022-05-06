@@ -240,6 +240,18 @@ export default function LandingPage() {
           <div className={styles.gallery10} />
           <div className={styles.gallery11} />
           <div className={styles.gallery12} />
+          <div className={styles.gallery13} />
+          <div className={styles.gallery14} />
+          <div className={styles.gallery15} />
+          <div className={styles.gallery16} />
+          <div className={styles.gallery17} />
+          <div className={styles.gallery18} />
+          <div className={styles.gallery19} />
+          <div className={styles.gallery20} />
+          <div className={styles.gallery21} />
+          <div className={styles.gallery22} />
+          <div className={styles.gallery23} />
+          <div className={styles.gallery24} />
         </div>
       </div>
 
@@ -255,10 +267,16 @@ export default function LandingPage() {
           <div className={styles.arrowRight} />
         </div>
         <div className={styles.case1Image} />
-        <div className={styles.case1Subtitle1}>Highlights</div>
-        <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
-        <div className={styles.case1Subtitle2}>Resultados</div>
-        <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
+        <div className={styles.case1Info}>
+          <div className={styles.case1Highlights}>
+            <div className={styles.case1Subtitle1}>Highlights</div>
+            <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
+          </div>
+          <div className={styles.case1Results}>
+            <div className={styles.case1Subtitle2}>Resultados</div>
+            <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
+          </div>
+        </div>
       </div>
 
 
@@ -284,6 +302,37 @@ export default function LandingPage() {
           <div className={styles.client13} />
           <div className={styles.client14} />
           <div className={styles.client15} />
+          <div className={styles.client16} />
+          <div className={styles.client17} />
+          <div className={styles.client18} />
+          <div className={styles.client19} />
+          <div className={styles.client20} />
+          <div className={styles.client21} />
+          <div className={styles.client22} />
+          <div className={styles.client23} />
+          <div className={styles.client24} />
+          <div className={styles.client25} />
+          <div className={styles.client26} />
+          <div className={styles.client27} />
+          <div className={styles.client28} />
+          <div className={styles.client29} />
+          <div className={styles.client30} />
+          <div className={styles.client31} />
+          <div className={styles.client32} />
+          <div className={styles.client33} />
+          <div className={styles.client34} />
+          <div className={styles.client35} />
+          <div className={styles.client36} />
+          <div className={styles.client37} />
+          <div className={styles.client38} />
+          <div className={styles.client39} />
+          <div className={styles.client40} />
+          <div className={styles.client41} />
+          <div className={styles.client42} />
+          <div className={styles.client43} />
+          <div className={styles.client44} />
+          <div className={styles.client45} />
+
         </div>
       </div>
 
