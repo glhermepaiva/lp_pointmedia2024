@@ -1618,14 +1618,14 @@
   transform: scale(1);
   position: absolute;
   top: 650px;
-  right: 0px;
+  right: 20px;
 }
 
 .aboutLine {
-  width: 480px;
-  height: 375px;
+  width: 500px;
+  height: 355px;
   position: absolute;
-  top: 1200px;
+  top: 1220px;
   left: 40px;
 }
 
@@ -1960,7 +1960,7 @@
 .pwTitle {
   font-size: 45px;
   line-height: 50px;
-  margin: -130px 0 100px 400px;
+  margin: -130px 0 100px 370px;
   width: 300px;
 }
 
@@ -2165,7 +2165,7 @@
 
 .casesArrows {
   width: 730px;
-  top: 6180px;
+  top: 6240px;
 }
 
 .case1Image {
@@ -2560,7 +2560,7 @@
 
 .careersText {
   width: 350px;
-  margin: -160px 0 50px 240px;
+  margin: -160px 0 40px 240px;
 }
 
 .careersOpenings {
@@ -2576,7 +2576,7 @@
 
 .contactTitle {
   font-size: 55px;
-  margin: -150px 0 100px -350px;
+  margin: -120px 0 70px -350px;
 }
 
 .contactText {
@@ -2626,7 +2626,7 @@
 
 .contactButton {
   height: 56px;
-  margin: 10px 0 100px 330px;
+  margin: 25px 0 100px 330px;
 }
 
 /******* FOOTER *******/
