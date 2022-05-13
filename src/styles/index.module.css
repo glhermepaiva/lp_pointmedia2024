@@ -3415,184 +3415,347 @@
   width: 600px;
 }
 
+.galleryContainer {
+  height: 230px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
 .gallery1 {
   background-image: url(../assets/desktop_s/pw1.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery1:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery2 {
   background-image: url(../assets/desktop_s/pw2.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery2:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery3 {
   background-image: url(../assets/desktop_s/pw3.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery3:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery4 {
   background-image: url(../assets/desktop_s/pw4.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery4:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery5 {
   background-image: url(../assets/desktop_s/pw5.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery5:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery6 {
   background-image: url(../assets/desktop_s/pw6.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery6:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery7 {
   background-image: url(../assets/desktop_s/pw7.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery7:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery8 {
   background-image: url(../assets/desktop_s/pw8.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery8:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery9 {
   background-image: url(../assets/desktop_s/pw9.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery9:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery10 {
   background-image: url(../assets/desktop_s/pw10.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery10:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery11 {
   background-image: url(../assets/desktop_s/pw11.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery11:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery12:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery13:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery14:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery15:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery16:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery17:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery18:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery19:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery20:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery21:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery22:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery23:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery24:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 /******* CASES *******/
@@ -4867,184 +5030,347 @@
   width: 600px;
 }
 
+.galleryContainer {
+  height: 230px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
 .gallery1 {
   background-image: url(../assets/desktop_s/pw1.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery1:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery2 {
   background-image: url(../assets/desktop_s/pw2.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery2:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery3 {
   background-image: url(../assets/desktop_s/pw3.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery3:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery4 {
   background-image: url(../assets/desktop_s/pw4.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery4:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery5 {
   background-image: url(../assets/desktop_s/pw5.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery5:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery6 {
   background-image: url(../assets/desktop_s/pw6.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery6:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery7 {
   background-image: url(../assets/desktop_s/pw7.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery7:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery8 {
   background-image: url(../assets/desktop_s/pw8.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery8:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery9 {
   background-image: url(../assets/desktop_s/pw9.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery9:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery10 {
   background-image: url(../assets/desktop_s/pw10.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery10:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery11 {
   background-image: url(../assets/desktop_s/pw11.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery11:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery12:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery13:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery14:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery15:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery16:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery17:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery18:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery19:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery20:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery21:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery22:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery23:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery24:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 /******* CASES *******/
@@ -6319,184 +6645,347 @@
   width: 600px;
 }
 
+.galleryContainer {
+  height: 230px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
 .gallery1 {
   background-image: url(../assets/desktop_s/pw1.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery1:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery2 {
   background-image: url(../assets/desktop_s/pw2.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery2:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery3 {
   background-image: url(../assets/desktop_s/pw3.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery3:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery4 {
   background-image: url(../assets/desktop_s/pw4.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery4:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery5 {
   background-image: url(../assets/desktop_s/pw5.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery5:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery6 {
   background-image: url(../assets/desktop_s/pw6.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery6:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery7 {
   background-image: url(../assets/desktop_s/pw7.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery7:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery8 {
   background-image: url(../assets/desktop_s/pw8.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery8:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery9 {
   background-image: url(../assets/desktop_s/pw9.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery9:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery10 {
   background-image: url(../assets/desktop_s/pw10.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery10:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery11 {
   background-image: url(../assets/desktop_s/pw11.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery11:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery12:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery13:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery14:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery15:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery16:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery17:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery18:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery19:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery20:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery21:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery22:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery23:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery24:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 /******* CASES *******/
@@ -7100,7 +7589,7 @@
 
 .newsText {
   width: 510px;
-  margin: 40px 0 0 600px;
+  margin: 50px 0 0 600px;
   transform: scale(1);
   font-size: 20px;
 }
@@ -7651,14 +8140,14 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 5115px;
+  top: 5070px;
   left: 20px;
 }
 
 .hwdTitle {
   font-size: 65px;
   line-height: 60px;
-  margin: 110px 0 100px -750px;
+  margin: 120px 0 100px -750px;
 }
 
 .hwdCircles {
@@ -7706,8 +8195,8 @@
 .hwdcPinkText5 {
   font-size: 30px;
   line-height: 35px;
-  top: 590px;
-  left: 1320px;
+  top: 620px;
+  left: 1330px;
   width: 220px;
   transform: rotate(0deg);
 }
@@ -7744,7 +8233,7 @@
 }
 
 .hwdcBlueText5 {
-  top: 700px;
+  top: 710px;
   left: 1050px;
   transform: rotate(0deg);
   font-size: 25px;
@@ -7756,7 +8245,7 @@
 }
 
 .hwdWhiteBg {
-  top: 6200px;
+  top: 6160px;
   width: 340px;
   transform: scale(1.2);
 }
@@ -7772,8 +8261,8 @@
 /******* PREVIOUS WORKS *******/
 
 .previousWorks {
-  height: 1700px;
-  top: 6320px;
+  height: 1480px;
+  top: 6280px;
 }
 
 .pwArt {
@@ -7789,210 +8278,374 @@
 }
 
 .pwTitle {
-  font-size: 55px;
+  font-size: 65px;
   line-height: 62px;
-  margin: -220px 0 150px 600px;
-  width: 600px;
+  margin: -220px 0 150px 720px;
+  width: 700px;
+}
+
+.galleryContainer {
+  height: 230px;
+  overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .gallery1 {
   background-image: url(../assets/desktop_s/pw1.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery1:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery2 {
   background-image: url(../assets/desktop_s/pw2.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery2:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery3 {
   background-image: url(../assets/desktop_s/pw3.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery3:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery4 {
   background-image: url(../assets/desktop_s/pw4.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery4:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery5 {
   background-image: url(../assets/desktop_s/pw5.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery5:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery6 {
   background-image: url(../assets/desktop_s/pw6.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery6:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery7 {
   background-image: url(../assets/desktop_s/pw7.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery7:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery8 {
   background-image: url(../assets/desktop_s/pw8.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery8:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery9 {
   background-image: url(../assets/desktop_s/pw9.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery9:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery10 {
   background-image: url(../assets/desktop_s/pw10.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery10:hover{
+  filter: none;
+  transform: scale(1.05);
 }
 
 .gallery11 {
   background-image: url(../assets/desktop_s/pw11.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery11:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery12:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery13:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery14:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery15:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery16:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery17:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery18:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery19:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery20:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery21:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery22:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery23:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
   width: 280px;
   height: 230px;
-  margin-bottom: 5px;
   display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
 }
+
+.gallery24:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 
 /******* CASES *******/
   
 .cases {
-  margin-top: 1645px;
-  padding-top: 50px;
+  margin-top: 1460px;
+  padding-top: 0px;
 }
 
 .casesTitle {
-  font-size: 55px;
+  font-size: 65px;
   line-height: 62px;
-  margin: 0px 0 0 -600px;
+  margin: 50px 0 0 -1000px;
   width: 500px;
 }
 
 .case1Title {
-  font-size: 35px;
+  font-size: 45px;
   line-height: 62px;
-  margin: 10px 0 20px -890px;
+  margin: 10px 0 20px -1230px;
 }
 
 .casesArrows {
@@ -8002,21 +8655,21 @@
 }
 
 .case1Image {
-  background-image: url(../assets/desktop_s/adops.png);
+  background-image: url(../assets/desktop_l/adops.png);
   width: 1628px;
-  height: 903px;
-  margin: -200px 0 0 200px;
+  height: 942px;
+  margin: -140px 0 0 150px;
 }
 
 .case1Info {
   display: flex;
   justify-content: space-between;
-  width: 1150px;
-  margin: -50px 0 0 40px;
+  width: 1500px;
+  margin: -150px 0 0 100px;
 }
 
 .case1Subtitle1 {
-  font-size: 35px;
+  font-size: 45px;
   line-height: 25px;
   margin: 0px 0 30px 0px;
 }
@@ -8028,7 +8681,7 @@
 }
 
 .case1Subtitle2 {
-  font-size: 35px;
+  font-size: 45px;
   line-height: 25px;
   margin: 0px 0 30px 0px;
 }
@@ -8036,7 +8689,7 @@
 .case1Text2 {
   font-size: 20px;
   line-height: 25px;
-  width: 440px;
+  width: 750px;
   margin: 0 0 100px 0;
 }
 
@@ -8047,14 +8700,14 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 8620px;
-  left: 50px;
+  top: 9150px;
+  left: 180px;
 }
 
 .clientsArt {
-  background-image: url(../assets/desktop_s/client.png);
-  width: 1312px;
-  height: 540px;
+  background-image: url(../assets/desktop_l/client.png);
+  width: 1542px;
+  height: 595px;
   margin: -42px 0 0px 120px;
 }
 
@@ -8062,346 +8715,346 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1300px;
-  margin: 50px auto 0 auto;
+  width: 1600px;
+  margin: 10px 0 0 130px;
 }
 
 .client1 {
   background-image: url(../assets/mobile/client1.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client2 {
   background-image: url(../assets/mobile/client2.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client3 {
   background-image: url(../assets/mobile/client3.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client4 {
   background-image: url(../assets/mobile/client4.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client5 {
   background-image: url(../assets/mobile/client5.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client6 {
   background-image: url(../assets/mobile/client6.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client7 {
   background-image: url(../assets/mobile/client7.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client8 {
   background-image: url(../assets/mobile/client8.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client9 {
   background-image: url(../assets/mobile/client9.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client10 {
   background-image: url(../assets/mobile/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client11 {
   background-image: url(../assets/mobile/client11.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client12 {
   background-image: url(../assets/mobile/client12.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client13 {
   background-image: url(../assets/mobile/client13.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client14 {
   background-image: url(../assets/mobile/client14.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 40px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client15 {
   background-image: url(../assets/mobile/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client16 {
   background-image: url(../assets/mobile/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client17 {
   background-image: url(../assets/mobile/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client18 {
   background-image: url(../assets/mobile/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client19 {
   background-image: url(../assets/mobile/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client20 {
   background-image: url(../assets/mobile/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client21 {
   background-image: url(../assets/mobile/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client22 {
   background-image: url(../assets/mobile/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client23 {
   background-image: url(../assets/mobile/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client24 {
   background-image: url(../assets/mobile/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client25 {
   background-image: url(../assets/mobile/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client26 {
   background-image: url(../assets/mobile/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client27 {
   background-image: url(../assets/mobile/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client28 {
   background-image: url(../assets/mobile/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client29 {
   background-image: url(../assets/mobile/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client30 {
   background-image: url(../assets/mobile/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client31 {
   background-image: url(../assets/mobile/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client32 {
   background-image: url(../assets/mobile/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client33 {
   background-image: url(../assets/mobile/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client34 {
   background-image: url(../assets/mobile/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client35 {
   background-image: url(../assets/mobile/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client36 {
   background-image: url(../assets/mobile/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client37 {
   background-image: url(../assets/mobile/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client38 {
   background-image: url(../assets/mobile/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client39 {
   background-image: url(../assets/mobile/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client40 {
   background-image: url(../assets/mobile/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client41 {
   background-image: url(../assets/mobile/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client42 {
   background-image: url(../assets/mobile/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client43 {
   background-image: url(../assets/mobile/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client44 {
   background-image: url(../assets/mobile/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 .client45 {
   background-image: url(../assets/mobile/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 50px 60px 0;
 }
 
 /******* CAREERS *******/
 
 .careersArt {
-  background-image: url(../assets/desktop_s/careers.png);
-  width: 1434px;
-  height: 692px;
-  margin: 20px 0 0px 200px;
-  transform: scale(0.9);
+  background-image: url(../assets/desktop_l/careers.png);
+  width: 1665px;
+  height: 846px;
+  margin: 40px 0 0px 100px;
+  transform: scale(1);
 }
 
 .careersTitle {
-  font-size: 55px;
+  font-size: 65px;
   top: 0px;
   left: 0px;
   position: relative;
-  margin: -400px 0 70px 80px;
+  margin: -500px 0 80px 110px;
 }
 
 .careersText {
   width: 544px;
-  margin: 0px 0 70px 405px;
+  margin: 0px 0 80px 405px;
   font-size: 20px;
   line-height: 27px;
 }
@@ -8416,95 +9069,95 @@
 /******* CONTACT *******/
 
 .contactArt {
-  background-image: url(../assets/desktop_s/contact.png);
-  width: 363px;
-  height: 312px;
-  margin: 30px 0 0px 700px;
+  background-image: url(../assets/desktop_l/contact.png);
+  width: 453px;
+  height: 389px;
+  margin: 50px 0 0px 700px;
 }
 
 .contactTitle {
-  font-size: 55px;
-  margin: -130px 0 40px -890px;
+  font-size: 65px;
+  margin: -200px 0 50px -1200px;
 }
 
 .contactText {
   width: 700px;
-  margin: 0 0 100px -450px;
+  margin: 0 0 120px -810px;
 }
 
 .formSubject {
-  width: 590px;
+  width: 695px;
   height: 79px;
   border-radius: 50px;
   padding: 0 0 0 40px;
-  margin: 0 0 10px -620px;
+  margin: 0 0 10px -850px;
 }
 
 .formName {
-  width: 590px;
+  width: 695px;
   height: 79px;
   border-radius: 50px;
   padding: 0 0 0 40px;
-  margin: 10px 0 10px -620px;
+  margin: 10px 0 10px -850px;
 }
 
 .formEmail {
-  width: 590px;
+  width: 695px;
   height: 79px;
   border-radius: 50px;
   padding: 0 0 0 40px;
-  margin: 10px 0 10px -620px;
+  margin: 10px 0 10px -850px;
 }
 
 .formPhone {
-  width: 590px;
+  width: 695px;
   height: 79px;
   border-radius: 50px;
   padding: 0 0 0 40px;
-  margin: 10px 0 25px -620px;
+  margin: 10px 0 25px -850px;
 }
 
 .formMessage {
-  width: 590px;
-  height: 376px;
+  width: 791px;
+  height: 400px;
   border-radius: 50px;
   padding: 20px 0 0 40px;
-  margin: -401px 0 10px 670px;
+  margin: -401px 0 10px 850px;
 }
 
 .contactButton {
   height: 56px;
-  margin: 25px 0 80px 1020px;
+  margin: 25px 0 80px 1400px;
 }
 
 /******* FOOTER *******/
 
 .footerLinks {
-  margin: 50px 0 -250px -450px;
+  margin: 50px 0 -250px -650px;
 }
 
 .footerLogo {
-  margin: 20px 0 0px -1000px;
+  margin: 20px 0 0px -1200px;
 }
 
 .footerSocials {
-  margin: 80px 0 0px -1000px;
+  margin: 80px 0 0px -1200px;
 }
 
 .pin {
   transform: scale(1.4);
-  margin: -230px 0 20px 850px;
+  margin: -230px 0 20px 1050px;
 }
 
 .address {
   font-family: Poppins;
   font-size: 20px;
   line-height: 30px;
-  margin: 0px 0 0px 850px;
+  margin: 0px 0 0px 1050px;
 }
 
 .footerCopyright {
-  margin: 0 0 50px 640px;
+  margin: 0 0 50px 840px;
 }
 
 }

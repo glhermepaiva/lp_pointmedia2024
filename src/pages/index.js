@@ -228,30 +228,78 @@ export default function LandingPage() {
         <div className={styles.pwBalls} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwGallery}>
-          <div className={styles.gallery1} />
-          <div className={styles.gallery2} />
-          <div className={styles.gallery3} />
-          <div className={styles.gallery4} />
-          <div className={styles.gallery5} />
-          <div className={styles.gallery6} />
-          <div className={styles.gallery7} />
-          <div className={styles.gallery8} />
-          <div className={styles.gallery9} />
-          <div className={styles.gallery10} />
-          <div className={styles.gallery11} />
-          <div className={styles.gallery12} />
-          <div className={styles.gallery13} />
-          <div className={styles.gallery14} />
-          <div className={styles.gallery15} />
-          <div className={styles.gallery16} />
-          <div className={styles.gallery17} />
-          <div className={styles.gallery18} />
-          <div className={styles.gallery19} />
-          <div className={styles.gallery20} />
-          <div className={styles.gallery21} />
-          <div className={styles.gallery22} />
-          <div className={styles.gallery23} />
-          <div className={styles.gallery24} />
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery1} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery2} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery3} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery4} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery5} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery6} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery7} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery8} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery9} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery10} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery11} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery12} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery13} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery14} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery15} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery16} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery17} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery18} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery19} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery20} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery21} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery22} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery23} />
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery24} />
+          </div>
         </div>
       </div>
 
