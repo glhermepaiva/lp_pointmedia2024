@@ -19,6 +19,7 @@
   width: 29px;
   height: 37px;
   margin: -3px 30px 0 0;
+  cursor: pointer;
 }
 
 .news {
@@ -89,7 +90,7 @@
   align-items: center;
   justify-content: space-between;
   width: 170px;
-  /* align-self: flex-start; */
+  cursor: pointer;
   margin: 30px 0 0 -130px;
 }
 
@@ -1319,6 +1320,10 @@
   line-height: 25px;
   width: 300px;
   margin: 0 0 100px 10px;
+}
+
+.career1:hover {
+  color: #fff;
 }
 
 /******* CONTACT *******/
@@ -9064,6 +9069,10 @@
   margin: 0 0 200px 450px;
   font-size: 35px;
   line-height: 40px;
+}
+
+.career1:hover {
+  color: #fff;
 }
 
 /******* CONTACT *******/

@@ -392,7 +392,11 @@ export default function LandingPage() {
         <div className={styles.careersArt} />
         <div className={styles.careersTitle}>vagas_</div>
         <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atras de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
-        <div className={styles.careersOpenings}>02 vagas para DA pleno <br/><br/>01 vaga para atendimento sênior<br/><br/>01 vaga para redator junior</div>
+        <div className={styles.careersOpenings}>
+          <div className={styles.carreer1}>02 vagas para DA pleno<br/><br/></div>
+          <div className={styles.carreer2}>01 vaga para atendimento sênior<br/><br/></div>
+          <div className={styles.carreer3}>01 vaga para redator junior</div>
+        </div>
       </div>
 
 
