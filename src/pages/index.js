@@ -18,6 +18,69 @@ export default function LandingPage() {
     setMenuOpen(false)
   }
 
+  const anchorHeader = () => {
+    setMenuOpen(false)
+    window.location.replace("/#header")
+  }
+
+  const anchorAbout = () => {
+    setMenuOpen(false)
+    window.location.replace("/#about")
+  }
+
+  const anchorTeam = () => {
+    setMenuOpen(false)
+    window.location.replace("/#team")
+  }
+
+  const anchorWwd = () => {
+    setMenuOpen(false)
+    window.location.replace("/#wwd")
+  }
+
+  const anchorHwd = () => {
+    setMenuOpen(false)
+    window.location.replace("/#hwd")
+  }
+
+  const anchorPrevWorks = () => {
+    setMenuOpen(false)
+    window.location.replace("/#prevworks")
+  }
+
+  const anchorCases = () => {
+    setMenuOpen(false)
+    window.location.replace("/#cases")
+  }
+
+  const anchorClients = () => {
+    setMenuOpen(false)
+    window.location.replace("/#clients")
+  }
+
+  const anchorCareers = () => {
+    setMenuOpen(false)
+    window.location.replace("/#careers")
+  }
+
+  const anchorContact = () => {
+    setMenuOpen(false)
+    window.location.replace("/#contact")
+  }
+
+  const openInstagram = () => {
+    window.open('https://www.instagram.com/pointmediaoficial/');
+  }
+
+  const openTwitter = () => {
+    window.open('https://www.twitter.com/pointmediaoficial/');
+  }
+
+  const openFacebook = () => {
+    window.open('https://www.facebook.com/Point-Media-2496784783713500/');
+  }
+
+
   return (
     <div className={styles.page}>
       <Head>
@@ -25,7 +88,7 @@ export default function LandingPage() {
         <meta name='description' content='Motion é o que realmente nos move' />
       </Head>
       
-      <div className={styles.header}>
+      <div id='header' className={styles.header}>
         <div className={styles.logoPoint} />
         <div className={styles.hamburger} onClick={openMenu}/>
       </div>
@@ -34,22 +97,22 @@ export default function LandingPage() {
       {menuOpen ? <div className={styles.hoverMenu}>
         <div className={styles.menuClose} onClick={closeMenu}/>
         <div className={styles.menuLinks}>
-          <div>a POINT</div>
-          <div>nosso time</div>
-          <div>o que a gente faz</div>
-          <div>como a gente faz</div>
-          <div>o que a gente já fez</div>
-          <div>nossos cases</div>
-          <div>nossos clientes</div>
-          <div>vagas</div>
-          <div>contato</div>
+          <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
+          <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
+          <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
+          <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
+          <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
+          <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
+          <div className={styles.anchorClients} onClick={anchorClients}>nossos clientes</div>
+          <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div>
+          <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.menuSocials}>
-          <div className={styles.instagram}></div>
-          <div className={styles.twitter}></div>
-          <div className={styles.facebook}></div>
+          <div className={styles.instagram} onClick={openInstagram}/>
+          <div className={styles.twitter} onClick={openTwitter}/>
+          <div className={styles.facebook} onClick={openFacebook}/>
         </div>
-        <div className={styles.menuLogo}></div>
+        <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu}></div>}
 
 
@@ -72,7 +135,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.about}>
+      <div id='about' className={styles.about}>
         <div className={styles.aboutPoint}>a POINT_</div>
         <div className={styles.aboutTitle}>Somos inspiração, criatividade e muito movimento. A gente não para nunca e motion é o que realmente nos move.</div>
         <div className={styles.aboutImage} />
@@ -103,7 +166,7 @@ export default function LandingPage() {
 
       <div className={styles.team}>
         <div className={styles.teamArt} />
-        <div className={styles.teamTitle}>nosso time_</div>
+        <div id='team' className={styles.teamTitle}>nosso time_</div>
         <div className={styles.teamText}>Reunimos um time de feras do mercado digital com vasta experiência e passagens por grandes empresas digitais.</div>
         <div className={styles.teamPictures}>
           <div className={styles.Priscila}>
@@ -153,7 +216,7 @@ export default function LandingPage() {
 
 
       
-      <div className={styles.wwd}>
+      <div id='wwd' className={styles.wwd}>
         <div className={styles.wwdAlien} />
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
@@ -186,7 +249,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.hwd}>
+      <div id='hwd' className={styles.hwd}>
         <div className={styles.hwdBalls} />
         <div className={styles.hwdTitle}>como a gente faz_</div>
         <div className={styles.hwdCircles}>
@@ -257,7 +320,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.previousWorks}>
+      <div id='prevworks' className={styles.previousWorks}>
         <div className={styles.pwArt} />
         <div className={styles.pwBalls} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
@@ -341,7 +404,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.cases}>
+      <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.case1Title}>AdOps Vivo</div>
         <div className={styles.casesArrows}>
@@ -365,7 +428,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.clients}>
+      <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>nossos clientes_</div>
         <div className={styles.clientsArt} />
         <div className={styles.clientsGallery}>
@@ -422,7 +485,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.careers}>
+      <div id='careers' className={styles.careers}>
         <div className={styles.careersArt} />
         <div className={styles.careersTitle}>vagas_</div>
         <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atras de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
@@ -437,7 +500,7 @@ export default function LandingPage() {
 
 
 
-      <div className={styles.contact}>
+      <div id='contact' className={styles.contact}>
         <div className={styles.contactArt} />
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
@@ -462,17 +525,17 @@ export default function LandingPage() {
 
       <div className={styles.footer}>
         <div className={styles.footerLinks}>
-          <div className={styles.linkAbout}>a POINT</div>
-          <div className={styles.linkTeam}>nosso time</div>
-          <div className={styles.linkWwd}>o que a gente faz</div>
-          <div className={styles.linkHwd}>como a gente faz</div>
-          <div className={styles.linkPw}>o que a gente já fez</div>
-          <div className={styles.linkCases}>nossos cases</div>
-          <div className={styles.linkClients}>nossos clientes</div>
-          <div className={styles.linkCareers}>vagas</div>
-          <div className={styles.linkContact}>contato</div>
+        <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
+          <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
+          <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
+          <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
+          <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
+          <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
+          <div className={styles.anchorClients} onClick={anchorClients}>nossos clientes</div>
+          <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div>
+          <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
-        <div className={styles.footerLogo} />
+        <div className={styles.footerLogo} onClick={anchorHeader} />
         <div className={styles.footerSocials}>
           <div className={styles.instagram}></div>
           <div className={styles.twitter}></div>

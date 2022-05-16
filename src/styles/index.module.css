@@ -12,6 +12,7 @@
   width: 111px;
   height: 42px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -90,7 +91,6 @@
   align-items: center;
   justify-content: space-between;
   width: 170px;
-  cursor: pointer;
   margin: 30px 0 0 -130px;
 }
 
@@ -145,6 +145,42 @@
   margin: 0 50px 0 0;
 }
 
+.anchorAbout {
+  cursor: pointer;
+}
+
+.anchorTeam {
+  cursor: pointer;
+}
+
+.anchorWwd {
+  cursor: pointer;
+}
+
+.anchorHwd {
+  cursor: pointer;
+}
+
+.anchorPrevWorks {
+  cursor: pointer;
+}
+
+.anchorCases {
+  cursor: pointer;
+}
+
+.anchorClients {
+  cursor: pointer;
+}
+
+.anchorCareers {
+  cursor: pointer;
+}
+
+.anchorContact {
+  cursor: pointer;
+}
+
 .menuSocials {
   display: flex;
   justify-content: space-between;
@@ -159,6 +195,7 @@
   height: 120px;
   transform: scale(0.5);
   margin: 20px 0 0 0px;
+  cursor: pointer;
 }
 
 /******* ABOUT *******/
@@ -1532,6 +1569,7 @@
   width: 187px;
   height: 120px;
   margin: 0 0 60px 0;
+  cursor: pointer;
 }
 
 .footerSocials {
@@ -1545,18 +1583,21 @@
   background-image: url(../assets/mobile/insta.png);
   width: 33px;
   height: 33px;
+  cursor: pointer;
 }
 
 .twitter {
   background-image: url(../assets/mobile/twitter.png);
   width: 33px;
   height: 27px;
+  cursor: pointer;
 }
 
 .facebook {
   background-image: url(../assets/mobile/fb.png);
   width: 17px;
   height: 33px;
+  cursor: pointer;
 }
 
 .pin {
