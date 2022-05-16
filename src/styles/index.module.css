@@ -115,6 +115,52 @@
   margin: 40px 0 50px 0;
 }
 
+.hoverMenu {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  top: 0vh;
+  right: 0vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.menuClose {
+  background-image: url(../assets/mobile/menuclose.png);
+  width: 20px;
+  height: 20px;
+  margin: 50px 25px 30px 0px;
+  cursor: pointer;
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 35px;
+  margin: 0 50px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.6);
+  width: 170px;
+  margin: 30px 20px 0 0px;
+}
+
+.menuLogo {
+  background-image: url(../assets/mobile/logopoint3.png);
+  width: 187px;
+  height: 120px;
+  transform: scale(0.5);
+  margin: 20px 0 0 0px;
+}
+
 /******* ABOUT *******/
 
 .about {
@@ -1608,6 +1654,36 @@
   height: 64px;
 }
 
+.hoverMenu {
+  width: 90vw;
+  height: 92vh;
+}
+
+.menuClose {
+  margin: 50px 50px 30px 0px;
+  transform: scale(1.2);
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 35px;
+  line-height: 60px;
+  margin: 0 80px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.7);
+  width: 170px;
+  margin: 60px 60px 0 0;
+}
+
+.menuLogo {
+  transform: scale(0.5);
+  margin: 40px 30px 0 0px;
+}
+
 /******* ABOUT *******/
 
 .about {
@@ -2766,6 +2842,36 @@
   background-image: url(../assets/desktop_s/playbutton.png);
   width: 86px;
   height: 109px;
+}
+
+.hoverMenu {
+  width: 45vw;
+  height: 92vh;
+}
+
+.menuClose {
+  margin: 50px 50px 30px 0px;
+  transform: scale(1.2);
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 0 80px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.7);
+  width: 170px;
+  margin: 60px 60px 0 0;
+}
+
+.menuLogo {
+  transform: scale(0.5);
+  margin: 40px 30px 0 0px;
 }
 
 /******* ABOUT *******/
@@ -4382,6 +4488,36 @@
   height: 109px;
 }
 
+.hoverMenu {
+  width: 42vw;
+  height: 92vh;
+}
+
+.menuClose {
+  margin: 50px 50px 30px 0px;
+  transform: scale(1.2);
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 0 80px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.7);
+  width: 170px;
+  margin: 60px 60px 0 0;
+}
+
+.menuLogo {
+  transform: scale(0.5);
+  margin: 40px 30px 0 0px;
+}
+
 /******* ABOUT *******/
 
 .about {
@@ -5995,6 +6131,36 @@
   background-image: url(../assets/desktop_s/playbutton.png);
   width: 86px;
   height: 109px;
+}
+
+.hoverMenu {
+  width: 38vw;
+  height: 92vh;
+}
+
+.menuClose {
+  margin: 50px 50px 30px 0px;
+  transform: scale(1.2);
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 0 80px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.7);
+  width: 170px;
+  margin: 60px 60px 0 0;
+}
+
+.menuLogo {
+  transform: scale(0.5);
+  margin: 40px 30px 0 0px;
 }
 
 /******* ABOUT *******/
@@ -7623,6 +7789,36 @@
   background-image: url(../assets/desktop_s/playbutton.png);
   width: 86px;
   height: 109px;
+}
+
+.hoverMenu {
+  width: 36vw;
+  height: 92vh;
+}
+
+.menuClose {
+  margin: 50px 50px 30px 0px;
+  transform: scale(1.2);
+}
+
+.menuLinks {
+  font-family: PoppinsBold;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 0 80px 0 0;
+}
+
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.7);
+  width: 170px;
+  margin: 60px 60px 0 0;
+}
+
+.menuLogo {
+  transform: scale(0.5);
+  margin: 40px 30px 0 0px;
 }
 
 /******* ABOUT *******/

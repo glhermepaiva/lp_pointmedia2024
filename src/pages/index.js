@@ -1,7 +1,22 @@
 import Head from 'next/head'
+import { useState } from 'react'
 import styles from '../styles/index.module.css'
 
 export default function LandingPage() {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const openMenu = () => {
+    if (menuOpen == false){
+      setMenuOpen(true)
+    } else {
+      setMenuOpen(false)
+    } 
+  }
+
+  const closeMenu = () => {
+    setMenuOpen(false)
+  }
 
   return (
     <div className={styles.page}>
@@ -12,11 +27,30 @@ export default function LandingPage() {
       
       <div className={styles.header}>
         <div className={styles.logoPoint} />
-        <div className={styles.hamburger} />
+        <div className={styles.hamburger} onClick={openMenu}/>
       </div>
 
 
-
+      {menuOpen ? <div className={styles.hoverMenu}>
+        <div className={styles.menuClose} onClick={closeMenu}/>
+        <div className={styles.menuLinks}>
+          <div>a POINT</div>
+          <div>nosso time</div>
+          <div>o que a gente faz</div>
+          <div>como a gente faz</div>
+          <div>o que a gente já fez</div>
+          <div>nossos cases</div>
+          <div>nossos clientes</div>
+          <div>vagas</div>
+          <div>contato</div>
+        </div>
+        <div className={styles.menuSocials}>
+          <div className={styles.instagram}></div>
+          <div className={styles.twitter}></div>
+          <div className={styles.facebook}></div>
+        </div>
+        <div className={styles.menuLogo}></div>
+      </div> : <div className={styles.invisMenu}></div>}
 
 
       <div className={styles.news}>
