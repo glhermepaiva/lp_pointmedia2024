@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import { useState } from 'react'
 import styles from '../styles/index.module.css'
+import * as yup from 'yup'
+import emailjs from 'emailjs-com'
+import ReactLoading from 'react-loading'
 
 export default function LandingPage() {
 
@@ -78,6 +81,50 @@ export default function LandingPage() {
 
   const openFacebook = () => {
     window.open('https://www.facebook.com/Point-Media-2496784783713500/');
+  }
+
+  const schema = yup.object().shape({
+    subject: yup.string().required('Algum assunto deve ser selecionado'),
+    name: yup.string().required('Nome não pode estar em branco'),
+    email: yup.string().email('Endereço de email inválido').required('Email não pode estar em branco'),
+    phone: yup.number().min(11, 'O telefone precisa ter no mínimo 11 números').required('Telefone não pode estar em branco'),
+    message: yup.string().min(3, 'A mensagem deve ter no mínimo 3 caracteres').max(300, 'A mensagem pode ter no máximo 300 caracteres').required('Mensagem não pode estar em branco')
+  })
+
+  const [loading, setLoading] = useState(false)
+
+  const onSubmit = async (e) => {
+    e.preventDefault()
+
+    setLoading(true)
+
+    let formData = {
+      subject: e.target[0].value,
+      name: e.target[1].value,
+      email: e.target[2].value,
+      phone: e.target[3].value,
+      message: e.target[4].value,
+    }
+
+    const isValid = await schema.isValid(formData);
+
+    if (isValid) {
+        emailjs.sendForm('service_ibuddku', 'template_pointmedia', e.target, 'G6ql6Hx-_wrEAm6fd')
+
+        .then((result) => {
+            console.log(result);
+            alert("Sucesso! Logo entraremos em contato!")
+            window.location.href = "/?uri=";
+        }, (error) => {
+            console.log(error);
+            setLoading(false)
+        });
+
+          
+    } else {
+        alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
+        setLoading(false)
+      }
   }
 
 
@@ -504,8 +551,9 @@ export default function LandingPage() {
         <div className={styles.contactArt} />
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
-        <div className={styles.contactForm}>
-          <select className={styles.formSubject}>
+        {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
+        <form className={styles.contactForm} onSubmit={onSubmit}>
+          <select className={styles.formSubject} type="text" name="subject">
             <option value="" disabled selected hidden>Escolha um assunto</option>
             <option>Ajuda 1</option>
             <option>Ajuda 2</option>
@@ -515,8 +563,8 @@ export default function LandingPage() {
           <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
           <input className={styles.formPhone} type="text" name="phone" placeholder="Telefone"></input>
           <textarea className={styles.formMessage} type="textarea" name="message" placeholder="Deixe sua mensagem aqui..."></textarea>
-        </div>
-        <button className={styles.contactButton}>enviar &gt;</button>
+          <button className={styles.contactButton}>enviar &gt;</button>
+        </form>}
       </div>
 
 
@@ -537,9 +585,9 @@ export default function LandingPage() {
         </div>
         <div className={styles.footerLogo} onClick={anchorHeader} />
         <div className={styles.footerSocials}>
-          <div className={styles.instagram}></div>
-          <div className={styles.twitter}></div>
-          <div className={styles.facebook}></div>
+          <div className={styles.instagram} onClick={openInstagram}></div>
+          <div className={styles.twitter} onClick={openTwitter}></div>
+          <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
         <div className={styles.footerLocation}>
           <div className={styles.pin}></div>
