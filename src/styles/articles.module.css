@@ -1,0 +1,436 @@
+.articlesHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.articlesLogo {
+    background-image: url(../assets/mobile/logopoint3.png);
+    width: 187px;
+    height: 120px;
+    transform: scale(0.9);
+    margin: 0 0 0 -30px;
+}
+
+.articlesClose {
+    background-image: url(../assets/mobile/menuclose.png);
+    width: 20px;
+    height: 20px;
+    margin: 0 -30px 0 0;
+}
+
+.articlesImage {
+    background-image: url(../assets/mobile/articleimage.png);
+    width: 350px;
+    height: 230px;
+    margin: 30px auto;
+}
+
+.articlesTag {
+    margin: 30px 0 20px 0px;
+}
+
+.articlesTagtext {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    margin: 0 0 0 0px;
+    z-index: 1;
+}
+
+.articlesTagline {
+    background-color: #6CABDE;
+    width: 74px;
+    height: 14px;
+    position: relative;
+    z-index: 0;
+    margin: -15px 0 0px -7px;
+}
+
+.articlesBullet1 {
+    background-color: #6CABDE;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    position: relative;
+    top: 35px;
+    left: -22px;
+}
+
+.articlesTitle1 {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 280px;
+    margin: 40px auto 35px auto;
+}
+
+.articlesText1 {
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.articlesBlueTitle {
+    font-family: PoppinsBold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #6CABDE;
+    width: 300px;
+    margin: 20px 0 40px 65px;
+}
+
+.articlesBullet2 {
+    background-color: #6CABDE;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+    left: -20px;
+}
+
+.articlesNews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articlesSubtitle1 {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 280px;
+}
+
+.articlesSubtext1 {
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+    margin: 20px 0 80px 0;
+}
+
+.articlesSubtitle2 {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 280px;
+}
+
+.articlesSubtext2 {
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+    margin: 20px 0 80px 0;
+}
+
+.articlesSubtitle3 {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 280px;
+}
+
+.articlesSubtext3 {
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+    margin: 20px 0 80px 0;
+}
+
+.articlesSubtitle4 {
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 25px;
+    width: 280px;
+}
+
+.articlesSubtext4 {
+    font-family: Segoe UI;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+    margin: 20px 0 80px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    
+    .articlesHeader {
+        height: 200px;
+    }
+
+    .articlesLogo {
+        transform: scale(0.9);
+        margin: 0 0 0 -150px;
+    }
+    
+    .articlesClose {
+        margin: 0 -150px 0 0;
+    }
+
+    .articlesImage {
+        background-image: url(../assets/tablet/articleimage.png);
+        width: 710px;
+        height: 400px;
+        margin: 30px auto;
+    }
+
+    .articlesTag {
+        margin: 50px 0 30px 0px;
+    }
+    
+    .articlesTagtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .articlesBullet1 {
+        background-color: #6CABDE;
+        width: 20px;
+        height: 20px;
+        top: 60px;
+        left: -30px;
+    }
+    
+    .articlesTitle1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 560px;
+    }
+
+    .articlesText1 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 550px;
+    }
+
+    .articlesBlueTitle {
+        font-family: PoppinsBold;
+        font-size: 50px;
+        line-height: 60px;
+        width: 550px;
+        margin: 30px 0 50px 140px;
+    }
+    
+    .articlesBullet2 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: -30px;
+    }
+
+    .articlesNews {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 650px;
+    }
+    
+    .articlesSubtitle1 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext1 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle2 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext2 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle3 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext3 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle4 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext4 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    
+    .articlesHeader {
+        height: 200px;
+    }
+
+    .articlesLogo {
+        transform: scale(0.9);
+        margin: 0 0 0 -150px;
+    }
+    
+    .articlesClose {
+        margin: 0 -150px 0 0;
+    }
+
+    .articlesImage {
+        background-image: url(../assets/tablet/articleimage.png);
+        width: 710px;
+        height: 400px;
+        margin: 30px auto;
+    }
+
+    .articlesTag {
+        margin: 50px 0 30px 0px;
+    }
+    
+    .articlesTagtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .articlesBullet1 {
+        background-color: #6CABDE;
+        width: 20px;
+        height: 20px;
+        top: 60px;
+        left: -30px;
+    }
+    
+    .articlesTitle1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 560px;
+    }
+
+    .articlesText1 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 550px;
+    }
+
+    .articlesBlueTitle {
+        font-family: PoppinsBold;
+        font-size: 50px;
+        line-height: 60px;
+        width: 550px;
+        margin: 30px 0 50px 140px;
+    }
+    
+    .articlesBullet2 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: -30px;
+    }
+
+    .articlesNews {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 650px;
+    }
+    
+    .articlesSubtitle1 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext1 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle2 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext2 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle3 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext3 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle4 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext4 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+
+}

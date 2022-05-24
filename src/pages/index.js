@@ -4,6 +4,7 @@ import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
+import Link from 'next/link'
 
 export default function LandingPage() {
 
@@ -80,6 +81,10 @@ export default function LandingPage() {
   }
 
   const openFacebook = () => {
+    window.open('https://www.facebook.com/Point-Media-2496784783713500/');
+  }
+
+  const openExtra = () => {
     window.open('https://www.facebook.com/Point-Media-2496784783713500/');
   }
 
@@ -171,10 +176,12 @@ export default function LandingPage() {
         </div>
         <div className={styles.newsTitle}> <div className={styles.newsBullet} /> Tem novidade na POINT! <br/> Ganhamos a conta da CAOA para divulgação do novo Tiggo 8 2022.</div>
         <div className={styles.newsText}>Conquistamos mais um super cliente! <br/>Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira aqui como ficou a peça master!</div>
-        <div className={styles.play}>
-          <div className={styles.playText}>Dê um play!</div>
-          <div className={styles.playButton} />
-        </div>
+        <Link href="/articles?uri" as={"/articles"}>
+          <div className={styles.play} >
+            <div className={styles.playText}>Dê um play!</div>
+            <div className={styles.playButton} />
+          </div>
+        </Link>
         <div className={styles.carouselBullets}></div>
       </div>
 
