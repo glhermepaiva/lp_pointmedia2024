@@ -305,23 +305,24 @@
     }
 
     .articlesLogo {
-        transform: scale(0.9);
-        margin: 0 0 0 -150px;
+        transform: scale(0.7);
+        margin: 0 0 0 -300px;
     }
     
     .articlesClose {
-        margin: 0 -150px 0 0;
+        margin: 0 -300px 0 0;
     }
 
     .articlesImage {
         background-image: url(../assets/tablet/articleimage.png);
         width: 710px;
         height: 400px;
-        margin: 30px auto;
+        margin: 0 0 0 0px;
+        transform: scale(0.9);
     }
 
     .articlesTag {
-        margin: 50px 0 30px 0px;
+        margin: -410px 0 0px 0px;
     }
     
     .articlesTagtext {
@@ -340,21 +341,22 @@
     .articlesTitle1 {
         font-size: 50px;
         line-height: 60px;
-        width: 560px;
+        width: 420px;
+        margin: 0 0 50px 750px;
     }
 
     .articlesText1 {
         font-size: 20px;
         line-height: 30px;
-        width: 550px;
+        width: 1000px;
     }
 
     .articlesBlueTitle {
         font-family: PoppinsBold;
-        font-size: 50px;
+        font-size: 60px;
         line-height: 60px;
         width: 550px;
-        margin: 30px 0 50px 140px;
+        margin: 30px 0 50px 130px;
     }
     
     .articlesBullet2 {
@@ -370,7 +372,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         margin: 0 auto;
-        width: 650px;
+        width: 1070px;
     }
     
     .articlesSubtitle1 {
@@ -417,6 +419,10 @@
         width: 280px;
         margin: 20px 0 80px 0;
     }
+
+    .news4 {
+        display: none;
+    }
     
     .articlesSubtitle4 {
         font-family: PoppinsBold;
@@ -431,6 +437,440 @@
         line-height: 20px;
         width: 280px;
         margin: 20px 0 80px 0;
+        
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    
+    .articlesHeader {
+        height: 200px;
+    }
+
+    .articlesLogo {
+        transform: scale(0.7);
+        margin: 0 0 0 -300px;
+    }
+    
+    .articlesClose {
+        margin: 0 -300px 0 0;
+    }
+
+    .articlesImage {
+        background-image: url(../assets/tablet/articleimage.png);
+        width: 710px;
+        height: 400px;
+        margin: 0 0 0 50px;
+        transform: scale(0.9);
+    }
+
+    .articlesTag {
+        margin: -410px 0 0px 0px;
+    }
+    
+    .articlesTagtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .articlesBullet1 {
+        background-color: #6CABDE;
+        width: 20px;
+        height: 20px;
+        top: 60px;
+        left: -30px;
+    }
+    
+    .articlesTitle1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 420px;
+        margin: 0 0 50px 850px;
+    }
+
+    .articlesText1 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 1200px;
+    }
+
+    .articlesBlueTitle {
+        font-family: PoppinsBold;
+        font-size: 60px;
+        line-height: 60px;
+        width: 550px;
+        margin: 30px 0 50px 130px;
+    }
+    
+    .articlesBullet2 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: -30px;
+    }
+
+    .articlesNews {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 1220px;
+    }
+    
+    .articlesSubtitle1 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext1 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle2 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext2 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle3 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext3 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+
+    .news4 {
+        display: block;
+    }
+    
+    .articlesSubtitle4 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext4 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+        
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+    
+    .articlesHeader {
+        height: 200px;
+    }
+
+    .articlesLogo {
+        transform: scale(0.8);
+        margin: 0 0 0 -400px;
+    }
+    
+    .articlesClose {
+        margin: 0 -400px 0 0;
+    }
+
+    .articlesImage {
+        background-image: url(../assets/tablet/articleimage.png);
+        width: 710px;
+        height: 400px;
+        margin: 30px 0 0 150px;
+        transform: scale(1);
+    }
+
+    .articlesTag {
+        margin: -420px 0 0px 0px;
+    }
+    
+    .articlesTagtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .articlesBullet1 {
+        background-color: #6CABDE;
+        width: 20px;
+        height: 20px;
+        top: 60px;
+        left: -30px;
+    }
+    
+    .articlesTitle1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 420px;
+        margin: 0 0 80px 1000px;
+    }
+
+    .articlesText1 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 1300px;
+    }
+
+    .articlesBlueTitle {
+        font-family: PoppinsBold;
+        font-size: 60px;
+        line-height: 60px;
+        width: 550px;
+        margin: 50px 0 80px 180px;
+    }
+    
+    .articlesBullet2 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: -30px;
+    }
+
+    .articlesNews {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 1350px;
+    }
+    
+    .articlesSubtitle1 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext1 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle2 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext2 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle3 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext3 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+    }
+
+    .news4 {
+        display: block;
+    }
+    
+    .articlesSubtitle4 {
+        font-family: PoppinsBold;
+        font-size: 20px;
+        line-height: 25px;
+        width: 280px;
+    }
+    
+    .articlesSubtext4 {
+        font-family: Segoe UI;
+        font-size: 15px;
+        line-height: 20px;
+        width: 280px;
+        margin: 20px 0 80px 0;
+        
+    }
+
+}
+
+@media (min-width: 1800px) {
+    
+    .articlesHeader {
+        height: 250px;
+    }
+
+    .articlesLogo {
+        transform: scale(0.9);
+        margin: 0 0 0 -500px;
+    }
+    
+    .articlesClose {
+        margin: 0 -500px 0 0;
+        transform: scale(1.2);
+    }
+
+    .articlesImage {
+        background-image: url(../assets/desktop_l/articleimage.png);
+        width: 780px;
+        height: 430px;
+        margin: 30px 0 0 130px;
+        transform: scale(1);
+    }
+
+    .articlesTag {
+        margin: -410px 0 0px 0px;
+    }
+    
+    .articlesTagtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .articlesBullet1 {
+        background-color: #6CABDE;
+        width: 20px;
+        height: 20px;
+        top: 60px;
+        left: -30px;
+    }
+    
+    .articlesTitle1 {
+        font-size: 60px;
+        line-height: 60px;
+        width: 700px;
+        margin: 0 0 200px 1000px;
+    }
+
+    .articlesText1 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 1550px;
+    }
+
+    .articlesBlueTitle {
+        font-family: PoppinsBold;
+        font-size: 60px;
+        line-height: 60px;
+        width: 550px;
+        margin: 50px 0 80px 157px;
+    }
+    
+    .articlesBullet2 {
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: -30px;
+    }
+
+    .articlesNews {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 1640px;
+    }
+    
+    .articlesSubtitle1 {
+        font-family: PoppinsBold;
+        font-size: 30px;
+        line-height: 35px;
+        width: 440px;
+    }
+    
+    .articlesSubtext1 {
+        font-family: Segoe UI;
+        font-size: 20px;
+        line-height: 27px;
+        width: 450px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle2 {
+        font-family: PoppinsBold;
+        font-size: 30px;
+        line-height: 35px;
+        width: 440px;
+    }
+    
+    .articlesSubtext2 {
+        font-family: Segoe UI;
+        font-size: 20px;
+        line-height: 27px;
+        width: 450px;
+        margin: 20px 0 80px 0;
+    }
+    
+    .articlesSubtitle3 {
+        font-family: PoppinsBold;
+        font-size: 30px;
+        line-height: 35px;
+        width: 440px;
+    }
+    
+    .articlesSubtext3 {
+        font-family: Segoe UI;
+        font-size: 20px;
+        line-height: 27px;
+        width: 450px;
+        margin: 20px 0 80px 0;
+    }
+
+    .news4 {
+        display: none;
+    }
+    
+    .articlesSubtitle4 {
+        font-family: PoppinsBold;
+        font-size: 30px;
+        line-height: 35px;
+        width: 440px;
+    }
+    
+    .articlesSubtext4 {
+        font-family: Segoe UI;
+        font-size: 20px;
+        line-height: 27px;
+        width: 450px;
+        margin: 20px 0 80px 0;
+        
     }
 
 }

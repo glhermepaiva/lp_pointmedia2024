@@ -147,8 +147,8 @@ export default function LandingPage() {
 
 
       {menuOpen ? <div className={styles.hoverMenu}>
-        <div className={styles.menuClose} onClick={closeMenu}/>
         <div className={styles.menuLinks}>
+        <div className={styles.menuClose} onClick={closeMenu}/>
           <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
           <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
           <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
