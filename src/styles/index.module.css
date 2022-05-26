@@ -19,8 +19,12 @@
   background-image: url(../assets/mobile/hamburger.png);
   width: 29px;
   height: 37px;
-  margin: -3px 30px 0 0;
+  margin: -10px 0px 0 0;
   cursor: pointer;
+  position: fixed;
+  right: 20px;
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .news {
@@ -95,6 +99,10 @@
   cursor: pointer;
 }
 
+.play:hover{
+  transform: scale(1.05);
+}
+
 .playText {
   font-family: PoppinsBold;
   font-size: 12px;
@@ -139,7 +147,7 @@
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .menuClose {
@@ -161,36 +169,117 @@
   cursor: pointer;
 }
 
+.anchorAbout:hover {
+  color: #EB6099;
+}
+
+.anchorAbout:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorTeam {
   cursor: pointer;
+}
+
+.anchorTeam:hover {
+  color: #EB6099;
+}
+
+.anchorTeam:hover::after {
+  content:'_';
+  position: absolute;
 }
 
 .anchorWwd {
   cursor: pointer;
 }
 
+.anchorWwd:hover {
+  color: #EB6099;
+}
+
+.anchorWwd:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorHwd {
   cursor: pointer;
+}
+
+.anchorHwd:hover {
+  color: #EB6099;
+}
+
+.anchorHwd:hover::after {
+  content:'_';
+  position: absolute;
 }
 
 .anchorPrevWorks {
   cursor: pointer;
 }
 
+.anchorPrevWorks:hover {
+  color: #EB6099;
+}
+
+.anchorPrevWorks:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorCases {
   cursor: pointer;
+}
+
+.anchorCases:hover {
+  color: #EB6099;
+}
+
+.anchorCases:hover::after {
+  content:'_';
+  position: absolute;
 }
 
 .anchorClients {
   cursor: pointer;
 }
 
+.anchorClients:hover {
+  color: #EB6099;
+}
+
+.anchorClients:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorCareers {
   cursor: pointer;
 }
 
+.anchorCareers:hover {
+  color: #EB6099;
+}
+
+.anchorCareers:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorContact {
   cursor: pointer;
+}
+
+.anchorContact:hover {
+  color: #EB6099;
+}
+
+.anchorContact:hover::after {
+  content:'_';
+  position: absolute;
 }
 
 .menuSocials {
@@ -1208,16 +1297,15 @@
   margin: 0 0 20px -160px;
 }
 
-.casesArrows {
-  display: none;
-  justify-content: space-between;
-  width: 92vw;
-  position: absolute;
-  top: 7880px;
+.arrowRight {
+  cursor: pointer;
+  position: relative;
+  top: 250px;
+  left: 150px;
 }
 
 .case1Image {
-  background-image: url(../assets/mobile/adops.png);
+  background-image: url(../assets/mobile/adops1.png);
   width: 876px;
   height: 487px;
   margin: 0 0 0 120px;
@@ -1245,6 +1333,57 @@
 }
 
 .case1Text2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 62px;
+  margin: 0 0 20px -130px;
+}
+
+.arrowLeft {
+  cursor: pointer;
+  cursor: pointer;
+  position: relative;
+  top: 250px;
+  right: 150px;
+}
+
+.case2Image {
+  background-image: url(../assets/mobile/adops2.png);
+  width: 876px;
+  height: 487px;
+  margin: 0px 0 0 -30px;
+}
+
+.case2Subtitle1 {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: -30px 0 30px 0px;
+}
+
+.case2Text1 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 270px;
+}
+
+.case2Subtitle2 {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 70px 0 30px 0px;
+}
+
+.case2Text2 {
   font-family: Segoe UI;
   font-size: 15px;
   line-height: 20px;
@@ -1417,10 +1556,46 @@
   line-height: 25px;
   width: 300px;
   margin: 0 0 100px 10px;
+  z-index: 9;
+}
+
+.career1 {
+  cursor: pointer;
 }
 
 .career1:hover {
   color: #fff;
+}
+
+.career1:hover::after {
+  content:'_';
+  position: absolute;
+}
+
+.career2 {
+  cursor: pointer;
+}
+
+.career2:hover {
+  color: #fff;
+}
+
+.career2:hover::after {
+  content:'_';
+  position: absolute;
+}
+
+.career3 {
+  cursor: pointer;
+}
+
+.career3:hover {
+  color: #fff;
+}
+
+.career3:hover::after {
+  content:'_';
+  position: absolute;
 }
 
 /******* CONTACT *******/
@@ -1549,6 +1724,7 @@
   color: #EB6099;
   padding: 20px 0 0 20px;
   margin: 15px 0 10px 0;
+  resize: none;
 }
 
 .formMessage::placeholder {
@@ -1568,6 +1744,10 @@
   height: 50px;
   cursor: pointer;
   margin: 10px 0 80px 0;
+}
+
+.contactButton:hover {
+  background-color: #d8598e;
 }
 
 /******* FOOTER *******/
@@ -2323,13 +2503,13 @@
   margin: 10px 0 20px -450px;
 }
 
-.casesArrows {
-  width: 730px;
-  top: 6240px;
+.arrowRight {
+  top: 200px;
+  left: 340px;
 }
 
 .case1Image {
-  background-image: url(../assets/tablet/adops.png);
+  background-image: url(../assets/tablet/adops1.png);
   width: 1198px;
   height: 665px;
   margin: -250px 0 0 330px;
@@ -2359,6 +2539,60 @@
 .case1Text2 {
   font-size: 15px;
   margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-size: 25px;
+  line-height: 62px;
+  margin: 10px 0 20px -420px;
+}
+
+.arrowLeft {
+  top: 200px;
+  right: 340px;
+  z-index: 9;
+}
+
+.case2Image {
+  background-image: url(../assets/tablet/adops2.png);
+  width: 1450px;
+  height: 900px;
+  margin: -380px 0 0 160px;
+  transform: scale(0.6);
+}
+
+.case2Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 600px;
+  margin: -160px 0 0 20px;
+}
+
+.case2Subtitle1 {
+  font-size: 25px;
+  line-height: 20px;
+  margin: 0px 0 20px 0px;
+}
+
+.case2Text1 {
+  font-size: 15px;
+  line-height: 20px;
+  width: 270px;
+  margin: 0 0 100px 0;
+}
+
+.case2Subtitle2 {
+  font-size: 25px;
+  line-height: 20px;
+  margin: 0px 0 20px 0px;
+}
+
+.case2Text2 {
+  font-size: 15px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 0px 0;
 }
 
 /******* CLIENTS *******/
@@ -2835,6 +3069,11 @@
   height: 150px;
   width: 1150px;
   margin: 0 auto;
+}
+
+.hamburger {
+  transform: scale(1.4);
+  margin: 0 30px 0 0;
 }
 
 .carPicture {
@@ -3957,10 +4196,9 @@
   margin: 10px 0 20px -890px;
 }
 
-.casesArrows {
-  width: 730px;
-  top: 6240px;
-  display: none;
+.arrowRight {
+  top: 350px;
+  left: 540px;
 }
 
 .case1Image {
@@ -4000,6 +4238,58 @@
   line-height: 25px;
   width: 440px;
   margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -840px;
+}
+
+.arrowLeft {
+  top: 350px;
+  right: 540px;
+}
+
+.case2Image {
+  background-image: url(../assets/tablet/adops2.png);
+  width: 1450px;
+  height: 900px;
+  margin: -212px 0 0 200px;
+  transform: scale(0.8);
+}
+
+.case2Info {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: -50px 0 0 30px;
+}
+
+.case2Subtitle1 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text1 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 490px;
+  margin: 0 0 100px 0;
+}
+
+.case2Subtitle2 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text2 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+  margin: 0 0 0px 0;
 }
 
 /******* CLIENTS *******/
@@ -4483,6 +4773,11 @@
   height: 150px;
   width: 1350px;
   margin: 0 auto;
+}
+
+.hamburger {
+  transform: scale(1.4);
+  margin: 0 30px 0 0;
 }
 
 .carPicture {
@@ -5606,10 +5901,9 @@
   margin: 10px 0 20px -890px;
 }
 
-.casesArrows {
-  width: 730px;
-  top: 6240px;
-  display: none;
+.arrowRight {
+  top: 380px;
+  left: 630px;
 }
 
 .case1Image {
@@ -5649,6 +5943,58 @@
   line-height: 25px;
   width: 440px;
   margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -840px;
+}
+
+.arrowLeft {
+  top: 380px;
+  right: 630px;
+}
+
+.case2Image {
+  background-image: url(../assets/tablet/adops2.png);
+  width: 1450px;
+  height: 900px;
+  margin: -190px 0 0 160px;
+  transform: scale(0.9);
+}
+
+.case2Info {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin: -50px 0 0 30px;
+}
+
+.case2Subtitle1 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text1 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 490px;
+  margin: 0 0 100px 0;
+}
+
+.case2Subtitle2 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text2 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+  margin: 0 0 0px 0;
 }
 
 /******* CLIENTS *******/
@@ -6134,6 +6480,11 @@
   height: 150px;
   width: 1350px;
   margin: 0 auto;
+}
+
+.hamburger {
+  transform: scale(1.4);
+  margin: 0 30px 0 0;
 }
 
 .carPicture {
@@ -7257,10 +7608,9 @@
   margin: 10px 0 20px -890px;
 }
 
-.casesArrows {
-  width: 730px;
-  top: 6240px;
-  display: none;
+.arrowRight {
+  top: 380px;
+  left: 730px;
 }
 
 .case1Image {
@@ -7300,6 +7650,58 @@
   line-height: 25px;
   width: 440px;
   margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -840px;
+}
+
+.arrowLeft {
+  top: 380px;
+  right: 730px;
+}
+
+.case2Image {
+  background-image: url(../assets/tablet/adops2.png);
+  width: 1450px;
+  height: 900px;
+  margin: -185px 0 0 130px;
+  transform: scale(0.9);
+}
+
+.case2Info {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin: -50px 0 0 40px;
+}
+
+.case2Subtitle1 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text1 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 490px;
+  margin: 0 0 100px 0;
+}
+
+.case2Subtitle2 {
+  font-size: 35px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text2 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+  margin: 0 0 0px 0;
 }
 
 /******* CLIENTS *******/
@@ -8933,10 +9335,9 @@
   margin: 10px 0 20px -1230px;
 }
 
-.casesArrows {
-  width: 730px;
-  top: 6240px;
-  display: none;
+.arrowRight {
+  top: 360px;
+  left: 830px;
 }
 
 .case1Image {
@@ -8976,6 +9377,58 @@
   line-height: 25px;
   width: 750px;
   margin: 0 0 100px 0;
+}
+
+.case2Title {
+  font-size: 45px;
+  line-height: 62px;
+  margin: 10px 0 20px -1170px;
+}
+
+.arrowLeft {
+  top: 360px;
+  right: 830px;
+}
+
+.case2Image {
+  background-image: url(../assets/tablet/adops2.png);
+  width: 1450px;
+  height: 900px;
+  margin: -220px 0 0 100px;
+  transform: scale(1);
+}
+
+.case2Info {
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+  margin: -30px 0 0 100px;
+}
+
+.case2Subtitle1 {
+  font-size: 45px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text1 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 490px;
+  margin: 0 0 100px 0;
+}
+
+.case2Subtitle2 {
+  font-size: 45px;
+  line-height: 25px;
+  margin: 0px 0 30px 0px;
+}
+
+.case2Text2 {
+  font-size: 20px;
+  line-height: 25px;
+  width: 750px;
+  margin: 0 0 0px 0;
 }
 
 /******* CLIENTS *******/
@@ -9349,10 +9802,6 @@
   margin: 0 0 200px 450px;
   font-size: 35px;
   line-height: 40px;
-}
-
-.career1:hover {
-  color: #fff;
 }
 
 /******* CONTACT *******/

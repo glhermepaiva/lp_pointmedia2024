@@ -132,6 +132,16 @@ export default function LandingPage() {
       }
   }
 
+  const [defaultCase, setDefaultCase] = useState(true)
+
+  const nextCase = () => {
+    setDefaultCase(false)
+  }
+
+  const prevCase = () => {
+    setDefaultCase(true)
+  }
+
 
   return (
     <div className={styles.page}>
@@ -457,14 +467,11 @@ export default function LandingPage() {
 
 
 
-
+      {defaultCase ?
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.case1Title}>AdOps Vivo</div>
-        <div className={styles.casesArrows}>
-          <div className={styles.arrowLeft} />
-          <div className={styles.arrowRight} />
-        </div>
+        <div className={styles.arrowRight} onClick={nextCase}/>
         <div className={styles.case1Image} />
         <div className={styles.case1Info}>
           <div className={styles.case1Highlights}>
@@ -475,9 +482,25 @@ export default function LandingPage() {
             <div className={styles.case1Subtitle2}>Resultados</div>
             <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
           </div>
-        </div>
+        </div> 
       </div>
-
+      : 
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>nossos cases_</div>
+        <div className={styles.case2Title}>AdOps Ambev</div>
+        <div className={styles.arrowLeft} onClick={prevCase}/>
+        <div className={styles.case2Image} />
+        <div className={styles.case2Info}>
+          <div className={styles.case2Highlights}>
+            <div className={styles.case2Subtitle1}>Highlights</div>
+            <div className={styles.case2Text1}>• Inicio da operação Global em 2020 <br/><br/>•  Gestão Global de Ad Ops via Adserver Sizmek <br/><br/>•  Zeladoria da taxonomia de mídia Global <br/><br/>• Gestão das subidas das campanhas das agências locais em 70 paises <br/><br/>•  Operação de produção digital com automação <br/><br/>•  Operação de produção de email mkt com automação</div>
+          </div>
+          <div className={styles.case2Results}>
+            <div className={styles.case2Subtitle2}>Resultados</div>
+            <div className={styles.case2Text2}>• Redução de SLA de subida de campanha de 1 semana para dois dias <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências <br/><br/>• Criação de dashboard com indicadores operacionais dos países</div>
+          </div>
+        </div> 
+      </div> }
 
 
 
@@ -544,9 +567,9 @@ export default function LandingPage() {
         <div className={styles.careersTitle}>vagas_</div>
         <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atras de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
         <div className={styles.careersOpenings}>
-          <div className={styles.carreer1}>02 vagas para DA pleno<br/><br/></div>
-          <div className={styles.carreer2}>01 vaga para atendimento sênior<br/><br/></div>
-          <div className={styles.carreer3}>01 vaga para redator junior</div>
+          <div className={styles.career1} onClick={anchorContact}>02 vagas para DA pleno</div><br/>
+          <div className={styles.career2} onClick={anchorContact}>01 vaga para atendimento sênior</div><br/>
+          <div className={styles.career3} onClick={anchorContact}>01 vaga para redator junior</div>
         </div>
       </div>
 

@@ -6,7 +6,9 @@ const articles = () => {
     return (
         <div className={styles.articlesPage}>
             <div className={styles.articlesHeader}>
-                <div className={styles.articlesLogo} />
+                <Link href="/?uri=" as={"/"}>
+                    <span className={styles.articlesLogo} />
+                </Link> 
                 <Link href="/?uri=" as={"/"}>
                     <span className={styles.articlesClose} />
                 </Link> 
