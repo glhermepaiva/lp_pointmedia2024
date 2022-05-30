@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
@@ -7,6 +7,8 @@ import ReactLoading from 'react-loading'
 import Link from 'next/link'
 
 export default function LandingPage() {
+
+  /***** HAMBURGER MENU  *****/
 
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -21,6 +23,22 @@ export default function LandingPage() {
   const closeMenu = () => {
     setMenuOpen(false)
   }
+
+  /***** EXTERNAL LINKS  *****/
+
+  const openInstagram = () => {
+    window.open('https://www.instagram.com/pointmediaoficial/');
+  }
+
+  const openTwitter = () => {
+    window.open('https://www.twitter.com/pointmediaoficial/');
+  }
+
+  const openFacebook = () => {
+    window.open('https://www.facebook.com/Point-Media-2496784783713500/');
+  }
+
+  /***** ANCHOR LINKS  *****/
 
   const anchorHeader = () => {
     setMenuOpen(false)
@@ -72,21 +90,7 @@ export default function LandingPage() {
     window.location.replace("/#contact")
   }
 
-  const openInstagram = () => {
-    window.open('https://www.instagram.com/pointmediaoficial/');
-  }
-
-  const openTwitter = () => {
-    window.open('https://www.twitter.com/pointmediaoficial/');
-  }
-
-  const openFacebook = () => {
-    window.open('https://www.facebook.com/Point-Media-2496784783713500/');
-  }
-
-  const openExtra = () => {
-    window.open('https://www.facebook.com/Point-Media-2496784783713500/');
-  }
+  /***** EMAIL VALIDATIONS  *****/
 
   const schema = yup.object().shape({
     subject: yup.string().required('Algum assunto deve ser selecionado'),
@@ -132,6 +136,8 @@ export default function LandingPage() {
       }
   }
 
+  /***** CASES CAROUSSEL  *****/
+
   const [defaultCase, setDefaultCase] = useState(true)
 
   const nextCase = () => {
@@ -141,6 +147,19 @@ export default function LandingPage() {
   const prevCase = () => {
     setDefaultCase(true)
   }
+
+  /***** PARALLAX *****/
+  
+  const [offsetY, setOffsetY] = useState(0);
+
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+
+  }, [])
 
 
   return (
@@ -202,7 +221,13 @@ export default function LandingPage() {
       <div id='about' className={styles.about}>
         <div className={styles.aboutPoint}>a POINT_</div>
         <div className={styles.aboutTitle}>Somos inspiração, criatividade e muito movimento. A gente não para nunca e motion é o que realmente nos move.</div>
-        <div className={styles.aboutImage} />
+        <div className={styles.aboutImage}>
+          <div className={styles.astronautPoint} />
+          <div className={styles.astronautGuy} />
+          <div className={styles.astronautBlack} />
+          <div className={styles.astronautPink} />
+          <div className={styles.astronautBlue} />
+        </div>
         <div className={styles.aboutText}>Desde de 2017 seguimos o ritmo dinâmico da mídia online, ad ops e ad server, somos especialistas na produção em larga escala de assets digitais, usando motion design em banners display HTML5 e vídeos. <br/><br/>Desenvolvemos  projetos customizados com tecnologia de DCO, XML e Feeds, inserindo recursos  de interatividade para potencializar o engajamento dos usuários e os resultados das campanhas digitais.</div>
         <div className={styles.aboutLine} />
         <div className={styles.aboutOffice} />
@@ -229,7 +254,11 @@ export default function LandingPage() {
 
 
       <div className={styles.team}>
-        <div className={styles.teamArt} />
+        <div className={styles.teamArt}>
+          <div className={styles.teamGirl} />
+          <div className={styles.teamCrown} />
+          <div className={styles.teamShine} />
+        </div>
         <div id='team' className={styles.teamTitle}>nosso time_</div>
         <div className={styles.teamText}>Reunimos um time de feras do mercado digital com vasta experiência e passagens por grandes empresas digitais.</div>
         <div className={styles.teamPictures}>
@@ -281,7 +310,12 @@ export default function LandingPage() {
 
       
       <div id='wwd' className={styles.wwd}>
-        <div className={styles.wwdAlien} />
+        <div className={styles.wwdAlien}>
+          <div className={styles.alienDiamond}/>
+          <div className={styles.alien}/>
+          <div className={styles.alienEye}/>
+          <div className={styles.alienLeg}/>
+        </div>
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
         <div className={styles.wwdWorks}>
@@ -385,8 +419,16 @@ export default function LandingPage() {
 
 
       <div id='prevworks' className={styles.previousWorks}>
-        <div className={styles.pwArt} />
-        <div className={styles.pwBalls} />
+        <div className={styles.pwArt}>
+          <div className={styles.camera} />
+          <div className={styles.drip} />
+          <div className={styles.cloud} />
+          <div className={styles.cameraBalls}>
+            <div className={styles.blueBall} />
+            <div className={styles.redBall} />
+            <div className={styles.pinkBall} />
+          </div>
+        </div>
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwGallery}>
           <div className={styles.galleryContainer}>

@@ -324,11 +324,92 @@
 }
 
 .aboutImage {
-  background-image: url(../assets/mobile/astronaut.png);
-  width: 287px;
-  height: 288px;
-  transform: scale(1.06);
-  margin: 30px 0 0 50px;
+  background-color: white;
+}
+
+.astronautPoint {
+  background-image: url(../assets/mobile/astronautpoint.png);
+  width: 130px;
+  height: 143px;
+  margin: 20px 0 -30px 210px;
+  animation: astronautpoint 10s linear infinite;
+}
+
+@keyframes astronautpoint {
+  33% {transform: rotate(10deg);}
+  66% {transform: rotate(-10deg);}
+}
+
+.astronautGuy {
+  background-image: url(../assets/mobile/astronautguy.png);
+  width: 269px;
+  height: 127px;
+  margin: 0 auto 80px auto;
+  animation: astronaut 20s linear infinite;
+}
+
+@keyframes astronaut {
+  0% {transform: translateX(0%);}
+  33% {transform: translateX(20%) translateY(10%) rotate(5deg);}
+  80% {transform: translateX(-20%) translateY(-10%) rotate(-3deg);}
+  100% {transform: translateX(0%);}
+}
+
+.astronautBlack {
+  background-image: url(../assets/mobile/astronautblack.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1200px;
+  left: 90px;
+  animation: astronautblack 30s infinite linear;
+}
+
+@keyframes astronautblack {
+  0% {transform: translateX(0%) translateY(0%);}
+  10% {transform: translateX(200%) translateY(50%);}
+  20% {transform: translateX(300%) translateY(-50%);}
+  30% {transform: translateX(300%) translateY(50%);}
+  40% {transform: translateX(200%) translateY(-50%);}
+  50% {transform: translateX(0%) translateY(0%);}
+  60% {transform: translateX(-200%) translateY(-50%);}
+  70% {transform: translateX(-300%) translateY(50%);}
+  80% {transform: translateX(-300%) translateY(-50%);}
+  90% {transform: translateX(-200%) translateY(50%);}
+  100% {transform: translateX(0%) translateY(0%);}
+}
+
+.astronautPink {
+  background-image: url(../assets/mobile/astronautpink.png);
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  position: absolute;
+  top: 1340px;
+  left: 50px;
+  animation: astronautpink 10s linear infinite;
+}
+
+@keyframes astronautpink {
+  0% {transform: translateX(0%) translateY(0%);}
+  25% {transform: translateX(50%) translateY(0%);}
+  50% {transform: translateX(0%) translateY(0%);}
+  75% {transform: translateX(-50%) translateY(0%);}
+  100% {transform: translateX(0%) translateY(0%);}
+}
+
+.astronautBlue {
+  background-image: url(../assets/mobile/astronautblue.png);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 1420px;
+  left: 290px;
+  animation: astronautblue 10s linear infinite;
+}
+
+@keyframes astronautblue {
+  50% {transform: translateY(-200%);}
 }
 
 .aboutText {
@@ -440,11 +521,46 @@
 }
 
 .teamArt {
-  background-image: url(../assets/mobile/teamart.png);
-  width: 275px;
-  height: 275px;
-  align-self: center;
-  margin-top: -15px;
+  background-color: white;
+  margin: 50px 0 170px 0;
+}
+
+.teamGirl {
+  background-image: url(../assets/mobile/teamgirl.png);
+  width: 160px;
+  height: 210px;
+  margin: 0 0 0 108px;
+}
+
+.teamCrown {
+  background-image: url(../assets/mobile/teamcrown.png);
+  width: 38px;
+  height: 24px;
+  margin: -230px 0 0 145px;
+  animation: crown 5s infinite linear;
+}
+
+@keyframes crown {
+  0% {transform: translateY(0%) rotate(0deg);}
+  25% {transform: translateY(-25%) rotate(10deg);}
+  50% {transform: translateY(-50%) rotate(0deg);}
+  75% {transform: translateY(-25%) rotate(-10deg);}
+  100% {transform: translateY(0%) rotate(0deg);}
+}
+
+.teamShine {
+  background-image: url(../assets/mobile/teamshine.png);
+  width: 24px;
+  height: 24px;
+  margin: 21px 0 0 176px;
+  transform: scale(0.5);
+  animation: shine 5s infinite linear;
+}
+
+@keyframes shine {
+  49% {opacity: 0.9;}
+  50% {transform: scale(0.8) rotate(90deg); opacity: 0;}
+  58% {opacity: 1;}
 }
 
 .teamTitle {
@@ -697,12 +813,58 @@
 }
 
 .wwdAlien {
+  margin: 0 0 0px 0;
+}
+
+.alien {
   background-image: url(../assets/mobile/alien.png);
   width: 300px;
-  height: 213px;
-  position: absolute;
-  top: 4167px;
-  left: 60px;
+  height: 190px;
+  margin: -148px 0 0 70px;
+  position: relative;
+}
+
+.alienDiamond {
+  background-image: url(../assets/mobile/aliendiamond.png);
+  width: 46px;
+  height: 45px;
+  margin: -125px 0 0 60px;
+  transform: scale(0.8);
+  animation: diamond 8s linear infinite;
+}
+
+@keyframes diamond {
+  50% {transform: scale(1.2) rotate(5deg);}
+}
+
+.alienLeg {
+  background-image: url(../assets/mobile/alienleg.png);
+  width: 72px;
+  height: 56px;
+  margin: 80px 0 0 180px;
+  animation: leg 3s linear infinite;
+}
+
+@keyframes leg {
+  50% {transform: rotate(15deg) translateX(-10px) translateY(7px);}
+}
+
+.alienEye {
+  background-image: url(../assets/mobile/alieneye.png);
+  width: 39px;
+  height: 36px;
+  margin: -172px 0 0 173px;
+  position: relative;
+  animation: eye 9s linear infinite;
+}
+
+@keyframes eye {
+  0% {transform: translateX(0px);}
+  33% {transform: translateX(-8px);}
+  45% {transform: translateX(-8px);}
+  66% {transform: translateX(8px);}
+  82% {transform: translateX(8px);}
+  100% {transform: translateX(0px);}
 }
 
 .wwdTitle {
@@ -1087,21 +1249,81 @@
 }
 
 .pwArt {
-  background-image: url(../assets/mobile/camera.png);
-  width: 298px;
-  height: 298px;
-  z-index: 4;
-  margin: 50px 0 0 0;
+  margin: 50px 0 250px 0;
 }
 
-.pwBalls {
-  background-image: url(../assets/mobile/balls2.png);
-  width: 159px;
-  height: 80px;
-  position: absolute;
-  top: 173px;
-  left: 13px;
-  z-index: 3;
+.camera {
+  background-image: url(../assets/mobile/camera.png);
+  width: 310px;
+  height: 250px;
+}
+
+.drip {
+  background-image: url(../assets/mobile/drip.png);
+  width: 80px;
+  height: 87px;
+  margin: -90px 0 0 68px;
+  animation: drip 6s infinite linear;
+}
+
+@keyframes drip {
+  50% {transform: scale(1.2) translateX(-30px) translateY(10px) rotate(10deg);}
+}
+
+.cloud {
+  background-image: url(../assets/mobile/cloud.png);
+  width: 77px;
+  height: 26px;
+  margin: -245px 0 0 70px;
+  animation: cloud 30s infinite linear;
+}
+
+@keyframes cloud {
+  33% {transform: translateX(-30px) translateY(3px);}
+  66% {transform: translateX(35px) translateY(-4px);}
+}
+
+.cameraBalls {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  margin: -25px 0 0 200px;
+}
+
+.blueBall {
+  background-image: url(../assets/mobile/blueball.png);
+  width: 13px;
+  height: 13px;
+  animation: blueball 5s linear infinite;
+}
+
+@keyframes blueball {
+  0% {visibility: hidden;}
+  24% {visibility: hidden;}
+}
+
+.redBall {
+  background-image: url(../assets/mobile/redball.png);
+  width: 13px;
+  height: 13px;
+  animation: redball 5s linear infinite;
+}
+
+@keyframes redball {
+  25% {visibility: hidden;}
+  49% {visibility: hidden;}
+}
+
+.pinkBall {
+  background-image: url(../assets/mobile/pinkball.png);
+  width: 13px;
+  height: 13px;
+  animation: pinkball 5s linear infinite;
+}
+
+@keyframes pinkball {
+  50% {visibility: hidden;}
+  74% {visibility: hidden;}
 }
 
 .pwTitle {
