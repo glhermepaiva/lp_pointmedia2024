@@ -4397,10 +4397,6 @@
 
 /*** FIM DO DESABILITADO POR HORA ***/
 
-.pwBalls {
-  display: none;
-}
-
 .pwTitle {
   font-size: 55px;
   line-height: 62px;
@@ -4561,7 +4557,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
@@ -4574,7 +4569,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
@@ -4590,7 +4584,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
@@ -4604,7 +4597,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
@@ -4620,7 +4612,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
@@ -4634,7 +4625,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
@@ -4650,7 +4640,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
@@ -4664,7 +4653,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
@@ -4680,7 +4668,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
@@ -4694,7 +4681,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
@@ -4710,7 +4696,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
@@ -4725,7 +4710,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
@@ -4739,7 +4723,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
@@ -5499,7 +5482,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .aboutPoint {
@@ -5532,6 +5515,62 @@
   top: 750px;
   right: 0px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.astronautPoint {
+  background-image: url(../assets/mobile/astronautpoint.png);
+  width: 130px;
+  height: 143px;
+  margin: 20px 0 -30px 210px;
+  animation: astronautpoint 10s linear infinite;
+  display: none;
+}
+
+.astronautGuy {
+  background-image: url(../assets/mobile/astronautguy.png);
+  width: 269px;
+  height: 127px;
+  margin: 0 auto 80px auto;
+  animation: astronaut 20s linear infinite;
+  display: none;
+}
+
+.astronautBlack {
+  background-image: url(../assets/mobile/astronautblack.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1050px;
+  left: 90px;
+  animation: astronautblack 30s infinite linear;
+  display: none;
+}
+
+.astronautPink {
+  background-image: url(../assets/mobile/astronautpink.png);
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  position: absolute;
+  top: 1190px;
+  left: 50px;
+  animation: astronautpink 10s linear infinite;
+  display: none;
+}
+
+.astronautBlue {
+  background-image: url(../assets/mobile/astronautblue.png);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 1280px;
+  left: 290px;
+  animation: astronautblue 10s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .aboutLine {
   width: 780px;
@@ -5616,7 +5655,6 @@
   transform: scale(1);
 }
 
-
 .aboutText2 {
   width: 441px;
   font-size: 20px;
@@ -5643,8 +5681,39 @@
   height: 603px;
   position: absolute;
   top: 1920px;
-  left: 165px;
+  left: 140px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.teamGirl {
+  background-image: url(../assets/mobile/teamgirl.png);
+  width: 160px;
+  height: 210px;
+  margin: 0 0 0 108px;
+  display: none;
+}
+
+.teamCrown {
+  background-image: url(../assets/mobile/teamcrown.png);
+  width: 38px;
+  height: 24px;
+  margin: -230px 0 0 145px;
+  animation: crown 5s infinite linear;
+  display: none;
+}
+
+.teamShine {
+  background-image: url(../assets/mobile/teamshine.png);
+  width: 24px;
+  height: 24px;
+  margin: 21px 0 0 176px;
+  transform: scale(0.5);
+  animation: shine 5s infinite linear;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 55px;
@@ -5878,6 +5947,48 @@
   margin: -700px 0 200px 730px;
 }
 
+/*** DESABILITADO POR HORA ***/
+
+.alien {
+  background-image: url(../assets/mobile/alien.png);
+  width: 300px;
+  height: 190px;
+  margin: -148px 0 0 70px;
+  position: relative;
+  display: none;
+}
+
+.alienDiamond {
+  background-image: url(../assets/mobile/aliendiamond.png);
+  width: 46px;
+  height: 45px;
+  margin: -125px 0 0 60px;
+  transform: scale(0.8);
+  animation: diamond 8s linear infinite;
+  display: none;
+}
+
+.alienLeg {
+  background-image: url(../assets/mobile/alienleg.png);
+  width: 72px;
+  height: 56px;
+  margin: 80px 0 0 180px;
+  animation: leg 3s linear infinite;
+  display: none;
+}
+
+.alienEye {
+  background-image: url(../assets/mobile/alieneye.png);
+  width: 39px;
+  height: 36px;
+  margin: -172px 0 0 173px;
+  position: relative;
+  animation: eye 9s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
+
 .wwdTitle {
   font-size: 55px;
   line-height: 62px;
@@ -6006,7 +6117,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4512px;
+  top: 4465px;
   left: 20px;
 }
 
@@ -6111,7 +6222,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5325px;
+  top: 5275px;
   width: 300px;
 }
 
@@ -6126,8 +6237,8 @@
 /******* PREVIOUS WORKS *******/
 
 .previousWorks {
-  height: 1700px;
-  top: 5430px;
+  height: 2000px;
+  top: 5370px;
 }
 
 .pwArt {
@@ -6138,21 +6249,59 @@
   margin: -30px 0 0 -850px;
 }
 
-.pwBalls {
+/*** DESABILITADO POR HORA ***/
+
+.camera {
+  background-image: url(../assets/mobile/camera.png);
+  width: 310px;
+  height: 250px;
   display: none;
 }
+
+.drip {
+  background-image: url(../assets/mobile/drip.png);
+  width: 80px;
+  height: 87px;
+  margin: -90px 0 0 68px;
+  animation: drip 6s infinite linear;
+  display: none;
+}
+
+.cloud {
+  background-image: url(../assets/mobile/cloud.png);
+  width: 77px;
+  height: 26px;
+  margin: -245px 0 0 70px;
+  animation: cloud 30s infinite linear;
+  display: none;
+}
+
+.cameraBalls {
+  top: 100px;
+  left: 35px;
+  z-index: 3;
+  transform: scale(1.2);
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 55px;
   line-height: 62px;
-  margin: -220px 0 150px 600px;
+  margin: -230px -600px 0px 0px;
   width: 600px;
+}
+
+.pwGallery {
+  width: 1160px;
+  margin: 150px 0 0 0;
 }
 
 .galleryContainer {
   height: 230px;
   overflow: hidden;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .gallery1 {
@@ -6298,7 +6447,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
@@ -6311,7 +6459,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
@@ -6327,7 +6474,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
@@ -6341,7 +6487,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
@@ -6357,7 +6502,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
@@ -6371,7 +6515,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
@@ -6387,7 +6530,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
@@ -6401,7 +6543,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
@@ -6417,7 +6558,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
@@ -6431,7 +6571,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
@@ -6447,7 +6586,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
@@ -6462,7 +6600,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
   width: 280px;
@@ -6476,7 +6613,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
@@ -6495,7 +6631,7 @@
 /******* CASES *******/
   
 .cases {
-  margin-top: 1650px;
+  margin-top: 1900px;
   padding-top: 50px;
 }
 
@@ -6947,6 +7083,38 @@
   width: 170px;
   height: 70px;
   margin: 0 0 60px 0;
+}
+
+.client46 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client47 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client48 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client49 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
 }
 
 /******* CAREERS *******/
