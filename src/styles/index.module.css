@@ -325,10 +325,6 @@
   margin: 10px 0 0 35px;
 }
 
-.aboutImage {
-  background-color: white;
-}
-
 .astronautPoint {
   background-image: url(../assets/mobile/astronautpoint.png);
   width: 130px;
@@ -5535,7 +5531,6 @@
   right: 0px;
 }
 
-
 /*** DESABILITADO POR HORA ***/
 
 .astronautPoint {
@@ -7439,6 +7434,7 @@
   right: 120px;
 }
 
+
 /*** DESABILITADO POR HORA ***/
 
 .astronautPoint {
@@ -9218,7 +9214,7 @@
   background-image: url(../assets/desktop_l/hamburger.png);
   width: 41px;
   height: 53px;
-  margin: -3px 30px 0 0;
+  margin: -3px 50px 0 0;
 }
 
 .carPicture {
@@ -9329,24 +9325,24 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 600px;
+  margin-top: 700px;
 }
 
 .aboutPoint {
   font-size: 65px;
-  margin-left: 230px;
+  margin-left: 150px;
 }
 
 .aboutTitle {
   font-size: 60px;
   line-height: 60px;
   width: 1000px;
-  margin: 30px 0 0 165px;
+  margin: 30px 0 0 75px;
   transform: scale(0.95);
 }
 
 .aboutText {
-  margin: 30px 0 0 175px;
+  margin: 30px 0 0 85px;
   width: 640px;
   font-size: 20px;
   line-height: 35px;
@@ -9357,11 +9353,67 @@
   background-image: url(../assets/desktop_l/astronaut.png);
   width: 835px;
   height: 1025px;
-  transform: scale(1);
+  transform: scale(0.9);
   position: absolute;
   top: 900px;
   right: 50px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.astronautPoint {
+  background-image: url(../assets/mobile/astronautpoint.png);
+  width: 130px;
+  height: 143px;
+  margin: 20px 0 -30px 210px;
+  animation: astronautpoint 10s linear infinite;
+  display: none;
+}
+
+.astronautGuy {
+  background-image: url(../assets/mobile/astronautguy.png);
+  width: 269px;
+  height: 127px;
+  margin: 0 auto 80px auto;
+  animation: astronaut 20s linear infinite;
+  display: none;
+}
+
+.astronautBlack {
+  background-image: url(../assets/mobile/astronautblack.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1050px;
+  left: 90px;
+  animation: astronautblack 30s infinite linear;
+  display: none;
+}
+
+.astronautPink {
+  background-image: url(../assets/mobile/astronautpink.png);
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  position: absolute;
+  top: 1190px;
+  left: 50px;
+  animation: astronautpink 10s linear infinite;
+  display: none;
+}
+
+.astronautBlue {
+  background-image: url(../assets/mobile/astronautblue.png);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 1280px;
+  left: 290px;
+  animation: astronautblue 10s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .aboutLine {
   width: 1000px;
@@ -9476,6 +9528,37 @@
   top: 2300px;
   left: 275px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.teamGirl {
+  background-image: url(../assets/mobile/teamgirl.png);
+  width: 160px;
+  height: 210px;
+  margin: 0 0 0 108px;
+  display: none;
+}
+
+.teamCrown {
+  background-image: url(../assets/mobile/teamcrown.png);
+  width: 38px;
+  height: 24px;
+  margin: -230px 0 0 145px;
+  animation: crown 5s infinite linear;
+  display: none;
+}
+
+.teamShine {
+  background-image: url(../assets/mobile/teamshine.png);
+  width: 24px;
+  height: 24px;
+  margin: 21px 0 0 176px;
+  transform: scale(0.5);
+  animation: shine 5s infinite linear;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 65px;
@@ -9710,6 +9793,48 @@
   margin: -740px 0 200px 900px;
 }
 
+/*** DESABILITADO POR HORA ***/
+
+.alien {
+  background-image: url(../assets/mobile/alien.png);
+  width: 300px;
+  height: 190px;
+  margin: -148px 0 0 70px;
+  position: relative;
+  display: none;
+}
+
+.alienDiamond {
+  background-image: url(../assets/mobile/aliendiamond.png);
+  width: 46px;
+  height: 45px;
+  margin: -125px 0 0 60px;
+  transform: scale(0.8);
+  animation: diamond 8s linear infinite;
+  display: none;
+}
+
+.alienLeg {
+  background-image: url(../assets/mobile/alienleg.png);
+  width: 72px;
+  height: 56px;
+  margin: 80px 0 0 180px;
+  animation: leg 3s linear infinite;
+  display: none;
+}
+
+.alienEye {
+  background-image: url(../assets/mobile/alieneye.png);
+  width: 39px;
+  height: 36px;
+  margin: -172px 0 0 173px;
+  position: relative;
+  animation: eye 9s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
+
 .wwdTitle {
   font-size: 65px;
   line-height: 62px;
@@ -9846,7 +9971,7 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 5070px;
+  top: 5020px;
   left: 20px;
 }
 
@@ -9946,12 +10071,8 @@
   line-height: 35px;
 }
 
-.hwdArrows {
-  display: none;
-}
-
 .hwdWhiteBg {
-  top: 6160px;
+  top: 6110px;
   width: 340px;
   transform: scale(1.2);
 }
@@ -9968,7 +10089,7 @@
 
 .previousWorks {
   height: 1480px;
-  top: 6280px;
+  top: 6230px;
 }
 
 .pwArt {
@@ -9979,9 +10100,42 @@
   margin: -30px 0 0 -850px;
 }
 
-.pwBalls {
+/*** DESABILITADO POR HORA ***/
+
+.camera {
+  background-image: url(../assets/mobile/camera.png);
+  width: 310px;
+  height: 250px;
   display: none;
 }
+
+.drip {
+  background-image: url(../assets/mobile/drip.png);
+  width: 80px;
+  height: 87px;
+  margin: -90px 0 0 68px;
+  animation: drip 6s infinite linear;
+  display: none;
+}
+
+.cloud {
+  background-image: url(../assets/mobile/cloud.png);
+  width: 77px;
+  height: 26px;
+  margin: -245px 0 0 70px;
+  animation: cloud 30s infinite linear;
+  display: none;
+}
+
+.cameraBalls {
+  top: 100px;
+  left: 35px;
+  z-index: 3;
+  transform: scale(1.2);
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 65px;
@@ -9990,10 +10144,14 @@
   width: 700px;
 }
 
+.pwGallery {
+  width: 1750px;
+}
+
 .galleryContainer {
   height: 230px;
   overflow: hidden;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .gallery1 {
@@ -10139,7 +10297,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery12 {
   background-image: url(../assets/desktop_s/pw12.png);
   width: 280px;
@@ -10152,7 +10309,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery13 {
   background-image: url(../assets/desktop_s/pw13.png);
@@ -10168,7 +10324,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery14 {
   background-image: url(../assets/desktop_s/pw14.png);
   width: 280px;
@@ -10182,7 +10337,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery15 {
   background-image: url(../assets/desktop_s/pw15.png);
@@ -10198,7 +10352,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery16 {
   background-image: url(../assets/desktop_s/pw16.png);
   width: 280px;
@@ -10212,7 +10365,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery17 {
   background-image: url(../assets/desktop_s/pw17.png);
@@ -10228,7 +10380,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery18 {
   background-image: url(../assets/desktop_s/pw18.png);
   width: 280px;
@@ -10242,7 +10393,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery19 {
   background-image: url(../assets/desktop_s/pw19.png);
@@ -10258,7 +10408,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery20 {
   background-image: url(../assets/desktop_s/pw20.png);
   width: 280px;
@@ -10272,7 +10421,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery21 {
   background-image: url(../assets/desktop_s/pw21.png);
@@ -10288,7 +10436,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery22 {
   background-image: url(../assets/desktop_s/pw22.png);
   width: 280px;
@@ -10302,7 +10449,6 @@
   filter: none;
   transform: scale(1.05);
 }
-
 
 .gallery23 {
   background-image: url(../assets/desktop_s/pw23.png);
@@ -10318,7 +10464,6 @@
   transform: scale(1.05);
 }
 
-
 .gallery24 {
   background-image: url(../assets/desktop_s/pw24.png);
   width: 280px;
@@ -10326,6 +10471,7 @@
   display: block;
   filter: grayscale(100%);
   transition: transform .5s ease;
+  margin: 0 -15px 0 0;
 }
 
 .gallery24:hover{
@@ -10789,6 +10935,38 @@
   width: 170px;
   height: 70px;
   margin: 0 50px 60px 0;
+}
+
+.client46 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 60px 0;
+  opacity: 0%;
+}
+
+.client47 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 60px 0;
+  opacity: 0%;
+}
+
+.client48 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 60px 0;
+  opacity: 0%;
+}
+
+.client49 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 60px 0;
+  opacity: 0%;
 }
 
 /******* CAREERS *******/
