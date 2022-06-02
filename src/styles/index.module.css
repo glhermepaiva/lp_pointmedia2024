@@ -2156,8 +2156,6 @@
   width: 320px;
 }
 
-
-
 /*** DESABILITADO POR HORA ***/
 
 .astronautPoint {
@@ -2212,12 +2210,7 @@
   display: none;
 }
 
-
-
 /*** FIM DO DESABILITADO POR HORA ***/
-
-
-
 
 .aboutImage {
   background-image: url(../assets/tablet/astronaut.png);
@@ -3319,6 +3312,42 @@
   margin: 0 0 60px 0;
 }
 
+.client46 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+  display: none;
+}
+
+.client47 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+  display: none;
+}
+
+.client48 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+  display: none;
+}
+
+.client49 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+  display: none;
+}
+
 /******* CAREERS *******/
 
 .careersArt {
@@ -3572,19 +3601,19 @@
 
 .aboutPoint {
   font-size: 55px;
-  margin-left: 100px;
+  margin: 520px 0 0 59px;
 }
 
 .aboutTitle {
   font-size: 40px;
   line-height: 45px;
   width: 750px;
-  margin: 30px 0 0 45px;
+  margin: 30px 0 0 5px;
   transform: scale(0.95);
 }
 
 .aboutText {
-  margin: 30px 0 0 45px;
+  margin: 30px 0 0 10px;
   width: 640px;
   font-size: 20px;
   line-height: 35px;
@@ -3600,6 +3629,62 @@
   top: 750px;
   right: -50px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.astronautPoint {
+  background-image: url(../assets/mobile/astronautpoint.png);
+  width: 130px;
+  height: 143px;
+  margin: 20px 0 -30px 210px;
+  animation: astronautpoint 10s linear infinite;
+  display: none;
+}
+
+.astronautGuy {
+  background-image: url(../assets/mobile/astronautguy.png);
+  width: 269px;
+  height: 127px;
+  margin: 0 auto 80px auto;
+  animation: astronaut 20s linear infinite;
+  display: none;
+}
+
+.astronautBlack {
+  background-image: url(../assets/mobile/astronautblack.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1050px;
+  left: 90px;
+  animation: astronautblack 30s infinite linear;
+  display: none;
+}
+
+.astronautPink {
+  background-image: url(../assets/mobile/astronautpink.png);
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  position: absolute;
+  top: 1190px;
+  left: 50px;
+  animation: astronautpink 10s linear infinite;
+  display: none;
+}
+
+.astronautBlue {
+  background-image: url(../assets/mobile/astronautblue.png);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 1280px;
+  left: 290px;
+  animation: astronautblue 10s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .aboutLine {
   width: 780px;
@@ -3684,7 +3769,6 @@
   transform: scale(1);
 }
 
-
 .aboutText2 {
   width: 441px;
   font-size: 20px;
@@ -3713,6 +3797,37 @@
   top: 1940px;
   left: -37px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.teamGirl {
+  background-image: url(../assets/mobile/teamgirl.png);
+  width: 160px;
+  height: 210px;
+  margin: 0 0 0 108px;
+  display: none;
+}
+
+.teamCrown {
+  background-image: url(../assets/mobile/teamcrown.png);
+  width: 38px;
+  height: 24px;
+  margin: -230px 0 0 145px;
+  animation: crown 5s infinite linear;
+  display: none;
+}
+
+.teamShine {
+  background-image: url(../assets/mobile/teamshine.png);
+  width: 24px;
+  height: 24px;
+  margin: 21px 0 0 176px;
+  transform: scale(0.5);
+  animation: shine 5s infinite linear;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 55px;
@@ -3760,7 +3875,6 @@
   margin: 0 60px 0 60px;
 }
 
-
 .WillPicture {
   background-image: url(../assets/desktop_s/will.png);
   width: 205px;
@@ -3785,7 +3899,6 @@
 .MarcellaAt {
   margin: 0 60px 0 60px;
 }
-
 
 .MarcellaAtPicture {
   background-image: url(../assets/desktop_s/marcellaat.png);
@@ -3945,6 +4058,48 @@
   margin: -700px 0 200px 500px;
 }
 
+/*** DESABILITADO POR HORA ***/
+
+.alien {
+  background-image: url(../assets/mobile/alien.png);
+  width: 300px;
+  height: 190px;
+  margin: -148px 0 0 70px;
+  position: relative;
+  display: none;
+}
+
+.alienDiamond {
+  background-image: url(../assets/mobile/aliendiamond.png);
+  width: 46px;
+  height: 45px;
+  margin: -125px 0 0 60px;
+  transform: scale(0.8);
+  animation: diamond 8s linear infinite;
+  display: none;
+}
+
+.alienLeg {
+  background-image: url(../assets/mobile/alienleg.png);
+  width: 72px;
+  height: 56px;
+  margin: 80px 0 0 180px;
+  animation: leg 3s linear infinite;
+  display: none;
+}
+
+.alienEye {
+  background-image: url(../assets/mobile/alieneye.png);
+  width: 39px;
+  height: 36px;
+  margin: -172px 0 0 173px;
+  position: relative;
+  animation: eye 9s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
+
 .wwdTitle {
   font-size: 55px;
   line-height: 62px;
@@ -4073,7 +4228,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4540px;
+  top: 4515px;
   left: 20px;
 }
 
@@ -4178,7 +4333,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5360px;
+  top: 5325px;
   width: 300px;
 }
 
@@ -4194,7 +4349,7 @@
 
 .previousWorks {
   height: 1950px;
-  top: 5460px;
+  top: 5420px;
 }
 
 .pwArt {
@@ -4202,8 +4357,45 @@
   width: 885px;
   height: 568px;
   z-index: 4;
-  margin: -30px 0 0 -850px;
+  margin: -40px 0 0 -840px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.camera {
+  background-image: url(../assets/mobile/camera.png);
+  width: 310px;
+  height: 250px;
+  display: none;
+}
+
+.drip {
+  background-image: url(../assets/mobile/drip.png);
+  width: 80px;
+  height: 87px;
+  margin: -90px 0 0 68px;
+  animation: drip 6s infinite linear;
+  display: none;
+}
+
+.cloud {
+  background-image: url(../assets/mobile/cloud.png);
+  width: 77px;
+  height: 26px;
+  margin: -245px 0 0 70px;
+  animation: cloud 30s infinite linear;
+  display: none;
+}
+
+.cameraBalls {
+  top: 100px;
+  left: 35px;
+  z-index: 3;
+  transform: scale(1.2);
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwBalls {
   display: none;
@@ -4216,10 +4408,14 @@
   width: 600px;
 }
 
+.pwGallery {
+  width: 1160px;
+}
+
 .galleryContainer {
   height: 230px;
   overflow: hidden;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .gallery1 {
@@ -5014,6 +5210,38 @@
   width: 170px;
   height: 70px;
   margin: 0 0 60px 0;
+}
+
+.client46 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client47 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client48 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client49 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
 }
 
 /******* CAREERS *******/

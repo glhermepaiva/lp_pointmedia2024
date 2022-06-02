@@ -592,7 +592,10 @@ export default function LandingPage() {
           <div className={styles.client43} />
           <div className={styles.client44} />
           <div className={styles.client45} />
-
+          <div className={styles.client46} />
+          <div className={styles.client47} />
+          <div className={styles.client48} />
+          <div className={styles.client49} />
         </div>
       </div>
 
