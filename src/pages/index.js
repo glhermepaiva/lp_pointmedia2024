@@ -204,7 +204,7 @@ export default function LandingPage() {
           <div className={styles.tagLine} />
         </div>
         <div className={styles.newsTitle}> <div className={styles.newsBullet} /> Tem novidade na POINT! <br/> Ganhamos a conta da CAOA para divulgação do novo Tiggo 8 2022.</div>
-        <div className={styles.newsText}>Conquistamos mais um super cliente! <br/>Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira aqui como ficou a peça master!</div>
+        <div className={styles.newsText}>Conquistamos mais um super cliente! <br/>Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira como ficou a peça master!</div>
         <Link href="/articles?uri" as={"/articles"}>
           <div className={styles.play} >
             <div className={styles.playText}>Dê um play!</div>
@@ -396,10 +396,6 @@ export default function LandingPage() {
               <div className={styles.cblueText1}>Dados resultados</div>
               <div className={styles.cblueText2}>Pós-campanha</div>
             </div>
-        </div>
-        <div className={styles.hwdArrows}>
-          <div className={styles.arrowLeft} />
-          <div className={styles.arrowRight} />
         </div>
         <div className={styles.hwdWhiteBg}>
           <div className={styles.hwdwBgLight}>
@@ -607,11 +603,12 @@ export default function LandingPage() {
       <div id='careers' className={styles.careers}>
         <div className={styles.careersArt} />
         <div className={styles.careersTitle}>vagas_</div>
-        <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atras de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
+        <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atrás de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
         <div className={styles.careersOpenings}>
-          <div className={styles.career1} onClick={anchorContact}>02 vagas para DA pleno</div><br/>
-          <div className={styles.career2} onClick={anchorContact}>01 vaga para atendimento sênior</div><br/>
-          <div className={styles.career3} onClick={anchorContact}>01 vaga para redator junior</div>
+          <div className={styles.career1} onClick={anchorContact}>02 vagas para analista de mídia sênior</div><br/>
+          <div className={styles.career2} onClick={anchorContact}>02 vagas para motion designer pleno</div><br/>
+          <div className={styles.career3} onClick={anchorContact}>01 vaga para diretor de arte sênior</div><br/>
+          <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
         </div>
       </div>
 
@@ -627,9 +624,9 @@ export default function LandingPage() {
         <form className={styles.contactForm} onSubmit={onSubmit}>
           <select className={styles.formSubject} type="text" name="subject">
             <option value="" disabled selected hidden>Escolha um assunto</option>
-            <option>Ajuda 1</option>
-            <option>Ajuda 2</option>
-            <option>Ajuda 3</option>
+            <option>Assunto 1</option>
+            <option>Assunto 2</option>
+            <option>Assunto 3</option>
           </select>
           <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
           <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
