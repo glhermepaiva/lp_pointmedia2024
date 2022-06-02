@@ -499,6 +499,9 @@ export default function LandingPage() {
           <div className={styles.galleryContainer}>
             <div className={styles.gallery24} />
           </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery25} />
+          </div>
         </div>
       </div>
 

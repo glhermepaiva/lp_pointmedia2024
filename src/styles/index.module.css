@@ -2860,6 +2860,15 @@
   display: block;
 }
 
+.gallery25 {
+  background-image: url(../assets/tablet/pw24.png);
+  width: 181px;
+  height: 151px;
+  margin-bottom: 8px;
+  display: block;
+  opacity: 0%;
+}
+
 /******* CASES *******/
   
 .cases {
@@ -4731,11 +4740,21 @@
   display: block;
   filter: grayscale(100%);
   transition: transform .5s ease;
+  margin: 0 -15px 0 0;
 }
 
 .gallery24:hover{
   filter: none;
   transform: scale(1.05);
+}
+
+.gallery25 {
+  background-image: url(../assets/desktop_s/pw24.png);
+  width: 280px;
+  height: 230px;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+  display: none;
 }
 
 /******* CASES *******/
@@ -5515,6 +5534,7 @@
   top: 750px;
   right: 0px;
 }
+
 
 /*** DESABILITADO POR HORA ***/
 
@@ -6621,11 +6641,22 @@
   display: block;
   filter: grayscale(100%);
   transition: transform .5s ease;
+  margin: 0 -15px 0 0;
 }
 
 .gallery24:hover{
   filter: none;
   transform: scale(1.05);
+}
+
+.gallery25 {
+  background-image: url(../assets/desktop_s/pw24.png);
+  width: 280px;
+  height: 230px;
+  display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+  display: none;
 }
 
 /******* CASES *******/
@@ -7263,7 +7294,7 @@
 
 .hamburger {
   transform: scale(1.4);
-  margin: 0 30px 0 0;
+  margin: 0 50px 0 0;
 }
 
 .carPicture {
@@ -7374,7 +7405,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .aboutPoint {
@@ -7407,6 +7438,62 @@
   top: 750px;
   right: 120px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.astronautPoint {
+  background-image: url(../assets/mobile/astronautpoint.png);
+  width: 130px;
+  height: 143px;
+  margin: 20px 0 -30px 210px;
+  animation: astronautpoint 10s linear infinite;
+  display: none;
+}
+
+.astronautGuy {
+  background-image: url(../assets/mobile/astronautguy.png);
+  width: 269px;
+  height: 127px;
+  margin: 0 auto 80px auto;
+  animation: astronaut 20s linear infinite;
+  display: none;
+}
+
+.astronautBlack {
+  background-image: url(../assets/mobile/astronautblack.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1050px;
+  left: 90px;
+  animation: astronautblack 30s infinite linear;
+  display: none;
+}
+
+.astronautPink {
+  background-image: url(../assets/mobile/astronautpink.png);
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  position: absolute;
+  top: 1190px;
+  left: 50px;
+  animation: astronautpink 10s linear infinite;
+  display: none;
+}
+
+.astronautBlue {
+  background-image: url(../assets/mobile/astronautblue.png);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 1280px;
+  left: 290px;
+  animation: astronautblue 10s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .aboutLine {
   width: 800px;
@@ -7520,6 +7607,37 @@
   top: 1910px;
   left: 130px;
 }
+
+/*** DESABILITADO POR HORA ***/
+
+.teamGirl {
+  background-image: url(../assets/mobile/teamgirl.png);
+  width: 160px;
+  height: 210px;
+  margin: 0 0 0 108px;
+  display: none;
+}
+
+.teamCrown {
+  background-image: url(../assets/mobile/teamcrown.png);
+  width: 38px;
+  height: 24px;
+  margin: -230px 0 0 145px;
+  animation: crown 5s infinite linear;
+  display: none;
+}
+
+.teamShine {
+  background-image: url(../assets/mobile/teamshine.png);
+  width: 24px;
+  height: 24px;
+  margin: 21px 0 0 176px;
+  transform: scale(0.5);
+  animation: shine 5s infinite linear;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 55px;
@@ -7753,6 +7871,48 @@
   margin: -700px 0 200px 730px;
 }
 
+/*** DESABILITADO POR HORA ***/
+
+.alien {
+  background-image: url(../assets/mobile/alien.png);
+  width: 300px;
+  height: 190px;
+  margin: -148px 0 0 70px;
+  position: relative;
+  display: none;
+}
+
+.alienDiamond {
+  background-image: url(../assets/mobile/aliendiamond.png);
+  width: 46px;
+  height: 45px;
+  margin: -125px 0 0 60px;
+  transform: scale(0.8);
+  animation: diamond 8s linear infinite;
+  display: none;
+}
+
+.alienLeg {
+  background-image: url(../assets/mobile/alienleg.png);
+  width: 72px;
+  height: 56px;
+  margin: 80px 0 0 180px;
+  animation: leg 3s linear infinite;
+  display: none;
+}
+
+.alienEye {
+  background-image: url(../assets/mobile/alieneye.png);
+  width: 39px;
+  height: 36px;
+  margin: -172px 0 0 173px;
+  position: relative;
+  animation: eye 9s linear infinite;
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
+
 .wwdTitle {
   font-size: 55px;
   line-height: 62px;
@@ -7881,7 +8041,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4490px;
+  top: 4445px;
   left: 20px;
 }
 
@@ -7981,10 +8141,6 @@
   line-height: 30px;
 }
 
-.hwdArrows {
-  display: none;
-}
-
 .hwdWhiteBg {
   top: 5300px;
   width: 300px;
@@ -8013,9 +8169,42 @@
   margin: -30px 0 0 -850px;
 }
 
-.pwBalls {
+/*** DESABILITADO POR HORA ***/
+
+.camera {
+  background-image: url(../assets/mobile/camera.png);
+  width: 310px;
+  height: 250px;
   display: none;
 }
+
+.drip {
+  background-image: url(../assets/mobile/drip.png);
+  width: 80px;
+  height: 87px;
+  margin: -90px 0 0 68px;
+  animation: drip 6s infinite linear;
+  display: none;
+}
+
+.cloud {
+  background-image: url(../assets/mobile/cloud.png);
+  width: 77px;
+  height: 26px;
+  margin: -245px 0 0 70px;
+  animation: cloud 30s infinite linear;
+  display: none;
+}
+
+.cameraBalls {
+  top: 100px;
+  left: 35px;
+  z-index: 3;
+  transform: scale(1.2);
+  display: none;
+}
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 55px;
@@ -8024,10 +8213,15 @@
   width: 600px;
 }
 
+.pwGallery {
+  width: 1460px;
+  margin: 0px 0 -50px 0;
+}
+
 .galleryContainer {
   height: 230px;
   overflow: hidden;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .gallery1 {
@@ -8367,11 +8561,25 @@
   transform: scale(1.05);
 }
 
+.gallery25 {
+  background-image: url(../assets/desktop_s/pw1.png);
+  width: 280px;
+  height: 230px;
+  display: block;
+  filter: grayscale(100%);
+  transition: transform .5s ease;
+}
+
+.gallery25:hover{
+  filter: none;
+  transform: scale(1.05);
+}
+
 /******* CASES *******/
   
 .cases {
-  margin-top: 1645px;
-  padding-top: 50px;
+  margin-top: 1700px;
+  padding-top: 80px;
 }
 
 .casesTitle {
@@ -8822,6 +9030,38 @@
   width: 170px;
   height: 70px;
   margin: 0 0 60px 0;
+}
+
+.client46 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client47 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client48 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
+}
+
+.client49 {
+  background-image: url(../assets/mobile/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 60px 0;
+  opacity: 0%;
 }
 
 /******* CAREERS *******/
