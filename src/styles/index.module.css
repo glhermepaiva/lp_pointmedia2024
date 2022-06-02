@@ -2048,6 +2048,7 @@
   background-image: url(../assets/tablet/hamburger.png);
   width: 41px;
   height: 53px;
+  margin: 0 30px 0 0;
 }
 
 .carPicture {
@@ -2343,7 +2344,7 @@
   width: 351px;
   height: 337px;
   position: absolute;
-  top: 2670px;
+  top: 2685px;
   left: 410px;
 }
 
@@ -2513,7 +2514,7 @@
 
 .hwdBalls {
   transform: scale(1.3);
-  top: 3865px;
+  top: 3863px;
   left: 45px;
 }
 
@@ -2629,16 +2630,16 @@
 }
 
 .pwArt {
-  margin: 0 0 0 -500px;
   background-image: url(../assets/desktop_s/camera.png);
   width: 885px;
   height: 568px;
-  transform: scale(1);
+  transform: scale(0.5);
+  position: absolute;
+  top: -145px;
+  left: -280px;
 }
 
-
-
-
+/*** DESABILITADO POR HORA ***/
 
 .camera {
   background-image: url(../assets/mobile/camera.png);
@@ -2665,112 +2666,116 @@
   display: none;
 }
 
-
-
-
-.pwBalls {
+.cameraBalls {
   top: 100px;
   left: 35px;
   z-index: 3;
   transform: scale(1.2);
+  display: none;
 }
+
+/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 45px;
   line-height: 50px;
-  margin: -130px 0 100px 370px;
+  margin: 200px 0 100px 370px;
   width: 300px;
+}
+
+.pwGallery {
+  width: 750px;
 }
 
 .gallery1 {
   background-image: url(../assets/mobile/pw1.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery2 {
   background-image: url(../assets/mobile/pw2.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery3 {
   background-image: url(../assets/mobile/pw3.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery4 {
   background-image: url(../assets/mobile/pw4.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery5 {
   background-image: url(../assets/mobile/pw5.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery6 {
   background-image: url(../assets/mobile/pw6.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery7 {
   background-image: url(../assets/mobile/pw7.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery8 {
   background-image: url(../assets/mobile/pw8.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery9 {
   background-image: url(../assets/mobile/pw9.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery10 {
   background-image: url(../assets/mobile/pw10.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery11 {
   background-image: url(../assets/mobile/pw11.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery12 {
   background-image: url(../assets/mobile/pw12.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .gallery13 {
   background-image: url(../assets/tablet/pw13.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2778,7 +2783,7 @@
   background-image: url(../assets/tablet/pw14.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2786,7 +2791,7 @@
   background-image: url(../assets/tablet/pw15.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2794,7 +2799,7 @@
   background-image: url(../assets/tablet/pw16.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2802,7 +2807,7 @@
   background-image: url(../assets/tablet/pw17.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2810,7 +2815,7 @@
   background-image: url(../assets/tablet/pw18.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2818,7 +2823,7 @@
   background-image: url(../assets/tablet/pw19.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2826,7 +2831,7 @@
   background-image: url(../assets/tablet/pw20.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2834,7 +2839,7 @@
   background-image: url(../assets/tablet/pw21.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2842,7 +2847,7 @@
   background-image: url(../assets/tablet/pw22.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2850,7 +2855,7 @@
   background-image: url(../assets/tablet/pw23.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2858,7 +2863,7 @@
   background-image: url(../assets/tablet/pw24.png);
   width: 181px;
   height: 151px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: block;
 }
 
@@ -2922,7 +2927,7 @@
 .case2Title {
   font-size: 25px;
   line-height: 62px;
-  margin: 10px 0 20px -420px;
+  margin: 10px 0 20px -415px;
 }
 
 .arrowLeft {
@@ -2935,7 +2940,7 @@
   background-image: url(../assets/tablet/adops2.png);
   width: 1450px;
   height: 900px;
-  margin: -380px 0 0 160px;
+  margin: -430px 0 0 160px;
   transform: scale(0.6);
 }
 
@@ -2944,7 +2949,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 600px;
-  margin: -160px 0 0 20px;
+  margin: -105px 0 0 20px;
 }
 
 .case2Subtitle1 {
@@ -3329,7 +3334,7 @@
   top: 0px;
   left: 0px;
   position: relative;
-  margin: -250px 0 180px 110px;
+  margin: -270px 0 180px 110px;
 }
 
 .careersText {
@@ -3434,7 +3439,7 @@
 }
 
 .footerCopyright {
-  margin: 0 0 70px -430px;
+  margin: 0 0 70px -440px;
 }
 
 }

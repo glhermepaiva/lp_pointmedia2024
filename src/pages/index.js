@@ -622,11 +622,11 @@ export default function LandingPage() {
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
         {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
         <form className={styles.contactForm} onSubmit={onSubmit}>
-          <select className={styles.formSubject} type="text" name="subject">
-            <option value="" disabled selected hidden>Escolha um assunto</option>
-            <option>Assunto 1</option>
-            <option>Assunto 2</option>
-            <option>Assunto 3</option>
+          <select className={styles.formSubject} type="text" name="subject" defaultValue={"DEFAULT"}>
+            <option value="DEFAULT" disabled hidden>Escolha um assunto</option>
+            <option value="1">Assunto 1</option>
+            <option value="2">Assunto 2</option>
+            <option value="3">Assunto 3</option>
           </select>
           <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
           <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
