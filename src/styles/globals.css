@@ -1,5 +1,5 @@
-@font-face {  font-family: Poppins;  src: url('../assets/fonts/Poppins-Regular.woff');}
-@font-face {  font-family: PoppinsBold;  src: url('../assets/fonts/Poppins-Bold.woff');}
+@font-face {  font-family: Poppins;  src: url('public\fonts\Poppins-Regular.woff');}
+@font-face {  font-family: PoppinsBold;  src: url('public\fonts\Poppins-Bold.woff');}
 
 html, body {
   padding: 0;
