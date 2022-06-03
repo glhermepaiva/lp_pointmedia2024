@@ -213,19 +213,13 @@ export default function LandingPage() {
 
 
       {defaultNews ? <div className={styles.news}>
-        <div className={styles.ceaPicture} onClick={nextNews}/>
-        <div className={styles.tag}>
+        <div className={styles.ceaPicture} />
+        <div className={styles.ceaTag}>
           <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
           <div className={styles.ceaTagLine} />
         </div>
-        <div className={styles.newsTitle}> <div className={styles.newsBullet} /> A C&#38;A é o mais novo cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
-        <div className={styles.newsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
-        {/* <Link href="/articles?uri" as={"/articles"}>
-          <div className={styles.play} >
-            <div className={styles.playText}>Dê um play!</div>
-            <div className={styles.playButton} />
-          </div>
-        </Link> */}
+        <div className={styles.ceaNewsTitle}> <div className={styles.newsBullet} /> A C&#38;A é a mais novo cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
+        <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
         <div className={styles.ceaCarouselBullets}>
           <div className={styles.blackBullet} />
           <div className={styles.blueBullet} onClick={nextNews} />
@@ -234,18 +228,12 @@ export default function LandingPage() {
       :
       <div className={styles.news}>
         <div className={styles.havaianasPicture} />
-        <div className={styles.tag}>
+        <div className={styles.havaianasTag}>
           <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
           <div className={styles.havaianasTagLine} />
         </div>
-        <div className={styles.newsTitle}> <div className={styles.newsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-        <div className={styles.newsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
-        {/* <Link href="/articles?uri" as={"/articles"}>
-          <div className={styles.play} >
-            <div className={styles.playText}>Dê um play!</div>
-            <div className={styles.playButton} />
-          </div>
-        </Link> */}
+        <div className={styles.havaianasNewsTitle}> <div className={styles.newsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
         <div className={styles.havaianasCarouselBullets}>
           <div className={styles.blueBullet} onClick={prevNews}/>
           <div className={styles.blackBullet} />
