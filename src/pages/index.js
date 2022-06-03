@@ -148,6 +148,20 @@ export default function LandingPage() {
     setDefaultCase(true)
   }
 
+  /***** CASES CAROUSSEL  *****/
+
+  const [defaultNews, setDefaultNews] = useState(true)
+
+  const nextNews = () => {
+    setDefaultNews(false)
+    // alert("next news")
+  }
+  
+  const prevNews = () => {
+    setDefaultNews(true)
+    // alert("prev news")
+  }
+
   /***** PARALLAX *****/
   
   const [offsetY, setOffsetY] = useState(0);
@@ -197,22 +211,47 @@ export default function LandingPage() {
       </div> : <div className={styles.invisMenu}></div>}
 
 
-      <div className={styles.news}>
-        <div className={styles.carPicture} />
+
+      {defaultNews ? <div className={styles.news}>
+        <div className={styles.ceaPicture} onClick={nextNews}/>
         <div className={styles.tag}>
-          <div className={styles.tagText}>Novo!</div>
-          <div className={styles.tagLine} />
+          <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
+          <div className={styles.ceaTagLine} />
         </div>
-        <div className={styles.newsTitle}> <div className={styles.newsBullet} /> Tem novidade na POINT! <br/> Ganhamos a conta da CAOA para divulgação do novo Tiggo 8 2022.</div>
-        <div className={styles.newsText}>Conquistamos mais um super cliente! <br/>Agora a conta de produção digital da CAOA CHERRY é da POINT e logo, logo você já vai poder acompanhar a nova campanha do TIGGO 8 1.6 turbo GDI 2022. <br/> Confira como ficou a peça master!</div>
-        <Link href="/articles?uri" as={"/articles"}>
+        <div className={styles.newsTitle}> <div className={styles.newsBullet} /> A C&#38;A é o mais novo cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
+        <div className={styles.newsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
+        {/* <Link href="/articles?uri" as={"/articles"}>
           <div className={styles.play} >
             <div className={styles.playText}>Dê um play!</div>
             <div className={styles.playButton} />
           </div>
-        </Link>
-        <div className={styles.carouselBullets}></div>
+        </Link> */}
+        <div className={styles.ceaCarouselBullets}>
+          <div className={styles.blackBullet} />
+          <div className={styles.blueBullet} onClick={nextNews} />
+        </div>
       </div>
+      :
+      <div className={styles.news}>
+        <div className={styles.havaianasPicture} />
+        <div className={styles.tag}>
+          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
+          <div className={styles.havaianasTagLine} />
+        </div>
+        <div className={styles.newsTitle}> <div className={styles.newsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+        <div className={styles.newsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
+        {/* <Link href="/articles?uri" as={"/articles"}>
+          <div className={styles.play} >
+            <div className={styles.playText}>Dê um play!</div>
+            <div className={styles.playButton} />
+          </div>
+        </Link> */}
+        <div className={styles.havaianasCarouselBullets}>
+          <div className={styles.blueBullet} onClick={prevNews}/>
+          <div className={styles.blackBullet} />
+        </div>
+      </div> }
+      
 
 
 

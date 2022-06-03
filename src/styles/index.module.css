@@ -35,28 +35,54 @@
   flex-direction: column;
 }
 
-.carPicture {
-  background-image: url(../assets/mobile/tiggo.png);
+.ceaPicture {
+  background-image: url(../assets/mobile/cea.png);
   width: 354px;
-  height: 349px;
-  transform: scale(1.06);
+  height: 321px;
+  margin: 30px 0 20px 0;
 }
 
-.tagText {
+.havaianasPicture {
+  background-image: url(../assets/mobile/havaianas.png);
+  width: 354px;
+  height: 368px;
+  margin: -20px 0 20px 0;
+}
+
+.ceaTagText {
   font-family: PoppinsBold;
   font-size: 15px;
   position: relative;
-  margin: 0 0 0 -140px;
+  margin: -5px 0 0 -140px;
   z-index: 1;
   transform: scale(1.06);
 }
 
-.tagLine {
+.ceaTagLine {
   background-color: #6CABDE;
-  width: 55px;
+  width: 162px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 -150px;
+  margin: -11px 0 0 -145px;
+  z-index: 0;
+  transform: scale(1.06);
+}
+
+.havaianasTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -2px 0 0 -85px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.havaianasTagLine {
+  background-color: #6CABDE;
+  width: 215px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -93px;
   z-index: 0;
   transform: scale(1.06);
 }
@@ -117,13 +143,33 @@
   transform: scale(1.06);
 }
 
-.carouselBullets {
-  background-image: url(../assets/mobile/carouselbullets.png);
-  width: 112px;
+.ceaCarouselBullets {
+  width: 60px;
   height: 20px;
-  transform: scale(1.06);
-  margin: 0px 0 40px 0;
-  opacity: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px 0;
+}
+
+.havaianasCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px 0;
+}
+
+.blackBullet {
+  background-image: url(../assets/mobile/bulletblack.png);
+  width: 20px;
+  height: 20px;
+}
+
+.blueBullet {
+  background-image: url(../assets/mobile/bulletblue.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .hoverMenuInv {
@@ -358,7 +404,7 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 1050px;
+  top: 1120px;
   left: 90px;
   animation: astronautblack 30s infinite linear;
 }
@@ -383,7 +429,7 @@
   height: 63px;
   position: absolute;
   position: absolute;
-  top: 1190px;
+  top: 1250px;
   left: 50px;
   animation: astronautpink 10s linear infinite;
 }
@@ -401,7 +447,7 @@
   width: 34px;
   height: 34px;
   position: absolute;
-  top: 1280px;
+  top: 1330px;
   left: 290px;
   animation: astronautblue 10s linear infinite;
 }
@@ -948,7 +994,7 @@
   display: flex;
   width: 95vw;
   justify-content: space-around;
-  margin: 40px 0 20px 10px;
+  margin: 40px 0 20px 15px;
 }
 
 .wwd4image {
@@ -969,7 +1015,7 @@
   display: flex;
   width: 95vw;
   justify-content: space-around;
-  margin: 30px 0 20px 0px;
+  margin: 30px 0 20px 5px;
 }
 
 .wwd5image {
@@ -1009,7 +1055,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5375px;
+  top: 5405px;
   left: 20px;
 }
 
@@ -1166,7 +1212,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 5990px;
+  top: 6010px;
   width: 75vw;
 }
 
@@ -1457,7 +1503,7 @@
 .cases {
   color: #fff;
   background-color: #000;
-  margin-top: 1280px;
+  margin-top: 1260px;
   display: flex;
   flex-direction: column;
   align-items: center;
