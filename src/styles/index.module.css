@@ -7591,61 +7591,121 @@
   margin: 0 50px 0 0;
 }
 
-.carPicture {
-  background-image: url(../assets/desktop_s/tiggo.png);
-  width: 832px;
-  height: 821px;
-  margin: -50px 0 0 -590px;
+.ceaPicture {
+  background-image: url(../assets/desktop_s/cea.png);
+  width: 680px;
+  height: 617px;
+  margin: 30px 0 20px -800px;
 }
 
-.tagText {
-  font-size: 15px;
-  line-height: 18px;
-  left: 0px;
-  top: 0px;
-  position: relative;
-  margin: -640px 0 0 275px;
+.havaianasPicture {
+  background-image: url(../assets/desktop_s/havaianas.png);
+  width: 680px;
+  height: 706px;
+  margin: -58px 0 20px -800px;
+}
+
+.ceaTagText {
+  font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
+  margin: -600px 0 0 260px;
+  z-index: 1;
 }
 
-.tagLine {
-  width: 78px;
+.ceaTagLine {
+  background-color: #6CABDE;
+  width: 220px;
   height: 10px;
-  left: 0px;
-  top: 0px;
   position: relative;
-  margin: -13px 0 0 265px;
+  margin: -11px 0 0 250px;
+  z-index: 0;
 }
 
-.newsTitle {
-  width: 530px;
-  margin: -580px 0 0 670px;
-  font-size: 40px;
-  line-height: 45px;
-  transform: scale(0.9);
-}
-
-.newsBullet {
-  width: 15px;
-  height: 15px;
-  transform: scale(1);
-  top: 16px;
-  left: -25px;
-}
-
-.newsText {
-  width: 430px;
-  margin: 40px 0 0 625px;
-  transform: scale(1);
-}
-
-.carouselBullets {
-  transform: scale(1.06) rotate(270deg);
+.havaianasTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
   position: relative;
-  right: 0px;
-  top: 0px;
-  margin: -220px 0 0 1200px;
+  margin: -600px 0 0 320px;
+  z-index: 1;
+}
+
+.havaianasTagLine {
+  background-color: #6CABDE;
+  width: 280px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 310px;
+  z-index: 0;
+}
+
+.ceaCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 50px 130px;
+}
+
+.havaianasCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 49px 130px;
+}
+
+.blackBullet {
+  background-image: url(../assets/mobile/bulletblack.png);
+  width: 20px;
+  height: 20px;
+}
+
+.blueBullet {
+  background-image: url(../assets/mobile/bulletblue.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ceaNewsTitle {
+  width: 650px;
+  margin: -500px 0 0 720px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.ceaNewsText {
+  width: 500px;
+  margin: 25px 0 0 565px;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+.ceaNewsBullet {
+  top: 18px;
+  left: -15px;
+}
+
+.havaianasNewsTitle {
+  width: 650px;
+  margin: -500px 0 0 720px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.havaianasNewsText {
+  width: 610px;
+  margin: 25px 0 0 683px;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+.havaianasNewsBullet {
+  top: 18px;
+  left: -15px;
 }
 
 .play {
@@ -7699,7 +7759,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 500px;
+  margin-top: 100px;
 }
 
 .aboutPoint {
@@ -7794,7 +7854,7 @@
   width: 800px;
   height: 675px;
   position: absolute;
-  top: 1590px;
+  top: 1490px;
   left: 190px;
 }
 
@@ -7812,7 +7872,7 @@
   width: 837px;
   height: 651px;
   right: -42px;
-  top: 1630px;
+  top: 1530px;
   padding-top: 10px;
   transform: scale(0.9);
 }
@@ -7899,7 +7959,7 @@
   width: 603px;
   height: 603px;
   position: absolute;
-  top: 1910px;
+  top: 1780px;
   left: 130px;
 }
 
@@ -8163,7 +8223,7 @@
   position: relative;
   top: 0px;
   right: 0px;
-  margin: -700px 0 200px 730px;
+  margin: -700px 0 200px 900px;
 }
 
 /*** DESABILITADO POR HORA ***/
@@ -8336,7 +8396,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4445px;
+  top: 4385px;
   left: 20px;
 }
 
@@ -8437,7 +8497,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5300px;
+  top: 5190px;
   width: 300px;
 }
 
@@ -8452,8 +8512,8 @@
 /******* PREVIOUS WORKS *******/
 
 .previousWorks {
-  height: 1700px;
-  top: 5402px;
+  height: 1750px;
+  top: 5290px;
 }
 
 .pwArt {
@@ -8993,7 +9053,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 8620px;
+  top: 8650px;
   left: 50px;
 }
 
