@@ -7685,8 +7685,10 @@
 }
 
 .ceaNewsBullet {
-  top: 18px;
-  left: -15px;
+  top: 25px;
+  left: -25px;
+  width: 15px;
+  height: 15px;
 }
 
 .havaianasNewsTitle {
@@ -7704,8 +7706,10 @@
 }
 
 .havaianasNewsBullet {
-  top: 18px;
-  left: -15px;
+  top: 25px;
+  left: -25px;
+  width: 15px;
+  height: 15px;
 }
 
 .play {
@@ -9576,61 +9580,125 @@
   margin: -3px 50px 0 0;
 }
 
-.carPicture {
-  background-image: url(../assets/desktop_l/tiggo.png);
-  width: 1000px;
-  height: 986px;
-  margin: -100px 0 0 -930px;
+.ceaPicture {
+  background-image: url(../assets/desktop_l/cea.png);
+  width: 850px;
+  height: 771px;
+  margin: 0px 0 20px -900px;
 }
 
-.tagText {
+.havaianasPicture {
+  background-image: url(../assets/desktop_l/havaianas.png);
+  width: 850px;
+  height: 800px;
+  margin: -20px 0 20px -934px;
+}
+
+.ceaTagText {
+  font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
-  left: 0px;
-  top: 0px;
   position: relative;
-  margin: -820px 0 0 160px;
-  font-size: 20px;
-  line-height: 30px;
+  margin: -700px 0 0 280px;
+  z-index: 1;
 }
 
-.tagLine {
-  width: 78px;
+.ceaTagLine {
+  background-color: #6CABDE;
+  width: 220px;
   height: 10px;
-  left: 0px;
-  top: 0px;
   position: relative;
-  margin: -13px 0 0 155px;
+  margin: -11px 0 0 270px;
+  z-index: 0;
 }
 
-.newsTitle {
-  width: 790px;
-  margin: -750px 0 0 920px;
-  font-size: 60px;
+.havaianasTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -709px 0 0 345px;
+  z-index: 1;
+}
+
+.havaianasTagLine {
+  background-color: #6CABDE;
+  width: 280px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 335px;
+  z-index: 0;
+}
+
+.ceaCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 50px 140px;
+}
+
+.havaianasCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 49px 140px;
+}
+
+.blackBullet {
+  background-image: url(../assets/mobile/bulletblack.png);
+  width: 20px;
+  height: 20px;
+}
+
+.blueBullet {
+  background-image: url(../assets/mobile/bulletblue.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ceaNewsTitle {
+  width: 650px;
+  margin: -600px 0 0 750px;
   line-height: 60px;
+  font-size: 60px;
 }
 
-.newsBullet {
+.ceaNewsText {
+  width: 500px;
+  margin: 25px 0 0 590px;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+.ceaNewsBullet {
+  top: 25px;
+  left: -25px;
   width: 15px;
   height: 15px;
-  transform: scale(1);
-  top: 16px;
-  left: -25px;
 }
 
-.newsText {
-  width: 510px;
-  margin: 50px 0 0 600px;
-  transform: scale(1);
+.havaianasNewsTitle {
+  width: 650px;
+  margin: -610px 0 0 750px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.havaianasNewsText {
+  width: 610px;
+  margin: 25px 0 0 710px;
+  line-height: 27px;
   font-size: 20px;
 }
 
-.carouselBullets {
-  transform: scale(1.06) rotate(270deg);
-  position: relative;
-  right: 0px;
-  top: 0px;
-  margin: -330px 0 0 1690px;
+.havaianasNewsBullet {
+  top: 25px;
+  left: -25px;
+  width: 15px;
+  height: 15px;
 }
 
 .play {
@@ -9684,7 +9752,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 700px;
+  margin-top: 200px;
 }
 
 .aboutPoint {
@@ -9714,7 +9782,7 @@
   height: 1025px;
   transform: scale(0.9);
   position: absolute;
-  top: 900px;
+  top: 830px;
   right: 50px;
 }
 
@@ -9778,7 +9846,7 @@
   width: 1000px;
   height: 775px;
   position: absolute;
-  top: 1920px;
+  top: 1800px;
   left: 220px;
 }
 
@@ -9796,7 +9864,7 @@
   width: 1043px;
   height: 650px;
   right: 0px;
-  top: 2000px;
+  top: 1890px;
   padding-top: 10px;
   transform: scale(1);
 }
@@ -9884,7 +9952,7 @@
   width: 603px;
   height: 603px;
   position: absolute;
-  top: 2300px;
+  top: 2120px;
   left: 275px;
 }
 
@@ -10330,7 +10398,7 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 5020px;
+  top: 4950px;
   left: 20px;
 }
 
@@ -10431,7 +10499,7 @@
 }
 
 .hwdWhiteBg {
-  top: 6110px;
+  top: 6030px;
   width: 340px;
   transform: scale(1.2);
 }
@@ -10448,7 +10516,7 @@
 
 .previousWorks {
   height: 1480px;
-  top: 6230px;
+  top: 6150px;
 }
 
 .pwArt {
@@ -10962,7 +11030,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9150px;
+  top: 9080px;
   left: 180px;
 }
 
