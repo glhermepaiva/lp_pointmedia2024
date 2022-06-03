@@ -218,7 +218,7 @@ export default function LandingPage() {
           <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
           <div className={styles.ceaTagLine} />
         </div>
-        <div className={styles.ceaNewsTitle}> <div className={styles.newsBullet} /> A C&#38;A é a mais novo cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
+        <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
         <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
         <div className={styles.ceaCarouselBullets}>
           <div className={styles.blackBullet} />
@@ -232,7 +232,7 @@ export default function LandingPage() {
           <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
           <div className={styles.havaianasTagLine} />
         </div>
-        <div className={styles.havaianasNewsTitle}> <div className={styles.newsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
         <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
         <div className={styles.havaianasCarouselBullets}>
           <div className={styles.blueBullet} onClick={prevNews}/>

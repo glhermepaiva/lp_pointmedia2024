@@ -87,7 +87,18 @@
   transform: scale(1.06);
 }
 
-.newsBullet {
+.ceaNewsBullet {
+  background-color: #6CABDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  transform: scale(1.06);
+  position: absolute;
+  top: 9px;
+  left: -12px;
+}
+
+.havaianasNewsBullet {
   background-color: #6CABDE;
   width: 10px;
   height: 10px;
@@ -3625,61 +3636,121 @@
   margin: 0 30px 0 0;
 }
 
-.carPicture {
-  background-image: url(../assets/desktop_s/tiggo.png);
-  width: 832px;
-  height: 821px;
-  margin: -50px 0 0 -590px;
+.ceaPicture {
+  background-image: url(../assets/desktop_s/cea.png);
+  width: 680px;
+  height: 617px;
+  margin: 20px 0 20px -450px;
 }
 
-.tagText {
-  font-size: 15px;
-  line-height: 18px;
-  left: 0px;
-  top: 0px;
-  position: relative;
-  margin: -660px 0 0 270px;
+.havaianasPicture {
+  background-image: url(../assets/desktop_s/havaianas.png);
+  width: 680px;
+  height: 706px;
+  margin: -68px 0 20px -450px;
+}
+
+.ceaTagText {
+  font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
+  margin: -600px 0 0 480px;
+  z-index: 1;
 }
 
-.tagLine {
-  width: 78px;
+.ceaTagLine {
+  background-color: #6CABDE;
+  width: 220px;
   height: 10px;
-  left: 0px;
-  top: 0px;
   position: relative;
-  margin: -13px 0 0 265px;
+  margin: -11px 0 0 475px;
+  z-index: 0;
 }
 
-.newsTitle {
-  width: 530px;
-  margin: -580px 0 0 670px;
-  font-size: 40px;
+.havaianasTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -600px 0 0 543px;
+  z-index: 1;
+}
+
+.havaianasTagLine {
+  background-color: #6CABDE;
+  width: 280px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 535px;
+  z-index: 0;
+}
+
+.ceaCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 50px 325px;
+}
+
+.havaianasCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 50px 325px;
+}
+
+.blackBullet {
+  background-image: url(../assets/mobile/bulletblack.png);
+  width: 20px;
+  height: 20px;
+}
+
+.blueBullet {
+  background-image: url(../assets/mobile/bulletblue.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ceaNewsTitle {
+  width: 410px;
+  margin: -500px 0 0 680px;
   line-height: 45px;
-  transform: scale(0.9);
+  font-size: 40px;
 }
 
-.newsBullet {
-  width: 15px;
-  height: 15px;
-  transform: scale(1);
-  top: 16px;
-  left: -25px;
+.ceaNewsText {
+  width: 350px;
+  margin: 25px 0 0 620px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
-.newsText {
-  width: 430px;
-  margin: 40px 0 0 625px;
-  transform: scale(1);
+.ceaNewsBullet {
+  top: 18px;
+  left: -15px;
 }
 
-.carouselBullets {
-  transform: scale(1.06) rotate(270deg);
-  position: relative;
-  right: 0px;
-  top: 0px;
-  margin: -220px 0 0 1160px;
+.havaianasNewsBullet {
+  top: 18px;
+  left: -15px;
+}
+
+.havaianasNewsTitle {
+  width: 400px;
+  margin: -500px 0 0 670px;
+  line-height: 45px;
+  font-size: 40px;
+}
+
+.havaianasNewsText {
+  width: 330px;
+  margin: 25px 0 0 600px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
 .play {
@@ -3733,7 +3804,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 400px;
+  margin-top: -300px;
 }
 
 .aboutPoint {
@@ -4192,7 +4263,7 @@
   position: relative;
   top: 0px;
   right: 0px;
-  margin: -700px 0 200px 500px;
+  margin: -700px 0 200px 580px;
 }
 
 /*** DESABILITADO POR HORA ***/
@@ -4240,7 +4311,7 @@
 .wwdTitle {
   font-size: 55px;
   line-height: 62px;
-  margin: -530px 0 0 -600px;
+  margin: -530px 0 0 -550px;
   width: 600px;
 }
 
@@ -4248,7 +4319,7 @@
   font-size: 45px;
   line-height: 50px;
   width: 600px;
-  margin: 40px 0 0 -600px;
+  margin: 40px 0 0 -550px;
 }
 
 .wwdWorks {
@@ -4365,7 +4436,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4515px;
+  top: 4485px;
   left: 20px;
 }
 
@@ -4470,7 +4541,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5325px;
+  top: 5290px;
   width: 300px;
 }
 
@@ -4486,7 +4557,7 @@
 
 .previousWorks {
   height: 1950px;
-  top: 5420px;
+  top: 5390px;
 }
 
 .pwArt {
@@ -5008,7 +5079,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 8920px;
+  top: 8950px;
   left: 10px;
 }
 
