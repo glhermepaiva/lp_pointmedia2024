@@ -677,7 +677,6 @@ export default function LandingPage() {
 
 
       <div id='contact' className={styles.contact}>
-        <div className={styles.divideLine} />
         <div className={styles.contactArt} />
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
