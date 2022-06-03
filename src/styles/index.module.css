@@ -2099,6 +2099,42 @@
   margin: 0 0 30px -135px;
 }
 
+@media (min-width: 450px) and (max-width:767px) {
+
+  .aboutImage {
+    margin: 0 0 0 100px;
+  }
+
+  .aboutText {
+    margin: 0 0 0 90px;
+  }
+
+  .aboutLine {
+    width: 320px;
+  }
+
+  .teamArt {
+    margin-left: 70px;
+  }
+
+  .teamText {
+    width: 340px;
+  }
+
+  .teamPictures {
+    width: 449px;
+  }
+
+  .wwdAlien {
+    margin-left: 100px;
+  }
+
+  .clientsTitle {
+    margin-left: 100px;
+  }
+
+}
+
 @media (min-width: 768px) and (max-width:1199px) {
 
 /******* HEADER *******/
@@ -2409,7 +2445,7 @@
   height: 603px;
   position: absolute;
   top: 1340px;
-  left: -95px;
+  left: -130px;
   transform: scale(0.75);
 }
 
@@ -2446,7 +2482,7 @@
 
 .teamTitle {
   font-size: 45px;
-  margin: 100px 0 0 50px;
+  margin: 30px 0 0 50px;
 }
 
 .teamText {
@@ -2476,8 +2512,8 @@
   width: 351px;
   height: 337px;
   position: absolute;
-  top: 2755px;
-  left: 460px;
+  top: 2685px;
+  left: 410px;
 }
 
 
@@ -2646,7 +2682,7 @@
 
 .hwdBalls {
   transform: scale(1.3);
-  top: 3935px;
+  top: 3865px;
   left: 45px;
 }
 
@@ -2749,7 +2785,7 @@
 }
 
 .hwdWhiteBg {
-  top: 4470px;
+  top: 4410px;
   width: 240px;
   transform: scale(0.8);
 }
@@ -2758,7 +2794,7 @@
 
 .previousWorks {
   height: 1330px;
-  top: 4550px;
+  top: 4485px;
 }
 
 .pwArt {
@@ -3126,7 +3162,7 @@
   line-height: 50px;
   width: 300px;
   position: absolute;
-  top: 7140px;
+  top: 7060px;
   left: 45px;
 }
 
@@ -5079,7 +5115,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 8950px;
+  top: 8820px;
   left: 10px;
 }
 
@@ -5592,61 +5628,121 @@
   margin: 0 30px 0 0;
 }
 
-.carPicture {
-  background-image: url(../assets/desktop_s/tiggo.png);
-  width: 832px;
-  height: 821px;
-  margin: -50px 0 0 -590px;
+.ceaPicture {
+  background-image: url(../assets/desktop_s/cea.png);
+  width: 680px;
+  height: 617px;
+  margin: 20px 0 20px -450px;
 }
 
-.tagText {
-  font-size: 15px;
-  line-height: 18px;
-  left: 0px;
-  top: 0px;
-  position: relative;
-  margin: -660px 0 0 270px;
+.havaianasPicture {
+  background-image: url(../assets/desktop_s/havaianas.png);
+  width: 680px;
+  height: 706px;
+  margin: -68px 0 20px -450px;
+}
+
+.ceaTagText {
+  font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
+  margin: -600px 0 0 480px;
+  z-index: 1;
 }
 
-.tagLine {
-  width: 78px;
+.ceaTagLine {
+  background-color: #6CABDE;
+  width: 220px;
   height: 10px;
-  left: 0px;
-  top: 0px;
   position: relative;
-  margin: -13px 0 0 265px;
+  margin: -11px 0 0 475px;
+  z-index: 0;
 }
 
-.newsTitle {
-  width: 530px;
-  margin: -580px 0 0 670px;
-  font-size: 40px;
+.havaianasTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -600px 0 0 543px;
+  z-index: 1;
+}
+
+.havaianasTagLine {
+  background-color: #6CABDE;
+  width: 280px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 535px;
+  z-index: 0;
+}
+
+.ceaCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 50px 325px;
+}
+
+.havaianasCarouselBullets {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 49px 325px;
+}
+
+.blackBullet {
+  background-image: url(../assets/mobile/bulletblack.png);
+  width: 20px;
+  height: 20px;
+}
+
+.blueBullet {
+  background-image: url(../assets/mobile/bulletblue.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ceaNewsTitle {
+  width: 410px;
+  margin: -500px 0 0 680px;
   line-height: 45px;
-  transform: scale(0.9);
+  font-size: 40px;
 }
 
-.newsBullet {
-  width: 15px;
-  height: 15px;
-  transform: scale(1);
-  top: 16px;
-  left: -25px;
+.ceaNewsText {
+  width: 350px;
+  margin: 25px 0 0 620px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
-.newsText {
-  width: 430px;
-  margin: 40px 0 0 625px;
-  transform: scale(1);
+.ceaNewsBullet {
+  top: 18px;
+  left: -15px;
 }
 
-.carouselBullets {
-  transform: scale(1.06) rotate(270deg);
-  position: relative;
-  right: 0px;
-  top: 0px;
-  margin: -220px 0 0 1160px;
+.havaianasNewsBullet {
+  top: 18px;
+  left: -15px;
+}
+
+.havaianasNewsTitle {
+  width: 400px;
+  margin: -500px 0 0 670px;
+  line-height: 45px;
+  font-size: 40px;
+}
+
+.havaianasNewsText {
+  width: 330px;
+  margin: 25px 0 0 600px;
+  line-height: 20px;
+  font-size: 15px;
 }
 
 .play {
@@ -5700,7 +5796,7 @@
 /******* ABOUT *******/
 
 .about {
-  margin-top: 500px;
+  margin-top: 200px;
 }
 
 .aboutPoint {
@@ -6335,7 +6431,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4465px;
+  top: 4435px;
   left: 20px;
 }
 
@@ -6440,7 +6536,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5275px;
+  top: 5245px;
   width: 300px;
 }
 
@@ -6456,7 +6552,7 @@
 
 .previousWorks {
   height: 2000px;
-  top: 5370px;
+  top: 5340px;
 }
 
 .pwArt {
@@ -6980,7 +7076,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 8650px;
+  top: 8800px;
   left: 50px;
 }
 
