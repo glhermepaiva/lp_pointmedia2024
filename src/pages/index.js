@@ -204,7 +204,6 @@ export default function LandingPage() {
 
   return (
     <div className={styles.page}>
-      <link href='/public/fonts/fonts.css' rel="stylesheet" />
       <Head>
         <title>POINT MEDIA</title>
         <meta name='description' content='Motion é o que realmente nos move' />
