@@ -4,7 +4,6 @@ import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
-import Link from 'next/link'
 
 export default function LandingPage() {
 
@@ -205,10 +204,10 @@ export default function LandingPage() {
 
   return (
     <div className={styles.page}>
+      <link href='/public/fonts/fonts.css' rel="stylesheet" />
       <Head>
         <title>POINT MEDIA</title>
         <meta name='description' content='Motion é o que realmente nos move' />
-        <Link href='/public/fonts/fonts.css' rel="stylesheet" />
       </Head>
       
       <div id='header' className={styles.header}>
