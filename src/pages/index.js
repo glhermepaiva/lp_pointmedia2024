@@ -30,8 +30,8 @@ export default function LandingPage() {
     window.open('https://www.instagram.com/pointmediaoficial/');
   }
 
-  const openTwitter = () => {
-    window.open('https://www.twitter.com/pointmediaoficial/');
+  const openLinkedin = () => {
+    window.open('https://br.linkedin.com/company/point-media-oficial');
   }
 
   const openFacebook = () => {
@@ -117,8 +117,8 @@ export default function LandingPage() {
 
     const isValid = await schema.isValid(formData);
 
-    if (isValid) {
-        emailjs.sendForm('service_ibuddku', 'template_pointmedia', e.target, 'G6ql6Hx-_wrEAm6fd')
+    if (isValid && formData.subject == '1') {
+        emailjs.sendForm('service_xdtul6r', 'template_comercial', e.target, 'G6ql6Hx-_wrEAm6fd')
 
         .then((result) => {
             console.log(result);
@@ -129,7 +129,30 @@ export default function LandingPage() {
             setLoading(false)
         });
 
-          
+    } else if (isValid && formData.subject == '2') {
+      emailjs.sendForm('service_xdtul6r', 'template_atendimento', e.target, 'G6ql6Hx-_wrEAm6fd')
+
+      .then((result) => {
+          console.log(result);
+          alert("Sucesso! Logo entraremos em contato!")
+          window.location.href = "/?uri=";
+      }, (error) => {
+          console.log(error);
+          setLoading(false)
+      });
+
+    } else if (isValid && formData.subject == '3') {
+      emailjs.sendForm('service_15r2kjb', 'template_financeiro', e.target, 'yWzq25svn0E4FD_jn')
+
+      .then((result) => {
+          console.log(result);
+          alert("Sucesso! Logo entraremos em contato!")
+          window.location.href = "/?uri=";
+      }, (error) => {
+          console.log(error);
+          setLoading(false)
+      });
+
     } else {
         alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
         setLoading(false)
@@ -199,12 +222,12 @@ export default function LandingPage() {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>nossos clientes</div>
-          <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div>
+          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
           <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.menuSocials}>
           <div className={styles.instagram} onClick={openInstagram}/>
-          <div className={styles.twitter} onClick={openTwitter}/>
+          <div className={styles.linkedin} onClick={openLinkedin}/>
           <div className={styles.facebook} onClick={openFacebook}/>
         </div>
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
@@ -650,6 +673,7 @@ export default function LandingPage() {
 
 
       <div id='contact' className={styles.contact}>
+        <div className={styles.divideLine} />
         <div className={styles.contactArt} />
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
@@ -657,9 +681,9 @@ export default function LandingPage() {
         <form className={styles.contactForm} onSubmit={onSubmit}>
           <select className={styles.formSubject} type="text" name="subject" defaultValue={"DEFAULT"}>
             <option value="DEFAULT" disabled hidden>Escolha um assunto</option>
-            <option value="1">Assunto 1</option>
-            <option value="2">Assunto 2</option>
-            <option value="3">Assunto 3</option>
+            <option value="1">Comercial</option>
+            <option value="2">Projetos</option>
+            <option value="3">Administrativo/Financeiro</option>
           </select>
           <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
           <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
@@ -682,13 +706,13 @@ export default function LandingPage() {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>nossos clientes</div>
-          <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div>
+          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
           <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.footerLogo} onClick={anchorHeader} />
         <div className={styles.footerSocials}>
           <div className={styles.instagram} onClick={openInstagram}></div>
-          <div className={styles.twitter} onClick={openTwitter}></div>
+          <div className={styles.linkedin} onClick={openLinkedin}></div>
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
         <div className={styles.footerLocation}>

@@ -1242,7 +1242,7 @@
   justify-content: space-around;
   position: absolute;
   top: 6010px;
-  width: 75vw;
+  width: 60vw;
 }
 
 .hwdwBgLight {
@@ -1787,6 +1787,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: none;
 }
 
 .careersArt {
@@ -1875,6 +1876,13 @@
 
 /******* CONTACT *******/
 
+.divideLine {
+  background-color: #EB6099;
+  width: 100vw;
+  height: 3px;
+  border-radius: 20%;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -1885,7 +1893,7 @@
   background-image: url(../assets/mobile/contact.png);
   width: 269px;
   height: 232px;
-  margin: 20px 0 20px 0;
+  margin: 50px 0 20px 0;
 }
 
 .contactTitle {
@@ -1997,7 +2005,7 @@
   border: 2px #EB6099 solid;
   border-radius: 30px;
   color: #EB6099;
-  padding: 20px 0 0 20px;
+  padding: 20px 100px 20px 20px;
   margin: 15px 0 10px 0;
   resize: none;
 }
@@ -2064,10 +2072,10 @@
   cursor: pointer;
 }
 
-.twitter {
-  background-image: url(../assets/mobile/twitter.png);
-  width: 33px;
-  height: 27px;
+.linkedin {
+  background-image: url(../assets/mobile/linkedin.png);
+  width: 32px;
+  height: 32px;
   cursor: pointer;
 }
 
