@@ -2090,6 +2090,7 @@
   background-image: url(../assets/mobile/pin.png);
   width: 23px;
   height: 31px;
+  cursor: pointer;
 }
 
 .address {

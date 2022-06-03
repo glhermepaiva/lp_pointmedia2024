@@ -38,6 +38,10 @@ export default function LandingPage() {
     window.open('https://www.facebook.com/Point-Media-2496784783713500/');
   }
 
+  const openMaps = () => {
+    window.open('https://goo.gl/maps/m1zxnHaACgxrymi66/');
+  }
+
   /***** ANCHOR LINKS  *****/
 
   const anchorHeader = () => {
@@ -716,7 +720,7 @@ export default function LandingPage() {
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
         <div className={styles.footerLocation}>
-          <div className={styles.pin}></div>
+          <div className={styles.pin} onClick={openMaps} />
           <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>Telefone: (11) 3368-9006</div>
         </div>
         <div className={styles.footerCopyright}>© pointmedia 2022</div>
