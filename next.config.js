@@ -10,7 +10,24 @@ module.exports = nextConfig
 
 
 
-const securityHeaders = []
+
+
+
+
+const ContentSecurityPolicy = `
+  default-src 'self';
+  script-src 'self';
+  child-src example.com;
+  style-src 'self' example.com;
+  font-src 'self';  
+`
+
+const securityHeaders = [
+  {
+    key: 'Content-Security-Policy',
+    value: ContentSecurityPolicy.replace(/\s{2,}/g, ' ').trim()
+  }  
+]
 
 module.exports = {
   async headers() {
