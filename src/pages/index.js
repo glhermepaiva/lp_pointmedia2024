@@ -784,168 +784,168 @@ export default function LandingPage() {
 
       {modal2Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal2} />
-          <iframe className={styles.iframe2} src="/pieces/02.html" scrolling='no' />
+          <iframe className={styles.iframe2} src="/02.html" scrolling='no' />
         </div> : null}
 
       {modal3Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal3} />
-          <iframe className={styles.iframe3} src="/pieces/03.html" />
+          <iframe className={styles.iframe3} src="/03.html" />
         </div> : null}
 
       {modal4Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal4} />
           <video className={styles.video04} controls>
-            <source src="/pieces/04.mp4" type="video/mp4" />
+            <source src="/04.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal5Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal5} />
-          <iframe className={styles.iframe5} src="/pieces/05.html" />
+          <iframe className={styles.iframe5} src="/05.html" />
         </div> : null}
 
         {modal6Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal6} />
           <video className={styles.video06} controls>
-            <source src="/pieces/06.mp4" type="video/mp4" />
+            <source src="/06.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal7Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal7} />
           <video className={styles.video07} controls>
-            <source src="/pieces/07.mp4" type="video/mp4" />
+            <source src="/07.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal8Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal8} />
           <video className={styles.video08} controls>
-            <source src="/pieces/08.mp4" type="video/mp4" />
+            <source src="/08.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal9Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal9} />
-          <iframe className={styles.iframe9} src="/pieces/09.html" />
+          <iframe className={styles.iframe9} src="/09.html" />
         </div> : null}
 
         {modal10Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal10} />
           <video className={styles.video10} controls>
-            <source src="/pieces/10.mp4" type="video/mp4" />
+            <source src="/10.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal11Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal11} />
-          <iframe className={styles.iframe11} src="/pieces/11.html" />
+          <iframe className={styles.iframe11} src="/11.html" />
         </div> : null}
 
         {modal12Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal12} />
-          <iframe className={styles.iframe12} src="/pieces/12.html" />
+          <iframe className={styles.iframe12} src="/12.html" />
         </div> : null}
 
         {modal13Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal13} />
-          <iframe className={styles.iframe13} src="/pieces/13.html" />
+          <iframe className={styles.iframe13} src="/13.html" />
         </div> : null}
 
         {modal14Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal14} />
-          <iframe className={styles.iframe14} src="/pieces/14.html" />
+          <iframe className={styles.iframe14} src="/14.html" />
         </div> : null}
 
         {modal15Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal15} />
-          <iframe className={styles.iframe15} src="/pieces/15.html" />
+          <iframe className={styles.iframe15} src="/15.html" />
         </div> : null}
 
         {modal16Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal16} />
           <video className={styles.video16} controls>
-            <source src="/pieces/16.mp4" type="video/mp4" />
+            <source src="/16.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal17Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal17} />
-          <iframe className={styles.iframe17} src="/pieces/17.html" />
+          <iframe className={styles.iframe17} src="/17.html" />
         </div> : null}
 
         {modal18Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal18} />
           <video className={styles.video18} controls>
-            <source src="/pieces/18.mp4" type="video/mp4" />
+            <source src="/18.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal19Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal19} />
-          <iframe className={styles.iframe19} src="/pieces/19.html" />
+          <iframe className={styles.iframe19} src="/19.html" />
         </div> : null}
 
         {modal20Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal20} />
-          <iframe className={styles.iframe20} src="/pieces/20.html" />
+          <iframe className={styles.iframe20} src="/20.html" />
         </div> : null}
 
         {modal21Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal21} />
-          <iframe className={styles.iframe21} src="/pieces/21.html" />
+          <iframe className={styles.iframe21} src="/21.html" />
         </div> : null}
 
         {modal22Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal22} />
-          <iframe className={styles.iframe22} src="/pieces/22.html" />
+          <iframe className={styles.iframe22} src="/22.html" />
         </div> : null}
 
         {modal23Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal23} />
-          <iframe className={styles.iframe23} src="/pieces/23.html" />
+          <iframe className={styles.iframe23} src="/23.html" />
         </div> : null}
 
         {modal24Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal24} />
-          <iframe className={styles.iframe24} src="/pieces/24.html" />
+          <iframe className={styles.iframe24} src="/24.html" />
         </div> : null}
 
         {modal25Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal25} />
-          <iframe className={styles.iframe25} src="/pieces/25.html" />
+          <iframe className={styles.iframe25} src="/25.html" />
         </div> : null}
 
         {modal26Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal26} />
-          <iframe className={styles.iframe26} src="/pieces/26.html" />
+          <iframe className={styles.iframe26} src="/26.html" />
         </div> : null}
 
         {modal27Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal27} />
-          <iframe className={styles.iframe27} src="/pieces/27.html" />
+          <iframe className={styles.iframe27} src="/27.html" />
         </div> : null}
 
         {modal28Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal28} />
           <video className={styles.video28} controls>
-            <source src="/pieces/28.mp4" type="video/mp4" />
+            <source src="/28.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal29Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal29} />
-          <iframe className={styles.iframe29} src="/pieces/29.html" />
+          <iframe className={styles.iframe29} src="/29.html" />
         </div> : null}
 
         {modal30Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal30} />
-          <iframe className={styles.iframe30} src="/pieces/30.html" />
+          <iframe className={styles.iframe30} src="/30.html" />
         </div> : null}
 
         {modal31Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal31} />
-          <iframe className={styles.iframe31} src="/pieces/31.html" />
+          <iframe className={styles.iframe31} src="/31.html" />
         </div> : null}
 
       <div id='prevworks' className={styles.previousWorks}>
