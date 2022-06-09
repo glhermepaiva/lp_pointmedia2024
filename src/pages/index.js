@@ -779,7 +779,7 @@ export default function LandingPage() {
 
       {modal1Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal1} />
-          <iframe className={styles.iframe1} src="../assets/pieces/01.html" />
+          <iframe className={styles.iframe1} src="/01.html" />
         </div> : null}
 
       {modal2Open ? <div className={styles.galleryModal}>
