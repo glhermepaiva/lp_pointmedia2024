@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '/static/fonts/fonts.css'
+import '/fonts/fonts.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
