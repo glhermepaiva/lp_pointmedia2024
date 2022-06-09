@@ -794,7 +794,7 @@ export default function LandingPage() {
 
       {modal4Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal4} />
-          <video className={styles.video04} controls>
+          <video className={styles.video04} controls autoPlay muted>
             <source src="/04.mp4" type="video/mp4" />
           </video>
         </div> : null}
@@ -806,21 +806,21 @@ export default function LandingPage() {
 
         {modal6Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal6} />
-          <video className={styles.video06} controls>
+          <video className={styles.video06} controls autoPlay muted>
             <source src="/06.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal7Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal7} />
-          <video className={styles.video07} controls>
+          <video className={styles.video07} controls autoPlay muted>
             <source src="/07.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
         {modal8Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal8} />
-          <video className={styles.video08} controls>
+          <video className={styles.video08} controls autoPlay muted>
             <source src="/08.mp4" type="video/mp4" />
           </video>
         </div> : null}
@@ -832,7 +832,7 @@ export default function LandingPage() {
 
         {modal10Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal10} />
-          <video className={styles.video10} controls>
+          <video className={styles.video10} controls autoPlay muted>
             <source src="/10.mp4" type="video/mp4" />
           </video>
         </div> : null}
@@ -864,7 +864,7 @@ export default function LandingPage() {
 
         {modal16Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal16} />
-          <video className={styles.video16} controls>
+          <video className={styles.video16} controls autoPlay muted>
             <source src="/16.mp4" type="video/mp4" />
           </video>
         </div> : null}
@@ -876,7 +876,7 @@ export default function LandingPage() {
 
         {modal18Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal18} />
-          <video className={styles.video18} controls>
+          <video className={styles.video18} controls autoPlay muted>
             <source src="/18.mp4" type="video/mp4" />
           </video>
         </div> : null}
@@ -928,7 +928,7 @@ export default function LandingPage() {
 
         {modal28Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal28} />
-          <video className={styles.video28} controls>
+          <video className={styles.video28} controls autoPlay muted>
             <source src="/28.mp4" type="video/mp4" />
           </video>
         </div> : null}

@@ -1331,8 +1331,8 @@
 }
 
 .video04 {
-  width: 350px;
-  height: 622px;
+  width: 300px;
+  height: 567px;
 }
 
 .iframe5 {
@@ -1346,8 +1346,8 @@
 }
 
 .video07 {
-  width: 350px;
-  height: 622px;
+  width: 300px;
+  height: 567px;
 }
 
 .video08 {
@@ -2986,6 +2986,41 @@
   width: 659px;
   height: 468px;
   transform: scale(1);
+}
+
+.video04 {
+  width: 370px;
+  height: 700px;
+}
+
+.video06 {
+  width: 544px;
+  height: 700px;
+}
+
+.video07 {
+  width: 370px;
+  height: 700px;
+}
+
+.video08 {
+  width: 700px;
+  height: 700px;
+}
+
+.video10 {
+  width: 700px;
+  height: 700px;
+}
+
+.video16 {
+  width: 700px;
+  height: 540px;
+}
+
+.video18 {
+  width: 544px;
+  height: 700px;
 }
 
 .iframe12 {
@@ -4845,28 +4880,28 @@
 }
 
 .video04 {
-  width: 432px;
-  height: 768px;
+  width: 383px;
+  height: 680px;
 }
 
 .video06 {
-  width: 614px;
-  height: 768px;
+  width: 544px;
+  height: 680px;
 }
 
 .video07 {
-  width: 432px;
-  height: 768px;
+  width: 383px;
+  height: 680px;
 }
 
 .video08 {
-  width: 768px;
-  height: 768px;
+  width: 680px;
+  height: 680px;
 }
 
 .video10 {
-  width: 768px;
-  height: 768px;
+  width: 680px;
+  height: 680px;
 }
 
 .iframe12 {
@@ -4876,8 +4911,8 @@
 }
 
 .video16 {
-  width: 1024px;
-  height: 768px;
+  width: 907px;
+  height: 680px;
 }
 
 .iframe17 {
@@ -4887,8 +4922,8 @@
 }
 
 .video18 {
-  width: 614px;
-  height: 768px;
+  width: 544px;
+  height: 680px;
 }
 
 .iframe19 {
@@ -4937,8 +4972,8 @@
 }
 
 .video28 {
-  width: 432px;
-  height: 768px;
+  width: 383px;
+  height: 680px;
 }
 
 .iframe29 {
@@ -7027,28 +7062,43 @@
 }
 
 .video04 {
-  width: 432px;
-  height: 768px;
+  width: 383px;
+  height: 680px;
 }
 
 .video06 {
-  width: 614px;
-  height: 768px;
+  width: 544px;
+  height: 680px;
 }
 
 .video07 {
-  width: 432px;
-  height: 768px;
+  width: 383px;
+  height: 680px;
 }
 
 .video08 {
-  width: 768px;
-  height: 768px;
+  width: 680px;
+  height: 680px;
 }
 
 .video10 {
-  width: 768px;
-  height: 768px;
+  width: 680px;
+  height: 680px;
+}
+
+.video16 {
+  width: 907px;
+  height: 680px;
+}
+
+.video18 {
+  width: 544px;
+  height: 680px;
+}
+
+.video28 {
+  width: 383px;
+  height: 680px;
 }
 
 .iframe12 {
@@ -7057,20 +7107,10 @@
   transform: rotate(0deg) scale(1);
 }
 
-.video16 {
-  width: 1024px;
-  height: 768px;
-}
-
 .iframe17 {
   width: 730px;
   height: 90px;
   transform: rotate(0deg);
-}
-
-.video18 {
-  width: 614px;
-  height: 768px;
 }
 
 .iframe19 {
@@ -7116,11 +7156,6 @@
 .iframe27 {
   width: 300px;
   height: 300px;
-}
-
-.video28 {
-  width: 432px;
-  height: 768px;
 }
 
 .iframe29 {
