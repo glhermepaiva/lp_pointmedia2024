@@ -1802,7 +1802,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10390px;
+  top: 10570px;
 }
 
 .clientArrowLeft {
@@ -6290,7 +6290,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9270px;
+  top: 9370px;
   left: 80px;
 }
 
@@ -6314,7 +6314,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10080px;
+  top: 10190px;
 }
 
 .clientArrowLeft {
@@ -6337,7 +6337,7 @@
   flex-wrap: wrap;
   height: 750px;
   width: 800px;
-  margin: 50px 0 0 320px;
+  margin: 50px 0 -90px 320px;
 }
 
 .clientsArrowsLastPage1200 {
@@ -6345,7 +6345,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10070px;
+  top: 10190px;
   left: 60px;
 }
 
@@ -8726,7 +8726,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9240px;
+  top: 9320px;
   left: 110px;
 }
 
@@ -8750,7 +8750,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10050px;
+  top: 10140px;
 }
 
 .clientArrowLeft {
@@ -8773,7 +8773,7 @@
   flex-wrap: wrap;
   height: 700px;
   width: 800px;
-  margin: 50px 0 0 420px;
+  margin: 50px 0 -40px 420px;
 }
 
 .clientsArrowsLastPage1400 {
@@ -8781,8 +8781,8 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10030px;
-  left: 90px;
+  top: 10140px;
+  left: 105px;
 }
 
 .client1 {
@@ -11232,7 +11232,7 @@
   flex-wrap: wrap;
   height: 500px;
   width: 800px;
-  margin: 50px 0 0 440px;
+  margin: 50px 0 -60px 440px;
 }
 
 .clientsArrowsLastPage1600 {
