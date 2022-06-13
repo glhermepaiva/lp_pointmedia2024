@@ -1797,109 +1797,593 @@
   align-items: center;
 }
 
+.clientsArrows {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10390px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
+}
+
+.client16 {
+  background-image: url(../assets/clients/client16.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client17 {
+  background-image: url(../assets/clients/client17.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client18 {
+  background-image: url(../assets/clients/client18.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client19 {
+  background-image: url(../assets/clients/client19.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client20 {
+  background-image: url(../assets/clients/client20.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client21 {
+  background-image: url(../assets/clients/client21.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client22 {
+  background-image: url(../assets/clients/client22.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client23 {
+  background-image: url(../assets/clients/client23.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client24 {
+  background-image: url(../assets/clients/client24.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client25 {
+  background-image: url(../assets/clients/client25.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client26 {
+  background-image: url(../assets/clients/client26.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client27 {
+  background-image: url(../assets/clients/client27.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client28 {
+  background-image: url(../assets/clients/client28.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client29 {
+  background-image: url(../assets/clients/client29.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client30 {
+  background-image: url(../assets/clients/client30.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client31 {
+  background-image: url(../assets/clients/client31.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client32 {
+  background-image: url(../assets/clients/client32.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client33 {
+  background-image: url(../assets/clients/client33.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client34 {
+  background-image: url(../assets/clients/client34.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client35 {
+  background-image: url(../assets/clients/client35.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client36 {
+  background-image: url(../assets/clients/client36.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client37 {
+  background-image: url(../assets/clients/client37.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client38 {
+  background-image: url(../assets/clients/client38.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client39 {
+  background-image: url(../assets/clients/client39.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client40 {
+  background-image: url(../assets/clients/client40.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client41 {
+  background-image: url(../assets/clients/client41.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client42 {
+  background-image: url(../assets/clients/client42.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client43 {
+  background-image: url(../assets/clients/client43.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client44 {
+  background-image: url(../assets/clients/client44.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client45 {
+  background-image: url(../assets/clients/client45.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client46 {
+  background-image: url(../assets/clients/client46.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client47 {
+  background-image: url(../assets/clients/client47.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client48 {
+  background-image: url(../assets/clients/client48.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client49 {
+  background-image: url(../assets/clients/client49.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
 }
 
 /******* CAREERS *******/
@@ -3377,7 +3861,7 @@
   line-height: 50px;
   width: 300px;
   position: absolute;
-  top: 7020px;
+  top: 7050px;
   left: 0px;
 }
 
@@ -3392,359 +3876,613 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 679px;
+  width: 500px;
   margin: 0 auto;
 }
 
+.clientsArrows {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 8000px;
+}
+
+.clientsGalleryLastPageTablet {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.clientsArrowsLastPageTablet {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 7920px;
+  left: 40px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/mobile/client16.png);
+  background-image: url(../assets/clients/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/mobile/client17.png);
+  background-image: url(../assets/clients/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/mobile/client18.png);
+  background-image: url(../assets/clients/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/mobile/client19.png);
+  background-image: url(../assets/clients/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/mobile/client20.png);
+  background-image: url(../assets/clients/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/mobile/client21.png);
+  background-image: url(../assets/clients/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/mobile/client22.png);
+  background-image: url(../assets/clients/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/mobile/client23.png);
+  background-image: url(../assets/clients/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/mobile/client24.png);
+  background-image: url(../assets/clients/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/mobile/client25.png);
+  background-image: url(../assets/clients/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/mobile/client26.png);
+  background-image: url(../assets/clients/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/mobile/client27.png);
+  background-image: url(../assets/clients/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/mobile/client28.png);
+  background-image: url(../assets/clients/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/mobile/client29.png);
+  background-image: url(../assets/clients/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/mobile/client30.png);
+  background-image: url(../assets/clients/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/mobile/client31.png);
+  background-image: url(../assets/clients/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/mobile/client32.png);
+  background-image: url(../assets/clients/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/mobile/client33.png);
+  background-image: url(../assets/clients/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/mobile/client34.png);
+  background-image: url(../assets/clients/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/mobile/client35.png);
+  background-image: url(../assets/clients/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/mobile/client36.png);
+  background-image: url(../assets/clients/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/mobile/client37.png);
+  background-image: url(../assets/clients/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/mobile/client38.png);
+  background-image: url(../assets/clients/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/mobile/client39.png);
+  background-image: url(../assets/clients/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/mobile/client40.png);
+  background-image: url(../assets/clients/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/mobile/client41.png);
+  background-image: url(../assets/clients/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/mobile/client42.png);
+  background-image: url(../assets/clients/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/mobile/client43.png);
+  background-image: url(../assets/clients/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/mobile/client44.png);
+  background-image: url(../assets/clients/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client46.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
-  display: none;
+  margin: 0 0 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client47.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
-  display: none;
+  margin: 0 0 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client48.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
-  display: none;
+  margin: 0 0 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client49.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
-  display: none;
+  margin: 0 0 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
 }
 
 /******* CAREERS *******/
@@ -5552,7 +6290,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9260px;
+  top: 9270px;
   left: 80px;
 }
 
@@ -5567,355 +6305,615 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1200px;
+  width: 840px;
   margin: 50px auto 0 auto;
 }
 
+.clientsArrows {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10080px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientsGalleryLastPage1200 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 750px;
+  width: 800px;
+  margin: 50px 0 0 320px;
+}
+
+.clientsArrowsLastPage1200 {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10070px;
+  left: 60px;
+}
+
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/mobile/client16.png);
+  background-image: url(../assets/clients/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/mobile/client17.png);
+  background-image: url(../assets/clients/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/mobile/client18.png);
+  background-image: url(../assets/clients/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/mobile/client19.png);
+  background-image: url(../assets/clients/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/mobile/client20.png);
+  background-image: url(../assets/clients/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/mobile/client21.png);
+  background-image: url(../assets/clients/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/mobile/client22.png);
+  background-image: url(../assets/clients/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/mobile/client23.png);
+  background-image: url(../assets/clients/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/mobile/client24.png);
+  background-image: url(../assets/clients/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/mobile/client25.png);
+  background-image: url(../assets/clients/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/mobile/client26.png);
+  background-image: url(../assets/clients/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/mobile/client27.png);
+  background-image: url(../assets/clients/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/mobile/client28.png);
+  background-image: url(../assets/clients/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/mobile/client29.png);
+  background-image: url(../assets/clients/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/mobile/client30.png);
+  background-image: url(../assets/clients/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/mobile/client31.png);
+  background-image: url(../assets/clients/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/mobile/client32.png);
+  background-image: url(../assets/clients/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/mobile/client33.png);
+  background-image: url(../assets/clients/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/mobile/client34.png);
+  background-image: url(../assets/clients/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/mobile/client35.png);
+  background-image: url(../assets/clients/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/mobile/client36.png);
+  background-image: url(../assets/clients/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/mobile/client37.png);
+  background-image: url(../assets/clients/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/mobile/client38.png);
+  background-image: url(../assets/clients/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/mobile/client39.png);
+  background-image: url(../assets/clients/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/mobile/client40.png);
+  background-image: url(../assets/clients/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/mobile/client41.png);
+  background-image: url(../assets/clients/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/mobile/client42.png);
+  background-image: url(../assets/clients/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/mobile/client43.png);
+  background-image: url(../assets/clients/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/mobile/client44.png);
+  background-image: url(../assets/clients/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client46.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client47.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client48.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client49.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
 }
 
 /******* CAREERS *******/
@@ -7728,7 +8726,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9320px;
+  top: 9240px;
   left: 110px;
 }
 
@@ -7743,355 +8741,615 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1300px;
+  width: 840px;
   margin: 50px auto 0 auto;
 }
 
+.clientsArrows {
+  display: flex;
+  width: 85vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10050px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientsGalleryLastPage1400 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 800px;
+  margin: 50px 0 0 420px;
+}
+
+.clientsArrowsLastPage1400 {
+  display: flex;
+  width: 85vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10030px;
+  left: 90px;
+}
+
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/mobile/client16.png);
+  background-image: url(../assets/clients/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/mobile/client17.png);
+  background-image: url(../assets/clients/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/mobile/client18.png);
+  background-image: url(../assets/clients/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/mobile/client19.png);
+  background-image: url(../assets/clients/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/mobile/client20.png);
+  background-image: url(../assets/clients/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/mobile/client21.png);
+  background-image: url(../assets/clients/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/mobile/client22.png);
+  background-image: url(../assets/clients/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/mobile/client23.png);
+  background-image: url(../assets/clients/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/mobile/client24.png);
+  background-image: url(../assets/clients/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/mobile/client25.png);
+  background-image: url(../assets/clients/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/mobile/client26.png);
+  background-image: url(../assets/clients/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/mobile/client27.png);
+  background-image: url(../assets/clients/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/mobile/client28.png);
+  background-image: url(../assets/clients/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/mobile/client29.png);
+  background-image: url(../assets/clients/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/mobile/client30.png);
+  background-image: url(../assets/clients/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/mobile/client31.png);
+  background-image: url(../assets/clients/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/mobile/client32.png);
+  background-image: url(../assets/clients/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/mobile/client33.png);
+  background-image: url(../assets/clients/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/mobile/client34.png);
+  background-image: url(../assets/clients/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/mobile/client35.png);
+  background-image: url(../assets/clients/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/mobile/client36.png);
+  background-image: url(../assets/clients/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/mobile/client37.png);
+  background-image: url(../assets/clients/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/mobile/client38.png);
+  background-image: url(../assets/clients/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/mobile/client39.png);
+  background-image: url(../assets/clients/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/mobile/client40.png);
+  background-image: url(../assets/clients/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/mobile/client41.png);
+  background-image: url(../assets/clients/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/mobile/client42.png);
+  background-image: url(../assets/clients/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/mobile/client43.png);
+  background-image: url(../assets/clients/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/mobile/client44.png);
+  background-image: url(../assets/clients/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client46.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client47.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client48.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client49.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
 }
 
 /******* CAREERS *******/
@@ -9927,7 +11185,7 @@
   line-height: 62px;
   width: 600px;
   position: absolute;
-  top: 8770px;
+  top: 8850px;
   left: 80px;
 }
 
@@ -9942,355 +11200,615 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1300px;
+  width: 1180px;
   margin: 50px auto 0 auto;
 }
 
+.clientsArrows {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 9500px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientsGalleryLastPage1600 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 800px;
+  margin: 50px 0 0 440px;
+}
+
+.clientsArrowsLastPage1600 {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 9500px;
+  left: 80px;
+}
+
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/mobile/client16.png);
+  background-image: url(../assets/clients/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/mobile/client17.png);
+  background-image: url(../assets/clients/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/mobile/client18.png);
+  background-image: url(../assets/clients/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/mobile/client19.png);
+  background-image: url(../assets/clients/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/mobile/client20.png);
+  background-image: url(../assets/clients/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/mobile/client21.png);
+  background-image: url(../assets/clients/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/mobile/client22.png);
+  background-image: url(../assets/clients/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/mobile/client23.png);
+  background-image: url(../assets/clients/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/mobile/client24.png);
+  background-image: url(../assets/clients/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/mobile/client25.png);
+  background-image: url(../assets/clients/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/mobile/client26.png);
+  background-image: url(../assets/clients/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/mobile/client27.png);
+  background-image: url(../assets/clients/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/mobile/client28.png);
+  background-image: url(../assets/clients/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/mobile/client29.png);
+  background-image: url(../assets/clients/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/mobile/client30.png);
+  background-image: url(../assets/clients/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/mobile/client31.png);
+  background-image: url(../assets/clients/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/mobile/client32.png);
+  background-image: url(../assets/clients/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/mobile/client33.png);
+  background-image: url(../assets/clients/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/mobile/client34.png);
+  background-image: url(../assets/clients/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/mobile/client35.png);
+  background-image: url(../assets/clients/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/mobile/client36.png);
+  background-image: url(../assets/clients/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/mobile/client37.png);
+  background-image: url(../assets/clients/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/mobile/client38.png);
+  background-image: url(../assets/clients/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/mobile/client39.png);
+  background-image: url(../assets/clients/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/mobile/client40.png);
+  background-image: url(../assets/clients/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/mobile/client41.png);
+  background-image: url(../assets/clients/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/mobile/client42.png);
+  background-image: url(../assets/clients/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/mobile/client43.png);
+  background-image: url(../assets/clients/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/mobile/client44.png);
+  background-image: url(../assets/clients/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client46.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client47.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client48.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client49.png);
   width: 170px;
   height: 70px;
-  margin: 0 0 60px 0;
-  opacity: 0%;
+  margin: 0 0 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
 }
 
 /******* CAREERS *******/
@@ -12147,355 +13665,615 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1600px;
-  margin: 10px 0 0 130px;
+  width: 1480px;
+  margin: 50px auto 0 auto;
+}
+
+.clientsArrows {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10050px;
+}
+
+.clientArrowLeft {
+  background-image: url(../assets/mobile/arrowblueleft.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientArrowRight {
+  background-image: url(../assets/mobile/arrowblueright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.clientsGalleryLastPage1800 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 800px;
+  margin: 50px 0 -10px 600px;
+}
+
+.clientsArrowsLastPage1800 {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  position: absolute;
+  top: 10050px;
+  left: 88px;
 }
 
 .client1 {
-  background-image: url(../assets/mobile/client1.png);
+  background-image: url(../assets/clients/client1.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/mobile/client2.png);
+  background-image: url(../assets/clients/client2.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/mobile/client3.png);
+  background-image: url(../assets/clients/client3.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/mobile/client4.png);
+  background-image: url(../assets/clients/client4.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/mobile/client5.png);
+  background-image: url(../assets/clients/client5.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/mobile/client6.png);
+  background-image: url(../assets/clients/client6.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/mobile/client7.png);
+  background-image: url(../assets/clients/client7.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/mobile/client8.png);
+  background-image: url(../assets/clients/client8.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/mobile/client9.png);
+  background-image: url(../assets/clients/client9.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/mobile/client10.png);
+  background-image: url(../assets/clients/client10.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/mobile/client11.png);
+  background-image: url(../assets/clients/client11.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/mobile/client12.png);
+  background-image: url(../assets/clients/client12.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/mobile/client13.png);
+  background-image: url(../assets/clients/client13.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/mobile/client14.png);
+  background-image: url(../assets/clients/client14.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/mobile/client15.png);
+  background-image: url(../assets/clients/client15.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/mobile/client16.png);
+  background-image: url(../assets/clients/client16.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/mobile/client17.png);
+  background-image: url(../assets/clients/client17.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/mobile/client18.png);
+  background-image: url(../assets/clients/client18.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/mobile/client19.png);
+  background-image: url(../assets/clients/client19.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/mobile/client20.png);
+  background-image: url(../assets/clients/client20.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/mobile/client21.png);
+  background-image: url(../assets/clients/client21.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/mobile/client22.png);
+  background-image: url(../assets/clients/client22.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/mobile/client23.png);
+  background-image: url(../assets/clients/client23.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/mobile/client24.png);
+  background-image: url(../assets/clients/client24.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/mobile/client25.png);
+  background-image: url(../assets/clients/client25.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/mobile/client26.png);
+  background-image: url(../assets/clients/client26.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/mobile/client27.png);
+  background-image: url(../assets/clients/client27.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/mobile/client28.png);
+  background-image: url(../assets/clients/client28.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/mobile/client29.png);
+  background-image: url(../assets/clients/client29.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/mobile/client30.png);
+  background-image: url(../assets/clients/client30.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/mobile/client31.png);
+  background-image: url(../assets/clients/client31.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/mobile/client32.png);
+  background-image: url(../assets/clients/client32.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/mobile/client33.png);
+  background-image: url(../assets/clients/client33.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/mobile/client34.png);
+  background-image: url(../assets/clients/client34.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/mobile/client35.png);
+  background-image: url(../assets/clients/client35.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/mobile/client36.png);
+  background-image: url(../assets/clients/client36.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/mobile/client37.png);
+  background-image: url(../assets/clients/client37.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/mobile/client38.png);
+  background-image: url(../assets/clients/client38.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/mobile/client39.png);
+  background-image: url(../assets/clients/client39.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/mobile/client40.png);
+  background-image: url(../assets/clients/client40.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/mobile/client41.png);
+  background-image: url(../assets/clients/client41.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/mobile/client42.png);
+  background-image: url(../assets/clients/client42.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/mobile/client43.png);
+  background-image: url(../assets/clients/client43.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/mobile/client44.png);
+  background-image: url(../assets/clients/client44.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client45.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
+  margin: 0 50px 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client46.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
-  opacity: 0%;
+  margin: 0 50px 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client47.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
-  opacity: 0%;
+  margin: 0 50px 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client48.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
-  opacity: 0%;
+  margin: 0 50px 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/mobile/client45.png);
+  background-image: url(../assets/clients/client49.png);
   width: 170px;
   height: 70px;
-  margin: 0 50px 60px 0;
-  opacity: 0%;
+  margin: 0 50px 40px 0;
+}
+
+.client50 {
+  background-image: url(../assets/clients/client50.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client51 {
+  background-image: url(../assets/clients/client51.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client52 {
+  background-image: url(../assets/clients/client52.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client53 {
+  background-image: url(../assets/clients/client53.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client54 {
+  background-image: url(../assets/clients/client54.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client55 {
+  background-image: url(../assets/clients/client55.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client56 {
+  background-image: url(../assets/clients/client56.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client57 {
+  background-image: url(../assets/clients/client57.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client58 {
+  background-image: url(../assets/clients/client58.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client59 {
+  background-image: url(../assets/clients/client59.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client60 {
+  background-image: url(../assets/clients/client60.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client61 {
+  background-image: url(../assets/clients/client61.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client62 {
+  background-image: url(../assets/clients/client62.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client63 {
+  background-image: url(../assets/clients/client63.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client64 {
+  background-image: url(../assets/clients/client64.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client65 {
+  background-image: url(../assets/clients/client65.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client66 {
+  background-image: url(../assets/clients/client66.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client67 {
+  background-image: url(../assets/clients/client67.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client68 {
+  background-image: url(../assets/clients/client68.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client69 {
+  background-image: url(../assets/clients/client69.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client70 {
+  background-image: url(../assets/clients/client70.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client71 {
+  background-image: url(../assets/clients/client71.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client72 {
+  background-image: url(../assets/clients/client72.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client73 {
+  background-image: url(../assets/clients/client73.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client74 {
+  background-image: url(../assets/clients/client74.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client75 {
+  background-image: url(../assets/clients/client75.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client76 {
+  background-image: url(../assets/clients/client76.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client77 {
+  background-image: url(../assets/clients/client77.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client78 {
+  background-image: url(../assets/clients/client78.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client79 {
+  background-image: url(../assets/clients/client79.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client80 {
+  background-image: url(../assets/clients/client80.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
+}
+
+.client81 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 50px 40px 0;
 }
 
 /******* CAREERS *******/
