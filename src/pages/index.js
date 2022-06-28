@@ -335,7 +335,7 @@ export default function LandingPage() {
       setModal31Open(false)
     }
 
-/***** CLIENTS CAROUSEL  *****/
+/***** WINDOW SIZE & CLIENTS CAROUSEL  *****/
 
 function useWindowSize() {
   const [windowSize, setWindowSize] = useState({
@@ -1140,6 +1140,69 @@ function renderObjectSize() {
   }
 }
 
+/***** PARALLAX ANIMATIONS *****/
+  
+const [offsetY, setOffsetY] = useState(0);
+
+const handleScroll = () => setOffsetY(window.pageYOffset);
+
+useEffect(() => {
+
+window.addEventListener('scroll', handleScroll);
+return () => window.removeEventListener('scroll', handleScroll);
+
+}, [])
+
+function parallaxAnimTeam() {
+  if (size.width < 768){
+    return (
+      <div className={styles.teamArt} >
+        <div className={styles.teamGirl} />
+        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) `}}  />
+        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) `}} />
+      </div>
+    )
+  }
+}
+
+function parallaxAnimAlien() {
+  if (size.width < 768){
+    return (
+      <div className={styles.wwdAlien} >
+          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
+          <div className={styles.alien}/>
+          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
+          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 11.2}deg)`}}/>
+      </div>
+    )
+  }
+}
+
+function parallaxAnimClient() {
+  if (size.width < 768){
+    return (
+      <div>
+        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px)`}}/>
+        <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
+        <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
+        <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
+      </div>
+    )
+  }
+}
+
+function parallaxAnimContact() {
+  if (size.width < 768){
+    return (
+      <div>
+        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
+        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  }
+}
+
+
 /***** EXTERNAL LINKS  *****/
 
   const openInstagram = () => {
@@ -1291,33 +1354,19 @@ function renderObjectSize() {
     setDefaultCase(true)
   }
 
-/***** CASES CAROUSSEL  *****/
+/***** NEWS HEADER *****/
 
   const [defaultNews, setDefaultNews] = useState(true)
 
   const nextNews = () => {
     setDefaultNews(false)
-    // alert("next news")
   }
   
   const prevNews = () => {
     setDefaultNews(true)
-    // alert("prev news")
   }
 
-/***** PARALLAX *****/
-  
-  const [offsetY, setOffsetY] = useState(0);
-
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-
-  window.addEventListener('scroll', handleScroll);
-  return () => window.removeEventListener('scroll', handleScroll);
-
-  }, [])
-
+/***** RETURN *****/
 
   return (
     <div className={styles.page}>
@@ -1425,9 +1474,7 @@ function renderObjectSize() {
 
       <div className={styles.team}>
         <div className={styles.teamArt}>
-          <div className={styles.teamGirl} />
-          <div className={styles.teamCrown} />
-          <div className={styles.teamShine} />
+        {parallaxAnimTeam()}
         </div>
         <div id='team' className={styles.teamTitle}>nosso time_</div>
         <div className={styles.teamText}>Reunimos um time de feras do mercado digital com vasta experiência e passagens por grandes empresas digitais.</div>
@@ -1481,10 +1528,7 @@ function renderObjectSize() {
       
       <div id='wwd' className={styles.wwd}>
         <div className={styles.wwdAlien}>
-          <div className={styles.alienDiamond}/>
-          <div className={styles.alien}/>
-          <div className={styles.alienEye}/>
-          <div className={styles.alienLeg}/>
+          {parallaxAnimAlien()}
         </div>
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
@@ -1908,7 +1952,10 @@ function renderObjectSize() {
 
       <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
-        <div className={styles.clientsArt} />
+        <div className={styles.clientsArt}>
+          <div className={styles.clientBG} />
+          {parallaxAnimClient()}
+        </div>
         {renderObjectSize()}
       </div>
 
@@ -1933,7 +1980,9 @@ function renderObjectSize() {
 
 
       <div id='contact' className={styles.contact}>
-        <div className={styles.contactArt} />
+        <div className={styles.contactArt}>
+          {parallaxAnimContact()}
+        </div>
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
         {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
