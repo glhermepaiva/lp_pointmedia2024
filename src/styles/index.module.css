@@ -3058,24 +3058,24 @@
   width: 320px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .astronautPoint {
-  background-image: url(../assets/mobile/astronautpoint.png);
-  width: 130px;
-  height: 143px;
-  margin: 20px 0 -30px 210px;
+  background-image: url(../assets/tablet/astronautpoint.png);
+  width: 246px;
+  height: 269px;
   animation: astronautpoint 10s linear infinite;
-  display: none;
+  position: absolute;
+  top: 0px;
+  left: -80px;
 }
 
 .astronautGuy {
-  background-image: url(../assets/mobile/astronautguy.png);
-  width: 269px;
-  height: 127px;
-  margin: 0 auto 80px auto;
+  background-image: url(../assets/tablet/astronautguy.png);
+  width: 321px;
+  height: 151px;
+  position: absolute;
+  top: 230px;
+  left: 5px;
   animation: astronaut 20s linear infinite;
-  display: none;
 }
 
 .astronautBlack {
@@ -3083,10 +3083,9 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 1050px;
-  left: 90px;
+  top: 150px;
+  left: 30px;
   animation: astronautblack 30s infinite linear;
-  display: none;
 }
 
 .astronautPink {
@@ -3095,10 +3094,9 @@
   height: 63px;
   position: absolute;
   position: absolute;
-  top: 1190px;
-  left: 50px;
+  top: 400px;
+  left: 0px;
   animation: astronautpink 10s linear infinite;
-  display: none;
 }
 
 .astronautBlue {
@@ -3106,16 +3104,12 @@
   width: 34px;
   height: 34px;
   position: absolute;
-  top: 1280px;
-  left: 290px;
+  top: 420px;
+  left: 300px;
   animation: astronautblue 10s linear infinite;
-  display: none;
 }
 
-/*** FIM DO DESABILITADO POR HORA ***/
-
 .aboutImage {
-  background-image: url(../assets/tablet/astronaut.png);
   width: 331px;
   height: 488px;
   transform: scale(1);
@@ -3168,45 +3162,42 @@
 }
 
 .teamArt {
-  background-image: url(../assets/desktop_s/teamart.png);
   width: 603px;
   height: 603px;
   position: absolute;
-  top: 1340px;
-  left: -100px;
-  transform: scale(0.75);
+  top: 800px;
+  left: 50px;
+  transform: scale(1);
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .teamGirl {
-  background-image: url(../assets/mobile/teamgirl.png);
-  width: 160px;
-  height: 210px;
-  margin: 0 0 0 108px;
-  display: none;
+  background-image: url(../assets/tablet/teamgirl.png);
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  top: -100px;
+  left: -87px;
+  transform: scale(1.2);
 }
 
 .teamCrown {
-  background-image: url(../assets/mobile/teamcrown.png);
-  width: 38px;
-  height: 24px;
-  margin: -230px 0 0 145px;
-  animation: crown 5s infinite linear;
-  display: none;
+  background-image: url(../assets/tablet/teamcrown.png);
+  width: 52px;
+  height: 32px;
+  position: absolute;
+  top: -280px;
+  left: 70px;
 }
 
 .teamShine {
-  background-image: url(../assets/mobile/teamshine.png);
-  width: 24px;
-  height: 24px;
-  margin: 21px 0 0 176px;
-  transform: scale(0.5);
-  animation: shine 5s infinite linear;
-  display: none;
+  background-image: url(../assets/tablet/teamshine.png);
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: -65px;
+  left: 126px;
+  animation: shine 3s infinite linear;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 45px;
@@ -3236,53 +3227,51 @@
 }
 
 .wwdAlien {
-  background-image: url(../assets/tablet/alien.png);
   width: 351px;
   height: 337px;
   position: absolute;
-  top: 2685px;
-  left: 410px;
+  top: 1490px;
+  left: 0px;
 }
-
 
 /*** DESABILITADO POR HORA ***/
 
 .alien {
-  background-image: url(../assets/mobile/alien.png);
-  width: 300px;
-  height: 190px;
-  margin: -148px 0 0 70px;
-  position: relative;
-  display: none;
+  background-image: url(../assets/tablet/alien.png);
+  width: 330px;
+  height: 320px;
+  position: absolute;
+  top: 20px;
+  left: 410px;
 }
 
 .alienDiamond {
-  background-image: url(../assets/mobile/aliendiamond.png);
-  width: 46px;
-  height: 45px;
-  margin: -125px 0 0 60px;
+  background-image: url(../assets/tablet/aliendiamond.png);
+  width: 72px;
+  height: 72px;
   transform: scale(0.8);
-  animation: diamond 8s linear infinite;
-  display: none;
+  position: absolute;
+  top: 50px;
+  left: 470px;
 }
 
 .alienLeg {
-  background-image: url(../assets/mobile/alienleg.png);
-  width: 72px;
-  height: 56px;
-  margin: 80px 0 0 180px;
-  animation: leg 3s linear infinite;
-  display: none;
+  background-image: url(../assets/tablet/alienleg.png);
+  width: 113px;
+  height: 87px;
+  position: absolute;
+  top: 105px;
+  left: 670px;
 }
 
 .alienEye {
-  background-image: url(../assets/mobile/alieneye.png);
-  width: 39px;
-  height: 36px;
-  margin: -172px 0 0 173px;
+  background-image: url(../assets/tablet/alieneye.png);
+  width: 62px;
+  height: 62px;
   position: relative;
-  animation: eye 9s linear infinite;
-  display: none;
+  position: absolute;
+  top: -81px;
+  left: 580px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/

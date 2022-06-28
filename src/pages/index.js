@@ -337,6 +337,17 @@ export default function LandingPage() {
 
 /***** WINDOW SIZE & CLIENTS CAROUSEL  *****/
 
+const [offsetY, setOffsetY] = useState(0);
+
+const handleScroll = () => setOffsetY(window.pageYOffset);
+
+useEffect(() => {
+
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+
+}, [])
+
 function useWindowSize() {
   const [windowSize, setWindowSize] = useState({
     width: undefined,
@@ -1142,17 +1153,6 @@ function renderObjectSize() {
 
 /***** PARALLAX ANIMATIONS *****/
   
-const [offsetY, setOffsetY] = useState(0);
-
-const handleScroll = () => setOffsetY(window.pageYOffset);
-
-useEffect(() => {
-
-window.addEventListener('scroll', handleScroll);
-return () => window.removeEventListener('scroll', handleScroll);
-
-}, [])
-
 function parallaxAnimTeam() {
   if (size.width < 768){
     return (
@@ -1162,7 +1162,15 @@ function parallaxAnimTeam() {
         <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) `}} />
       </div>
     )
-  }
+  } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div className={styles.teamArt} >
+        <div className={styles.teamGirl} />
+        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) scale(1.2)`}}  />
+        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.2)`}} />
+      </div>
+    )
+  } 
 }
 
 function parallaxAnimAlien() {
@@ -1175,7 +1183,16 @@ function parallaxAnimAlien() {
           <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 11.2}deg)`}}/>
       </div>
     )
-  }
+  } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div className={styles.wwdAlien} >
+          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
+          <div className={styles.alien}/>
+          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
+          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 90}deg)`}}/>
+      </div>
+    )
+  } 
 }
 
 function parallaxAnimClient() {
