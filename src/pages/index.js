@@ -399,6 +399,7 @@ const backtoLastPageTablet = () => {
 }
 
 function renderObjectSize() {
+  /* MOBILE */
   if (size.width < 768 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -541,10 +542,14 @@ function renderObjectSize() {
           <div className={styles.client79} />
           <div className={styles.client80} />
           <div className={styles.client81} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
         </div>
     )
   }
 
+  /* TABLET */
   if (size.width < 1200 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -666,6 +671,7 @@ function renderObjectSize() {
     )
   }
 
+  /* DESK 1200 */
   if (size.width < 1400 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -787,6 +793,7 @@ function renderObjectSize() {
     )
   }
 
+  /* DESK 1400 */
   if (size.width < 1600 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -908,6 +915,7 @@ function renderObjectSize() {
     )
   }
 
+  /* DESK 1600 */
   if (size.width < 1800 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -1029,6 +1037,7 @@ function renderObjectSize() {
     )
   }
 
+  /* DESK 1800+ */
   if (size.width >= 1800 && clientPage == 0){
     return (
       <div className={styles.clientsGallery}>
@@ -1167,7 +1176,7 @@ function parallaxAnimTeam() {
       <div className={styles.teamArt} >
         <div className={styles.teamGirl} />
         <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) scale(1.2)`}}  />
-        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.2)`}} />
+        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.4)`}} />
       </div>
     )
   } 
@@ -1205,7 +1214,16 @@ function parallaxAnimClient() {
         <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
       </div>
     )
-  }
+  } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div>
+        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px) scaleX(-1)`}}/>
+        <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
+        <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
+        <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
+      </div>
+    )
+  } 
 }
 
 function parallaxAnimContact() {
@@ -1216,7 +1234,14 @@ function parallaxAnimContact() {
         <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
       </div>
     )
-  }
+  } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div>
+        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
+        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } 
 }
 
 

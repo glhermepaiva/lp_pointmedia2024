@@ -2480,6 +2480,14 @@
   margin: 0 0 40px 0;
 }
 
+.client82 {
+  background-image: url(../assets/clients/client81.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+  opacity: 0;
+}
+
 /******* CAREERS *******/
 
 .careers {
@@ -3234,8 +3242,6 @@
   left: 0px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .alien {
   background-image: url(../assets/tablet/alien.png);
   width: 330px;
@@ -3273,10 +3279,6 @@
   top: -81px;
   left: 580px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
-
-
 
 .wwdTitle {
   font-size: 45px;
@@ -3515,51 +3517,36 @@
 }
 
 .pwArt {
-  background-image: url(../assets/desktop_s/camera.png);
-  width: 885px;
-  height: 568px;
-  transform: scale(0.5);
   position: absolute;
-  top: -145px;
-  left: -280px;
+  top: 20px;
+  left: 30px;
+  transform: scale(1);
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .camera {
-  background-image: url(../assets/mobile/camera.png);
-  width: 310px;
-  height: 250px;
-  display: none;
+  background-image: url(../assets/tablet/camera.png);
+  width: 363px;
+  height: 230px;
 }
 
 .drip {
   background-image: url(../assets/mobile/drip.png);
   width: 80px;
   height: 87px;
-  margin: -90px 0 0 68px;
-  animation: drip 6s infinite linear;
-  display: none;
 }
 
 .cloud {
   background-image: url(../assets/mobile/cloud.png);
   width: 77px;
   height: 26px;
-  margin: -245px 0 0 70px;
-  animation: cloud 30s infinite linear;
-  display: none;
 }
 
 .cameraBalls {
-  top: 100px;
-  left: 35px;
-  z-index: 3;
-  transform: scale(1.2);
-  display: none;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  transform: scale(-1);
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 45px;
@@ -3968,10 +3955,58 @@
 }
 
 .clientsArt {
-  background-image: url(../assets/tablet/client.png);
-  width: 709px;
-  height: 335px;
-  margin: -20px 0 50px 30px;
+  margin: 0px 0 -50px 0px;
+}
+
+.clientBG {
+  background-image: url(../assets/tablet/clientbg.png);
+  width: 558px;
+  height: 273px;
+  position: absolute;
+  top: 7080px;
+  left: 30px;
+}
+
+.clientGuy {
+  background-image: url(../assets/tablet/clientguy.png);
+  width: 322px;
+  height: 322px;
+  position: absolute;
+  top: 7150px;
+  left: -1800px;
+}
+
+.clientShine1 {
+  background-image: url(../assets/mobile/clientshine.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7180px;
+  left: -2970px;  
+  transform: scale(0.5);
+  animation: shine1 3s infinite linear;
+}
+
+.clientShine2 {
+  background-image: url(../assets/mobile/clientshine.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7380px;
+  left: -1150px;
+  transform: scale(0.5);
+  animation: shine2 3s infinite linear;
+}
+
+.clientShine3 {
+  background-image: url(../assets/mobile/clientshine.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7350px;
+  left: -2200px;
+  transform: scale(0.5);
+  animation: shine3 3s infinite linear;
 }
 
 .clientsGallery {
@@ -3979,7 +4014,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 500px;
-  margin: 0 auto;
+  margin: 500px auto 0 auto;
 }
 
 .clientsArrows {
@@ -3987,7 +4022,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 8000px;
+  top: 8090px;
 }
 
 .clientsGalleryLastPageTablet {
@@ -4619,6 +4654,28 @@
 
 .contactArt {
   margin: 20px 0 20px 330px;
+  width: 269px;
+  height: 232px;
+}
+
+.contactLetter {
+  background-image: url(../assets/mobile/contactletter.png);
+  width: 202px;
+  height: 183px;
+  position: absolute;
+  top: 9680px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.contactPoint {
+  background-image: url(../assets/mobile/contactpoint.png);
+  width: 170px;
+  height: 232px;
+  position: absolute;
+  top: 8380px;
+  left: 500px;
+  z-index: 9;
 }
 
 .contactTitle {
