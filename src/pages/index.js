@@ -1179,6 +1179,14 @@ function parallaxAnimTeam() {
         <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.4)`}} />
       </div>
     )
+  } if (size.width >= 1200){
+    return (
+      <div className={styles.teamArt} >
+        <div className={styles.teamGirl} />
+        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) scale(1.2)`}}  />
+        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.4)`}} />
+      </div>
+    )
   } 
 }
 
@@ -1199,6 +1207,15 @@ function parallaxAnimAlien() {
           <div className={styles.alien}/>
           <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
           <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 90}deg)`}}/>
+      </div>
+    )
+  } if (size.width >= 1200){
+    return (
+      <div className={styles.wwdAlien} >
+          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
+          <div className={styles.alien}/>
+          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
+          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 180}deg)`}}/>
       </div>
     )
   } 
