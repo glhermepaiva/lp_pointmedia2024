@@ -1212,7 +1212,7 @@ function parallaxAnimAlien() {
   } if (size.width >= 1200){
     return (
       <div className={styles.wwdAlien} >
-          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
+          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -4.8}deg) scale(1.2)`}} />
           <div className={styles.alien}/>
           <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
           <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 180}deg)`}}/>
@@ -1240,6 +1240,15 @@ function parallaxAnimClient() {
         <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
       </div>
     )
+  } if (size.width >= 1200){
+    return (
+      <div>
+        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px) scaleX(-1)`}}/>
+        <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
+        <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
+        <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
+      </div>
+    )
   } 
 }
 
@@ -1252,6 +1261,13 @@ function parallaxAnimContact() {
       </div>
     )
   } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div>
+        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
+        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } if (size.width >= 1200){
     return (
       <div>
         <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
