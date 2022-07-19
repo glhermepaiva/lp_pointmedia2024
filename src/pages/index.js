@@ -1212,7 +1212,7 @@ function parallaxAnimAlien() {
   } if (size.width >= 1200){
     return (
       <div className={styles.wwdAlien} >
-          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -4.8}deg) scale(1.2)`}} />
+          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -5.3}deg) scale(1.2)`}} />
           <div className={styles.alien}/>
           <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
           <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 180}deg)`}}/>

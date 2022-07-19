@@ -7479,8 +7479,6 @@
   top: 750px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .astronautPoint {
   background-image: url(../assets/desktop_s/astronautpoint.png);
   width: 446px;
@@ -7523,8 +7521,6 @@
   top: 750px;
   left: 300px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .aboutLine {
   width: 780px;
@@ -7635,8 +7631,6 @@
   left: 00px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .teamGirl {
   background-image: url(../assets/desktop_s/teamgirl.png);
   width: 300px;
@@ -7663,8 +7657,6 @@
   top: -2430px;
   left: 320px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .teamTitle {
   font-size: 55px;
@@ -7897,8 +7889,6 @@
   margin: -700px 0 200px 580px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .alien {
   background-image: url(../assets/desktop_s/alien.png);
   width: 600px;
@@ -7936,8 +7926,6 @@
   top: 855px;
   left: -310px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .wwdTitle {
   font-size: 55px;
@@ -8200,8 +8188,6 @@
   margin: 0 0 0 0;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .camera {
   background-image: url(../assets/desktop_s/camera.png);
   width: 870px;
@@ -8253,8 +8239,6 @@
   width: 24px;
   height: 24px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .pwTitle {
   font-size: 55px;
@@ -9978,66 +9962,55 @@
 }
 
 .aboutImage {
-  width: 580px;
-  height: 911px;
   position: absolute;
+  right: 5px;
   top: 750px;
-  right: 120px;
 }
 
 
 /*** DESABILITADO POR HORA ***/
 
 .astronautPoint {
-  background-image: url(../assets/mobile/astronautpoint.png);
-  width: 130px;
-  height: 143px;
-  margin: 20px 0 -30px 210px;
-  animation: astronautpoint 10s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/astronautpoint.png);
+  width: 508px;
+  height: 557px;
+  margin: 0 0 0 0px;
 }
 
 .astronautGuy {
-  background-image: url(../assets/mobile/astronautguy.png);
-  width: 269px;
-  height: 127px;
-  margin: 0 auto 80px auto;
-  animation: astronaut 20s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/astronautguy.png);
+  width: 655px;
+  height: 307px;
+  position: absolute;
+  top: 400px;
+  left: -120px;
 }
 
 .astronautBlack {
-  background-image: url(../assets/mobile/astronautblack.png);
-  width: 24px;
-  height: 24px;
+  background-image: url(../assets/desktop_l/astronautblack.png);
+  width: 37px;
+  height: 37px;
   position: absolute;
-  top: 1050px;
-  left: 90px;
-  animation: astronautblack 30s infinite linear;
-  display: none;
+  top: 450px;
+  left: -180px;
 }
 
 .astronautPink {
-  background-image: url(../assets/mobile/astronautpink.png);
-  width: 63px;
-  height: 63px;
+  background-image: url(../assets/desktop_l/astronautpink.png);
+  width: 119px;
+  height: 119px;
   position: absolute;
-  position: absolute;
-  top: 1190px;
-  left: 50px;
-  animation: astronautpink 10s linear infinite;
-  display: none;
+  top: 660px;
+  left: 0px;
 }
 
 .astronautBlue {
-  background-image: url(../assets/mobile/astronautblue.png);
-  width: 34px;
-  height: 34px;
+  background-image: url(../assets/desktop_l/astronautblue.png);
+  width: 67px;
+  height: 67px;
   position: absolute;
-  top: 1280px;
-  left: 290px;
-  animation: astronautblue 10s linear infinite;
-  display: none;
+  top: 750px;
+  left: 300px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -10147,41 +10120,38 @@
 }
 
 .teamArt {
-  background-image: url(../assets/desktop_s/teamart.png);
-  width: 603px;
-  height: 603px;
   position: absolute;
-  top: 1780px;
-  left: 130px;
+  top: 2200px;
+  left: 00px;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .teamGirl {
-  background-image: url(../assets/mobile/teamgirl.png);
-  width: 160px;
-  height: 210px;
-  margin: 0 0 0 108px;
-  display: none;
+  background-image: url(../assets/desktop_l/teamgirl.png);
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  top: -2500px;
+  left: 150px;
 }
 
 .teamCrown {
-  background-image: url(../assets/mobile/teamcrown.png);
-  width: 38px;
-  height: 24px;
-  margin: -230px 0 0 145px;
-  animation: crown 5s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_l/teamcrown.png);
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: -2715px;
+  left: 340px;
 }
 
 .teamShine {
-  background-image: url(../assets/mobile/teamshine.png);
-  width: 24px;
-  height: 24px;
-  margin: 21px 0 0 176px;
-  transform: scale(0.5);
-  animation: shine 5s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: -2435px;
+  left: 415px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -10409,53 +10379,51 @@
 }
 
 .wwdAlien {
-  background-image: url(../assets/desktop_s/alien.png);
   width: 601px;
   height: 565px;
   position: relative;
   top: 0px;
   right: 0px;
-  margin: -700px 0 200px 900px;
+  margin: -720px 0 200px 630px;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .alien {
-  background-image: url(../assets/mobile/alien.png);
-  width: 300px;
-  height: 190px;
-  margin: -148px 0 0 70px;
-  position: relative;
-  display: none;
+  background-image: url(../assets/desktop_l/alien.png);
+  width: 680px;
+  height: 580px;
+  position: absolute;
+  top: 850px;
+  left: -600px;
 }
 
 .alienDiamond {
-  background-image: url(../assets/mobile/aliendiamond.png);
-  width: 46px;
-  height: 45px;
-  margin: -125px 0 0 60px;
-  transform: scale(0.8);
-  animation: diamond 8s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/aliendiamond.png);
+  width: 129px;
+  height: 128px;
+  position: absolute;
+  top: 1042px;
+  left: -542px;
 }
 
 .alienLeg {
-  background-image: url(../assets/mobile/alienleg.png);
-  width: 72px;
-  height: 56px;
-  margin: 80px 0 0 180px;
-  animation: leg 3s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/alienleg.png);
+  width: 204px;
+  height: 155px;
+  position: absolute;
+  top: 1115px;
+  left: -195px;
+  z-index: 9;
 }
 
 .alienEye {
-  background-image: url(../assets/mobile/alieneye.png);
-  width: 39px;
-  height: 36px;
-  margin: -172px 0 0 173px;
-  position: relative;
-  animation: eye 9s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/alieneye.png);
+  width: 115px;
+  height: 103px;
+  position: absolute;
+  top: 795px;
+  left: -330px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -10689,7 +10657,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5190px;
+  top: 5175px;
   width: 300px;
 }
 
@@ -10705,50 +10673,70 @@
 
 .previousWorks {
   height: 2000px;
-  top: 5290px;
+  top: 5270px;
 }
 
 .pwArt {
-  background-image: url(../assets/desktop_s/camera.png);
   width: 885px;
   height: 568px;
-  z-index: 4;
-  margin: -30px 0 0 -850px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0 0 0 0;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .camera {
-  background-image: url(../assets/mobile/camera.png);
-  width: 310px;
-  height: 250px;
-  display: none;
+  background-image: url(../assets/desktop_s/camera.png);
+  width: 870px;
+  height: 440px;
+  position: absolute;
+  top: 80px;
+  left: -430px;
 }
 
 .drip {
-  background-image: url(../assets/mobile/drip.png);
-  width: 80px;
-  height: 87px;
-  margin: -90px 0 0 68px;
-  animation: drip 6s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_s/drip.png);
+  width: 151px;
+  height: 164px;
+  position: absolute;
+  top: 400px;
+  left: -100px;
 }
 
 .cloud {
-  background-image: url(../assets/mobile/cloud.png);
-  width: 77px;
-  height: 26px;
-  margin: -245px 0 0 70px;
-  animation: cloud 30s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_s/cloud.png);
+  width: 145px;
+  height: 48px;
+  position: absolute;
+  top: 290px;
+  left: -100px;
 }
 
 .cameraBalls {
-  top: 100px;
-  left: 35px;
-  z-index: 3;
-  transform: scale(1.2);
-  display: none;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.blueBall {
+  background-image: url(../assets/desktop_s/blueball.png);
+  width: 24px;
+  height: 24px;
+}
+
+.redBall {
+  background-image: url(../assets/desktop_s/redball.png);
+  width: 24px;
+  height: 24px;
+}
+
+.pinkBall {
+  background-image: url(../assets/desktop_s/pinkball.png);
+  width: 24px;
+  height: 24px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -11468,10 +11456,52 @@
 }
 
 .clientsArt {
-  background-image: url(../assets/desktop_s/client.png);
-  width: 1312px;
-  height: 540px;
-  margin: -42px 0 0px 120px;
+  margin: 0px 0 680px 0px;
+}
+
+.clientBG {
+  background-image: url(../assets/desktop_l/clientbg.png);
+  width: 1260px;
+  height: 388px;
+  position: absolute;
+  top: 8900px;
+  left: 130px;
+}
+
+.clientGuy {
+  background-image: url(../assets/desktop_l/clientguy.png);
+  width: 560px;
+  height: 510px;
+  position: absolute;
+  top: 8900px;
+  left: -2100px;
+}
+
+.clientShine1 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 8930px;
+  left: -3550px; 
+}
+
+.clientShine2 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 9300px;
+  left: -820px; 
+}
+
+.clientShine3 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 9300px;
+  left: -3100px; 
 }
 
 .clientsGallery {
@@ -11487,7 +11517,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9500px;
+  top: 9640px;
 }
 
 .clientArrowLeft {
@@ -12124,10 +12154,27 @@
 /******* CONTACT *******/
 
 .contactArt {
-  background-image: url(../assets/desktop_s/contact.png);
   width: 363px;
   height: 312px;
-  margin: 30px 0 0px 700px;
+  margin: 0px 0 0px 750px;
+}
+
+.contactLetter {
+  background-image: url(../assets/desktop_l/contactletter.png);
+  width: 340px;
+  height: 309px;
+  position: absolute;
+  top: 10900px;
+  right: 220px;
+}
+
+.contactPoint {
+  background-image: url(../assets/desktop_l/contactpoint.png);
+  width: 285px;
+  height: 389px;
+  position: absolute;
+  top: 9420px;
+  left: 1050px;
 }
 
 .contactTitle {
@@ -12137,7 +12184,7 @@
 
 .contactText {
   width: 700px;
-  margin: 0 0 100px -450px;
+  margin: 0 0 150px -450px;
 }
 
 .formLoading{
@@ -12443,67 +12490,54 @@
 }
 
 .aboutImage {
-  background-image: url(../assets/desktop_l/astronaut.png);
-  width: 835px;
-  height: 1025px;
-  transform: scale(0.9);
   position: absolute;
-  top: 830px;
   right: 50px;
+  top: 950px;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .astronautPoint {
-  background-image: url(../assets/mobile/astronautpoint.png);
-  width: 130px;
-  height: 143px;
-  margin: 20px 0 -30px 210px;
-  animation: astronautpoint 10s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/astronautpoint.png);
+  width: 508px;
+  height: 557px;
+  margin: 0 0 0 0px;
 }
 
 .astronautGuy {
-  background-image: url(../assets/mobile/astronautguy.png);
-  width: 269px;
-  height: 127px;
-  margin: 0 auto 80px auto;
-  animation: astronaut 20s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/astronautguy.png);
+  width: 655px;
+  height: 307px;
+  position: absolute;
+  top: 400px;
+  left: -120px;
 }
 
 .astronautBlack {
-  background-image: url(../assets/mobile/astronautblack.png);
-  width: 24px;
-  height: 24px;
+  background-image: url(../assets/desktop_l/astronautblack.png);
+  width: 37px;
+  height: 37px;
   position: absolute;
-  top: 1050px;
-  left: 90px;
-  animation: astronautblack 30s infinite linear;
-  display: none;
+  top: 450px;
+  left: -300px;
 }
 
 .astronautPink {
-  background-image: url(../assets/mobile/astronautpink.png);
-  width: 63px;
-  height: 63px;
+  background-image: url(../assets/desktop_l/astronautpink.png);
+  width: 119px;
+  height: 119px;
   position: absolute;
-  position: absolute;
-  top: 1190px;
-  left: 50px;
-  animation: astronautpink 10s linear infinite;
-  display: none;
+  top: 660px;
+  left: 0px;
 }
 
 .astronautBlue {
-  background-image: url(../assets/mobile/astronautblue.png);
-  width: 34px;
-  height: 34px;
+  background-image: url(../assets/desktop_l/astronautblue.png);
+  width: 67px;
+  height: 67px;
   position: absolute;
-  top: 1280px;
-  left: 290px;
-  animation: astronautblue 10s linear infinite;
-  display: none;
+  top: 850px;
+  left: 300px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -12614,41 +12648,38 @@
 }
 
 .teamArt {
-  background-image: url(../assets/desktop_s/teamart.png);
-  width: 603px;
-  height: 603px;
   position: absolute;
-  top: 2120px;
-  left: 275px;
+  top: 2380px;
+  left: 00px;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .teamGirl {
-  background-image: url(../assets/mobile/teamgirl.png);
-  width: 160px;
-  height: 210px;
-  margin: 0 0 0 108px;
-  display: none;
+  background-image: url(../assets/desktop_l/teamgirl.png);
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  top: -2500px;
+  left: 150px;
 }
 
 .teamCrown {
-  background-image: url(../assets/mobile/teamcrown.png);
-  width: 38px;
-  height: 24px;
-  margin: -230px 0 0 145px;
-  animation: crown 5s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_l/teamcrown.png);
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: -2750px;
+  left: 335px;
 }
 
 .teamShine {
-  background-image: url(../assets/mobile/teamshine.png);
-  width: 24px;
-  height: 24px;
-  margin: 21px 0 0 176px;
-  transform: scale(0.5);
-  animation: shine 5s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: -2435px;
+  left: 415px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -12877,53 +12908,51 @@
 }
 
 .wwdAlien {
-  background-image: url(../assets/desktop_l/alien.png);
-  width: 747px;
-  height: 702px;
+  width: 601px;
+  height: 565px;
   position: relative;
   top: 0px;
   right: 0px;
-  margin: -740px 0 200px 900px;
+  margin: -720px 0 200px 680px;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .alien {
-  background-image: url(../assets/mobile/alien.png);
-  width: 300px;
-  height: 190px;
-  margin: -148px 0 0 70px;
-  position: relative;
-  display: none;
+  background-image: url(../assets/desktop_l/alien.png);
+  width: 680px;
+  height: 580px;
+  position: absolute;
+  top: 850px;
+  left: -600px;
 }
 
 .alienDiamond {
-  background-image: url(../assets/mobile/aliendiamond.png);
-  width: 46px;
-  height: 45px;
-  margin: -125px 0 0 60px;
-  transform: scale(0.8);
-  animation: diamond 8s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/aliendiamond.png);
+  width: 129px;
+  height: 128px;
+  position: absolute;
+  top: 1042px;
+  left: -542px;
 }
 
 .alienLeg {
-  background-image: url(../assets/mobile/alienleg.png);
-  width: 72px;
-  height: 56px;
-  margin: 80px 0 0 180px;
-  animation: leg 3s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/alienleg.png);
+  width: 204px;
+  height: 155px;
+  position: absolute;
+  top: 1115px;
+  left: -195px;
+  z-index: 9;
 }
 
 .alienEye {
-  background-image: url(../assets/mobile/alieneye.png);
-  width: 39px;
-  height: 36px;
-  margin: -172px 0 0 173px;
-  position: relative;
-  animation: eye 9s linear infinite;
-  display: none;
+  background-image: url(../assets/desktop_l/alieneye.png);
+  width: 115px;
+  height: 103px;
+  position: absolute;
+  top: 795px;
+  left: -345px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -13064,7 +13093,7 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 4950px;
+  top: 4830px;
   left: 20px;
 }
 
@@ -13165,7 +13194,7 @@
 }
 
 .hwdWhiteBg {
-  top: 6030px;
+  top: 5930px;
   width: 340px;
   transform: scale(1.2);
 }
@@ -13182,50 +13211,70 @@
 
 .previousWorks {
   height: 1800px;
-  top: 6150px;
+  top: 6040px;
 }
 
 .pwArt {
-  background-image: url(../assets/desktop_s/camera.png);
   width: 885px;
   height: 568px;
-  z-index: 4;
-  margin: -30px 0 0 -850px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0 0 0 0;
 }
 
 /*** DESABILITADO POR HORA ***/
 
 .camera {
-  background-image: url(../assets/mobile/camera.png);
-  width: 310px;
-  height: 250px;
-  display: none;
+  background-image: url(../assets/desktop_s/camera.png);
+  width: 870px;
+  height: 440px;
+  position: absolute;
+  top: 80px;
+  left: -430px;
 }
 
 .drip {
-  background-image: url(../assets/mobile/drip.png);
-  width: 80px;
-  height: 87px;
-  margin: -90px 0 0 68px;
-  animation: drip 6s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_s/drip.png);
+  width: 151px;
+  height: 164px;
+  position: absolute;
+  top: 400px;
+  left: -100px;
 }
 
 .cloud {
-  background-image: url(../assets/mobile/cloud.png);
-  width: 77px;
-  height: 26px;
-  margin: -245px 0 0 70px;
-  animation: cloud 30s infinite linear;
-  display: none;
+  background-image: url(../assets/desktop_s/cloud.png);
+  width: 145px;
+  height: 48px;
+  position: absolute;
+  top: 290px;
+  left: -100px;
 }
 
 .cameraBalls {
-  top: 100px;
-  left: 35px;
-  z-index: 3;
-  transform: scale(1.2);
-  display: none;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.blueBall {
+  background-image: url(../assets/desktop_s/blueball.png);
+  width: 24px;
+  height: 24px;
+}
+
+.redBall {
+  background-image: url(../assets/desktop_s/redball.png);
+  width: 24px;
+  height: 24px;
+}
+
+.pinkBall {
+  background-image: url(../assets/desktop_s/pinkball.png);
+  width: 24px;
+  height: 24px;
 }
 
 /*** FIM DO DESABILITADO POR HORA ***/
@@ -13928,15 +13977,57 @@
   line-height: 62px;
   width: 600px;
   position: absolute;
-  top: 9320px;
+  top: 9200px;
   left: 160px;
 }
 
 .clientsArt {
-  background-image: url(../assets/desktop_l/client.png);
-  width: 1542px;
-  height: 595px;
-  margin: -42px 0 0px 120px;
+  margin: 0px 0 680px 0px;
+}
+
+.clientBG {
+  background-image: url(../assets/desktop_l/clientbg.png);
+  width: 1260px;
+  height: 388px;
+  position: absolute;
+  top: 9230px;
+  left: 300px;
+}
+
+.clientGuy {
+  background-image: url(../assets/desktop_l/clientguy.png);
+  width: 560px;
+  height: 510px;
+  position: absolute;
+  top: 9250px;
+  left: -2100px;
+}
+
+.clientShine1 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 9700px;
+  left: -3500px; 
+}
+
+.clientShine2 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 9300px;
+  left: -820px; 
+}
+
+.clientShine3 {
+  background-image: url(../assets/desktop_l/teamshine.png);
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 9650px;
+  left: -3100px; 
 }
 
 .clientsGallery {
@@ -14589,10 +14680,27 @@
 /******* CONTACT *******/
 
 .contactArt {
-  background-image: url(../assets/desktop_l/contact.png);
-  width: 453px;
+  width: 363px;
+  height: 312px;
+  margin: 0px 0 0px 750px;
+}
+
+.contactLetter {
+  background-image: url(../assets/desktop_l/contactletter.png);
+  width: 340px;
+  height: 309px;
+  position: absolute;
+  top: 11300px;
+  right: 350px;
+}
+
+.contactPoint {
+  background-image: url(../assets/desktop_l/contactpoint.png);
+  width: 285px;
   height: 389px;
-  margin: 50px 0 0px 700px;
+  position: absolute;
+  top: 9780px;
+  left: 1250px;
 }
 
 .contactTitle {
@@ -14602,7 +14710,7 @@
 
 .contactText {
   width: 700px;
-  margin: 0 0 120px -810px;
+  margin: 0 0 180px -810px;
 }
 
 .formLoading{
