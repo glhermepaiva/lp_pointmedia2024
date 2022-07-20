@@ -1839,7 +1839,7 @@
   height: 20px;
   position: absolute;
   top: 9950px;
-  left: -4700px;  
+  left: 0px;  
   transform: scale(0.5);
   animation: shine1 3s infinite linear;
 }
@@ -1856,7 +1856,7 @@
   height: 20px;
   position: absolute;
   top: 9765px;
-  left: -1730px;
+  left: 0px;
   transform: scale(0.5);
   animation: shine2 3s infinite linear;
 }
@@ -1873,7 +1873,7 @@
   height: 20px;
   position: absolute;
   top: 9900px;
-  left: -3550px;
+  left: 0px;
   transform: scale(0.5);
   animation: shine3 3s infinite linear;
 }
