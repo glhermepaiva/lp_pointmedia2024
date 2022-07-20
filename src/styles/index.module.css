@@ -1829,8 +1829,8 @@
   width: 249px;
   height: 249px;
   position: absolute;
-  top: 9745px;
-  left: 0px;
+  top: 9735px;
+  left: 60px;
 }
 
 .clientShine1 {
@@ -1838,8 +1838,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9950px;
-  left: 0px;  
+  top: 9910px;
+  left: 240px;  
   transform: scale(0.5);
   animation: shine1 3s infinite linear;
 }
@@ -1855,8 +1855,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9765px;
-  left: 0px;
+  top: 9870px;
+  left: 30px;
   transform: scale(0.5);
   animation: shine2 3s infinite linear;
 }
@@ -1872,8 +1872,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9900px;
-  left: 0px;
+  top: 9760px;
+  left: 300px;
   transform: scale(0.5);
   animation: shine3 3s infinite linear;
 }
