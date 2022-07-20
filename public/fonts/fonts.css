@@ -2,13 +2,24 @@
 @font-face {  font-family: PoppinsBold;  src: url('../fonts/Poppins-Bold.woff'); font-display: swap;} */
 
 
-@font-face {
+/* @font-face {
     font-family: Poppins;
     src: url('../fonts/Poppins-Regular.woff') format('woff');
-  }
+  } */
 
 
 @font-face {
     font-family: PoppinsBold;
     src: url('../fonts/Poppins-Bold.woff') format('woff');
+  }
+
+
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/Poppins-Regular.woff') format('woff'),
+         url('../fonts/Poppins-Regular.ttf') format('truetype');
   }
