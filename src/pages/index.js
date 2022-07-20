@@ -1225,7 +1225,8 @@ function parallaxAnimClient() {
   if (size.width < 768){
     return (
       <div>
-        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px)`}}/>
+        <div className={styles.clientGuy} />
+        {/* style={{transform: `translateX(${offsetY * 0.03}px)`}} */}
         <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
         <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
         <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
