@@ -1227,6 +1227,7 @@ function parallaxAnimClient() {
       <div>
         <div className={styles.clientGuy} />
         {/* style={{transform: `translateX(${offsetY * 0.03}px)`}} */}
+        <div className={styles.clientGuyArm} style={{transform: `rotate(${offsetY / 25}deg)`}} />
         <div className={styles.clientShine1} />
         {/* style={{transform: `translateX(${offsetY * 0.5}px)`}} */}
         <div className={styles.clientShine2} />

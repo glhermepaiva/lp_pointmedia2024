@@ -1825,11 +1825,21 @@
 
 .clientGuy {
   background-image: url(../assets/mobile/clientguy.png);
-  width: 249px;
-  height: 249px;
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 9770px;
+  left: 100px;
+  z-index: 2;
+}
+
+.clientGuyArm {
+  background-image: url(../assets/mobile/clientguyarm.png);
+  width: 76px;
+  height: 115px;
   position: absolute;
   top: 9735px;
-  left: 60px;
+  left: 245px;
 }
 
 .clientShine1 {
@@ -1838,8 +1848,7 @@
   height: 20px;
   position: absolute;
   top: 9910px;
-  left: 240px;  
-  transform: scale(0.5);
+  left: 260px;
   animation: shine1 3s infinite linear;
 }
 
@@ -1855,8 +1864,7 @@
   height: 20px;
   position: absolute;
   top: 9870px;
-  left: 30px;
-  transform: scale(0.5);
+  left: 50px;
   animation: shine2 3s infinite linear;
 }
 
@@ -1872,8 +1880,7 @@
   height: 20px;
   position: absolute;
   top: 9760px;
-  left: 300px;
-  transform: scale(0.5);
+  left: 320px;
   animation: shine3 3s infinite linear;
 }
 
@@ -2581,13 +2588,6 @@
 }
 
 /******* CONTACT *******/
-
-.divideLine {
-  background-color: #EB6099;
-  width: 100vw;
-  height: 3px;
-  border-radius: 20%;
-}
 
 .contact {
   display: flex;
