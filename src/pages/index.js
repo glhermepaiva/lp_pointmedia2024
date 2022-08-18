@@ -1567,17 +1567,17 @@ function parallaxAnimContact() {
           <div className={styles.Will}>
             <div className={styles.WillPicture} />
             <div className={styles.WillName}>William</div>
-            <div className={styles.WillJob}>Head Produção</div>
+            <div className={styles.WillJob}>Head de Produção</div>
           </div>
           <div className={styles.MarcellaAt}>
             <div className={styles.MarcellaAtPicture} />
-            <div className={styles.MarcellaAtName}>Marcella</div>
-            <div className={styles.MarcellaAtJob}>Head Atendimento</div>
+            <div className={styles.MarcellaAtName}>Mariana</div>
+            <div className={styles.MarcellaAtJob}>Head de Operações</div>
           </div>
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
             <div className={styles.LouroName}>Leonardo</div>
-            <div className={styles.LouroJob}>Head Tech</div>
+            <div className={styles.LouroJob}>Head de Tecnologia</div>
           </div>
           <div className={styles.Robson}>
             <div className={styles.RobsonPicture} />
@@ -1587,17 +1587,17 @@ function parallaxAnimContact() {
           <div className={styles.Tato}>
             <div className={styles.TatoPicture} />
             <div className={styles.TatoName}>Anderson</div>
-            <div className={styles.TatoJob}>Head E-mail MKT</div>
+            <div className={styles.TatoJob}>Head de <br/>E-mail MKT</div>
           </div>
           <div className={styles.Danielle}>
             <div className={styles.DaniellePicture} />
             <div className={styles.DanielleName}>Danielle</div>
-            <div className={styles.DanielleJob}>Head Financeiro</div>
+            <div className={styles.DanielleJob}>Head do Financeiro</div>
           </div>
           <div className={styles.MarcellaRh}>
             <div className={styles.MarcellaRhPicture} />
             <div className={styles.MarcellaRhName}>Marcella</div>
-            <div className={styles.MarcellaRhJob}>Head RH</div>
+            <div className={styles.MarcellaRhJob}>Head de RH</div>
           </div>
         </div>
       </div>

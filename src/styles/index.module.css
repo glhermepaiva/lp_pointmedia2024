@@ -711,8 +711,8 @@
 .WillJob {
   font-size: 12px;
   margin-left: -5px;
-  width: 50px;
-  margin-left: -20px;
+  width: 60px;
+  margin-left: -10px;
 }
 
 .MarcellaAt {
@@ -739,8 +739,8 @@
 .MarcellaAtJob {
   font-size: 12px;
   margin-left: -5px;
-  width: 50px;
-  margin-left: -20px;
+  width: 60px;
+  margin-left: -10px;
 }
 
 .Louro {
@@ -794,8 +794,8 @@
 .RobsonJob {
   font-size: 12px;
   margin-left: -5px;
-  width: 100px;
-  margin-left: 20px;
+  width: 80px;
+  margin-left: 0px;
 }
 
 .Tato {
@@ -821,8 +821,8 @@
 
 .TatoJob {
   font-size: 12px;
-  margin-left: -5px;
-  width: 80px;
+  margin-left: -17px;
+  width: 67px;
 }
 
 .Danielle {
@@ -874,7 +874,8 @@
 
 .MarcellaRhJob {
   font-size: 12px;
-  width: 70px;
+  width: 60px;
+  margin-left: -10px;
   margin-bottom: 180px;
 }
 
@@ -5300,8 +5301,8 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
-  width: 120px;
-  margin-left: 10px;
+  width: 100px;
+  margin-left: -10px;
 }
 
 .Tato {
@@ -5348,18 +5349,20 @@
 .DanielleJob {
   font-size: 15px;
   line-height: 20px;
-  width: 150px;
-  margin: 0 0 0 30px;
+  width: 100px;
+  margin: 0 0 0 -20px;
 }
 
 .MarcellaRH {
   margin: 35px 60px 0 60px;
+  
 }
 
 .MarcellaRhPicture {
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
+  margin-top: -16px;
 }
 
 .MarcellaRhName {
@@ -7161,7 +7164,7 @@
   height: 247px;
   position: absolute;
   top: 11750px;
-  right: 220px;
+  right: 120px;
 }
 
 .contactPoint {
@@ -7170,7 +7173,7 @@
   height: 312px;
   position: absolute;
   top: 10150px;
-  left: 1020px;
+  left: 930px;
 }
 
 .contactTitle {
@@ -7796,8 +7799,8 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
-  width: 120px;
-  margin-left: 10px;
+  width: 100px;
+  margin-left: -10px;
 }
 
 .Tato {
@@ -7844,8 +7847,8 @@
 .DanielleJob {
   font-size: 15px;
   line-height: 20px;
-  width: 150px;
-  margin: 0 0 0 30px;
+  width: 120px;
+  margin: 0 0 0 0px;
 }
 
 .MarcellaRH {
@@ -7856,6 +7859,7 @@
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
+  margin-top: -15px;
 }
 
 .MarcellaRhName {
@@ -9643,7 +9647,7 @@
   height: 247px;
   position: absolute;
   top: 11750px;
-  right: 300px;
+  right: 250px;
 }
 
 .contactPoint {
@@ -9652,7 +9656,7 @@
   height: 312px;
   position: absolute;
   top: 10150px;
-  left: 1140px;
+  left: 980px;
 }
 
 .contactTitle {
@@ -10294,8 +10298,8 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
-  width: 120px;
-  margin-left: 10px;
+  width: 100px;
+  margin-left: -10px;
 }
 
 .Tato {
@@ -10342,8 +10346,8 @@
 .DanielleJob {
   font-size: 15px;
   line-height: 20px;
-  width: 150px;
-  margin: 0 0 0 30px;
+  width: 120px;
+  margin: 0 0 0 0px;
 }
 
 .MarcellaRH {
@@ -10354,6 +10358,7 @@
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
+  margin-top: -15px;
 }
 
 .MarcellaRhName {
@@ -12163,7 +12168,7 @@
   height: 309px;
   position: absolute;
   top: 10900px;
-  right: 370px;
+  right: 280px;
 }
 
 .contactPoint {
@@ -12172,7 +12177,7 @@
   height: 389px;
   position: absolute;
   top: 9420px;
-  left: 1230px;
+  left: 1110px;
 }
 
 .contactTitle {
@@ -12822,8 +12827,8 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
-  width: 120px;
-  margin-left: 10px;
+  width: 100px;
+  margin-left: -10px;
 }
 
 .Tato {
@@ -12870,8 +12875,8 @@
 .DanielleJob {
   font-size: 15px;
   line-height: 20px;
-  width: 150px;
-  margin: 0 0 0 30px;
+  width: 120px;
+  margin: 0 0 0 0px;
 }
 
 .MarcellaRH {
