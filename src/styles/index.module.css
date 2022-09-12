@@ -743,6 +743,34 @@
   margin-left: -10px;
 }
 
+.Gabriela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 50px 0 0 0;
+}
+
+.GabrielaPicture {
+  background-image: url(../assets/mobile/gabriela.png);
+  width: 128px;
+  height: 131px;
+}
+
+.GabrielaName {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.GabrielaJob {
+  font-size: 12px;
+  margin-left: -5px;
+  width: 60px;
+  margin-left: -10px;
+}
+
 .Louro {
   display: flex;
   flex-direction: column;
@@ -877,6 +905,14 @@
   width: 60px;
   margin-left: -10px;
   margin-bottom: 180px;
+}
+
+.MarcellaRh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 50px 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -5256,6 +5292,33 @@
   margin-left: 20px;
 }
 
+.Gabriela {
+  margin: 0 60px 0 60px;
+}
+
+.GabrielaPicture {
+  background-image: url(../assets/desktop_s/gabriela.png);
+  width: 205px;
+  height: 211px;
+}
+
+.GabrielaName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -80px;
+}
+
+.GabrielaJob {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -5px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+
+
 .Louro {
   margin: 0 0 0 60px;
 }
@@ -7747,6 +7810,32 @@
 }
 
 .MarcellaAtJob {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -5px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.Gabriela {
+  margin: 0 100px 0 100px;
+}
+
+
+.GabrielaPicture {
+  background-image: url(../assets/desktop_s/gabriela.png);
+  width: 205px;
+  height: 211px;
+}
+
+.GabrielaName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -80px;
+}
+
+.GabrielaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -10246,6 +10335,32 @@
 }
 
 .MarcellaAtJob {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -5px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.Gabriela {
+  margin: 0 100px 0 100px;
+}
+
+
+.GabrielaPicture {
+  background-image: url(../assets/desktop_s/gabriela.png);
+  width: 205px;
+  height: 211px;
+}
+
+.GabrielaName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -80px;
+}
+
+.GabrielaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -12775,6 +12890,32 @@
 }
 
 .MarcellaAtJob {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -5px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.Gabriela {
+  margin: 0 150px 0 150px;
+}
+
+
+.GabrielaPicture {
+  background-image: url(../assets/desktop_s/gabriela.png);
+  width: 205px;
+  height: 211px;
+}
+
+.GabrielaName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -80px;
+}
+
+.GabrielaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
