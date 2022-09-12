@@ -942,7 +942,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4160px;
+  top: 4430px;
   left: 70px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -1131,7 +1131,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5440px;
+  top: 5710px;
   left: 20px;
 }
 
@@ -1288,7 +1288,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 6060px;
+  top: 6330px;
   width: 60vw;
 }
 
@@ -1459,7 +1459,7 @@
   position: absolute;
   width: 100vw;
   height: 1850px;
-  top: 6150px;
+  top: 6420px;
   display: flex;
   flex-direction: column;
   align-items: center;
