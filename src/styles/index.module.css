@@ -3260,8 +3260,9 @@
   align-self: center;
 }
 
-.MarcellaRhJob {
-  margin-bottom: 130px;
+.MarcellaRh {
+  margin-top: 50px;
+  margin-bottom: -80px;
 }
 
 /******* WHAT WE DO *******/
@@ -3437,7 +3438,7 @@
 
 .hwdBalls {
   transform: scale(1.3);
-  top: 4180px;
+  top: 4150px;
   left: 45px;
 }
 
@@ -3540,7 +3541,7 @@
 }
 
 .hwdWhiteBg {
-  top: 4725px;
+  top: 4700px;
   width: 240px;
   transform: scale(0.8);
 }
@@ -3549,7 +3550,7 @@
 
 .previousWorks {
   height: 1330px;
-  top: 4800px;
+  top: 4775px;
 }
 
 .pwArt {
@@ -4699,7 +4700,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 9970px;
+  top: 9950px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -4709,7 +4710,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 8680px;
+  top: 8660px;
   left: 500px;
   z-index: 9;
 }
