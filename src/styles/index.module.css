@@ -9036,7 +9036,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9320px;
+  top: 9350px;
   left: 110px;
 }
 
@@ -9891,6 +9891,7 @@
   position: relative;
   margin: -600px 0 0 260px;
   z-index: 1;
+  width: 210px;
 }
 
 .ceaTagLine {
@@ -10693,7 +10694,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4365px;
+  top: 4380px;
   left: 20px;
 }
 
@@ -11654,7 +11655,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9620px;
+  top: 9630px;
 }
 
 .clientArrowLeft {
