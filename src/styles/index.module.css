@@ -12452,6 +12452,7 @@
   position: relative;
   margin: -700px 0 0 280px;
   z-index: 1;
+  width: 210px;
 }
 
 .ceaTagLine {
@@ -12969,7 +12970,7 @@
 }
 
 .Robson {
-  margin: 0 50px 0 200px;
+  margin: 0 50px 0 190px;
 }
 
 .RobsonPicture {
