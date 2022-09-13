@@ -1604,7 +1604,7 @@ function parallaxAnimContact() {
             <div className={styles.MarcellaRhName}>Marcella</div>
             <div className={styles.MarcellaRhJob}>Head de RH</div>
           </div>
-          <div className={styles.MarcellaRh} />
+          {/* <div className={styles.MarcellaRh} /> */}
         </div>
       </div>
       
