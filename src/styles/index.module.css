@@ -715,7 +715,7 @@
   margin-left: -10px;
 }
 
-.MarcellaAt {
+.Mariana {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -723,20 +723,20 @@
   margin: 50px 0 0 0;
 }
 
-.MarcellaAtPicture {
-  background-image: url(../assets/mobile/marcellaat.png);
+.MarianaPicture {
+  background-image: url(../assets/mobile/mariana.png);
   width: 128px;
   height: 131px;
 }
 
-.MarcellaAtName {
+.MarianaName {
   font-family: PoppinsBold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -20px;
 }
 
-.MarcellaAtJob {
+.MarianaJob {
   font-size: 12px;
   margin-left: -5px;
   width: 60px;
@@ -906,14 +906,6 @@
   width: 60px;
   margin-left: -10px;
   margin-bottom: 180px;
-}
-
-.Empty {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -5273,24 +5265,24 @@
   margin-left: 15px;
 }
 
-.MarcellaAt {
+.Mariana {
   margin: 0 60px 0 60px;
 }
 
-.MarcellaAtPicture {
-  background-image: url(../assets/desktop_s/marcellaat.png);
+.MarianaPicture {
+  background-image: url(../assets/desktop_s/mariana.png);
   width: 205px;
   height: 211px;
 }
 
-.MarcellaAtName {
+.MarianaName {
   font-size: 20px;
   line-height: 27px;
   width: 50px;
   margin: 10px 0 0 -80px;
 }
 
-.MarcellaAtJob {
+.MarianaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -5441,14 +5433,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
-}
-
-.Empty {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 0px;
-  margin: 50px -59px 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -7800,25 +7784,25 @@
   margin-left: 15px;
 }
 
-.MarcellaAt {
+.Mariana {
   margin: 0 50px 0 50px;
 }
 
 
-.MarcellaAtPicture {
-  background-image: url(../assets/desktop_s/marcellaat.png);
+.MarianaPicture {
+  background-image: url(../assets/desktop_s/mariana.png);
   width: 205px;
   height: 211px;
 }
 
-.MarcellaAtName {
+.MarianaName {
   font-size: 20px;
   line-height: 27px;
   width: 50px;
   margin: 10px 0 0 -80px;
 }
 
-.MarcellaAtJob {
+.MarianaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -7972,11 +7956,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
-}
-
-.Empty {
-  width: 0px;
-  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -10331,25 +10310,25 @@
   margin-left: 15px;
 }
 
-.MarcellaAt {
+.Mariana {
   margin: 0 50px 0 50px;
 }
 
 
-.MarcellaAtPicture {
-  background-image: url(../assets/desktop_s/marcellaat.png);
+.MarianaPicture {
+  background-image: url(../assets/desktop_s/mariana.png);
   width: 205px;
   height: 211px;
 }
 
-.MarcellaAtName {
+.MarianaName {
   font-size: 20px;
   line-height: 27px;
   width: 50px;
   margin: 10px 0 0 -80px;
 }
 
-.MarcellaAtJob {
+.MarianaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -10503,11 +10482,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
-}
-
-.Empty {
-  width: 0px;
-  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -12892,25 +12866,25 @@
   margin-left: 15px;
 }
 
-.MarcellaAt {
+.Mariana {
   margin: 0 50px 0 50px;
 }
 
 
-.MarcellaAtPicture {
-  background-image: url(../assets/desktop_s/marcellaat.png);
+.MarianaPicture {
+  background-image: url(../assets/desktop_s/mariana.png);
   width: 205px;
   height: 211px;
 }
 
-.MarcellaAtName {
+.MarianaName {
   font-size: 20px;
   line-height: 27px;
   width: 50px;
   margin: 10px 0 0 -80px;
 }
 
-.MarcellaAtJob {
+.MarianaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -13065,11 +13039,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 300px -50px;
-}
-
-.Empty {
-  width: 0px;
-  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/

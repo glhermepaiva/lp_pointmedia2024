@@ -1569,10 +1569,10 @@ function parallaxAnimContact() {
             <div className={styles.WillName}>William</div>
             <div className={styles.WillJob}>Head de Produção</div>
           </div>
-          <div className={styles.MarcellaAt}>
-            <div className={styles.MarcellaAtPicture} />
-            <div className={styles.MarcellaAtName}>Mariana</div>
-            <div className={styles.MarcellaAtJob}>Head de Operações</div>
+          <div className={styles.Mariana}>
+            <div className={styles.MarianaPicture} />
+            <div className={styles.MarianaName}>Mariana</div>
+            <div className={styles.MarianaJob}>Head de Operações</div>
           </div>
           <div className={styles.Gabriela}>
             <div className={styles.GabrielaPicture} />
@@ -1604,7 +1604,6 @@ function parallaxAnimContact() {
             <div className={styles.MarcellaRhName}>Marcella</div>
             <div className={styles.MarcellaRhJob}>Head de RH</div>
           </div>
-          <div className={styles.Empty} />
         </div>
       </div>
       
