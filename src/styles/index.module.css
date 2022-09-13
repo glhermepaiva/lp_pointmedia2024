@@ -851,6 +851,7 @@
   font-size: 12px;
   margin-left: -17px;
   width: 67px;
+  margin-bottom: 50px;
 }
 
 .Danielle {
@@ -884,7 +885,7 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 50px 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .MarcellaRhPicture {
@@ -5243,6 +5244,7 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: -40px;
+  margin-bottom: 50px;
 }
 
 .Will {
@@ -5315,9 +5317,9 @@
 .GabrielaJob {
   font-size: 15px;
   line-height: 20px;
-  margin-left: -5px;
   width: 150px;
   margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 .Louro {
@@ -5369,7 +5371,7 @@
 }
 
 .Tato {
-  margin: 0 60px 0 60px;
+  margin: 0 60px 0 40px;
 }
 
 .TatoPicture {
@@ -5393,7 +5395,7 @@
 }
 
 .Danielle {
-  margin: 0 60px 0 60px;
+  margin: 0 95px 0 33px;
 }
 
 .DaniellePicture {
@@ -5417,7 +5419,7 @@
 }
 
 .MarcellaRH {
-  margin: 0px 60px 0 60px;
+  margin: 0px -100px 0 60px;
 }
 
 .MarcellaRhPicture {
@@ -5438,6 +5440,14 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
+}
+
+.Empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0px;
+  margin: 50px -59px 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -5625,7 +5635,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4485px;
+  top: 4850px;
   left: 20px;
 }
 
@@ -5730,7 +5740,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5290px;
+  top: 5650px;
   width: 300px;
 }
 
@@ -5746,7 +5756,7 @@
 
 .previousWorks {
   height: 2500px;
-  top: 5390px;
+  top: 5750px;
 }
 
 .pwArt {
@@ -6510,7 +6520,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9370px;
+  top: 9740px;
   left: 80px;
 }
 
@@ -6523,7 +6533,7 @@
   width: 1057px;
   height: 353px;
   position: absolute;
-  top: 9420px;
+  top: 9800px;
   left: 0px;
 }
 
@@ -6532,7 +6542,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9480px;
+  top: 9800px;
   left: -2420px;
 }
 
@@ -6541,7 +6551,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9520px;
+  top: 9820px;
   left: -4010px; 
 }
 
@@ -6550,7 +6560,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9850px;
+  top: 10280px;
   left: -1150px; 
 }
 
@@ -6559,10 +6569,9 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9850px;
+  top: 10150px;
   left: -3500px; 
 }
-
 
 .clientsGallery {
   flex-direction: row;
@@ -6577,7 +6586,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10270px;
+  top: 10650px;
 }
 
 .clientArrowLeft {
@@ -7224,7 +7233,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 11750px;
+  top: 12100px;
   right: 120px;
 }
 
@@ -7233,7 +7242,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 10150px;
+  top: 10500px;
   left: 930px;
 }
 
@@ -7741,7 +7750,7 @@
 }
 
 .Priscila {
-  margin: 0 100px 0 0;
+  margin: 0 50px 0 100px;
 }
 
 .PriscilaPicture {
@@ -7764,7 +7773,7 @@
 }
 
 .Will {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -7790,7 +7799,7 @@
 }
 
 .MarcellaAt {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -7816,7 +7825,7 @@
 }
 
 .Gabriela {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -7842,7 +7851,7 @@
 }
 
 .Louro {
-  margin: 0 0 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 .LouroPicture {
@@ -7863,10 +7872,11 @@
   line-height: 20px;
   margin-left: 0px;
   width: 120px;
+  margin-bottom: 50px;
 }
 
 .Robson {
-  margin: 35px 60px 0 0;
+  margin: 0 50px 0 120px;
 }
 
 .RobsonPicture {
@@ -7891,7 +7901,7 @@
 }
 
 .Tato {
-  margin: 35px 100px 0 30px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -7915,7 +7925,7 @@
 }
 
 .Danielle {
-  margin: 35px 100px 0 0px;
+  margin: 0 100px 0 50px;
 }
 
 .DaniellePicture {
@@ -7939,14 +7949,13 @@
 }
 
 .MarcellaRH {
-  margin: 35px 60px 0 60px;
+  margin: 0 0 0 50px;
 }
 
 .MarcellaRhPicture {
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
-  margin-top: -15px;
 }
 
 .MarcellaRhName {
@@ -7961,6 +7970,11 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
+}
+
+.Empty {
+  width: 0px;
+  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -10260,13 +10274,13 @@
 }
 
 .teamPictures {
-  width: 1300px;
+  width: 1450px;
   align-self: center;
   justify-content: space-between;
 }
 
 .Priscila {
-  margin: 0 100px 0 0;
+  margin: 0 50px 0 100px;
 }
 
 .PriscilaPicture {
@@ -10289,7 +10303,7 @@
 }
 
 .Will {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -10315,7 +10329,7 @@
 }
 
 .MarcellaAt {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -10341,7 +10355,7 @@
 }
 
 .Gabriela {
-  margin: 0 100px 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -10367,7 +10381,7 @@
 }
 
 .Louro {
-  margin: 0 0 0 100px;
+  margin: 0 50px 0 50px;
 }
 
 .LouroPicture {
@@ -10388,10 +10402,11 @@
   line-height: 20px;
   margin-left: 0px;
   width: 120px;
+  margin-bottom: 50px;
 }
 
 .Robson {
-  margin: 35px 60px 0 0;
+  margin: 0 50px 0 130px;
 }
 
 .RobsonPicture {
@@ -10416,7 +10431,7 @@
 }
 
 .Tato {
-  margin: 35px 100px 0 30px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -10440,7 +10455,7 @@
 }
 
 .Danielle {
-  margin: 35px 100px 0 0px;
+  margin: 0 100px 0 50px;
 }
 
 .DaniellePicture {
@@ -10464,14 +10479,13 @@
 }
 
 .MarcellaRH {
-  margin: 35px 60px 0 60px;
+  margin: 0 0 0 50px;
 }
 
 .MarcellaRhPicture {
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
-  margin-top: -15px;
 }
 
 .MarcellaRhName {
@@ -10486,6 +10500,11 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
+}
+
+.Empty {
+  width: 0px;
+  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -12821,7 +12840,7 @@
 }
 
 .Priscila {
-  margin: 0 150px 0 0;
+  margin: 0 50px 0 100px;
 }
 
 .PriscilaPicture {
@@ -12844,7 +12863,7 @@
 }
 
 .Will {
-  margin: 0 150px 0 150px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -12870,7 +12889,7 @@
 }
 
 .MarcellaAt {
-  margin: 0 150px 0 150px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -12896,7 +12915,7 @@
 }
 
 .Gabriela {
-  margin: 0 150px 0 150px;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -12922,7 +12941,7 @@
 }
 
 .Louro {
-  margin: 0 0 0 150px;
+  margin: 0 50px 0 50px;
 }
 
 .LouroPicture {
@@ -12943,10 +12962,11 @@
   line-height: 20px;
   margin-left: 0px;
   width: 120px;
+  margin-bottom: 50px;
 }
 
 .Robson {
-  margin: 70px 60px 0 0;
+  margin: 0 50px 0 200px;
 }
 
 .RobsonPicture {
@@ -12971,7 +12991,7 @@
 }
 
 .Tato {
-  margin: 70px 100px 0 30px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -12995,7 +13015,7 @@
 }
 
 .Danielle {
-  margin: 70px 100px 0 0px;
+  margin: 0 100px 0 50px;
 }
 
 .DaniellePicture {
@@ -13019,14 +13039,14 @@
 }
 
 .MarcellaRH {
-  margin: 0px 60px 0 0px;
+  margin: 0 0 0 50px;
 }
 
 .MarcellaRhPicture {
   background-image: url(../assets/desktop_s/marcellarh.png);
   width: 205px;
   height: 211px;
-  margin: 20px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 .MarcellaRhName {
@@ -13041,6 +13061,11 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 300px -50px;
+}
+
+.Empty {
+  width: 0px;
+  margin: 0 0 0 0;
 }
 
 /******* WHAT WE DO *******/
@@ -13353,7 +13378,7 @@
 
 .previousWorks {
   height: 1800px;
-  top: 6040px;
+  top: 6030px;
 }
 
 .pwArt {
