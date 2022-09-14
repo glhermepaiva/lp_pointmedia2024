@@ -4865,6 +4865,7 @@
   position: relative;
   margin: -600px 0 0 480px;
   z-index: 1;
+  width: 210px;
 }
 
 .ceaTagLine {
