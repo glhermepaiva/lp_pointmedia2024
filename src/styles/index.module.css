@@ -5194,7 +5194,7 @@
 .teamArt {
   position: absolute;
   top: 2200px;
-  left: 40px;
+  left: 10px;
 }
 
 /*** DESABILITADO POR HORA ***/
@@ -5243,7 +5243,7 @@
 }
 
 .teamPictures {
-  width: 1000px;
+  width: 1100px;
   align-self: center;
 }
 
@@ -5460,6 +5460,30 @@
 }
 
 .MarcellaRhJob {
+  font-size: 15px;
+  line-height: 20px;
+  width: 70px;
+  margin: 0 0 250px -50px;
+}
+
+.Carlos {
+  margin: 0 60px 0 -490px;
+}
+
+.CarlosPicture {
+  background-image: url(../assets/desktop_s/carlos.png);
+  width: 205px;
+  height: 211px;
+}
+
+.CarlosName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -70px;
+}
+
+.CarlosJob {
   font-size: 15px;
   line-height: 20px;
   width: 70px;
