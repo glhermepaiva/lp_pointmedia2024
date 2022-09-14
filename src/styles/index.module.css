@@ -3276,13 +3276,16 @@
 }
 
 .teamPictures {
-  width: 590px;
+  width: 650px;
   align-self: center;
 }
 
 .MarcellaRh {
-  margin-top: 50px;
-  margin-bottom: -80px;
+  margin: 0 0 -80px 0;
+}
+
+.Carlos {
+  margin: 0 0 -80px -325px;
 }
 
 /******* WHAT WE DO *******/
