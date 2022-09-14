@@ -7917,7 +7917,7 @@
 }
 
 .Robson {
-  margin: 0 -50px 0 153px;
+  margin: 0 50px 0 100px;
 }
 
 .RobsonPicture {
@@ -7942,7 +7942,7 @@
 }
 
 .Tato {
-  margin: 0 -50px 0 -50px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -7966,7 +7966,7 @@
 }
 
 .Danielle {
-  margin: 0 -50px 0 -50px;
+  margin: 0 50px 0 50px;
 }
 
 .DaniellePicture {
@@ -7990,7 +7990,7 @@
 }
 
 .MarcellaRh {
-  margin: 0 115px 0 -50px;
+  margin: 0 50px 0 50px;
 }
 
 .MarcellaRhPicture {
@@ -8007,6 +8007,30 @@
 }
 
 .MarcellaRhJob {
+  font-size: 15px;
+  line-height: 20px;
+  width: 70px;
+  margin: 0 0 250px -50px;
+}
+
+.Carlos {
+  margin: 0 50px 0 50px;
+}
+
+.CarlosPicture {
+  background-image: url(../assets/desktop_s/carlos.png);
+  width: 205px;
+  height: 211px;
+}
+
+.CarlosName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -70px;
+}
+
+.CarlosJob {
   font-size: 15px;
   line-height: 20px;
   width: 70px;
@@ -10443,7 +10467,7 @@
 }
 
 .Robson {
-  margin: 0 50px 0 130px;
+  margin: 0 50px 0 100px;
 }
 
 .RobsonPicture {
@@ -10492,7 +10516,7 @@
 }
 
 .Danielle {
-  margin: 0 100px 0 50px;
+  margin: 0 50px 0 50px;
 }
 
 .DaniellePicture {
@@ -10515,8 +10539,8 @@
   margin: 0 0 0 0px;
 }
 
-.MarcellaRH {
-  margin: 0 0 0 50px;
+.MarcellaRh {
+  margin: 0 50px 0 50px;
 }
 
 .MarcellaRhPicture {
@@ -10533,6 +10557,30 @@
 }
 
 .MarcellaRhJob {
+  font-size: 15px;
+  line-height: 20px;
+  width: 70px;
+  margin: 0 0 250px -50px;
+}
+
+.Carlos {
+  margin: 0 50px 0 50px;
+}
+
+.CarlosPicture {
+  background-image: url(../assets/desktop_s/carlos.png);
+  width: 205px;
+  height: 211px;
+}
+
+.CarlosName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -70px;
+}
+
+.CarlosJob {
   font-size: 15px;
   line-height: 20px;
   width: 70px;
@@ -12867,7 +12915,7 @@
 }
 
 .teamPictures {
-  width: 1600px;
+  width: 1590px;
   align-self: center;
   justify-content: space-between;
 }
@@ -12999,7 +13047,7 @@
 }
 
 .Robson {
-  margin: 0 50px 0 190px;
+  margin: 0 50px 0 100px;
 }
 
 .RobsonPicture {
@@ -13048,7 +13096,7 @@
 }
 
 .Danielle {
-  margin: 0 100px 0 50px;
+  margin: 0 50px 0 50px;
 }
 
 .DaniellePicture {
@@ -13071,8 +13119,8 @@
   margin: 0 0 0 0px;
 }
 
-.MarcellaRH {
-  margin: 0 0 0 50px;
+.MarcellaRh {
+  margin: 0 50px 0 50px;
 }
 
 .MarcellaRhPicture {
@@ -13090,6 +13138,31 @@
 }
 
 .MarcellaRhJob {
+  font-size: 15px;
+  line-height: 20px;
+  width: 70px;
+  margin: 0 0 300px -50px;
+}
+
+.Carlos {
+  margin: 0 50px 0 50px;
+}
+
+.CarlosPicture {
+  background-image: url(../assets/desktop_s/carlos.png);
+  width: 205px;
+  height: 211px;
+  margin: 0px 0 0 0;
+}
+
+.CarlosName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -70px;
+}
+
+.CarlosJob {
   font-size: 15px;
   line-height: 20px;
   width: 70px;
