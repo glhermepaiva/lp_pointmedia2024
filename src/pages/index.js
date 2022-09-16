@@ -1606,8 +1606,8 @@ function parallaxAnimContact() {
           </div>
           <div className={styles.Carlos}>
             <div className={styles.CarlosPicture} />
-            <div className={styles.CarlosName}>Carlos</div>
-            <div className={styles.CarlosJob}>Diretor Comercial</div>
+            <div className={styles.CarlosName}>Medina</div>
+            <div className={styles.CarlosJob}>Business Development Director</div>
           </div>
         </div>
       </div>
