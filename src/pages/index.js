@@ -651,12 +651,19 @@ function renderObjectSize() {
     )
   } if (size.width < 1200 && clientPage == 3){
     return (
-      <>
-      <div className={styles.clientsArrowsLastPageTablet}>
+      <div className={styles.clientsGallery}>
+        <div className={styles.clientsArrows}>
           <div className={styles.clientArrowLeft} onClick={prevPage}/>
           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-      </div>
-      <div className={styles.clientsGalleryLastPageTablet}>
+        </div>
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
           <div className={styles.client73} />
           <div className={styles.client74} />
           <div className={styles.client75} />
@@ -666,8 +673,14 @@ function renderObjectSize() {
           <div className={styles.client79} />
           <div className={styles.client80} />
           <div className={styles.client81} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
+          <div className={styles.client82} />
         </div>
-      </>
     )
   }
 

@@ -994,7 +994,6 @@
   top: -172px;
   left: 60px;
   position: relative;
-  z-index: 999;
   /* animation: eye 9s linear infinite; */
 }
 
@@ -2544,11 +2543,10 @@
 }
 
 .client82 {
-  background-image: url(../assets/clients/client81.png);
+  background-image: url(../assets/clients/client82.png);
   width: 170px;
   height: 70px;
   margin: 0 0 40px 0;
-  opacity: 0;
 }
 
 /******* CAREERS *******/
@@ -3071,7 +3069,7 @@
 
 .hoverMenu {
   width: 90vw;
-  height: 92vh;
+  height: 100vh;
 }
 
 .menuClose {
@@ -3895,7 +3893,7 @@
 /******* CASES *******/
   
 .cases {
-  margin-top: 1320px;
+  margin-top: 1307px;
   padding-top: 50px;
 }
 
@@ -4089,16 +4087,16 @@
   display: flex;
   flex-wrap: wrap;
   width: 200px;
-  margin: 0 auto;
+  margin: 520px auto 0 auto;
 }
 
 .clientsArrowsLastPageTablet {
   display: flex;
-  width: 90vw;
+  width: 92vw;
   justify-content: space-between;
   position: absolute;
-  top: 8000px;
-  left: 38px;
+  top: 8400px;
+  left: 150px;
 }
 
 .clientArrowLeft {
@@ -4682,6 +4680,14 @@
   margin: 0 0 40px 0;
 }
 
+.client82 {
+  background-image: url(../assets/clients/client82.png);
+  width: 170px;
+  height: 70px;
+  margin: 0 0 40px 0;
+}
+
+
 /******* CAREERS *******/
 
 .careersArt {
@@ -4982,7 +4988,7 @@
 
 .hoverMenu {
   width: 45vw;
-  height: 92vh;
+  height: 100vh;
 }
 
 .menuClose {
@@ -6658,8 +6664,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10190px;
-  left: 60px;
+  top: 10650px;
+  left: 61px;
 }
 
 .client1 {
@@ -7531,7 +7537,7 @@
 
 .hoverMenu {
   width: 42vw;
-  height: 92vh;
+  height: 100vh;
 }
 
 .menuClose {
@@ -9192,8 +9198,8 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10140px;
-  left: 105px;
+  top: 10290px;
+  left: 107px;
 }
 
 .client1 {
@@ -10071,7 +10077,7 @@
 
 .hoverMenu {
   width: 38vw;
-  height: 92vh;
+  height: 100vh;
 }
 
 .menuClose {
@@ -11764,8 +11770,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9500px;
-  left: 80px;
+  top: 9630px;
+  left: 81px;
 }
 
 .client1 {
@@ -12651,7 +12657,7 @@
 
 .hoverMenu {
   width: 36vw;
-  height: 92vh;
+  height: 100vh;
 }
 
 .menuClose {
@@ -14343,8 +14349,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10050px;
-  left: 88px;
+  top: 10015px;
+  left: 96px;
 }
 
 .client1 {
