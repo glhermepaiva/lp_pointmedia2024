@@ -2643,6 +2643,81 @@
   position: absolute;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/mobile/reanimategrid.png);
+  width: 239px;
+  height: 97px;
+  margin: 100px 0 200px 70px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/mobile/reanimatepoint.png);
+  width: 198px;
+  height: 280px;
+  position: absolute;
+  top: 11100px;
+  left: 120px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/mobile/reanimateguy.png);
+  width: 280px;
+  height: 250px;
+  position: absolute;
+  top: 12800px;
+  left: 30px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 62px;
+}
+
+.reanimateText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 291px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 241px;
+  height: 50px;
+  cursor: pointer;
+  margin: 40px 0 40px 0;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
+
+
 /******* CONTACT *******/
 
 .contact {
@@ -2662,7 +2737,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 12770px;
+  top: 13850px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -2672,7 +2747,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 11040px;
+  top: 11980px;
   left: 180px;
   z-index: 9;
 }
@@ -4716,6 +4791,78 @@
   margin: 0 0 130px 280px;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/mobile/reanimategrid.png);
+  width: 239px;
+  height: 97px;
+  margin: 100px 0 200px 280px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/mobile/reanimatepoint.png);
+  width: 198px;
+  height: 280px;
+  position: absolute;
+  top: 8700px;
+  left: 120px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/tablet/reanimateguy.png);
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  top: 9955px;   
+  left: 40px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  font-size: 55px;
+  line-height: 62px;
+  margin: -180px 0 50px 280px;
+}
+
+.reanimateText {
+  font-size: 15px;
+  line-height: 20px;
+  width: 360px;
+  margin: 0 0 0 285px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 224px;
+  height: 56px;
+  cursor: pointer;
+  margin: 40px 0 60px 150px;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
 /******* CONTACT *******/
 
 .contactArt {
@@ -4729,7 +4876,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 9900px;
+  top: 10800px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -4739,8 +4886,8 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 8610px;
-  left: 500px;
+  top: 9355px;
+  left: 530px;
   z-index: 9;
 }
 
@@ -7267,6 +7414,78 @@
   line-height: 40px;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/desktop_s/reanimategrid.png);
+  width: 572px;
+  height: 255px;
+  margin: 60px 0 0px 160px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/desktop_s/reanimatepoint.png);
+  width: 371px;
+  height: 523px;
+  position: absolute;
+  top: 10700px;
+  left: 120px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/desktop_s/reanimateguy.png);
+  width: 520px;
+  height: 470px;
+  position: absolute;
+  top: 12175px;   
+  left: -30px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  font-size: 55px;
+  line-height: 62px;
+  margin: -50px 0 50px 150px;
+}
+
+.reanimateText {
+  font-size: 20px;
+  line-height: 27px;
+  width: 540px;
+  margin: 0 0 0 330px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 224px;
+  height: 56px;
+  cursor: pointer;
+  margin: 60px 0 140px -120px;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
 /******* CONTACT *******/
 
 .contactArt {
@@ -7280,8 +7499,8 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 12100px;
-  right: 120px;
+  top: 13360px;
+  right: 200px;
 }
 
 .contactPoint {
@@ -7289,8 +7508,8 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 10500px;
-  left: 930px;
+  top: 11555px;
+  left: 1050px;
 }
 
 .contactTitle {
@@ -9801,6 +10020,78 @@
   line-height: 40px;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/desktop_s/reanimategrid.png);
+  width: 572px;
+  height: 255px;
+  margin: 120px 0 0px 340px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/desktop_s/reanimatepoint.png);
+  width: 371px;
+  height: 523px;
+  position: absolute;
+  top: 10390px;
+  left: 120px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/desktop_s/reanimateguy.png);
+  width: 520px;
+  height: 470px;
+  position: absolute;
+  top: 11860px;   
+  left: 20px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  font-size: 65px;
+  line-height: 62px;
+  margin: 100px 0 50px 150px;
+}
+
+.reanimateText {
+  font-size: 20px;
+  line-height: 27px;
+  width: 540px;
+  margin: 0 0 0 270px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 224px;
+  height: 56px;
+  cursor: pointer;
+  margin: 60px 0 140px -50px;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
 /******* CONTACT *******/
 
 .contactArt {
@@ -9814,7 +10105,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 11750px;
+  top: 13100px;
   right: 250px;
 }
 
@@ -9823,8 +10114,8 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 10150px;
-  left: 980px;
+  top: 11375px;
+  left: 100px;
 }
 
 .contactTitle {
@@ -12373,6 +12664,78 @@
   line-height: 40px;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/desktop_s/reanimategrid.png);
+  width: 572px;
+  height: 255px;
+  margin: 120px 0 0px 440px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/desktop_l/reanimatepoint.png);
+  width: 452px;
+  height: 639px;
+  position: absolute;
+  top: 9690px;
+  left: 200px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/desktop_l/reanimateguy.png);
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  top: 11000px;   
+  left: 70px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  font-size: 65px;
+  line-height: 62px;
+  margin: 100px 0 50px 150px;
+}
+
+.reanimateText {
+  font-size: 20px;
+  line-height: 27px;
+  width: 540px;
+  margin: 0 0 0 270px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 224px;
+  height: 56px;
+  cursor: pointer;
+  margin: 60px 0 140px -50px;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
 /******* CONTACT *******/
 
 .contactArt {
@@ -12386,7 +12749,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 10900px;
+  top: 12300px;
   right: 280px;
 }
 
@@ -12395,8 +12758,8 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 9420px;
-  left: 1110px;
+  top: 10635px;
+  left: 1350px;
 }
 
 .contactTitle {
@@ -14952,6 +15315,78 @@
   line-height: 40px;
 }
 
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #6CABDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateArt {
+  width: 250px;
+  height: 400px;
+}
+
+.reanimateGrid {
+  background-image: url(../assets/desktop_s/reanimategrid.png);
+  width: 572px;
+  height: 255px;
+  margin: 120px 0 0px 440px;
+}
+
+.reanimatePoint {
+  background-image: url(../assets/desktop_l/reanimatepoint.png);
+  width: 452px;
+  height: 639px;
+  position: absolute;
+  top: 10030px;
+  left: 200px;
+  z-index: 9;
+}
+
+.reanimateGuy {
+  background-image: url(../assets/desktop_l/reanimateguy.png);
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  top: 11400px;   
+  left: 70px;
+  z-index: 10;
+}
+
+.reanimateTitle {
+  font-size: 65px;
+  line-height: 62px;
+  margin: 100px 0 50px 150px;
+}
+
+.reanimateText {
+  font-size: 20px;
+  line-height: 27px;
+  width: 540px;
+  margin: 0 0 0 270px;
+}
+
+.reanimateButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 224px;
+  height: 56px;
+  cursor: pointer;
+  margin: 60px 0 140px -50px;
+}
+
+.reanimateButton:hover {
+  background-color: #d8598e;
+}
+
 /******* CONTACT *******/
 
 .contactArt {
@@ -14965,8 +15400,8 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 11300px;
-  right: 350px;
+  top: 12700px;
+  right: 380px;
 }
 
 .contactPoint {
@@ -14974,8 +15409,8 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 9780px;
-  left: 1250px;
+  top: 10955px;
+  left: 1340px;
 }
 
 .contactTitle {

@@ -1270,6 +1270,38 @@ function parallaxAnimClient() {
   } 
 }
 
+function parallaxAnimReanimate() {
+  if (size.width < 768){
+    return (
+      <div>
+        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 32}deg)`}}/>
+        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } if (size.width >= 768 && size.width < 1200){
+    return (
+      <div>
+        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 25}deg)`}}/>
+        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } if (size.width >= 1200 && size.width < 1600){
+    return (
+      <div>
+        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 30.7}deg)`}}/>
+        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } if (size.width >= 1600){
+    return (
+      <div>
+        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 28.1}deg)`}}/>
+        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
+      </div>
+    )
+  } 
+}
+
 function parallaxAnimContact() {
   if (size.width < 768){
     return (
@@ -1308,6 +1340,10 @@ function parallaxAnimContact() {
 
   const openFacebook = () => {
     window.open('https://www.facebook.com/Point-Media-2496784783713500/');
+  }
+
+  const openReanimate = () => {
+    window.open('https://reanimate.pointmedia.com.br/');
   }
 
   const openMaps = () => {
@@ -2060,6 +2096,25 @@ function parallaxAnimContact() {
           {parallaxAnimClient()}
         </div>
         {renderObjectSize()}
+      </div>
+
+
+
+
+
+      <div id='reanimate' className={styles.reanimate}>
+        <div className={styles.reanimateArt}>
+          <div className={styles.reanimateGrid} />
+          {parallaxAnimReanimate()}
+        </div>
+        <div className={styles.reanimateTitle}>re.animate_</div>
+        <div className={styles.reanimateText}>O reanimate é uma solução automatizada para dar escalabilidade, assertividade e  trazer uma esteira rápida de ajustes. Possuindo três módulos: <b>Master Motion, Replicate Ads e Dynamic Ads</b>.
+          <br/><br/>
+          Três programas que dão vazão na linha de produção de banners. Dentro do fluxo de produção, a partir da peça Master (HTML5), conseguimos replicar em diversos formatos, tanto animados quanto estáticos e criamos diversas peças seguindo o plano de mídia a partir de uma só!
+          <br/><br/>
+          Ou seja, reanimate é a solução dos problemas de agências, anunciantes e veículos. 
+        </div>
+        <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
       </div>
 
 
