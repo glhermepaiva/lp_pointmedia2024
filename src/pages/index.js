@@ -1629,10 +1629,15 @@ function parallaxAnimContact() {
             <div className={styles.MarianaName}>Mariana</div>
             <div className={styles.MarianaJob}>Head de Operações</div>
           </div>
-          <div className={styles.Gabriela}>
+          {/* <div className={styles.Gabriela}>
             <div className={styles.GabrielaPicture} />
             <div className={styles.GabrielaName}>Gabriela</div>
             <div className={styles.GabrielaJob}>Head de Operações</div>
+          </div> */}
+          <div className={styles.Carlos2}>
+            <div className={styles.CarlosPicture2} />
+            <div className={styles.CarlosName2}>Medina</div>
+            <div className={styles.CarlosJob2}>Business Development Director</div>
           </div>
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
