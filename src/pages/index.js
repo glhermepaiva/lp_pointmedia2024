@@ -1397,6 +1397,11 @@ function parallaxAnimContact() {
     window.location.replace("/#careers")
   }
 
+  const anchorReanimate = () => {
+    setMenuOpen(false)
+    window.location.replace("/#reanimate")
+  }
+
   const anchorContact = () => {
     setMenuOpen(false)
     window.location.replace("/#contact")
@@ -1521,6 +1526,7 @@ function parallaxAnimContact() {
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
+          <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.menuSocials}>
@@ -2173,6 +2179,7 @@ function parallaxAnimContact() {
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
+          <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.footerLogo} onClick={anchorHeader} />
