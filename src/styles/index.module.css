@@ -10208,11 +10208,109 @@
   margin: 100px 0 50px 150px;
 }
 
-.reanimateText {
+.reanimateText1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  width: 500px;
+  margin: 0 0 35px 230px;
+}
+
+.reanimateCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: center;
+  margin: 0 0 0 320px;
+}
+
+.reanimateMM {
+  background-color: white;
+  width: 230px;
+  height: 165px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 20px 0;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/mobile/logomm.png);
+  width: 175px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.reanimateMMtext {
+  width: 170px;
+  font-weight: bold;
+}
+
+.reanimateRA {
+  background-color: white;
+  width: 230px;
+  height: 165px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 0 0;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/mobile/logora.png);
+  width: 167px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.reanimateRAtext {
+  width: 185px;
+  font-weight: bold;
+}
+
+.reanimateDA {
+  background-color: white;
+  width: 230px;
+  height: 165px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/mobile/logoda.png);
+  width: 166px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.reanimateDAtext {
+  width: 170px;
+  font-weight: bold;
+}
+
+.reanimateText2 {
+  font-family: Segoe UI;
   font-size: 20px;
   line-height: 27px;
   width: 540px;
-  margin: 0 0 0 270px;
+  margin: 10px 0 25px 270px;
 }
 
 .reanimateButton {
@@ -10223,10 +10321,10 @@
   font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
-  width: 224px;
+  width: 289px;
   height: 56px;
   cursor: pointer;
-  margin: 60px 0 140px -50px;
+  margin: 30px 0 60px 10px;
 }
 
 .reanimateButton:hover {
@@ -10246,7 +10344,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13110px;
+  top: 13210px;
   right: 250px;
 }
 
@@ -10255,7 +10353,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11345px;
+  top: 11445px;
   left: 1100px;
 }
 
