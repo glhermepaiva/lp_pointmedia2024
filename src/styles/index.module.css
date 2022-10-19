@@ -2679,6 +2679,7 @@
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 -5px;
 }
 
 .reanimateRA {
@@ -2700,12 +2701,13 @@
   background-image: url(../assets/mobile/logora.png);
   width: 167px;
   height: 45px;
-  margin-bottom: 10px;
+  margin: 0 0 10px -8px;
 }
 
 .reanimateRAtext {
   width: 155px;
   font-weight: bold;
+  margin: 0 0 0 -20px;
 }
 
 .reanimateDA {
@@ -2727,12 +2729,13 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: 0 0 15px -9px;
 }
 
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 -5px;
 }
 
 .reanimateText2 {
