@@ -919,7 +919,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4185px;
+  top: 4175px;
   left: 80px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -935,7 +935,7 @@
   height: 56px;
   position: absolute;
   top: 4160px;
-  left: 235px;
+  left: 230px;
 }
 
 @keyframes leg {
