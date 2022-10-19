@@ -1262,7 +1262,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 6080px;
+  top: 6070px;
   width: 60vw;
 }
 
@@ -1433,7 +1433,7 @@
   position: absolute;
   width: 100vw;
   height: 1850px;
-  top: 6180px;
+  top: 6170px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1912,7 +1912,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10620px;
+  top: 10610px;
 }
 
 .clientArrowLeft {
@@ -2623,7 +2623,7 @@
   width: 198px;
   height: 280px;
   position: absolute;
-  top: 10850px;
+  top: 10830px;
   left: 120px;
   z-index: 9;
 }
