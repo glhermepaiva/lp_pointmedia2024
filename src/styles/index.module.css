@@ -7996,31 +7996,6 @@
   margin-left: 20px;
 }
 
-.Gabriela {
-  margin: 0 50px 0 50px;
-}
-
-.GabrielaPicture {
-  background-image: url(../assets/desktop_s/gabriela.png);
-  width: 205px;
-  height: 211px;
-}
-
-.GabrielaName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -80px;
-}
-
-.GabrielaJob {
-  font-size: 15px;
-  line-height: 20px;
-  margin-left: -5px;
-  width: 150px;
-  margin-left: 20px;
-}
-
 .Louro {
   margin: 0 50px 0 50px;
 }
@@ -8141,54 +8116,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 250px -50px;
-}
-
-.Carlos {
-  margin: 0 50px 0 50px;
-}
-
-.CarlosPicture {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-}
-
-.CarlosName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -70px;
-}
-
-.CarlosJob {
-  font-size: 15px;
-  line-height: 20px;
-  width: 70px;
-  margin: 0 0 250px -50px;
-}
-
-.Carlos2 {
-  margin: 0 50px 0 50px;
-}
-
-.CarlosPicture2 {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-}
-
-.CarlosName2 {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -70px;
-}
-
-.CarlosJob2 {
-  font-size: 15px;
-  line-height: 20px;
-  width: 150px;
-  margin-left: 30px;
 }
 
 /******* WHAT WE DO *******/
@@ -8372,7 +8299,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4460px;
+  top: 4450px;
   left: 20px;
 }
 
@@ -10033,7 +9960,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13100px;
+  top: 13110px;
   right: 250px;
 }
 
@@ -10042,7 +9969,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11375px;
+  top: 11345px;
   left: 1100px;
 }
 
