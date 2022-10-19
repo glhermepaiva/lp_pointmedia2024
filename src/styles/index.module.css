@@ -13085,7 +13085,7 @@
 }
 
 .teamPictures {
-  width: 1590px;
+  width: 1340px;
   align-self: center;
   justify-content: space-between;
 }
@@ -13158,32 +13158,6 @@
 }
 
 .MarianaJob {
-  font-size: 15px;
-  line-height: 20px;
-  margin-left: -5px;
-  width: 150px;
-  margin-left: 20px;
-}
-
-.Gabriela {
-  margin: 0 50px 0 50px;
-}
-
-
-.GabrielaPicture {
-  background-image: url(../assets/desktop_s/gabriela.png);
-  width: 205px;
-  height: 211px;
-}
-
-.GabrielaName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -80px;
-}
-
-.GabrielaJob {
   font-size: 15px;
   line-height: 20px;
   margin-left: -5px;
@@ -13314,55 +13288,6 @@
   margin: 0 0 300px -50px;
 }
 
-.Carlos {
-  margin: 0 50px 0 50px;
-}
-
-.CarlosPicture {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-  margin: 0px 0 0 0;
-}
-
-.CarlosName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -70px;
-}
-
-.CarlosJob {
-  font-size: 15px;
-  line-height: 20px;
-  width: 70px;
-  margin: 0 0 300px -50px;
-}
-
-.Carlos2 {
-  margin: 0 50px 0 50px;
-}
-
-.CarlosPicture2 {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-}
-
-.CarlosName2 {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -70px;
-}
-
-.CarlosJob2 {
-  font-size: 15px;
-  line-height: 20px;
-  width: 150px;
-  margin-left: 30px;
-}
-
 /******* WHAT WE DO *******/
 
 .wwd {
@@ -13377,8 +13302,6 @@
   right: 0px;
   margin: -720px 0 200px 680px;
 }
-
-/*** DESABILITADO POR HORA ***/
 
 .alien {
   background-image: url(../assets/desktop_l/alien.png);
@@ -13416,8 +13339,6 @@
   top: 795px;
   left: -345px;
 }
-
-/*** FIM DO DESABILITADO POR HORA ***/
 
 .wwdTitle {
   font-size: 65px;
@@ -13555,7 +13476,7 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 4830px;
+  top: 4820px;
   left: 20px;
 }
 
@@ -15233,7 +15154,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 10955px;
+  top: 10930px;
   left: 1340px;
 }
 
