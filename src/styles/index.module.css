@@ -15586,14 +15586,112 @@
 .reanimateTitle {
   font-size: 65px;
   line-height: 62px;
-  margin: 100px 0 50px 150px;
+  margin: 100px 0 50px 250px;
 }
 
-.reanimateText {
+.reanimateText1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 27px;
+  width: 500px;
+  margin: 0 0 50px 330px;
+}
+
+.reanimateCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 0 0 430px;
+}
+
+.reanimateMM {
+  background-color: white;
+  width: 286px;
+  height: 215px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 20px 0;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/mobile/logomm.png);
+  width: 175px;
+  height: 45px;
+  margin: 0 0 15px -30px;
+}
+
+.reanimateMMtext {
+  width: 200px;
+  font-weight: bold;
+}
+
+.reanimateRA {
+  background-color: white;
+  width: 287px;
+  height: 215px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 0 0;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/mobile/logora.png);
+  width: 167px;
+  height: 45px;
+  margin: 0 0 10px -40px;
+}
+
+.reanimateRAtext {
+  width: 200px;
+  font-weight: bold;
+}
+
+.reanimateDA {
+  background-color: white;
+  width: 288px;
+  height: 215px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/mobile/logoda.png);
+  width: 166px;
+  height: 45px;
+  margin: 0 0 15px -40px;
+}
+
+.reanimateDAtext {
+  width: 200px;
+  font-weight: bold;
+}
+
+.reanimateText2 {
+  font-family: Segoe UI;
   font-size: 20px;
   line-height: 27px;
   width: 540px;
-  margin: 0 0 0 270px;
+  margin: 20px 0 25px 370px;
 }
 
 .reanimateButton {
@@ -15604,10 +15702,10 @@
   font-family: PoppinsBold;
   font-size: 20px;
   line-height: 30px;
-  width: 224px;
+  width: 322px;
   height: 56px;
   cursor: pointer;
-  margin: 60px 0 140px -50px;
+  margin: 50px 0 100px 140px;
 }
 
 .reanimateButton:hover {
@@ -15627,7 +15725,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12700px;
+  top: 12940px;
   right: 380px;
 }
 
@@ -15636,7 +15734,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 10930px;
+  top: 11140px;
   left: 1340px;
 }
 
