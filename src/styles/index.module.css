@@ -4879,14 +4879,112 @@
 .reanimateTitle {
   font-size: 55px;
   line-height: 62px;
-  margin: -180px 0 50px 280px;
+  margin: -180px 0 30px 280px;
 }
 
-.reanimateText {
+.reanimateText1 {
+  font-family: Segoe UI;
   font-size: 15px;
   line-height: 20px;
-  width: 360px;
-  margin: 0 0 0 285px;
+  width: 330px;
+  margin: 0 0 25px 250px;
+}
+
+.reanimateCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  justify-content: center;
+  margin: 0 0 0 250px;
+}
+
+.reanimateMM {
+  background-color: white;
+  width: 230px;
+  height: 156px;
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 20px 0;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/mobile/logomm.png);
+  width: 175px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.reanimateMMtext {
+  width: 170px;
+  font-weight: bold;
+}
+
+.reanimateRA {
+  background-color: white;
+  width: 230px;
+  height: 156px;
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/mobile/logora.png);
+  width: 167px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.reanimateRAtext {
+  width: 155px;
+  font-weight: bold;
+}
+
+.reanimateDA {
+  background-color: white;
+  width: 230px;
+  height: 156px;
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/mobile/logoda.png);
+  width: 166px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.reanimateDAtext {
+  width: 170px;
+  font-weight: bold;
+}
+
+.reanimateText2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 345px;
+  margin: 0 0 0 250px;
 }
 
 .reanimateButton {
@@ -4900,7 +4998,7 @@
   width: 224px;
   height: 56px;
   cursor: pointer;
-  margin: 40px 0 60px 150px;
+  margin: 40px 0 60px 130px;
 }
 
 .reanimateButton:hover {
@@ -4920,7 +5018,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 10600px;
+  top: 10950px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -4930,7 +5028,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 9167px;
+  top: 9467px;
   left: 530px;
   z-index: 9;
 }

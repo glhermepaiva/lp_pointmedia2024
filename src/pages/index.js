@@ -2105,17 +2105,19 @@ function parallaxAnimContact() {
         </div>
         <div className={styles.reanimateTitle}>re.animate_</div>
         <div className={styles.reanimateText1}>O reanimate é uma solução automatizada para dar escalabilidade, assertividade e trazer uma esteira rápida de ajustes. Possuindo três módulos:</div>
-        <div className={styles.reanimateMM}>
-          <div className={styles.reanimateMMlogo}/>
-          <div className={styles.reanimateMMtext}>Nunca foi tão fácil criar banners animados, a partir do KV (psd), você pode animar as peças master em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
-        </div>
-        <div className={styles.reanimateRA}>
-          <div className={styles.reanimateRAlogo}/>
-          <div className={styles.reanimateRAtext}>O formato perfeito para sua necessidade.  Desdobre a peça master, animada pelo primeiro módulo, em diversos formatos e especificações de mídia: Vertical, horizontal, quadrado e mobile.</div>
-        </div>
-        <div className={styles.reanimateDA}>
-          <div className={styles.reanimateDAlogo}/>
-          <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Crie diversas variações de conteúdos dinâmicos.</div>
+        <div className={styles.reanimateCards}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Nunca foi tão fácil criar banners animados, a partir do KV (psd), você pode animar as peças master em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+          </div>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>O formato perfeito para sua necessidade.  Desdobre a peça master, animada pelo primeiro módulo, em diversos formatos e especificações de mídia: Vertical, horizontal, quadrado e mobile.</div>
+          </div>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Crie diversas variações de conteúdos dinâmicos.</div>
+          </div>
         </div>
         <div className={styles.reanimateText2}>Três programas que dão vazão na linha de produção de banners. Dentro do fluxo de produção, a partir da peça Master (HTML5), conseguimos replicar em diversos formatos, tanto animados quanto estáticos e criamos diversas peças seguindo o plano de mídia a partir de uma só!
           <br/><br/>
