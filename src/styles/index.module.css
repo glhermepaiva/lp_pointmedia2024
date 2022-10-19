@@ -5429,31 +5429,6 @@
   margin-left: 20px;
 }
 
-.Gabriela {
-  margin: 0 60px 0 60px;
-}
-
-.GabrielaPicture {
-  background-image: url(../assets/desktop_s/gabriela.png);
-  width: 205px;
-  height: 211px;
-}
-
-.GabrielaName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -80px;
-}
-
-.GabrielaJob {
-  font-size: 15px;
-  line-height: 20px;
-  width: 150px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
 .Louro {
   margin: 0 60px 0 60px;
 }
@@ -5551,7 +5526,7 @@
 }
 
 .MarcellaRh {
-  margin: 0 -150px 0 133px;
+  margin: 0 60px 0 60px;
 }
 
 .MarcellaRhPicture {
@@ -5572,55 +5547,6 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 257px -50px;
-}
-
-/* .Carlos {
-  margin: 0 60px 0 -490px;
-}
-
-.CarlosPicture {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-}
-
-.CarlosName {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -70px;
-}
-
-.CarlosJob {
-  font-size: 15px;
-  line-height: 20px;
-  width: 70px;
-  margin: 0 0 250px -50px;
-} */
-
-.Carlos2 {
-  margin: 0 60px 0 60px;
-}
-
-.CarlosPicture2 {
-  background-image: url(../assets/desktop_s/carlos.png);
-  width: 205px;
-  height: 211px;
-}
-
-.CarlosName2 {
-  font-size: 20px;
-  line-height: 27px;
-  width: 50px;
-  margin: 10px 0 0 -80px;
-}
-
-.CarlosJob2 {
-  font-size: 15px;
-  line-height: 20px;
-  width: 150px;
-  margin-left: 20px;
-  margin-bottom: 50px;
 }
 
 /******* WHAT WE DO *******/
@@ -5808,8 +5734,8 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4870px;
-  left: 20px;
+  top: 4520px;
+  left: -90px;
 }
 
 .hwdTitle {
@@ -5913,7 +5839,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5650px;
+  top: 5320px;
   width: 300px;
 }
 
@@ -5929,7 +5855,7 @@
 
 .previousWorks {
   height: 2500px;
-  top: 5750px;
+  top: 5430px;
 }
 
 .pwArt {
@@ -6693,7 +6619,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9740px;
+  top: 9440px;
   left: 80px;
 }
 
@@ -6706,7 +6632,7 @@
   width: 1057px;
   height: 353px;
   position: absolute;
-  top: 9800px;
+  top: 9500px;
   left: 0px;
 }
 
@@ -6715,7 +6641,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9800px;
+  top: 9500px;
   left: -2420px;
 }
 
@@ -6724,7 +6650,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9820px;
+  top: 9520px;
   left: -4010px; 
 }
 
@@ -6733,7 +6659,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 10280px;
+  top: 9980px;
   left: -1150px; 
 }
 
@@ -6742,7 +6668,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 10150px;
+  top: 9850px;
   left: -3500px; 
 }
 
@@ -6759,7 +6685,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10650px;
+  top: 10310px;
 }
 
 .clientArrowLeft {
@@ -7419,7 +7345,7 @@
   width: 371px;
   height: 523px;
   position: absolute;
-  top: 10700px;
+  top: 10350px;
   left: 120px;
   z-index: 9;
 }
@@ -7429,7 +7355,7 @@
   width: 520px;
   height: 470px;
   position: absolute;
-  top: 12175px;   
+  top: 11820px;   
   left: -30px;
   z-index: 10;
 }
@@ -7478,7 +7404,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13360px;
+  top: 13000px;
   right: 200px;
 }
 
@@ -7487,7 +7413,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11555px;
+  top: 11220px;
   left: 1020px;
 }
 
