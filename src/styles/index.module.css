@@ -1105,7 +1105,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5470px;
+  top: 5460px;
   left: 20px;
 }
 
@@ -1839,7 +1839,7 @@
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 9820px;
+  top: 9770px;
   left: 100px;
   z-index: 2;
 }
@@ -1849,7 +1849,7 @@
   width: 76px;
   height: 115px;
   position: absolute;
-  top: 9790px;
+  top: 9740px;
   left: 255px;
 }
 
@@ -1858,7 +1858,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9780px;
+  top: 9730px;
   left: 260px;
   animation: shine1 3s infinite linear;
 }
@@ -1874,7 +1874,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9960px;
+  top: 9910px;
   left: 50px;
   animation: shine2 3s infinite linear;
 }
@@ -1890,7 +1890,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9930px;
+  top: 9880px;
   left: 320px;
   animation: shine3 3s infinite linear;
 }
