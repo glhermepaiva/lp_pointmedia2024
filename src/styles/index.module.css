@@ -1912,7 +1912,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10640px;
+  top: 10620px;
 }
 
 .clientArrowLeft {
@@ -2623,7 +2623,7 @@
   width: 198px;
   height: 280px;
   position: absolute;
-  top: 10880px;
+  top: 10850px;
   left: 120px;
   z-index: 9;
 }
@@ -2633,7 +2633,7 @@
   width: 280px;
   height: 250px;
   position: absolute;
-  top: 12510px;
+  top: 12480px;
   left: 30px;
   z-index: 10;
 }
