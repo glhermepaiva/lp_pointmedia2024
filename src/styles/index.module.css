@@ -4920,13 +4920,13 @@
   background-image: url(../assets/mobile/logomm.png);
   width: 175px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: -14px 0 10px 0;
 }
 
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 2px;
+  margin: 0px 0 0 2px;
 }
 
 .reanimateRA {
@@ -7595,7 +7595,7 @@
   background-image: url(../assets/mobile/logomm.png);
   width: 175px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: 0px 0 10px 0;
 }
 
 .reanimateMMtext {
@@ -7651,7 +7651,7 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: -14px 0 10px 0;
 }
 
 .reanimateDAtext {
@@ -10252,7 +10252,7 @@
   background-image: url(../assets/mobile/logomm.png);
   width: 175px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: 0px 0 10px 0;
 }
 
 .reanimateMMtext {
@@ -10308,7 +10308,7 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin: 0 0 15px -10px;
+  margin: -14px 0 10px -10px;
 }
 
 .reanimateDAtext {
@@ -12942,7 +12942,7 @@
   background-image: url(../assets/mobile/logomm.png);
   width: 175px;
   height: 45px;
-  margin: 0 0 15px -30px;
+  margin: -18px 0 10px -30px;
 }
 
 .reanimateMMtext {
@@ -12998,7 +12998,7 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin: 0 0 15px -40px;
+  margin: -36px 0 10px -40px;
 }
 
 .reanimateDAtext {
@@ -15639,7 +15639,7 @@
   background-image: url(../assets/mobile/logomm.png);
   width: 175px;
   height: 45px;
-  margin: 0 0 15px -30px;
+  margin: -18px 0 10px -30px;
 }
 
 .reanimateMMtext {
@@ -15695,7 +15695,7 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin: 0 0 15px -40px;
+  margin: -36px 0 10px -40px;
 }
 
 .reanimateDAtext {
