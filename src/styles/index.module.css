@@ -4926,6 +4926,7 @@
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 2px;
 }
 
 .reanimateRA {
@@ -4953,6 +4954,7 @@
 .reanimateRAtext {
   width: 155px;
   font-weight: bold;
+  margin: 0 0 0 -12px;
 }
 
 .reanimateDA {
@@ -4980,6 +4982,7 @@
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 3px;
 }
 
 .reanimateText2 {
@@ -7598,6 +7601,7 @@
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 1px;
 }
 
 .reanimateRA {
@@ -7625,7 +7629,7 @@
 .reanimateRAtext {
   width: 185px;
   font-weight: bold;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 7px;
 }
 
 .reanimateDA {
@@ -7653,6 +7657,7 @@
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 2px;
 }
 
 .reanimateText2 {
@@ -10253,6 +10258,7 @@
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 0px;
 }
 
 .reanimateRA {
@@ -10274,13 +10280,13 @@
   background-image: url(../assets/mobile/logora.png);
   width: 167px;
   height: 45px;
-  margin: 0 0 10px -12px;
+  margin: 0 0 10px -13px;
 }
 
 .reanimateRAtext {
   width: 185px;
   font-weight: bold;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 8px;
 }
 
 .reanimateDA {
@@ -10302,12 +10308,13 @@
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin-bottom: 15px;
+  margin: 0 0 15px -10px;
 }
 
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
+  margin: 0 0 0 1px;
 }
 
 .reanimateText2 {
@@ -12941,6 +12948,7 @@
 .reanimateMMtext {
   width: 200px;
   font-weight: bold;
+  margin: 0 0 0 0;
 }
 
 .reanimateRA {
@@ -12996,6 +13004,7 @@
 .reanimateDAtext {
   width: 200px;
   font-weight: bold;
+  margin: 0 0 0 2px;
 }
 
 .reanimateText2 {
@@ -15636,6 +15645,7 @@
 .reanimateMMtext {
   width: 200px;
   font-weight: bold;
+  margin: 0 0 0 0;
 }
 
 .reanimateRA {
@@ -15663,7 +15673,7 @@
 .reanimateRAtext {
   width: 200px;
   font-weight: bold;
-  margin: 0 0 0 1px;
+  margin: 0 0 0 0px;
 }
 
 .reanimateDA {
@@ -15691,6 +15701,7 @@
 .reanimateDAtext {
   width: 200px;
   font-weight: bold;
+  margin: 0 0 0 1px;
 }
 
 .reanimateText2 {
