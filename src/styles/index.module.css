@@ -1290,7 +1290,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 6335px;
+  top: 6330px;
   width: 60vw;
 }
 
@@ -1867,7 +1867,7 @@
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 10050px;
+  top: 10040px;
   left: 100px;
   z-index: 2;
 }
@@ -1877,7 +1877,7 @@
   width: 76px;
   height: 115px;
   position: absolute;
-  top: 10020px;
+  top: 10010px;
   left: 255px;
 }
 
@@ -1886,7 +1886,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10010px;
+  top: 10000px;
   left: 260px;
   animation: shine1 3s infinite linear;
 }
@@ -1902,7 +1902,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10190px;
+  top: 10180px;
   left: 50px;
   animation: shine2 3s infinite linear;
 }
@@ -1918,7 +1918,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10160px;
+  top: 10150px;
   left: 320px;
   animation: shine3 3s infinite linear;
 }
