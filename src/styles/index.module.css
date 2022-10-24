@@ -789,7 +789,7 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 50px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .LouroPicture {
@@ -816,7 +816,7 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 50px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .RobsonPicture {
@@ -947,7 +947,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4170px;
+  top: 4470px;
   left: 75px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -962,8 +962,8 @@
   width: 72px;
   height: 56px;
   position: absolute;
-  top: 4160px;
-  left: 230px;
+  top: 4460px;
+  left: 240px;
 }
 
 @keyframes leg {
@@ -1133,7 +1133,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5460px;
+  top: 5740px;
   left: 20px;
 }
 
@@ -1290,7 +1290,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 6070px;
+  top: 6340px;
   width: 60vw;
 }
 
@@ -1461,7 +1461,7 @@
   position: absolute;
   width: 100vw;
   height: 1850px;
-  top: 6170px;
+  top: 6430px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1867,7 +1867,7 @@
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 9770px;
+  top: 10070px;
   left: 100px;
   z-index: 2;
 }
@@ -1877,7 +1877,7 @@
   width: 76px;
   height: 115px;
   position: absolute;
-  top: 9740px;
+  top: 10040px;
   left: 255px;
 }
 
@@ -1886,7 +1886,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9730px;
+  top: 10030px;
   left: 260px;
   animation: shine1 3s infinite linear;
 }
@@ -1902,7 +1902,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9910px;
+  top: 10210px;
   left: 50px;
   animation: shine2 3s infinite linear;
 }
@@ -1918,7 +1918,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9880px;
+  top: 10180px;
   left: 320px;
   animation: shine3 3s infinite linear;
 }
@@ -1940,7 +1940,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10610px;
+  top: 10890px;
 }
 
 .clientArrowLeft {
@@ -2651,7 +2651,7 @@
   width: 198px;
   height: 280px;
   position: absolute;
-  top: 10850px;
+  top: 11100px;
   left: 120px;
   z-index: 9;
 }
@@ -2661,7 +2661,7 @@
   width: 280px;
   height: 250px;
   position: absolute;
-  top: 12480px;
+  top: 12780px;
   left: 30px;
   z-index: 10;
 }
@@ -2812,7 +2812,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14130px;
+  top: 14430px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -2822,7 +2822,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12210px;
+  top: 12470px;
   left: 180px;
   z-index: 9;
 }
