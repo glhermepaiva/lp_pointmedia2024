@@ -5022,7 +5022,7 @@
 .reanimateRAtext {
   width: 155px;
   font-weight: bold;
-  margin: 0 0 0 -12px;
+  margin: 0 0 0 -15px;
 }
 
 .reanimateDA {
@@ -5050,7 +5050,28 @@
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 3px;
+  margin: 0 0 0 0px;
+}
+
+.reanimateAM {
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 20px;
+}
+
+.reanimateAMlogo {
+  margin-bottom: 15px;
+}
+
+.reanimateAMtext {
+  width: 170px;
+  margin: 0 0 0 0px;
 }
 
 .reanimateText2 {
@@ -5092,7 +5113,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 10950px;
+  top: 10970px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -5102,7 +5123,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 9477px;
+  top: 9497px;
   left: 530px;
   z-index: 9;
 }
