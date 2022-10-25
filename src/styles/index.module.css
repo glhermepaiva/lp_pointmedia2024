@@ -15889,9 +15889,9 @@
 .reanimateCards {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 900px;
   justify-content: center;
-  margin: 0 0 0 430px;
+  margin: 0 0 0 400px;
 }
 
 .reanimateMM {
@@ -15906,7 +15906,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 20px 0;
+  margin: 0 30px 30px 0;
 }
 
 .reanimateMMlogo {
@@ -15978,6 +15978,34 @@
   margin: 0 0 0 1px;
 }
 
+.reanimateAM {
+  background-color: white;
+  width: 288px;
+  height: 215px;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 20px 30px;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/mobile/logoam.png);
+  width: 148px;
+  height: 45px;
+  margin: -36px 0 10px -60px;
+}
+
+.reanimateAMtext {
+  width: 200px;
+  font-weight: bold;
+  margin: 0 0 0 -4px;
+}
+
 .reanimateText2 {
   font-family: Segoe UI;
   font-size: 20px;
@@ -16017,7 +16045,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12940px;
+  top: 13190px;
   right: 380px;
 }
 
@@ -16026,7 +16054,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 11140px;
+  top: 11370px;
   left: 1340px;
 }
 
