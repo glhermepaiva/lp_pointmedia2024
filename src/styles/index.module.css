@@ -8275,7 +8275,7 @@
 }
 
 .teamPictures {
-  width: 1300px;
+  width: 1400px;
   align-self: center;
   justify-content: space-between;
 }
@@ -8355,6 +8355,32 @@
   margin-left: 20px;
 }
 
+.Gabriela {
+  margin: 0 50px 0 50px;
+}
+
+
+.GabrielaPicture {
+  background-image: url(../assets/desktop_s/gabriela.png);
+  width: 205px;
+  height: 211px;
+}
+
+.GabrielaName {
+  font-size: 20px;
+  line-height: 27px;
+  width: 50px;
+  margin: 10px 0 0 -80px;
+}
+
+.GabrielaJob {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -5px;
+  width: 150px;
+  margin-left: 20px;
+}
+
 .Louro {
   margin: 0 50px 0 50px;
 }
@@ -8381,7 +8407,7 @@
 }
 
 .Robson {
-  margin: 0 50px 0 100px;
+  margin: 0 0px 0 230px;
 }
 
 .RobsonPicture {
@@ -8406,7 +8432,7 @@
 }
 
 .Tato {
-  margin: 0 50px 0 50px;
+  margin: 0 -200px 0 -250px;
 }
 
 .TatoPicture {
@@ -8430,7 +8456,7 @@
 }
 
 .Danielle {
-  margin: 0 50px 0 50px;
+  margin: 0 -50px 0 -50px;
 }
 
 .DaniellePicture {
@@ -8454,7 +8480,7 @@
 }
 
 .MarcellaRh {
-  margin: 0 50px 0 50px;
+  margin: 0 180px 0 -200px;
 }
 
 .MarcellaRhPicture {
