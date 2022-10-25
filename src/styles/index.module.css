@@ -2766,6 +2766,34 @@
   margin: 0 0 0 -5px;
 }
 
+.reanimateAM {
+  background-color: white;
+  width: 230px;
+  height: 156px;
+  font-family: Segoe UI;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/mobile/logoam.png);
+  width: 148px;
+  height: 45px;
+  margin: 0 0 15px -26px;
+}
+
+.reanimateAMtext {
+  width: 170px;
+  font-weight: bold;
+  margin: 0 0 0 -6px;
+}
+
 .reanimateText2 {
   font-family: Segoe UI;
   font-size: 15px;
@@ -2812,7 +2840,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14410px;
+  top: 14600px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -2822,7 +2850,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12450px;
+  top: 12640px;
   left: 180px;
   z-index: 9;
 }

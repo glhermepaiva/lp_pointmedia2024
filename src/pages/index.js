@@ -2109,7 +2109,7 @@ function parallaxAnimContact() {
           {parallaxAnimReanimate()}
         </div>
         <div className={styles.reanimateTitle}>re.animate_</div>
-        <div className={styles.reanimateText1}>O reanimate é uma solução automatizada para dar escalabilidade, assertividade e trazer uma esteira rápida de ajustes. Possuindo três módulos:</div>
+        <div className={styles.reanimateText1}>O reanimate é uma solução automatizada para dar escalabilidade, assertividade e trazer uma esteira rápida de ajustes. Possuindo quatro módulos:</div>
         <div className={styles.reanimateCards}>
           <div className={styles.reanimateMM}>
             <div className={styles.reanimateMMlogo}/>
@@ -2123,8 +2123,12 @@ function parallaxAnimContact() {
             <div className={styles.reanimateDAlogo}/>
             <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Crie diversas variações de conteúdos dinâmicos.</div>
           </div>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing em poucos cliques.</div>
+          </div>
         </div>
-        <div className={styles.reanimateText2}>Três programas que dão vazão na linha de produção de banners. Dentro do fluxo de produção, a partir da peça Master (HTML5), conseguimos replicar em diversos formatos, tanto animados quanto estáticos e criamos diversas peças seguindo o plano de mídia a partir de uma só!
+        <div className={styles.reanimateText2}>Quatro programas que dão vazão na linha de produção de banners. Dentro do fluxo de produção, a partir da peça Master (HTML5), conseguimos replicar em diversos formatos, tanto animados quanto estáticos e criamos diversas peças seguindo o plano de mídia a partir de uma só!
           <br/><br/>
           Ou seja, reanimate é a solução dos problemas de agências, anunciantes e veículos. 
         </div>
