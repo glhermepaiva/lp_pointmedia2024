@@ -7684,9 +7684,9 @@
 .reanimateCards {
   display: flex;
   flex-wrap: wrap;
-  width: 725px;
+  width: 1200px;
   justify-content: center;
-  margin: 0 0 0 300px;
+  margin: 0 0 0 370px;
 }
 
 .reanimateMM {
@@ -7701,7 +7701,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 30px 20px 0;
+  margin: 0 10px 20px 0;
 }
 
 .reanimateMMlogo {
@@ -7729,7 +7729,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .reanimateRAlogo {
@@ -7757,7 +7757,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 0 20px 0px;
+  margin: 0 10px 20px 0px;
 }
 
 .reanimateDAlogo {
@@ -7785,7 +7785,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 20px 30px;
+  margin: 0 0px 0px 0px;
 }
 
 .reanimateAMlogo {
@@ -7840,7 +7840,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13340px;
+  top: 13160px;
   right: 200px;
 }
 
@@ -7849,7 +7849,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11540px;
+  top: 11360px;
   left: 1020px;
 }
 
