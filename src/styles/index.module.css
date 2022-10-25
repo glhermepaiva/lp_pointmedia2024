@@ -3424,16 +3424,28 @@
 }
 
 .teamPictures {
-  width: 650px;
+  width: 780px;
   align-self: center;
 }
 
-.Danielle {
+.Louro {
   margin: 50px 0 0px 0;
 }
 
+.Robson {
+  margin: 40px -50px 0px 0;
+}
+
+.Tato {
+  margin: 40px -50px 0px -50px;
+}
+
+.Danielle {
+  margin: 40px -50px 0px -50px;
+}
+
 .MarcellaRh {
-  margin: 50px 0 0px 0;
+  margin: 40px 0 0px -50px;
 }
 
 /******* WHAT WE DO *******/
@@ -3609,7 +3621,7 @@
 
 .hwdBalls {
   transform: scale(1.3);
-  top: 3930px;
+  top: 3940px;
   left: 45px;
 }
 
@@ -5062,7 +5074,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 9467px;
+  top: 9477px;
   left: 530px;
   z-index: 9;
 }
