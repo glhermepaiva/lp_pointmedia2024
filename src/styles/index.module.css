@@ -2707,7 +2707,7 @@
 .reanimateMMtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 -5px;
+  margin: 0 0 0 0px;
 }
 
 .reanimateRA {
@@ -2735,7 +2735,7 @@
 .reanimateRAtext {
   width: 155px;
   font-weight: bold;
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 -15px;
 }
 
 .reanimateDA {
@@ -2763,7 +2763,7 @@
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 -5px;
+  margin: 0 0 0 0px;
 }
 
 .reanimateAM {
@@ -2791,7 +2791,7 @@
 .reanimateAMtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 -6px;
+  margin: 0 0 0 0px;
 }
 
 .reanimateText2 {
@@ -2850,7 +2850,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12640px;
+  top: 12630px;
   left: 180px;
   z-index: 9;
 }
