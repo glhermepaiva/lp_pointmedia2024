@@ -7684,9 +7684,9 @@
 .reanimateCards {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 725px;
   justify-content: center;
-  margin: 0 0 0 320px;
+  margin: 0 0 0 300px;
 }
 
 .reanimateMM {
@@ -7701,7 +7701,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 20px 0;
+  margin: 0 30px 20px 0;
 }
 
 .reanimateMMlogo {
@@ -7757,20 +7757,48 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0px;
 }
 
 .reanimateDAlogo {
   background-image: url(../assets/mobile/logoda.png);
   width: 166px;
   height: 45px;
-  margin: -14px 0 10px 0;
+  margin: -14px 0 10px -8px;
 }
 
 .reanimateDAtext {
   width: 170px;
   font-weight: bold;
-  margin: 0 0 0 2px;
+  margin: 0 0 0 0px;
+}
+
+.reanimateAM {
+  background-color: white;
+  width: 230px;
+  height: 165px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 20px 20px 30px;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/mobile/logoam.png);
+  width: 148px;
+  height: 45px;
+  margin: -14px 0 10px -34px;
+}
+
+.reanimateAMtext {
+  width: 170px;
+  font-weight: bold;
+  margin: 0 0 0 -10px;
 }
 
 .reanimateText2 {
@@ -7812,7 +7840,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13170px;
+  top: 13340px;
   right: 200px;
 }
 
@@ -7821,7 +7849,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11370px;
+  top: 11540px;
   left: 1020px;
 }
 
