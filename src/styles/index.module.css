@@ -15889,9 +15889,9 @@
 .reanimateCards {
   display: flex;
   flex-wrap: wrap;
-  width: 900px;
+  width: 1300px;
   justify-content: center;
-  margin: 0 0 0 400px;
+  margin: 0 0 0 500px;
 }
 
 .reanimateMM {
@@ -15906,7 +15906,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 30px 30px 0;
+  margin: 0 10px 20px 0;
 }
 
 .reanimateMMlogo {
@@ -15934,7 +15934,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .reanimateRAlogo {
@@ -15962,7 +15962,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin-bottom: 20px;
+  margin: 0 10px 0px 0;
 }
 
 .reanimateDAlogo {
@@ -15990,7 +15990,7 @@
   align-items: center;
   flex-direction: column;
   border-radius: 30px;
-  margin: 0 20px 20px 30px;
+  margin: 0 10px 0px 0px;
 }
 
 .reanimateAMlogo {
@@ -16025,7 +16025,7 @@
   width: 322px;
   height: 56px;
   cursor: pointer;
-  margin: 50px 0 100px 140px;
+  margin: 50px 0 80px 140px;
 }
 
 .reanimateButton:hover {
@@ -16045,7 +16045,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 13190px;
+  top: 12900px;
   right: 380px;
 }
 
@@ -16054,7 +16054,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 11370px;
+  top: 11130px;
   left: 1340px;
 }
 
