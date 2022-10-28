@@ -1350,6 +1350,10 @@ function parallaxAnimContact() {
     window.open('https://goo.gl/maps/m1zxnHaACgxrymi66/');
   }
 
+  const openCompliance = () => {
+    window.open('https://pointmedia.s3.sa-east-1.amazonaws.com/compliance/COMPLIANCE_POINTMEDIA.pdf');
+  }
+
 /***** ANCHOR LINKS  *****/
 
   const anchorHeader = () => {
@@ -2200,6 +2204,7 @@ function parallaxAnimContact() {
           <div className={styles.linkedin} onClick={openLinkedin}></div>
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
+        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerLocation}>
           <div className={styles.pin} onClick={openMaps} />
           <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>Telefone: (11) 3368-9006</div>

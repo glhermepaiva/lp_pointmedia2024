@@ -3045,6 +3045,24 @@
   cursor: pointer;
 }
 
+.complianceButton {
+    background-color: #EB6099;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: PoppinsBold;
+    font-size: 20px;
+    line-height: 30px;
+    width: 241px;
+    height: 50px;
+    cursor: pointer;
+    margin: -20px 0 80px 0;
+}
+
+.complianceButton:hover {
+  background-color: #d8598e;
+}
+
 .pin {
   background-image: url(../assets/mobile/pin.png);
   width: 23px;
@@ -5199,6 +5217,10 @@
 
 .footerSocials {
   margin: 0 0 90px -340px;
+}
+
+.complianceButton {
+  margin: -30px 0 80px -340px;
 }
 
 .pin {
@@ -7926,6 +7948,10 @@
   margin: 80px 0 0px -1000px;
 }
 
+.complianceButton {
+  margin: 50px 0 0px -1005px;
+}
+
 .pin {
   transform: scale(1.4);
   margin: -230px 0 20px 850px;
@@ -10637,6 +10663,10 @@
 
 .footerSocials {
   margin: 80px 0 0px -1000px;
+}
+
+.complianceButton {
+  margin: 50px 0 0px -1010px;
 }
 
 .pin {
@@ -13380,6 +13410,10 @@
 
 .footerSocials {
   margin: 80px 0 0px -1000px;
+}
+
+.complianceButton {
+  margin: 50px 0 0px -1010px;
 }
 
 .pin {
@@ -16131,6 +16165,10 @@
 
 .footerSocials {
   margin: 80px 0 0px -1200px;
+}
+
+.complianceButton {
+  margin: 50px 0 0px -1210px;
 }
 
 .pin {
