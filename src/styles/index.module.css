@@ -872,7 +872,7 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 50px 0 0 0;
+  margin: 50px 0 150px 0;
 }
 
 .DaniellePicture {
@@ -893,7 +893,7 @@
   width: 100px;
 }
 
-.MarcellaRh {
+/* .MarcellaRh {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -918,7 +918,7 @@
   width: 60px;
   margin-left: -10px;
   margin-bottom: 180px;
-}
+} */
 
 /******* WHAT WE DO *******/
 
@@ -947,7 +947,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4470px;
+  top: 4190px;
   left: 75px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -962,8 +962,8 @@
   width: 72px;
   height: 56px;
   position: absolute;
-  top: 4414px;
-  left: 226px;
+  top: 4175px;
+  left: 236px;
 }
 
 @keyframes leg {
@@ -1133,7 +1133,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5715px;
+  top: 5460px;
   left: 20px;
 }
 
@@ -1290,7 +1290,7 @@
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  top: 6330px;
+  top: 6070px;
   width: 60vw;
 }
 
@@ -1461,7 +1461,7 @@
   position: absolute;
   width: 100vw;
   height: 1850px;
-  top: 6430px;
+  top: 6170px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1867,7 +1867,7 @@
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 10040px;
+  top: 9790px;
   left: 100px;
   z-index: 2;
 }
@@ -1877,7 +1877,7 @@
   width: 76px;
   height: 115px;
   position: absolute;
-  top: 10010px;
+  top: 9760px;
   left: 255px;
 }
 
@@ -1886,7 +1886,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10000px;
+  top: 9750px;
   left: 260px;
   animation: shine1 3s infinite linear;
 }
@@ -1902,7 +1902,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10180px;
+  top: 9930px;
   left: 50px;
   animation: shine2 3s infinite linear;
 }
@@ -1918,7 +1918,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 10150px;
+  top: 9900px;
   left: 320px;
   animation: shine3 3s infinite linear;
 }
@@ -1940,7 +1940,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10865px;
+  top: 10605px;
 }
 
 .clientArrowLeft {
@@ -2651,7 +2651,7 @@
   width: 198px;
   height: 280px;
   position: absolute;
-  top: 11090px;
+  top: 10840px;
   left: 120px;
   z-index: 9;
 }
@@ -2661,7 +2661,7 @@
   width: 280px;
   height: 250px;
   position: absolute;
-  top: 12770px;
+  top: 12520px;
   left: 30px;
   z-index: 10;
 }
@@ -2840,7 +2840,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14600px;
+  top: 14300px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -2850,7 +2850,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12630px;
+  top: 12370px;
   left: 180px;
   z-index: 9;
 }
