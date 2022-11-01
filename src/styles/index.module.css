@@ -8374,7 +8374,7 @@
 }
 
 .teamPictures {
-  width: 1400px;
+  width: 1280px;
   align-self: center;
   justify-content: space-between;
 }
@@ -8506,7 +8506,7 @@
 }
 
 .Robson {
-  margin: 0 0px 0 230px;
+  margin: 0 50px 0 50px;
 }
 
 .RobsonPicture {
@@ -8531,7 +8531,7 @@
 }
 
 .Tato {
-  margin: 0 -200px 0 -250px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -8555,7 +8555,7 @@
 }
 
 .Danielle {
-  margin: 0 -50px 0 -50px;
+  margin: 0 50px 200px 50px;
 }
 
 .DaniellePicture {
@@ -8783,7 +8783,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4450px;
+  top: 4370px;
   left: 20px;
 }
 
@@ -8888,7 +8888,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5240px;
+  top: 5170px;
   width: 300px;
 }
 
@@ -8904,7 +8904,7 @@
 
 .previousWorks {
   height: 2500px;
-  top: 5340px;
+  top: 5270px;
 }
 
 .pwArt {
@@ -9659,7 +9659,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9350px;
+  top: 9300px;
   left: 110px;
 }
 
@@ -9681,7 +9681,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9480px;
+  top: 9400px;
   left: -2350px;
 }
 
@@ -9690,7 +9690,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9520px;
+  top: 9430px;
   left: -4010px; 
 }
 
@@ -9699,8 +9699,8 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9950px;
-  left: -1150px; 
+  top: 9800px;
+  left: -1000px; 
 }
 
 .clientShine3 {
@@ -9708,7 +9708,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9850px;
+  top: 9800px;
   left: -3500px; 
 }
 
@@ -9725,7 +9725,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10290px;
+  top: 10210px;
 }
 
 .clientArrowLeft {
@@ -10385,7 +10385,7 @@
   width: 371px;
   height: 523px;
   position: absolute;
-  top: 10390px;
+  top: 10320px;
   left: 120px;
   z-index: 9;
 }
@@ -10395,7 +10395,7 @@
   width: 520px;
   height: 470px;
   position: absolute;
-  top: 11860px;   
+  top: 11830px;   
   left: 20px;
   z-index: 10;
 }
@@ -10573,7 +10573,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13240px;
+  top: 13150px;
   right: 250px;
 }
 
@@ -10582,7 +10582,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11435px;
+  top: 11370px;
   left: 1100px;
 }
 
