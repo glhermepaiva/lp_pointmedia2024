@@ -13810,8 +13810,6 @@
   left: 00px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .teamGirl {
   background-image: url(../assets/desktop_l/teamgirl.png);
   width: 350px;
@@ -13839,8 +13837,6 @@
   left: 415px;
 }
 
-/*** FIM DO DESABILITADO POR HORA ***/
-
 .teamTitle {
   font-size: 65px;
   line-height: 62px;
@@ -13856,7 +13852,7 @@
 }
 
 .teamPictures {
-  width: 1550px;
+  width: 1250px;
   align-self: center;
   justify-content: space-between;
 }
@@ -13911,7 +13907,7 @@
 }
 
 .Mariana {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 50px 50px;
 }
 
 
@@ -13963,7 +13959,7 @@
 }
 
 .Louro {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 0 100px;
 }
 
 .LouroPicture {
@@ -13988,7 +13984,7 @@
 }
 
 .Robson {
-  margin: 0 50px 0 250px;
+  margin: 0 50px 0 50px;
 }
 
 .RobsonPicture {
@@ -14037,7 +14033,7 @@
 }
 
 .Danielle {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 250px 50px;
 }
 
 .DaniellePicture {
@@ -14060,7 +14056,7 @@
   margin: 0 0 0 0px;
 }
 
-.MarcellaRh {
+/* .MarcellaRh {
   margin: 0 200px 0 50px;
 }
 
@@ -14083,7 +14079,7 @@
   line-height: 20px;
   width: 70px;
   margin: 0 0 300px -50px;
-}
+} */
 
 /******* WHAT WE DO *******/
 
@@ -14273,7 +14269,7 @@
   width: 421px;
   height: 195px;
   position: absolute;
-  top: 4820px;
+  top: 4780px;
   left: 20px;
 }
 
@@ -14374,7 +14370,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5920px;
+  top: 5860px;
   width: 340px;
   transform: scale(1.2);
 }
@@ -14391,7 +14387,7 @@
 
 .previousWorks {
   height: 1800px;
-  top: 6030px;
+  top: 5980px;
 }
 
 .pwArt {
@@ -15157,7 +15153,7 @@
   line-height: 62px;
   width: 600px;
   position: absolute;
-  top: 9200px;
+  top: 9170px;
   left: 160px;
 }
 
@@ -15179,7 +15175,7 @@
   width: 560px;
   height: 510px;
   position: absolute;
-  top: 9250px;
+  top: 9220px;
   left: -2100px;
 }
 
@@ -15188,7 +15184,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9700px;
+  top: 9630px;
   left: -3500px; 
 }
 
@@ -15197,7 +15193,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9300px;
+  top: 9250px;
   left: -820px; 
 }
 
@@ -15223,7 +15219,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10015px;
+  top: 9970px;
 }
 
 .clientArrowLeft {
@@ -15883,7 +15879,7 @@
   width: 452px;
   height: 639px;
   position: absolute;
-  top: 10030px;
+  top: 9970px;
   left: 200px;
   z-index: 9;
 }
@@ -15893,7 +15889,7 @@
   width: 600px;
   height: 550px;
   position: absolute;
-  top: 11400px;   
+  top: 11320px;   
   left: 70px;
   z-index: 10;
 }
@@ -16071,7 +16067,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12900px;
+  top: 12850px;
   right: 380px;
 }
 
@@ -16080,7 +16076,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 11130px;
+  top: 11070px;
   left: 1340px;
 }
 
