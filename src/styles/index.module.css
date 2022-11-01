@@ -11059,8 +11059,6 @@
   left: 00px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .teamGirl {
   background-image: url(../assets/desktop_l/teamgirl.png);
   width: 350px;
@@ -11088,8 +11086,6 @@
   left: 415px;
 }
 
-/*** FIM DO DESABILITADO POR HORA ***/
-
 .teamTitle {
   font-size: 55px;
   line-height: 62px;
@@ -11105,7 +11101,7 @@
 }
 
 .teamPictures {
-  width: 1500px;
+  width: 1250px;
   align-self: center;
   justify-content: space-between;
 }
@@ -11160,7 +11156,7 @@
 }
 
 .Mariana {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 50px 50px;
 }
 
 .MarianaPicture {
@@ -11210,7 +11206,7 @@
 }
 
 .Louro {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 0 100px;
 }
 
 .LouroPicture {
@@ -11235,7 +11231,7 @@
 }
 
 .Robson {
-  margin: 0 0px 0 250px;
+  margin: 0 50px 0 50px;
 }
 
 .RobsonPicture {
@@ -11260,7 +11256,7 @@
 }
 
 .Tato {
-  margin: 0 0px 0 50px;
+  margin: 0 50px 0 50px;
 }
 
 .TatoPicture {
@@ -11284,7 +11280,7 @@
 }
 
 .Danielle {
-  margin: 0 0px 0 50px;
+  margin: 0 50px 250px 50px;
 }
 
 .DaniellePicture {
