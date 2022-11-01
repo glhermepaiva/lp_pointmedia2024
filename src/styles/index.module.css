@@ -5610,8 +5610,6 @@
   left: 10px;
 }
 
-/*** DESABILITADO POR HORA ***/
-
 .teamGirl {
   background-image: url(../assets/desktop_s/teamgirl.png);
   width: 300px;
@@ -5639,8 +5637,6 @@
   left: 325px;
 }
 
-/*** FIM DO DESABILITADO POR HORA ***/
-
 .teamTitle {
   font-size: 55px;
   line-height: 62px;
@@ -5656,7 +5652,7 @@
 }
 
 .teamPictures {
-  width: 1350px;
+  width: 1300px;
   align-self: center;
 }
 
@@ -5783,7 +5779,7 @@
 }
 
 .Robson {
-  margin: 0 -50px 0 60px;
+  margin: 0 60px 0 60px;;
 }
 
 .RobsonPicture {
@@ -5807,7 +5803,7 @@
 }
 
 .Tato {
-  margin: 0 -50px 0 -50px;
+  margin: 0 60px 0 60px;
 }
 
 .TatoPicture {
@@ -5831,7 +5827,7 @@
 }
 
 .Danielle {
-  margin: 0 -50px 0 -50px;
+  margin: 0 60px 200px 60px;
 }
 
 .DaniellePicture {
@@ -6063,7 +6059,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4520px;
+  top: 4465px;
   left: -90px;
 }
 
@@ -6168,7 +6164,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5320px;
+  top: 5270px;
   width: 300px;
 }
 
@@ -6184,7 +6180,7 @@
 
 .previousWorks {
   height: 2500px;
-  top: 5430px;
+  top: 5370px;
 }
 
 .pwArt {
@@ -6948,7 +6944,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9440px;
+  top: 9380px;
   left: 80px;
 }
 
@@ -6970,7 +6966,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9500px;
+  top: 9480px;
   left: -2420px;
 }
 
@@ -6979,7 +6975,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9520px;
+  top: 9500px;
   left: -4010px; 
 }
 
@@ -6988,7 +6984,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9980px;
+  top: 9900px;
   left: -1150px; 
 }
 
@@ -7014,7 +7010,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10310px;
+  top: 10250px;
 }
 
 .clientArrowLeft {
@@ -7674,7 +7670,7 @@
   width: 371px;
   height: 523px;
   position: absolute;
-  top: 10350px;
+  top: 10250px;
   left: 120px;
   z-index: 9;
 }
@@ -7684,7 +7680,7 @@
   width: 520px;
   height: 470px;
   position: absolute;
-  top: 11820px;   
+  top: 11720px;   
   left: -30px;
   z-index: 10;
 }
@@ -7862,7 +7858,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13160px;
+  top: 13100px;
   right: 200px;
 }
 
@@ -7871,7 +7867,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11360px;
+  top: 11320px;
   left: 1020px;
 }
 
