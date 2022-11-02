@@ -962,7 +962,7 @@
   width: 72px;
   height: 56px;
   position: absolute;
-  top: 4140px;
+  top: 4145px;
   left: 215px;
 }
 
@@ -2819,8 +2819,6 @@
   background-color: #d8598e;
 }
 
-
-
 /******* CONTACT *******/
 
 .contact {
@@ -2850,7 +2848,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12360px;
+  top: 12355px;
   left: 180px;
   z-index: 9;
 }
@@ -3056,7 +3054,7 @@
     width: 241px;
     height: 50px;
     cursor: pointer;
-    margin: -20px 0 80px 0;
+    margin: -20px 0 80px 10px;
 }
 
 .complianceButton:hover {
