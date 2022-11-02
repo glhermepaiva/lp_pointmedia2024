@@ -8427,7 +8427,7 @@
 }
 
 .Mariana {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 50px 50px;
 }
 
 
@@ -8479,7 +8479,7 @@
 }
 
 .Louro {
-  margin: 0 50px 0 50px;
+  margin: 0 50px 0 100px;
 }
 
 .LouroPicture {
@@ -8781,7 +8781,7 @@
   width: 339px;
   height: 157px;
   position: absolute;
-  top: 4370px;
+  top: 4395px;
   left: 20px;
 }
 
@@ -8886,7 +8886,7 @@
 }
 
 .hwdWhiteBg {
-  top: 5170px;
+  top: 5190px;
   width: 300px;
 }
 
@@ -8902,7 +8902,7 @@
 
 .previousWorks {
   height: 2500px;
-  top: 5270px;
+  top: 5290px;
 }
 
 .pwArt {
@@ -9723,7 +9723,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10210px;
+  top: 10240px;
 }
 
 .clientArrowLeft {
@@ -10571,7 +10571,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13150px;
+  top: 13170px;
   right: 250px;
 }
 
@@ -10580,7 +10580,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11370px;
+  top: 11390px;
   left: 1100px;
 }
 
