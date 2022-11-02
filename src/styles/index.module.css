@@ -15217,7 +15217,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9970px;
+  top: 9950px;
 }
 
 .clientArrowLeft {
@@ -15248,8 +15248,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10015px;
-  left: 82px;
+  top: 9950px;
+  left: 88px;
 }
 
 .client1 {
@@ -16154,7 +16154,7 @@
 }
 
 .complianceButton {
-  margin: 50px 0 0px -1210px;
+  margin: 50px 0 0px -1200px;
 }
 
 .pin {
