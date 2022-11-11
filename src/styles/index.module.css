@@ -344,11 +344,11 @@
 }
 
 .ceaCarouselBullets {
-  width: 130px;
+  width: 160px;
   height: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 50px 0;
+  margin: 50px auto 50px auto;
 }
 
 .havaianasCarouselBullets {
