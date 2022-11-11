@@ -3365,7 +3365,7 @@
 }
 
 .ceaCarouselBullets {
-  width: 60px;
+  width: 140px;
   height: 20px;
   display: flex;
   justify-content: space-between;
@@ -3413,7 +3413,124 @@
 
 .havaianasNewsText {
   width: 320px;
-  margin: 25px 0 0 445px;
+  margin: 25px 0 1px 445px;
+  transform: scale(0.9);
+}
+
+/* VELOE */
+
+.veloePicture {
+  background-image: url(../assets/tablet/veloe.png);
+  width: 426px;
+  height: 401px;
+  margin: 30px 0 20px -350px;
+}
+
+.veloeTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -395px 0 0 330px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.veloeTagLine {
+  background-color: #6CABDE;
+  width: 172px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 325px;
+  z-index: 0;
+}
+
+.veloeNewsTitle {
+  width: 250px;
+  margin: -315px 0 0 420px;
+  line-height: 27px;
+}
+
+.veloeNewsText {
+  width: 290px;
+  margin: 25px 0 20px 420px;
+  transform: scale(0.9);
+}
+
+/* VIDMOB */
+
+.vidmobPicture {
+  background-image: url(../assets/tablet/vidmob.png);
+  width: 426px;
+  height: 401px;
+  margin: 30px 0 20px -350px;
+}
+
+.vidmobTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -395px 0 0 348px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.vidmobTagLine {
+  background-color: #6CABDE;
+  width: 190px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 340px;
+  z-index: 0;
+}
+
+.vidmobNewsTitle {
+  width: 260px;
+  margin: -315px 0 0 430px;
+  line-height: 27px;
+}
+
+.vidmobNewsText {
+  width: 290px;
+  margin: 25px 0 20px 420px;
+  transform: scale(0.9);
+}
+
+/* TIKTOK */
+
+.tiktokPicture {
+  background-image: url(../assets/tablet/tiktok.png);
+  width: 426px;
+  height: 401px;
+  margin: 30px 0 20px -350px;
+}
+
+.tiktokTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -395px 0 0 402px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.tiktokTagLine {
+  background-color: #6CABDE;
+  width: 240px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 395px;
+  z-index: 0;
+}
+
+.tiktokNewsTitle {
+  width: 260px;
+  margin: -315px 0 0 430px;
+  line-height: 27px;
+}
+
+.tiktokNewsText {
+  width: 240px;
+  margin: 25px 0 20px 372px;
   transform: scale(0.9);
 }
 
