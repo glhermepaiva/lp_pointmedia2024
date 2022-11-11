@@ -14128,7 +14128,7 @@
   font-size: 20px;
   line-height: 30px;
   position: relative;
-  margin: -700px 0 0 280px;
+  margin: -700px 0 0 290px;
   z-index: 1;
   width: 210px;
 }
@@ -14138,7 +14138,7 @@
   width: 220px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 270px;
+  margin: -11px 0 0 275px;
   z-index: 0;
 }
 
@@ -14147,7 +14147,7 @@
   font-size: 20px;
   line-height: 30px;
   position: relative;
-  margin: -709px 0 0 345px;
+  margin: -709px 0 0 353px;
   z-index: 1;
 }
 
@@ -14156,16 +14156,16 @@
   width: 280px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 335px;
+  margin: -11px 0 0 345px;
   z-index: 0;
 }
 
 .ceaCarouselBullets {
-  width: 60px;
+  width: 170px;
   height: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 70px 0 50px 140px;
+  margin: 70px 0 50px 240px;
 }
 
 .havaianasCarouselBullets {
@@ -14198,7 +14198,7 @@
 
 .ceaNewsText {
   width: 500px;
-  margin: 25px 0 0 590px;
+  margin: 25px 0 -1px 590px;
   line-height: 27px;
   font-size: 20px;
 }
@@ -14229,6 +14229,132 @@
   left: -25px;
   width: 15px;
   height: 15px;
+}
+
+/* VELOE */
+
+.veloePicture {
+  background-image: url(../assets/desktop_l/veloe.png);
+  width: 850px;
+  height: 800px;
+  margin: 0px 0 20px -900px;
+}
+
+.veloeTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -730px 0 0 390px;
+  z-index: 1;
+  width: 300px;
+}
+
+.veloeTagLine {
+  background-color: #6CABDE;
+  width: 230px;
+  height: 10px;
+  position: relative;
+  margin: -13px 0 0 380px;
+  z-index: 0;
+}
+
+.veloeNewsTitle {
+  width: 600px;
+  margin: -630px 0 0 700px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.veloeNewsText {
+  width: 500px;
+  margin: 25px 0 0 600px;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+/* VIDMOB */
+
+.vidmobPicture {
+  background-image: url(../assets/desktop_l/vidmob.png);
+  width: 850px;
+  height: 800px;
+  margin: 0px 0 20px -900px;
+}
+
+.vidmobTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -730px 0 0 340px;
+  z-index: 1;
+  width: 250px;
+}
+
+.vidmobTagLine {
+  background-color: #6CABDE;
+  width: 240px;
+  height: 10px;
+  position: relative;
+  margin: -13px 0 0 340px;
+  z-index: 0;
+}
+
+.vidmobNewsTitle {
+  width: 650px;
+  margin: -630px 0 0 750px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.vidmobNewsText {
+  width: 500px;
+  margin: 25px 0 0 600px;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+/* TIKTOK */
+
+.tiktokPicture {
+  background-image: url(../assets/desktop_l/tiktok.png);
+  width: 850px;
+  height: 800px;
+  margin: 0px 0 20px -900px;
+}
+
+.tiktokTagText {
+  font-family: PoppinsBold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  margin: -730px 0 0 410px;
+  z-index: 1;
+  width: 320px;
+}
+
+.tiktokTagLine {
+  background-color: #6CABDE;
+  width: 310px;
+  height: 10px;
+  position: relative;
+  margin: -13px 0 0 410px;
+  z-index: 0;
+}
+
+.tiktokNewsTitle {
+  width: 650px;
+  margin: -630px 0 0 750px;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.tiktokNewsText {
+  width: 470px;
+  margin: 25px 0 0 565px;
+  line-height: 27px;
+  font-size: 20px;
 }
 
 .play {
