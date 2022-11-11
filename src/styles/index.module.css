@@ -145,6 +145,177 @@
   margin-top: 25px;
 }
 
+/* VELOE */
+
+.veloePicture {
+  background-image: url(../assets/mobile/veloe.png);
+  width: 354px;
+  height: 333px;
+  margin: 30px 0 20px 0;
+}
+
+.veloeTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -17px 0 0 -130px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.veloeTagLine {
+  background-color: #6CABDE;
+  width: 172px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -135px;
+  z-index: 0;
+  transform: scale(1.06);
+}
+
+.veloeNewsBullet {
+  background-color: #6CABDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  transform: scale(1.06);
+  position: absolute;
+  top: 9px;
+  left: -12px;
+}
+
+.veloeNewsTitle {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 250px;
+  margin: 30px 0 0 -42px;
+  transform: scale(1.06);
+}
+
+.veloeNewsText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 230px;
+  color: #707070;
+  transform: scale(1.06);
+  margin: 25px 0 0 -62px;
+}
+
+/* VIDMOB */
+
+.vidmobPicture {
+  background-image: url(../assets/mobile/vidmob.png);
+  width: 354px;
+  height: 333px;
+  margin: 30px 0 20px 0;
+}
+
+.vidmobTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -17px 0 0 -110px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.vidmobTagLine {
+  background-color: #6CABDE;
+  width: 190px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -116px;
+  z-index: 0;
+  transform: scale(1.06);
+}
+
+.vidmobNewsBullet {
+  background-color: #6CABDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  transform: scale(1.06);
+  position: absolute;
+  top: 9px;
+  left: -12px;
+}
+
+.vidmobNewsTitle {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 280px;
+  margin: 30px 0 0 -10px;
+  transform: scale(1.06);
+}
+
+.vidmobNewsText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 250px;
+  color: #707070;
+  transform: scale(1.06);
+  margin: 25px 0 0 -40px;
+}
+
+/* TIKTOK */
+
+.tiktokPicture {
+  background-image: url(../assets/mobile/tiktok.png);
+  width: 354px;
+  height: 321px;
+  margin: 30px 0 20px 0;
+}
+
+.tiktokTagText {
+  font-family: PoppinsBold;
+  font-size: 15px;
+  position: relative;
+  margin: -5px 0 0 -57px;
+  z-index: 1;
+  transform: scale(1.06);
+}
+
+.tiktokTagLine {
+  background-color: #6CABDE;
+  width: 240px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -62px;
+  z-index: 0;
+  transform: scale(1.06);
+}
+
+.tiktokNewsBullet {
+  background-color: #6CABDE;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  transform: scale(1.06);
+  position: absolute;
+  top: 9px;
+  left: -12px;
+}
+
+.tiktokNewsTitle {
+  font-family: PoppinsBold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 280px;
+  margin: 30px 0 0 -10px;
+  transform: scale(1.06);
+}
+
+.tiktokNewsText {
+  font-family: Segoe UI;
+  font-size: 15px;
+  width: 270px;
+  color: #707070;
+  transform: scale(1.06);
+  margin: 25px 0 20px -20px;
+}
+
 .play {
   display: flex;
   align-items: center;
@@ -173,7 +344,7 @@
 }
 
 .ceaCarouselBullets {
-  width: 60px;
+  width: 130px;
   height: 20px;
   display: flex;
   justify-content: space-between;
