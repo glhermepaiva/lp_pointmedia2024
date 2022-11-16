@@ -1214,26 +1214,26 @@ const backFourPages = () => {
 }
 
 function renderNews() {
-  if (newsPage == 0){
-    return (
-      <div className={styles.news}>
-        <div className={styles.tiktokPicture} />
-          <div className={styles.tiktokTag}>
-            <div className={styles.tiktokTagText}>TIKTOK AGORA É POINT MEDIA!</div>
-            <div className={styles.tiktokTagLine} />
-          </div>
-          <div className={styles.tiktokNewsTitle}> <div className={styles.ceaNewsBullet} />Preparem a dancinha, pois a Point Media agora é TikToker!</div>
-          <div className={styles.tiktokNewsText}>Entramos com o nosso time de veiculação e operação de AdOps para colaborar com o TikTok na América Latina!</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blackBullet} />
-            <div className={styles.blueBullet} onClick={advOnePage} />
-            <div className={styles.blueBullet} onClick={advTwoPages} />
-            <div className={styles.blueBullet} onClick={advThreePages} />
-            <div className={styles.blueBullet} onClick={advFourPages} />
-        </div>
-      </div>
-    )
-  } if (newsPage == 1){
+  // if (newsPage == 0){
+  //   return (
+  //     <div className={styles.news}>
+  //       <div className={styles.tiktokPicture} />
+  //         <div className={styles.tiktokTag}>
+  //           <div className={styles.tiktokTagText}>TIKTOK AGORA É POINT MEDIA!</div>
+  //           <div className={styles.tiktokTagLine} />
+  //         </div>
+  //         <div className={styles.tiktokNewsTitle}> <div className={styles.ceaNewsBullet} />Preparem a dancinha, pois a Point Media agora é TikToker!</div>
+  //         <div className={styles.tiktokNewsText}>Entramos com o nosso time de veiculação e operação de AdOps para colaborar com o TikTok na América Latina!</div>
+  //         <div className={styles.ceaCarouselBullets}>
+  //           <div className={styles.blackBullet} />
+  //           <div className={styles.blueBullet} onClick={advOnePage} />
+  //           <div className={styles.blueBullet} onClick={advTwoPages} />
+  //           <div className={styles.blueBullet} onClick={advThreePages} />
+  //           <div className={styles.blueBullet} onClick={advFourPages} />
+  //       </div>
+  //     </div>
+  //   )
+   if (newsPage == 0){
     return (
       <div className={styles.news}>
         <div className={styles.vidmobPicture} />
@@ -1244,15 +1244,14 @@ function renderNews() {
           <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! A VidMob vestiu a nossa camisa.</div>
           <div className={styles.vidmobNewsText}>Assumimos o compromisso de estar na linha de frente de todas as campanhas e produções digitais da VidMob. Estamos prontos para esta jornada!</div>
         <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet} />
+            <div className={styles.blackBullet}  />
             <div className={styles.blueBullet} onClick={advOnePage} />
             <div className={styles.blueBullet} onClick={advTwoPages} />
             <div className={styles.blueBullet} onClick={advThreePages} />
         </div>
       </div>
     )
-  } if (newsPage == 2){
+  } if (newsPage == 1){
     return (
       <div className={styles.news}>
         <div className={styles.veloePicture} />
@@ -1263,15 +1262,14 @@ function renderNews() {
           <div className={styles.veloeNewsTitle}> <div className={styles.ceaNewsBullet} />A Veloe estacionou na Point Media e é a nossa nova cliente!</div>
           <div className={styles.veloeNewsText}>A responsabilidade de desenvolver toda a produção e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!</div>
           <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backTwoPages} />
             <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet} />
-            <div className={styles.blueBullet} onClick={advOnePage} />
+            <div className={styles.blackBullet}  />
+            <div className={styles.blueBullet} onClick={advOnePage}/>
             <div className={styles.blueBullet} onClick={advTwoPages} />
         </div>
       </div>
     )
-  } if (newsPage == 3){
+  } if (newsPage == 2){
     return (
       <div className={styles.news}>
         <div className={styles.ceaPicture} />
@@ -1282,15 +1280,14 @@ function renderNews() {
           <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
           <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
           <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backThreePages} />
             <div className={styles.blueBullet} onClick={backTwoPages} />
             <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet} />
+            <div className={styles.blackBullet}  />
             <div className={styles.blueBullet} onClick={advOnePage} />
         </div>
       </div>
     )
-  } if (newsPage == 4){
+  } if (newsPage == 3){
     return (
       <div className={styles.news}>
         <div className={styles.havaianasPicture} />
@@ -1301,7 +1298,6 @@ function renderNews() {
         <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
         <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
           <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backFourPages} />
             <div className={styles.blueBullet} onClick={backThreePages} />
             <div className={styles.blueBullet} onClick={backTwoPages} />
             <div className={styles.blueBullet} onClick={backOnePage} />
