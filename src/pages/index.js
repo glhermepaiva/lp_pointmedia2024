@@ -1762,11 +1762,11 @@ function parallaxAnimContact() {
             <div className={styles.MarianaName}>Mariana</div>
             <div className={styles.MarianaJob}>Head de Operações</div>
           </div>
-          <div className={styles.Gabriela}>
+          {/* <div className={styles.Gabriela}>
             <div className={styles.GabrielaPicture} />
             <div className={styles.GabrielaName}>Gabriela</div>
             <div className={styles.GabrielaJob}>Head de Atendimento de Mídia</div>
-          </div>
+          </div> */}
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
             <div className={styles.LouroName}>Leonardo</div>

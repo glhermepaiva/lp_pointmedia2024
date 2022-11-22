@@ -1043,7 +1043,7 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 50px 0 150px 0;
+  margin: 0px 0 150px 0;
 }
 
 .DaniellePicture {
@@ -1118,7 +1118,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4150px;
+  top: 4200px;
   left: 75px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -1133,7 +1133,7 @@
   width: 72px;
   height: 56px;
   position: absolute;
-  top: 4142px;
+  top: 4192px;
   left: 218px;
 }
 
