@@ -1632,7 +1632,7 @@
   position: absolute;
   width: 100vw;
   height: 1850px;
-  top: 6150px;
+  top: 6145px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2111,7 +2111,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10590px;
+  top: 10580px;
 }
 
 .clientArrowLeft {
