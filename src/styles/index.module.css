@@ -50,7 +50,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -5px 0 0 -140px;
@@ -69,7 +69,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -2px 0 0 -85px;
@@ -110,7 +110,7 @@
 }
 
 .ceaNewsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 25px;
   width: 310px;
@@ -128,7 +128,7 @@
 }
 
 .havaianasNewsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 25px;
   width: 310px;
@@ -155,7 +155,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -17px 0 0 -130px;
@@ -185,7 +185,7 @@
 }
 
 .veloeNewsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 25px;
   width: 250px;
@@ -212,7 +212,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -17px 0 0 -110px;
@@ -242,7 +242,7 @@
 }
 
 .vidmobNewsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 25px;
   width: 280px;
@@ -269,7 +269,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -5px 0 0 -57px;
@@ -299,7 +299,7 @@
 }
 
 .tiktokNewsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 25px;
   width: 280px;
@@ -331,7 +331,7 @@
 }
 
 .playText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 12px;
   transform: scale(1.06);
 }
@@ -407,7 +407,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 35px;
   margin: 0 50px 0 0;
@@ -567,7 +567,7 @@
 }
 
 .aboutPoint {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 62px;
   color: #6CABDE;
@@ -576,7 +576,7 @@
 }
 
 .aboutTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   transform: scale(1.06);
@@ -716,7 +716,7 @@
 }
 
 .aboutMychelName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   margin: 10px 0 0 25px;
   transform: scale(1.06);
@@ -739,7 +739,7 @@
 }
 
 .aboutThiagoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   margin: 10px 0 0 25px;
   transform: scale(1.06);
@@ -760,7 +760,7 @@
 }
 
 .aboutTitle2 {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 25px;
   line-height: 30px;
   color: #6CABDE;
@@ -824,7 +824,7 @@
 }
 
 .teamTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 62px;
   margin: -300px 0 0 25px;
@@ -859,7 +859,7 @@
 }
 
 .PriscilaName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   line-height: 20px;
   width: 50px;
@@ -886,7 +886,7 @@
 }
 
 .WillName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -20px;
@@ -914,7 +914,7 @@
 }
 
 .MarianaName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -20px;
@@ -942,7 +942,7 @@
 }
 
 .GabrielaName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -20px;
@@ -970,7 +970,7 @@
 }
 
 .LouroName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -25px;
@@ -997,7 +997,7 @@
 }
 
 .RobsonName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -30px;
@@ -1025,7 +1025,7 @@
 }
 
 .TatoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -35px;
@@ -1053,7 +1053,7 @@
 }
 
 .DanielleName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -50px;
@@ -1078,7 +1078,7 @@
 }
 
 .MarcellaRhName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   width: 50px;
   margin: 10px 0 0 -20px;
@@ -1161,14 +1161,14 @@
 
 .wwdTitle {
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 35px;
   margin: 0px 0 0 -30px;
 }
 
 .wwdSubtitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   width: 300px;
@@ -1309,7 +1309,7 @@
 }
 
 .hwdTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 60px;
   margin: 50px 0 10px 0;
@@ -1332,7 +1332,7 @@
 .hwdcPinkText1 {
   position: absolute;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1347,7 +1347,7 @@
 .hwdcPinkText2 {
   position: absolute;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1360,7 +1360,7 @@
 .hwdcPinkText3 {
   position: absolute;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1372,7 +1372,7 @@
 .hwdcPinkText4 {
   position: absolute;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1384,7 +1384,7 @@
 .hwdcPinkText5 {
   position: absolute;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1398,7 +1398,7 @@
   top: 267px;
   left: 480px;
   z-index: 1;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
@@ -1415,7 +1415,7 @@
   z-index: 1;
   transform: rotate(65deg);
   text-align: center;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
 }
@@ -1427,7 +1427,7 @@
   z-index: 1;
   transform: rotate(140deg);
   text-align: center;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
 }
@@ -1439,7 +1439,7 @@
   z-index: 1;
   transform: rotate(220deg);
   text-align: center;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
 }
@@ -1451,7 +1451,7 @@
   z-index: 1;
   transform: rotate(295deg);
   text-align: center;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
 }
@@ -1478,7 +1478,7 @@
 }
 
 .hwdLightText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   line-height: 35px;
 }
@@ -1502,7 +1502,7 @@
 }
 
 .hwdMegaphoneText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   line-height: 35px;
 }
@@ -1718,7 +1718,7 @@
 
 .pwTitle {
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 50px;
   margin-bottom: 50px;
@@ -1901,14 +1901,14 @@
 .casesTitle {
   color: #6CABDE;
   padding-top: 50px;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 50px;
   margin: 0 0 0 -50px;
 }
 
 .case1Title {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 62px;
   margin: 0 0 20px -160px;
@@ -1932,7 +1932,7 @@
 }
 
 .case1Subtitle1 {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   margin: -30px 0 30px 0px;
@@ -1946,7 +1946,7 @@
 }
 
 .case1Subtitle2 {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   margin: 70px 0 30px 0px;
@@ -1961,7 +1961,7 @@
 }
 
 .case2Title {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 62px;
   margin: 0 0 20px -130px;
@@ -1985,7 +1985,7 @@
 }
 
 .case2Subtitle1 {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   margin: -30px 0 30px 0px;
@@ -1999,7 +1999,7 @@
 }
 
 .case2Subtitle2 {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   margin: 70px 0 30px 0px;
@@ -2016,7 +2016,7 @@
 /******* CLIENTS *******/
 
 .clientsTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 35px;
   margin: 40px 0 45px 45px;
@@ -2720,7 +2720,7 @@
 }
 
 .careersTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 62px;
   color: #fff;
@@ -2736,7 +2736,7 @@
 }
 
 .careersOpenings {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   width: 300px;
@@ -2839,7 +2839,7 @@
 
 .reanimateTitle {
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 62px;
   margin-bottom: 20px;
@@ -2977,7 +2977,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 241px;
@@ -3025,7 +3025,7 @@
 }
 
 .contactTitle {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 30px;
   line-height: 62px;
   color: #EB6099;
@@ -3148,7 +3148,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 241px;
@@ -3172,7 +3172,7 @@
 }
 
 .footerLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 25px;
   margin: 50px 0 50px -60px;
@@ -3219,7 +3219,7 @@
     border: none;
     border-radius: 30px;
     color: #fff;
-    font-family: PoppinsBold;
+    font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     width: 241px;
@@ -3328,7 +3328,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -380px 0 0 320px;
@@ -3346,7 +3346,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -394px 0 0 377px;
@@ -3427,7 +3427,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -395px 0 0 330px;
@@ -3466,7 +3466,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -395px 0 0 348px;
@@ -3505,7 +3505,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 15px;
   position: relative;
   margin: -395px 0 0 402px;
@@ -3560,7 +3560,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 60px;
   margin: 0 80px 0 0;
@@ -5391,7 +5391,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 224px;
@@ -5557,7 +5557,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -5576,7 +5576,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -5670,7 +5670,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -5712,7 +5712,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -5754,7 +5754,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -5815,7 +5815,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 50px;
   margin: 0 80px 0 0;
@@ -5957,7 +5957,7 @@
 }
 
 .aboutMychelName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -5982,7 +5982,7 @@
 }
 
 .aboutThiagoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -8244,7 +8244,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 289px;
@@ -8408,7 +8408,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -8427,7 +8427,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -8521,7 +8521,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -8563,7 +8563,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -8605,7 +8605,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -8666,7 +8666,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 50px;
   margin: 0 80px 0 0;
@@ -8805,7 +8805,7 @@
 }
 
 .aboutMychelName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -8830,7 +8830,7 @@
 }
 
 .aboutThiagoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -11085,7 +11085,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 289px;
@@ -11251,7 +11251,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -11270,7 +11270,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -11364,7 +11364,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -11406,7 +11406,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -11448,7 +11448,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -11509,7 +11509,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 50px;
   margin: 0 80px 0 0;
@@ -11653,7 +11653,7 @@
 }
 
 .aboutMychelName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -11678,7 +11678,7 @@
 }
 
 .aboutThiagoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -13950,7 +13950,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 321px;
@@ -14124,7 +14124,7 @@
 }
 
 .ceaTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -14143,7 +14143,7 @@
 }
 
 .havaianasTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -14241,7 +14241,7 @@
 }
 
 .veloeTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -14283,7 +14283,7 @@
 }
 
 .vidmobTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -14325,7 +14325,7 @@
 }
 
 .tiktokTagText {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   position: relative;
@@ -14386,7 +14386,7 @@
 }
 
 .menuLinks {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 35px;
   line-height: 50px;
   margin: 0 80px 0 0;
@@ -14530,7 +14530,7 @@
 }
 
 .aboutMychelName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -14556,7 +14556,7 @@
 }
 
 .aboutThiagoName {
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 10px 0 0 25px;
@@ -16827,7 +16827,7 @@
   border: none;
   border-radius: 30px;
   color: #fff;
-  font-family: PoppinsBold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   width: 322px;
