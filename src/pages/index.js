@@ -1723,12 +1723,12 @@ function parallaxAnimContact() {
             <div className={styles.aboutMychel}>
               <div className={styles.aboutMychelPicture} />
               <div className={styles.aboutMychelName}>Mychel Martins</div>
-              <div className={styles.aboutMychelJob}>CEO</div>
+              <div className={styles.aboutMychelJob}>Founder Partner</div>
             </div>
             <div className={styles.aboutThiago}>
               <div className={styles.aboutThiagoPicture} />
               <div className={styles.aboutThiagoName}>Thiago Ianni</div>
-              <div className={styles.aboutThiagoJob}>CBO</div>
+              <div className={styles.aboutThiagoJob}>Founder Partner</div>
             </div>
           </div>
           <div className={styles.aboutText2}>Criado por <b>Mychel Martins</b> e <b>Thiago Ianni</b>, a <b>POINT MEDIA</b> opera com um braço de tecnologia, contando com programadores fullstack, desenvolvendo integrações de soluções que facilitam  o acompanhamento das publicações de campanhas online em plataformas diversas.</div>
