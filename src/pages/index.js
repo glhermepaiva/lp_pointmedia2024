@@ -1574,7 +1574,7 @@ function parallaxAnimContact() {
     const isValid = await schema.isValid(formData);
 
     if (isValid && formData.subject == '1') {
-        emailjs.sendForm('service_xdtul6r', 'template_comercial', e.target, 'G6ql6Hx-_wrEAm6fd')
+        emailjs.sendForm('service_ibuddku', 'template_comercial', e.target, 'user_qksKqi9BtojdtprKYCtue')
 
         .then((result) => {
             console.log(result);
@@ -1586,7 +1586,7 @@ function parallaxAnimContact() {
         });
 
     } else if (isValid && formData.subject == '2') {
-      emailjs.sendForm('service_xdtul6r', 'template_atendimento', e.target, 'G6ql6Hx-_wrEAm6fd')
+      emailjs.sendForm('service_ibuddku', 'template_atendimento', e.target, 'user_qksKqi9BtojdtprKYCtue')
 
       .then((result) => {
           console.log(result);
@@ -1598,7 +1598,7 @@ function parallaxAnimContact() {
       });
 
     } else if (isValid && formData.subject == '3') {
-      emailjs.sendForm('service_15r2kjb', 'template_financeiro', e.target, 'yWzq25svn0E4FD_jn')
+      emailjs.sendForm('service_ibuddku', 'template_financeiro', e.target, 'user_qksKqi9BtojdtprKYCtue')
 
       .then((result) => {
           console.log(result);
