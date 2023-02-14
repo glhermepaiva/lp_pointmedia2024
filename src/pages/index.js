@@ -1236,15 +1236,15 @@ function renderNews() {
    if (newsPage == 0){
     return (
       <div className={styles.news}>
-        <div className={styles.vidmobPicture} />
-          <div className={styles.vidmobTag}>
-            <div className={styles.vidmobTagText}>VIDMOB É POINT MEDIA!</div>
-            <div className={styles.vidmobTagLine} />
-          </div>
-          <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! A VidMob vestiu a nossa camisa.</div>
-          <div className={styles.vidmobNewsText}>Assumimos o compromisso de estar na linha de frente de todas as campanhas e produções digitais da VidMob. Estamos prontos para esta jornada!</div>
-        <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blackBullet}  />
+        <div className={styles.havaianasPicture} />
+        <div className={styles.havaianasTag}>
+          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
+          <div className={styles.havaianasTagLine} />
+        </div>
+        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
+          <div className={styles.ceaCarouselBullets}>
+            <div className={styles.blackBullet} />
             <div className={styles.blueBullet} onClick={advOnePage} />
             <div className={styles.blueBullet} onClick={advTwoPages} />
             <div className={styles.blueBullet} onClick={advThreePages} />
@@ -1290,15 +1290,15 @@ function renderNews() {
   } if (newsPage == 3){
     return (
       <div className={styles.news}>
-        <div className={styles.havaianasPicture} />
-        <div className={styles.havaianasTag}>
-          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
-          <div className={styles.havaianasTagLine} />
-        </div>
-        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backThreePages} />
+        <div className={styles.vidmobPicture} />
+          <div className={styles.vidmobTag}>
+            <div className={styles.vidmobTagText}>VIDMOB É POINT MEDIA!</div>
+            <div className={styles.vidmobTagLine} />
+          </div>
+          <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! A VidMob vestiu a nossa camisa.</div>
+          <div className={styles.vidmobNewsText}>Assumimos o compromisso de estar na linha de frente de algumas campanhas e produções digitais da VidMob. Estamos prontos para esta jornada!</div>
+        <div className={styles.ceaCarouselBullets}>
+          <div className={styles.blueBullet} onClick={backThreePages} />
             <div className={styles.blueBullet} onClick={backTwoPages} />
             <div className={styles.blueBullet} onClick={backOnePage} />
             <div className={styles.blackBullet} />
