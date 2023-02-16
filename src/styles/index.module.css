@@ -3469,7 +3469,7 @@
   font-weight: bold;
   font-size: 15px;
   position: relative;
-  margin: -395px 0 0 348px;
+  margin: -395px 0 0 340px;
   z-index: 1;
   transform: scale(1.06);
 }
@@ -5718,12 +5718,12 @@
   position: relative;
   margin: -621px 0 0 518px;
   z-index: 1;
-  width: 250px;
+  width: 260px;
 }
 
 .vidmobTagLine {
   background-color: #6CABDE;
-  width: 250px;
+  width: 260px;
   height: 10px;
   position: relative;
   margin: -13px 0 0 512px;
@@ -8569,12 +8569,12 @@
   position: relative;
   margin: -621px 0 0 518px;
   z-index: 1;
-  width: 250px;
+  width: 260px;
 }
 
 .vidmobTagLine {
   background-color: #6CABDE;
-  width: 250px;
+  width: 260px;
   height: 10px;
   position: relative;
   margin: -13px 0 0 512px;
@@ -11412,12 +11412,12 @@
   position: relative;
   margin: -621px 0 0 310px;
   z-index: 1;
-  width: 250px;
+  width: 260px;
 }
 
 .vidmobTagLine {
   background-color: #6CABDE;
-  width: 250px;
+  width: 260px;
   height: 10px;
   position: relative;
   margin: -13px 0 0 305px;
@@ -14289,15 +14289,15 @@
   position: relative;
   margin: -730px 0 0 340px;
   z-index: 1;
-  width: 250px;
+  width: 260px;
 }
 
 .vidmobTagLine {
   background-color: #6CABDE;
-  width: 240px;
+  width: 260px;
   height: 10px;
   position: relative;
-  margin: -13px 0 0 340px;
+  margin: -13px 0 0 335px;
   z-index: 0;
 }
 

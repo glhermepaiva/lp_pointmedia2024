@@ -1292,11 +1292,11 @@ function renderNews() {
       <div className={styles.news}>
         <div className={styles.vidmobPicture} />
           <div className={styles.vidmobTag}>
-            <div className={styles.vidmobTagText}>VIDMOB É POINT MEDIA!</div>
+            <div className={styles.vidmobTagText}>POINT MEDIA na VidMob!</div>
             <div className={styles.vidmobTagLine} />
           </div>
-          <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! A VidMob vestiu a nossa camisa.</div>
-          <div className={styles.vidmobNewsText}>Assumimos o compromisso de estar na linha de frente de algumas campanhas e produções digitais da VidMob. Estamos prontos para esta jornada!</div>
+          <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! Agora somos parceiros da VidMob.</div>
+          <div className={styles.vidmobNewsText}>Assumimos o compromisso de atender a VidMob em algumas de suas principais campanhas e produções digitais. Estamos prontos para o desafio dessa jornada.</div>
         <div className={styles.ceaCarouselBullets}>
           <div className={styles.blueBullet} onClick={backThreePages} />
             <div className={styles.blueBullet} onClick={backTwoPages} />
