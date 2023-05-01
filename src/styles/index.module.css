@@ -7,6 +7,42 @@
   justify-content: space-between;
 }
 
+.langFlagToBR {
+  background-image: url(../assets/desktop_l/flagbrasil.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -225px;
+  right: -170px;
+  width: 512px;
+  height: 512px;
+  user-select: none;
+  cursor: pointer;
+  transform: scale(0.05);
+  opacity: 80%;
+}
+
+.langFlagToBR:hover {
+  opacity: 100%;
+}
+
+.langFlagToEN {
+  background-image: url(../assets/desktop_l/flagusa.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -225px;
+  right: -210px;
+  width: 512px;
+  height: 512px;
+  user-select: none;
+  cursor: pointer;
+  transform: scale(0.05);
+  opacity: 80%;
+}
+
+.langFlagToEN:hover {
+  opacity: 100%;
+}
+
 .logoPoint {
   background-image: url(../assets/mobile/logopoint.png);
   width: 111px;

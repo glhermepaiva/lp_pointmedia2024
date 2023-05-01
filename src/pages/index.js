@@ -1233,6 +1233,82 @@ function renderNews() {
   //       </div>
   //     </div>
   //   )
+  if (englishActive == true) {
+
+    if (newsPage == 0){
+      return (
+        <div className={styles.news}>
+          <div className={styles.havaianasPicture} />
+          <div className={styles.havaianasTag}>
+            <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
+            <div className={styles.havaianasTagLine} />
+          </div>
+          <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />We started a new phase in our partnership with Havaianas!</div>
+          <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
+            <div className={styles.ceaCarouselBullets}>
+              <div className={styles.blackBullet} />
+              <div className={styles.blueBullet} onClick={advOnePage} />
+              <div className={styles.blueBullet} onClick={advTwoPages} />
+              <div className={styles.blueBullet} onClick={advThreePages} />
+          </div>
+        </div>
+      )
+    } if (newsPage == 1){
+      return (
+        <div className={styles.news}>
+          <div className={styles.veloePicture} />
+            <div className={styles.veloeTag}>
+              <div className={styles.veloeTagText}>VELOE IS POINT MEDIA!</div>
+              <div className={styles.veloeTagLine} />
+            </div>
+            <div className={styles.veloeNewsTitle}> <div className={styles.ceaNewsBullet} />Veloe has parked at Point Media and is our new client!</div>
+            <div className={styles.veloeNewsText}>The responsabilities of developing the whole production and operation of Veloe's digital campaigns are ours now. Let's go together!</div>
+            <div className={styles.ceaCarouselBullets}>
+              <div className={styles.blueBullet} onClick={backOnePage} />
+              <div className={styles.blackBullet}  />
+              <div className={styles.blueBullet} onClick={advOnePage}/>
+              <div className={styles.blueBullet} onClick={advTwoPages} />
+          </div>
+        </div>
+      )
+    } if (newsPage == 2){
+      return (
+        <div className={styles.news}>
+          <div className={styles.ceaPicture} />
+            <div className={styles.ceaTag}>
+              <div className={styles.ceaTagText}>C&#38;A is POINT MEDIA!</div>
+              <div className={styles.ceaTagLine} />
+            </div>
+            <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> C&#38;A is the newest customer to join POINT MEDIA's team</div>
+            <div className={styles.ceaNewsText}>Our team took over the digital communications and CRM operations and is already ahead in the production of main campaigns for the giant retailer!</div>
+            <div className={styles.ceaCarouselBullets}>
+              <div className={styles.blueBullet} onClick={backTwoPages} />
+              <div className={styles.blueBullet} onClick={backOnePage} />
+              <div className={styles.blackBullet}  />
+              <div className={styles.blueBullet} onClick={advOnePage} />
+          </div>
+        </div>
+      )
+    } if (newsPage == 3){
+      return (
+        <div className={styles.news}>
+          <div className={styles.vidmobPicture} />
+            <div className={styles.vidmobTag}>
+              <div className={styles.vidmobTagText}>POINT MEDIA in VidMob!</div>
+              <div className={styles.vidmobTagLine} />
+            </div>
+            <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />The union that's already a success! We're now partners with Vidmob.</div>
+            <div className={styles.vidmobNewsText}>We've taken responsability of some of VidMob's most important campaigns and digital productions. We're ready for the challenges ahead in this journey.</div>
+          <div className={styles.ceaCarouselBullets}>
+            <div className={styles.blueBullet} onClick={backThreePages} />
+              <div className={styles.blueBullet} onClick={backTwoPages} />
+              <div className={styles.blueBullet} onClick={backOnePage} />
+              <div className={styles.blackBullet} />
+          </div>
+        </div>
+      )
+    }
+  } else {
    if (newsPage == 0){
     return (
       <div className={styles.news}>
@@ -1306,6 +1382,7 @@ function renderNews() {
       </div>
     )
   }
+}
 }
 
 /***** PARALLAX ANIMATIONS *****/
@@ -1627,6 +1704,18 @@ function parallaxAnimContact() {
     setDefaultCase(true)
   }
 
+/***** CHANGE LANGUAGE  *****/
+
+  const [englishActive, setEnglishActive] = useState(false);
+
+    function changeBR () {
+       setEnglishActive(false)
+    }
+
+    function changeEN () {
+        setEnglishActive(true)
+     }
+
 
   
 /***** RETURN *****/
@@ -1639,11 +1728,673 @@ function parallaxAnimContact() {
       </Head>
       
       <div id='header' className={styles.header}>
+        <div className={styles.langFlags}>
+          <div className={styles.langFlagToBR} onClick={changeBR} />
+          <div className={styles.langFlagToEN} onClick={changeEN} />
+        </div>
         <div className={styles.logoPoint} />
         <div className={styles.hamburger} onClick={openMenu}/>
       </div>
 
+      {englishActive ?
 
+      <div>
+      {menuOpen ? <div className={styles.hoverMenu}>
+        <div className={styles.menuLinks}>
+        <div className={styles.menuClose} onClick={closeMenu}/>
+          <div className={styles.anchorAbout} onClick={anchorAbout}>POINT</div>
+          <div className={styles.anchorTeam} onClick={anchorTeam}>our team</div>
+          <div className={styles.anchorWwd} onClick={anchorWwd}>what we do</div>
+          <div className={styles.anchorHwd} onClick={anchorHwd}>how we do</div>
+          <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>what we already did</div>
+          <div className={styles.anchorCases} onClick={anchorCases}>our cases</div>
+          <div className={styles.anchorClients} onClick={anchorClients}>our customers</div>
+          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
+          <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
+          <div className={styles.anchorContact} onClick={anchorContact}>contact us</div>
+        </div>
+        <div className={styles.menuSocials}>
+          <div className={styles.instagram} onClick={openInstagram}/>
+          <div className={styles.linkedin} onClick={openLinkedin}/>
+          <div className={styles.facebook} onClick={openFacebook}/>
+        </div>
+        <div className={styles.menuLogo} onClick={anchorHeader}></div>
+      </div> : <div className={styles.invisMenu} />}
+
+      <div>
+        {renderNews()}
+      </div>
+
+      {/* {defaultNews ? <div className={styles.news}>
+        <div className={styles.ceaPicture} />
+        <div className={styles.ceaTag}>
+          <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
+          <div className={styles.ceaTagLine} />
+        </div>
+        <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
+        <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
+        <div className={styles.ceaCarouselBullets}>
+          <div className={styles.blackBullet} />
+          <div className={styles.blueBullet} onClick={nextNews} />
+        </div>
+      </div>
+      :
+      <div className={styles.news}>
+        <div className={styles.havaianasPicture} />
+        <div className={styles.havaianasTag}>
+          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
+          <div className={styles.havaianasTagLine} />
+        </div>
+        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
+        <div className={styles.havaianasCarouselBullets}>
+          <div className={styles.blueBullet} onClick={prevNews}/>
+          <div className={styles.blackBullet} />
+        </div>
+      </div> } */}
+
+      <div id='about' className={styles.about}>
+        <div className={styles.aboutPoint}>POINT_</div>
+        <div className={styles.aboutTitle}>We are inspiration, creativity and a lot of movement. We never stop and motion is what truly moves us.</div>
+        <div className={styles.aboutImage}>
+          <div className={styles.astronautPoint} />
+          <div className={styles.astronautGuy} />
+          <div className={styles.astronautBlack} />
+          <div className={styles.astronautPink} />
+          <div className={styles.astronautBlue} />
+        </div>
+        <div className={styles.aboutText}>Since 2017 we have followed the dynamic pace of online media, ad ops and ad server, we are specialists in the large-scale production of digital assets, using motion design in HTML5 display banners and videos.<br/><br/> We develop customized projects with DCO, XML and Feeds technologies, inserting interactivity resources to enhance user engagement and the results of digital campaigns.</div>
+        <div className={styles.aboutLine} />
+        <div className={styles.aboutOffice} />
+        <div className={styles.blackBg}>
+          <div className={styles.owners}>
+            <div className={styles.aboutMychel}>
+              <div className={styles.aboutMychelPicture} />
+              <div className={styles.aboutMychelName}>Mychel Martins</div>
+              <div className={styles.aboutMychelJob}>Founder Partner</div>
+            </div>
+            <div className={styles.aboutThiago}>
+              <div className={styles.aboutThiagoPicture} />
+              <div className={styles.aboutThiagoName}>Thiago Ianni</div>
+              <div className={styles.aboutThiagoJob}>Founder Partner</div>
+            </div>
+          </div>
+          <div className={styles.aboutText2}>Created by <b>Mychel Martins</b> and <b>Thiago Ianni</b>, <b>POINT MEDIA</b> operates with a focus on technology, with fullstack developers creating integrated solutions that facilitate the monitoring of online campaigns on different platforms.</div>
+          <div className={styles.aboutTitle2} style={{marginTop: '120px'}}>This makes the operational work faster and minimizes measurement errors.</div>
+        </div>
+      </div>
+
+      <div className={styles.team}>
+        <div className={styles.teamArt}>
+        {parallaxAnimTeam()}
+        </div>
+        <div id='team' className={styles.teamTitle}>our team_</div>
+        <div className={styles.teamText}>We gathered a team of digital market beasts with extensive experience and passages through large digital companies.</div>
+        <div className={styles.teamPictures}>
+          <div className={styles.Priscila}>
+            <div className={styles.PriscilaPicture} />
+            <div className={styles.PriscilaName}>Priscila Michelin</div>
+            <div className={styles.PriscilaJob} style={{marginRight: '20px'}}>Legal</div>
+          </div>
+          <div className={styles.Will}>
+            <div className={styles.WillPicture} />
+            <div className={styles.WillName}>William</div>
+            <div className={styles.WillJob}>Head of Production</div>
+          </div>
+          <div className={styles.Mariana}>
+            <div className={styles.MarianaPicture} />
+            <div className={styles.MarianaName}>Mariana</div>
+            <div className={styles.MarianaJob}>Head of Operations</div>
+          </div>
+          {/* <div className={styles.Gabriela}>
+            <div className={styles.GabrielaPicture} />
+            <div className={styles.GabrielaName}>Gabriela</div>
+            <div className={styles.GabrielaJob}>Head de Atendimento de Mídia</div>
+          </div> */}
+          <div className={styles.Louro}>
+            <div className={styles.LouroPicture} />
+            <div className={styles.LouroName}>Leonardo</div>
+            <div className={styles.LouroJob}>Head of Technology</div>
+          </div>
+          <div className={styles.Robson}>
+            <div className={styles.RobsonPicture} />
+            <div className={styles.RobsonName}>Robson</div>
+            <div className={styles.RobsonJob}>Head of Media</div>
+          </div>
+          <div className={styles.Tato}>
+            <div className={styles.TatoPicture} />
+            <div className={styles.TatoName}>Anderson</div>
+            <div className={styles.TatoJob}>Head of <br/>E-mail MKT</div>
+          </div>
+          <div className={styles.Danielle}>
+            <div className={styles.DaniellePicture} />
+            <div className={styles.DanielleName}>Danielle</div>
+            <div className={styles.DanielleJob}>Head of Financial</div>
+          </div>
+          {/* <div className={styles.MarcellaRh}>
+            <div className={styles.MarcellaRhPicture} />
+            <div className={styles.MarcellaRhName}>Marcella</div>
+            <div className={styles.MarcellaRhJob}>Head de RH</div>
+          </div> */}
+        </div>
+      </div>
+      
+      <div id='wwd' className={styles.wwd}>
+        <div className={styles.wwdAlien}>
+          {parallaxAnimAlien()}
+        </div>
+        <div className={styles.wwdTitle}>what we do_</div>
+        <div className={styles.wwdSubtitle}>We go from creation to automation projects for media and production. </div>
+        <div className={styles.wwdWorks}>
+          <div className={styles.wwdWork1}>
+            <div className={styles.wwd1image} />
+            <div className={styles.wwd1text} style={{width: '200px'}}>Creation and design (moodboard and kv + motion design);</div>
+          </div>
+          <div className={styles.wwdWork2}>
+            <div className={styles.wwd2image} />
+            <div className={styles.wwd2text}>Production and deployment of digital banners;</div>
+          </div>
+          <div className={styles.wwdWork3}>
+            <div className={styles.wwd3image} />
+            <div className={styles.wwd3text}>DCO Projects for production optimization;</div>
+          </div>
+          <div className={styles.wwdWork4}>
+            <div className={styles.wwd4image} />
+            <div className={styles.wwd4text}>Media HUB for performance and Adserver management;</div>
+          </div>
+          <div className={styles.wwdWork5}>
+            <div className={styles.wwd5image} />
+            <div className={styles.wwd5text}>Automation projects for media and production.</div>
+          </div>
+        </div>
+        <div className={styles.wwdText}>We create performance Hubs for agencies and direct customers, where we operate Programmatic Media, SEM, Social, Mobile, WebTV and we can link the media operation with our production team, creating and deploying HTML5 banners, videos and static pieces so that the operational process of media flow in a unified way and gain momentum in campaign publications.</div>
+      </div>
+
+      <div id='hwd' className={styles.hwd}>
+        <div className={styles.hwdBalls} style={{marginTop: '25px'}}/>
+        <div className={styles.hwdTitle}>how we do_</div>
+        <div className={styles.hwdCircles}>
+          <div className={styles.hwdcPinkText1}>
+              <div className={styles.cpinkText1}>KV creation + master piece</div>
+              <div className={styles.cpinkText2}>Replication</div>
+              <div className={styles.cpinkText3}>Motion design</div>
+            </div>
+            <div className={styles.hwdcPinkText2}>
+              <div className={styles.cpinkText1}>Media planning</div>
+              <div className={styles.cpinkText2}>Tactical plan</div>
+              <div className={styles.cpinkText3}>Campaign configuration</div>
+            </div>
+            <div className={styles.hwdcPinkText3} style={{marginLeft: '40px'}}>
+              <div className={styles.cpinkText1}>Follow-up</div>
+              <div className={styles.cpinkText2}>Optimization</div>
+              <div className={styles.cpinkText3}>Daily status</div>
+            </div>
+            <div className={styles.hwdcPinkText4}>
+              <div className={styles.cpinkText1}>Financial checking</div>
+              <div className={styles.cpinkText2}>Report</div>
+              <div className={styles.cpinkText3}>Under-Over</div>
+            </div>
+            <div className={styles.hwdcPinkText5}>
+              <div className={styles.cpinkText1}>KPIs</div>
+              <div className={styles.cpinkText2}>Metrics</div>
+              <div className={styles.cpinkText3}>Final report</div>
+            </div>
+            <div className={styles.hwdcBlueText1}>
+              <div className={styles.cblueText1}>Production</div>
+              <div className={styles.cblueText2}>Pre-campaign</div>
+            </div>
+            <div className={styles.hwdcBlueText2}>
+              <div className={styles.cblueText1}>Media</div>
+              <div className={styles.cblueText2}>Pre-campaign</div>
+            </div>
+            <div className={styles.hwdcBlueText3}>
+              <div className={styles.cblueText1}>Media</div>
+              <div className={styles.cblueText2}>Free campaign</div>
+            </div>
+            <div className={styles.hwdcBlueText4}>
+              <div className={styles.cblueText1}>Control</div>
+              <div className={styles.cblueText2}>Free campaign</div>
+            </div>
+            <div className={styles.hwdcBlueText5}>
+              <div className={styles.cblueText1}>Resulting data</div>
+              <div className={styles.cblueText2}>Post-campaign</div>
+            </div>
+        </div>
+        <div className={styles.hwdWhiteBg}>
+          <div className={styles.hwdwBgLight}>
+            <div className={styles.hwdLightImage} />
+            <div className={styles.hwdLightText}>Agency</div>
+          </div>
+          <div className={styles.hwdwBgLogo} />
+          <div className={styles.hwdwBgMegaphone}>
+            <div className={styles.hwdMegaphoneImage} />
+            <div className={styles.hwdMegaphoneText}>Vehicles</div>
+          </div>
+        </div>
+      </div>
+
+      {modal1Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal1} />
+          <iframe className={styles.iframe1} src="/01.html" />
+        </div> : null}
+
+      {modal2Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal2} />
+          <iframe className={styles.iframe2} src="/02.html" scrolling='no' />
+        </div> : null}
+
+      {modal3Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal3} />
+          <iframe className={styles.iframe3} src="/03.html" />
+        </div> : null}
+
+      {modal4Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal4} />
+          <video className={styles.video04} controls autoPlay muted>
+            <source src="/04.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal5Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal5} />
+          <iframe className={styles.iframe5} src="/05.html" />
+        </div> : null}
+
+        {modal6Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal6} />
+          <video className={styles.video06} controls autoPlay muted>
+            <source src="/06.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal7Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal7} />
+          <video className={styles.video07} controls autoPlay muted>
+            <source src="/07.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal8Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal8} />
+          <video className={styles.video08} controls autoPlay muted>
+            <source src="/08.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal9Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal9} />
+          <iframe className={styles.iframe9} src="/09.html" />
+        </div> : null}
+
+        {modal10Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal10} />
+          <video className={styles.video10} controls autoPlay muted>
+            <source src="/10.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal11Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal11} />
+          <iframe className={styles.iframe11} src="/11.html" />
+        </div> : null}
+
+        {modal12Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal12} />
+          <iframe className={styles.iframe12} src="/12.html" />
+        </div> : null}
+
+        {modal13Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal13} />
+          <iframe className={styles.iframe13} src="/13.html" />
+        </div> : null}
+
+        {modal14Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal14} />
+          <iframe className={styles.iframe14} src="/14.html" />
+        </div> : null}
+
+        {modal15Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal15} />
+          <iframe className={styles.iframe15} src="/15.html" />
+        </div> : null}
+
+        {modal16Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal16} />
+          <video className={styles.video16} controls autoPlay muted>
+            <source src="/16.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal17Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal17} />
+          <iframe className={styles.iframe17} src="/17.html" />
+        </div> : null}
+
+        {modal18Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal18} />
+          <video className={styles.video18} controls autoPlay muted>
+            <source src="/18.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal19Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal19} />
+          <iframe className={styles.iframe19} src="/19.html" />
+        </div> : null}
+
+        {modal20Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal20} />
+          <iframe className={styles.iframe20} src="/20.html" />
+        </div> : null}
+
+        {modal21Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal21} />
+          <iframe className={styles.iframe21} src="/21.html" />
+        </div> : null}
+
+        {modal22Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal22} />
+          <iframe className={styles.iframe22} src="/22.html" />
+        </div> : null}
+
+        {modal23Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal23} />
+          <iframe className={styles.iframe23} src="/23.html" />
+        </div> : null}
+
+        {modal24Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal24} />
+          <iframe className={styles.iframe24} src="/24.html" />
+        </div> : null}
+
+        {modal25Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal25} />
+          <iframe className={styles.iframe25} src="/25.html" />
+        </div> : null}
+
+        {modal26Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal26} />
+          <iframe className={styles.iframe26} src="/26.html" />
+        </div> : null}
+
+        {modal27Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal27} />
+          <iframe className={styles.iframe27} src="/27.html" />
+        </div> : null}
+
+        {modal28Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal28} />
+          <video className={styles.video28} controls autoPlay muted>
+            <source src="/28.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+        {modal29Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal29} />
+          <iframe className={styles.iframe29} src="/29.html" />
+        </div> : null}
+
+        {modal30Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal30} />
+          <iframe className={styles.iframe30} src="/30.html" />
+        </div> : null}
+
+        {modal31Open ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModal31} />
+          <iframe className={styles.iframe31} src="/31.html" />
+        </div> : null}
+
+      <div id='prevworks' className={styles.previousWorks}>
+        <div className={styles.pwArt}>
+          <div className={styles.camera} />
+          <div className={styles.drip} />
+          <div className={styles.cloud} />
+          <div className={styles.cameraBalls}>
+            <div className={styles.blueBall} />
+            <div className={styles.redBall} />
+            <div className={styles.pinkBall} />
+          </div>
+        </div>
+        <div className={styles.pwTitle}>what we already did_</div>
+        <div className={styles.pwGallery}>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery1} onClick={openModal1}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery2} onClick={openModal2}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery3} onClick={openModal3}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery4} onClick={openModal4}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery5} onClick={openModal5}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery6} onClick={openModal6}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery7} onClick={openModal7}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery8} onClick={openModal8}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery9} onClick={openModal9}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery10} onClick={openModal10}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery11} onClick={openModal11}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery12} onClick={openModal12}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery13} onClick={openModal13}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery14} onClick={openModal14}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery15} onClick={openModal15}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery16} onClick={openModal16}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery17} onClick={openModal17}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery18} onClick={openModal18}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery19} onClick={openModal19}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery20} onClick={openModal20}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery21} onClick={openModal21}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery22} onClick={openModal22}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery23} onClick={openModal23}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery24} onClick={openModal24}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery25} onClick={openModal25}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery26} onClick={openModal26}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery27} onClick={openModal27}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery28} onClick={openModal28}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery29} onClick={openModal29}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery30} onClick={openModal30}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery31} onClick={openModal31}/>
+          </div>
+          <div className={styles.galleryContainer}>
+            <div className={styles.gallery32}/>
+          </div>
+        </div>
+      </div>
+
+      {defaultCase ?
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>our cases_</div>
+        <div className={styles.case1Title}>AdOps Vivo</div>
+        <div className={styles.arrowRight} onClick={nextCase}/>
+        <div className={styles.case1Image} />
+        <div className={styles.case1Info}>
+          <div className={styles.case1Highlights}>
+            <div className={styles.case1Subtitle1}>Highlights</div>
+            <div className={styles.case1Text1}>• Start of operation in 2019 <br/><br/>• Ad Ops Management via Adserver CM Google <br/><br/>• Caretaker of Vivo's media taxonomy <br/><br/>• DCO operation management via Google Studio<br/><br/>• Digital production operation with automation <br/><br/>• Email mkt production operation with automation</div>
+          </div>
+          <div className={styles.case1Results}>
+            <div className={styles.case1Subtitle2}>Results</div>
+            <div className={styles.case1Text2}>• In 2022 we had Vivo's CM + DCO operation (we created processes with a 2h SLA) <br/><br/>• We have developed an automated Taxonomy System for agencies that work with Vivo <br/><br/>• Digital production: average of one week to deliver the banners Pack, we reduced it to hours <br/><br/>• Email mkt production: we finished the backlog of months in just 2 days <br/><br/>• We implemented a banner automation tool in Vivo's process</div>
+          </div>
+        </div> 
+      </div>
+      : 
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>nossos cases_</div>
+        <div className={styles.case2Title}>AdOps Ambev</div>
+        <div className={styles.arrowLeft} onClick={prevCase}/>
+        <div className={styles.case2Image} />
+        <div className={styles.case2Info}>
+          <div className={styles.case2Highlights}>
+            <div className={styles.case2Subtitle1}>Highlights</div>
+            <div className={styles.case2Text1}>• Start of Global operation in 2020 <br/><br/>•  Global Ad Ops Management via Adserver Sizmek <br/><br/>•  Caretaking of the Global Media Taxonomy <br/><br/>• Management of campaign publications for local agencies in 70 countries <br/><br/>•  Digital production operation with automation <br/><br/>•  Email mkt production operation with automation</div>
+          </div>
+          <div className={styles.case2Results}>
+            <div className={styles.case2Subtitle2}>Results</div>
+            <div className={styles.case2Text2}>• Reduced campaign publication SLA from 1 week to 2 days <br/><br/>• We developed an automated Taxonomy System for the agencies <br/><br/>• Creation of a dashboard with operational indicators of the countries</div>
+          </div>
+        </div> 
+      </div> }
+
+      <div id='clients' className={styles.clients}>
+        <div className={styles.clientsTitle}>our customers_</div>
+        <div className={styles.clientsArt}>
+          <div className={styles.clientBG} />
+          {parallaxAnimClient()}
+        </div>
+        {renderObjectSize()}
+      </div>
+
+      <div id='reanimate' className={styles.reanimate}>
+        <div className={styles.reanimateArt}>
+          <div className={styles.reanimateGrid} />
+          {parallaxAnimReanimate()}
+        </div>
+        <div className={styles.reanimateTitle}>re.animate_</div>
+        <div className={styles.reanimateText1}>reanimate is an automated solution to provide scalability, assertiveness and a quick treadmill for adjustments. It has four modules:</div>
+        <div className={styles.reanimateCards}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>It has never been this easy to create animated banners, from the KV (psd) you can animate the master pieces in HTML5 without the need to know CSS or Java Script.</div>
+          </div>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>The perfect format for your needs. Unfold the master piece, animated in the first module, to different formats and media specifications: Vertical, horizontal, square and mobile.</div>
+          </div>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Having lots of products and offers to promote is no longer a headache. Create multiple variations of dynamic content.</div>
+          </div>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Your operation is much more agile with a tool that allows the optimized production of email marketing in just a few clicks.</div>
+          </div>
+        </div>
+        <div className={styles.reanimateText2}>Four programs that make the banner production line flow. Within the production flow, from the Master piece (HTML5), we are able to replicate it in several formats, both animated and static, and we create several pieces following the media plan from a single one! <br/><br/> In other words, reanimate is the solution to the problems of agencies, advertisers and vehicles.
+        </div>
+        <button className={styles.reanimateButton} onClick={openReanimate}>get to know &gt;</button>
+      </div>
+
+      <div id='careers' className={styles.careers}>
+        <div className={styles.careersArt} />
+        <div className={styles.careersTitle}>vagas_</div>
+        <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atrás de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
+        <div className={styles.careersOpenings}>
+          <div className={styles.career1} onClick={anchorContact}>02 vagas para analista de mídia sênior</div><br/>
+          <div className={styles.career2} onClick={anchorContact}>02 vagas para motion designer pleno</div><br/>
+          <div className={styles.career3} onClick={anchorContact}>01 vaga para diretor de arte sênior</div><br/>
+          <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
+        </div>
+      </div>
+
+      <div id='contact' className={styles.contact}>
+        <div className={styles.contactArt}>
+          {parallaxAnimContact()}
+        </div>
+        <div className={styles.contactTitle}>contact us_</div>
+        <div className={styles.contactText}>Bring your brand to a team of talents that grows with each new project.</div>
+        {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
+        <form className={styles.contactForm} onSubmit={onSubmit}>
+          <select className={styles.formSubject} type="text" name="subject" defaultValue={"DEFAULT"}>
+            <option value="DEFAULT" disabled hidden>Choose a subject</option>
+            <option value="1">Commercial</option>
+            <option value="2">Projects</option>
+            <option value="3">Administration/Financial</option>
+          </select>
+          <input className={styles.formName} type="text" name="name" placeholder="Name"></input>
+          <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
+          <input className={styles.formPhone} type="text" name="phone" placeholder="Phone"></input>
+          <textarea className={styles.formMessage} type="textarea" name="message" placeholder="Leave your message here..."></textarea>
+          <button className={styles.contactButton}>send &gt;</button>
+        </form>}
+      </div>
+
+      <div className={styles.footer}>
+        <div className={styles.footerLinks}>
+        <div className={styles.anchorAbout} onClick={anchorAbout}>POINT</div>
+          <div className={styles.anchorTeam} onClick={anchorTeam}>our team</div>
+          <div className={styles.anchorWwd} onClick={anchorWwd}>what we do</div>
+          <div className={styles.anchorHwd} onClick={anchorHwd}>how we do</div>
+          <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>what we already did</div>
+          <div className={styles.anchorCases} onClick={anchorCases}>our cases</div>
+          <div className={styles.anchorClients} onClick={anchorClients}>our customers</div>
+          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
+          <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
+          <div className={styles.anchorContact} onClick={anchorContact}>contact us</div>
+        </div>
+        <div className={styles.footerLogo} onClick={anchorHeader} />
+        <div className={styles.footerSocials}>
+          <div className={styles.instagram} onClick={openInstagram}></div>
+          <div className={styles.linkedin} onClick={openLinkedin}></div>
+          <div className={styles.facebook} onClick={openFacebook}></div>
+        </div>
+        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
+        <div className={styles.footerLocation}>
+          <div className={styles.pin} onClick={openMaps} />
+          <div className={styles.address}>Vila Madalena - São Paulo - SP - Brazil<br/>Phone: +55 11 3368-9006</div>
+        </div>
+        <div className={styles.footerCopyright}>© pointmedia 2022</div>
+      </div>
+    </div>
+
+    :
+
+      <div>
       {menuOpen ? <div className={styles.hoverMenu}>
         <div className={styles.menuLinks}>
         <div className={styles.menuClose} onClick={closeMenu}/>
@@ -1665,8 +2416,6 @@ function parallaxAnimContact() {
         </div>
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu} />}
-
-
 
       <div>
         {renderNews()}
@@ -1700,11 +2449,6 @@ function parallaxAnimContact() {
         </div>
       </div> } */}
       
-
-
-
-
-
       <div id='about' className={styles.about}>
         <div className={styles.aboutPoint}>a POINT_</div>
         <div className={styles.aboutTitle}>Somos inspiração, criatividade e muito movimento. A gente não para nunca e motion é o que realmente nos move.</div>
@@ -1735,10 +2479,6 @@ function parallaxAnimContact() {
           <div className={styles.aboutTitle2}>Isso faz com que o trabalho operacional seja mais rápido e minimize erro de mensuração.</div>
         </div>
       </div>
-
-
-
-
 
       <div className={styles.team}>
         <div className={styles.teamArt}>
@@ -1795,10 +2535,6 @@ function parallaxAnimContact() {
         </div>
       </div>
       
-
-
-
-      
       <div id='wwd' className={styles.wwd}>
         <div className={styles.wwdAlien}>
           {parallaxAnimAlien()}
@@ -1829,10 +2565,6 @@ function parallaxAnimContact() {
         </div>
         <div className={styles.wwdText}>Criamos Hubs de performance para agências e clientes diretos, onde operamos Mídia Programática, SEM, Social, Mobile, WebTV e podemos interligar a operação de mídia com a nossa equipe de produção, criando e desdobrando banners HTML5, vídeos e estáticos para que o processo operacional de mídia flua de forma unificada e ganhe dinâmica nas publicações das campanhas.</div>
       </div>
-
-
-
-
 
       <div id='hwd' className={styles.hwd}>
         <div className={styles.hwdBalls} />
@@ -1896,8 +2628,6 @@ function parallaxAnimContact() {
           </div>
         </div>
       </div>
-
-
 
       {modal1Open ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeModal1} />
@@ -2182,9 +2912,6 @@ function parallaxAnimContact() {
         </div>
       </div>
 
-
-
-
       {defaultCase ?
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
@@ -2220,9 +2947,6 @@ function parallaxAnimContact() {
         </div> 
       </div> }
 
-
-
-
       <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
         <div className={styles.clientsArt}>
@@ -2231,10 +2955,6 @@ function parallaxAnimContact() {
         </div>
         {renderObjectSize()}
       </div>
-
-
-
-
 
       <div id='reanimate' className={styles.reanimate}>
         <div className={styles.reanimateArt}>
@@ -2268,10 +2988,6 @@ function parallaxAnimContact() {
         <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
       </div>
 
-
-
-
-
       <div id='careers' className={styles.careers}>
         <div className={styles.careersArt} />
         <div className={styles.careersTitle}>vagas_</div>
@@ -2283,10 +2999,6 @@ function parallaxAnimContact() {
           <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
         </div>
       </div>
-
-
-
-
 
       <div id='contact' className={styles.contact}>
         <div className={styles.contactArt}>
@@ -2309,10 +3021,6 @@ function parallaxAnimContact() {
           <button className={styles.contactButton}>enviar &gt;</button>
         </form>}
       </div>
-
-
-
-
 
       <div className={styles.footer}>
         <div className={styles.footerLinks}>
@@ -2340,10 +3048,8 @@ function parallaxAnimContact() {
         </div>
         <div className={styles.footerCopyright}>© pointmedia 2022</div>
       </div>
-
-
-
-
+    </div>
+  }
 
     </div>
   )
