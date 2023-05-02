@@ -11,8 +11,8 @@
   background-image: url(../assets/desktop_l/flagbrasil.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: -230px;
-  right: -130px;
+  top: -235px;
+  right: -180px;
   width: 512px;
   height: 512px;
   user-select: none;
@@ -29,8 +29,8 @@
   background-image: url(../assets/desktop_l/flagusa.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: -230px;
-  right: -170px;
+  top: -235px;
+  right: -220px;
   width: 512px;
   height: 512px;
   user-select: none;
@@ -3347,13 +3347,13 @@
 }
 
 .langFlagToBR {
-  top: -225px;
-  right: -165px;
+  top: -230px;
+  right: -145px;
 }
 
 .langFlagToEN {
-  top: -225px;
-  right: -205px;
+  top: -230px;
+  right: -185px;
 }
 
 .logoPoint {
