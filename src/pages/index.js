@@ -1728,10 +1728,8 @@ function parallaxAnimContact() {
       </Head>
       
       <div id='header' className={styles.header}>
-        <div className={styles.langFlags}>
-          <div className={styles.langFlagToBR} onClick={changeBR} />
-          <div className={styles.langFlagToEN} onClick={changeEN} />
-        </div>
+        <div className={styles.langFlagToBR} onClick={changeBR} />
+        <div className={styles.langFlagToEN} onClick={changeEN} />
         <div className={styles.logoPoint} />
         <div className={styles.hamburger} onClick={openMenu}/>
       </div>
