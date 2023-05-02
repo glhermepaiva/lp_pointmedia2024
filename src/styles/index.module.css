@@ -3293,13 +3293,13 @@
 @media (min-width: 450px) and (max-width:767px) {
 
   .langFlagToBR {
-    top: -230px;
-    right: -110px;
+    top: -235px;
+    right: -180px;
   }
 
   .langFlagToEN {
-    top: -230px;
-    right: -150px;
+    top: -235px;
+    right: -220px;
   }
 
   .aboutImage {
@@ -5594,13 +5594,13 @@
 }
 
 .langFlagToBR {
-  top: -225px;
-  right: -200px;
+  top: -230px;
+  right: -150px;
 }
 
 .langFlagToEN {
-  top: -225px;
-  right: -240px;
+  top: -230px;
+  right: -190px;
 }
 
 .hamburger {
