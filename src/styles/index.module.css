@@ -2000,7 +2000,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 62px;
-  margin: 0 0 20px -130px;
+  margin: 0px 0 20px -130px;
 }
 
 .arrowLeft {
@@ -2024,7 +2024,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
-  margin: -30px 0 30px 0px;
+  margin: -87px 0 30px 0px;
 }
 
 .case2Text1 {
@@ -2042,6 +2042,59 @@
 }
 
 .case2Text2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 100px 0;
+}
+
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 194px;
+  left: 150px;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 62px;
+  margin: 0 0 20px -130px;
+}
+
+.case3Image {
+  background-image: url(../assets/mobile/adops3.png);
+  width: 876px;
+  height: 487px;
+  margin: 0px 0 0 -30px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: -30px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 270px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 70px 0 30px 0px;
+}
+
+.case3Text2 {
   font-family: Segoe UI;
   font-size: 15px;
   line-height: 20px;
@@ -2835,177 +2888,180 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/mobile/reanimategrid.png);
-  width: 239px;
-  height: 97px;
-  margin: 100px 0 200px 70px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/mobile/reanimatepoint.png);
-  width: 198px;
-  height: 280px;
-  position: absolute;
-  top: 10820px;
-  left: 120px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/mobile/reanimateguy.png);
-  width: 280px;
-  height: 250px;
-  position: absolute;
-  top: 12500px;
-  left: 30px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  color: #fff;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 62px;
-  margin-bottom: 20px;
+.reanimateLogo {
+  background-image: url(../assets/mobile/logoreanimate.png);
+  width: 278px;
+  height: 101px;
+  margin: 50px 0 45px 0;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
-  width: 291px;
+  font-size: 18px;
+  line-height: 24px;
+  width: 275px;
   margin-bottom: 25px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin-bottom: 15px;
-}
-
-.reanimateMMtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin: 0 0 10px -8px;
-}
-
-.reanimateRAtext {
-  width: 155px;
-  font-weight: bold;
-  margin: 0 0 0 -15px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin: 0 0 15px -9px;
-}
-
-.reanimateDAtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateAM {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 148px;
-  height: 45px;
-  margin: 0 0 15px -26px;
-}
-
-.reanimateAMtext {
-  width: 170px;
+  color: #fff;
   font-weight: bold;
   margin: 0 0 0 0px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
-  width: 291px;
+  font-size: 18px;
+  line-height: 24px;
+  width: 260px;
+  color: #fff;
+  margin: 30px 0 30px -15px;
+}
+
+.reanimateCards {
+  margin: 0 0 0 -40px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/mobile/logomm.png);
+  width: 242px;
+  height: 59px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 210px;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/mobile/logora.png);
+  width: 221px;
+  height: 59px;
+  margin: 10px 0 10px 9px;
+}
+
+.reanimateRAtext {
+  width: 220px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/mobile/logoda.png);
+  width: 219px;
+  height: 59px;
+  margin: 10px 0 10px 7px;
+}
+
+.reanimateDAtext {
+  width: 220px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/mobile/logoam.png);
+  width: 188px;
+  height: 59px;
+  margin: 10px 0 15px -25px;
+}
+
+.reanimateAMtext {
+  width: 210px;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/mobile/logortm.png);
+  width: 180px;
+  height: 59px;
+  margin: 10px 0 15px -32px;
+}
+
+.reanimateTMtext {
+  width: 200px;
+  font-weight: bold;
+  margin: 0 0 0 -10px;
+}
+
+.reanimateBalls {
+  display: none;
 }
 
 .reanimateButton {
@@ -3016,10 +3072,10 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  width: 241px;
-  height: 50px;
+  width: 224px;
+  height: 56px;
   cursor: pointer;
-  margin: 40px 0 40px 0;
+  margin: 30px 0 40px 0;
 }
 
 .reanimateButton:hover {
@@ -4513,8 +4569,8 @@
   background-image: url(../assets/tablet/adops2.png);
   width: 1450px;
   height: 900px;
-  margin: -430px 0 0 160px;
-  transform: scale(0.6);
+  margin: -450px 0 0 30px;
+  transform: scale(0.5);
 }
 
 .case2Info {
@@ -4528,7 +4584,7 @@
 .case2Subtitle1 {
   font-size: 25px;
   line-height: 20px;
-  margin: 0px 0 20px 0px;
+  margin: -40px 0 20px 0px;
 }
 
 .case2Text1 {
@@ -4541,7 +4597,7 @@
 .case2Subtitle2 {
   font-size: 25px;
   line-height: 20px;
-  margin: 0px 0 20px 0px;
+  margin: -40px 0 20px 0px;
 }
 
 .case2Text2 {
@@ -4551,6 +4607,69 @@
   margin: 0 0 0px 0;
 }
 
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 145px;
+  left: 340px;
+  z-index: 99999;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 62px;
+  margin: 10px 0 20px -430px;
+}
+
+.case3Image {
+  background-image: url(../assets/tablet/adops3.png);
+  width: 1198px;
+  height: 665px;
+  margin: -180px 0 0 300px;
+}
+
+.case3Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 600px;
+  margin: -105px 0 0 20px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 270px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 20px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text2 {
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 100px 0;
+}
+
+
 /******* CLIENTS *******/
 
 .clientsTitle {
@@ -4558,7 +4677,7 @@
   line-height: 50px;
   width: 300px;
   position: absolute;
-  top: 7000px;
+  top: 6870px;
   left: 0px;
 }
 
@@ -4571,7 +4690,7 @@
   width: 558px;
   height: 273px;
   position: absolute;
-  top: 7020px;
+  top: 6900px;
   left: 30px;
 }
 
@@ -4580,7 +4699,7 @@
   width: 322px;
   height: 322px;
   position: absolute;
-  top: 7080px;
+  top: 6920px;
   left: -1800px;
 }
 
@@ -4589,7 +4708,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 7090px;
+  top: 6950px;
   left: -3100px;  
   transform: scale(0.5);
   animation: shine1 3s infinite linear;
@@ -4600,7 +4719,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 7320px;
+  top: 7220px;
   left: -1150px;
   transform: scale(0.5);
   animation: shine2 3s infinite linear;
@@ -4611,7 +4730,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 7280px;
+  top: 7180px;
   left: -2200px;
   transform: scale(0.5);
   animation: shine3 3s infinite linear;
@@ -4630,7 +4749,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 8000px;
+  top: 7890px;
 }
 
 .clientsGalleryLastPageTablet {
@@ -5269,177 +5388,184 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/mobile/reanimategrid.png);
-  width: 239px;
-  height: 97px;
-  margin: 100px 0 200px 280px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/mobile/reanimatepoint.png);
-  width: 198px;
-  height: 280px;
-  position: absolute;
-  top: 8400px;
-  left: 120px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/tablet/reanimateguy.png);
-  width: 300px;
-  height: 270px;
-  position: absolute;
-  top: 9640px;   
-  left: 40px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  font-size: 55px;
-  line-height: 62px;
-  margin: -180px 0 30px 280px;
+.reanimateLogo {
+  background-image: url(../assets/tablet/logoreanimate.png);
+  width: 535px;
+  height: 194px;
+  margin: 50px 0 45px 0;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
-  width: 330px;
-  margin: 0 0 25px 250px;
-}
-
-.reanimateCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  justify-content: center;
-  margin: 0 0 0 250px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 20px 20px 0;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin: -14px 0 10px 0;
-}
-
-.reanimateMMtext {
-  width: 170px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 590px;
+  margin-bottom: 25px;
+  color: #fff;
   font-weight: bold;
-  margin: 0px 0 0 2px;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin-bottom: 10px;
-}
-
-.reanimateRAtext {
-  width: 155px;
-  font-weight: bold;
-  margin: 0 0 0 -15px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 230px;
-  height: 156px;
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin-bottom: 15px;
-}
-
-.reanimateDAtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateAM {
-  font-family: Segoe UI;
-  font-size: 10px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 0 20px 20px;
-}
-
-.reanimateAMlogo {
-  margin-bottom: 15px;
-}
-
-.reanimateAMtext {
-  width: 170px;
   margin: 0 0 0 0px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 15px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 580px;
+  color: #fff;
+  margin: 30px 0 30px -15px;
+}
+
+.reanimateCards {
+  margin: 0 0 0 -40px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
   line-height: 20px;
-  width: 345px;
-  margin: 0 0 0 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/tablet/logomm.png);
+  width: 338px;
+  height: 82px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/tablet/logora.png);
+  width: 308px;
+  height: 82px;
+  margin: 10px 0 10px 0px;
+}
+
+.reanimateRAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/tablet/logoda.png);
+  width: 306px;
+  height: 82px;
+  margin: 10px 0 10px 2px;
+}
+
+.reanimateDAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/tablet/logoam.png);
+  width: 260px;
+  height: 82px;
+  margin: 10px 0 15px -45px;
+}
+
+.reanimateAMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/tablet/logortm.png);
+  width: 249px;
+  height: 82px;
+  margin: 10px 0 15px -55px;
+}
+
+.reanimateTMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateBalls {
+  display: block;
+  background-image: url(../assets/tablet/reanimateballs.png);
+  width: 572px;
+  height: 158px;
+  margin: 40px 0 0 -850px;
 }
 
 .reanimateButton {
@@ -5453,7 +5579,7 @@
   width: 224px;
   height: 56px;
   cursor: pointer;
-  margin: 40px 0 60px 130px;
+  margin: -115px 0 40px 0;
 }
 
 .reanimateButton:hover {
@@ -5473,7 +5599,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 10830px;
+  top: 11700px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -5483,7 +5609,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 9360px;
+  top: 10120px;
   left: 530px;
   z-index: 9;
 }
@@ -7321,14 +7447,14 @@
 
 .arrowRight {
   top: 350px;
-  left: 540px;
+  left: 580px;
 }
 
 .case1Image {
   background-image: url(../assets/desktop_s/adops.png);
   width: 1628px;
   height: 903px;
-  margin: -200px 0 0 200px;
+  margin: -250px 0 0 200px;
 }
 
 .case1Info {
@@ -7378,7 +7504,7 @@
   background-image: url(../assets/tablet/adops2.png);
   width: 1450px;
   height: 900px;
-  margin: -212px 0 0 200px;
+  margin: -180px 0 0 80px;
   transform: scale(0.8);
 }
 
@@ -7415,6 +7541,68 @@
   margin: 0 0 0px 0;
 }
 
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 295px;
+  left: 580px;
+  z-index: 99999;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -860px;
+}
+
+.case3Image {
+  background-image: url(../assets/desktop_s/adops3.png);
+  width: 1628px;
+  height: 903px;
+  margin: -180px 0 0 300px;
+}
+
+.case3Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  margin: -105px 0 0 0px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text2 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 400px;
+  margin: 0 0 100px 0;
+}
+
 /******* CLIENTS *******/
 
 .clientsTitle {
@@ -7422,7 +7610,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9380px;
+  top: 9300px;
   left: 80px;
 }
 
@@ -7435,7 +7623,7 @@
   width: 1057px;
   height: 353px;
   position: absolute;
-  top: 9500px;
+  top: 9400px;
   left: 0px;
 }
 
@@ -7444,7 +7632,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9480px;
+  top: 9300px;
   left: -2420px;
 }
 
@@ -7453,7 +7641,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9500px;
+  top: 9300px;
   left: -4010px; 
 }
 
@@ -7462,7 +7650,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9900px;
+  top: 9750px;
   left: -1150px; 
 }
 
@@ -7471,7 +7659,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9850px;
+  top: 9750px;
   left: -3500px; 
 }
 
@@ -7488,7 +7676,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10250px;
+  top: 10100px;
 }
 
 .clientArrowLeft {
@@ -8125,184 +8313,184 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/desktop_s/reanimategrid.png);
-  width: 572px;
-  height: 255px;
-  margin: 60px 0 0px 160px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/desktop_s/reanimatepoint.png);
-  width: 371px;
-  height: 523px;
-  position: absolute;
-  top: 10250px;
-  left: 120px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/desktop_s/reanimateguy.png);
-  width: 520px;
-  height: 470px;
-  position: absolute;
-  top: 11720px;   
-  left: -30px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  font-size: 55px;
-  line-height: 62px;
-  margin: -50px 0 50px 150px;
+.reanimateLogo {
+  background-image: url(../assets/tablet/logoreanimate.png);
+  width: 535px;
+  height: 194px;
+  margin: 100px 0 45px -500px;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 500px;
-  margin: 0 0 35px 290px;
-}
-
-.reanimateCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-  justify-content: center;
-  margin: 0 0 0 370px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 20px 0;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin: 0px 0 10px 0;
-}
-
-.reanimateMMtext {
-  width: 170px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 590px;
+  margin-bottom: 25px;
+  color: #fff;
   font-weight: bold;
-  margin: 0 0 0 1px;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin: 0 0 10px -15px;
-}
-
-.reanimateRAtext {
-  width: 185px;
-  font-weight: bold;
-  margin: 0 0 0 7px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 20px 0px;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin: -14px 0 10px -8px;
-}
-
-.reanimateDAtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateAM {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 0px 0px 0px;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 148px;
-  height: 45px;
-  margin: -14px 0 10px -34px;
-}
-
-.reanimateAMtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 -10px;
+  margin: 50px 0 0 -475px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 500px;
-  margin: 10px 0 25px 290px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 580px;
+  color: #fff;
+  margin: 30px 0 30px -500px;
+}
+
+.reanimateCards {
+  margin: -750px 0 0 700px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/tablet/logomm.png);
+  width: 338px;
+  height: 82px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/tablet/logora.png);
+  width: 308px;
+  height: 82px;
+  margin: 10px 0 10px 0px;
+}
+
+.reanimateRAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/tablet/logoda.png);
+  width: 306px;
+  height: 82px;
+  margin: 10px 0 10px 2px;
+}
+
+.reanimateDAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/tablet/logoam.png);
+  width: 260px;
+  height: 82px;
+  margin: 10px 0 15px -45px;
+}
+
+.reanimateAMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/tablet/logortm.png);
+  width: 249px;
+  height: 82px;
+  margin: 10px 0 15px -55px;
+}
+
+.reanimateTMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateBalls {
+  display: block;
+  background-image: url(../assets/desktop_s/reanimateballs.png);
+  width: 572px;
+  height: 255px;
+  margin: -250px 0 30px -790px;
 }
 
 .reanimateButton {
@@ -8316,7 +8504,7 @@
   width: 289px;
   height: 56px;
   cursor: pointer;
-  margin: 20px 0 100px 70px;
+  margin: 20px 0 70px 70px;
 }
 
 .reanimateButton:hover {
@@ -8346,7 +8534,7 @@
   height: 312px;
   position: absolute;
   top: 11320px;
-  left: 1020px;
+  left: 900px;
 }
 
 .contactTitle {
@@ -10172,7 +10360,7 @@
 
 .arrowRight {
   top: 380px;
-  left: 630px;
+  left: 680px;
 }
 
 .case1Image {
@@ -10222,7 +10410,7 @@
 
 .arrowLeft {
   top: 380px;
-  right: 630px;
+  right: 670px;
 }
 
 .case2Image {
@@ -10266,6 +10454,68 @@
   margin: 0 0 0px 0;
 }
 
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 325px;
+  left: 680px;
+  z-index: 99999;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -860px;
+}
+
+.case3Image {
+  background-image: url(../assets/desktop_s/adops3.png);
+  width: 1628px;
+  height: 903px;
+  margin: -180px 0 0 300px;
+}
+
+.case3Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  margin: -105px 0 0 0px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text2 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 400px;
+  margin: 0 0 100px 0;
+}
+
 /******* CLIENTS *******/
 
 .clientsTitle {
@@ -10273,7 +10523,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9300px;
+  top: 9200px;
   left: 110px;
 }
 
@@ -10286,7 +10536,7 @@
   width: 1057px;
   height: 353px;
   position: absolute;
-  top: 9420px;
+  top: 9300px;
   left: 0px;
 }
 
@@ -10295,7 +10545,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9400px;
+  top: 9280px;
   left: -2350px;
 }
 
@@ -10304,7 +10554,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9430px;
+  top: 9300px;
   left: -4010px; 
 }
 
@@ -10313,7 +10563,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9800px;
+  top: 9700px;
   left: -1000px; 
 }
 
@@ -10322,7 +10572,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9800px;
+  top: 9700px;
   left: -3500px; 
 }
 
@@ -10339,7 +10589,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10240px;
+  top: 10080px;
 }
 
 .clientArrowLeft {
@@ -10976,184 +11226,184 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/desktop_s/reanimategrid.png);
-  width: 572px;
-  height: 255px;
-  margin: 120px 0 0px 340px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/desktop_s/reanimatepoint.png);
-  width: 371px;
-  height: 523px;
-  position: absolute;
-  top: 10320px;
-  left: 120px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/desktop_s/reanimateguy.png);
-  width: 520px;
-  height: 470px;
-  position: absolute;
-  top: 11830px;   
-  left: 20px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  font-size: 65px;
-  line-height: 62px;
-  margin: 100px 0 50px 150px;
+.reanimateLogo {
+  background-image: url(../assets/tablet/logoreanimate.png);
+  width: 535px;
+  height: 194px;
+  margin: 100px 0 45px -650px;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 500px;
-  margin: 0 0 35px 230px;
-}
-
-.reanimateCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-  justify-content: center;
-  margin: 0 0 0 350px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 30px 0;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin: 0px 0 10px 0;
-}
-
-.reanimateMMtext {
-  width: 170px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 590px;
+  margin-bottom: 25px;
+  color: #fff;
   font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin: 0 0 10px -13px;
-}
-
-.reanimateRAtext {
-  width: 185px;
-  font-weight: bold;
-  margin: 0 0 0 8px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 20px 0;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin: -14px 0 10px -10px;
-}
-
-.reanimateDAtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 1px;
-}
-
-.reanimateAM {
-  background-color: white;
-  width: 230px;
-  height: 165px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 0px 0px 0px;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 148px;
-  height: 45px;
-  margin: -14px 0 10px -32px;
-}
-
-.reanimateAMtext {
-  width: 170px;
-  font-weight: bold;
-  margin: 0 0 0 -8px;
+  margin: 50px 0 0 -575px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 540px;
-  margin: 10px 0 25px 270px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 580px;
+  color: #fff;
+  margin: 30px 0 30px -590px;
+}
+
+.reanimateCards {
+  margin: -750px 0 0 800px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/tablet/logomm.png);
+  width: 338px;
+  height: 82px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/tablet/logora.png);
+  width: 308px;
+  height: 82px;
+  margin: 10px 0 10px 0px;
+}
+
+.reanimateRAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/tablet/logoda.png);
+  width: 306px;
+  height: 82px;
+  margin: 10px 0 10px 2px;
+}
+
+.reanimateDAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/tablet/logoam.png);
+  width: 260px;
+  height: 82px;
+  margin: 10px 0 15px -45px;
+}
+
+.reanimateAMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/tablet/logortm.png);
+  width: 249px;
+  height: 82px;
+  margin: 10px 0 15px -55px;
+}
+
+.reanimateTMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateBalls {
+  display: block;
+  background-image: url(../assets/desktop_s/reanimateballs.png);
+  width: 572px;
+  height: 255px;
+  margin: -250px 0 30px -790px;
 }
 
 .reanimateButton {
@@ -11167,7 +11417,7 @@
   width: 289px;
   height: 56px;
   cursor: pointer;
-  margin: 30px 0 60px 10px;
+  margin: 80px 0 80px 10px;
 }
 
 .reanimateButton:hover {
@@ -11196,7 +11446,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11390px;
+  top: 11350px;
   left: 1100px;
 }
 
@@ -13141,6 +13391,68 @@
   margin: 0 0 0px 0;
 }
 
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 325px;
+  left: 730px;
+  z-index: 99999;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -860px;
+}
+
+.case3Image {
+  background-image: url(../assets/desktop_s/adops3.png);
+  width: 1628px;
+  height: 903px;
+  margin: -180px 0 0 300px;
+}
+
+.case3Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  margin: -105px 0 0 0px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 440px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text2 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 400px;
+  margin: 0 0 100px 0;
+}
+
 /******* CLIENTS *******/
 
 .clientsTitle {
@@ -13148,7 +13460,7 @@
   line-height: 62px;
   width: 600px;
   position: absolute;
-  top: 8850px;
+  top: 8700px;
   left: 80px;
 }
 
@@ -13161,7 +13473,7 @@
   width: 1260px;
   height: 388px;
   position: absolute;
-  top: 8900px;
+  top: 8750px;
   left: 130px;
 }
 
@@ -13170,7 +13482,7 @@
   width: 560px;
   height: 510px;
   position: absolute;
-  top: 8870px;
+  top: 8700px;
   left: -2100px;
 }
 
@@ -13179,7 +13491,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 8930px;
+  top: 8700px;
   left: -3550px; 
 }
 
@@ -13188,7 +13500,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9300px;
+  top: 9100px;
   left: -820px; 
 }
 
@@ -13197,7 +13509,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9300px;
+  top: 9150px;
   left: -3100px; 
 }
 
@@ -13214,7 +13526,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9580px;
+  top: 9420px;
 }
 
 .clientArrowLeft {
@@ -13851,184 +14163,184 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/desktop_s/reanimategrid.png);
-  width: 572px;
-  height: 255px;
-  margin: 120px 0 0px 440px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/desktop_l/reanimatepoint.png);
-  width: 452px;
-  height: 639px;
-  position: absolute;
-  top: 9550px;
-  left: 200px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/desktop_l/reanimateguy.png);
-  width: 600px;
-  height: 550px;
-  position: absolute;
-  top: 10880px;   
-  left: 70px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  font-size: 65px;
-  line-height: 62px;
-  margin: 100px 0 50px 250px;
+.reanimateLogo {
+  background-image: url(../assets/tablet/logoreanimate.png);
+  width: 535px;
+  height: 194px;
+  margin: 100px 0 45px -700px;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 500px;
-  margin: 0 0 35px 330px;
-}
-
-.reanimateCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1300px;
-  justify-content: center;
-  margin: 0 0 0 450px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 286px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 30px 0;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin: -18px 0 10px -30px;
-}
-
-.reanimateMMtext {
-  width: 200px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 590px;
+  margin-bottom: 25px;
+  color: #fff;
   font-weight: bold;
-  margin: 0 0 0 0;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 287px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin: 0 0 10px -40px;
-}
-
-.reanimateRAtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 288px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin: -36px 0 10px -40px;
-}
-
-.reanimateDAtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateAM {
-  background-color: white;
-  width: 288px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 20px 0px;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 148px;
-  height: 45px;
-  margin: -36px 0 10px -60px;
-}
-
-.reanimateAMtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 -2px;
+  margin: 50px 0 0 -690px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 540px;
-  margin: 10px 0 25px 370px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 580px;
+  color: #fff;
+  margin: 30px 0 30px -700px;
+}
+
+.reanimateCards {
+  margin: -750px 0 0 800px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/tablet/logomm.png);
+  width: 338px;
+  height: 82px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/tablet/logora.png);
+  width: 308px;
+  height: 82px;
+  margin: 10px 0 10px 0px;
+}
+
+.reanimateRAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/tablet/logoda.png);
+  width: 306px;
+  height: 82px;
+  margin: 10px 0 10px 2px;
+}
+
+.reanimateDAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/tablet/logoam.png);
+  width: 260px;
+  height: 82px;
+  margin: 10px 0 15px -45px;
+}
+
+.reanimateAMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/tablet/logortm.png);
+  width: 249px;
+  height: 82px;
+  margin: 10px 0 15px -55px;
+}
+
+.reanimateTMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateBalls {
+  display: block;
+  background-image: url(../assets/desktop_s/reanimateballs.png);
+  width: 572px;
+  height: 255px;
+  margin: -250px 0 30px -790px;
 }
 
 .reanimateButton {
@@ -14042,7 +14354,7 @@
   width: 321px;
   height: 56px;
   cursor: pointer;
-  margin: 50px 0 100px 140px;
+  margin: 0px 0 80px 140px;
 }
 
 .reanimateButton:hover {
@@ -14062,7 +14374,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12430px;
+  top: 12200px;
   right: 280px;
 }
 
@@ -14071,7 +14383,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 10740px;
+  top: 10540px;
   left: 1300px;
 }
 
@@ -16028,6 +16340,68 @@
   margin: 0 0 0px 0;
 }
 
+.arrowRight2 {
+  background-image: url(../assets/mobile/arrowright.png);
+  width: 31px;
+  height: 56px;
+  cursor: pointer;
+  position: relative;
+  top: 305px;
+  left: 820px;
+  z-index: 99999;
+}
+
+.case3Title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 62px;
+  margin: 10px 0 20px -860px;
+}
+
+.case3Image {
+  background-image: url(../assets/desktop_s/adops3.png);
+  width: 1628px;
+  height: 903px;
+  margin: -180px 0 0 300px;
+}
+
+.case3Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1500px;
+  margin: -105px 0 0 100px;
+}
+
+.case3Subtitle1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text1 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 700px;
+}
+
+.case3Subtitle2 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 25px;
+  margin: -20px 0 30px 0px;
+}
+
+.case3Text2 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  line-height: 25px;
+  width: 700px;
+  margin: 0 0 100px 0;
+}
+
 /******* CLIENTS *******/
 
 .clientsTitle {
@@ -16035,7 +16409,7 @@
   line-height: 62px;
   width: 600px;
   position: absolute;
-  top: 9170px;
+  top: 9120px;
   left: 160px;
 }
 
@@ -16048,7 +16422,7 @@
   width: 1260px;
   height: 388px;
   position: absolute;
-  top: 9230px;
+  top: 9200px;
   left: 300px;
 }
 
@@ -16057,7 +16431,7 @@
   width: 560px;
   height: 510px;
   position: absolute;
-  top: 9220px;
+  top: 9150px;
   left: -2100px;
 }
 
@@ -16066,7 +16440,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9630px;
+  top: 9550px;
   left: -3500px; 
 }
 
@@ -16075,7 +16449,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9250px;
+  top: 9150px;
   left: -820px; 
 }
 
@@ -16084,7 +16458,7 @@
   width: 27px;
   height: 27px;
   position: absolute;
-  top: 9650px;
+  top: 9600px;
   left: -3100px; 
 }
 
@@ -16101,7 +16475,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9950px;
+  top: 9850px;
 }
 
 .clientArrowLeft {
@@ -16738,184 +17112,184 @@
 /******* REANIMATE *******/
 
 .reanimate {
-  background-color: #6CABDE;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.reanimateArt {
-  width: 250px;
-  height: 400px;
-}
-
-.reanimateGrid {
-  background-image: url(../assets/desktop_s/reanimategrid.png);
-  width: 572px;
-  height: 255px;
-  margin: 120px 0 0px 440px;
-}
-
-.reanimatePoint {
-  background-image: url(../assets/desktop_l/reanimatepoint.png);
-  width: 452px;
-  height: 639px;
-  position: absolute;
-  top: 9970px;
-  left: 200px;
-  z-index: 9;
-}
-
-.reanimateGuy {
-  background-image: url(../assets/desktop_l/reanimateguy.png);
-  width: 600px;
-  height: 550px;
-  position: absolute;
-  top: 11320px;   
-  left: 70px;
-  z-index: 10;
-}
-
-.reanimateTitle {
-  font-size: 65px;
-  line-height: 62px;
-  margin: 100px 0 50px 250px;
+.reanimateLogo {
+  background-image: url(../assets/tablet/logoreanimate.png);
+  width: 535px;
+  height: 194px;
+  margin: 100px 0 45px -800px;
 }
 
 .reanimateText1 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 500px;
-  margin: 0 0 50px 330px;
-}
-
-.reanimateCards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1300px;
-  justify-content: center;
-  margin: 0 0 0 500px;
-}
-
-.reanimateMM {
-  background-color: white;
-  width: 286px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 20px 0;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 175px;
-  height: 45px;
-  margin: -18px 0 10px -30px;
-}
-
-.reanimateMMtext {
-  width: 200px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 590px;
+  margin-bottom: 25px;
+  color: #fff;
   font-weight: bold;
-  margin: 0 0 0 0;
-}
-
-.reanimateRA {
-  background-color: white;
-  width: 287px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 167px;
-  height: 45px;
-  margin: 0 0 10px -40px;
-}
-
-.reanimateRAtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateDA {
-  background-color: white;
-  width: 288px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0px 0;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 166px;
-  height: 45px;
-  margin: -36px 0 10px -40px;
-}
-
-.reanimateDAtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 1px;
-}
-
-.reanimateAM {
-  background-color: white;
-  width: 288px;
-  height: 215px;
-  font-family: Segoe UI;
-  font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin: 0 10px 0px 0px;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 148px;
-  height: 45px;
-  margin: -36px 0 10px -60px;
-}
-
-.reanimateAMtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 -4px;
+  margin: 50px 0 0 -750px;
 }
 
 .reanimateText2 {
   font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 540px;
-  margin: 20px 0 25px 370px;
+  font-size: 24px;
+  line-height: 32px;
+  width: 580px;
+  color: #fff;
+  margin: 30px 0 30px -750px;
+}
+
+.reanimateCards {
+  margin: -750px 0 0 900px;
+}
+
+.reanimateMM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/tablet/logomm.png);
+  width: 338px;
+  height: 82px;
+  margin: 10px 0 15px 30px;
+}
+
+.reanimateMMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateRA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/tablet/logora.png);
+  width: 308px;
+  height: 82px;
+  margin: 10px 0 10px 0px;
+}
+
+.reanimateRAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateDA {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/tablet/logoda.png);
+  width: 306px;
+  height: 82px;
+  margin: 10px 0 10px 2px;
+}
+
+.reanimateDAtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateAM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/tablet/logoam.png);
+  width: 260px;
+  height: 82px;
+  margin: 10px 0 15px -45px;
+}
+
+.reanimateAMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateTM {
+  width: 230px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/tablet/logortm.png);
+  width: 249px;
+  height: 82px;
+  margin: 10px 0 15px -55px;
+}
+
+.reanimateTMtext {
+  width: 390px;
+  font-weight: bold;
+  margin: 0 0 0 40px;
+}
+
+.reanimateBalls {
+  display: block;
+  background-image: url(../assets/desktop_s/reanimateballs.png);
+  width: 572px;
+  height: 255px;
+  margin: -250px 0 30px -790px;
 }
 
 .reanimateButton {
@@ -16949,7 +17323,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12850px;
+  top: 12730px;
   right: 380px;
 }
 
@@ -16958,7 +17332,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 11070px;
+  top: 10970px;
   left: 1340px;
 }
 

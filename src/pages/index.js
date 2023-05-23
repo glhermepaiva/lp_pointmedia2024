@@ -1173,6 +1173,152 @@ function renderObjectSize() {
   }
 }
 
+/***** CASES *****/
+
+const [displayCase, setDisplayCase] = useState(1)
+
+const advToCase2 = () => {
+  setDisplayCase (2)
+}
+
+const backToCase1 = () => {
+  setDisplayCase (1)
+}
+
+const advToCase3 = () => {
+  setDisplayCase (3)
+}
+
+const backToCase2 = () => {
+  setDisplayCase (2)
+}
+
+function renderCases() {
+
+  if (displayCase == 1){
+    return (
+      <div id='cases' className={styles.cases}>
+          <div className={styles.casesTitle}>nossos cases_</div>
+          <div className={styles.case3Title}>AdOps Epson</div>
+          <div className={styles.arrowRight} onClick={advToCase2}/>
+          <div className={styles.case3Image} />
+          <div className={styles.case3Info}>
+            <div className={styles.case3Highlights}>
+              <div className={styles.case3Subtitle1}>Highlights</div>
+              <div className={styles.case3Text1}>• Demanda com mais de 1.000 peças <br/><br/>• 4 SKUs diferentes x 12KVs diferentes x 2 idiomas (Português e Espanhol) <br/><br/>• Prazo de 5 dias úteis <br/><br/>• Operação de produção de banners <br/><br/>• Operação de produção de e-mail mkt</div>
+            </div>
+            <div className={styles.case3Results}>
+              <div className={styles.case3Subtitle2}>Resultados</div>
+              <div className={styles.case3Text2}>• Demanda entregue em menos de 9hrs <br/><br/>• Garantia de esteira de ajustes rápida e automatizada caso o cliente quisesse cumprir ofertas em tempo real <br/><br/>• Demanda 100% automatizada e templatizada, garantindo assertividade nas variáveis de ofertas e produtos <br/><br/>• Garantimos o GoLive da campanha sem atrasos e com tempo de espelhamento</div>
+            </div>
+          </div> 
+        </div>
+    )
+  } if (displayCase == 2){
+    return (
+      <div id='cases' className={styles.cases}>
+          <div className={styles.casesTitle}>nossos cases_</div>
+          <div className={styles.case2Title}>AdOps Ambev</div>
+          <div className={styles.arrowLeft} onClick={backToCase1}/>
+          <div className={styles.arrowRight2} onClick={advToCase3}/>
+          <div className={styles.case2Image} />
+          <div className={styles.case2Info}>
+            <div className={styles.case2Highlights}>
+              <div className={styles.case2Subtitle1}>Highlights</div>
+              <div className={styles.case2Text1}>• Inicio da operação Global em 2020 <br/><br/>•  Gestão Global de Ad Ops via Adserver Sizmek <br/><br/>•  Zeladoria da taxonomia de mídia Global <br/><br/>• Gestão das subidas das campanhas das agências locais em 70 paises <br/><br/>•  Operação de produção digital com automação <br/><br/>•  Operação de produção de email mkt com automação</div>
+            </div>
+            <div className={styles.case2Results}>
+              <div className={styles.case2Subtitle2}>Resultados</div>
+              <div className={styles.case2Text2}>• Redução de SLA de subida de campanha de 1 semana para dois dias <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências <br/><br/>• Criação de dashboard com indicadores operacionais dos países</div>
+            </div>
+          </div> 
+        </div>
+    )
+  } if (displayCase == 3){
+    return (
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>nossos cases_</div>
+        <div className={styles.case1Title}>AdOps Vivo</div>
+        <div className={styles.arrowLeft} onClick={backToCase2}/>
+        <div className={styles.case1Image} />
+        <div className={styles.case1Info}>
+          <div className={styles.case1Highlights}>
+            <div className={styles.case1Subtitle1}>Highlights</div>
+            <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
+          </div>
+          <div className={styles.case1Results}>
+            <div className={styles.case1Subtitle2}>Resultados</div>
+            <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
+          </div>
+        </div> 
+      </div>
+    )
+  }
+}
+
+function renderCasesEN() {
+
+  if (displayCase == 1){
+    return (
+      <div id='cases' className={styles.cases}>
+          <div className={styles.casesTitle}>our cases_</div>
+          <div className={styles.case3Title}>AdOps Epson</div>
+          <div className={styles.arrowRight} onClick={advToCase2}/>
+          <div className={styles.case3Image} />
+          <div className={styles.case3Info}>
+            <div className={styles.case3Highlights}>
+              <div className={styles.case3Subtitle1}>Highlights</div>
+              <div className={styles.case3Text1}>• Job with more than 1,000 pieces <br/><br/>• 4 different SKUs x 12 different KVs x 2 languages (Portuguese and Spanish) <br/><br/>• Deadline of 5 working days <br/><br/>• Banner production operation <br/><br/>• Email mkt production operation</div>
+            </div>
+            <div className={styles.case3Results}>
+              <div className={styles.case3Subtitle2}>Results</div>
+              <div className={styles.case3Text2}>• Job delivered in less than 9hrs <br/><br/>• Guaranteed fast and automated adjustments if the customer needed to fulfill offers in real time <br/><br/>• 100% automated and templatized demand, ensuring assertiveness in the offer and product variables<br/><br/>• We guaranteed the campaign's GoLive without delays and with mirroring time</div>
+            </div>
+          </div> 
+        </div>
+    )
+  } if (displayCase == 2){
+    return (
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>our cases_</div>
+        <div className={styles.case1Title}>AdOps Vivo</div>
+        <div className={styles.arrowLeft} onClick={backToCase1}/>
+        <div className={styles.arrowRight2} onClick={advToCase3}/>
+        <div className={styles.case1Image} />
+        <div className={styles.case1Info}>
+          <div className={styles.case1Highlights}>
+            <div className={styles.case1Subtitle1}>Highlights</div>
+            <div className={styles.case1Text1}>• Start of operation in 2019 <br/><br/>• Ad Ops Management via Adserver CM Google <br/><br/>• Caretaker of Vivo's media taxonomy <br/><br/>• DCO operation management via Google Studio<br/><br/>• Digital production operation with automation <br/><br/>• Email mkt production operation with automation</div>
+          </div>
+          <div className={styles.case1Results}>
+            <div className={styles.case1Subtitle2}>Results</div>
+            <div className={styles.case1Text2}>• In 2022 we had Vivo's CM + DCO operation (we created processes with a 2h SLA) <br/><br/>• We have developed an automated Taxonomy System for agencies that work with Vivo <br/><br/>• Digital production: average of one week to deliver the banners Pack, we reduced it to hours <br/><br/>• Email mkt production: we finished the backlog of months in just 2 days <br/><br/>• We implemented a banner automation tool in Vivo's process</div>
+          </div>
+        </div> 
+      </div>
+    )
+  } if (displayCase == 3){
+    return (
+      <div id='cases' className={styles.cases}>
+          <div className={styles.casesTitle}>our cases_</div>
+          <div className={styles.case2Title}>AdOps Ambev</div>
+          <div className={styles.arrowLeft} onClick={backToCase2}/>
+          <div className={styles.case2Image} />
+          <div className={styles.case2Info}>
+            <div className={styles.case2Highlights}>
+              <div className={styles.case2Subtitle1}>Highlights</div>
+              <div className={styles.case2Text1}>• Start of Global operation in 2020 <br/><br/>•  Global Ad Ops Management via Adserver Sizmek <br/><br/>•  Caretaking of the Global Media Taxonomy <br/><br/>• Management of campaign publications for local agencies in 70 countries <br/><br/>•  Digital production operation with automation <br/><br/>•  Email mkt production operation with automation</div>
+            </div>
+            <div className={styles.case2Results}>
+              <div className={styles.case2Subtitle2}>Results</div>
+              <div className={styles.case2Text2}>• Reduced campaign publication SLA from 1 week to 2 days <br/><br/>• We developed an automated Taxonomy System for the agencies <br/><br/>• Creation of a dashboard with operational indicators of the countries</div>
+            </div>
+          </div> 
+        </div>
+    )
+  }
+}
+
 /***** NEWS CAROUSEL *****/
 
 const [newsPage, setNewsPage] = useState(0)
@@ -1249,7 +1395,7 @@ function renderNews() {
               <div className={styles.blackBullet} />
               <div className={styles.blueBullet} onClick={advOnePage} />
               <div className={styles.blueBullet} onClick={advTwoPages} />
-              <div className={styles.blueBullet} onClick={advThreePages} />
+              {/* <div className={styles.blueBullet} onClick={advThreePages} /> */}
           </div>
         </div>
       )
@@ -1267,7 +1413,7 @@ function renderNews() {
               <div className={styles.blueBullet} onClick={backOnePage} />
               <div className={styles.blackBullet}  />
               <div className={styles.blueBullet} onClick={advOnePage}/>
-              <div className={styles.blueBullet} onClick={advTwoPages} />
+              {/* <div className={styles.blueBullet} onClick={advTwoPages} /> */}
           </div>
         </div>
       )
@@ -1285,29 +1431,30 @@ function renderNews() {
               <div className={styles.blueBullet} onClick={backTwoPages} />
               <div className={styles.blueBullet} onClick={backOnePage} />
               <div className={styles.blackBullet}  />
-              <div className={styles.blueBullet} onClick={advOnePage} />
+              {/* <div className={styles.blueBullet} onClick={advOnePage} /> */}
           </div>
         </div>
       )
-    } if (newsPage == 3){
-      return (
-        <div className={styles.news}>
-          <div className={styles.vidmobPicture} />
-            <div className={styles.vidmobTag}>
-              <div className={styles.vidmobTagText}>POINT MEDIA in VidMob!</div>
-              <div className={styles.vidmobTagLine} />
-            </div>
-            <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />The union that's already a success! We're now partners with Vidmob.</div>
-            <div className={styles.vidmobNewsText}>We've taken responsability of some of VidMob's most important campaigns and digital productions. We're ready for the challenges ahead in this journey.</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backThreePages} />
-              <div className={styles.blueBullet} onClick={backTwoPages} />
-              <div className={styles.blueBullet} onClick={backOnePage} />
-              <div className={styles.blackBullet} />
-          </div>
-        </div>
-      )
-    }
+    } 
+    // if (newsPage == 3){
+    //   return (
+    //     <div className={styles.news}>
+    //       <div className={styles.vidmobPicture} />
+    //         <div className={styles.vidmobTag}>
+    //           <div className={styles.vidmobTagText}>POINT MEDIA in VidMob!</div>
+    //           <div className={styles.vidmobTagLine} />
+    //         </div>
+    //         <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />The union that's already a success! We're now partners with Vidmob.</div>
+    //         <div className={styles.vidmobNewsText}>We've taken responsability of some of VidMob's most important campaigns and digital productions. We're ready for the challenges ahead in this journey.</div>
+    //       <div className={styles.ceaCarouselBullets}>
+    //         <div className={styles.blueBullet} onClick={backThreePages} />
+    //           <div className={styles.blueBullet} onClick={backTwoPages} />
+    //           <div className={styles.blueBullet} onClick={backOnePage} />
+    //           <div className={styles.blackBullet} />
+    //       </div>
+    //     </div>
+    //   )
+    // }
   } else {
    if (newsPage == 0){
     return (
@@ -1323,7 +1470,7 @@ function renderNews() {
             <div className={styles.blackBullet} />
             <div className={styles.blueBullet} onClick={advOnePage} />
             <div className={styles.blueBullet} onClick={advTwoPages} />
-            <div className={styles.blueBullet} onClick={advThreePages} />
+            {/* <div className={styles.blueBullet} onClick={advThreePages} /> */}
         </div>
       </div>
     )
@@ -1341,7 +1488,7 @@ function renderNews() {
             <div className={styles.blueBullet} onClick={backOnePage} />
             <div className={styles.blackBullet}  />
             <div className={styles.blueBullet} onClick={advOnePage}/>
-            <div className={styles.blueBullet} onClick={advTwoPages} />
+            {/* <div className={styles.blueBullet} onClick={advTwoPages} /> */}
         </div>
       </div>
     )
@@ -1359,29 +1506,30 @@ function renderNews() {
             <div className={styles.blueBullet} onClick={backTwoPages} />
             <div className={styles.blueBullet} onClick={backOnePage} />
             <div className={styles.blackBullet}  />
-            <div className={styles.blueBullet} onClick={advOnePage} />
+            {/* <div className={styles.blueBullet} onClick={advOnePage} /> */}
         </div>
       </div>
     )
-  } if (newsPage == 3){
-    return (
-      <div className={styles.news}>
-        <div className={styles.vidmobPicture} />
-          <div className={styles.vidmobTag}>
-            <div className={styles.vidmobTagText}>POINT MEDIA na VidMob!</div>
-            <div className={styles.vidmobTagLine} />
-          </div>
-          <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! Agora somos parceiros da VidMob.</div>
-          <div className={styles.vidmobNewsText}>Assumimos o compromisso de atender a VidMob em algumas de suas principais campanhas e produções digitais. Estamos prontos para o desafio dessa jornada.</div>
-        <div className={styles.ceaCarouselBullets}>
-          <div className={styles.blueBullet} onClick={backThreePages} />
-            <div className={styles.blueBullet} onClick={backTwoPages} />
-            <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet} />
-        </div>
-      </div>
-    )
-  }
+  } 
+  // if (newsPage == 3){
+  //   return (
+  //     <div className={styles.news}>
+  //       <div className={styles.vidmobPicture} />
+  //         <div className={styles.vidmobTag}>
+  //           <div className={styles.vidmobTagText}>POINT MEDIA na VidMob!</div>
+  //           <div className={styles.vidmobTagLine} />
+  //         </div>
+  //         <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! Agora somos parceiros da VidMob.</div>
+  //         <div className={styles.vidmobNewsText}>Assumimos o compromisso de atender a VidMob em algumas de suas principais campanhas e produções digitais. Estamos prontos para o desafio dessa jornada.</div>
+  //       <div className={styles.ceaCarouselBullets}>
+  //         <div className={styles.blueBullet} onClick={backThreePages} />
+  //           <div className={styles.blueBullet} onClick={backTwoPages} />
+  //           <div className={styles.blueBullet} onClick={backOnePage} />
+  //           <div className={styles.blackBullet} />
+  //       </div>
+  //     </div>
+  //   )
+  // }
 }
 }
 
@@ -1477,38 +1625,6 @@ function parallaxAnimClient() {
         <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
         <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
         <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
-      </div>
-    )
-  } 
-}
-
-function parallaxAnimReanimate() {
-  if (size.width < 768){
-    return (
-      <div>
-        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 32}deg)`}}/>
-        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 768 && size.width < 1200){
-    return (
-      <div>
-        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 25}deg)`}}/>
-        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 1200 && size.width < 1600){
-    return (
-      <div>
-        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 30.7}deg)`}}/>
-        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 1600){
-    return (
-      <div>
-        <div className={styles.reanimateGuy} style={{transform: `translateY(${offsetY * -0.1}px) rotate(${offsetY / 28.1}deg)`}}/>
-        <div className={styles.reanimatePoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
       </div>
     )
   } 
@@ -2254,40 +2370,9 @@ function parallaxAnimContact() {
         </div>
       </div>
 
-      {defaultCase ?
-      <div id='cases' className={styles.cases}>
-        <div className={styles.casesTitle}>our cases_</div>
-        <div className={styles.case1Title}>AdOps Vivo</div>
-        <div className={styles.arrowRight} onClick={nextCase}/>
-        <div className={styles.case1Image} />
-        <div className={styles.case1Info}>
-          <div className={styles.case1Highlights}>
-            <div className={styles.case1Subtitle1}>Highlights</div>
-            <div className={styles.case1Text1}>• Start of operation in 2019 <br/><br/>• Ad Ops Management via Adserver CM Google <br/><br/>• Caretaker of Vivo's media taxonomy <br/><br/>• DCO operation management via Google Studio<br/><br/>• Digital production operation with automation <br/><br/>• Email mkt production operation with automation</div>
-          </div>
-          <div className={styles.case1Results}>
-            <div className={styles.case1Subtitle2}>Results</div>
-            <div className={styles.case1Text2}>• In 2022 we had Vivo's CM + DCO operation (we created processes with a 2h SLA) <br/><br/>• We have developed an automated Taxonomy System for agencies that work with Vivo <br/><br/>• Digital production: average of one week to deliver the banners Pack, we reduced it to hours <br/><br/>• Email mkt production: we finished the backlog of months in just 2 days <br/><br/>• We implemented a banner automation tool in Vivo's process</div>
-          </div>
-        </div> 
+      <div>
+        {renderCasesEN()}
       </div>
-      : 
-      <div id='cases' className={styles.cases}>
-        <div className={styles.casesTitle}>nossos cases_</div>
-        <div className={styles.case2Title}>AdOps Ambev</div>
-        <div className={styles.arrowLeft} onClick={prevCase}/>
-        <div className={styles.case2Image} />
-        <div className={styles.case2Info}>
-          <div className={styles.case2Highlights}>
-            <div className={styles.case2Subtitle1}>Highlights</div>
-            <div className={styles.case2Text1}>• Start of Global operation in 2020 <br/><br/>•  Global Ad Ops Management via Adserver Sizmek <br/><br/>•  Caretaking of the Global Media Taxonomy <br/><br/>• Management of campaign publications for local agencies in 70 countries <br/><br/>•  Digital production operation with automation <br/><br/>•  Email mkt production operation with automation</div>
-          </div>
-          <div className={styles.case2Results}>
-            <div className={styles.case2Subtitle2}>Results</div>
-            <div className={styles.case2Text2}>• Reduced campaign publication SLA from 1 week to 2 days <br/><br/>• We developed an automated Taxonomy System for the agencies <br/><br/>• Creation of a dashboard with operational indicators of the countries</div>
-          </div>
-        </div> 
-      </div> }
 
       <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>our customers_</div>
@@ -2299,36 +2384,35 @@ function parallaxAnimContact() {
       </div>
 
       <div id='reanimate' className={styles.reanimate}>
-        <div className={styles.reanimateArt}>
-          <div className={styles.reanimateGrid} />
-          {parallaxAnimReanimate()}
-        </div>
-        <div className={styles.reanimateTitle}>re.animate_</div>
-        <div className={styles.reanimateText1}>reanimate is an automated solution to provide scalability, assertiveness and a quick treadmill for adjustments. It has four modules:</div>
+        <div className={styles.reanimateLogo}/>
+        <div className={styles.reanimateText1}>Re.animate is a POINT MEDIA Startup that we use in our production operation to deploy static banners, videos, html5 with motion and email marketing.</div>
+        <div className={styles.reanimateText2}>• Software with public deed;<br/><br/>• Code patented at the INPI;<br/><br/>• Platform validated by important operations and with high market potential;<br/><br/>• Global scale.</div>
         <div className={styles.reanimateCards}>
           <div className={styles.reanimateMM}>
             <div className={styles.reanimateMMlogo}/>
-            <div className={styles.reanimateMMtext}>It has never been this easy to create animated banners, from the KV (psd) you can animate the master pieces in HTML5 without the need to know CSS or Java Script.</div>
+            <div className={styles.reanimateMMtext}>It has never been so easy to create animated banners, from the KV (psd) you can animate the master pieces in HTML5 without needing to know CSS or Java Script code.</div>
           </div>
           <div className={styles.reanimateRA}>
             <div className={styles.reanimateRAlogo}/>
-            <div className={styles.reanimateRAtext}>The perfect format for your needs. Unfold the master piece, animated in the first module, to different formats and media specifications: Vertical, horizontal, square and mobile.</div>
+            <div className={styles.reanimateRAtext}>The perfect format for your needs. Unfold the master piece, animated by the first module, into different formats and media specifications: Vertical, horizontal, square and mobile.</div>
           </div>
           <div className={styles.reanimateDA}>
             <div className={styles.reanimateDAlogo}/>
-            <div className={styles.reanimateDAtext}>Having lots of products and offers to promote is no longer a headache. Create multiple variations of dynamic content.</div>
+            <div className={styles.reanimateDAtext}>Having many products and offers to promote is no longer a headache. If you have many formats to promote on social networks and displays, with this module you can create several variations of dynamic content in an animated template using your your KV.</div>
           </div>
           <div className={styles.reanimateAM}>
             <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Your operation is much more agile with a tool that allows the optimized production of email marketing in just a few clicks.</div>
+            <div className={styles.reanimateAMtext}>Your operation way more agile with a tool that allows the optimized production of e-mail marketing through the use of customized components and templates that embrace the creation.</div>
           </div>
-        </div>
-        <div className={styles.reanimateText2}>Four programs that make the banner production line flow. Within the production flow, from the Master piece (HTML5), we are able to replicate it in several formats, both animated and static, and we create several pieces following the media plan from a single one! <br/><br/> In other words, reanimate is the solution to the problems of agencies, advertisers and vehicles.
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Convert HTML banners to GIF or MP4 in just seconds. No need for unfolding or a motion designer specialized in After Effects.</div>
+          </div>
         </div>
         <button className={styles.reanimateButton} onClick={openReanimate}>get to know &gt;</button>
       </div>
 
-      <div id='careers' className={styles.careers}>
+      {/* <div id='careers' className={styles.careers}>
         <div className={styles.careersArt} />
         <div className={styles.careersTitle}>vagas_</div>
         <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atrás de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
@@ -2338,7 +2422,7 @@ function parallaxAnimContact() {
           <div className={styles.career3} onClick={anchorContact}>01 vaga para diretor de arte sênior</div><br/>
           <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
         </div>
-      </div>
+      </div> */}
 
       <div id='contact' className={styles.contact}>
         <div className={styles.contactArt}>
@@ -2910,40 +2994,10 @@ function parallaxAnimContact() {
         </div>
       </div>
 
-      {defaultCase ?
-      <div id='cases' className={styles.cases}>
-        <div className={styles.casesTitle}>nossos cases_</div>
-        <div className={styles.case1Title}>AdOps Vivo</div>
-        <div className={styles.arrowRight} onClick={nextCase}/>
-        <div className={styles.case1Image} />
-        <div className={styles.case1Info}>
-          <div className={styles.case1Highlights}>
-            <div className={styles.case1Subtitle1}>Highlights</div>
-            <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
-          </div>
-          <div className={styles.case1Results}>
-            <div className={styles.case1Subtitle2}>Resultados</div>
-            <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
-          </div>
-        </div> 
+      <div>
+        {renderCases()}
       </div>
-      : 
-      <div id='cases' className={styles.cases}>
-        <div className={styles.casesTitle}>nossos cases_</div>
-        <div className={styles.case2Title}>AdOps Ambev</div>
-        <div className={styles.arrowLeft} onClick={prevCase}/>
-        <div className={styles.case2Image} />
-        <div className={styles.case2Info}>
-          <div className={styles.case2Highlights}>
-            <div className={styles.case2Subtitle1}>Highlights</div>
-            <div className={styles.case2Text1}>• Inicio da operação Global em 2020 <br/><br/>•  Gestão Global de Ad Ops via Adserver Sizmek <br/><br/>•  Zeladoria da taxonomia de mídia Global <br/><br/>• Gestão das subidas das campanhas das agências locais em 70 paises <br/><br/>•  Operação de produção digital com automação <br/><br/>•  Operação de produção de email mkt com automação</div>
-          </div>
-          <div className={styles.case2Results}>
-            <div className={styles.case2Subtitle2}>Resultados</div>
-            <div className={styles.case2Text2}>• Redução de SLA de subida de campanha de 1 semana para dois dias <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências <br/><br/>• Criação de dashboard com indicadores operacionais dos países</div>
-          </div>
-        </div> 
-      </div> }
+     
 
       <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
@@ -2955,12 +3009,9 @@ function parallaxAnimContact() {
       </div>
 
       <div id='reanimate' className={styles.reanimate}>
-        <div className={styles.reanimateArt}>
-          <div className={styles.reanimateGrid} />
-          {parallaxAnimReanimate()}
-        </div>
-        <div className={styles.reanimateTitle}>re.animate_</div>
-        <div className={styles.reanimateText1}>O reanimate é uma solução automatizada para dar escalabilidade, assertividade e trazer uma esteira rápida de ajustes. Possuindo quatro módulos:</div>
+        <div className={styles.reanimateLogo}/>
+        <div className={styles.reanimateText1}>O Re.animate é uma Startup da POINT MEDIA e utilizamos em nossas operações de produção para desdobramento de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
+        <div className={styles.reanimateText2}>• Software com escritura pública;<br/><br/>• Código patenteado no INPI;<br/><br/>• Plataforma validada por importantes operações e com alto potencial de mercado;<br/><br/>• Escala global.</div>
         <div className={styles.reanimateCards}>
           <div className={styles.reanimateMM}>
             <div className={styles.reanimateMMlogo}/>
@@ -2972,17 +3023,18 @@ function parallaxAnimContact() {
           </div>
           <div className={styles.reanimateDA}>
             <div className={styles.reanimateDAlogo}/>
-            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Crie diversas variações de conteúdos dinâmicos.</div>
+            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Caso tenha muitos formatos para divulgar nas redes sociais e displays, com esse módulo você cria diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
           </div>
           <div className={styles.reanimateAM}>
             <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing em poucos cliques.</div>
+            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing através do uso de componentes e templates personalizados e que abraçam a criação.</div>
+          </div>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Conversor de banners HTMLs em GIF ou MP4 em apenas segundos. Sem necessidade de desdobramento ou de um motion designer especializado em After Effects.</div>
           </div>
         </div>
-        <div className={styles.reanimateText2}>Quatro programas que dão vazão na linha de produção de banners. Dentro do fluxo de produção, a partir da peça Master (HTML5), conseguimos replicar em diversos formatos, tanto animados quanto estáticos e criamos diversas peças seguindo o plano de mídia a partir de uma só!
-          <br/><br/>
-          Ou seja, reanimate é a solução dos problemas de agências, anunciantes e veículos. 
-        </div>
+        <div className={styles.reanimateBalls}/>
         <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
       </div>
 
