@@ -2127,7 +2127,7 @@
   width: 200px;
   height: 180px;
   position: absolute;
-  top: 9770px;
+  top: 9550px;
   left: 100px;
   z-index: 2;
 }
@@ -2137,7 +2137,7 @@
   width: 76px;
   height: 115px;
   position: absolute;
-  top: 9740px;
+  top: 9520px;
   left: 255px;
 }
 
@@ -2146,7 +2146,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9730px;
+  top: 9530px;
   left: 260px;
   animation: shine1 3s infinite linear;
 }
@@ -2162,7 +2162,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9910px;
+  top: 9700px;
   left: 50px;
   animation: shine2 3s infinite linear;
 }
@@ -2178,7 +2178,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 9880px;
+  top: 9680px;
   left: 320px;
   animation: shine3 3s infinite linear;
 }
@@ -2200,7 +2200,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10600px;
+  top: 10380px;
 }
 
 .clientArrowLeft {
@@ -3101,7 +3101,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14330px;
+  top: 14100px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -3111,7 +3111,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12400px;
+  top: 12200px;
   left: 180px;
   z-index: 9;
 }
