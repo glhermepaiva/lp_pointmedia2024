@@ -829,7 +829,7 @@
   width: 38px;
   height: 24px;
   position: absolute;
-  top: 2340px;
+  top: 2375px;
   left: 145px;
   /* animation: crown 5s infinite linear; */
 }
@@ -847,7 +847,7 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 2633px;
+  top: 2673px;
   left: 178px;
   transform: scale(0.5);
   animation: shine 3s infinite linear;
@@ -1154,7 +1154,7 @@
   width: 46px;
   height: 45px;
   position: absolute;
-  top: 4145px;
+  top: 4185px;
   left: 75px;
   transform: scale(0.8) rotate(-90deg);
   /* animation: diamond 8s linear infinite; */
@@ -1169,7 +1169,7 @@
   width: 72px;
   height: 56px;
   position: absolute;
-  top: 4135px;
+  top: 4175px;
   left: 220px;
 }
 
@@ -1340,7 +1340,7 @@
   width: 159px;
   height: 80px;
   position: absolute;
-  top: 5430px;
+  top: 5450px;
   left: 20px;
 }
 
@@ -2200,7 +2200,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10580px;
+  top: 10600px;
 }
 
 .clientArrowLeft {
@@ -3101,7 +3101,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14300px;
+  top: 14330px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -3111,7 +3111,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12355px;
+  top: 12400px;
   left: 180px;
   z-index: 9;
 }
@@ -7707,7 +7707,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10650px;
+  top: 10100px;
   left: 53px;
 }
 
@@ -10620,7 +10620,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10290px;
+  top: 10080px;
   left: 100px;
 }
 
@@ -11417,7 +11417,7 @@
   width: 289px;
   height: 56px;
   cursor: pointer;
-  margin: 80px 0 80px 10px;
+  margin: 50px 0 80px 10px;
 }
 
 .reanimateButton:hover {
@@ -13557,8 +13557,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9630px;
-  left: 72px;
+  top: 9420px;
+  left: 79px;
 }
 
 .client1 {
@@ -16506,7 +16506,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9950px;
+  top: 9850px;
   left: 88px;
 }
 

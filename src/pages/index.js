@@ -2409,6 +2409,7 @@ function parallaxAnimContact() {
             <div className={styles.reanimateTMtext}>Convert HTML banners to GIF or MP4 in just seconds. No need for unfolding or a motion designer specialized in After Effects.</div>
           </div>
         </div>
+        <div className={styles.reanimateBalls}/>
         <button className={styles.reanimateButton} onClick={openReanimate}>get to know &gt;</button>
       </div>
 
