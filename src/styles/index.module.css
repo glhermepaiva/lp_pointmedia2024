@@ -10343,6 +10343,7 @@
 .cases {
   margin-top: 2400px;
   padding-top: 50px;
+  height: 1500px;
 }
 
 .casesTitle {
@@ -10523,7 +10524,7 @@
   line-height: 62px;
   width: 500px;
   position: absolute;
-  top: 9200px;
+  top: 9280px;
   left: 110px;
 }
 
@@ -10536,7 +10537,7 @@
   width: 1057px;
   height: 353px;
   position: absolute;
-  top: 9300px;
+  top: 9380px;
   left: 0px;
 }
 
@@ -10545,7 +10546,7 @@
   width: 500px;
   height: 460px;
   position: absolute;
-  top: 9280px;
+  top: 9350px;
   left: -2350px;
 }
 
@@ -10554,7 +10555,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9300px;
+  top: 9380px;
   left: -4010px; 
 }
 
@@ -10563,7 +10564,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9700px;
+  top: 9780px;
   left: -1000px; 
 }
 
@@ -10572,7 +10573,7 @@
   width: 25px;
   height: 23px;
   position: absolute;
-  top: 9700px;
+  top: 9780px;
   left: -3500px; 
 }
 
@@ -10589,7 +10590,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10080px;
+  top: 10220px;
 }
 
 .clientArrowLeft {
@@ -10620,7 +10621,7 @@
   width: 85vw;
   justify-content: space-between;
   position: absolute;
-  top: 10080px;
+  top: 10220px;
   left: 100px;
 }
 
