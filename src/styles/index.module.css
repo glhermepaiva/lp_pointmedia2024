@@ -1970,14 +1970,14 @@
 .case1Subtitle1 {
   font-weight: bold;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 18px;
   margin: -30px 0 30px 0px;
 }
 
 .case1Text1 {
   font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 16px;
   width: 270px;
 }
 
@@ -1990,8 +1990,8 @@
 
 .case1Text2 {
   font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 16px;
   width: 280px;
   margin: 0 0 100px 0;
 }
@@ -3101,7 +3101,7 @@
   width: 202px;
   height: 183px;
   position: absolute;
-  top: 14140px;
+  top: 14150px;
   margin: 0 auto;
   z-index: 10;
 }
@@ -3111,7 +3111,7 @@
   width: 170px;
   height: 232px;
   position: absolute;
-  top: 12200px;
+  top: 12220px;
   left: 180px;
   z-index: 9;
 }
