@@ -7430,6 +7430,7 @@
 .cases {
   margin-top: 2400px;
   padding-top: 50px;
+  height: 1400px;
 }
 
 .casesTitle {
@@ -7676,7 +7677,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10100px;
+  top: 10130px;
 }
 
 .clientArrowLeft {
@@ -7707,7 +7708,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 10100px;
+  top: 10130px;
   left: 53px;
 }
 
@@ -8524,7 +8525,7 @@
   width: 272px;
   height: 247px;
   position: absolute;
-  top: 13100px;
+  top: 13130px;
   right: 200px;
 }
 
@@ -8533,7 +8534,7 @@
   width: 229px;
   height: 312px;
   position: absolute;
-  top: 11320px;
+  top: 11350px;
   left: 900px;
 }
 
@@ -11448,7 +11449,7 @@
   height: 312px;
   position: absolute;
   top: 11450px;
-  left: 1100px;
+  left: 1050px;
 }
 
 .contactTitle {
@@ -13281,6 +13282,7 @@
 .cases {
   margin-top: 1900px;
   padding-top: 80px;
+  height: 1500px;
 }
 
 .casesTitle {
@@ -13527,7 +13529,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9420px;
+  top: 9530px;
 }
 
 .clientArrowLeft {
@@ -13558,8 +13560,8 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9420px;
-  left: 79px;
+  top: 9530px;
+  left: 72px;
 }
 
 .client1 {
@@ -14375,7 +14377,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12200px;
+  top: 12350px;
   right: 280px;
 }
 
@@ -14384,8 +14386,8 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 10540px;
-  left: 1300px;
+  top: 10640px;
+  left: 1200px;
 }
 
 .contactTitle {
@@ -16230,6 +16232,7 @@
 .cases {
   margin-top: 1700px;
   padding-top: 0px;
+  height: 1400px;
 }
 
 .casesTitle {
@@ -16476,7 +16479,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9850px;
+  top: 9940px;
 }
 
 .clientArrowLeft {
@@ -16507,7 +16510,7 @@
   width: 90vw;
   justify-content: space-between;
   position: absolute;
-  top: 9850px;
+  top: 9940px;
   left: 88px;
 }
 
@@ -17324,7 +17327,7 @@
   width: 340px;
   height: 309px;
   position: absolute;
-  top: 12730px;
+  top: 12830px;
   right: 380px;
 }
 
@@ -17333,7 +17336,7 @@
   width: 285px;
   height: 389px;
   position: absolute;
-  top: 10970px;
+  top: 11050px;
   left: 1340px;
 }
 
