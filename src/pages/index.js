@@ -1199,7 +1199,7 @@ function renderCases() {
     return (
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>nossos cases_</div>
-          <div className={styles.case3Title}>AdOps Epson</div>
+          <div className={styles.case3Title}>Produção digital</div>
           <div className={styles.arrowRight} onClick={advToCase2}/>
           <div className={styles.case3Image} />
           <div className={styles.case3Info}>
@@ -1262,7 +1262,7 @@ function renderCasesEN() {
     return (
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>our cases_</div>
-          <div className={styles.case3Title}>AdOps Epson</div>
+          <div className={styles.case3Title}>Produção digital</div>
           <div className={styles.arrowRight} onClick={advToCase2}/>
           <div className={styles.case3Image} />
           <div className={styles.case3Info}>
