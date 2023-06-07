@@ -1263,8 +1263,7 @@ function renderCasesEN() {
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>our cases_</div>
         <div className={styles.case1Title}>AdOps Vivo</div>
-        <div className={styles.arrowLeft} onClick={backToCase1}/>
-        <div className={styles.arrowRight2} onClick={advToCase3}/>
+        <div className={styles.arrowRight2} onClick={advToCase2}/>
         <div className={styles.case1Image} />
         <div className={styles.case1Info}>
           <div className={styles.case1Highlights}>
@@ -1283,7 +1282,7 @@ function renderCasesEN() {
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>our cases_</div>
           <div className={styles.case2Title}>AdOps Ambev</div>
-          <div className={styles.arrowLeft} onClick={backToCase2}/>
+          <div className={styles.arrowLeft} onClick={backToCase1}/>
           <div className={styles.case2Image} />
           <div className={styles.case2Info}>
             <div className={styles.case2Highlights}>
