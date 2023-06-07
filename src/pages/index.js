@@ -1199,28 +1199,8 @@ function renderCases() {
     return (
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>nossos cases_</div>
-          <div className={styles.case3Title}>Produção digital</div>
-          <div className={styles.arrowRight} onClick={advToCase2}/>
-          <div className={styles.case3Image} />
-          <div className={styles.case3Info}>
-            <div className={styles.case3Highlights}>
-              <div className={styles.case3Subtitle1}>Highlights</div>
-              <div className={styles.case3Text1}>• Demanda com mais de 1.000 peças <br/><br/>• 4 SKUs diferentes x 12KVs diferentes x 2 idiomas (Português e Espanhol) <br/><br/>• Prazo de 5 dias úteis <br/><br/>• Operação de produção de banners <br/><br/>• Operação de produção de e-mail mkt</div>
-            </div>
-            <div className={styles.case3Results}>
-              <div className={styles.case3Subtitle2}>Resultados</div>
-              <div className={styles.case3Text2}>• Demanda entregue em menos de 9hrs <br/><br/>• Garantia de esteira de ajustes rápida e automatizada caso o cliente quisesse cumprir ofertas em tempo real <br/><br/>• Demanda 100% automatizada e templatizada, garantindo assertividade nas variáveis de ofertas e produtos <br/><br/>• Garantimos o GoLive da campanha sem atrasos e com tempo de espelhamento</div>
-            </div>
-          </div> 
-        </div>
-    )
-  } if (displayCase == 2){
-    return (
-      <div id='cases' className={styles.cases}>
-          <div className={styles.casesTitle}>nossos cases_</div>
           <div className={styles.case2Title}>AdOps Ambev</div>
-          <div className={styles.arrowLeft} onClick={backToCase1}/>
-          <div className={styles.arrowRight2} onClick={advToCase3}/>
+          <div className={styles.arrowRight2} onClick={advToCase2}/>
           <div className={styles.case2Image} />
           <div className={styles.case2Info}>
             <div className={styles.case2Highlights}>
@@ -1234,12 +1214,12 @@ function renderCases() {
           </div> 
         </div>
     )
-  } if (displayCase == 3){
+  } if (displayCase == 2){
     return (
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.case1Title}>AdOps Vivo</div>
-        <div className={styles.arrowLeft} onClick={backToCase2}/>
+        <div className={styles.arrowLeft} onClick={backToCase1}/>
         <div className={styles.case1Image} />
         <div className={styles.case1Info}>
           <div className={styles.case1Highlights}>
@@ -1253,31 +1233,32 @@ function renderCases() {
         </div> 
       </div>
     )
-  }
+  } 
+  // if (displayCase == 3){
+  //   return (
+  //     <div id='cases' className={styles.cases}>
+  //         <div className={styles.casesTitle}>nossos cases_</div>
+  //         <div className={styles.case3Title}>Produção digital</div>
+  //         <div className={styles.arrowRight} onClick={advToCase2}/>
+  //         <div className={styles.case3Image} />
+  //         <div className={styles.case3Info}>
+  //           <div className={styles.case3Highlights}>
+  //             <div className={styles.case3Subtitle1}>Highlights</div>
+  //             <div className={styles.case3Text1}>• Demanda com mais de 1.000 peças <br/><br/>• 4 SKUs diferentes x 12KVs diferentes x 2 idiomas (Português e Espanhol) <br/><br/>• Prazo de 5 dias úteis <br/><br/>• Operação de produção de banners <br/><br/>• Operação de produção de e-mail mkt</div>
+  //           </div>
+  //           <div className={styles.case3Results}>
+  //             <div className={styles.case3Subtitle2}>Resultados</div>
+  //             <div className={styles.case3Text2}>• Demanda entregue em menos de 9hrs <br/><br/>• Garantia de esteira de ajustes rápida e automatizada caso o cliente quisesse cumprir ofertas em tempo real <br/><br/>• Demanda 100% automatizada e templatizada, garantindo assertividade nas variáveis de ofertas e produtos <br/><br/>• Garantimos o GoLive da campanha sem atrasos e com tempo de espelhamento</div>
+  //           </div>
+  //         </div> 
+  //       </div>
+  //   )
+  // }
 }
 
 function renderCasesEN() {
 
   if (displayCase == 1){
-    return (
-      <div id='cases' className={styles.cases}>
-          <div className={styles.casesTitle}>our cases_</div>
-          <div className={styles.case3Title}>Produção digital</div>
-          <div className={styles.arrowRight} onClick={advToCase2}/>
-          <div className={styles.case3Image} />
-          <div className={styles.case3Info}>
-            <div className={styles.case3Highlights}>
-              <div className={styles.case3Subtitle1}>Highlights</div>
-              <div className={styles.case3Text1}>• Job with more than 1,000 pieces <br/><br/>• 4 different SKUs x 12 different KVs x 2 languages (Portuguese and Spanish) <br/><br/>• Deadline of 5 working days <br/><br/>• Banner production operation <br/><br/>• Email mkt production operation</div>
-            </div>
-            <div className={styles.case3Results}>
-              <div className={styles.case3Subtitle2}>Results</div>
-              <div className={styles.case3Text2}>• Job delivered in less than 9hrs <br/><br/>• Guaranteed fast and automated adjustments if the customer needed to fulfill offers in real time <br/><br/>• 100% automated and templatized demand, ensuring assertiveness in the offer and product variables<br/><br/>• We guaranteed the campaign's GoLive without delays and with mirroring time</div>
-            </div>
-          </div> 
-        </div>
-    )
-  } if (displayCase == 2){
     return (
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>our cases_</div>
@@ -1297,7 +1278,7 @@ function renderCasesEN() {
         </div> 
       </div>
     )
-  } if (displayCase == 3){
+  } if (displayCase == 2){
     return (
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>our cases_</div>
@@ -1316,7 +1297,27 @@ function renderCasesEN() {
           </div> 
         </div>
     )
-  }
+  } 
+  // if (displayCase == 3){
+  //   return (
+  //     <div id='cases' className={styles.cases}>
+  //         <div className={styles.casesTitle}>our cases_</div>
+  //         <div className={styles.case3Title}>Digital production</div>
+  //         <div className={styles.arrowRight} onClick={advToCase2}/>
+  //         <div className={styles.case3Image} />
+  //         <div className={styles.case3Info}>
+  //           <div className={styles.case3Highlights}>
+  //             <div className={styles.case3Subtitle1}>Highlights</div>
+  //             <div className={styles.case3Text1}>• Job with more than 1,000 pieces <br/><br/>• 4 different SKUs x 12 different KVs x 2 languages (Portuguese and Spanish) <br/><br/>• Deadline of 5 working days <br/><br/>• Banner production operation <br/><br/>• Email mkt production operation</div>
+  //           </div>
+  //           <div className={styles.case3Results}>
+  //             <div className={styles.case3Subtitle2}>Results</div>
+  //             <div className={styles.case3Text2}>• Job delivered in less than 9hrs <br/><br/>• Guaranteed fast and automated adjustments if the customer needed to fulfill offers in real time <br/><br/>• 100% automated and templatized demand, ensuring assertiveness in the offer and product variables<br/><br/>• We guaranteed the campaign's GoLive without delays and with mirroring time</div>
+  //           </div>
+  //         </div> 
+  //       </div>
+  //   )
+  // }
 }
 
 /***** NEWS CAROUSEL *****/
