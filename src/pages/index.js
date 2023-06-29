@@ -2469,7 +2469,7 @@ function parallaxAnimContact() {
         <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerLocation}>
           <div className={styles.pin} onClick={openMaps} />
-          <div className={styles.address}>Vila Madalena - São Paulo - SP - Brazil<br/>Phone: +55 11 3368-9006</div>
+          <div className={styles.address}>Vila Madalena - São Paulo - SP - Brazil</div>
         </div>
         <div className={styles.footerCopyright}>© pointmedia 2022</div>
       </div>
@@ -3095,7 +3095,7 @@ function parallaxAnimContact() {
         <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerLocation}>
           <div className={styles.pin} onClick={openMaps} />
-          <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>Telefone: (11) 3368-9006</div>
+          <div className={styles.address}>Vila Madalena - São Paulo - SP</div>
         </div>
         <div className={styles.footerCopyright}>© pointmedia 2022</div>
       </div>
