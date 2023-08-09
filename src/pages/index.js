@@ -1679,7 +1679,7 @@ function parallaxAnimContact() {
   }
 
   const openCompliance = () => {
-    window.open('https://pointmedia.s3.sa-east-1.amazonaws.com/compliance/COMPLIANCE_POINTMEDIA.pdf');
+    window.open('https://reanimate-modulos.s3.sa-east-1.amazonaws.com/compliance/COMPLIANCE_POINTMEDIA.pdf');
   }
 
 /***** ANCHOR LINKS  *****/
