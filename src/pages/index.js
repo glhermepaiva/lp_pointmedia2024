@@ -1202,6 +1202,7 @@ function renderCases() {
           <div className={styles.case2Title}>AdOps Ambev</div>
           <div className={styles.arrowRight2} onClick={advToCase2}/>
           <div className={styles.case2Image} />
+          <div className={styles.case2logo} />
           <div className={styles.case2Info}>
             <div className={styles.case2Highlights}>
               <div className={styles.case2Subtitle1}>Highlights</div>
@@ -1221,6 +1222,7 @@ function renderCases() {
         <div className={styles.case1Title}>AdOps Vivo</div>
         <div className={styles.arrowLeft} onClick={backToCase1}/>
         <div className={styles.case1Image} />
+        <div className={styles.case1logo} />
         <div className={styles.case1Info}>
           <div className={styles.case1Highlights}>
             <div className={styles.case1Subtitle1}>Highlights</div>
@@ -1234,26 +1236,6 @@ function renderCases() {
       </div>
     )
   } 
-  // if (displayCase == 3){
-  //   return (
-  //     <div id='cases' className={styles.cases}>
-  //         <div className={styles.casesTitle}>nossos cases_</div>
-  //         <div className={styles.case3Title}>Produção digital</div>
-  //         <div className={styles.arrowRight} onClick={advToCase2}/>
-  //         <div className={styles.case3Image} />
-  //         <div className={styles.case3Info}>
-  //           <div className={styles.case3Highlights}>
-  //             <div className={styles.case3Subtitle1}>Highlights</div>
-  //             <div className={styles.case3Text1}>• Demanda com mais de 1.000 peças <br/><br/>• 4 SKUs diferentes x 12KVs diferentes x 2 idiomas (Português e Espanhol) <br/><br/>• Prazo de 5 dias úteis <br/><br/>• Operação de produção de banners <br/><br/>• Operação de produção de e-mail mkt</div>
-  //           </div>
-  //           <div className={styles.case3Results}>
-  //             <div className={styles.case3Subtitle2}>Resultados</div>
-  //             <div className={styles.case3Text2}>• Demanda entregue em menos de 9hrs <br/><br/>• Garantia de esteira de ajustes rápida e automatizada caso o cliente quisesse cumprir ofertas em tempo real <br/><br/>• Demanda 100% automatizada e templatizada, garantindo assertividade nas variáveis de ofertas e produtos <br/><br/>• Garantimos o GoLive da campanha sem atrasos e com tempo de espelhamento</div>
-  //           </div>
-  //         </div> 
-  //       </div>
-  //   )
-  // }
 }
 
 function renderCasesEN() {
@@ -1297,26 +1279,6 @@ function renderCasesEN() {
         </div>
     )
   } 
-  // if (displayCase == 3){
-  //   return (
-  //     <div id='cases' className={styles.cases}>
-  //         <div className={styles.casesTitle}>our cases_</div>
-  //         <div className={styles.case3Title}>Digital production</div>
-  //         <div className={styles.arrowRight} onClick={advToCase2}/>
-  //         <div className={styles.case3Image} />
-  //         <div className={styles.case3Info}>
-  //           <div className={styles.case3Highlights}>
-  //             <div className={styles.case3Subtitle1}>Highlights</div>
-  //             <div className={styles.case3Text1}>• Job with more than 1,000 pieces <br/><br/>• 4 different SKUs x 12 different KVs x 2 languages (Portuguese and Spanish) <br/><br/>• Deadline of 5 working days <br/><br/>• Banner production operation <br/><br/>• Email mkt production operation</div>
-  //           </div>
-  //           <div className={styles.case3Results}>
-  //             <div className={styles.case3Subtitle2}>Results</div>
-  //             <div className={styles.case3Text2}>• Job delivered in less than 9hrs <br/><br/>• Guaranteed fast and automated adjustments if the customer needed to fulfill offers in real time <br/><br/>• 100% automated and templatized demand, ensuring assertiveness in the offer and product variables<br/><br/>• We guaranteed the campaign's GoLive without delays and with mirroring time</div>
-  //           </div>
-  //         </div> 
-  //       </div>
-  //   )
-  // }
 }
 
 /***** NEWS CAROUSEL *****/
@@ -1360,42 +1322,24 @@ const backFourPages = () => {
 }
 
 function renderNews() {
-  // if (newsPage == 0){
-  //   return (
-  //     <div className={styles.news}>
-  //       <div className={styles.tiktokPicture} />
-  //         <div className={styles.tiktokTag}>
-  //           <div className={styles.tiktokTagText}>TIKTOK AGORA É POINT MEDIA!</div>
-  //           <div className={styles.tiktokTagLine} />
-  //         </div>
-  //         <div className={styles.tiktokNewsTitle}> <div className={styles.ceaNewsBullet} />Preparem a dancinha, pois a Point Media agora é TikToker!</div>
-  //         <div className={styles.tiktokNewsText}>Entramos com o nosso time de veiculação e operação de AdOps para colaborar com o TikTok na América Latina!</div>
-  //         <div className={styles.ceaCarouselBullets}>
-  //           <div className={styles.blackBullet} />
-  //           <div className={styles.blueBullet} onClick={advOnePage} />
-  //           <div className={styles.blueBullet} onClick={advTwoPages} />
-  //           <div className={styles.blueBullet} onClick={advThreePages} />
-  //           <div className={styles.blueBullet} onClick={advFourPages} />
-  //       </div>
-  //     </div>
-  //   )
   if (englishActive == true) {
 
     if (newsPage == 0){
       return (
         <div className={styles.news}>
           <div className={styles.havaianasPicture} />
-          <div className={styles.havaianasTag}>
-            <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
-            <div className={styles.havaianasTagLine} />
-          </div>
-          <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />We started a new phase in our partnership with Havaianas!</div>
-          <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
-            <div className={styles.ceaCarouselBullets}>
-              <div className={styles.blackBullet} />
-              <div className={styles.blueBullet} onClick={advOnePage} />
-              <div className={styles.blueBullet} onClick={advTwoPages} />
-              {/* <div className={styles.blueBullet} onClick={advThreePages} /> */}
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.havaianasTag}>
+              <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
+              <div className={styles.havaianasTagLine} />
+            </div>
+            <div className={styles.havaianasNewsTitle}>We started a new phase in our partnership with Havaianas!</div>
+            <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
+              <div className={styles.carouselBullets}>
+                <div className={styles.blackBullet} />
+                <div className={styles.blueBullet} onClick={advOnePage} />
+                <div className={styles.blueBullet} onClick={advTwoPages} />
+              </div>
           </div>
         </div>
       )
@@ -1403,17 +1347,18 @@ function renderNews() {
       return (
         <div className={styles.news}>
           <div className={styles.veloePicture} />
+          <div className={styles.newsTextsContainer}>
             <div className={styles.veloeTag}>
               <div className={styles.veloeTagText}>VELOE IS POINT MEDIA!</div>
               <div className={styles.veloeTagLine} />
             </div>
-            <div className={styles.veloeNewsTitle}> <div className={styles.ceaNewsBullet} />Veloe has parked at Point Media and is our new client!</div>
+            <div className={styles.veloeNewsTitle}>Veloe has parked at Point Media and is our new client!</div>
             <div className={styles.veloeNewsText}>The responsabilities of developing the whole production and operation of Veloe's digital campaigns are ours now. Let's go together!</div>
-            <div className={styles.ceaCarouselBullets}>
+            <div className={styles.carouselBullets}>
               <div className={styles.blueBullet} onClick={backOnePage} />
               <div className={styles.blackBullet}  />
               <div className={styles.blueBullet} onClick={advOnePage}/>
-              {/* <div className={styles.blueBullet} onClick={advTwoPages} /> */}
+            </div>
           </div>
         </div>
       )
@@ -1421,56 +1366,39 @@ function renderNews() {
       return (
         <div className={styles.news}>
           <div className={styles.ceaPicture} />
-            <div className={styles.ceaTag}>
+          <div className={styles.newsTextsContainer}>
+          <div className={styles.ceaTag}>
               <div className={styles.ceaTagText}>C&#38;A is POINT MEDIA!</div>
               <div className={styles.ceaTagLine} />
             </div>
-            <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> C&#38;A is the newest customer to join POINT MEDIA's team</div>
+            <div className={styles.ceaNewsTitle}>C&#38;A is the newest customer to join POINT MEDIA's team</div>
             <div className={styles.ceaNewsText}>Our team took over the digital communications and CRM operations and is already ahead in the production of main campaigns for the giant retailer!</div>
-            <div className={styles.ceaCarouselBullets}>
+            <div className={styles.carouselBullets}>
               <div className={styles.blueBullet} onClick={backTwoPages} />
               <div className={styles.blueBullet} onClick={backOnePage} />
               <div className={styles.blackBullet}  />
-              {/* <div className={styles.blueBullet} onClick={advOnePage} /> */}
+            </div>
           </div>
         </div>
       )
     } 
-    // if (newsPage == 3){
-    //   return (
-    //     <div className={styles.news}>
-    //       <div className={styles.vidmobPicture} />
-    //         <div className={styles.vidmobTag}>
-    //           <div className={styles.vidmobTagText}>POINT MEDIA in VidMob!</div>
-    //           <div className={styles.vidmobTagLine} />
-    //         </div>
-    //         <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />The union that's already a success! We're now partners with Vidmob.</div>
-    //         <div className={styles.vidmobNewsText}>We've taken responsability of some of VidMob's most important campaigns and digital productions. We're ready for the challenges ahead in this journey.</div>
-    //       <div className={styles.ceaCarouselBullets}>
-    //         <div className={styles.blueBullet} onClick={backThreePages} />
-    //           <div className={styles.blueBullet} onClick={backTwoPages} />
-    //           <div className={styles.blueBullet} onClick={backOnePage} />
-    //           <div className={styles.blackBullet} />
-    //       </div>
-    //     </div>
-    //   )
-    // }
   } else {
    if (newsPage == 0){
     return (
       <div className={styles.news}>
         <div className={styles.havaianasPicture} />
-        <div className={styles.havaianasTag}>
-          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
-          <div className={styles.havaianasTagLine} />
-        </div>
-        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blackBullet} />
-            <div className={styles.blueBullet} onClick={advOnePage} />
-            <div className={styles.blueBullet} onClick={advTwoPages} />
-            {/* <div className={styles.blueBullet} onClick={advThreePages} /> */}
+        <div className={styles.newsTextsContainer}>
+          <div className={styles.havaianasTag}>
+            <div className={styles.havaianasTagText}>HAVAIANAS É POINT MEDIA!</div>
+            <div className={styles.havaianasTagLine} />
+          </div>
+          <div className={styles.havaianasNewsTitle}>Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
+          <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
+            <div className={styles.carouselBullets}>
+              <div className={styles.blackBullet} />
+              <div className={styles.blueBullet} onClick={advOnePage} />
+              <div className={styles.blueBullet} onClick={advTwoPages} />
+          </div>
         </div>
       </div>
     )
@@ -1478,17 +1406,18 @@ function renderNews() {
     return (
       <div className={styles.news}>
         <div className={styles.veloePicture} />
+        <div className={styles.newsTextsContainer}>
           <div className={styles.veloeTag}>
-            <div className={styles.veloeTagText}>VELOE É POINT MEDIA!</div>
-            <div className={styles.veloeTagLine} />
+              <div className={styles.veloeTagText}>VELOE É POINT MEDIA!</div>
+              <div className={styles.veloeTagLine} />
+            </div>
+            <div className={styles.veloeNewsTitle}>A Veloe estacionou na Point Media e é a nossa nova cliente!<br/><br/></div>
+            <div className={styles.veloeNewsText}>A responsabilidade de desenvolver toda a produção e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!<br/><br/></div>
+            <div className={styles.carouselBullets}>
+              <div className={styles.blueBullet} onClick={backOnePage} />
+              <div className={styles.blackBullet}  />
+              <div className={styles.blueBullet} onClick={advOnePage}/>
           </div>
-          <div className={styles.veloeNewsTitle}> <div className={styles.ceaNewsBullet} />A Veloe estacionou na Point Media e é a nossa nova cliente!</div>
-          <div className={styles.veloeNewsText}>A responsabilidade de desenvolver toda a produção e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet}  />
-            <div className={styles.blueBullet} onClick={advOnePage}/>
-            {/* <div className={styles.blueBullet} onClick={advTwoPages} /> */}
         </div>
       </div>
     )
@@ -1496,167 +1425,30 @@ function renderNews() {
     return (
       <div className={styles.news}>
         <div className={styles.ceaPicture} />
+        <div className={styles.newsTextsContainer}>
           <div className={styles.ceaTag}>
-            <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
-            <div className={styles.ceaTagLine} />
+              <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
+              <div className={styles.ceaTagLine} />
+            </div>
+            <div className={styles.ceaNewsTitle}>A C&#38;A é a mais nova cliente a fazer parte do time POINT MEDIA<br/><br/></div>
+            <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
+            <div className={styles.carouselBullets}>
+              <div className={styles.blueBullet} onClick={backTwoPages} />
+              <div className={styles.blueBullet} onClick={backOnePage} />
+              <div className={styles.blackBullet}  />
           </div>
-          <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
-          <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
-          <div className={styles.ceaCarouselBullets}>
-            <div className={styles.blueBullet} onClick={backTwoPages} />
-            <div className={styles.blueBullet} onClick={backOnePage} />
-            <div className={styles.blackBullet}  />
-            {/* <div className={styles.blueBullet} onClick={advOnePage} /> */}
         </div>
       </div>
     )
   } 
-  // if (newsPage == 3){
-  //   return (
-  //     <div className={styles.news}>
-  //       <div className={styles.vidmobPicture} />
-  //         <div className={styles.vidmobTag}>
-  //           <div className={styles.vidmobTagText}>POINT MEDIA na VidMob!</div>
-  //           <div className={styles.vidmobTagLine} />
-  //         </div>
-  //         <div className={styles.vidmobNewsTitle}> <div className={styles.ceaNewsBullet} />A união que já deu certo! Agora somos parceiros da VidMob.</div>
-  //         <div className={styles.vidmobNewsText}>Assumimos o compromisso de atender a VidMob em algumas de suas principais campanhas e produções digitais. Estamos prontos para o desafio dessa jornada.</div>
-  //       <div className={styles.ceaCarouselBullets}>
-  //         <div className={styles.blueBullet} onClick={backThreePages} />
-  //           <div className={styles.blueBullet} onClick={backTwoPages} />
-  //           <div className={styles.blueBullet} onClick={backOnePage} />
-  //           <div className={styles.blackBullet} />
-  //       </div>
-  //     </div>
-  //   )
-  // }
 }
 }
-
-/***** PARALLAX ANIMATIONS *****/
-  
-function parallaxAnimTeam() {
-  if (size.width < 768){
-    return (
-      <div className={styles.teamArt} >
-        <div className={styles.teamGirl} />
-        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) `}}  />
-        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) `}} />
-      </div>
-    )
-  } if (size.width >= 768 && size.width < 1200){
-    return (
-      <div className={styles.teamArt} >
-        <div className={styles.teamGirl} />
-        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) scale(1.2)`}}  />
-        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.4)`}} />
-      </div>
-    )
-  } if (size.width >= 1200){
-    return (
-      <div className={styles.teamArt} >
-        <div className={styles.teamGirl} />
-        <div className={styles.teamCrown} style={{transform: `translateY(${offsetY * 0.1}px) scale(1.2)`}}  />
-        <div className={styles.teamShine} style={{transform: `translateX(${offsetY * 0.0}px) rotate(${offsetY / 2}deg) scale(1.4)`}} />
-      </div>
-    )
-  } 
-}
-
-function parallaxAnimAlien() {
-  if (size.width < 768){
-    return (
-      <div className={styles.wwdAlien} >
-          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
-          <div className={styles.alien}/>
-          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
-          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 11.2}deg)`}}/>
-      </div>
-    )
-  } if (size.width >= 768 && size.width < 1200){
-    return (
-      <div className={styles.wwdAlien} >
-          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -3.8}deg) scale(1.2)`}} />
-          <div className={styles.alien}/>
-          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
-          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 90}deg)`}}/>
-      </div>
-    )
-  } if (size.width >= 1200){
-    return (
-      <div className={styles.wwdAlien} >
-          <div className={styles.alienDiamond} style={{transform: `rotate(${offsetY / -5.3}deg) scale(1.2)`}} />
-          <div className={styles.alien}/>
-          <div className={styles.alienEye} style={{transform: `translateX(${offsetY * 0.03}px)`}}/>
-          <div className={styles.alienLeg} style={{transform: `translateY(${offsetY * 0.01}px) translateX(${offsetY * -0.01}px) rotate(${offsetY / 180}deg)`}}/>
-      </div>
-    )
-  } 
-}
-
-function parallaxAnimClient() {
-  if (size.width < 768){
-    return (
-      <div>
-        <div className={styles.clientGuy} />
-        {/* style={{transform: `translateX(${offsetY * 0.03}px)`}} */}
-        <div className={styles.clientGuyArm} style={{transform: `rotate(${offsetY / 25}deg)`}} />
-        <div className={styles.clientShine1} />
-        {/* style={{transform: `translateX(${offsetY * 0.5}px)`}} */}
-        <div className={styles.clientShine2} />
-        {/* style={{transform: `translateX(${offsetY * 0.2}px)`}} */}
-        <div className={styles.clientShine3} />
-        {/* style={{transform: `translateX(${offsetY * 0.4}px)`}} */}
-      </div>
-    )
-  } if (size.width >= 768 && size.width < 1200){
-    return (
-      <div>
-        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px) scaleX(-1)`}}/>
-        <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
-        <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
-        <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 1200){
-    return (
-      <div>
-        <div className={styles.clientGuy} style={{transform: `translateX(${offsetY * 0.3}px) scaleX(-1)`}}/>
-        <div className={styles.clientShine1} style={{transform: `translateX(${offsetY * 0.5}px)`}}/>
-        <div className={styles.clientShine2} style={{transform: `translateX(${offsetY * 0.2}px)`}}/>
-        <div className={styles.clientShine3} style={{transform: `translateX(${offsetY * 0.4}px)`}}/>
-      </div>
-    )
-  } 
-}
-
-function parallaxAnimContact() {
-  if (size.width < 768){
-    return (
-      <div>
-        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
-        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 768 && size.width < 1200){
-    return (
-      <div>
-        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
-        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } if (size.width >= 1200){
-    return (
-      <div>
-        <div className={styles.contactLetter} style={{transform: `translateY(${offsetY * -0.1}px)`}}/>
-        <div className={styles.contactPoint} style={{transform: `translateY(${offsetY * 0.05}px)`}}/>
-      </div>
-    )
-  } 
-}
-
 
 /***** EXTERNAL LINKS  *****/
+
+  const openWhatsapp = () => {
+    window.open('https://web.whatsapp.com/send?phone=5599111112222');
+  }
 
   const openInstagram = () => {
     window.open('https://www.instagram.com/pointmediaoficial/');
@@ -1672,10 +1464,6 @@ function parallaxAnimContact() {
 
   const openReanimate = () => {
     window.open('https://reanimate.pointmedia.com.br/');
-  }
-
-  const openMaps = () => {
-    window.open('https://goo.gl/maps/m1zxnHaACgxrymi66/');
   }
 
   const openCompliance = () => {
@@ -1722,11 +1510,6 @@ function parallaxAnimContact() {
   const anchorClients = () => {
     setMenuOpen(false)
     window.location.replace("/#clients")
-  }
-
-  const anchorCareers = () => {
-    setMenuOpen(false)
-    window.location.replace("/#careers")
   }
 
   const anchorReanimate = () => {
@@ -1844,8 +1627,10 @@ function parallaxAnimContact() {
       </Head>
       
       <div id='header' className={styles.header}>
-        <div className={styles.langFlagToBR} onClick={changeBR} />
-        <div className={styles.langFlagToEN} onClick={changeEN} />
+        {/* <div>
+          <div className={styles.langFlagToBR} onClick={changeBR} />
+          <div className={styles.langFlagToEN} onClick={changeEN} />
+        </div> */}
         <div className={styles.logoPoint} />
         <div className={styles.hamburger} onClick={openMenu}/>
       </div>
@@ -1863,7 +1648,6 @@ function parallaxAnimContact() {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>what we already did</div>
           <div className={styles.anchorCases} onClick={anchorCases}>our cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>our customers</div>
-          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contact us</div>
         </div>
@@ -1878,34 +1662,6 @@ function parallaxAnimContact() {
       <div>
         {renderNews()}
       </div>
-
-      {/* {defaultNews ? <div className={styles.news}>
-        <div className={styles.ceaPicture} />
-        <div className={styles.ceaTag}>
-          <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
-          <div className={styles.ceaTagLine} />
-        </div>
-        <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
-        <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
-        <div className={styles.ceaCarouselBullets}>
-          <div className={styles.blackBullet} />
-          <div className={styles.blueBullet} onClick={nextNews} />
-        </div>
-      </div>
-      :
-      <div className={styles.news}>
-        <div className={styles.havaianasPicture} />
-        <div className={styles.havaianasTag}>
-          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
-          <div className={styles.havaianasTagLine} />
-        </div>
-        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
-        <div className={styles.havaianasCarouselBullets}>
-          <div className={styles.blueBullet} onClick={prevNews}/>
-          <div className={styles.blackBullet} />
-        </div>
-      </div> } */}
 
       <div id='about' className={styles.about}>
         <div className={styles.aboutPoint}>POINT_</div>
@@ -1939,9 +1695,7 @@ function parallaxAnimContact() {
       </div>
 
       <div className={styles.team}>
-        <div className={styles.teamArt}>
-        {parallaxAnimTeam()}
-        </div>
+        <div className={styles.teamArt}></div>
         <div id='team' className={styles.teamTitle}>our team_</div>
         <div className={styles.teamText}>We gathered a team of digital market beasts with extensive experience and passages through large digital companies.</div>
         <div className={styles.teamPictures}>
@@ -1960,11 +1714,6 @@ function parallaxAnimContact() {
             <div className={styles.MarianaName}>Mariana</div>
             <div className={styles.MarianaJob}>Head of Operations</div>
           </div>
-          {/* <div className={styles.Gabriela}>
-            <div className={styles.GabrielaPicture} />
-            <div className={styles.GabrielaName}>Gabriela</div>
-            <div className={styles.GabrielaJob}>Head de Atendimento de Mídia</div>
-          </div> */}
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
             <div className={styles.LouroName}>Leonardo</div>
@@ -1985,18 +1734,11 @@ function parallaxAnimContact() {
             <div className={styles.DanielleName}>Danielle</div>
             <div className={styles.DanielleJob}>Head of Financial</div>
           </div>
-          {/* <div className={styles.MarcellaRh}>
-            <div className={styles.MarcellaRhPicture} />
-            <div className={styles.MarcellaRhName}>Marcella</div>
-            <div className={styles.MarcellaRhJob}>Head de RH</div>
-          </div> */}
         </div>
       </div>
       
       <div id='wwd' className={styles.wwd}>
-        <div className={styles.wwdAlien}>
-          {parallaxAnimAlien()}
-        </div>
+        <div className={styles.wwdAlien}></div>
         <div className={styles.wwdTitle}>what we do_</div>
         <div className={styles.wwdSubtitle}>We go from creation to automation projects for media and production. </div>
         <div className={styles.wwdWorks}>
@@ -2377,9 +2119,7 @@ function parallaxAnimContact() {
       <div id='clients' className={styles.clients}>
         <div className={styles.clientsTitle}>our customers_</div>
         <div className={styles.clientsArt}>
-          <div className={styles.clientBG} />
-          {parallaxAnimClient()}
-        </div>
+          <div className={styles.clientBG} /></div>
         {renderObjectSize()}
       </div>
 
@@ -2413,22 +2153,8 @@ function parallaxAnimContact() {
         <button className={styles.reanimateButton} onClick={openReanimate}>get to know &gt;</button>
       </div>
 
-      {/* <div id='careers' className={styles.careers}>
-        <div className={styles.careersArt} />
-        <div className={styles.careersTitle}>vagas_</div>
-        <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atrás de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
-        <div className={styles.careersOpenings}>
-          <div className={styles.career1} onClick={anchorContact}>02 vagas para analista de mídia sênior</div><br/>
-          <div className={styles.career2} onClick={anchorContact}>02 vagas para motion designer pleno</div><br/>
-          <div className={styles.career3} onClick={anchorContact}>01 vaga para diretor de arte sênior</div><br/>
-          <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
-        </div>
-      </div> */}
-
       <div id='contact' className={styles.contact}>
-        <div className={styles.contactArt}>
-          {parallaxAnimContact()}
-        </div>
+        <div className={styles.contactArt}></div>
         <div className={styles.contactTitle}>contact us_</div>
         <div className={styles.contactText}>Bring your brand to a team of talents that grows with each new project.</div>
         {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
@@ -2456,19 +2182,18 @@ function parallaxAnimContact() {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>what we already did</div>
           <div className={styles.anchorCases} onClick={anchorCases}>our cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>our customers</div>
-          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contact us</div>
         </div>
         <div className={styles.footerLogo} onClick={anchorHeader} />
         <div className={styles.footerSocials}>
+          <div className={styles.whatsapp} onClick={openWhatsapp}></div>
           <div className={styles.instagram} onClick={openInstagram}></div>
           <div className={styles.linkedin} onClick={openLinkedin}></div>
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
         <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerLocation}>
-          <div className={styles.pin} onClick={openMaps} />
           <div className={styles.address}>Vila Madalena - São Paulo - SP - Brazil</div>
         </div>
         <div className={styles.footerCopyright}>© pointmedia 2022</div>
@@ -2488,11 +2213,11 @@ function parallaxAnimContact() {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
-          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
         </div>
         <div className={styles.menuSocials}>
+          <div className={styles.whatsapp} onClick={openWhatsapp} />
           <div className={styles.instagram} onClick={openInstagram}/>
           <div className={styles.linkedin} onClick={openLinkedin}/>
           <div className={styles.facebook} onClick={openFacebook}/>
@@ -2503,72 +2228,47 @@ function parallaxAnimContact() {
       <div>
         {renderNews()}
       </div>
-
-      {/* {defaultNews ? <div className={styles.news}>
-        <div className={styles.ceaPicture} />
-        <div className={styles.ceaTag}>
-          <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
-          <div className={styles.ceaTagLine} />
-        </div>
-        <div className={styles.ceaNewsTitle}> <div className={styles.ceaNewsBullet} /> A C&#38;A é a mais nova cliente a fazer <br/>parte do time <br/>POINT MEDIA</div>
-        <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
-        <div className={styles.ceaCarouselBullets}>
-          <div className={styles.blackBullet} />
-          <div className={styles.blueBullet} onClick={nextNews} />
-        </div>
-      </div>
-      :
-      <div className={styles.news}>
-        <div className={styles.havaianasPicture} />
-        <div className={styles.havaianasTag}>
-          <div className={styles.havaianasTagText}>Havaianas é POINT MEDIA!</div>
-          <div className={styles.havaianasTagLine} />
-        </div>
-        <div className={styles.havaianasNewsTitle}> <div className={styles.havaianasNewsBullet} />Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-        <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
-        <div className={styles.havaianasCarouselBullets}>
-          <div className={styles.blueBullet} onClick={prevNews}/>
-          <div className={styles.blackBullet} />
-        </div>
-      </div> } */}
       
       <div id='about' className={styles.about}>
         <div className={styles.aboutPoint}>a POINT_</div>
-        <div className={styles.aboutTitle}>Somos inspiração, criatividade e muito movimento. A gente não para nunca e motion é o que realmente nos move.</div>
-        <div className={styles.aboutImage}>
-          <div className={styles.astronautPoint} />
-          <div className={styles.astronautGuy} />
-          <div className={styles.astronautBlack} />
-          <div className={styles.astronautPink} />
-          <div className={styles.astronautBlue} />
+        <div className={styles.aboutTitle}>Onde a inspiração ganha vida e o movimento nunca para!</div>
+        <div className={styles.aboutImage} />
+        <div className={styles.aboutText}>
+          Somos uma equipe apaixonada por criatividade e movimento. Desde 2017, estamos imersos no universo dinâmico da mídia online, ad ops e ad server. Somos especialistas na produção de campanhas High Scale Media, que ganham vida através do motion design, sejam eles banners display HTML5 ou vídeos envolventes.<br/><br/>
+          Aqui na POINT_, somos movidos pela constante busca por inovação. Desenvolvemos projetos customizados utilizando tecnologias avançadas, como DCO, XML e Feeds, para criar experiências únicas e interativas. Queremos potencializar o engajamento dos usuários e impulsionar os resultados das campanhas digitais.<br/><br/>
+          Seja qual for o desafio, estamos prontos para torná-lo realidade. Nossa equipe está sempre em movimento, em busca das soluções mais criativas e eficientes. Junte-se a nós nessa jornada e descubra como a POINT_ pode transformar sua presença digital em algo verdadeiramente extraordinário.
         </div>
-        <div className={styles.aboutText}>Desde de 2017 seguimos o ritmo dinâmico da mídia online, ad ops e ad server, somos especialistas na produção em larga escala de assets digitais, usando motion design em banners display HTML5 e vídeos. <br/><br/>Desenvolvemos  projetos customizados com tecnologia de DCO, XML e Feeds, inserindo recursos  de interatividade para potencializar o engajamento dos usuários e os resultados das campanhas digitais.</div>
         <div className={styles.aboutLine} />
         <div className={styles.aboutOffice} />
         <div className={styles.blackBg}>
           <div className={styles.owners}>
             <div className={styles.aboutMychel}>
               <div className={styles.aboutMychelPicture} />
+              <div className={styles.aboutMychelBG} />
               <div className={styles.aboutMychelName}>Mychel Martins</div>
-              <div className={styles.aboutMychelJob}>Founder Partner</div>
+              <div className={styles.aboutMychelJob}>CEO</div>
             </div>
             <div className={styles.aboutThiago}>
               <div className={styles.aboutThiagoPicture} />
+              <div className={styles.aboutThiagoBG} />
               <div className={styles.aboutThiagoName}>Thiago Ianni</div>
-              <div className={styles.aboutThiagoJob}>Founder Partner</div>
+              <div className={styles.aboutThiagoJob}>CBO</div>
             </div>
           </div>
-          <div className={styles.aboutText2}>Criado por <b>Mychel Martins</b> e <b>Thiago Ianni</b>, a <b>POINT MEDIA</b> opera com um braço de tecnologia, contando com programadores fullstack, desenvolvendo integrações de soluções que facilitam  o acompanhamento das publicações de campanhas online em plataformas diversas.</div>
-          <div className={styles.aboutTitle2}>Isso faz com que o trabalho operacional seja mais rápido e minimize erro de mensuração.</div>
+          <div className={styles.ownersTexts}>
+            <div className={styles.aboutText2}>
+              Fundada por <b>Mychel Martins</b> e <b>Thiago Ianni</b> e com um time de programadores fullstack altamente talentosos, a POINT MEDIA une tecnologia e criatividade para criar integrações de soluções surpreendentes que simplificam o acompanhamento das suas campanhas online em diversas plataformas.<br/><br/>
+              Imagine ter o poder de agilizar o trabalho operacional e reduzir ao mínimo os erros de mensuração. Com a POINT MEDIA, essa visão se torna realidade. 
+            </div>
+            <div className={styles.aboutTitle2}>Com uma abordagem focada no futuro, nós estamos transformando o panorama da publicidade digital. Não importa qual seja a plataforma que você escolha para promover sua marca, estamos prontos para integrá-la ao nosso sistema e otimizar cada etapa do processo.</div>
+          </div>
         </div>
       </div>
 
       <div className={styles.team}>
-        <div className={styles.teamArt}>
-        {parallaxAnimTeam()}
-        </div>
+        <div className={styles.teamArt}></div>
         <div id='team' className={styles.teamTitle}>nosso time_</div>
-        <div className={styles.teamText}>Reunimos um time de feras do mercado digital com vasta experiência e passagens por grandes empresas digitais.</div>
+        <div className={styles.teamText}>Montamos um time excepcional de especialistas do mercado digital, com uma vasta experiência e um histórico impressionante em grandes empresas do setor.</div>
         <div className={styles.teamPictures}>
           <div className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
@@ -2585,11 +2285,6 @@ function parallaxAnimContact() {
             <div className={styles.MarianaName}>Mariana</div>
             <div className={styles.MarianaJob}>Head de Operações</div>
           </div>
-          {/* <div className={styles.Gabriela}>
-            <div className={styles.GabrielaPicture} />
-            <div className={styles.GabrielaName}>Gabriela</div>
-            <div className={styles.GabrielaJob}>Head de Atendimento de Mídia</div>
-          </div> */}
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
             <div className={styles.LouroName}>Leonardo</div>
@@ -2610,20 +2305,14 @@ function parallaxAnimContact() {
             <div className={styles.DanielleName}>Danielle</div>
             <div className={styles.DanielleJob}>Head do Financeiro</div>
           </div>
-          {/* <div className={styles.MarcellaRh}>
-            <div className={styles.MarcellaRhPicture} />
-            <div className={styles.MarcellaRhName}>Marcella</div>
-            <div className={styles.MarcellaRhJob}>Head de RH</div>
-          </div> */}
         </div>
       </div>
       
       <div id='wwd' className={styles.wwd}>
-        <div className={styles.wwdAlien}>
-          {parallaxAnimAlien()}
-        </div>
+        <div className={styles.pinkBalls}></div>
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
+        <div className={styles.wwdText}>Criamos Hubs de performance para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Utilizando a Mídia Programática, SEM, Social Media, Mobile e WebTV, trabalhamos em sinergia para impulsionar a performance das campanhas. Além disso, integramos nossa equipe de produção à operação de mídia, garantindo um fluxo unificado e eficiente. Com expertise em criação, desenvolvemos banners HTML5, vídeos e imagens estáticas que se adaptam perfeitamente às necessidades da campanha. Essa abordagem dinâmica proporciona um impulso significativo nas publicações das campanhas, maximizando seus resultados.</div>
         <div className={styles.wwdWorks}>
           <div className={styles.wwdWork1}>
             <div className={styles.wwd1image} />
@@ -2646,11 +2335,38 @@ function parallaxAnimContact() {
             <div className={styles.wwd5text}>Projetos de automação para mídia e produção.</div>
           </div>
         </div>
-        <div className={styles.wwdText}>Criamos Hubs de performance para agências e clientes diretos, onde operamos Mídia Programática, SEM, Social, Mobile, WebTV e podemos interligar a operação de mídia com a nossa equipe de produção, criando e desdobrando banners HTML5, vídeos e estáticos para que o processo operacional de mídia flua de forma unificada e ganhe dinâmica nas publicações das campanhas.</div>
+      </div>
+
+      <div id='reanimate' className={styles.reanimate}>
+        <div className={styles.reanimateLogo}/>
+        <div className={styles.reanimateText1}>O Re.animate é uma Startup da POINT MEDIA e utilizamos em nossas operações de produção para desdobramento de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
+        <div className={styles.reanimateText2}>• Software com escritura pública;<br/><br/>• Código patenteado no INPI;<br/><br/>• Plataforma validada por importantes operações e com alto potencial de mercado;<br/><br/>• Escala global.</div>
+        <div className={styles.reanimateCards}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Nunca foi tão fácil criar banners animados, a partir do KV (psd), você pode animar as peças master em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+          </div>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>O formato perfeito para sua necessidade.  Desdobre a peça master, animada pelo primeiro módulo, em diversos formatos e especificações de mídia: Vertical, horizontal, quadrado e mobile.</div>
+          </div>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Caso tenha muitos formatos para divulgar nas redes sociais e displays, com esse módulo você cria diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+          </div>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing através do uso de componentes e templates personalizados e que abraçam a criação.</div>
+          </div>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Conversor de banners HTMLs em GIF ou MP4 em apenas segundos. Sem necessidade de desdobramento ou de um motion designer especializado em After Effects.</div>
+          </div>
+        </div>
+        <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
       </div>
 
       <div id='hwd' className={styles.hwd}>
-        <div className={styles.hwdBalls} />
         <div className={styles.hwdTitle}>como a gente faz_</div>
         <div className={styles.hwdCircles}>
           <div className={styles.hwdcPinkText1}>
@@ -2699,16 +2415,16 @@ function parallaxAnimContact() {
               <div className={styles.cblueText2}>Pós-campanha</div>
             </div>
         </div>
-        <div className={styles.hwdWhiteBg}>
-          <div className={styles.hwdwBgLight}>
-            <div className={styles.hwdLightImage} />
-            <div className={styles.hwdLightText}>Agência</div>
-          </div>
-          <div className={styles.hwdwBgLogo} />
-          <div className={styles.hwdwBgMegaphone}>
-            <div className={styles.hwdMegaphoneImage} />
-            <div className={styles.hwdMegaphoneText}>Veículos</div>
-          </div>
+          <div className={styles.hwdWhiteBg}>
+            <div className={styles.hwdwBgLight}>
+              <div className={styles.hwdLightImage} />
+              <div className={styles.hwdLightText}>Agência</div>
+            </div>
+            <div className={styles.hwdwBgLogo} />
+            <div className={styles.hwdwBgMegaphone}>
+              <div className={styles.hwdMegaphoneImage} />
+              <div className={styles.hwdMegaphoneText}>Veículos</div>
+            </div>
         </div>
       </div>
 
@@ -2884,16 +2600,6 @@ function parallaxAnimContact() {
         </div> : null}
 
       <div id='prevworks' className={styles.previousWorks}>
-        <div className={styles.pwArt}>
-          <div className={styles.camera} />
-          <div className={styles.drip} />
-          <div className={styles.cloud} />
-          <div className={styles.cameraBalls}>
-            <div className={styles.blueBall} />
-            <div className={styles.redBall} />
-            <div className={styles.pinkBall} />
-          </div>
-        </div>
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwGallery}>
           <div className={styles.galleryContainer}>
@@ -2999,62 +2705,13 @@ function parallaxAnimContact() {
         {renderCases()}
       </div>
      
-
       <div id='clients' className={styles.clients}>
+        <div className={styles.blueBalls}></div>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
-        <div className={styles.clientsArt}>
-          <div className={styles.clientBG} />
-          {parallaxAnimClient()}
-        </div>
         {renderObjectSize()}
       </div>
 
-      <div id='reanimate' className={styles.reanimate}>
-        <div className={styles.reanimateLogo}/>
-        <div className={styles.reanimateText1}>O Re.animate é uma Startup da POINT MEDIA e utilizamos em nossas operações de produção para desdobramento de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
-        <div className={styles.reanimateText2}>• Software com escritura pública;<br/><br/>• Código patenteado no INPI;<br/><br/>• Plataforma validada por importantes operações e com alto potencial de mercado;<br/><br/>• Escala global.</div>
-        <div className={styles.reanimateCards}>
-          <div className={styles.reanimateMM}>
-            <div className={styles.reanimateMMlogo}/>
-            <div className={styles.reanimateMMtext}>Nunca foi tão fácil criar banners animados, a partir do KV (psd), você pode animar as peças master em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
-          </div>
-          <div className={styles.reanimateRA}>
-            <div className={styles.reanimateRAlogo}/>
-            <div className={styles.reanimateRAtext}>O formato perfeito para sua necessidade.  Desdobre a peça master, animada pelo primeiro módulo, em diversos formatos e especificações de mídia: Vertical, horizontal, quadrado e mobile.</div>
-          </div>
-          <div className={styles.reanimateDA}>
-            <div className={styles.reanimateDAlogo}/>
-            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Caso tenha muitos formatos para divulgar nas redes sociais e displays, com esse módulo você cria diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
-          </div>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing através do uso de componentes e templates personalizados e que abraçam a criação.</div>
-          </div>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Conversor de banners HTMLs em GIF ou MP4 em apenas segundos. Sem necessidade de desdobramento ou de um motion designer especializado em After Effects.</div>
-          </div>
-        </div>
-        <div className={styles.reanimateBalls}/>
-        <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
-      </div>
-
-      <div id='careers' className={styles.careers}>
-        <div className={styles.careersArt} />
-        <div className={styles.careersTitle}>vagas_</div>
-        <div className={styles.careersText}>Se você é uma pessoa inquieta, inovadora, gosta de desafios e está sempre atrás de novidades, então você tem muito do que buscamos para fazer parte do time de talentos da POINT.</div>
-        <div className={styles.careersOpenings}>
-          <div className={styles.career1} onClick={anchorContact}>02 vagas para analista de mídia sênior</div><br/>
-          <div className={styles.career2} onClick={anchorContact}>02 vagas para motion designer pleno</div><br/>
-          <div className={styles.career3} onClick={anchorContact}>01 vaga para diretor de arte sênior</div><br/>
-          <div className={styles.career4} onClick={anchorContact}>02 vagas para analista de mídia programática</div>
-        </div>
-      </div>
-
       <div id='contact' className={styles.contact}>
-        <div className={styles.contactArt}>
-          {parallaxAnimContact()}
-        </div>
         <div className={styles.contactTitle}>contato_</div>
         <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
         {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
@@ -3074,30 +2731,36 @@ function parallaxAnimContact() {
       </div>
 
       <div className={styles.footer}>
-        <div className={styles.footerLinks}>
-        <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
-          <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
-          <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
-          <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
-          <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
-          <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
-          <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
-          {/* <div className={styles.anchorCareers} onClick={anchorCareers}>vagas</div> */}
-          <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
-          <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
-        </div>
         <div className={styles.footerLogo} onClick={anchorHeader} />
+        <div className={styles.footerLinks}>
+          <div className={styles.footerLinksAbout}>
+            <div className={styles.footerAbout}>SOBRE</div>
+            <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
+            <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
+            <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
+            <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
+            <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
+          </div>
+          <div className={styles.footerLinksProducts}>
+            <div className={styles.footerProducts}>PRODUTOS <br/>& SERVIÇOS</div>
+            <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
+            <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
+            <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
+            <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
+          </div>
+        </div>
         <div className={styles.footerSocials}>
-          <div className={styles.instagram} onClick={openInstagram}></div>
+          <div className={styles.whatsapp} onClick={openWhatsapp}></div>
           <div className={styles.linkedin} onClick={openLinkedin}></div>
+          <div className={styles.instagram} onClick={openInstagram}></div>
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
-        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerLocation}>
-          <div className={styles.pin} onClick={openMaps} />
-          <div className={styles.address}>Vila Madalena - São Paulo - SP</div>
+          <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>
+          Telefone: (11) 3368-9006</div>
         </div>
-        <div className={styles.footerCopyright}>© pointmedia 2022</div>
+        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
+        <div className={styles.footerCopyright}>© pointmedia 2023</div>
       </div>
     </div>
   }
