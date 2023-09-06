@@ -2225,6 +2225,10 @@ function renderNews() {
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu} />}
 
+      <video className={styles.demoReelVideo} autoPlay muted loop>
+        <source src="/demoreel.mp4" type="video/mp4" />
+      </video>
+
       <div>
         {renderNews()}
       </div>
