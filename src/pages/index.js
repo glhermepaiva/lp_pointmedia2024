@@ -1615,6 +1615,20 @@ function renderNews() {
         setEnglishActive(true)
      }
 
+/***** Video Loader  ******/
+ 
+
+const [isLoading, setIsLoading] = useState(true);
+
+useEffect(()=> {
+  handleVideoLoad()
+},[isLoading])
+
+const handleVideoLoad = () => {
+  setTimeout(()=> {
+    setIsLoading(false);
+  }, 100)
+  };
 
   
 /***** RETURN *****/
@@ -2228,6 +2242,41 @@ function renderNews() {
       <video className={styles.demoReelVideo} autoPlay muted playsInline loop>
         <source src="/demoreel.mp4" type="video/mp4" />
       </video>
+
+      <div className='player-wrapper'
+        style={{  position: "relative",
+          paddingTop: isLoading ? "0%" : "56.25%",
+        }}
+        >
+          {isLoading ?
+          <div 
+          className={styles.loader}
+          style={{padding: "28.12% 0 "}}
+          >
+          <Image
+          className={styles.loaderIcon}
+          src={Loading}
+          width={250}
+          height={250}
+          alt="Loading"
+          />
+        </div>
+        : <video
+        className={styles.demoReelVideo}
+        style={{ display: isLoading ? 'none' : 'block' }}
+        autoPlay={true} 
+        loop={true}
+        controls={false} 
+        playsInline
+        muted 
+        onLoadedData={handleVideoLoad}
+      >
+       <source src="/demoreel.mp4" type="video/mp4" />
+     </video>
+      } 
+
+    
+      </div>
 
       <div>
         {renderNews()}
