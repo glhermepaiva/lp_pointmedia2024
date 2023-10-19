@@ -3029,8 +3029,9 @@ background-color: #d8598e;
     z-index: 3;
     width: 484px;
     right: 0px;
-    top: 2080px;
+    top: 1000px;
     padding: 10px 0 0 0;
+    display: none;
   }
 
   .ownersTexts {
