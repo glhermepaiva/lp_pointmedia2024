@@ -1616,6 +1616,19 @@ function renderNews() {
      }
 
 
+/***** VIDEO LOADER ******/
+ 
+const [isLoading, setIsLoading] = useState(true);
+
+useEffect(()=> {
+  handleVideoLoad()
+},[isLoading])
+
+const handleVideoLoad = () => {
+  setTimeout(()=> {
+    setIsLoading(false);
+  }, 100)
+  };
   
 /***** RETURN *****/
 
@@ -2225,9 +2238,19 @@ function renderNews() {
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu} />}
 
-      <video className={styles.demoReelVideo} autoPlay muted playsInline loop>
+      {/* <video className={styles.demoReelVideo} autoPlay muted playsInline loop>
         <source src="/demoreel.mp4" type="video/mp4" />
-      </video>
+      </video> */}
+
+      <div className={styles.headerVideoContainer}>
+        {isLoading ? 
+          <div className={styles.videoLoader}>Carregando</div>
+        :
+          <video className={styles.demoReelVideo} style={{ display: isLoading ? 'none' : 'block' }} autoPlay={true} loop={true} controls={false} playsInline muted onLoadedData={handleVideoLoad}>
+            <source src="/demoreel.mp4" type="video/mp4" />
+          </video>
+        } 
+      </div>
 
       <div>
         {renderNews()}
