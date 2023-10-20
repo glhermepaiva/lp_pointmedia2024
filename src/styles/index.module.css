@@ -64,13 +64,10 @@
   z-index: 1;
 }
 
-.headerVideoContainer {
-  background-color: greenyellow;
-}
-
 .videoLoader {
   margin: auto;
   text-align: center;
+  background-color: greenyellow;
 }
 
 .demoReelVideo {

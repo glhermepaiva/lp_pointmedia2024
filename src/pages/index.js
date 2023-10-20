@@ -2247,8 +2247,12 @@ const handleVideoLoad = () => {
           <div className={styles.videoLoader}>Carregando</div>
         :
           <video className={styles.demoReelVideo} style={{ display: isLoading ? 'none' : 'block' }} autoPlay={true} loop={true} controls={false} playsInline muted onLoadedData={handleVideoLoad}>
-            <source src="/demoreel.mp4" type="video/mp4" />
+            <source src="/demoreel2.mp4" type="video/mp4" />
           </video>
+
+          // <video className={styles.demoReelVideo} loop autoPlay playsInline muted
+          //   src="https://player.vimeo.com/progressive_redirect/playback/799226679/rendition/540p/file.mp4?loc=external&amp;signature=a8c36b5c7833622b819fcd24c7f35ffba911a541f3970687cc859b7c0a54132e">
+          // </video>
         } 
       </div>
 
