@@ -1615,6 +1615,18 @@ function renderNews() {
         setEnglishActive(true)
      }
 
+/***** BUTTON SHOW REEL *****/
+
+const [reelOpen, setReelOpen] = useState(false)
+
+    const openReel = () => {
+      setReelOpen(true)
+    }
+  
+    const closeReel = () => {
+      setReelOpen(false)
+    }
+
 
 /***** VIDEO LOADER ******/
  
@@ -2238,23 +2250,24 @@ const handleVideoLoad = () => {
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu} />}
 
-      {/* <video className={styles.demoReelVideo} autoPlay muted playsInline loop>
-        <source src="/demoreel.mp4" type="video/mp4" />
-      </video> */}
-
       <div className={styles.headerVideoContainer}>
         {isLoading ? 
-          <div className={styles.videoLoader}>Carregando</div>
+          <div className={styles.videoLoader}></div>
         :
           <video className={styles.demoReelVideo} style={{ display: isLoading ? 'none' : 'block' }} autoPlay={true} loop={true} controls={false} playsInline muted onLoadedData={handleVideoLoad}>
             <source src="/demoreel2.mp4" type="video/mp4" />
           </video>
-
-          // <video className={styles.demoReelVideo} loop autoPlay playsInline muted
-          //   src="https://player.vimeo.com/progressive_redirect/playback/799226679/rendition/540p/file.mp4?loc=external&amp;signature=a8c36b5c7833622b819fcd24c7f35ffba911a541f3970687cc859b7c0a54132e">
-          // </video>
         } 
       </div>
+
+      {reelOpen ? <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeReel} />
+          <video className={styles.openReel} autoPlay={true} loop={false} controls={true} playsInline>
+            <source src="/demoreel1.mp4" type="video/mp4" />
+          </video>
+        </div> : null}
+
+      <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
 
       <div>
         {renderNews()}

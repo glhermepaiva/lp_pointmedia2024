@@ -67,7 +67,6 @@
 .videoLoader {
   margin: auto;
   text-align: center;
-  background-color: greenyellow;
 }
 
 .demoReelVideo {
@@ -75,6 +74,35 @@
   width: 300%;
   margin: -20px 0 30px 50vw;
   transform: translate(-50%);
+}
+
+.buttonReel {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #FFFFFF;
+  width: 170px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: -50px auto 40px auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.buttonReel:hover {
+  background-color: #d8598e;
+}
+
+.openReel {
+  width: 659px;
+  height: 468px;
+  transform: rotate(90deg) scale(0.9);
+  margin: 0 -45px 0 0;
 }
 
 .news {
@@ -2792,6 +2820,21 @@ background-color: #d8598e;
   transform: translate(-50%);
 }
 
+.buttonReel {
+  width: 170px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: -50px auto 40px auto;
+}
+
+.openReel {
+  width: 659px;
+  height: 468px;
+  transform: rotate(90deg) scale(1.1);
+  margin: 0 0px 0 0;
+}
+
   .aboutTitle {
     width: 380px;
     margin: 5px 0 5px 25px;
@@ -2919,6 +2962,21 @@ background-color: #d8598e;
     transform: translate(-50%);
   }
 
+  .buttonReel {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -50px auto 50px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: rotate(90deg) scale(1.6);
+    margin: 0 0px 0 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -3035,7 +3093,7 @@ background-color: #d8598e;
     z-index: 3;
     width: 484px;
     right: 0px;
-    top: 2000px;
+    top: 2100px;
     padding: 10px 0 0 0;
   }
 
@@ -3810,6 +3868,21 @@ background-color: #d8598e;
     width: 100%;
     margin: -20px 0 20px 50vw;
     transform: translate(-50%);
+  }
+
+  .buttonReel {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -40px auto 50px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: scale(1.6);
+    margin: -70px 0px 0 0;
   }
 
   .news {
@@ -5264,6 +5337,21 @@ background-color: #d8598e;
     transform: translate(-50%);
   }
 
+  .buttonReel {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -40px auto 40px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: scale(1.8);
+    margin: -50px 0px 0 0;
+  }
+
   .logoPoint {
     margin: 0 0 0 40px;
   }
@@ -5476,7 +5564,7 @@ background-color: #d8598e;
     z-index: 2;
     width: 837px;
     right: 0px;
-    top: 1600px;
+    top: 2400px;
     padding: 10px 0 0 0;
     flex-direction: row;
     justify-content: space-around;
@@ -6903,6 +6991,21 @@ background-color: #d8598e;
     transform: translate(-50%);
   }
 
+  .buttonReel {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -30px auto 30px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: scale(1.9);
+    margin: -80px 0px 0 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -7106,7 +7209,7 @@ background-color: #d8598e;
     z-index: 2;
     width: 950px;
     right: 0px;
-    top: 1750px;
+    top: 2650px;
     padding: 0px 0 0 0;
     flex-direction: row;
     justify-content: space-around;
@@ -8576,6 +8679,21 @@ background-color: #d8598e;
     cursor: pointer;
   }
 
+  .buttonReel {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: -30px auto 30px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: scale(2.3);
+    margin: -100px 0px 0 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -8780,7 +8898,7 @@ background-color: #d8598e;
     width: 1110px;
     height: 830px;
     right: 0px;
-    top: 1950px;
+    top: 3050px;
     padding: 0px 0 0 0;
     flex-direction: row;
     justify-content: space-around;
@@ -10293,6 +10411,21 @@ background-color: #d8598e;
     transform: translate(-50%);
   }
 
+  .buttonReel {
+    width: 190px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    margin: -25px auto 0px auto;
+  }
+
+  .openReel {
+    width: 659px;
+    height: 468px;
+    transform: scale(3.1);
+    margin: -150px 0px 0 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -10505,7 +10638,7 @@ background-color: #d8598e;
     width: 1110px;
     height: 830px;
     right: 167px;
-    top: 3100px;
+    top: 4550px;
     padding: 0px 0 0 0;
     flex-direction: row;
     justify-content: space-around;
