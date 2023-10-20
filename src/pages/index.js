@@ -5,6 +5,7 @@ import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
 
+
 export default function LandingPage() {
 
 /***** HAMBURGER MENU  *****/
@@ -2253,13 +2254,13 @@ const handleVideoLoad = () => {
           className={styles.loader}
           style={{padding: "28.12% 0 "}}
           >
-          <Image
+          {/* <Image
           className={styles.loaderIcon}
           src={Loading}
           width={250}
           height={250}
           alt="Loading"
-          />
+          /> */}
         </div>
         : <video
         className={styles.demoReelVideo}
