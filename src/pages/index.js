@@ -5,7 +5,6 @@ import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
 
-
 export default function LandingPage() {
 
 /***** HAMBURGER MENU  *****/
@@ -1616,6 +1615,8 @@ function renderNews() {
         setEnglishActive(true)
      }
 
+
+  
 /***** RETURN *****/
 
   return (
