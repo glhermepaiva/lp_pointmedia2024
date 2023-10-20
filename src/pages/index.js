@@ -2263,7 +2263,7 @@ const handleVideoLoad = () => {
       {reelOpen ? <div className={styles.galleryModal}>
         <div className={styles.modalClose} onClick={closeReel} />
           <video className={styles.openReel} autoPlay={true} loop={false} controls={true} playsInline>
-            <source src="/demoreel1.mp4" type="video/mp4" />
+            <source src="/demoreel2.mp4" type="video/mp4" />
           </video>
         </div> : null}
 
