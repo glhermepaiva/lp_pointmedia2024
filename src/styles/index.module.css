@@ -2,7 +2,7 @@
 
 .header {
   display: flex;
-  height: 120px;
+  height: 100px;
   align-items: center;
   justify-content: space-between;
 }
@@ -47,7 +47,7 @@
   background-image: url(../assets/mobile/logopoint.png);
   width: 111px;
   height: 42px;
-  margin: 0 0 0 36px;
+  margin: -15px 0 0 25px;
   position: absolute;
   cursor: pointer;
 }
@@ -56,12 +56,12 @@
   background-image: url(../assets/mobile/hamburger.png);
   width: 29px;
   height: 37px;
-  margin: -10px 0px 0 0;
+  margin: -20px 0px 0 0;
   cursor: pointer;
   position: fixed;
   right: 20px;
   transform: scale(1.2);
-  z-index: 1;
+  z-index: 3;
 }
 
 .videoLoader {
@@ -89,7 +89,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
-  margin: -50px auto 40px auto;
+  margin: -50px auto 70px auto;
   position: relative;
   cursor: pointer;
 }
@@ -113,27 +113,45 @@
   margin: -40px 0 0 0;
 }
 
-.havaianasPicture {
+.news1Picture {
+  background-image: url(../assets/new/picpay.png);
+  width: 360px;
+  height: 350px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.news2Picture {
+  background-image: url(../assets/new/dm9.png);
+  width: 360px;
+  height: 350px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.news3Picture {
   background-image: url(../assets/new/havaianas.png);
-  width: 375px;
+  width: 360px;
   height: 350px;
   margin: 0 auto;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-.veloePicture {
-  background-image: url(../assets/new/veloe.png);
-  width: 375px;
-  height: 350px;
-  margin: 0 auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.ceaPicture {
+.news4Picture {
   background-image: url(../assets/new/cea.png);
-  width: 375px;
+  width: 360px;
+  height: 350px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.news5Picture {
+  background-image: url(../assets/new/veloe.png);
+  width: 360px;
   height: 350px;
   margin: 0 auto;
   background-size: 100%;
@@ -145,24 +163,24 @@
   align-self: center;
 }
 
-.havaianasTagText {
+.news1TagText {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
   margin: 0 0 0 0px;
   z-index: 1;
 }
 
-.havaianasTagLine {
+.news1TagLine {
   background-color: #6CABDE;
-  width: 215px;
+  width: 68px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 0px;
+  margin: -11px 0 0 -5px;
   z-index: 0;
 }
 
-.havaianasNewsTitle {
+.news1NewsTitle {
   font-weight: bold;
   font-size: 25px;
   line-height: 25px;
@@ -170,32 +188,32 @@
   margin: 30px 0 0 0px;
 }
 
-.havaianasNewsText {
+.news1NewsText {
   font-family: Segoe UI;
-  font-size: 15px;
-  width: 291px;
+  font-size: 16px;
+  width: 250px;
   color: #707070;
   margin: 20px 0 0 0px;
 }
 
-.veloeTagText {
+.news2TagText {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
   margin: 0px 0 0 0px;
   z-index: 1;
 }
 
-.veloeTagLine {
+.news2TagLine {
   background-color: #6CABDE;
-  width: 172px;
+  width: 48px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 0px;
+  margin: -11px 0 0 -5px;
   z-index: 0;
 }
 
-.veloeNewsTitle {
+.news2NewsTitle {
   font-weight: bold;
   font-size: 25px;
   line-height: 25px;
@@ -203,32 +221,32 @@
   margin: 30px 0 0 0px;
 }
 
-.veloeNewsText {
+.news2NewsText {
   font-family: Segoe UI;
-  font-size: 15px;
-  width: 291px;
+  font-size: 16px;
+  width: 240px;
   color: #707070;
-  margin: 20px 0 0 0px;
+  margin: 20px 0 0px 0px;
 }
 
-.ceaTagText {
+.news3TagText {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
   margin: 0px 0 0 0px;
   z-index: 1;
 }
 
-.ceaTagLine {
+.news3TagLine {
   background-color: #6CABDE;
-  width: 162px;
+  width: 108px;
   height: 10px;
   position: relative;
-  margin: -11px 0 0 0px;
+  margin: -11px 0 0 -5px;
   z-index: 0;
 }
 
-.ceaNewsTitle {
+.news3NewsTitle {
   font-weight: bold;
   font-size: 25px;
   line-height: 25px;
@@ -236,10 +254,76 @@
   margin: 30px 0 0 0px;
 }
 
-.ceaNewsText {
+.news3NewsText {
   font-family: Segoe UI;
-  font-size: 15px;
-  width: 291px;
+  font-size: 16px;
+  width: 290px;
+  color: #707070;
+  margin: 20px 0 -21px 0;
+}
+
+.news4TagText {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.news4TagLine {
+  background-color: #6CABDE;
+  width: 48px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -5px;
+  z-index: 0;
+}
+
+.news4NewsTitle {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 310px;
+  margin: 30px 0 0 0px;
+}
+
+.news4NewsText {
+  font-family: Segoe UI;
+  font-size: 16px;
+  width: 260px;
+  color: #707070;
+  margin: 20px 0 0 0;
+}
+
+.news5TagText {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  margin: 0px 0 0 0px;
+  z-index: 1;
+}
+
+.news5TagLine {
+  background-color: #6CABDE;
+  width: 59px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -5px;
+  z-index: 0;
+}
+
+.news5NewsTitle {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  width: 310px;
+  margin: 30px 0 0 0px;
+}
+
+.news5NewsText {
+  font-family: Segoe UI;
+  font-size: 16px;
+  width: 260px;
   color: #707070;
   margin: 20px 0 0 0;
 }
@@ -256,6 +340,7 @@
   background-image: url(../assets/mobile/bulletblack.png);
   width: 20px;
   height: 20px;
+  transform: scale(0.8);
 }
 
 .blueBullet {
@@ -263,6 +348,7 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+  transform: scale(0.8);
 }
 
 .hoverMenuInv {
@@ -459,21 +545,56 @@
   margin: 0 0 0 0;
 }
 
-.aboutPoint {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 62px;
-  color: #000000;
-  margin: 0 0 0 25px;
+.aboutWind {
+  background-image: url(../assets/new/wind.png);
+  width: 126px;
+  height: 59px;
+  margin: -10px 0 0px 190px;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.aboutTitle {
+.aboutPointsV {
+  background-image: url(../assets/new/pointsV.png);
+  width: 146px;
+  height: 533px;
+  margin: -100px 0 130px -90px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.6);
+}
+
+.aboutWrap {
+  margin: -570px 0 50px 50px;
+}
+
+.aboutPoint {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
-  width: 300px;
-  margin: 5px 0 5px 25px;
-  color: #6CABDE;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  margin: 0 0 0 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.aboutTag {
+  background-color: #E96099;
+  width: 90px;
+  height: 10px;
+  position: relative;
+  margin: -13px 0 0 21px;
+  z-index: 0;
+}
+
+.aboutPointsH {
+  background-image: url(../assets/new/pointsH.png);
+  width: 533px;
+  height: 146px;
+  margin: -20px 0 0 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.6);
 }
 
 .aboutImage {
@@ -487,131 +608,11 @@
 }
 
 .aboutText {
-  font-family: Segoe UI;
-  font-size: 15px;
-  width: 291px;
+  font-size: 16px;
+  line-height: 20px;
   color: #707070;
   margin: 30px 0 0 25px;
-  width: 310px;
-}
-
-.aboutLine {
-  background-color: #E96099;
-  width: 85vw;
-  height: 25px;
-  margin-top: 55px;
-}
-
-.aboutOffice {
-  background-image: url(../assets/new/office.png);
-  width: 375px;
-  height: 281px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.blackBg {
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-
-.owners {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 0 30px;
-}
-
-.aboutMychel {
-  margin: 30px 0 30px 0;
-}
-
-.aboutMychelPicture {
-  background-image: url(../assets/new/mychel.png);
-  width: 195px;
-  height: 236px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 2;
-}
-
-.aboutMychelBG {
-  width: 195px;
-  height: 236px;
-  background-color: #E96099;
-  border-radius: 15px;
-  transform: scale(0.8);
-  margin: -250px 0 0 -10px;
-  position: relative;
-  z-index: 1;
-}
-
-.aboutMychelName {
-  font-weight: bold;
-  font-size: 15px;
-  margin: -15px 0 0 15px;
-}
-
-.aboutMychelJob {
-  font-size: 12px;
-  margin: 0 0 0 15px;
-}
-
-.aboutThiago {
-  margin: 30px 0 0 0;
-}
-
-.aboutThiagoPicture {
-  background-image: url(../assets/new/thiago.png);
-  width: 195px;
-  height: 236px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 2;
-}
-
-.aboutThiagoBG {
-  width: 195px;
-  height: 236px;
-  background-color: #6CABDE;
-  border-radius: 15px;
-  transform: scale(0.8);
-  margin: -250px 0 0 -10px;
-  position: relative;
-  z-index: 1;
-}
-
-.aboutThiagoName {
-  font-weight: bold;
-  font-size: 15px;
-  margin: -15px 0 0 15px;
-}
-
-.aboutThiagoJob {
-  font-size: 12px;
-  margin: 0 0 0 15px;
-}
-
-.aboutText2 {
-  font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 22px;
-  width: 315px;
-  margin: 0 0 0 25px;
-}
-
-.aboutTitle2 {
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 30px;
-  color: #6CABDE;
-  width: 330px;
-  margin: 40px 0 50px 0;
-  align-self: center;
-  margin: 20px 0 50px 25px;
+  width: 250px;
 }
 
 /******* TEAM *******/
@@ -619,22 +620,17 @@
 .team {
   display: flex;
   flex-direction: column;
-  margin: 0px 0 0 0;
+  margin: -95px 0 0 0;
   background-color: #6CABDE;
 }
 
-.teamTitle {
+.teamQuote {
   font-weight: bold;
+  color: #FFFFFF;
   font-size: 30px;
-  line-height: 62px;
-  margin: 20px 0 0 25px;
-}
-
-.teamText {
-  font-family: Segoe UI;
-  font-size: 15px;
-  width: 320px;
-  margin: 10px 0 0px 25px;
+  line-height: 33px;
+  margin: 100px auto 0 auto;
+  width: 280px;
 }
 
 .teamPictures {
@@ -644,7 +640,7 @@
   margin: -10px 0 0 0;
 }
 
-.Priscila {
+.Mychel{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -652,10 +648,74 @@
   margin: 50px 0 0 0;
 }
 
+.MychelPicture {
+  background-image: url(../assets/new/picMychel.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
+}
+
+.MychelName {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  width: 50px;
+  margin: 10px 0 0 -20px;
+}
+
+.MychelJob {
+  font-size: 12px;
+  margin-left: -25px;
+}
+
+.Thiago {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 50px 0 0 0;
+}
+
+.ThiagoPicture {
+  background-image: url(../assets/new/picThiago.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
+}
+
+.ThiagoName {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  width: 50px;
+  margin: 10px 0 0 -10px;
+  text-align: center;
+}
+
+.ThiagoJob {
+  font-size: 12px;
+  margin-left: -5px;
+}
+
+.Priscila {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 0px 0 0 0;
+}
+
 .PriscilaPicture {
-  background-image: url(../assets/mobile/priscila.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picPriscila.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .PriscilaName {
@@ -680,16 +740,19 @@
 }
 
 .WillPicture {
-  background-image: url(../assets/mobile/will.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picWill.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .WillName {
   font-weight: bold;
   font-size: 15px;
   width: 50px;
-  margin: 10px 0 0 -20px;
+  margin: 10px 0 0 -25px;
 }
 
 .WillJob {
@@ -708,9 +771,12 @@
 }
 
 .MarianaPicture {
-  background-image: url(../assets/mobile/mariana.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picMariana.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .MarianaName {
@@ -736,9 +802,12 @@
 }
 
 .LouroPicture {
-  background-image: url(../assets/mobile/louro.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picLouro.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .LouroName {
@@ -759,13 +828,16 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 40px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 .RobsonPicture {
-  background-image: url(../assets/mobile/robson.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picRobson.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .RobsonName {
@@ -787,13 +859,16 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .TatoPicture {
-  background-image: url(../assets/mobile/tato.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picTato.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .TatoName {
@@ -815,13 +890,16 @@
   flex-direction: column;
   align-items: center;
   width: 150px;
-  margin: 0px 0 150px 0;
+  margin: 50px 0 50px 0;
 }
 
 .DaniellePicture {
-  background-image: url(../assets/mobile/danielle.png);
-  width: 128px;
-  height: 131px;
+  background-image: url(../assets/new/picDaniele.png);
+  width: 205px;
+  height: 211px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 0 0 -30px 40px;
 }
 
 .DanielleName {
@@ -836,6 +914,50 @@
   width: 100px;
 }
 
+.teamTitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0px 0 0 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.teamTitleTag {
+  background-color: #FFFFFF;
+  width: 115px;
+  height: 10px;
+  position: relative;
+  margin: -10px 0 0 20px;
+  z-index: 0;
+}
+
+.teamText {
+  font-size: 16px;
+  line-height: 20px;
+  width: 290px;
+  margin: 10px 0 100px 25px;
+}
+
+.teamWind {
+  background-image: url(../assets/new/wind2.png);
+  width: 288px;
+  height: 120px;
+  margin: -60px 0 -59px 80px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.teamPinkBalls {
+  background-image: url(../assets/new/pinkballssmall.png);
+  width: 558px;
+  height: 51px;
+  margin: 0 0 0 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: none;
+}
+
 /******* WHAT WE DO *******/
 
 .wwd {
@@ -845,38 +967,31 @@
   align-items: center;
 }
 
-.pinkBalls {
-  background-image: url(../assets/new/pinkballs.png);
-  width: 572px;
-  height: 235px;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  margin: -90px auto 0 auto;
-}
-
 .wwdTitle {
   color: #000000;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
-  margin: -20px 0 0 -30px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 100px 0 0 -140px;
+  position: relative;
+  z-index: 1;
 }
 
-.wwdSubtitle {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
-  width: 300px;
-  margin: 30px 0 0 -10px;
-  color: #EB6099;
+.wwdTitleTag {
+  background-color: #EB6099;
+  width: 172px;
+  height: 10px;
+  position: relative;
+  margin: -10px 0 0 -150px;
+  z-index: 0;
 }
 
 .wwdText {
-  font-family: Segoe UI;
-  font-size: 15px;
+  color: #707070;
+  font-size: 16px;
   line-height: 20px;
   width: 300px;
-  margin: 30px auto 40px auto;
+  margin: 30px 0 40px -10px;
 }
 
 .wwdWorks {
@@ -887,346 +1002,68 @@
   color: #000000;
 }
 
-.wwdWork1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto 20px auto;
-  border: 1px solid black;
-  border-radius: 200px;
-}
-
 .wwd1image {
   background-image: url(../assets/new/job1.png);
-  width: 89px;
-  height: 89px;
-  background-size: 100%;
+  width: 184px;
+  height: 184px;
+  background-size: 90%;
   background-repeat: no-repeat;
-  margin: -10px 0 15px 0;
-}
-
-.wwd1text {
-  font-family: Segoe UI;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  width: 160px;
-}
-
-.wwdWork2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto 20px auto;
-  border: 1px solid black;
-  border-radius: 200px;
+  margin: 0 0 0 15px;
 }
 
 .wwd2image {
   background-image: url(../assets/new/job2.png);
-  width: 89px;
-  height: 89px;
-  background-size: 100%;
+  width: 184px;
+  height: 184px;
+  background-size: 90%;
   background-repeat: no-repeat;
-  margin: -10px 0 15px 0;
-}
-
-.wwd2text {
-  font-family: Segoe UI;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  width: 160px;
-}
-
-.wwdWork3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto 20px auto;
-  border: 1px solid black;
-  border-radius: 200px;
+  margin: 0 0 0 -10px;
 }
 
 .wwd3image {
   background-image: url(../assets/new/job3.png);
-  width: 89px;
-  height: 89px;
-  background-size: 100%;
+  width: 184px;
+  height: 184px;
+  background-size: 90%;
   background-repeat: no-repeat;
-  margin: -10px 0 15px 0;
+  margin: 0 0 0 15px;
 }
-
-.wwd3text {
-  font-family: Segoe UI;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  width: 160px;
-}
-
-.wwdWork4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto 20px auto;
-  border: 1px solid black;
-  border-radius: 200px;
-}
-
 .wwd4image {
   background-image: url(../assets/new/job4.png);
-  width: 89px;
-  height: 89px;
-  background-size: 100%;
+  width: 184px;
+  height: 184px;
+  background-size: 90%;
   background-repeat: no-repeat;
-  margin: -10px 0 15px 0;
-}
-
-.wwd4text {
-  font-family: Segoe UI;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  width: 160px;
-}
-
-.wwdWork5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto 50px auto;
-  border: 1px solid black;
-  border-radius: 200px;
+  margin: 0 0 0 -10px;
 }
 
 .wwd5image {
   background-image: url(../assets/new/job5.png);
-  width: 89px;
-  height: 89px;
+  width: 184px;
+  height: 184px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.wwdWind {
+  background-image: url(../assets/new/wind.png);
+  width: 126px;
+  height: 59px;
+  margin: 10px 0 -10px 190px;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin: -10px 0 15px 0;
+  transform: rotate(150deg);
 }
 
-.wwd5text {
-  font-family: Segoe UI;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  width: 160px;
-}
-
-/******* REANIMATE *******/
-
-.reanimate {
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.reanimateLogo {
-  background-image: url(../assets/mobile/logoreanimate.png);
-  width: 278px;
-  height: 101px;
-  margin: 50px 0 45px 0;
-}
-
-.reanimateText1 {
-  font-family: Segoe UI;
-  font-size: 18px;
-  line-height: 24px;
-  width: 275px;
-  margin-bottom: 25px;
-  color: #fff;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateText2 {
-  font-family: Segoe UI;
-  font-size: 18px;
-  line-height: 24px;
-  width: 260px;
-  color: #fff;
-  margin: 30px 0 30px -15px;
-}
-
-.reanimateCards {
-  margin: 0 0 0 -40px;
-}
-
-.reanimateMM {
-  width: 230px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.reanimateMMlogo {
-  background-image: url(../assets/mobile/logomm.png);
-  width: 242px;
-  height: 59px;
-  margin: 10px 0 15px 30px;
-}
-
-.reanimateMMtext {
-  width: 210px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateRA {
-  width: 230px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.reanimateRAlogo {
-  background-image: url(../assets/mobile/logora.png);
-  width: 221px;
-  height: 59px;
-  margin: 10px 0 10px 9px;
-}
-
-.reanimateRAtext {
-  width: 220px;
-  font-weight: bold;
-  margin: 0 0 0 10px;
-}
-
-.reanimateDA {
-  width: 230px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.reanimateDAlogo {
-  background-image: url(../assets/mobile/logoda.png);
-  width: 219px;
-  height: 59px;
-  margin: 10px 0 10px 7px;
-}
-
-.reanimateDAtext {
-  width: 220px;
-  font-weight: bold;
-  margin: 0 0 0 10px;
-}
-
-.reanimateAM {
-  width: 230px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.reanimateAMlogo {
-  background-image: url(../assets/mobile/logoam.png);
-  width: 188px;
-  height: 59px;
-  margin: 10px 0 15px -25px;
-}
-
-.reanimateAMtext {
-  width: 210px;
-  font-weight: bold;
-  margin: 0 0 0 0px;
-}
-
-.reanimateTM {
-  width: 230px;
-  font-family: Segoe UI;
-  font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.reanimateTMlogo {
-  background-image: url(../assets/mobile/logortm.png);
-  width: 180px;
-  height: 59px;
-  margin: 10px 0 15px -32px;
-}
-
-.reanimateTMtext {
-  width: 200px;
-  font-weight: bold;
-  margin: 0 0 0 -10px;
-}
-
-.reanimateBalls {
-  display: none;
-}
-
-.reanimateButton {
-  background-color: #EB6099;
-  border: none;
-  border-radius: 30px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  width: 224px;
-  height: 56px;
-  cursor: pointer;
-  margin: 30px 0 50px 0;
-}
-
-.reanimateButton:hover {
-  background-color: #d8598e;
+.wwdPoints {
+  background-image: url(../assets/new/pointsH.png);
+  width: 533px;
+  height: 146px;
+  margin: 0px 0 -55px -330px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.6);
 }
 
 /******* HOW WE DO *******/
@@ -1236,13 +1073,25 @@
   flex-direction: column;
   align-items: center;
   margin: 0 0 0 0;
+  background-color: #F9F9F9;
 }
 
 .hwdTitle {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 60px;
-  margin: 50px 0 50px 0;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 70px 0 50px -120px;
+  position: relative;
+  z-index: 1;
+}
+
+.hwdTitleTag {
+  background-color: #6CABDE;
+  width: 172px;
+  height: 10px;
+  position: relative;
+  margin: -60px 0 50px -130px;
+  z-index: 0;
 }
 
 .hwdCircles {
@@ -1556,6 +1405,43 @@
   height: 450px;
 }
 
+.closedPicture {
+  background-image: url(../assets/new/closed.png);
+  width: 360px;
+  height: 327px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.closedPrevWorks {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -650px 0 -110px 0;
+  position: relative;
+  height: 400px;
+}
+
+.prevWorksButton {
+  background-color: #EB6099;
+  border: none;
+  border-radius: 30px;
+  color: #FFFFFF;
+  width: 170px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  margin: 50px auto 10px auto;
+  position: relative;
+  cursor: pointer;
+}
+
 .previousWorks {
   background-color: #000;
   display: flex;
@@ -1568,9 +1454,20 @@
 .pwTitle {
   color: #fff;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 50px;
-  margin: 50px 0 50px 0;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 30px 0 50px -120px;
+  position: relative;
+  z-index: 1;
+}
+
+.pwTitleTag {
+  background-color: #6CABDE;
+  width: 190px;
+  height: 10px;
+  position: relative;
+  margin: -58px 0 30px -130px;
+  z-index: 0;
 }
 
 .pwGallery {
@@ -1745,199 +1642,225 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .casesTitle {
   color: #FFFFFF;
   padding-top: 50px;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 50px;
-  margin: 0 0 0 -50px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 0 -140px;
+  position: relative;
+  z-index: 1;
 }
 
-.case1Title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 62px;
-  margin: 0 0 20px -160px;
+.casesTitleTag {
+  background-color: #EB6099;
+  width: 145px;
+  height: 10px;
+  position: relative;
+  margin: -10px 0 30px -160px;
+  z-index: 0;
 }
 
 .arrowRight {
-  background-image: url(../assets/mobile/arrowright.png);
-  width: 31px;
-  height: 56px;
+  background-image: url(../assets/new/arrowpink.png);
+  width: 29px;
+  height: 48px;
   cursor: pointer;
   position: relative;
-  top: 250px;
-  left: 150px;
+  margin: 120px 0 -320px 300px;
+}
+
+.arrowRight2 {
+  background-image: url(../assets/new/arrowpink.png);
+  width: 29px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+  margin: 272px 0 -300px 300px;
+}
+
+.arrowLeft {
+  background-image: url(../assets/new/arrowpink.png);
+  width: 29px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+  margin: 120px 0 -320px -300px;
+  transform: rotate(180deg);
+  z-index: 2;
 }
 
 .case1Image {
-  background-image: url(../assets/new/vivopc.png);
-  width: 1032px;
-  height: 500px;
+  background-image: url(../assets/new/casehavaianas.png);
+  width: 859px;
+  height: 609px;
   position: relative;
-  background-size: 50%;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  margin: 0 0 0 -180px;
+  transform: scale(0.5);
 }
 
 .case1logo {
-  background-image: url(../assets/new/vivologo.png);
-  width: 454px;
-  height: 114px;
+  background-image: url(../assets/new/logohavaianas.png);
+  width: 418px;
+  height: 86px;
   position: relative;
-  background-size: 50%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin: 0 auto;
-  display: none;
+  margin: -180px 0 0 -100px;
+  transform: scale(0.5);
 }
 
 .case1Info {
   background-color: #F8F8F8;
   color: #000000;
   width: 100vw;
-  padding: 140px 0 0 50px;
-  margin: -190px 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
-.case1Subtitle1 {
+.case1Subtitle {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
-  margin: 0px 0 30px 0px;
+  margin: 0 0 25px -210px;
+  color: #FFFFFF;
 }
 
-.case1Text1 {
-  font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
-  width: 270px;
-  margin: 10px 0 0 0;
-}
-
-.case1Subtitle2 {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
-  margin: 70px 0 30px 0px;
-}
-
-.case1Text2 {
-  font-family: Segoe UI;
-  font-size: 15px;
+.case1Text {
+  color: #FFFFFF;
+  font-size: 14px;
   line-height: 20px;
   width: 280px;
-  margin: 0 0 150px 0;
-}
-
-.case2Title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 62px;
-  margin: 0px 0 20px -130px;
-}
-
-.arrowLeft {
-  background-image: url(../assets/mobile/arrowleft.png);
-  width: 31px;
-  height: 56px;
-  cursor: pointer;
-  position: relative;
-  top: 250px;
-  right: 150px;
-  z-index: 9;
+  margin: 0 0 40px -30px;
 }
 
 .case2Image {
-  background-image: url(../assets/new/ambevpc.png);
-  width: 1032px;
-  height: 500px;
+  background-image: url(../assets/new/casevivo.png);
+  width: 859px;
+  height: 609px;
   position: relative;
-  background-size: 50%;
   background-repeat: no-repeat;
-  margin: 0 0 0 500px;
+  margin: -15px 0 0 -180px;
+  transform: scale(0.5);
 }
 
-.case1logo {
-  background-image: url(../assets/new/ambevlogo.png);
-  width: 454px;
-  height: 114px;
+.case2logo {
+  background-image: url(../assets/new/logovivo.png);
+  width: 342px;
+  height: 107px;
   position: relative;
-  background-size: 50%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin: 0 auto;
-  display: none;
+  margin: -202px 0 0 -130px;
+  transform: scale(0.5);
 }
 
 .case2Info {
   background-color: #F8F8F8;
   color: #000000;
   width: 100vw;
-  padding: 140px 0 0 50px;
-  margin: -190px 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
-.case2Subtitle1 {
+.case2Subtitle {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
-  margin: 0px 0 30px 0px;
+  margin: -4px 0 25px -210px;
+  color: #FFFFFF;
 }
 
-.case2Text1 {
-  font-family: Segoe UI;
-  font-size: 15px;
-  line-height: 20px;
-  width: 270px;
-  margin: 10px 0 0 0;
-}
-
-.case2Subtitle2 {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
-  margin: 70px 0 30px 0px;
-}
-
-.case2Text2 {
-  font-family: Segoe UI;
-  font-size: 15px;
+.case2Text {
+  color: #FFFFFF;
+  font-size: 14px;
   line-height: 20px;
   width: 280px;
-  margin: 0 0 150px 0;
+  margin: 0 0 40px -30px;
 }
 
-.arrowRight2 {
-  background-image: url(../assets/mobile/arrowright.png);
-  width: 31px;
-  height: 56px;
-  cursor: pointer;
+.case3Image {
+  background-image: url(../assets/new/caseambev.png);
+  width: 859px;
+  height: 609px;
   position: relative;
-  top: 250px;
-  left: 150px;
-  z-index: 9;
+  background-repeat: no-repeat;
+  margin: 0px 0 0 -180px;
+  transform: scale(0.5);
 }
+
+.case3logo {
+  background-image: url(../assets/new/logoambev.png);
+  width: 342px;
+  height: 86px;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: -185px 0 0 -140px;
+  transform: scale(0.5);
+}
+
+.case3Info {
+  background-color: #F8F8F8;
+  color: #000000;
+  width: 100vw;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.case3Subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5px 0 25px -210px;
+  color: #FFFFFF;
+}
+
+.case3Text {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  width: 280px;
+  margin: 0 0 40px -30px;
+}
+
+
 
 /******* CLIENTS *******/
 
 .blueBalls {
   background-image: url(../assets/new/blueballs.png);
-  width: 572px;
-  height: 236px;
+  width: 258px;
+  height: 42px;
   position: relative;
-  background-size: 70%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin: -90px auto 0 auto;
+  margin: -12px 0 0 130px;
+  z-index: 2;
 }
 
 .clientsTitle {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
-  margin: 0px auto;
-  width: 310px;
+  font-size: 18px;
+  line-height: 41px;
+  margin: 20px 0 0 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.clientsTitleTag {
+  background-color: #6CABDE;
+  width: 183px;
+  height: 10px;
+  position: relative;
+  margin: -20px 0 0 42px;
+  z-index: 0;
 }
 
 .clientsGallery {
@@ -1946,13 +1869,13 @@
   align-items: center;
   position: relative;
   z-index: 1;
-  margin: 80px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .clientsArrows {
   display: flex;
   width: 330px;
-  margin: 615px 0 0 0;
+  margin: 735px 0 0 0;
   justify-content: space-between;
   position: absolute;
   z-index: 2;
@@ -1973,577 +1896,857 @@
 }
 
 .client1 {
-  background-image: url(../assets/clients/client1.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client1.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client2 {
-  background-image: url(../assets/clients/client2.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client2.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client3 {
-  background-image: url(../assets/clients/client3.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client3.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client4 {
-  background-image: url(../assets/clients/client4.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client4.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client5 {
-  background-image: url(../assets/clients/client5.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client5.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client6 {
-  background-image: url(../assets/clients/client6.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client6.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client7 {
-  background-image: url(../assets/clients/client7.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client7.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client8 {
-  background-image: url(../assets/clients/client8.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client8.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client9 {
-  background-image: url(../assets/clients/client9.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client9.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client10 {
-  background-image: url(../assets/clients/client10.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client10.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client11 {
-  background-image: url(../assets/clients/client11.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client11.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client12 {
-  background-image: url(../assets/clients/client12.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client12.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client13 {
-  background-image: url(../assets/clients/client13.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client13.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client14 {
-  background-image: url(../assets/clients/client14.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client14.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client15 {
-  background-image: url(../assets/clients/client15.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client15.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client16 {
-  background-image: url(../assets/clients/client16.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client16.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client17 {
-  background-image: url(../assets/clients/client17.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client17.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client18 {
-  background-image: url(../assets/clients/client18.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client18.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client19 {
-  background-image: url(../assets/clients/client19.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client19.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client20 {
-  background-image: url(../assets/clients/client20.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client20.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client21 {
-  background-image: url(../assets/clients/client21.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client21.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client22 {
-  background-image: url(../assets/clients/client22.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client22.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client23 {
-  background-image: url(../assets/clients/client23.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client23.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client24 {
-  background-image: url(../assets/clients/client24.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client24.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client25 {
-  background-image: url(../assets/clients/client25.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client25.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client26 {
-  background-image: url(../assets/clients/client26.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client26.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client27 {
-  background-image: url(../assets/clients/client27.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client27.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client28 {
-  background-image: url(../assets/clients/client28.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client28.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client29 {
-  background-image: url(../assets/clients/client29.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client29.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client30 {
-  background-image: url(../assets/clients/client30.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client30.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client31 {
-  background-image: url(../assets/clients/client31.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client31.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client32 {
-  background-image: url(../assets/clients/client32.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client32.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client33 {
-  background-image: url(../assets/clients/client33.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client33.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client34 {
-  background-image: url(../assets/clients/client34.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client34.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client35 {
-  background-image: url(../assets/clients/client35.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client35.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client36 {
-  background-image: url(../assets/clients/client36.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client36.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client37 {
-  background-image: url(../assets/clients/client37.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client37.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client38 {
-  background-image: url(../assets/clients/client38.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client38.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client39 {
-  background-image: url(../assets/clients/client39.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client39.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client40 {
-  background-image: url(../assets/clients/client40.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client40.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client41 {
-  background-image: url(../assets/clients/client41.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client41.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client42 {
-  background-image: url(../assets/clients/client42.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client42.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client43 {
-  background-image: url(../assets/clients/client43.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client43.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client44 {
-  background-image: url(../assets/clients/client44.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client44.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client45 {
-  background-image: url(../assets/clients/client45.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client45.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client46 {
-  background-image: url(../assets/clients/client46.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client46.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client47 {
-  background-image: url(../assets/clients/client47.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client47.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client48 {
-  background-image: url(../assets/clients/client48.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client48.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client49 {
-  background-image: url(../assets/clients/client49.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client49.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client50 {
-  background-image: url(../assets/clients/client50.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client50.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client51 {
-  background-image: url(../assets/clients/client51.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client51.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client52 {
-  background-image: url(../assets/clients/client52.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client52.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client53 {
-  background-image: url(../assets/clients/client53.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client53.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client54 {
-  background-image: url(../assets/clients/client54.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client54.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client55 {
-  background-image: url(../assets/clients/client55.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client55.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client56 {
-  background-image: url(../assets/clients/client56.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client56.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client57 {
-  background-image: url(../assets/clients/client57.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client57.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client58 {
-  background-image: url(../assets/clients/client58.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client58.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client59 {
-  background-image: url(../assets/clients/client59.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client59.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client60 {
-  background-image: url(../assets/clients/client60.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client60.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client61 {
-  background-image: url(../assets/clients/client61.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client61.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client62 {
-  background-image: url(../assets/clients/client62.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client62.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client63 {
-  background-image: url(../assets/clients/client63.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client63.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client64 {
-  background-image: url(../assets/clients/client64.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client64.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client65 {
-  background-image: url(../assets/clients/client65.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client65.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client66 {
-  background-image: url(../assets/clients/client66.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client66.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client67 {
-  background-image: url(../assets/clients/client67.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client67.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client68 {
-  background-image: url(../assets/clients/client68.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client68.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client69 {
-  background-image: url(../assets/clients/client69.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client69.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client70 {
-  background-image: url(../assets/clients/client70.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client70.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client71 {
-  background-image: url(../assets/clients/client71.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client71.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client72 {
-  background-image: url(../assets/clients/client72.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client72.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client73 {
-  background-image: url(../assets/clients/client73.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client73.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client74 {
-  background-image: url(../assets/clients/client74.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client74.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client75 {
-  background-image: url(../assets/clients/client75.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client75.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client76 {
-  background-image: url(../assets/clients/client76.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client76.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client77 {
-  background-image: url(../assets/clients/client77.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client77.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client78 {
-  background-image: url(../assets/clients/client78.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client78.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client79 {
-  background-image: url(../assets/clients/client79.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client79.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client80 {
-  background-image: url(../assets/clients/client80.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client80.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client81 {
-  background-image: url(../assets/clients/client81.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client81.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
 }
 
 .client82 {
-  background-image: url(../assets/clients/client82.png);
-  width: 170px;
-  height: 70px;
+  background-image: url(../assets/new/clients/client82.png);
+  width: 205px;
+  height: 90px;
   margin: 0 0 40px 0;
+}
+
+.client83 {
+  background-image: url(../assets/new/clients/client83.png);
+  width: 205px;
+  height: 90px;
+  margin: 0 0 40px 0;
+}
+
+.client84 {
+  background-image: url(../assets/new/clients/client84.png);
+  width: 205px;
+  height: 90px;
+  margin: 0 0 40px 0;
+}
+
+/******* REANIMATE *******/
+
+.reanimate {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reanimateLogo {
+  background-image: url(../assets/mobile/logoreanimate.png);
+  width: 278px;
+  height: 101px;
+  margin: 10px 0 10px -130px;
+  transform: scale(0.6);
+}
+
+.reanimateLines {
+  background-image: url(../assets/new/reanimatelines.png);
+  width: 354px;
+  height: 396px;
+  margin: -225px 0 0 410px;
+}
+
+.reanimateText {
+  font-size: 16px;
+  line-height: 20px;
+  width: 255px;
+  color: #fff;
+  margin: 0 0 0px -40px;
+}
+
+.reanimateCards {
+  margin: -120px 0 25px -40px;
+}
+
+.reanimateMM {
+  width: 300px;
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 35px;
+  background-color: #FFFFFF;
+  border: 5px solid #E5E5E5;
+}
+
+.reanimateMMlogo {
+  background-image: url(../assets/mobile/logomm.png);
+  width: 242px;
+  height: 59px;
+  margin: 10px 0 25px 0px;
+}
+
+.reanimateMMtext {
+  width: 300px;
+  text-align: center;
+  font-weight: medium;
+  margin: 0 0 0 0px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.mmButton {
+  background-color: #3DA8E0;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 205px;
+  height: 45px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+}
+
+.reanimateRA {
+  width: 300px;
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 35px;
+  background-color: #FFFFFF;
+  border: 5px solid #E5E5E5;
+}
+
+.reanimateRAlogo {
+  background-image: url(../assets/mobile/logora.png);
+  width: 221px;
+  height: 59px;
+  margin: 10px 0 25px 0px;
+}
+
+.reanimateRAtext {
+  width: 300px;
+  text-align: center;
+  font-weight: medium;
+  margin: 0 0 0 0px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.raButton {
+  background-color: #6E4590;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 205px;
+  height: 45px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+}
+
+.reanimateDA {
+  width: 300px;
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 35px;
+  background-color: #FFFFFF;
+  border: 5px solid #E5E5E5;
+}
+
+.reanimateDAlogo {
+  background-image: url(../assets/mobile/logoda.png);
+  width: 219px;
+  height: 59px;
+  margin: 10px 0 25px 0px;
+}
+
+.reanimateDAtext {
+  width: 300px;
+  text-align: center;
+  font-weight: medium;
+  margin: 0 0 0 0px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.daButton {
+  background-color: #FF6F00;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 205px;
+  height: 45px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+}
+
+.reanimateAM {
+  width: 300px;
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 35px;
+  background-color: #FFFFFF;
+  border: 5px solid #E5E5E5;
+}
+
+.reanimateAMlogo {
+  background-image: url(../assets/mobile/logoam.png);
+  width: 188px;
+  height: 59px;
+  margin: 10px 0 25px 0px;
+}
+
+.reanimateAMtext {
+  width: 300px;
+  text-align: center;
+  font-weight: medium;
+  margin: 0 0 0 0px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.amButton {
+  background-color: #F3BA14;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 205px;
+  height: 45px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+}
+
+.reanimateTM {
+  width: 300px;
+  height: 305px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 0 0 20px 35px;
+  background-color: #FFFFFF;
+  border: 5px solid #E5E5E5;
+}
+
+.reanimateTMlogo {
+  background-image: url(../assets/mobile/logortm.png);
+  width: 180px;
+  height: 59px;
+  margin: 10px 0 25px 0px;
+}
+
+.reanimateTMtext {
+  width: 300px;
+  text-align: center;
+  font-weight: medium;
+  margin: 0 0 0 0px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.tmButton {
+  background-color: #1BDA28;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  width: 205px;
+  height: 45px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+}
+
+.reanimatePoints {
+  background-image: url(../assets/new/pointsH.png);
+  width: 533px;
+  height: 146px;
+  margin: -50px 0 -55px 240px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.6);
 }
 
 /******* CONTACT *******/
@@ -2552,23 +2755,56 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EB6099;
+  background-color: #6CABDE;
   color: #000000;
+  overflow: hidden;
+  width: 340px;
+  height: 740px;
+}
+
+.contactWind {
+  background-image: url(../assets/new/wind3.png);
+  width: 331px;
+  height: 154px;
+  margin: 30px 0 0 180px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.contactPointsV {
+  background-image: url(../assets/new/pointsV.png);
+  width: 146px;
+  height: 533px;
+  margin: 0 0 0 0;
+  transform: scale(0.6);
+  background-repeat: no-repeat;
+  margin: -350px 0 -300px 300px;
 }
 
 .contactTitle {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 62px;
-  margin: 50px 0 20px -170px;
+  font-size: 32px;
+  line-height: 43px;
+  margin: 150px 0 20px -125px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.contactTitleTag {
+  background-color: #EB6099;
+  width: 151px;
+  height: 15px;
+  position: relative;
+  margin: -35px 0 0 -145px;
+  z-index: 0;
 }
 
 .contactText {
-  font-family: Segoe UI;
-  font-size: 20px;
-  line-height: 27px;
-  width: 310px;
-  margin: 0 0 40px 0;
+  font-size: 18px;
+  line-height: 22px;
+  width: 260px;
+  margin: 20px 0 40px -35px;
 }
 
 .contactForm {
@@ -2587,21 +2823,21 @@
 }
 
 .formSubject {
-  width: 313px;
-  height: 50px;
+  width: 269px;
+  height: 56px;
   border: 2px #000000 solid;
   border-radius: 30px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 16px;
   font-family: Segoe UI;
   font-size: 20px;
   line-height: 27px;
   margin: 0 0 5px 0;
-  background-color: #EB6099;
+  background-color: #6CABDE;
 }
 
 .formName {
-  width: 313px;
-  height: 47px;
+  width: 269px;
+  height: 56px;
   border: 2px #000000 solid;
   border-radius: 30px;
   padding: 0 0 0 20px;
@@ -2609,7 +2845,7 @@
   font-size: 20px;
   line-height: 27px;
   margin: 5px 0 5px 0;
-  background-color: #EB6099;
+  background-color: #6CABDE;
 }
 
 .formName::placeholder {
@@ -2617,8 +2853,8 @@
 }
 
 .formEmail {
-  width: 313px;
-  height: 47px;
+  width: 269px;
+  height: 56px;
   border: 2px #000000 solid;
   border-radius: 30px;
   padding: 0 0 0 20px;
@@ -2626,7 +2862,7 @@
   font-size: 20px;
   line-height: 27px;
   margin: 5px 0 5px 0;
-  background-color: #EB6099;
+  background-color: #6CABDE;
 }
 
 .formEmail::placeholder {
@@ -2634,8 +2870,8 @@
 }
 
 .formPhone {
-  width: 313px;
-  height: 47px;
+  width: 269px;
+  height: 56px;
   border: 2px #000000 solid;
   border-radius: 30px;
   color: #000000;
@@ -2643,7 +2879,7 @@
   font-family: Segoe UI;
   font-size: 20px;
   line-height: 27px;
-  background-color: #EB6099;
+  background-color: #6CABDE;
   margin: 5px 0 5px 0;
 }
 
@@ -2652,14 +2888,14 @@
 }
 
 .formMessage {
-  width: 313px;
-  height: 400px;
+  width: 269px;
+  height: 132px;
   border: 2px #000000 solid;
   border-radius: 30px;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 20px 20px;
   margin: 5px 0 10px 0;
   resize: none;
-  background-color: #EB6099;
+  background-color: #6CABDE;
 }
 
 .formMessage::placeholder {
@@ -2675,14 +2911,24 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  width: 215px;
-  height: 50px;
+  width: 141px;
+  height: 40px;
   cursor: pointer;
-  margin: 10px 0 50px 0;
+  margin: 0px 0 0px 130px;
 }
 
 .contactButton:hover {
   background-color: #d8598e;
+}
+
+.contactPointsH {
+  background-image: url(../assets/new/pointsH.png);
+  width: 533px;
+  height: 146px;
+  margin: -10px 0 -70px -180px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scale(0.5);
 }
 
 /******* FOOTER *******/
@@ -2698,14 +2944,14 @@
   background-image: url(../assets/mobile/logopoint3.png);
   width: 187px;
   height: 120px;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0 -120px;
   cursor: pointer;
 }
 
 .footerLinks {
   font-size: 20px;
   line-height: 25px;
-  margin: 100px 0 50px 0px;
+  margin: 60px 0 50px -40px;
 }
 
 .footerAbout {
@@ -2721,11 +2967,8 @@
 
 .footerSocials {
   display: flex;
-  flex-wrap: wrap;
-  width: 200px;
-  height: 200px;
-  justify-content: space-between;
-  margin: 20px 0 20px 0;
+  justify-content: center;
+  margin: -10px 0 20px 10px;
 }
 
 .whatsapp {
@@ -2734,14 +2977,8 @@
   height: 75px;
   cursor: pointer;
   background-repeat: no-repeat;
-}
-
-.instagram {
-  background-image: url(../assets/new/insta.png);
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  background-repeat: no-repeat;
+  transform: scale(0.8);
+  margin: 0 0px 0 0;
 }
 
 .linkedin {
@@ -2750,6 +2987,18 @@
   height: 75px;
   cursor: pointer;
   background-repeat: no-repeat;
+  transform: scale(0.8);
+  margin: 0 0px 0 -10px;
+}
+
+.instagram {
+  background-image: url(../assets/new/insta.png);
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+  margin: 0 0px 0 -10px;
 }
 
 .facebook {
@@ -2758,6 +3007,8 @@
   height: 75px;
   cursor: pointer;
   background-repeat: no-repeat;
+  transform: scale(0.8);
+  margin: 0 0px 0 -10px;
 }
 
 .pin {
@@ -2769,9 +3020,9 @@
 
 .address {
   font-family: Poppins;
-  font-size: 15px;
-  line-height: 23px;
-  margin: 0px 0 40px 0px;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px 0 40px -20px;
 }
 
 .complianceButton {
@@ -2785,7 +3036,7 @@
   width: 215px;
   height: 50px;
   cursor: pointer;
-  margin: 0px 0 50px 10px;
+  margin: 0px 0 50px -35px;
 }
 
 .complianceButton:hover {
@@ -2797,7 +3048,7 @@ background-color: #d8598e;
   font-family: Poppins;
   font-size: 12px;
   line-height: 16px;
-  margin: 0 0 30px -120px;
+  margin: -40px 0 30px -125px;
 }
 
 @media (min-width: 450px) and (max-width:767px) {
@@ -2915,7 +3166,7 @@ background-color: #d8598e;
   }
 
   .case1Image {
-    margin: 0 0 0 650px;
+    margin: 0 0 0 0px;
   }
 
   .blueBalls {
@@ -2992,21 +3243,35 @@ background-color: #d8598e;
     margin: 0 0 -100px 0;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 426px;
     height: 401px;
     margin: 0 auto;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 426px;
     height: 401px;
     margin: 0 auto;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
+    width: 426px;
+    height: 401px;
+    margin: 0 auto;
+    background-size: 100%;
+  }
+
+  .news4Picture {
+    width: 426px;
+    height: 401px;
+    margin: 0 auto;
+    background-size: 100%;
+  }
+
+  .news5Picture {
     width: 426px;
     height: 401px;
     margin: 0 auto;
@@ -3900,96 +4165,160 @@ background-color: #d8598e;
     margin: 0 0 0 0;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
 
-  .havaianasTagText {
+  .news4Picture {
+    width: 680px;
+    height: 640px;
+    margin: 0 0 0 0;
+    background-size: 100%;
+  }
+
+  .news5Picture {
+    width: 680px;
+    height: 640px;
+    margin: 0 0 0 0;
+    background-size: 100%;
+  }
+
+  .news1TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .havaianasTagLine {
+  .news1TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .havaianasNewsTitle {
+  .news1NewsTitle {
     width: 400px;
     margin: 0px 0 40px 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .havaianasNewsText {
+  .news1NewsText {
     width: 330px;
     margin: 0px 0 5px 0px;
     line-height: 20px;
     font-size: 15px;
   }
 
-  .veloeTagText {
+  .news2TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .veloeTagLine {
+  .news2TagLine {
     width: 220px;
     margin: -15px 0 20px 0px;
   }
 
-  .veloeNewsTitle {
+  .news2NewsTitle {
     width: 400px;
     margin: 0px 0 0 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .veloeNewsText {
+  .news2NewsText {
     width: 330px;
     margin: 0px 0 0 0px;
     line-height: 20px;
     font-size: 15px;
   }
 
-  .ceaTagText {
+  .news3TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .ceaTagLine {
+  .news3TagLine {
     width: 220px;
     margin: -15px 0 20px 0px;
   }
 
-  .ceaNewsTitle {
+  .news3NewsTitle {
     width: 400px;
     margin: 0px 0 0 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .ceaNewsText {
+  .news3NewsText {
+    width: 330px;
+    margin: 0px 0 0 0px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .news4TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news4TagLine {
+    width: 220px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news4NewsTitle {
+    width: 400px;
+    margin: 0px 0 0 0px;
+    line-height: 45px;
+    font-size: 40px;
+  }
+  
+  .news4NewsText {
+    width: 330px;
+    margin: 0px 0 0 0px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .news5TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news5TagLine {
+    width: 220px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news5NewsTitle {
+    width: 400px;
+    margin: 0px 0 0 0px;
+    line-height: 45px;
+    font-size: 40px;
+  }
+  
+  .news5NewsText {
     width: 330px;
     margin: 0px 0 0 0px;
     line-height: 20px;
@@ -4148,9 +4477,11 @@ background-color: #d8598e;
   }
   
   .PriscilaPicture {
-    background-image: url(../assets/desktop_s/priscila.png);
-    width: 205px;
-    height: 211px;
+    background-image: url(../assets/new/picThiago.png);
+  width: 205px;
+  height: 211px;
+  background-size: 100%;
+  background-repeat: no-repeat;
   }
   
   .PriscilaName {
@@ -4172,9 +4503,11 @@ background-color: #d8598e;
   }
   
   .WillPicture {
-    background-image: url(../assets/desktop_s/will.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .WillName {
@@ -4197,9 +4530,11 @@ background-color: #d8598e;
   }
   
   .MarianaPicture {
-    background-image: url(../assets/desktop_s/mariana.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .MarianaName {
@@ -4222,9 +4557,11 @@ background-color: #d8598e;
   }
   
   .LouroPicture {
-    background-image: url(../assets/desktop_s/louro.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .LouroName {
@@ -4246,9 +4583,11 @@ background-color: #d8598e;
   }
   
   .RobsonPicture {
-    background-image: url(../assets/desktop_s/robson.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .RobsonName {
@@ -4270,9 +4609,11 @@ background-color: #d8598e;
   }
   
   .TatoPicture {
-    background-image: url(../assets/desktop_s/tato.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .TatoName {
@@ -4294,9 +4635,11 @@ background-color: #d8598e;
   }
   
   .DaniellePicture {
-    background-image: url(../assets/desktop_s/danielle.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .DanielleName {
@@ -5378,96 +5721,160 @@ background-color: #d8598e;
     margin: 20px 0 0 -200px;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
     width: 680px;
     height: 640px;
     margin: 0 0 0 0;
     background-size: 100%;
   }
 
-  .havaianasTagText {
+  .news4Picture {
+    width: 680px;
+    height: 640px;
+    margin: 0 0 0 0;
+    background-size: 100%;
+  }
+
+  .news5Picture {
+    width: 680px;
+    height: 640px;
+    margin: 0 0 0 0;
+    background-size: 100%;
+  }
+
+  .news1TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .havaianasTagLine {
+  .news1TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .havaianasNewsTitle {
+  .news1NewsTitle {
     width: 400px;
     margin: 0px 0 40px 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .havaianasNewsText {
+  .news1NewsText {
     width: 330px;
     margin: 0px 0 5px 0px;
     line-height: 20px;
     font-size: 15px;
   }
 
-  .veloeTagText {
+  .news2TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .veloeTagLine {
+  .news2TagLine {
     width: 220px;
     margin: -15px 0 20px 0px;
   }
 
-  .veloeNewsTitle {
+  .news2NewsTitle {
     width: 400px;
     margin: 0px 0 0 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .veloeNewsText {
+  .news2NewsText {
     width: 330px;
     margin: 0px 0 0 0px;
     line-height: 20px;
     font-size: 15px;
   }
 
-  .ceaTagText {
+  .news3TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .ceaTagLine {
+  .news3TagLine {
     width: 220px;
     margin: -15px 0 20px 0px;
   }
 
-  .ceaNewsTitle {
+  .news3NewsTitle {
     width: 400px;
     margin: 0px 0 0 0px;
     line-height: 45px;
     font-size: 40px;
   }
   
-  .ceaNewsText {
+  .news3NewsText {
+    width: 330px;
+    margin: 0px 0 0 0px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .news4TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news4TagLine {
+    width: 220px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news4NewsTitle {
+    width: 400px;
+    margin: 0px 0 0 0px;
+    line-height: 45px;
+    font-size: 40px;
+  }
+  
+  .news4NewsText {
+    width: 330px;
+    margin: 0px 0 0 0px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .news5TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news5TagLine {
+    width: 220px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news5NewsTitle {
+    width: 400px;
+    margin: 0px 0 0 0px;
+    line-height: 45px;
+    font-size: 40px;
+  }
+  
+  .news5NewsText {
     width: 330px;
     margin: 0px 0 0 0px;
     line-height: 20px;
@@ -5626,9 +6033,11 @@ background-color: #d8598e;
   }
   
   .PriscilaPicture {
-    background-image: url(../assets/desktop_s/priscila.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .PriscilaName {
@@ -5650,9 +6059,11 @@ background-color: #d8598e;
   }
   
   .WillPicture {
-    background-image: url(../assets/desktop_s/will.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .WillName {
@@ -5675,9 +6086,11 @@ background-color: #d8598e;
   }
   
   .MarianaPicture {
-    background-image: url(../assets/desktop_s/mariana.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .MarianaName {
@@ -5700,9 +6113,11 @@ background-color: #d8598e;
   }
   
   .LouroPicture {
-    background-image: url(../assets/desktop_s/louro.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .LouroName {
@@ -5724,9 +6139,11 @@ background-color: #d8598e;
   }
   
   .RobsonPicture {
-    background-image: url(../assets/desktop_s/robson.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .RobsonName {
@@ -5748,9 +6165,11 @@ background-color: #d8598e;
   }
   
   .TatoPicture {
-    background-image: url(../assets/desktop_s/tato.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .TatoName {
@@ -5772,9 +6191,11 @@ background-color: #d8598e;
   }
   
   .DaniellePicture {
-    background-image: url(../assets/desktop_s/danielle.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .DanielleName {
@@ -7022,96 +7443,160 @@ background-color: #d8598e;
     height: 500px;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 833px;
     height: 756px;
     margin: 0 5px 0 -5px;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 833px;
     height: 756px;
     margin: 0 15px 0 -15px;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
     width: 833px;
     height: 756px;
     margin: 0 30px 0 -30px;
     background-size: 100%;
   }
 
-  .havaianasTagText {
+  .news4Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news5Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news1TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .havaianasTagLine {
+  .news1TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .havaianasNewsTitle {
+  .news1NewsTitle {
     width: 600px;
     margin: 0px 0 40px 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .havaianasNewsText {
+  .news1NewsText {
     width: 600px;
     margin: 0px 0 -10px 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .veloeTagText {
+  .news2TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .veloeTagLine {
+  .news2TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .veloeNewsTitle {
+  .news2NewsTitle {
     width: 600px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .veloeNewsText {
+  .news2NewsText {
     width: 600px;
     margin: 0px 0 0 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .ceaTagText {
+  .news3TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .ceaTagLine {
+  .news3TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .ceaNewsTitle {
+  .news3NewsTitle {
     width: 600px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .ceaNewsText {
+  .news3NewsText {
+    width: 600px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news4TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news4TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news4NewsTitle {
+    width: 600px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news4NewsText {
+    width: 600px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news5TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news5TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news5NewsTitle {
+    width: 600px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news5NewsText {
     width: 600px;
     margin: 0px 0 0 0px;
     line-height: 30px;
@@ -7271,9 +7756,11 @@ background-color: #d8598e;
   }
   
   .PriscilaPicture {
-    background-image: url(../assets/desktop_s/priscila.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .PriscilaName {
@@ -7295,9 +7782,11 @@ background-color: #d8598e;
   }
   
   .WillPicture {
-    background-image: url(../assets/desktop_s/will.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .WillName {
@@ -7320,9 +7809,11 @@ background-color: #d8598e;
   }
   
   .MarianaPicture {
-    background-image: url(../assets/desktop_s/mariana.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .MarianaName {
@@ -7345,9 +7836,11 @@ background-color: #d8598e;
   }
   
   .LouroPicture {
-    background-image: url(../assets/desktop_s/louro.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .LouroName {
@@ -7369,9 +7862,11 @@ background-color: #d8598e;
   }
   
   .RobsonPicture {
-    background-image: url(../assets/desktop_s/robson.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .RobsonName {
@@ -7393,9 +7888,11 @@ background-color: #d8598e;
   }
   
   .TatoPicture {
-    background-image: url(../assets/desktop_s/tato.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .TatoName {
@@ -7417,9 +7914,11 @@ background-color: #d8598e;
   }
   
   .DaniellePicture {
-    background-image: url(../assets/desktop_s/danielle.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .DanielleName {
@@ -8710,96 +9209,160 @@ background-color: #d8598e;
     height: 500px;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 833px;
     height: 756px;
     margin: 0 5px 0 -5px;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 833px;
     height: 756px;
     margin: 0 15px 0 -15px;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
     width: 833px;
     height: 756px;
     margin: 0 30px 0 -30px;
     background-size: 100%;
   }
 
-  .havaianasTagText {
+  .news4Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news5Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news1TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .havaianasTagLine {
+  .news1TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .havaianasNewsTitle {
+  .news1NewsTitle {
     width: 800px;
     margin: 0px 0 50px 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .havaianasNewsText {
+  .news1NewsText {
     width: 650px;
     margin: 0px 0 10px 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .veloeTagText {
+  .news2TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .veloeTagLine {
+  .news2TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .veloeNewsTitle {
+  .news2NewsTitle {
     width: 800px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .veloeNewsText {
+  .news2NewsText {
     width: 650px;
     margin: 0px 0 0 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .ceaTagText {
+  .news3TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .ceaTagLine {
+  .news3TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .ceaNewsTitle {
+  .news3NewsTitle {
     width: 800px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .ceaNewsText {
+  .news3NewsText {
+    width: 650px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news4TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news4TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news4NewsTitle {
+    width: 800px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news4NewsText {
+    width: 650px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news5TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news5TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news5NewsTitle {
+    width: 800px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news5NewsText {
     width: 650px;
     margin: 0px 0 0 0px;
     line-height: 30px;
@@ -8998,9 +9561,11 @@ background-color: #d8598e;
   }
   
   .PriscilaPicture {
-    background-image: url(../assets/desktop_s/priscila.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .PriscilaName {
@@ -9022,9 +9587,11 @@ background-color: #d8598e;
   }
   
   .WillPicture {
-    background-image: url(../assets/desktop_s/will.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .WillName {
@@ -9047,9 +9614,11 @@ background-color: #d8598e;
   }
   
   .MarianaPicture {
-    background-image: url(../assets/desktop_s/mariana.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .MarianaName {
@@ -9072,9 +9641,11 @@ background-color: #d8598e;
   }
   
   .LouroPicture {
-    background-image: url(../assets/desktop_s/louro.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .LouroName {
@@ -9096,9 +9667,11 @@ background-color: #d8598e;
   }
   
   .RobsonPicture {
-    background-image: url(../assets/desktop_s/robson.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .RobsonName {
@@ -9120,9 +9693,11 @@ background-color: #d8598e;
   }
   
   .TatoPicture {
-    background-image: url(../assets/desktop_s/tato.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .TatoName {
@@ -9144,9 +9719,11 @@ background-color: #d8598e;
   }
   
   .DaniellePicture {
-    background-image: url(../assets/desktop_s/danielle.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .DanielleName {
@@ -10443,96 +11020,160 @@ background-color: #d8598e;
     height: 500px;
   }
 
-  .havaianasPicture {
+  .news1Picture {
     width: 833px;
     height: 756px;
     margin: 0 5px 0 -5px;
     background-size: 100%;
   }
   
-  .veloePicture {
+  .news2Picture {
     width: 833px;
     height: 756px;
     margin: 0 15px 0 -15px;
     background-size: 100%;
   }
   
-  .ceaPicture {
+  .news3Picture {
     width: 833px;
     height: 756px;
     margin: 0 30px 0 -30px;
     background-size: 100%;
   }
 
-  .havaianasTagText {
+  .news4Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news5Picture {
+    width: 833px;
+    height: 756px;
+    margin: 0 30px 0 -30px;
+    background-size: 100%;
+  }
+
+  .news1TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .havaianasTagLine {
+  .news1TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .havaianasNewsTitle {
+  .news1NewsTitle {
     width: 800px;
     margin: 0px 0 50px 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .havaianasNewsText {
+  .news1NewsText {
     width: 650px;
     margin: 0px 0 10px 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .veloeTagText {
+  .news2TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .veloeTagLine {
+  .news2TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .veloeNewsTitle {
+  .news2NewsTitle {
     width: 800px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .veloeNewsText {
+  .news2NewsText {
     width: 650px;
     margin: 0px 0 0 0px;
     line-height: 30px;
     font-size: 20px;
   }
 
-  .ceaTagText {
+  .news3TagText {
     font-size: 20px;
     line-height: 30px;
     margin: 0px 0 0 0px;
   }
   
-  .ceaTagLine {
+  .news3TagLine {
     width: 280px;
     margin: -15px 0 20px 0px;
   }
 
-  .ceaNewsTitle {
+  .news3NewsTitle {
     width: 800px;
     margin: 0px 0 0 0px;
     line-height: 60px;
     font-size: 60px;
   }
   
-  .ceaNewsText {
+  .news3NewsText {
+    width: 650px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news4TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news4TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news4NewsTitle {
+    width: 800px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news4NewsText {
+    width: 650px;
+    margin: 0px 0 0 0px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .news5TagText {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 0 0px;
+  }
+  
+  .news5TagLine {
+    width: 280px;
+    margin: -15px 0 20px 0px;
+  }
+
+  .news5NewsTitle {
+    width: 800px;
+    margin: 0px 0 0 0px;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  
+  .news5NewsText {
     width: 650px;
     margin: 0px 0 0 0px;
     line-height: 30px;
@@ -10742,9 +11383,11 @@ background-color: #d8598e;
   }
   
   .PriscilaPicture {
-    background-image: url(../assets/desktop_s/priscila.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .PriscilaName {
@@ -10766,9 +11409,11 @@ background-color: #d8598e;
   }
   
   .WillPicture {
-    background-image: url(../assets/desktop_s/will.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .WillName {
@@ -10791,9 +11436,11 @@ background-color: #d8598e;
   }
   
   .MarianaPicture {
-    background-image: url(../assets/desktop_s/mariana.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .MarianaName {
@@ -10816,9 +11463,11 @@ background-color: #d8598e;
   }
   
   .LouroPicture {
-    background-image: url(../assets/desktop_s/louro.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .LouroName {
@@ -10840,9 +11489,11 @@ background-color: #d8598e;
   }
   
   .RobsonPicture {
-    background-image: url(../assets/desktop_s/robson.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .RobsonName {
@@ -10864,9 +11515,11 @@ background-color: #d8598e;
   }
   
   .TatoPicture {
-    background-image: url(../assets/desktop_s/tato.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .TatoName {
@@ -10888,9 +11541,11 @@ background-color: #d8598e;
   }
   
   .DaniellePicture {
-    background-image: url(../assets/desktop_s/danielle.png);
+    background-image: url(../assets/new/picThiago.png);
     width: 205px;
     height: 211px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   
   .DanielleName {

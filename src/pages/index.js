@@ -543,8 +543,8 @@ function renderObjectSize() {
           <div className={styles.client80} />
           <div className={styles.client81} />
           <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
+          <div className={styles.client83} />
+          <div className={styles.client84} />
         </div>
     )
   }
@@ -1199,40 +1199,53 @@ function renderCases() {
     return (
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>nossos cases_</div>
-          <div className={styles.case2Title}>AdOps Ambev</div>
-          <div className={styles.arrowRight2} onClick={advToCase2}/>
-          <div className={styles.case2Image} />
-          <div className={styles.case2logo} />
-          <div className={styles.case2Info}>
-            <div className={styles.case2Highlights}>
-              <div className={styles.case2Subtitle1}>Highlights</div>
-              <div className={styles.case2Text1}>• Inicio da operação Global em 2020 <br/><br/>•  Gestão Global de Ad Ops via Adserver Sizmek <br/><br/>•  Zeladoria da taxonomia de mídia Global <br/><br/>• Gestão das subidas das campanhas das agências locais em 70 paises <br/><br/>•  Operação de produção digital com automação <br/><br/>•  Operação de produção de email mkt com automação</div>
-            </div>
-            <div className={styles.case2Results}>
-              <div className={styles.case2Subtitle2}>Resultados</div>
-              <div className={styles.case2Text2}>• Redução de SLA de subida de campanha de 1 semana para dois dias <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências <br/><br/>• Criação de dashboard com indicadores operacionais dos países</div>
-            </div>
-          </div> 
+          <div className={styles.casesTitleTag} />
+          <div className={styles.arrowRight} onClick={advToCase2}/>
+          <div className={styles.case1Image} />
+          <div className={styles.case1logo} />
+          <div className={styles.case1Subtitle}>Highlights</div>
+          <div className={styles.case1Text}>
+            • Crescimento de 2.000% na área de CRM para vendas.<br/>
+            • Uma semana para entrega do Pack de banners, reduzimos para horas.<br/>
+            • Operação de produção digital global.<br/>
+            • Operação de produção de email mkt.
+          </div>
         </div>
     )
   } if (displayCase == 2){
     return (
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
-        <div className={styles.case1Title}>AdOps Vivo</div>
+        <div className={styles.casesTitleTag} />
         <div className={styles.arrowLeft} onClick={backToCase1}/>
-        <div className={styles.case1Image} />
-        <div className={styles.case1logo} />
-        <div className={styles.case1Info}>
-          <div className={styles.case1Highlights}>
-            <div className={styles.case1Subtitle1}>Highlights</div>
-            <div className={styles.case1Text1}>• Inicio da operação em 2019 <br/><br/>• Gestão de Ad Ops via Adserver CM Google <br/><br/>• Zeladoria da taxonomia de mídia Vivo <br/><br/>• Gestão da operação de DCO via Studio Google <br/><br/>• Operação de produção digital com automação <br/><br/>• Operação de produção de email mkt com automação</div>
-          </div>
-          <div className={styles.case1Results}>
-            <div className={styles.case1Subtitle2}>Resultados</div>
-            <div className={styles.case1Text2}>• Em 2022 ainda estamos com a operação Vivo CM + DCO (criamos processo com SLA de 2h) <br/><br/>• Desenvolvemos um Sistema de Taxonomia automatizado para as agências que trabalham com Vivo <br/><br/>• Produção digital: media de uma semana para entregar do Pack de banners, reduzimos para horas <br/><br/>• Produção de email mkt: zeramos o backlog de meses em 2 dias <br/><br/>• Implementamos ferramenta de automação de banners no processo da Vivo</div>
-          </div>
-        </div> 
+        <div className={styles.arrowRight2} onClick={advToCase3}/>
+        <div className={styles.case2Image} />
+        <div className={styles.case2logo} />
+        <div className={styles.case2Subtitle}>Highlights</div>
+        <div className={styles.case2Text}>
+          • Gestão de Ad Ops via Adserver.<br/>
+          • Zeladoria da taxonomia de mídia Vivo.<br/>
+          • Automação para produção digital.<br/>
+          • Automação para E-mail mkt.<br/>
+          • Média de uma semana para entregas, reduzimos para horas.
+        </div>
+      </div>
+    )
+  } if (displayCase == 3){
+    return (
+      <div id='cases' className={styles.cases}>
+        <div className={styles.casesTitle}>nossos cases_</div>
+        <div className={styles.casesTitleTag} />
+        <div className={styles.arrowLeft} onClick={backToCase2}/>
+        <div className={styles.case3Image} />
+        <div className={styles.case3logo} />
+        <div className={styles.case3Subtitle}>Highlights</div>
+        <div className={styles.case3Text}>
+          • Produção digital com automação.<br/>
+          • Produção de e-mkt com automação.<br/>
+          • Uma semana para entrega do Pack de banners, reduzimos para horas.<br/>
+          • Criação de um dashboard com indicadores operacionais dos países.
+        </div>
       </div>
     )
   } 
@@ -1386,18 +1399,21 @@ function renderNews() {
    if (newsPage == 0){
     return (
       <div className={styles.news}>
-        <div className={styles.havaianasPicture} />
+        <div className={styles.news1Picture} />
         <div className={styles.newsTextsContainer}>
-          <div className={styles.havaianasTag}>
-            <div className={styles.havaianasTagText}>HAVAIANAS É POINT MEDIA!</div>
-            <div className={styles.havaianasTagLine} />
+          <div className={styles.news1Tag}>
+            <div className={styles.news1TagText}>PicPay é POINT MEDIA!</div>
+            <div className={styles.news1TagLine} />
           </div>
-          <div className={styles.havaianasNewsTitle}>Iniciamos uma nova etapa em nossa parceria com a Havaianas!</div>
-          <div className={styles.havaianasNewsText}>Após o ótimo desempenho da equipe POINT MEDIA com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o time global e nacional.</div>
+          <div className={styles.news1NewsText}>
+            O nosso jeito divertido de lidar com dinheiro! Nós <b>simplificamos finanças</b> e agora fazemos parte da incrível família de clientes da Point Media. Vamos simplificar a vida de todos. <b>Vem com a gente</b>! 😄
+          </div>
             <div className={styles.carouselBullets}>
-              <div className={styles.blackBullet} />
-              <div className={styles.blueBullet} onClick={advOnePage} />
-              <div className={styles.blueBullet} onClick={advTwoPages} />
+              <div className={styles.blueBullet} />
+              <div className={styles.blackBullet} onClick={advOnePage} />
+              <div className={styles.blackBullet} onClick={advTwoPages} />
+              <div className={styles.blackBullet} onClick={advThreePages} />
+              <div className={styles.blackBullet} onClick={advFourPages} />
           </div>
         </div>
       </div>
@@ -1405,18 +1421,21 @@ function renderNews() {
   } if (newsPage == 1){
     return (
       <div className={styles.news}>
-        <div className={styles.veloePicture} />
+        <div className={styles.news2Picture} />
         <div className={styles.newsTextsContainer}>
-          <div className={styles.veloeTag}>
-              <div className={styles.veloeTagText}>VELOE É POINT MEDIA!</div>
-              <div className={styles.veloeTagLine} />
+          <div className={styles.news2Tag}>
+              <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
+              <div className={styles.news2TagLine} />
             </div>
-            <div className={styles.veloeNewsTitle}>A Veloe estacionou na Point Media e é a nossa nova cliente!<br/><br/></div>
-            <div className={styles.veloeNewsText}>A responsabilidade de desenvolver toda a produção e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!<br/><br/></div>
+            <div className={styles.news2NewsText}>
+              E temos o prazer de ser parceiros da agência DM9, especialistas em tornar <b>ideias em realidade</b>. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
+            </div>
             <div className={styles.carouselBullets}>
-              <div className={styles.blueBullet} onClick={backOnePage} />
-              <div className={styles.blackBullet}  />
-              <div className={styles.blueBullet} onClick={advOnePage}/>
+              <div className={styles.blackBullet} onClick={backOnePage} />
+              <div className={styles.blueBullet}  />
+              <div className={styles.blackBullet} onClick={advOnePage}/>
+              <div className={styles.blackBullet} onClick={advTwoPages} />
+              <div className={styles.blackBullet} onClick={advThreePages} />
           </div>
         </div>
       </div>
@@ -1424,24 +1443,71 @@ function renderNews() {
   } if (newsPage == 2){
     return (
       <div className={styles.news}>
-        <div className={styles.ceaPicture} />
+        <div className={styles.news3Picture} />
         <div className={styles.newsTextsContainer}>
-          <div className={styles.ceaTag}>
-              <div className={styles.ceaTagText}>C&#38;A é POINT MEDIA!</div>
-              <div className={styles.ceaTagLine} />
+          <div className={styles.news3Tag}>
+              <div className={styles.news3TagText}>Havaianas é POINT MEDIA!</div>
+              <div className={styles.news3TagLine} />
             </div>
-            <div className={styles.ceaNewsTitle}>A C&#38;A é a mais nova cliente a fazer parte do time POINT MEDIA<br/><br/></div>
-            <div className={styles.ceaNewsText}>Nossa equipe assumiu a operação de comunicação digital e CRM e já está à frente na produção das principais campanhas destes meios da gigante varejista!</div>
+            <div className={styles.news3NewsText}>
+              Iniciamos uma nova etapa em nossa parceria com a Havaianas! Após o <b>ótimo desempenho</b> da equipe <b>POINT MEDIA</b> com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o <b>time global</b> e <b>nacional</b>.
+            </div>
             <div className={styles.carouselBullets}>
-              <div className={styles.blueBullet} onClick={backTwoPages} />
-              <div className={styles.blueBullet} onClick={backOnePage} />
-              <div className={styles.blackBullet}  />
+              <div className={styles.blackBullet} onClick={backTwoPages} />
+              <div className={styles.blackBullet} onClick={backOnePage} />
+              <div className={styles.blueBullet}  />
+              <div className={styles.blackBullet} onClick={advOnePage} />
+              <div className={styles.blackBullet} onClick={advTwoPages} />
           </div>
         </div>
       </div>
     )
-  } 
-}
+  } if (newsPage == 3){
+    return (
+      <div className={styles.news}>
+        <div className={styles.news4Picture} />
+        <div className={styles.newsTextsContainer}>
+          <div className={styles.news4Tag}>
+              <div className={styles.news4TagText}>C&#38;A é POINT MEDIA!</div>
+              <div className={styles.news4TagLine} />
+            </div>
+            <div className={styles.news4NewsText}>
+              A mais nova cliente a fazer parte do time. Nossa equipe <b>assumiu a operação</b> de comunicação <b>digital</b> e <b>CRM</b> e já está à frente na produção das principais campanhas destes meios da <b>gigante varejista</b>!
+            </div>
+            <div className={styles.carouselBullets}>
+              <div className={styles.blackBullet} onClick={backThreePages} />
+              <div className={styles.blackBullet} onClick={backTwoPages} />
+              <div className={styles.blackBullet} onClick={backOnePage} />
+              <div className={styles.blueBullet}  />
+              <div className={styles.blackBullet} onClick={advOnePage} />
+          </div>
+        </div>
+      </div>
+    )
+  } if (newsPage == 4){
+    return (
+      <div className={styles.news}>
+        <div className={styles.news5Picture} />
+        <div className={styles.newsTextsContainer}>
+          <div className={styles.news5Tag}>
+              <div className={styles.news5TagText}>Veloe é POINT MEDIA!</div>
+              <div className={styles.news5TagLine} />
+            </div>
+            <div className={styles.news5NewsText}>
+              Pegamos a estrada com a Veloe e agora não tem pedágio que segure! A responsabilidade de <b>desenvolver toda a produção</b> e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!
+            </div>
+            <div className={styles.carouselBullets}>
+              <div className={styles.blackBullet} onClick={backFourPages} />
+              <div className={styles.blackBullet} onClick={backThreePages} />
+              <div className={styles.blackBullet} onClick={backTwoPages} />
+              <div className={styles.blackBullet} onClick={backOnePage} />
+              <div className={styles.blueBullet}  />
+          </div>
+        </div>
+      </div>
+    )
+  }
+  }
 }
 
 /***** EXTERNAL LINKS  *****/
@@ -1641,6 +1707,26 @@ const handleVideoLoad = () => {
     setIsLoading(false);
   }, 100)
   };
+
+/***** PREV WORKS CONTAINER ******/
+ 
+const [prevWorksClosed, setPrevWorksClosed] = useState(true);
+
+const openPrevWorks = () => {
+  setPrevWorksClosed(false)
+}
+
+/***** MODAL CONTATO ******/
+ 
+const [contatoOpen, setContatoOpen] = useState(false);
+
+const openModalContato = () => {
+  setContatoOpen(true)
+}
+
+const closeModalContato = () => {
+  setContatoOpen(false)
+}
   
 /***** RETURN *****/
 
@@ -2239,7 +2325,7 @@ const handleVideoLoad = () => {
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
-          <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
+          <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
         </div>
         <div className={styles.menuSocials}>
           <div className={styles.whatsapp} onClick={openWhatsapp} />
@@ -2274,50 +2360,32 @@ const handleVideoLoad = () => {
       </div>
       
       <div id='about' className={styles.about}>
-        <div className={styles.aboutPoint}>a POINT_</div>
-        <div className={styles.aboutTitle}>Onde a inspiração ganha vida e o movimento nunca para!</div>
+        <div className={styles.aboutWind} />
+        <div className={styles.aboutPointsV} />
+        <div className={styles.aboutWrap}>
+          <div className={styles.aboutPoint}>a POINT_</div>
+          <div className={styles.aboutTag} />
+          <div className={styles.aboutText}>
+            Somos uma equipe <b>apaixonada por criatividade</b> e movidos pela constante busca por inovação. Desde 2017, estamos imersos no universo dinâmico da mídia online, ad ops e ad server.<br/><br/>
+            Junte-se a nós nessa jornada e descubra como a POINT MEDIA pode <b>transformar</b> sua presença digital em algo verdadeiramente extraordinário.
+          </div>
+        </div>
         <div className={styles.aboutImage} />
-        <div className={styles.aboutText}>
-          Somos uma equipe apaixonada por criatividade e movimento. Desde 2017, estamos imersos no universo dinâmico da mídia online, ad ops e ad server. Somos especialistas na produção de campanhas High Scale Media, que ganham vida através do motion design, sejam eles banners display HTML5 ou vídeos envolventes.<br/><br/>
-          Aqui na POINT_, somos movidos pela constante busca por inovação. Desenvolvemos projetos customizados utilizando tecnologias avançadas, como DCO, XML e Feeds, para criar experiências únicas e interativas. Queremos potencializar o engajamento dos usuários e impulsionar os resultados das campanhas digitais.<br/><br/>
-          Seja qual for o desafio, estamos prontos para torná-lo realidade. Nossa equipe está sempre em movimento, em busca das soluções mais criativas e eficientes. Junte-se a nós nessa jornada e descubra como a POINT_ pode transformar sua presença digital em algo verdadeiramente extraordinário.
-        </div>
-        <div className={styles.aboutLine} />
-        <div className={styles.aboutOffice} />
-        <div className={styles.blackBg}>
-          <div className={styles.owners}>
-            <div className={styles.aboutMychel}>
-              <div className={styles.aboutMychelPicture} />
-              <div className={styles.aboutMychelBG} />
-              <div className={styles.aboutMychelName}>Mychel Martins</div>
-              <div className={styles.aboutMychelJob}>CEO</div>
-            </div>
-            <div className={styles.aboutThiago}>
-              <div className={styles.aboutThiagoPicture} />
-              <div className={styles.aboutThiagoBG} />
-              <div className={styles.aboutThiagoName}>Thiago Ianni</div>
-              <div className={styles.aboutThiagoJob}>CBO</div>
-            </div>
-          </div>
-          <div className={styles.ownersTexts}>
-            <div className={styles.aboutText2}>
-              Fundada por <b>Mychel Martins</b> e <b>Thiago Ianni</b> e com um time de programadores fullstack altamente talentosos, a POINT MEDIA une tecnologia e criatividade para criar integrações de soluções surpreendentes que simplificam o acompanhamento das suas campanhas online em diversas plataformas.<br/><br/>
-              Imagine ter o poder de agilizar o trabalho operacional e reduzir ao mínimo os erros de mensuração. Com a POINT MEDIA, essa visão se torna realidade. 
-            </div>
-            <div className={styles.aboutTitle2}>Com uma abordagem focada no futuro, nós estamos transformando o panorama da publicidade digital. Não importa qual seja a plataforma que você escolha para promover sua marca, estamos prontos para integrá-la ao nosso sistema e otimizar cada etapa do processo.</div>
-          </div>
-        </div>
+        <div className={styles.aboutPointsH} />
       </div>
 
-      <div className={styles.team}>
-        <div className={styles.teamArt}></div>
-        <div id='team' className={styles.teamTitle}>nosso time_</div>
-        <div className={styles.teamText}>Montamos um time excepcional de especialistas do mercado digital, com uma vasta experiência e um histórico impressionante em grandes empresas do setor.</div>
+      <div id='team' className={styles.team}>
+        <div className={styles.teamQuote}>onde a inspiração ganha vida e o movimento nunca para!</div>
         <div className={styles.teamPictures}>
-          <div className={styles.Priscila}>
-            <div className={styles.PriscilaPicture} />
-            <div className={styles.PriscilaName}>Priscila Michelin</div>
-            <div className={styles.PriscilaJob}>Jurídico</div>
+          <div className={styles.Mychel}>
+            <div className={styles.MychelPicture} />
+            <div className={styles.MychelName}>Mychel Martins</div>
+            <div className={styles.MychelJob}>CEO</div>
+          </div>
+          <div className={styles.Thiago}>
+            <div className={styles.ThiagoPicture} />
+            <div className={styles.ThiagoName}>Thiago Ianni</div>
+            <div className={styles.ThiagoJob}>Founder Partner</div>
           </div>
           <div className={styles.Will}>
             <div className={styles.WillPicture} />
@@ -2334,15 +2402,20 @@ const handleVideoLoad = () => {
             <div className={styles.LouroName}>Leonardo</div>
             <div className={styles.LouroJob}>Head de Tecnologia</div>
           </div>
+          <div className={styles.Tato}>
+            <div className={styles.TatoPicture} />
+            <div className={styles.TatoName}>Anderson</div>
+            <div className={styles.TatoJob}>Head de <br/>E-mail MKT</div>
+          </div>
           <div className={styles.Robson}>
             <div className={styles.RobsonPicture} />
             <div className={styles.RobsonName}>Robson</div>
             <div className={styles.RobsonJob}>Head de Mídia</div>
           </div>
-          <div className={styles.Tato}>
-            <div className={styles.TatoPicture} />
-            <div className={styles.TatoName}>Anderson</div>
-            <div className={styles.TatoJob}>Head de <br/>E-mail MKT</div>
+          <div className={styles.Priscila}>
+            <div className={styles.PriscilaPicture} />
+            <div className={styles.PriscilaName}>Priscila Michelin</div>
+            <div className={styles.PriscilaJob}>Jurídico</div>
           </div>
           <div className={styles.Danielle}>
             <div className={styles.DaniellePicture} />
@@ -2350,68 +2423,33 @@ const handleVideoLoad = () => {
             <div className={styles.DanielleJob}>Head do Financeiro</div>
           </div>
         </div>
+        <div className={styles.teamTitle}>nosso time_</div>
+        <div className={styles.teamTitleTag} />
+        <div className={styles.teamText}>Montamos um time excepcional de <b>especialistas do mercado digital</b>, com uma vasta experiência e um histórico impressionante em grandes empresas do setor.</div>
+        <div className={styles.teamWind} />
+        <div className={styles.teamPinkBalls} />
       </div>
       
       <div id='wwd' className={styles.wwd}>
-        <div className={styles.pinkBalls}></div>
         <div className={styles.wwdTitle}>o que a gente faz_</div>
-        <div className={styles.wwdSubtitle}>Vamos da criação ao projeto de automação para mídia e produção. </div>
-        <div className={styles.wwdText}>Criamos Hubs de performance para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Utilizando a Mídia Programática, SEM, Social Media, Mobile e WebTV, trabalhamos em sinergia para impulsionar a performance das campanhas. Além disso, integramos nossa equipe de produção à operação de mídia, garantindo um fluxo unificado e eficiente. Com expertise em criação, desenvolvemos banners HTML5, vídeos e imagens estáticas que se adaptam perfeitamente às necessidades da campanha. Essa abordagem dinâmica proporciona um impulso significativo nas publicações das campanhas, maximizando seus resultados.</div>
+        <div className={styles.wwdTitleTag} />
+        <div className={styles.wwdText}>
+          Criamos <b>Hubs de performance</b> para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Com expertise em <b>criação</b>, desenvolvemos <b>banners HTML5</b>, <b>vídeos</b> e <b>imagens estáticas</b> que se adaptam perfeitamente às necessidades da campanha.
+        </div>
         <div className={styles.wwdWorks}>
-          <div className={styles.wwdWork1}>
             <div className={styles.wwd1image} />
-            <div className={styles.wwd1text}>Criação e design (moodboard e kv + motion design);</div>
-          </div>
-          <div className={styles.wwdWork2}>
             <div className={styles.wwd2image} />
-            <div className={styles.wwd2text}>Produção e desdobramento de banners digitais;</div>
-          </div>
-          <div className={styles.wwdWork3}>
             <div className={styles.wwd3image} />
-            <div className={styles.wwd3text}>Projetos de DCO para otimização de produção;</div>
-          </div>
-          <div className={styles.wwdWork4}>
             <div className={styles.wwd4image} />
-            <div className={styles.wwd4text}>HUB mídia de performance e gestão de Adserver;</div>
-          </div>
-          <div className={styles.wwdWork5}>
             <div className={styles.wwd5image} />
-            <div className={styles.wwd5text}>Projetos de automação para mídia e produção.</div>
-          </div>
         </div>
-      </div>
-
-      <div id='reanimate' className={styles.reanimate}>
-        <div className={styles.reanimateLogo}/>
-        <div className={styles.reanimateText1}>O Re.animate é uma Startup da POINT MEDIA e utilizamos em nossas operações de produção para desdobramento de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
-        <div className={styles.reanimateText2}>• Software com escritura pública;<br/><br/>• Código patenteado no INPI;<br/><br/>• Plataforma validada por importantes operações e com alto potencial de mercado;<br/><br/>• Escala global.</div>
-        <div className={styles.reanimateCards}>
-          <div className={styles.reanimateMM}>
-            <div className={styles.reanimateMMlogo}/>
-            <div className={styles.reanimateMMtext}>Nunca foi tão fácil criar banners animados, a partir do KV (psd), você pode animar as peças master em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
-          </div>
-          <div className={styles.reanimateRA}>
-            <div className={styles.reanimateRAlogo}/>
-            <div className={styles.reanimateRAtext}>O formato perfeito para sua necessidade.  Desdobre a peça master, animada pelo primeiro módulo, em diversos formatos e especificações de mídia: Vertical, horizontal, quadrado e mobile.</div>
-          </div>
-          <div className={styles.reanimateDA}>
-            <div className={styles.reanimateDAlogo}/>
-            <div className={styles.reanimateDAtext}>Ter muitos produtos e ofertas para divulgar não é mais dor de cabeça. Caso tenha muitos formatos para divulgar nas redes sociais e displays, com esse módulo você cria diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
-          </div>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Sua operação muito mais ágil com uma ferramenta que permite a produção otimizada de e-mail marketing através do uso de componentes e templates personalizados e que abraçam a criação.</div>
-          </div>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Conversor de banners HTMLs em GIF ou MP4 em apenas segundos. Sem necessidade de desdobramento ou de um motion designer especializado em After Effects.</div>
-          </div>
-        </div>
-        <button className={styles.reanimateButton} onClick={openReanimate}>saiba mais &gt;</button>
+        <div className={styles.wwdWind} />
+        <div className={styles.wwdPoints} />
       </div>
 
       <div id='hwd' className={styles.hwd}>
         <div className={styles.hwdTitle}>como a gente faz_</div>
+        <div className={styles.hwdTitleTag} />
         <div className={styles.hwdCircles}>
           <div className={styles.hwdcPinkText1}>
               <div className={styles.cpinkText1}>Criação KV + peça master</div>
@@ -2643,8 +2681,23 @@ const handleVideoLoad = () => {
           <iframe className={styles.iframe31} src="/31.html" />
         </div> : null}
 
+      {prevWorksClosed ?
+
+        <div>
+          <div id='prevworks' className={styles.closedPrevWorks}>
+            <div className={styles.pwTitle}>o que a gente já fez_</div>
+            <div className={styles.pwTitleTag} />
+            <div className={styles.pwGallery}>
+              <div className={styles.closedPicture} />
+            </div>
+          </div>
+          <div onClick={openPrevWorks} className={styles.prevWorksButton}>exibir mais</div>
+        </div>
+      :
+
       <div id='prevworks' className={styles.previousWorks}>
         <div className={styles.pwTitle}>o que a gente já fez_</div>
+        <div className={styles.pwTitleTag} />
         <div className={styles.pwGallery}>
           <div className={styles.galleryContainer}>
             <div className={styles.gallery1} onClick={openModal1}/>
@@ -2744,6 +2797,8 @@ const handleVideoLoad = () => {
           </div>
         </div>
       </div>
+      
+      }  
 
       <div>
         {renderCases()}
@@ -2752,26 +2807,73 @@ const handleVideoLoad = () => {
       <div id='clients' className={styles.clients}>
         <div className={styles.blueBalls}></div>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
+        <div className={styles.clientsTitleTag} />
         {renderObjectSize()}
       </div>
 
-      <div id='contact' className={styles.contact}>
-        <div className={styles.contactTitle}>contato_</div>
-        <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
-        {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
-        <form className={styles.contactForm} onSubmit={onSubmit}>
-          <select className={styles.formSubject} type="text" name="subject" defaultValue={"DEFAULT"}>
-            <option value="DEFAULT" disabled hidden>Escolha um assunto</option>
-            <option value="1">Comercial</option>
-            <option value="2">Projetos</option>
-            <option value="3">Administrativo/Financeiro</option>
-          </select>
-          <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
-          <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
-          <input className={styles.formPhone} type="text" name="phone" placeholder="Telefone"></input>
-          <textarea className={styles.formMessage} type="textarea" name="message" placeholder="Deixe sua mensagem aqui..."></textarea>
-          <button className={styles.contactButton}>enviar &gt;</button>
-        </form>}
+      {contatoOpen ? 
+      
+      <div className={styles.galleryModal}>
+        <div className={styles.modalClose} onClick={closeModalContato} />
+            <div id='contact' className={styles.contact}>
+              <div className={styles.contactWind} />
+              <div className={styles.contactPointsV} />
+              <div className={styles.contactTitle}>contato_</div>
+              <div className={styles.contactTitleTag} />
+              <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
+              {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
+              <form className={styles.contactForm} onSubmit={onSubmit}>
+                <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>
+                <input className={styles.formEmail} type="text" name="email" placeholder="Email"></input>
+                <input className={styles.formPhone} type="text" name="phone" placeholder="Telefone"></input>
+                <select className={styles.formSubject} type="text" name="subject" defaultValue={"DEFAULT"}>
+                  <option value="DEFAULT" disabled hidden>Escolha um assunto</option>
+                  <option value="1">Comercial</option>
+                  <option value="2">Projetos</option>
+                  <option value="3">Administrativo/Financeiro</option>
+                </select>
+                <textarea className={styles.formMessage} type="textarea" name="message" placeholder="Deixe sua mensagem aqui..."></textarea>
+                <button className={styles.contactButton}>enviar &gt;</button>
+              </form>}
+              <div className={styles.contactPointsH} />
+          </div>
+        </div> 
+        
+      : null}
+      
+
+      <div id='reanimate' className={styles.reanimate}>
+        <div className={styles.reanimateLogo}/>
+        <div className={styles.reanimateText}>O <b>Re.animate</b> é uma Startup da POINT MEDIA utilizada na <b>produção de desdobramentos</b> de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
+        <div className={styles.reanimateLines} />
+        <div className={styles.reanimateCards}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+        </div>
+        <div className={styles.reanimatePoints} />
       </div>
 
       <div className={styles.footer}>
@@ -2790,7 +2892,7 @@ const handleVideoLoad = () => {
             <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
             <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
             <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
-            <div className={styles.anchorContact} onClick={anchorContact}>contato</div>
+            <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
           </div>
         </div>
         <div className={styles.footerSocials}>
@@ -2800,11 +2902,10 @@ const handleVideoLoad = () => {
           <div className={styles.facebook} onClick={openFacebook}></div>
         </div>
         <div className={styles.footerLocation}>
-          <div className={styles.address}>Vila Madalena - São Paulo - SP<br/>
-          Telefone: (11) 3368-9006</div>
+          <div className={styles.address}>Vila Madalena - São Paulo - SP</div>
         </div>
-        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
         <div className={styles.footerCopyright}>© pointmedia 2023</div>
+        <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
       </div>
     </div>
   }
