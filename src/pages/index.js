@@ -1200,7 +1200,10 @@ function renderCases() {
       <div id='cases' className={styles.cases}>
           <div className={styles.casesTitle}>nossos cases_</div>
           <div className={styles.casesTitleTag} />
-          <div className={styles.arrowRight} onClick={advToCase2}/>
+          <div className={styles.casesArrows}>
+            <div className={styles.arrowLeft} onClick={advToCase3}/>
+            <div className={styles.arrowRight} onClick={advToCase2}/>
+          </div>
           <div className={styles.case1Image} />
           <div className={styles.case1logo} />
           <div className={styles.case1Subtitle}>Highlights</div>
@@ -1217,8 +1220,10 @@ function renderCases() {
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.casesTitleTag} />
-        <div className={styles.arrowLeft} onClick={backToCase1}/>
-        <div className={styles.arrowRight2} onClick={advToCase3}/>
+        <div className={styles.casesArrows}>
+          <div className={styles.arrowLeft} onClick={backToCase1}/>
+          <div className={styles.arrowRight} onClick={advToCase3}/>
+        </div>
         <div className={styles.case2Image} />
         <div className={styles.case2logo} />
         <div className={styles.case2Subtitle}>Highlights</div>
@@ -1236,7 +1241,10 @@ function renderCases() {
       <div id='cases' className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.casesTitleTag} />
-        <div className={styles.arrowLeft} onClick={backToCase2}/>
+        <div className={styles.casesArrows}>
+          <div className={styles.arrowLeft} onClick={backToCase2}/>
+          <div className={styles.arrowRight} onClick={backToCase1}/>
+        </div>
         <div className={styles.case3Image} />
         <div className={styles.case3logo} />
         <div className={styles.case3Subtitle}>Highlights</div>
