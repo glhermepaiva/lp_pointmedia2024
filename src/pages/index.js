@@ -656,14 +656,14 @@ function renderObjectSize() {
           <div className={styles.clientArrowLeft} onClick={prevPage}/>
           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
         </div>
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
           <div className={styles.client73} />
           <div className={styles.client74} />
           <div className={styles.client75} />
@@ -674,12 +674,12 @@ function renderObjectSize() {
           <div className={styles.client80} />
           <div className={styles.client81} />
           <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
-          <div className={styles.client82} />
+          <div className={styles.client83} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
+          <div className={styles.client84} />
         </div>
     )
   }
