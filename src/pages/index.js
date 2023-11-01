@@ -2413,7 +2413,7 @@ const closeModalContato = () => {
           <div className={styles.Tato}>
             <div className={styles.TatoPicture} />
             <div className={styles.TatoName}>Anderson</div>
-            <div className={styles.TatoJob}>Head de <br/>E-mail MKT</div>
+            <div className={styles.TatoJob}>Head de E-mail MKT</div>
           </div>
           <div className={styles.Robson}>
             <div className={styles.RobsonPicture} />
@@ -2422,7 +2422,7 @@ const closeModalContato = () => {
           </div>
           <div className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
-            <div className={styles.PriscilaName}>Priscila Michelin</div>
+            <div className={styles.PriscilaName}>Priscila</div>
             <div className={styles.PriscilaJob}>Jurídico</div>
           </div>
           <div className={styles.Danielle}>
