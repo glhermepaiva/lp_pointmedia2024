@@ -8623,8 +8623,8 @@ background-color: #d8598e;
     background-image: url(../assets/new/reanimatelines.png);
     width: 697px;
     height: 781px;
-    margin: -340px 0 0 500px;
-    transform: scale(0.8);
+    margin: -190px 0 0 -1350px;
+    transform: scaleX(-1) scale(0.8);
   }
   
   .reanimateText {
@@ -8632,19 +8632,19 @@ background-color: #d8598e;
     line-height: 22px;
     width: 410px;
     color: #fff;
-    margin: 0 0 0px -300px;
+    margin: -150px 0 0px 500px;
   }
   
   .reanimateCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1000px;
-    margin: -400px auto 0 auto;
+    width: 1300px;
+    margin: -500px auto 0 auto;
   }
   
   .reanimateMM {
-    width: 300px;
+    width: 400px;
     height: 305px;
     display: flex;
     justify-content: center;
@@ -8664,7 +8664,7 @@ background-color: #d8598e;
   }
   
   .reanimateMMtext {
-    width: 250px;
+    width: 320px;
     text-align: center;
     font-weight: medium;
     margin: 0 0 0 0px;
@@ -8688,7 +8688,7 @@ background-color: #d8598e;
   }
   
   .reanimateRA {
-    width: 300px;
+    width: 400px;
     height: 305px;
     display: flex;
     justify-content: center;
@@ -8709,7 +8709,7 @@ background-color: #d8598e;
   }
   
   .reanimateRAtext {
-    width: 230px;
+    width: 250px;
     text-align: center;
     font-weight: medium;
     margin: 0 0 0 0px;
@@ -8733,7 +8733,7 @@ background-color: #d8598e;
   }
   
   .reanimateDA {
-    width: 300px;
+    width: 400px;
     height: 305px;
     display: flex;
     justify-content: center;
@@ -8754,7 +8754,7 @@ background-color: #d8598e;
   }
   
   .reanimateDAtext {
-    width: 250px;
+    width: 320px;
     text-align: center;
     font-weight: medium;
     margin: 0 0 0 0px;
@@ -8778,7 +8778,7 @@ background-color: #d8598e;
   }
   
   .reanimateAM {
-    width: 300px;
+    width: 400px;
     height: 305px;
     display: flex;
     justify-content: center;
@@ -8798,7 +8798,7 @@ background-color: #d8598e;
   }
   
   .reanimateAMtext {
-    width: 280px;
+    width: 320px;
     text-align: center;
     font-weight: medium;
     margin: 0 0 0 0px;
@@ -8822,7 +8822,7 @@ background-color: #d8598e;
   }
   
   .reanimateTM {
-    width: 300px;
+    width: 400px;
     height: 305px;
     display: flex;
     justify-content: center;
@@ -8842,7 +8842,7 @@ background-color: #d8598e;
   }
   
   .reanimateTMtext {
-    width: 250px;
+    width: 230px;
     text-align: center;
     font-weight: medium;
     margin: 0 0 0 0px;
