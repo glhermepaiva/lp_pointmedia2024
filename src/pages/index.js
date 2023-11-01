@@ -2458,6 +2458,7 @@ const closeModalContato = () => {
       <div id='hwd' className={styles.hwd}>
         <div className={styles.hwdTitle}>como a gente faz_</div>
         <div className={styles.hwdTitleTag} />
+        <div className={styles.hwdWind} />
         <div className={styles.hwdCircles}>
           <div className={styles.hwdcPinkText1}>
               <div className={styles.cpinkText1}>Criação KV + peça master</div>
@@ -2693,6 +2694,7 @@ const closeModalContato = () => {
 
         <div>
           <div id='prevworks' className={styles.closedPrevWorks}>
+            <div className={styles.pwPoints} />
             <div className={styles.pwTitle}>o que a gente já fez_</div>
             <div className={styles.pwTitleTag} />
             <div className={styles.pwGallery}>
@@ -2704,6 +2706,7 @@ const closeModalContato = () => {
       :
 
       <div id='prevworks' className={styles.previousWorks}>
+        <div className={styles.pwPoints} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwTitleTag} />
         <div className={styles.pwGallery}>
