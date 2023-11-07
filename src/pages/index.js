@@ -4,6 +4,10 @@ import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 export default function LandingPage() {
 
@@ -1209,9 +1213,9 @@ function renderCases() {
           <div className={styles.case1Subtitle}>Highlights</div>
           <div className={styles.case1Text}>
             • Crescimento de 2.000% na área de CRM para vendas.<br/>
-            • Uma semana para entrega do Pack de banners, reduzimos para horas.<br/>
+            • Redução do prazo de entrega do pack de banners de uma semana para horas.<br/>
             • Operação de produção digital global.<br/>
-            • Operação de produção de email mkt.
+            • Operação de produção de e-mail marketing global.
           </div>
         </div>
     )
@@ -1231,8 +1235,8 @@ function renderCases() {
           • Gestão de Ad Ops via Adserver.<br/>
           • Zeladoria da taxonomia de mídia Vivo.<br/>
           • Automação para produção digital.<br/>
-          • Automação para E-mail mkt.<br/>
-          • Média de uma semana para entregas, reduzimos para horas.
+          • Automação para e-mail marketing.<br/>
+          • Redução do prazo de entrega do pack de banners de uma semana para horas.
         </div>
       </div>
     )
@@ -1250,8 +1254,8 @@ function renderCases() {
         <div className={styles.case3Subtitle}>Highlights</div>
         <div className={styles.case3Text}>
           • Produção digital com automação.<br/>
-          • Produção de e-mkt com automação.<br/>
-          • Uma semana para entrega do Pack de banners, reduzimos para horas.<br/>
+          • Produção de e-mail marketing com automação.<br/>
+          • Redução do prazo de entrega do pack de banners de uma semana para horas.<br/>
           • Criação de um dashboard com indicadores operacionais dos países.
         </div>
       </div>
@@ -1304,219 +1308,219 @@ function renderCasesEN() {
 
 /***** NEWS CAROUSEL *****/
 
-const [newsPage, setNewsPage] = useState(0)
+// const [newsPage, setNewsPage] = useState(0)
 
-const firstNewsPage = () => {
-  setNewsPage (newsPage == 0)
-}
+// const firstNewsPage = () => {
+//   setNewsPage (newsPage == 0)
+// }
 
-const advOnePage = () => {
-  setNewsPage (newsPage + 1)
-}
+// const advOnePage = () => {
+//   setNewsPage (newsPage + 1)
+// }
 
-const advTwoPages = () => {
-  setNewsPage (newsPage + 2)
-}
+// const advTwoPages = () => {
+//   setNewsPage (newsPage + 2)
+// }
 
-const advThreePages = () => {
-  setNewsPage (newsPage + 3)
-}
+// const advThreePages = () => {
+//   setNewsPage (newsPage + 3)
+// }
 
-const advFourPages = () => {
-  setNewsPage (newsPage + 4)
-}
+// const advFourPages = () => {
+//   setNewsPage (newsPage + 4)
+// }
 
-const backOnePage = () => {
-  setNewsPage (newsPage - 1)
-}
+// const backOnePage = () => {
+//   setNewsPage (newsPage - 1)
+// }
 
-const backTwoPages = () => {
-  setNewsPage (newsPage - 2)
-}
+// const backTwoPages = () => {
+//   setNewsPage (newsPage - 2)
+// }
 
-const backThreePages = () => {
-  setNewsPage (newsPage - 3)
-}
+// const backThreePages = () => {
+//   setNewsPage (newsPage - 3)
+// }
 
-const backFourPages = () => {
-  setNewsPage (newsPage - 4)
-}
+// const backFourPages = () => {
+//   setNewsPage (newsPage - 4)
+// }
 
-function renderNews() {
-  if (englishActive == true) {
+// function renderNews() {
+//   if (englishActive == true) {
 
-    if (newsPage == 0){
-      return (
-        <div className={styles.news}>
-          <div className={styles.havaianasPicture} />
-          <div className={styles.newsTextsContainer}>
-            <div className={styles.havaianasTag}>
-              <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
-              <div className={styles.havaianasTagLine} />
-            </div>
-            <div className={styles.havaianasNewsTitle}>We started a new phase in our partnership with Havaianas!</div>
-            <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
-              <div className={styles.carouselBullets}>
-                <div className={styles.blackBullet} />
-                <div className={styles.blueBullet} onClick={advOnePage} />
-                <div className={styles.blueBullet} onClick={advTwoPages} />
-              </div>
-          </div>
-        </div>
-      )
-    } if (newsPage == 1){
-      return (
-        <div className={styles.news}>
-          <div className={styles.veloePicture} />
-          <div className={styles.newsTextsContainer}>
-            <div className={styles.veloeTag}>
-              <div className={styles.veloeTagText}>VELOE IS POINT MEDIA!</div>
-              <div className={styles.veloeTagLine} />
-            </div>
-            <div className={styles.veloeNewsTitle}>Veloe has parked at Point Media and is our new client!</div>
-            <div className={styles.veloeNewsText}>The responsabilities of developing the whole production and operation of Veloe's digital campaigns are ours now. Let's go together!</div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blueBullet} onClick={backOnePage} />
-              <div className={styles.blackBullet}  />
-              <div className={styles.blueBullet} onClick={advOnePage}/>
-            </div>
-          </div>
-        </div>
-      )
-    } if (newsPage == 2){
-      return (
-        <div className={styles.news}>
-          <div className={styles.ceaPicture} />
-          <div className={styles.newsTextsContainer}>
-          <div className={styles.ceaTag}>
-              <div className={styles.ceaTagText}>C&#38;A is POINT MEDIA!</div>
-              <div className={styles.ceaTagLine} />
-            </div>
-            <div className={styles.ceaNewsTitle}>C&#38;A is the newest customer to join POINT MEDIA's team</div>
-            <div className={styles.ceaNewsText}>Our team took over the digital communications and CRM operations and is already ahead in the production of main campaigns for the giant retailer!</div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blueBullet} onClick={backTwoPages} />
-              <div className={styles.blueBullet} onClick={backOnePage} />
-              <div className={styles.blackBullet}  />
-            </div>
-          </div>
-        </div>
-      )
-    } 
-  } else {
-   if (newsPage == 0){
-    return (
-      <div className={styles.news}>
-        <div className={styles.news1Picture} />
-        <div className={styles.newsTextsContainer}>
-          <div className={styles.news1Tag}>
-            <div className={styles.news1TagText}>PicPay é POINT MEDIA!</div>
-            <div className={styles.news1TagLine} />
-          </div>
-          <div className={styles.news1NewsText}>
-            O nosso jeito divertido de lidar com dinheiro! Nós <b>simplificamos finanças</b> e agora fazemos parte da incrível família de clientes da Point Media. Vamos simplificar a vida de todos. <b>Vem com a gente</b>! 😄
-          </div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blueBullet} />
-              <div className={styles.blackBullet} onClick={advOnePage} />
-              <div className={styles.blackBullet} onClick={advTwoPages} />
-              <div className={styles.blackBullet} onClick={advThreePages} />
-              <div className={styles.blackBullet} onClick={advFourPages} />
-          </div>
-        </div>
-      </div>
-    )
-  } if (newsPage == 1){
-    return (
-      <div className={styles.news}>
-        <div className={styles.news2Picture} />
-        <div className={styles.newsTextsContainer}>
-          <div className={styles.news2Tag}>
-              <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
-              <div className={styles.news2TagLine} />
-            </div>
-            <div className={styles.news2NewsText}>
-              E temos o prazer de ser parceiros da agência DM9, especialistas em tornar <b>ideias em realidade</b>. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
-            </div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blackBullet} onClick={backOnePage} />
-              <div className={styles.blueBullet}  />
-              <div className={styles.blackBullet} onClick={advOnePage}/>
-              <div className={styles.blackBullet} onClick={advTwoPages} />
-              <div className={styles.blackBullet} onClick={advThreePages} />
-          </div>
-        </div>
-      </div>
-    )
-  } if (newsPage == 2){
-    return (
-      <div className={styles.news}>
-        <div className={styles.news3Picture} />
-        <div className={styles.newsTextsContainer}>
-          <div className={styles.news3Tag}>
-              <div className={styles.news3TagText}>Havaianas é POINT MEDIA!</div>
-              <div className={styles.news3TagLine} />
-            </div>
-            <div className={styles.news3NewsText}>
-              Iniciamos uma nova etapa em nossa parceria com a Havaianas! Após o <b>ótimo desempenho</b> da equipe <b>POINT MEDIA</b> com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o <b>time global</b> e <b>nacional</b>.
-            </div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blackBullet} onClick={backTwoPages} />
-              <div className={styles.blackBullet} onClick={backOnePage} />
-              <div className={styles.blueBullet}  />
-              <div className={styles.blackBullet} onClick={advOnePage} />
-              <div className={styles.blackBullet} onClick={advTwoPages} />
-          </div>
-        </div>
-      </div>
-    )
-  } if (newsPage == 3){
-    return (
-      <div className={styles.news}>
-        <div className={styles.news4Picture} />
-        <div className={styles.newsTextsContainer}>
-          <div className={styles.news4Tag}>
-              <div className={styles.news4TagText}>C&#38;A é POINT MEDIA!</div>
-              <div className={styles.news4TagLine} />
-            </div>
-            <div className={styles.news4NewsText}>
-              A mais nova cliente a fazer parte do time. Nossa equipe <b>assumiu a operação</b> de comunicação <b>digital</b> e <b>CRM</b> e já está à frente na produção das principais campanhas destes meios da <b>gigante varejista</b>!
-            </div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blackBullet} onClick={backThreePages} />
-              <div className={styles.blackBullet} onClick={backTwoPages} />
-              <div className={styles.blackBullet} onClick={backOnePage} />
-              <div className={styles.blueBullet}  />
-              <div className={styles.blackBullet} onClick={advOnePage} />
-          </div>
-        </div>
-      </div>
-    )
-  } if (newsPage == 4){
-    return (
-      <div className={styles.news}>
-        <div className={styles.news5Picture} />
-        <div className={styles.newsTextsContainer}>
-          <div className={styles.news5Tag}>
-              <div className={styles.news5TagText}>Veloe é POINT MEDIA!</div>
-              <div className={styles.news5TagLine} />
-            </div>
-            <div className={styles.news5NewsText}>
-              Pegamos a estrada com a Veloe e agora não tem pedágio que segure! A responsabilidade de <b>desenvolver toda a produção</b> e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!
-            </div>
-            <div className={styles.carouselBullets}>
-              <div className={styles.blackBullet} onClick={backFourPages} />
-              <div className={styles.blackBullet} onClick={backThreePages} />
-              <div className={styles.blackBullet} onClick={backTwoPages} />
-              <div className={styles.blackBullet} onClick={backOnePage} />
-              <div className={styles.blueBullet}  />
-          </div>
-        </div>
-      </div>
-    )
-  }
-  }
-}
+//     if (newsPage == 0){
+//       return (
+//         <div className={styles.news}>
+//           <div className={styles.havaianasPicture} />
+//           <div className={styles.newsTextsContainer}>
+//             <div className={styles.havaianasTag}>
+//               <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
+//               <div className={styles.havaianasTagLine} />
+//             </div>
+//             <div className={styles.havaianasNewsTitle}>We started a new phase in our partnership with Havaianas!</div>
+//             <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
+//               <div className={styles.carouselBullets}>
+//                 <div className={styles.blackBullet} />
+//                 <div className={styles.blueBullet} onClick={advOnePage} />
+//                 <div className={styles.blueBullet} onClick={advTwoPages} />
+//               </div>
+//           </div>
+//         </div>
+//       )
+//     } if (newsPage == 1){
+//       return (
+//         <div className={styles.news}>
+//           <div className={styles.veloePicture} />
+//           <div className={styles.newsTextsContainer}>
+//             <div className={styles.veloeTag}>
+//               <div className={styles.veloeTagText}>VELOE IS POINT MEDIA!</div>
+//               <div className={styles.veloeTagLine} />
+//             </div>
+//             <div className={styles.veloeNewsTitle}>Veloe has parked at Point Media and is our new client!</div>
+//             <div className={styles.veloeNewsText}>The responsabilities of developing the whole production and operation of Veloe's digital campaigns are ours now. Let's go together!</div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blueBullet} onClick={backOnePage} />
+//               <div className={styles.blackBullet}  />
+//               <div className={styles.blueBullet} onClick={advOnePage}/>
+//             </div>
+//           </div>
+//         </div>
+//       )
+//     } if (newsPage == 2){
+//       return (
+//         <div className={styles.news}>
+//           <div className={styles.ceaPicture} />
+//           <div className={styles.newsTextsContainer}>
+//           <div className={styles.ceaTag}>
+//               <div className={styles.ceaTagText}>C&#38;A is POINT MEDIA!</div>
+//               <div className={styles.ceaTagLine} />
+//             </div>
+//             <div className={styles.ceaNewsTitle}>C&#38;A is the newest customer to join POINT MEDIA's team</div>
+//             <div className={styles.ceaNewsText}>Our team took over the digital communications and CRM operations and is already ahead in the production of main campaigns for the giant retailer!</div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blueBullet} onClick={backTwoPages} />
+//               <div className={styles.blueBullet} onClick={backOnePage} />
+//               <div className={styles.blackBullet}  />
+//             </div>
+//           </div>
+//         </div>
+//       )
+//     } 
+//   } else {
+//    if (newsPage == 0){
+//     return (
+//       <div className={styles.news}>
+//         <div className={styles.news1Picture} />
+//         <div className={styles.newsTextsContainer}>
+//           <div className={styles.news1Tag}>
+//             <div className={styles.news1TagText}>PicPay é POINT MEDIA!</div>
+//             <div className={styles.news1TagLine} />
+//           </div>
+//           <div className={styles.news1NewsText}>
+//             O jeito divertido de lidar com o dinheiro chegou na POINT! A empresa que <b>simplificou as finanças</b> dos brasileiros agora faz parte da nossa família de clientes. Vamos juntos <b>dar um pique</b> na vida financeira de milhares de pessoas! 😄
+//           </div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blueBullet} />
+//               <div className={styles.blackBullet} onClick={advOnePage} />
+//               <div className={styles.blackBullet} onClick={advTwoPages} />
+//               <div className={styles.blackBullet} onClick={advThreePages} />
+//               <div className={styles.blackBullet} onClick={advFourPages} />
+//           </div>
+//         </div>
+//       </div>
+//     )
+//   } if (newsPage == 1){
+//     return (
+//       <div className={styles.news}>
+//         <div className={styles.news2Picture} />
+//         <div className={styles.newsTextsContainer}>
+//           <div className={styles.news2Tag}>
+//               <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
+//               <div className={styles.news2TagLine} />
+//             </div>
+//             <div className={styles.news2NewsText}>
+//             Os especialistas em transformar <b>ideias em realidade</b> estão com a gente! Temos o prazer de sermos parceiros da agência DM9. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
+//             </div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blackBullet} onClick={backOnePage} />
+//               <div className={styles.blueBullet}  />
+//               <div className={styles.blackBullet} onClick={advOnePage}/>
+//               <div className={styles.blackBullet} onClick={advTwoPages} />
+//               <div className={styles.blackBullet} onClick={advThreePages} />
+//           </div>
+//         </div>
+//       </div>
+//     )
+//   } if (newsPage == 2){
+//     return (
+//       <div className={styles.news}>
+//         <div className={styles.news3Picture} />
+//         <div className={styles.newsTextsContainer}>
+//           <div className={styles.news3Tag}>
+//               <div className={styles.news3TagText}>Havaianas é POINT MEDIA!</div>
+//               <div className={styles.news3TagLine} />
+//             </div>
+//             <div className={styles.news3NewsText}>
+//               Iniciamos uma nova etapa em nossa parceria com a Havaianas! Após o <b>ótimo desempenho</b> da equipe <b>POINT MEDIA</b> com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o <b>time global</b> e <b>nacional</b>.
+//             </div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blackBullet} onClick={backTwoPages} />
+//               <div className={styles.blackBullet} onClick={backOnePage} />
+//               <div className={styles.blueBullet}  />
+//               <div className={styles.blackBullet} onClick={advOnePage} />
+//               <div className={styles.blackBullet} onClick={advTwoPages} />
+//           </div>
+//         </div>
+//       </div>
+//     )
+//   } if (newsPage == 3){
+//     return (
+//       <div className={styles.news}>
+//         <div className={styles.news4Picture} />
+//         <div className={styles.newsTextsContainer}>
+//           <div className={styles.news4Tag}>
+//               <div className={styles.news4TagText}>C&#38;A é POINT MEDIA!</div>
+//               <div className={styles.news4TagLine} />
+//             </div>
+//             <div className={styles.news4NewsText}>
+//               A mais nova cliente a fazer parte do time. Nossa equipe <b>assumiu a operação</b> de comunicação <b>digital</b> e <b>CRM</b> e já está à frente na produção das principais campanhas destes meios da <b>gigante varejista</b>!
+//             </div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blackBullet} onClick={backThreePages} />
+//               <div className={styles.blackBullet} onClick={backTwoPages} />
+//               <div className={styles.blackBullet} onClick={backOnePage} />
+//               <div className={styles.blueBullet}  />
+//               <div className={styles.blackBullet} onClick={advOnePage} />
+//           </div>
+//         </div>
+//       </div>
+//     )
+//   } if (newsPage == 4){
+//     return (
+//       <div className={styles.news}>
+//         <div className={styles.news5Picture} />
+//         <div className={styles.newsTextsContainer}>
+//           <div className={styles.news5Tag}>
+//               <div className={styles.news5TagText}>Veloe é POINT MEDIA!</div>
+//               <div className={styles.news5TagLine} />
+//             </div>
+//             <div className={styles.news5NewsText}>
+//               Pegamos a estrada com a Veloe e agora não tem pedágio que segure! A responsabilidade de <b>desenvolver toda a produção</b> e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!
+//             </div>
+//             <div className={styles.carouselBullets}>
+//               <div className={styles.blackBullet} onClick={backFourPages} />
+//               <div className={styles.blackBullet} onClick={backThreePages} />
+//               <div className={styles.blackBullet} onClick={backTwoPages} />
+//               <div className={styles.blackBullet} onClick={backOnePage} />
+//               <div className={styles.blueBullet}  />
+//           </div>
+//         </div>
+//       </div>
+//     )
+//   }
+//   }
+// }
 
 /***** EXTERNAL LINKS  *****/
 
@@ -2363,9 +2367,82 @@ const closeModalContato = () => {
 
       <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
 
-      <div>
+      {/* <div>
         {renderNews()}
-      </div>
+      </div> */}
+
+      <Swiper pagination={{clickable: true}} modules={[Pagination]} className={styles.swiper}>
+        <SwiperSlide className={styles.swiperSlide}>
+        <div className={styles.news}>
+          <div className={styles.news1Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news1Tag}>
+              <div className={styles.news1TagText}>PicPay é POINT MEDIA!</div>
+              <div className={styles.news1TagLine} />
+            </div>
+            <div className={styles.news1NewsText}>
+              O jeito divertido de lidar com o dinheiro chegou na POINT! A empresa que <b>simplificou as finanças</b> dos brasileiros agora faz parte da nossa família de clientes. Vamos juntos <b>dar um pique</b> na vida financeira de milhares de pessoas! 😄
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news2Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news2Tag}>
+              <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
+              <div className={styles.news2TagLine} />
+            </div>
+            <div className={styles.news2NewsText}>
+            Os especialistas em transformar <b>ideias em realidade</b> estão com a gente! Temos o prazer de sermos parceiros da agência DM9. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={styles.news}>
+        <div className={styles.news3Picture} />
+        <div className={styles.newsTextsContainer}>
+          <div className={styles.news3Tag}>
+              <div className={styles.news3TagText}>Havaianas é POINT MEDIA!</div>
+              <div className={styles.news3TagLine} />
+            </div>
+            <div className={styles.news3NewsText}>
+              Iniciamos uma nova etapa em nossa parceria com a Havaianas! Após o <b>ótimo desempenho</b> da equipe <b>POINT MEDIA</b> com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o <b>time global</b> e <b>nacional</b>.
+            </div>
+        </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news4Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news4Tag}>
+                <div className={styles.news4TagText}>C&#38;A é POINT MEDIA!</div>
+                <div className={styles.news4TagLine} />
+              </div>
+              <div className={styles.news4NewsText}>
+                A mais nova cliente a fazer parte do time. Nossa equipe <b>assumiu a operação</b> de comunicação <b>digital</b> e <b>CRM</b> e já está à frente na produção das principais campanhas destes meios da <b>gigante varejista</b>!
+              </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news5Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news5Tag}>
+                <div className={styles.news5TagText}>Veloe é POINT MEDIA!</div>
+                <div className={styles.news5TagLine} />
+              </div>
+              <div className={styles.news5NewsText}>
+                Pegamos a estrada com a Veloe e agora não tem pedágio que segure! A responsabilidade de <b>desenvolver toda a produção</b> e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!
+              </div>
+          </div>
+        </div>
+        </SwiperSlide>
+      </Swiper>
       
       <div id='about' className={styles.about}>
         <div className={styles.aboutWind} />
@@ -2442,7 +2519,7 @@ const closeModalContato = () => {
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdTitleTag} />
         <div className={styles.wwdText}>
-          Criamos <b>Hubs de performance</b> para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Com expertise em <b>criação</b>, desenvolvemos <b>banners HTML5</b>, <b>vídeos</b> e <b>imagens estáticas</b> que se adaptam perfeitamente às necessidades da campanha.
+          Criamos <b>hubs de performance</b> para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Com expertise em <b>criação</b>, desenvolvemos <b>banners HTML5</b>, <b>vídeos</b> e <b>imagens estáticas</b> que se adaptam perfeitamente às necessidades da campanha.
         </div>
         <div className={styles.wwdWorks}>
             <div className={styles.wwd1image} />
@@ -2831,7 +2908,7 @@ const closeModalContato = () => {
               <div className={styles.contactPointsV} />
               <div className={styles.contactTitle}>contato_</div>
               <div className={styles.contactTitleTag} />
-              <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada projeto novo.</div>
+              <div className={styles.contactText}>Traga sua marca para um time de talentos que cresce a cada novo projeto.</div>
               {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
               <form className={styles.contactForm} onSubmit={onSubmit}>
                 <input className={styles.formName} type="text" name="name" placeholder="Nome"></input>

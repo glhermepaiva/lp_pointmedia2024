@@ -1,10 +1,15 @@
 /******* HEADER *******/
 
 .header {
+  height: 75px;
+  width: 100vw;
   display: flex;
-  height: 100px;
+  margin: -75px 0 0 0;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  background-color: #FFFFFF;
 }
 
 .langFlagToBR {
@@ -47,33 +52,32 @@
   background-image: url(../assets/mobile/logopoint.png);
   width: 111px;
   height: 42px;
-  margin: -15px 0 0 25px;
-  position: absolute;
+  margin: 0 0 0 20px;
   cursor: pointer;
+  transform: scale(0.9);
 }
 
 .hamburger {
   background-image: url(../assets/mobile/hamburger.png);
   width: 29px;
   height: 37px;
-  margin: -20px 0px 0 0;
+  margin: 0 20px 0 0;
   cursor: pointer;
-  position: fixed;
-  right: 20px;
-  transform: scale(1.2);
-  z-index: 3;
+  transform: scale(1.1);
 }
 
 .videoLoader {
   margin: auto;
   text-align: center;
+  overflow: hidden;
 }
 
 .demoReelVideo {
   height: auto;
   width: 300%;
-  margin: -20px 0 30px 50vw;
+  margin: 75px 0 30px 50vw;
   transform: translate(-50%);
+  overflow: hidden;
 }
 
 .buttonReel {
@@ -105,12 +109,24 @@
   margin: 0 0 0 0;
 }
 
+.swiper {
+  width: 360px;
+  height: 620px;
+  margin: -50px 0 30px 0;
+}
+
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .news {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: -40px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 .news1Picture {
@@ -120,6 +136,7 @@
   margin: 0 auto;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .news2Picture {
@@ -190,9 +207,9 @@
 
 .news1NewsText {
   font-size: 16px;
-  width: 290px;
+  width: 310px;
   color: #707070;
-  margin: 20px 0 0 0px;
+  margin: 20px 0 -25px 0px;
 }
 
 .news2TagText {
@@ -222,7 +239,7 @@
 
 .news2NewsText {
   font-size: 16px;
-  width: 280px;
+  width: 300px;
   color: #707070;
   margin: 20px 0 0px 0px;
 }
@@ -3062,13 +3079,24 @@ background-color: #d8598e;
     top: -235px;
     right: -220px;
   }
+
+  .header {
+    height: 75px;
+    margin: -75px 0 0 0;
+  }
   
+  .logoPoint {
+    margin: 0 0 0 20px;
+    transform: scale(0.9);
+  }
+  
+  .hamburger {
+    margin: 0 20px 0 0;
+    transform: scale(1.1);
+  }
   
   .demoReelVideo {
-    height: auto;
-    width: 300%;
-    margin: -20px 0 30px 50vw;
-    transform: translate(-50%);
+    margin: 75px 0 30px 50vw;
   }
 
   .buttonReel {
@@ -3216,6 +3244,12 @@ background-color: #d8598e;
     margin: 0 0 0 0;
   }
 
+  .swiper {
+    width: 430px;
+    height: 640px;
+    margin: -40px 0 30px 0;
+  }
+
   .news1TagText {
     font-weight: bold;
     font-size: 24px;
@@ -3235,9 +3269,9 @@ background-color: #d8598e;
   
   .news1NewsText {
     font-size: 18px;
-    width: 330px;
+    width: 350px;
     color: #707070;
-    margin: 20px 0 0 0px;
+    margin: 20px 0 -27px 0px;
   }
   
   .news2TagText {
@@ -3259,7 +3293,7 @@ background-color: #d8598e;
   
   .news2NewsText {
     font-size: 18px;
-    width: 310px;
+    width: 340px;
     color: #707070;
     margin: 20px 0 0px 0px;
   }
@@ -3944,15 +3978,25 @@ background-color: #d8598e;
     margin: 0px 0 0px 160px;
   }
 
+  .header {
+    height: 75px;
+    margin: -75px 0 0 0;
+  }
+  
+  .logoPoint {
+    margin: 0 0 0 30px;
+    transform: scale(0.9);
+  }
+  
   .hamburger {
-    margin: -10px 0px 0 0;
-    right: 30px;
+    margin: 0 40px 0 0;
+    transform: scale(1.1);
   }
 
   .demoReelVideo {
     height: auto;
     width: 150%;
-    margin: -20px 0 30px 50vw;
+    margin: 75px 0 30px 50vw;
     transform: translate(-50%);
   }
 
@@ -3971,32 +4015,38 @@ background-color: #d8598e;
     margin: 0 0px 0 0;
   }
 
+  .swiper {
+    width: 768px;
+    height: 450px;
+    margin: -40px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin: -40px 0 0 0;
+    margin: 0px 0 0 0;
   }
 
   .newsTextsContainer {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin: 0 0 -100px 0;
+    margin: 0 0 0px 0;
   }
 
   .news1Picture {
     width: 426px;
     height: 401px;
-    margin: 0 auto;
+    margin: 0 0 0 -8px;
     background-size: 100%;
   }
   
   .news2Picture {
     width: 426px;
     height: 401px;
-    margin: 0 auto;
+    margin: 0 0 0 -18px;
     background-size: 100%;
   }
   
@@ -4025,7 +4075,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 24px;
     position: relative;
-    margin: 0 0 0 0px;
+    margin: -20px 0 0 0px;
     z-index: 1;
   }
   
@@ -4040,9 +4090,9 @@ background-color: #d8598e;
   
   .news1NewsText {
     font-size: 18px;
-    width: 330px;
+    width: 310px;
     color: #707070;
-    margin: 20px 0 0 0px;
+    margin: 20px 0 -34px 0px;
   }
   
   .news2TagText {
@@ -4064,9 +4114,9 @@ background-color: #d8598e;
   
   .news2NewsText {
     font-size: 18px;
-    width: 330px;
+    width: 300px;
     color: #707070;
-    margin: 20px 0 0px 0px;
+    margin: 20px 0 -27px 0px;
   }
   
   .news3TagText {
@@ -5233,16 +5283,25 @@ background-color: #d8598e;
 
 @media (min-width: 1280px) and (max-width: 1365px) {
 
+  .header {
+    height: 75px;
+    margin: -75px 0 0 0;
+  }
+  
+  .logoPoint {
+    margin: 0 0 0 50px;
+    transform: scale(0.9);
+  }
+  
   .hamburger {
-    margin: -10px 0px 0 0;
-    right: 30px;
-    z-index: 9;
+    margin: 0 50px 0 0;
+    transform: scale(1.1);
   }
 
   .demoReelVideo {
     height: auto;
     width: 100%;
-    margin: -20px 0 20px 50vw;
+    margin: 75px 0 30px 50vw;
     transform: translate(-50%);
   }
 
@@ -5251,7 +5310,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -40px auto 50px auto;
+    margin: -50px auto 50px auto;
   }
 
   .openReel {
@@ -5391,6 +5450,12 @@ background-color: #d8598e;
     transform: scale(0.7);
   }
 
+  .swiper {
+    width: 1280px;
+    height: 600px;
+    margin: -40px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -5460,7 +5525,7 @@ background-color: #d8598e;
   
   .news1NewsText {
     font-size: 18px;
-    width: 420px;
+    width: 450px;
     color: #707070;
     margin: 20px 0 0 0px;
   }
@@ -7032,15 +7097,24 @@ background-color: #d8598e;
 @media (min-width: 1366px) and (max-width: 1599px) {
 
   .header {
-    height: 150px;
-    width: 1300px;
-    margin: 0 auto;
+    height: 75px;
+    margin: -75px 0 0 0;
+  }
+  
+  .logoPoint {
+    margin: 0 0 0 60px;
+    transform: scale(0.9);
+  }
+  
+  .hamburger {
+    margin: 0 60px 0 0;
+    transform: scale(1.2);
   }
 
   .demoReelVideo {
     height: auto;
     width: 100%;
-    margin: -30px 0 20px 50vw;
+    margin: 75px 0 30px 50vw;
     transform: translate(-50%);
   }
 
@@ -7049,7 +7123,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -40px auto 40px auto;
+    margin: -50px auto 40px auto;
   }
 
   .openReel {
@@ -7057,17 +7131,6 @@ background-color: #d8598e;
     height: 468px;
     transform: scale(1.8);
     margin: -50px 0px 0 0;
-  }
-
-  .logoPoint {
-    margin: 0 0 0 40px;
-  }
-
-  .hamburger {
-    margin: -10px 0px 0 0;
-    right: 100px;
-    z-index: 9;
-    transform: scale(1.3);
   }
 
   .contact {
@@ -7200,6 +7263,12 @@ background-color: #d8598e;
     transform: scale(0.8);
   }
 
+  .swiper {
+    width: 1366px;
+    height: 600px;
+    margin: -20px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -7269,7 +7338,7 @@ background-color: #d8598e;
   
   .news1NewsText {
     font-size: 18px;
-    width: 420px;
+    width: 450px;
     color: #707070;
     margin: 20px 0 0 0px;
   }
@@ -8913,26 +8982,24 @@ background-color: #d8598e;
 @media (min-width: 1600px) and (max-width: 1799px) {
 
   .header {
-    height: 150px;
-    width: 1435px;
-    margin: 0 auto;
+    height: 75px;
+    margin: -75px 0 0 0;
   }
-
+  
   .logoPoint {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 70px;
+    transform: scale(1);
   }
-
+  
   .hamburger {
-    margin: -10px 0px 0 0;
-    right: 130px;
-    z-index: 9;
-    transform: scale(1.3);
+    margin: 0 70px 0 0;
+    transform: scale(1.2);
   }
 
   .demoReelVideo {
     height: auto;
     width: 100%;
-    margin: -30px 0 10px 50vw;
+    margin: 75px 0 30px 50vw;
     transform: translate(-50%);
   }
 
@@ -8941,7 +9008,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -30px auto 30px auto;
+    margin: -50px auto 30px auto;
   }
 
   .openReel {
@@ -9081,6 +9148,12 @@ background-color: #d8598e;
     transform: scale(0.8);
   }
 
+  .swiper {
+    width: 1600px;
+    height: 600px;
+    margin: -20px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -9150,7 +9223,7 @@ background-color: #d8598e;
   
   .news1NewsText {
     font-size: 18px;
-    width: 420px;
+    width: 450px;
     color: #707070;
     margin: 20px 0 0 0px;
   }
@@ -10960,31 +11033,27 @@ background-color: #d8598e;
 @media (min-width: 1800px) and (max-width: 2559px) {
 
   .header {
-    height: 175px;
-    width: 1650px;
-    margin: 0 auto;
+    height: 100px;
+    margin: -100px 0 0 0;
   }
-
+  
   .logoPoint {
     background-image: url(../assets/new/pointlogo.png);
     width: 156px;
     height: 59px;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 100px;
   }
-
+  
   .hamburger {
-    margin: -10px 0px 0 0;
-    right: 150px;
-    z-index: 9;
-    transform: scale(1.4);
+    margin: 0 100px 0 0;
+    transform: scale(1.2);
   }
 
   .demoReelVideo {
     height: auto;
     width: 101%;
-    margin: -30px 0 10px 50vw;
+    margin: 100px 0 30px 50vw;
     transform: translate(-50%);
-    cursor: pointer;
   }
 
   .buttonReel {
@@ -10992,7 +11061,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -30px auto 30px auto;
+    margin: -50px auto 30px auto;
   }
 
   .openReel {
@@ -11130,6 +11199,12 @@ background-color: #d8598e;
     transform: scale(1);
   }
 
+  .swiper {
+    width: 1800px;
+    height: 730px;
+    margin: -20px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -11148,7 +11223,7 @@ background-color: #d8598e;
   .news1Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -100px 0 250px;
+    margin: 50px -60px 0 250px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -11156,7 +11231,7 @@ background-color: #d8598e;
   .news2Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -171px 0 250px;
+    margin: 50px -100px 0 250px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -11189,7 +11264,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 48px;
     position: relative;
-    margin: 0 0 0 0px;
+    margin: 1px 0 0 0px;
     z-index: 1;
   }
   
@@ -11205,7 +11280,7 @@ background-color: #d8598e;
   .news1NewsText {
     font-size: 24px;
     line-height: 28px;
-    width: 560px;
+    width: 600px;
     color: #707070;
     margin: 30px 0 0 0px;
   }
@@ -11215,7 +11290,7 @@ background-color: #d8598e;
     font-size: 48px;
     line-height: 72px;
     position: relative;
-    margin: 0px 0 0 0px;
+    margin: 1px 0 0 0px;
     z-index: 1;
   }
   
@@ -11231,7 +11306,7 @@ background-color: #d8598e;
   .news2NewsText {
     font-size: 24px;
     line-height: 28px;
-    width: 450px;
+    width: 560px;
     color: #707070;
     margin: 30px 0 0px 0px;
   }
@@ -13055,30 +13130,27 @@ background-color: #d8598e;
 @media (min-width: 2560px) {
 
   .header {
-    height: 200px;
-    width: 2000px;
-    margin: 0 auto;
+    height: 150px;
+    margin: -100px 0 0 0;
   }
-
+  
   .logoPoint {
     background-image: url(../assets/new/pointlogo.png);
     width: 156px;
     height: 59px;
-    margin: 25px 0 0 30px;
+    margin: 0 0 0 200px;
     transform: scale(1.5);
   }
-
+  
   .hamburger {
-    margin: 0px 0px 0 0;
-    right: 300px;
-    z-index: 9;
+    margin: 0 200px 0 0;
     transform: scale(2);
   }
 
   .demoReelVideo {
     height: auto;
     width: 100%;
-    margin: -10px 0 0px 50vw;
+    margin: 100px 0 30px 50vw;
     transform: translate(-50%);
   }
 
@@ -13087,7 +13159,7 @@ background-color: #d8598e;
     height: 50px;
     font-size: 24px;
     line-height: 30px;
-    margin: -25px auto 0px auto;
+    margin: -55px auto 0px auto;
   }
 
   .openReel {
@@ -13226,6 +13298,12 @@ background-color: #d8598e;
     transform: scale(1);
   }
 
+  .swiper {
+    width: 2560px;
+    height: 950px;
+    margin: -20px 0 30px 0;
+  }
+
   .news {
     display: flex;
     align-items: center;
@@ -13245,7 +13323,7 @@ background-color: #d8598e;
   .news1Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -100px 0 250px;
+    margin: 50px -160px 0 350px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -13253,7 +13331,7 @@ background-color: #d8598e;
   .news2Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -171px 0 250px;
+    margin: 50px -200px 0 350px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -13261,7 +13339,7 @@ background-color: #d8598e;
   .news3Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -11px 0 250px;
+    margin: 50px -111px 0 350px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -13269,7 +13347,7 @@ background-color: #d8598e;
   .news4Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -110px 0 250px;
+    margin: 50px -210px 0 350px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -13277,7 +13355,7 @@ background-color: #d8598e;
   .news5Picture {
     width: 620px;
     height: 579px;
-    margin: 50px -110px 0 250px;
+    margin: 50px -210px 0 350px;
     background-size: 100%;
     transform: scale(1.2);
   }
@@ -13286,7 +13364,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 48px;
     position: relative;
-    margin: 0 0 0 0px;
+    margin: 1px 0 0 0px;
     z-index: 1;
   }
   
@@ -13302,7 +13380,7 @@ background-color: #d8598e;
   .news1NewsText {
     font-size: 24px;
     line-height: 28px;
-    width: 560px;
+    width: 600px;
     color: #707070;
     margin: 30px 0 0 0px;
   }
@@ -13312,7 +13390,7 @@ background-color: #d8598e;
     font-size: 48px;
     line-height: 72px;
     position: relative;
-    margin: 0px 0 0 0px;
+    margin: 1px 0 0 0px;
     z-index: 1;
   }
   
@@ -13328,7 +13406,7 @@ background-color: #d8598e;
   .news2NewsText {
     font-size: 24px;
     line-height: 28px;
-    width: 450px;
+    width: 560px;
     color: #707070;
     margin: 30px 0 0px 0px;
   }
