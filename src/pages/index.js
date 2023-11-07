@@ -7,7 +7,8 @@ import ReactLoading from 'react-loading'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import 'swiper/css/free-mode';
+import { Pagination, FreeMode } from 'swiper/modules';
 
 export default function LandingPage() {
 
@@ -2461,7 +2462,54 @@ const closeModalContato = () => {
 
       <div id='team' className={styles.team}>
         <div className={styles.teamQuote}>onde a inspiração ganha vida e o movimento nunca para!</div>
-        <div className={styles.teamPictures}>
+        <Swiper slidesPerView={2.5} spaceBetween={0} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
+          <SwiperSlide className={styles.Mychel}>
+            <div className={styles.MychelPicture} />
+            <div className={styles.MychelName}>Mychel Martins</div>
+            <div className={styles.MychelJob}>CEO</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Thiago}>
+            <div className={styles.ThiagoPicture} />
+            <div className={styles.ThiagoName}>Thiago Ianni</div>
+            <div className={styles.ThiagoJob}>Founder Partner</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Will}>
+            <div className={styles.WillPicture} />
+            <div className={styles.WillName}>William</div>
+            <div className={styles.WillJob}>Head de Produção</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Mariana}>
+            <div className={styles.MarianaPicture} />
+            <div className={styles.MarianaName}>Mariana</div>
+            <div className={styles.MarianaJob}>Head de Operações</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Louro}>
+            <div className={styles.LouroPicture} />
+            <div className={styles.LouroName}>Leonardo</div>
+            <div className={styles.LouroJob}>Head de Tecnologia</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Tato}>
+            <div className={styles.TatoPicture} />
+            <div className={styles.TatoName}>Anderson</div>
+            <div className={styles.TatoJob}>Head de E-mail MKT</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Robson}>
+            <div className={styles.RobsonPicture} />
+            <div className={styles.RobsonName}>Robson</div>
+            <div className={styles.RobsonJob}>Head de Mídia</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Priscila}>
+            <div className={styles.PriscilaPicture} />
+            <div className={styles.PriscilaName}>Priscila</div>
+            <div className={styles.PriscilaJob}>Jurídico</div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.Danielle}>
+            <div className={styles.DaniellePicture} />
+            <div className={styles.DanielleName}>Danielle</div>
+            <div className={styles.DanielleJob}>Head do Financeiro</div>
+          </SwiperSlide>
+        </Swiper>
+        {/* <div className={styles.teamPictures}>
           <div className={styles.Mychel}>
             <div className={styles.MychelPicture} />
             <div className={styles.MychelName}>Mychel Martins</div>
@@ -2507,7 +2555,7 @@ const closeModalContato = () => {
             <div className={styles.DanielleName}>Danielle</div>
             <div className={styles.DanielleJob}>Head do Financeiro</div>
           </div>
-        </div>
+        </div> */}
         <div className={styles.teamTitle}>nosso time_</div>
         <div className={styles.teamTitleTag} />
         <div className={styles.teamText}>Montamos um time excepcional de <b>especialistas do mercado digital</b>, com uma vasta experiência e um histórico impressionante em grandes empresas do setor.</div>

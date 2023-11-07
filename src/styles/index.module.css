@@ -640,284 +640,239 @@
 }
 
 .teamPictures {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: -10px 0 0 0;
+  width: 100vw;
+  margin: 0px 0 30px 0;
 }
 
 .Mychel{
+  margin: 0 0 0 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .MychelPicture {
   background-image: url(../assets/new/picMychel.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  margin: 0 0 0 0;
+  transform: scale(0.6);
 }
 
 .MychelName {
   font-weight: bold;
   font-size: 15px;
   line-height: 20px;
-  width: 50px;
-  margin: 10px 0 0 -20px;
+  margin: -23px 0 0 0;
 }
 
 .MychelJob {
   font-size: 12px;
-  margin-left: -25px;
+  margin: 0 0 0 0;
 }
 
 .Thiago {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .ThiagoPicture {
   background-image: url(../assets/new/picThiago.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  margin: 0 0 0 0;
+  transform: scale(0.6);
 }
 
 .ThiagoName {
   font-weight: bold;
   font-size: 15px;
   line-height: 20px;
-  width: 50px;
-  margin: 10px 0 0 -10px;
-  text-align: center;
+  margin: -23px 0 0 0;
 }
 
 .ThiagoJob {
   font-size: 12px;
-  margin-left: -5px;
-}
-
-.Priscila {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 150px;
-  margin: 0px 0 0 0;
-}
-
-.PriscilaPicture {
-  background-image: url(../assets/new/picPriscila.png);
-  width: 205px;
-  height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
-}
-
-.PriscilaName {
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 20px;
-  width: 50px;
-  margin: 10px 0 0 -20px;
-}
-
-.PriscilaJob {
-  font-size: 12px;
-  margin-left: -25px;
+  margin: 0 0 0 0px;
 }
 
 .Will {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .WillPicture {
   background-image: url(../assets/new/picWill.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  margin: 0 0 0 0;
+  transform: scale(0.6);
 }
 
 .WillName {
   font-weight: bold;
   font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -25px;
+  margin: -25px 0 0 0;
 }
 
 .WillJob {
   font-size: 12px;
   margin-left: -5px;
-  width: 60px;
-  margin-left: -10px;
+  margin: 0 0 0 0;
 }
 
 .Mariana {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .MarianaPicture {
   background-image: url(../assets/new/picMariana.png);
   width: 205px;
-  height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  height: 207px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
 }
 
 .MarianaName {
   font-weight: bold;
   font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -20px;
+  margin: -21px 0 0 0;
 }
 
 .MarianaJob {
   font-size: 12px;
   margin-left: -5px;
-  width: 60px;
-  margin-left: -10px;
+  margin: 0 0 0 0;
 }
 
 .Louro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .LouroPicture {
   background-image: url(../assets/new/picLouro.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
 }
 
 .LouroName {
   font-weight: bold;
   font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -25px;
+  margin: -25px 0 0 0;
 }
 
 .LouroJob {
   font-size: 12px;
-  margin-left: -5px;
-  width: 70px;
-}
-
-.Robson {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 150px;
-  margin: 0px 0 0 0;
-}
-
-.RobsonPicture {
-  background-image: url(../assets/new/picRobson.png);
-  width: 205px;
-  height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
-}
-
-.RobsonName {
-  font-weight: bold;
-  font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -30px;
-}
-
-.RobsonJob {
-  font-size: 12px;
-  margin-left: -5px;
-  width: 80px;
-  margin-left: 0px;
+  margin: 0 0 0 0;
 }
 
 .Tato {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 0 0;
 }
 
 .TatoPicture {
   background-image: url(../assets/new/picTato.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
 }
 
 .TatoName {
   font-weight: bold;
   font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -35px;
+  margin: -25px 0 0 0;
 }
 
 .TatoJob {
   font-size: 12px;
-  margin-left: -17px;
-  width: 67px;
-  margin-bottom: 50px;
+  margin: 0 0 0 0;
+}
+
+.Robson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RobsonPicture {
+  background-image: url(../assets/new/picRobson.png);
+  width: 205px;
+  height: 211px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
+}
+
+.RobsonName {
+  font-weight: bold;
+  font-size: 15px;
+  margin: -25px 0 0 0;
+}
+
+.RobsonJob {
+  font-size: 12px;
+  margin: 0 0 0 0;
+}
+
+.Priscila {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PriscilaPicture {
+  background-image: url(../assets/new/picPriscila.png);
+  width: 205px;
+  height: 211px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
+}
+
+.PriscilaName {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  margin: -23px 0 0 0;
+}
+
+.PriscilaJob {
+  font-size: 12px;
+  margin: 0 0 0 0;
 }
 
 .Danielle {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  margin: 50px 0 50px 0;
 }
 
 .DaniellePicture {
   background-image: url(../assets/new/picDaniele.png);
   width: 205px;
   height: 211px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin: 0 0 -30px 40px;
+  transform: scale(0.6);
+  margin: 0 0 0 0;
 }
 
 .DanielleName {
   font-weight: bold;
   font-size: 15px;
-  width: 50px;
-  margin: 10px 0 0 -50px;
+  margin: -25px 0 0 0;
 }
 
 .DanielleJob {
   font-size: 12px;
-  width: 100px;
+  margin: 0 0 0 0;
 }
 
 .teamTitle {
@@ -3403,6 +3358,242 @@ background-color: #d8598e;
     width: 300px;
   }
 
+  .teamPictures {
+    width: 100vw;
+    margin: 30px 0 30px 0;
+  }
+  
+  .Mychel{
+    margin: 0 0 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MychelPicture {
+    background-image: url(../assets/new/picMychel.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(0.8);
+  }
+  
+  .MychelName {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .MychelJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Thiago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ThiagoPicture {
+    background-image: url(../assets/new/picThiago.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(0.8);
+  }
+  
+  .ThiagoName {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .ThiagoJob {
+    font-size: 12px;
+    margin: 0 0 0 0px;
+  }
+  
+  .Will {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .WillPicture {
+    background-image: url(../assets/new/picWill.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(0.8);
+  }
+  
+  .WillName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .WillJob {
+    font-size: 12px;
+    margin-left: -5px;
+    margin: 0 0 0 0;
+  }
+  
+  .Mariana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MarianaPicture {
+    background-image: url(../assets/new/picMariana.png);
+    width: 205px;
+    height: 207px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .MarianaName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .MarianaJob {
+    font-size: 12px;
+    margin-left: -5px;
+    margin: 0 0 0 0;
+  }
+  
+  .Louro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .LouroPicture {
+    background-image: url(../assets/new/picLouro.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .LouroName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .LouroJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Tato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .TatoPicture {
+    background-image: url(../assets/new/picTato.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .TatoName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .TatoJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Robson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RobsonPicture {
+    background-image: url(../assets/new/picRobson.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .RobsonName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .RobsonJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Priscila {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PriscilaPicture {
+    background-image: url(../assets/new/picPriscila.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .PriscilaName {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .PriscilaJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Danielle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .DaniellePicture {
+    background-image: url(../assets/new/picDaniele.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(0.8);
+    margin: 0 0 0 0;
+  }
+  
+  .DanielleName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .DanielleJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+
   .teamTitle {
     font-weight: bold;
     font-size: 24px;
@@ -4285,70 +4476,239 @@ background-color: #d8598e;
   }
 
   .teamPictures {
+    width: 100vw;
+    margin: 50px 0 50px 0;
+  }
+  
+  .Mychel{
+    margin: 0 0 0 0px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: -10px auto 0 auto;
-    width: 590px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MychelPicture {
+    background-image: url(../assets/new/picMychel.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(1);
+  }
+  
+  .MychelName {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .MychelJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Thiago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ThiagoPicture {
+    background-image: url(../assets/new/picThiago.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(1);
+  }
+  
+  .ThiagoName {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .ThiagoJob {
+    font-size: 12px;
+    margin: 0 0 0 0px;
+  }
+  
+  .Will {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .WillPicture {
+    background-image: url(../assets/new/picWill.png);
+    width: 205px;
+    height: 211px;
+    margin: 0 0 0 0;
+    transform: scale(1);
+  }
+  
+  .WillName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .WillJob {
+    font-size: 12px;
+    margin-left: -5px;
+    margin: 0 0 0 0;
+  }
+  
+  .Mariana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MarianaPicture {
+    background-image: url(../assets/new/picMariana.png);
+    width: 205px;
+    height: 207px;
+    transform: scale(1);
+    margin: 0 0 0 0;
+  }
+  
+  .MarianaName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .MarianaJob {
+    font-size: 12px;
+    margin-left: -5px;
+    margin: 0 0 0 0;
+  }
+  
+  .Louro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .LouroPicture {
+    background-image: url(../assets/new/picLouro.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(1);
+    margin: 0 0 0 0;
+  }
+  
+  .LouroName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .LouroJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Tato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .TatoPicture {
+    background-image: url(../assets/new/picTato.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(1);
+    margin: 0 0 0 0;
+  }
+  
+  .TatoName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .TatoJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
+  }
+  
+  .Robson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RobsonPicture {
+    background-image: url(../assets/new/picRobson.png);
+    width: 205px;
+    height: 211px;
+    transform: scale(1);
+    margin: 0 0 0 0;
+  }
+  
+  .RobsonName {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+  
+  .RobsonJob {
+    font-size: 12px;
+    margin: 0 0 0 0;
   }
   
   .Priscila {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
-    margin: 0px 0 0 0;
   }
   
   .PriscilaPicture {
     background-image: url(../assets/new/picPriscila.png);
     width: 205px;
     height: 211px;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    margin: 0 0 -28px 40px;
+    transform: scale(1);
+    margin: 0 0 0 0;
   }
   
   .PriscilaName {
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
-    width: 50px;
-    margin: 10px 0 0 -20px;
+    margin: 0 0 0 0;
   }
   
   .PriscilaJob {
     font-size: 12px;
-    margin-left: -25px;
+    margin: 0 0 0 0;
   }
   
   .Danielle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
-    margin: 0px 0 50px 0;
   }
   
   .DaniellePicture {
     background-image: url(../assets/new/picDaniele.png);
     width: 205px;
     height: 211px;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    margin: 0 0 -30px 40px;
+    transform: scale(1);
+    margin: 0 0 0 0;
   }
   
   .DanielleName {
     font-weight: bold;
     font-size: 15px;
-    width: 50px;
-    margin: 10px 0 0 -50px;
+    margin: 0 0 0 0;
   }
   
   .DanielleJob {
     font-size: 12px;
-    width: 100px;
+    margin: 0 0 0 0;
   }
   
   .teamTitle {
