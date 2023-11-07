@@ -115,12 +115,6 @@
   margin: -50px 0 30px 0;
 }
 
-.swiperSlide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .news {
   display: flex;
   align-items: center;

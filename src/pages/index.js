@@ -2372,7 +2372,7 @@ const closeModalContato = () => {
       </div> */}
 
       <Swiper pagination={{clickable: true}} modules={[Pagination]} className={styles.swiper}>
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.news1Picture} />
           <div className={styles.newsTextsContainer}>
