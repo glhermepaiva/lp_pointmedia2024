@@ -8,7 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
-import { Pagination, FreeMode } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { Pagination, FreeMode, Navigation } from 'swiper/modules';
 
 export default function LandingPage() {
 
@@ -3466,33 +3467,352 @@ const closeModalContato = () => {
         <div className={styles.reanimateLogo}/>
         <div className={styles.reanimateText}>O <b>Re.animate</b> é uma Startup da POINT MEDIA utilizada na <b>produção de desdobramentos</b> de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
         <div className={styles.reanimateLines} />
-        <div className={styles.reanimateCards}>
+        {size.width >= 2400 ? 
+        <Swiper slidesPerView={6} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
           <div className={styles.reanimateMM}>
             <div className={styles.reanimateMMlogo}/>
             <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
           <div className={styles.reanimateRA}>
             <div className={styles.reanimateRAlogo}/>
             <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
             <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
           <div className={styles.reanimateDA}>
             <div className={styles.reanimateDAlogo}/>
             <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
           <div className={styles.reanimateAM}>
             <div className={styles.reanimateAMlogo}/>
             <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
             <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
           <div className={styles.reanimateTM}>
             <div className={styles.reanimateTMlogo}/>
             <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
             <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
-        </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1800 ? 
+        <Swiper slidesPerView={4.4} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1600 ? 
+        <Swiper slidesPerView={3.7} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1366 ? 
+        <Swiper slidesPerView={3.2} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1280 ? 
+        <Swiper slidesPerView={3.8} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 768 ?
+        <Swiper slidesPerView={2.5} spaceBetween={20} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 430 ?
+        <Swiper slidesPerView={1.4} spaceBetween={20} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        :
+          <Swiper slidesPerView={1.2} spaceBetween={20} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateDA1}>
+          <div className={styles.reanimateDA}>
+            <div className={styles.reanimateDAlogo}/>
+            <div className={styles.reanimateDAtext}>Crie diversas variações de conteúdos dinâmicos em um template animado com o seu KV.</div>
+            <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateAM1}>
+          <div className={styles.reanimateAM}>
+            <div className={styles.reanimateAMlogo}/>
+            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
+            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.reanimateTM1}>
+          <div className={styles.reanimateTM}>
+            <div className={styles.reanimateTMlogo}/>
+            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
+            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          </div>
+          </SwiperSlide>
+        </Swiper>
+        }
         <div className={styles.reanimatePoints} />
       </div>
 
