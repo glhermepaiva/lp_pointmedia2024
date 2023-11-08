@@ -12534,16 +12534,18 @@ background-color: #d8598e;
   }
   
   .logoPoint {
-    background-image: url(../assets/new/pointlogo.png);
-    width: 156px;
-    height: 59px;
+    background-image: url(../assets/new/pointlogo2.png);
+    width: 297px;
+    height: 111px;
     margin: 0 0 0 200px;
-    transform: scale(1.5);
+    transform: scale(0.8);
   }
   
   .hamburger {
-    margin: 0 200px 0 0;
-    transform: scale(2);
+    margin: 0 170px 0 0;
+    background-image: url(../assets/new/hamburger2.png);
+    width: 91px;
+    height: 97px;
   }
 
   .demoReelVideo {
