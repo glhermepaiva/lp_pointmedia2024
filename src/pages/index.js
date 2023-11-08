@@ -2663,10 +2663,12 @@ const closeModalContato = () => {
               <div className={styles.closedPicture} />
             </div>
           </div>
-          <div onClick={openPrevWorks} className={styles.prevWorksButton}>exibir mais</div>
+          <div>
+            <div onClick={openPrevWorks} className={styles.prevWorksButton}>exibir mais</div>
+            <div className={styles.prevWorksButton2} />
+          </div>
         </div>
       :
-
       <div id='prevworks' className={styles.previousWorks}>
         <div className={styles.pwPoints} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
