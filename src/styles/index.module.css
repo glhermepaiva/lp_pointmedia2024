@@ -832,55 +832,68 @@
 }
 
 .wwdWorks {
-  display: flex;
-  flex-wrap: wrap;
-  width: 375px;
-  margin: 0px 0 0 0px;
-  color: #000000;
+  width: 100vw;
+  margin: 0 0px 0 0px;
+}
+
+.wwd1 {
+  margin: 0 0 0 0;
 }
 
 .wwd1image {
   background-image: url(../assets/new/job1.png);
-  width: 184px;
-  height: 184px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  margin: 0 0 0 15px;
+  width: 279px;
+  height: 279px;
+  margin: 0 0 0 0px;
+  transform: scale(0.8);
+}
+
+.wwd2 {
+  margin: 0 0 0 0;
 }
 
 .wwd2image {
   background-image: url(../assets/new/job2.png);
-  width: 184px;
-  height: 184px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  margin: 0 0 0 -10px;
+  width: 279px;
+  height: 279px;
+  margin: 0 0 0 0px;
+  transform: scale(0.8);
+}
+
+.wwd3 {
+  margin: 0 0 0 0;
 }
 
 .wwd3image {
   background-image: url(../assets/new/job3.png);
-  width: 184px;
-  height: 184px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  margin: 0 0 0 15px;
+  width: 279px;
+  height: 279px;
+  margin: 0 0 0 0px;
+  transform: scale(0.8);
 }
+
+.wwd4 {
+  margin: 0 0 0 0;
+}
+
 .wwd4image {
   background-image: url(../assets/new/job4.png);
-  width: 184px;
-  height: 184px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  margin: 0 0 0 -10px;
+  width: 279px;
+  height: 279px;
+  margin: 0 0 0 0px;
+  transform: scale(0.8);
+}
+
+.wwd5 {
+  margin: 0 0px 0 0;
 }
 
 .wwd5image {
   background-image: url(../assets/new/job5.png);
-  width: 184px;
-  height: 184px;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+  width: 279px;
+  height: 279px;
+  margin: 0 0px 0 0px;
+  transform: scale(0.8);
 }
 
 .wwdWind {
@@ -3304,55 +3317,68 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    display: flex;
-    flex-wrap: wrap;
-    width: 420px;
-    margin: 0px 0 0 0px;
-    height: 620px;
+    width: 100vw;
+    margin: 0 0px 0 0px;
+  }
+  
+  .wwd1 {
+    margin: 0 0 0 0;
   }
   
   .wwd1image {
     background-image: url(../assets/new/job1.png);
-    width: 184px;
-    height: 184px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 15px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
-    width: 184px;
-    height: 184px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 20px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
-    width: 184px;
-    height: 184px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 15px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
   }
+  
+  .wwd4 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
-    width: 184px;
-    height: 184px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 20px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd5 {
+    margin: 0 0px 0 0;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
-    width: 184px;
-    height: 184px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0px 0 0px;
+    transform: scale(0.8);
   }
   
   .wwdWind {
@@ -4192,54 +4218,70 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 700px;
+    width: 100vw;
+    margin: 0 0px 0 0px;
+  }
+  
+  .wwd1 {
     margin: 0 0 0 0;
   }
-
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto 10px auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
   }
+  
+  .wwd4 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 -70px 0 120px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd5 {
+    margin: 0 0px 0 0;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0px 0 0px;
+    transform: scale(0.8);
   }
-
+  
   .wwdWind {
     background-image: url(../assets/new/wind.png);
     width: 172px;
@@ -5587,52 +5629,71 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 1200px;
-    margin: 0 0 0 0;
+    width: 100vw;
+    margin: -20px 0px -20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
+  
+  .wwd1 {
+    margin: 0 -20px 0 0;
+  }
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.75);
+  }
+  
+  .wwd2 {
+    margin: 0 -20px 0 -20px;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.75);
+  }
+  
+  .wwd3 {
+    margin: 0 -20px 0 -20px;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.75);
   }
+  
+  .wwd4 {
+    margin: 0 -20px 0 -20px;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.75);
+  }
+  
+  .wwd5 {
+    margin: 0 0px 0 -20px;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0px 0 0px;
+    transform: scale(0.75);
   }
 
   .wwdWind {
@@ -7330,59 +7391,78 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 700px;
-    margin: -300px 0 0 600px;
+    width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -350px 0px 0 500px;
   }
-
+  
+  .wwd1 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
   }
+  
+  .wwd4 {
+    margin: -50px 0 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 40px 0 130px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd5 {
+    margin: -50px 0px 0 0;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
-    width: 202px;
-    height: 202px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 0;
+    width: 279px;
+    height: 279px;
+    margin: 0 0px 0 0px;
+    transform: scale(0.8);
   }
 
   .wwdWind {
     background-image: url(../assets/new/wind.png);
     width: 200px;
     height: 103px;
-    margin: -150px 0 0px -250px;
+    margin: -180px 0 0px -300px;
     transform: rotate(135deg);
   }
 
@@ -9188,52 +9268,71 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 750px;
-    margin: -320px 0 0 650px;
+    width: 840px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -375px 0px 0 600px;
   }
-
+  
+  .wwd1 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
-    width: 215px;
-    height: 215px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
-    width: 215px;
-    height: 215px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
-    width: 215px;
-    height: 215px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
   }
+  
+  .wwd4 {
+    margin: -50px 0 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
-    width: 215px;
-    height: 215px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 40px 0 130px;
+    width: 279px;
+    height: 279px;
+    margin: 0 0 0 0px;
+    transform: scale(0.8);
+  }
+  
+  .wwd5 {
+    margin: -50px 0px 0 0;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
-    width: 215px;
-    height: 215px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 0 0 0;
+    width: 279px;
+    height: 279px;
+    margin: 0 0px 0 0px;
+    transform: scale(0.8);
   }
 
   .wwdWind {
@@ -11121,42 +11220,71 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 900px;
-    margin: -400px 0 0 650px;
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -375px 0px 0 600px;
   }
-
+  
+  .wwd1 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
   }
+  
+  .wwd4 {
+    margin: 30px -150px 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
     width: 279px;
     height: 279px;
-    margin: 0 40px 0 130px;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd5 {
+    margin: 30px 0px 0 -150px;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
     width: 279px;
     height: 279px;
-    margin: 0 0 0 0;
+    margin: 0 0px 0 0px;
+    transform: scale(1);
   }
 
   .wwdWind {
@@ -13063,42 +13191,71 @@ background-color: #d8598e;
   }
 
   .wwdWorks {
-    width: 900px;
-    margin: -400px 0 0 650px;
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -420px 0px 0 700px;
   }
-
+  
+  .wwd1 {
+    margin: 0 0 0 0;
+  }
+  
   .wwd1image {
     background-image: url(../assets/new/job1.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd2 {
+    margin: 0 0 0 0;
   }
   
   .wwd2image {
     background-image: url(../assets/new/job2.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd3 {
+    margin: 0 0 0 0;
   }
   
   .wwd3image {
     background-image: url(../assets/new/job3.png);
     width: 279px;
     height: 279px;
-    margin: 0 auto;
+    margin: 0 0 0 0px;
+    transform: scale(1);
   }
+  
+  .wwd4 {
+    margin: 30px -150px 0 0;
+  }
+  
   .wwd4image {
     background-image: url(../assets/new/job4.png);
     width: 279px;
     height: 279px;
-    margin: 0 40px 0 130px;
+    margin: 0 0 0 0px;
+    transform: scale(1);
+  }
+  
+  .wwd5 {
+    margin: 30px 0px 0 -150px;
   }
   
   .wwd5image {
     background-image: url(../assets/new/job5.png);
     width: 279px;
     height: 279px;
-    margin: 0 0 0 0;
+    margin: 0 0px 0 0px;
+    transform: scale(1);
   }
 
   .wwdWind {

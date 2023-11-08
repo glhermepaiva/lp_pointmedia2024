@@ -2574,13 +2574,64 @@ const closeModalContato = () => {
         <div className={styles.wwdText}>
           Criamos <b>hubs de performance</b> para agências e clientes diretos, nos quais oferecemos uma ampla gama de serviços de marketing digital. Com expertise em <b>criação</b>, desenvolvemos <b>banners HTML5</b>, <b>vídeos</b> e <b>imagens estáticas</b> que se adaptam perfeitamente às necessidades da campanha.
         </div>
+        {size.width >= 1280 ? 
         <div className={styles.wwdWorks}>
+          <div className={styles.wwd1}>
             <div className={styles.wwd1image} />
+          </div>
+          <div className={styles.wwd2}>
             <div className={styles.wwd2image} />
+          </div>
+          <div className={styles.wwd3}>
             <div className={styles.wwd3image} />
+          </div>
+          <div className={styles.wwd4}>
             <div className={styles.wwd4image} />
+          </div>
+          <div className={styles.wwd5}>
             <div className={styles.wwd5image} />
+          </div>
         </div>
+        :
+        size.width >= 768 ? 
+        <Swiper slidesPerView={3.5} spaceBetween={50} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
+          <SwiperSlide className={styles.wwd1}>
+            <div className={styles.wwd1image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd2}>
+            <div className={styles.wwd2image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd3}>
+            <div className={styles.wwd3image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd4}>
+            <div className={styles.wwd4image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd5}>
+            <div className={styles.wwd5image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd5} />
+        </Swiper>
+        :
+        <Swiper slidesPerView={1.9} spaceBetween={80} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
+          <SwiperSlide className={styles.wwd1}>
+            <div className={styles.wwd1image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd2}>
+            <div className={styles.wwd2image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd3}>
+            <div className={styles.wwd3image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd4}>
+            <div className={styles.wwd4image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd5}>
+            <div className={styles.wwd5image} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.wwd6} />
+        </Swiper>
+        }
         <div className={styles.wwdWind} />
         <div className={styles.wwdPoints} />
       </div>
