@@ -403,780 +403,780 @@ const backtoLastPageTablet = () => {
   setClientPage (clientPage + 3)
 }
 
-function renderObjectSize() {
-  /* MOBILE */
-  if (size.width < 768 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 3){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 4){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 5){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width < 768 && clientPage == 6){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-          </div>
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-          <div className={styles.client82} />
-          <div className={styles.client83} />
-          <div className={styles.client84} />
-        </div>
-    )
-  }
+// function renderObjectSize() {
+//   /* MOBILE */
+//   if (size.width < 768 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 3){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 4){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 5){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width < 768 && clientPage == 6){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//           </div>
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//           <div className={styles.client82} />
+//           <div className={styles.client83} />
+//           <div className={styles.client84} />
+//         </div>
+//     )
+//   }
 
-  /* TABLET */
-  if (size.width < 1200 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width < 1200 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width < 1200 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width < 1200 && clientPage == 3){
-    return (
-      <div className={styles.clientsGallery}>
-        <div className={styles.clientsArrows}>
-          <div className={styles.clientArrowLeft} onClick={prevPage}/>
-          <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-        </div>
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-          <div className={styles.client82} />
-          <div className={styles.client83} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-          <div className={styles.client84} />
-        </div>
-    )
-  }
+//   /* TABLET */
+//   if (size.width < 1200 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width < 1200 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width < 1200 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width < 1200 && clientPage == 3){
+//     return (
+//       <div className={styles.clientsGallery}>
+//         <div className={styles.clientsArrows}>
+//           <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//         </div>
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//           <div className={styles.client82} />
+//           <div className={styles.client83} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//           <div className={styles.client84} />
+//         </div>
+//     )
+//   }
 
-  /* DESK 1200 */
-  if (size.width < 1400 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width < 1400 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width < 1400 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width < 1400 && clientPage == 3){
-    return (
-      <>
-      <div className={styles.clientsArrowsLastPage1200}>
-          <div className={styles.clientArrowLeft} onClick={prevPage}/>
-          <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-      </div>
-      <div className={styles.clientsGalleryLastPage1200}>
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-        </div>
-      </>
-    )
-  }
+//   /* DESK 1200 */
+//   if (size.width < 1400 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width < 1400 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width < 1400 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width < 1400 && clientPage == 3){
+//     return (
+//       <>
+//       <div className={styles.clientsArrowsLastPage1200}>
+//           <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//       </div>
+//       <div className={styles.clientsGalleryLastPage1200}>
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//         </div>
+//       </>
+//     )
+//   }
 
-  /* DESK 1400 */
-  if (size.width < 1600 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width < 1600 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width < 1600 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width < 1600 && clientPage == 3){
-    return (
-      <>
-      <div className={styles.clientsArrowsLastPage1400}>
-          <div className={styles.clientArrowLeft} onClick={prevPage}/>
-          <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-      </div>
-      <div className={styles.clientsGalleryLastPage1400}>
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-        </div>
-      </>
-    )
-  }
+//   /* DESK 1400 */
+//   if (size.width < 1600 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width < 1600 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width < 1600 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width < 1600 && clientPage == 3){
+//     return (
+//       <>
+//       <div className={styles.clientsArrowsLastPage1400}>
+//           <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//       </div>
+//       <div className={styles.clientsGalleryLastPage1400}>
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//         </div>
+//       </>
+//     )
+//   }
 
-  /* DESK 1600 */
-  if (size.width < 1800 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width < 1800 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width < 1800 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width < 1800 && clientPage == 3){
-    return (
-      <>
-      <div className={styles.clientsArrowsLastPage1600}>
-          <div className={styles.clientArrowLeft} onClick={prevPage}/>
-          <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-      </div>
-      <div className={styles.clientsGalleryLastPage1600}>
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-        </div>
-      </>
-    )
-  }
+//   /* DESK 1600 */
+//   if (size.width < 1800 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width < 1800 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width < 1800 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width < 1800 && clientPage == 3){
+//     return (
+//       <>
+//       <div className={styles.clientsArrowsLastPage1600}>
+//           <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//       </div>
+//       <div className={styles.clientsGalleryLastPage1600}>
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//         </div>
+//       </>
+//     )
+//   }
 
-  /* DESK 1800+ */
-  if (size.width >= 1800 && clientPage == 0){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client1} />
-          <div className={styles.client2} />
-          <div className={styles.client3} />
-          <div className={styles.client4} />
-          <div className={styles.client5} />
-          <div className={styles.client6} />
-          <div className={styles.client7} />
-          <div className={styles.client8} />
-          <div className={styles.client9} />
-          <div className={styles.client10} />
-          <div className={styles.client11} />
-          <div className={styles.client12} />
-          <div className={styles.client13} />
-          <div className={styles.client14} />
-          <div className={styles.client15} />
-          <div className={styles.client16} />
-          <div className={styles.client17} />
-          <div className={styles.client18} />
-          <div className={styles.client19} />
-          <div className={styles.client20} />
-          <div className={styles.client21} />
-          <div className={styles.client22} />
-          <div className={styles.client23} />
-          <div className={styles.client24} />
-        </div>
-    )
-  } if (size.width >= 1800 && clientPage == 1){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client25} />
-          <div className={styles.client26} />
-          <div className={styles.client27} />
-          <div className={styles.client28} />
-          <div className={styles.client29} />
-          <div className={styles.client30} />
-          <div className={styles.client31} />
-          <div className={styles.client32} />
-          <div className={styles.client33} />
-          <div className={styles.client34} />
-          <div className={styles.client35} />
-          <div className={styles.client36} />
-          <div className={styles.client37} />
-          <div className={styles.client38} />
-          <div className={styles.client39} />
-          <div className={styles.client40} />
-          <div className={styles.client41} />
-          <div className={styles.client42} />
-          <div className={styles.client43} />
-          <div className={styles.client44} />
-          <div className={styles.client45} />
-          <div className={styles.client46} />
-          <div className={styles.client47} />
-          <div className={styles.client48} />
-        </div>
-    )
-  } if (size.width >= 1800 && clientPage == 2){
-    return (
-      <div className={styles.clientsGallery}>
-          <div className={styles.clientsArrows}>
-            <div className={styles.clientArrowLeft} onClick={prevPage}/>
-            <div className={styles.clientArrowRight} onClick={nextPage}/>
-          </div>
-          <div className={styles.client49} />
-          <div className={styles.client50} />
-          <div className={styles.client51} />
-          <div className={styles.client52} />
-          <div className={styles.client53} />
-          <div className={styles.client54} />
-          <div className={styles.client55} />
-          <div className={styles.client56} />
-          <div className={styles.client57} />
-          <div className={styles.client58} />
-          <div className={styles.client59} />
-          <div className={styles.client60} />
-          <div className={styles.client61} />
-          <div className={styles.client62} />
-          <div className={styles.client63} />
-          <div className={styles.client64} />
-          <div className={styles.client65} />
-          <div className={styles.client66} />
-          <div className={styles.client67} />
-          <div className={styles.client68} />
-          <div className={styles.client69} />
-          <div className={styles.client70} />
-          <div className={styles.client71} />
-          <div className={styles.client72} />
-        </div>
-    )
-  } if (size.width >= 1800 && clientPage == 3){
-    return (
-      <>
-      <div className={styles.clientsArrowsLastPage1800}>
-          <div className={styles.clientArrowLeft} onClick={prevPage}/>
-          <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
-      </div>
-      <div className={styles.clientsGalleryLastPage1800}>
-          <div className={styles.client73} />
-          <div className={styles.client74} />
-          <div className={styles.client75} />
-          <div className={styles.client76} />
-          <div className={styles.client77} />
-          <div className={styles.client78} />
-          <div className={styles.client79} />
-          <div className={styles.client80} />
-          <div className={styles.client81} />
-        </div>
-      </>
-    )
-  }
-}
+//   /* DESK 1800+ */
+//   if (size.width >= 1800 && clientPage == 0){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={backtoLastPageTablet}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client1} />
+//           <div className={styles.client2} />
+//           <div className={styles.client3} />
+//           <div className={styles.client4} />
+//           <div className={styles.client5} />
+//           <div className={styles.client6} />
+//           <div className={styles.client7} />
+//           <div className={styles.client8} />
+//           <div className={styles.client9} />
+//           <div className={styles.client10} />
+//           <div className={styles.client11} />
+//           <div className={styles.client12} />
+//           <div className={styles.client13} />
+//           <div className={styles.client14} />
+//           <div className={styles.client15} />
+//           <div className={styles.client16} />
+//           <div className={styles.client17} />
+//           <div className={styles.client18} />
+//           <div className={styles.client19} />
+//           <div className={styles.client20} />
+//           <div className={styles.client21} />
+//           <div className={styles.client22} />
+//           <div className={styles.client23} />
+//           <div className={styles.client24} />
+//         </div>
+//     )
+//   } if (size.width >= 1800 && clientPage == 1){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client25} />
+//           <div className={styles.client26} />
+//           <div className={styles.client27} />
+//           <div className={styles.client28} />
+//           <div className={styles.client29} />
+//           <div className={styles.client30} />
+//           <div className={styles.client31} />
+//           <div className={styles.client32} />
+//           <div className={styles.client33} />
+//           <div className={styles.client34} />
+//           <div className={styles.client35} />
+//           <div className={styles.client36} />
+//           <div className={styles.client37} />
+//           <div className={styles.client38} />
+//           <div className={styles.client39} />
+//           <div className={styles.client40} />
+//           <div className={styles.client41} />
+//           <div className={styles.client42} />
+//           <div className={styles.client43} />
+//           <div className={styles.client44} />
+//           <div className={styles.client45} />
+//           <div className={styles.client46} />
+//           <div className={styles.client47} />
+//           <div className={styles.client48} />
+//         </div>
+//     )
+//   } if (size.width >= 1800 && clientPage == 2){
+//     return (
+//       <div className={styles.clientsGallery}>
+//           <div className={styles.clientsArrows}>
+//             <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//             <div className={styles.clientArrowRight} onClick={nextPage}/>
+//           </div>
+//           <div className={styles.client49} />
+//           <div className={styles.client50} />
+//           <div className={styles.client51} />
+//           <div className={styles.client52} />
+//           <div className={styles.client53} />
+//           <div className={styles.client54} />
+//           <div className={styles.client55} />
+//           <div className={styles.client56} />
+//           <div className={styles.client57} />
+//           <div className={styles.client58} />
+//           <div className={styles.client59} />
+//           <div className={styles.client60} />
+//           <div className={styles.client61} />
+//           <div className={styles.client62} />
+//           <div className={styles.client63} />
+//           <div className={styles.client64} />
+//           <div className={styles.client65} />
+//           <div className={styles.client66} />
+//           <div className={styles.client67} />
+//           <div className={styles.client68} />
+//           <div className={styles.client69} />
+//           <div className={styles.client70} />
+//           <div className={styles.client71} />
+//           <div className={styles.client72} />
+//         </div>
+//     )
+//   } if (size.width >= 1800 && clientPage == 3){
+//     return (
+//       <>
+//       <div className={styles.clientsArrowsLastPage1800}>
+//           <div className={styles.clientArrowLeft} onClick={prevPage}/>
+//           <div className={styles.clientArrowRight} onClick={backtoFirstPage}/>
+//       </div>
+//       <div className={styles.clientsGalleryLastPage1800}>
+//           <div className={styles.client73} />
+//           <div className={styles.client74} />
+//           <div className={styles.client75} />
+//           <div className={styles.client76} />
+//           <div className={styles.client77} />
+//           <div className={styles.client78} />
+//           <div className={styles.client79} />
+//           <div className={styles.client80} />
+//           <div className={styles.client81} />
+//         </div>
+//       </>
+//     )
+//   }
+// }
 
 /***** CASES *****/
 
@@ -1306,222 +1306,6 @@ function renderCasesEN() {
     )
   } 
 }
-
-/***** NEWS CAROUSEL *****/
-
-// const [newsPage, setNewsPage] = useState(0)
-
-// const firstNewsPage = () => {
-//   setNewsPage (newsPage == 0)
-// }
-
-// const advOnePage = () => {
-//   setNewsPage (newsPage + 1)
-// }
-
-// const advTwoPages = () => {
-//   setNewsPage (newsPage + 2)
-// }
-
-// const advThreePages = () => {
-//   setNewsPage (newsPage + 3)
-// }
-
-// const advFourPages = () => {
-//   setNewsPage (newsPage + 4)
-// }
-
-// const backOnePage = () => {
-//   setNewsPage (newsPage - 1)
-// }
-
-// const backTwoPages = () => {
-//   setNewsPage (newsPage - 2)
-// }
-
-// const backThreePages = () => {
-//   setNewsPage (newsPage - 3)
-// }
-
-// const backFourPages = () => {
-//   setNewsPage (newsPage - 4)
-// }
-
-// function renderNews() {
-//   if (englishActive == true) {
-
-//     if (newsPage == 0){
-//       return (
-//         <div className={styles.news}>
-//           <div className={styles.havaianasPicture} />
-//           <div className={styles.newsTextsContainer}>
-//             <div className={styles.havaianasTag}>
-//               <div className={styles.havaianasTagText}>Havaianas is POINT MEDIA!</div>
-//               <div className={styles.havaianasTagLine} />
-//             </div>
-//             <div className={styles.havaianasNewsTitle}>We started a new phase in our partnership with Havaianas!</div>
-//             <div className={styles.havaianasNewsText}>After POINT MEDIA's team outstanding performance handling the online media services for the brazilian sandals brand, we also took over the CRM services for the national and global teams.</div>
-//               <div className={styles.carouselBullets}>
-//                 <div className={styles.blackBullet} />
-//                 <div className={styles.blueBullet} onClick={advOnePage} />
-//                 <div className={styles.blueBullet} onClick={advTwoPages} />
-//               </div>
-//           </div>
-//         </div>
-//       )
-//     } if (newsPage == 1){
-//       return (
-//         <div className={styles.news}>
-//           <div className={styles.veloePicture} />
-//           <div className={styles.newsTextsContainer}>
-//             <div className={styles.veloeTag}>
-//               <div className={styles.veloeTagText}>VELOE IS POINT MEDIA!</div>
-//               <div className={styles.veloeTagLine} />
-//             </div>
-//             <div className={styles.veloeNewsTitle}>Veloe has parked at Point Media and is our new client!</div>
-//             <div className={styles.veloeNewsText}>The responsabilities of developing the whole production and operation of Veloe's digital campaigns are ours now. Let's go together!</div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blueBullet} onClick={backOnePage} />
-//               <div className={styles.blackBullet}  />
-//               <div className={styles.blueBullet} onClick={advOnePage}/>
-//             </div>
-//           </div>
-//         </div>
-//       )
-//     } if (newsPage == 2){
-//       return (
-//         <div className={styles.news}>
-//           <div className={styles.ceaPicture} />
-//           <div className={styles.newsTextsContainer}>
-//           <div className={styles.ceaTag}>
-//               <div className={styles.ceaTagText}>C&#38;A is POINT MEDIA!</div>
-//               <div className={styles.ceaTagLine} />
-//             </div>
-//             <div className={styles.ceaNewsTitle}>C&#38;A is the newest customer to join POINT MEDIA's team</div>
-//             <div className={styles.ceaNewsText}>Our team took over the digital communications and CRM operations and is already ahead in the production of main campaigns for the giant retailer!</div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blueBullet} onClick={backTwoPages} />
-//               <div className={styles.blueBullet} onClick={backOnePage} />
-//               <div className={styles.blackBullet}  />
-//             </div>
-//           </div>
-//         </div>
-//       )
-//     } 
-//   } else {
-//    if (newsPage == 0){
-//     return (
-//       <div className={styles.news}>
-//         <div className={styles.news1Picture} />
-//         <div className={styles.newsTextsContainer}>
-//           <div className={styles.news1Tag}>
-//             <div className={styles.news1TagText}>PicPay é POINT MEDIA!</div>
-//             <div className={styles.news1TagLine} />
-//           </div>
-//           <div className={styles.news1NewsText}>
-//             O jeito divertido de lidar com o dinheiro chegou na POINT! A empresa que <b>simplificou as finanças</b> dos brasileiros agora faz parte da nossa família de clientes. Vamos juntos <b>dar um pique</b> na vida financeira de milhares de pessoas! 😄
-//           </div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blueBullet} />
-//               <div className={styles.blackBullet} onClick={advOnePage} />
-//               <div className={styles.blackBullet} onClick={advTwoPages} />
-//               <div className={styles.blackBullet} onClick={advThreePages} />
-//               <div className={styles.blackBullet} onClick={advFourPages} />
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   } if (newsPage == 1){
-//     return (
-//       <div className={styles.news}>
-//         <div className={styles.news2Picture} />
-//         <div className={styles.newsTextsContainer}>
-//           <div className={styles.news2Tag}>
-//               <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
-//               <div className={styles.news2TagLine} />
-//             </div>
-//             <div className={styles.news2NewsText}>
-//             Os especialistas em transformar <b>ideias em realidade</b> estão com a gente! Temos o prazer de sermos parceiros da agência DM9. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
-//             </div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blackBullet} onClick={backOnePage} />
-//               <div className={styles.blueBullet}  />
-//               <div className={styles.blackBullet} onClick={advOnePage}/>
-//               <div className={styles.blackBullet} onClick={advTwoPages} />
-//               <div className={styles.blackBullet} onClick={advThreePages} />
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   } if (newsPage == 2){
-//     return (
-//       <div className={styles.news}>
-//         <div className={styles.news3Picture} />
-//         <div className={styles.newsTextsContainer}>
-//           <div className={styles.news3Tag}>
-//               <div className={styles.news3TagText}>Havaianas é POINT MEDIA!</div>
-//               <div className={styles.news3TagLine} />
-//             </div>
-//             <div className={styles.news3NewsText}>
-//               Iniciamos uma nova etapa em nossa parceria com a Havaianas! Após o <b>ótimo desempenho</b> da equipe <b>POINT MEDIA</b> com os serviços de mídia online para a marca brasileira de sandálias, também assumimos os serviços de CRM para o <b>time global</b> e <b>nacional</b>.
-//             </div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blackBullet} onClick={backTwoPages} />
-//               <div className={styles.blackBullet} onClick={backOnePage} />
-//               <div className={styles.blueBullet}  />
-//               <div className={styles.blackBullet} onClick={advOnePage} />
-//               <div className={styles.blackBullet} onClick={advTwoPages} />
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   } if (newsPage == 3){
-//     return (
-//       <div className={styles.news}>
-//         <div className={styles.news4Picture} />
-//         <div className={styles.newsTextsContainer}>
-//           <div className={styles.news4Tag}>
-//               <div className={styles.news4TagText}>C&#38;A é POINT MEDIA!</div>
-//               <div className={styles.news4TagLine} />
-//             </div>
-//             <div className={styles.news4NewsText}>
-//               A mais nova cliente a fazer parte do time. Nossa equipe <b>assumiu a operação</b> de comunicação <b>digital</b> e <b>CRM</b> e já está à frente na produção das principais campanhas destes meios da <b>gigante varejista</b>!
-//             </div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blackBullet} onClick={backThreePages} />
-//               <div className={styles.blackBullet} onClick={backTwoPages} />
-//               <div className={styles.blackBullet} onClick={backOnePage} />
-//               <div className={styles.blueBullet}  />
-//               <div className={styles.blackBullet} onClick={advOnePage} />
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   } if (newsPage == 4){
-//     return (
-//       <div className={styles.news}>
-//         <div className={styles.news5Picture} />
-//         <div className={styles.newsTextsContainer}>
-//           <div className={styles.news5Tag}>
-//               <div className={styles.news5TagText}>Veloe é POINT MEDIA!</div>
-//               <div className={styles.news5TagLine} />
-//             </div>
-//             <div className={styles.news5NewsText}>
-//               Pegamos a estrada com a Veloe e agora não tem pedágio que segure! A responsabilidade de <b>desenvolver toda a produção</b> e operação das campanhas digitais da Veloe agora é nossa. Vamos juntos nessa!
-//             </div>
-//             <div className={styles.carouselBullets}>
-//               <div className={styles.blackBullet} onClick={backFourPages} />
-//               <div className={styles.blackBullet} onClick={backThreePages} />
-//               <div className={styles.blackBullet} onClick={backTwoPages} />
-//               <div className={styles.blackBullet} onClick={backOnePage} />
-//               <div className={styles.blueBullet}  />
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   }
-//   }
-// }
 
 /***** EXTERNAL LINKS  *****/
 
@@ -2371,10 +2155,6 @@ const closeModalContato = () => {
 
       <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
 
-      {/* <div>
-        {renderNews()}
-      </div> */}
-
       <Swiper pagination={{clickable: true}} modules={[Pagination]} className={styles.swiper}>
         <SwiperSlide>
         <div className={styles.news}>
@@ -3000,7 +2780,655 @@ const closeModalContato = () => {
         <div className={styles.blueBalls}></div>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
         <div className={styles.clientsTitleTag} />
-        {renderObjectSize()}
+        {size.width >= 2400 ? 
+        <Swiper slidesPerView={8.5} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
+          <SwiperSlide className={styles.clientsSwipe}>
+            <div className={styles.client1} />
+            <div className={styles.client2} />
+            <div className={styles.client3} />
+            <div className={styles.client4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client5} />
+            <div className={styles.client6} />
+            <div className={styles.client7} />
+            <div className={styles.client8} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client9} />
+            <div className={styles.client10} />
+            <div className={styles.client11} />
+            <div className={styles.client12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client13} />
+            <div className={styles.client14} />
+            <div className={styles.client15} />
+            <div className={styles.client16} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client17} />
+            <div className={styles.client18} />
+            <div className={styles.client19} />
+            <div className={styles.client20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client21} />
+            <div className={styles.client22} />
+            <div className={styles.client23} />
+            <div className={styles.client24} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client25} />
+            <div className={styles.client26} />
+            <div className={styles.client27} />
+            <div className={styles.client28} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client29} />
+            <div className={styles.client30} />
+            <div className={styles.client31} />
+            <div className={styles.client32} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client33} />
+            <div className={styles.client34} />
+            <div className={styles.client35} />
+            <div className={styles.client36} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client37} />
+            <div className={styles.client38} />
+            <div className={styles.client39} />
+            <div className={styles.client40} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client41} />
+            <div className={styles.client42} />
+            <div className={styles.client43} />
+            <div className={styles.client44} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client45} />
+            <div className={styles.client46} />
+            <div className={styles.client47} />
+            <div className={styles.client48} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client49} />
+            <div className={styles.client50} />
+            <div className={styles.client51} />
+            <div className={styles.client52} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client53} />
+            <div className={styles.client54} />
+            <div className={styles.client55} />
+            <div className={styles.client56} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client57} />
+            <div className={styles.client58} />
+            <div className={styles.client59} />
+            <div className={styles.client60} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client61} />
+            <div className={styles.client62} />
+            <div className={styles.client63} />
+            <div className={styles.client64} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client65} />
+            <div className={styles.client66} />
+            <div className={styles.client67} />
+            <div className={styles.client68} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client69} />
+            <div className={styles.client70} />
+            <div className={styles.client71} />
+            <div className={styles.client72} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client73} />
+            <div className={styles.client74} />
+            <div className={styles.client75} />
+            <div className={styles.client76} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client77} />
+            <div className={styles.client78} />
+            <div className={styles.client79} />
+            <div className={styles.client80} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client81} />
+            <div className={styles.client82} />
+            <div className={styles.client83} />
+            <div className={styles.client84} />
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1600 ?
+      <Swiper slidesPerView={6.5} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
+        <SwiperSlide className={styles.clientsSwipe}>
+            <div className={styles.client1} />
+            <div className={styles.client2} />
+            <div className={styles.client3} />
+            <div className={styles.client4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client5} />
+            <div className={styles.client6} />
+            <div className={styles.client7} />
+            <div className={styles.client8} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client9} />
+            <div className={styles.client10} />
+            <div className={styles.client11} />
+            <div className={styles.client12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client13} />
+            <div className={styles.client14} />
+            <div className={styles.client15} />
+            <div className={styles.client16} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client17} />
+            <div className={styles.client18} />
+            <div className={styles.client19} />
+            <div className={styles.client20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client21} />
+            <div className={styles.client22} />
+            <div className={styles.client23} />
+            <div className={styles.client24} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client25} />
+            <div className={styles.client26} />
+            <div className={styles.client27} />
+            <div className={styles.client28} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client29} />
+            <div className={styles.client30} />
+            <div className={styles.client31} />
+            <div className={styles.client32} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client33} />
+            <div className={styles.client34} />
+            <div className={styles.client35} />
+            <div className={styles.client36} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client37} />
+            <div className={styles.client38} />
+            <div className={styles.client39} />
+            <div className={styles.client40} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client41} />
+            <div className={styles.client42} />
+            <div className={styles.client43} />
+            <div className={styles.client44} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client45} />
+            <div className={styles.client46} />
+            <div className={styles.client47} />
+            <div className={styles.client48} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client49} />
+            <div className={styles.client50} />
+            <div className={styles.client51} />
+            <div className={styles.client52} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client53} />
+            <div className={styles.client54} />
+            <div className={styles.client55} />
+            <div className={styles.client56} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client57} />
+            <div className={styles.client58} />
+            <div className={styles.client59} />
+            <div className={styles.client60} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client61} />
+            <div className={styles.client62} />
+            <div className={styles.client63} />
+            <div className={styles.client64} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client65} />
+            <div className={styles.client66} />
+            <div className={styles.client67} />
+            <div className={styles.client68} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client69} />
+            <div className={styles.client70} />
+            <div className={styles.client71} />
+            <div className={styles.client72} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client73} />
+            <div className={styles.client74} />
+            <div className={styles.client75} />
+            <div className={styles.client76} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client77} />
+            <div className={styles.client78} />
+            <div className={styles.client79} />
+            <div className={styles.client80} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client81} />
+            <div className={styles.client82} />
+            <div className={styles.client83} />
+            <div className={styles.client84} />
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 1280 ? 
+        <Swiper slidesPerView={4.5} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
+          <SwiperSlide>
+            <div className={styles.client1} />
+            <div className={styles.client2} />
+            <div className={styles.client3} />
+            <div className={styles.client4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client5} />
+            <div className={styles.client6} />
+            <div className={styles.client7} />
+            <div className={styles.client8} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client9} />
+            <div className={styles.client10} />
+            <div className={styles.client11} />
+            <div className={styles.client12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client13} />
+            <div className={styles.client14} />
+            <div className={styles.client15} />
+            <div className={styles.client16} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client17} />
+            <div className={styles.client18} />
+            <div className={styles.client19} />
+            <div className={styles.client20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client21} />
+            <div className={styles.client22} />
+            <div className={styles.client23} />
+            <div className={styles.client24} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client25} />
+            <div className={styles.client26} />
+            <div className={styles.client27} />
+            <div className={styles.client28} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client29} />
+            <div className={styles.client30} />
+            <div className={styles.client31} />
+            <div className={styles.client32} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client33} />
+            <div className={styles.client34} />
+            <div className={styles.client35} />
+            <div className={styles.client36} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client37} />
+            <div className={styles.client38} />
+            <div className={styles.client39} />
+            <div className={styles.client40} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client41} />
+            <div className={styles.client42} />
+            <div className={styles.client43} />
+            <div className={styles.client44} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client45} />
+            <div className={styles.client46} />
+            <div className={styles.client47} />
+            <div className={styles.client48} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client49} />
+            <div className={styles.client50} />
+            <div className={styles.client51} />
+            <div className={styles.client52} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client53} />
+            <div className={styles.client54} />
+            <div className={styles.client55} />
+            <div className={styles.client56} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client57} />
+            <div className={styles.client58} />
+            <div className={styles.client59} />
+            <div className={styles.client60} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client61} />
+            <div className={styles.client62} />
+            <div className={styles.client63} />
+            <div className={styles.client64} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client65} />
+            <div className={styles.client66} />
+            <div className={styles.client67} />
+            <div className={styles.client68} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client69} />
+            <div className={styles.client70} />
+            <div className={styles.client71} />
+            <div className={styles.client72} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client73} />
+            <div className={styles.client74} />
+            <div className={styles.client75} />
+            <div className={styles.client76} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client77} />
+            <div className={styles.client78} />
+            <div className={styles.client79} />
+            <div className={styles.client80} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client81} />
+            <div className={styles.client82} />
+            <div className={styles.client83} />
+            <div className={styles.client84} />
+          </SwiperSlide>
+        </Swiper>
+        :
+        size.width >= 768 ? 
+        <Swiper slidesPerView={3.5} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
+          <SwiperSlide>
+            <div className={styles.client1} />
+            <div className={styles.client2} />
+            <div className={styles.client3} />
+            <div className={styles.client4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client5} />
+            <div className={styles.client6} />
+            <div className={styles.client7} />
+            <div className={styles.client8} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client9} />
+            <div className={styles.client10} />
+            <div className={styles.client11} />
+            <div className={styles.client12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client13} />
+            <div className={styles.client14} />
+            <div className={styles.client15} />
+            <div className={styles.client16} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client17} />
+            <div className={styles.client18} />
+            <div className={styles.client19} />
+            <div className={styles.client20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client21} />
+            <div className={styles.client22} />
+            <div className={styles.client23} />
+            <div className={styles.client24} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client25} />
+            <div className={styles.client26} />
+            <div className={styles.client27} />
+            <div className={styles.client28} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client29} />
+            <div className={styles.client30} />
+            <div className={styles.client31} />
+            <div className={styles.client32} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client33} />
+            <div className={styles.client34} />
+            <div className={styles.client35} />
+            <div className={styles.client36} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client37} />
+            <div className={styles.client38} />
+            <div className={styles.client39} />
+            <div className={styles.client40} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client41} />
+            <div className={styles.client42} />
+            <div className={styles.client43} />
+            <div className={styles.client44} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client45} />
+            <div className={styles.client46} />
+            <div className={styles.client47} />
+            <div className={styles.client48} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client49} />
+            <div className={styles.client50} />
+            <div className={styles.client51} />
+            <div className={styles.client52} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client53} />
+            <div className={styles.client54} />
+            <div className={styles.client55} />
+            <div className={styles.client56} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client57} />
+            <div className={styles.client58} />
+            <div className={styles.client59} />
+            <div className={styles.client60} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client61} />
+            <div className={styles.client62} />
+            <div className={styles.client63} />
+            <div className={styles.client64} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client65} />
+            <div className={styles.client66} />
+            <div className={styles.client67} />
+            <div className={styles.client68} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client69} />
+            <div className={styles.client70} />
+            <div className={styles.client71} />
+            <div className={styles.client72} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client73} />
+            <div className={styles.client74} />
+            <div className={styles.client75} />
+            <div className={styles.client76} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client77} />
+            <div className={styles.client78} />
+            <div className={styles.client79} />
+            <div className={styles.client80} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client81} />
+            <div className={styles.client82} />
+            <div className={styles.client83} />
+            <div className={styles.client84} />
+          </SwiperSlide>
+        </Swiper>
+        :
+        <Swiper slidesPerView={1.7} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
+          <SwiperSlide>
+            <div className={styles.client1} />
+            <div className={styles.client2} />
+            <div className={styles.client3} />
+            <div className={styles.client4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client5} />
+            <div className={styles.client6} />
+            <div className={styles.client7} />
+            <div className={styles.client8} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client9} />
+            <div className={styles.client10} />
+            <div className={styles.client11} />
+            <div className={styles.client12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client13} />
+            <div className={styles.client14} />
+            <div className={styles.client15} />
+            <div className={styles.client16} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client17} />
+            <div className={styles.client18} />
+            <div className={styles.client19} />
+            <div className={styles.client20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client21} />
+            <div className={styles.client22} />
+            <div className={styles.client23} />
+            <div className={styles.client24} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client25} />
+            <div className={styles.client26} />
+            <div className={styles.client27} />
+            <div className={styles.client28} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client29} />
+            <div className={styles.client30} />
+            <div className={styles.client31} />
+            <div className={styles.client32} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client33} />
+            <div className={styles.client34} />
+            <div className={styles.client35} />
+            <div className={styles.client36} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client37} />
+            <div className={styles.client38} />
+            <div className={styles.client39} />
+            <div className={styles.client40} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client41} />
+            <div className={styles.client42} />
+            <div className={styles.client43} />
+            <div className={styles.client44} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client45} />
+            <div className={styles.client46} />
+            <div className={styles.client47} />
+            <div className={styles.client48} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client49} />
+            <div className={styles.client50} />
+            <div className={styles.client51} />
+            <div className={styles.client52} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client53} />
+            <div className={styles.client54} />
+            <div className={styles.client55} />
+            <div className={styles.client56} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client57} />
+            <div className={styles.client58} />
+            <div className={styles.client59} />
+            <div className={styles.client60} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client61} />
+            <div className={styles.client62} />
+            <div className={styles.client63} />
+            <div className={styles.client64} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client65} />
+            <div className={styles.client66} />
+            <div className={styles.client67} />
+            <div className={styles.client68} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client69} />
+            <div className={styles.client70} />
+            <div className={styles.client71} />
+            <div className={styles.client72} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client73} />
+            <div className={styles.client74} />
+            <div className={styles.client75} />
+            <div className={styles.client76} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client77} />
+            <div className={styles.client78} />
+            <div className={styles.client79} />
+            <div className={styles.client80} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.client81} />
+            <div className={styles.client82} />
+            <div className={styles.client83} />
+            <div className={styles.client84} />
+          </SwiperSlide>
+        </Swiper>
+        }
       </div>
 
       {contatoOpen ? 
