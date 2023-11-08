@@ -1341,6 +1341,11 @@ function renderCasesEN() {
     window.location.replace("/#header")
   }
 
+  const anchorVideo = () => {
+    setMenuOpen(false)
+    window.location.replace("/#video")
+  }
+
   const anchorAbout = () => {
     setMenuOpen(false)
     window.location.replace("/#about")
@@ -1379,11 +1384,6 @@ function renderCasesEN() {
   const anchorReanimate = () => {
     setMenuOpen(false)
     window.location.replace("/#reanimate")
-  }
-
-  const anchorContact = () => {
-    setMenuOpen(false)
-    window.location.replace("/#contact")
   }
 
 /***** EMAIL VALIDATIONS  *****/
@@ -1543,7 +1543,7 @@ const closeModalContato = () => {
           <div className={styles.langFlagToBR} onClick={changeBR} />
           <div className={styles.langFlagToEN} onClick={changeEN} />
         </div> */}
-        <div className={styles.logoPoint} />
+        <div className={styles.logoPoint} onClick={anchorVideo} />
         <div className={styles.hamburger} onClick={openMenu}/>
       </div>
 
@@ -2137,7 +2137,7 @@ const closeModalContato = () => {
         <div className={styles.menuLogo} onClick={anchorHeader}></div>
       </div> : <div className={styles.invisMenu} />}
 
-      <div className={styles.headerVideoContainer}>
+      <div id='video' className={styles.headerVideoContainer}>
         {isLoading ? 
           <div className={styles.videoLoader}></div>
         :
@@ -3437,7 +3437,7 @@ const closeModalContato = () => {
       {contatoOpen ? 
       
       <div className={styles.galleryModal}>
-        <div className={styles.modalClose} onClick={closeModalContato} />
+        <div className={styles.modalCloseContato} onClick={closeModalContato} />
             <div id='contact' className={styles.contact}>
               <div className={styles.contactWind} />
               <div className={styles.contactPointsV} />
@@ -3819,7 +3819,7 @@ const closeModalContato = () => {
       </div>
 
       <div className={styles.footer}>
-        <div className={styles.footerLogo} onClick={anchorHeader} />
+        <div className={styles.footerLogo} onClick={anchorVideo} />
         <div className={styles.footerLinks}>
           <div className={styles.footerLinksAbout}>
             <div className={styles.footerAbout}>SOBRE</div>
