@@ -1,4 +1,14 @@
-html, body {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+}
+
+html {
   padding: 0;
   margin: 0;
   font-family: Poppins;
