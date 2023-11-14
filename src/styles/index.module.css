@@ -366,7 +366,7 @@
   width: 100vw;
   z-index: 999;
   top: 0;
-  right: -360px;
+  right: -100vw;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -2877,10 +2877,6 @@ background-color: #d8598e;
     margin: 0 20px 0 0;
     transform: scale(1.1);
   }
-
-  .hoverMenu {
-    right: -430px;
-  }
   
   .demoReelVideo {
     margin: 75px 0 30px 50vw;
@@ -3792,10 +3788,6 @@ background-color: #d8598e;
   .hamburger {
     margin: 0 40px 0 0;
     transform: scale(1.1);
-  }
-
-  .hoverMenu {
-    right: -768px;
   }
 
   .demoReelVideo {
@@ -5053,7 +5045,6 @@ background-color: #d8598e;
   }
 
   .hoverMenu {
-    right: -1280px;
     width: 512px;
   }
 
@@ -6797,7 +6788,6 @@ background-color: #d8598e;
   }
 
   .hoverMenu {
-    right: -1366px;
     width: 546px;
   }
 
@@ -8697,7 +8687,6 @@ background-color: #d8598e;
   }
 
   .hoverMenu {
-    right: -1600px;
     width: 640px;
   }
 
@@ -10602,7 +10591,6 @@ background-color: #d8598e;
   }
 
   .hoverMenu {
-    right: -1920px;
     width: 768px;
   }
 
@@ -12545,7 +12533,6 @@ background-color: #d8598e;
   }
 
   .hoverMenu {
-    right: -2560px;
     width: 768px;
   }
 
