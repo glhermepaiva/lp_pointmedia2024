@@ -347,6 +347,9 @@ const [offsetY, setOffsetY] = useState(0);
 
 const handleScroll = () => setOffsetY(window.pageYOffset);
 
+const [galleryClosedHeight, setGalleryClosedHeight] = useState('370px')
+const [galleryOpenHeight, setGalleryOpenHeight] = useState('1500px')
+
 useEffect(() => {
 
   window.addEventListener('scroll', handleScroll);
@@ -367,6 +370,32 @@ function useWindowSize() {
           width: window.innerWidth,
           height: window.innerHeight,
         });
+      }
+
+      if (window.innerWidth >= 2400) {
+        setGalleryClosedHeight('550px')
+        setGalleryOpenHeight('1000px')
+      } else if (window.innerWidth >= 1800) {
+        setGalleryClosedHeight('650px')
+        setGalleryOpenHeight('1200px')
+      } else if (window.innerWidth >= 1600) {
+        setGalleryClosedHeight('620px')
+        setGalleryOpenHeight('1450px')
+      } else if (window.innerWidth >= 1366) {
+        setGalleryClosedHeight('650px')
+        setGalleryOpenHeight('1950px')
+      } else if (window.innerWidth >= 1280) {
+        setGalleryClosedHeight('620px')
+        setGalleryOpenHeight('1950px')
+      } else if (window.innerWidth >= 768) {
+        setGalleryClosedHeight('400px')
+        setGalleryOpenHeight('950px')
+      } else if (window.innerWidth >= 430) {
+        setGalleryClosedHeight('370px')
+        setGalleryOpenHeight('1500px')
+      } else {
+        setGalleryClosedHeight('370px')
+        setGalleryOpenHeight('1420px')
       }
 
       handleResize();
@@ -610,10 +639,15 @@ const handleVideoLoad = () => {
 
 /***** PREV WORKS CONTAINER ******/
  
-const [prevWorksClosed, setPrevWorksClosed] = useState(true);
+const [prevWorksExpanded, setPrevWorksExpanded] = useState(false);
+
+const [removerGradiente, setRemoverGradiente] = useState(false);
+
+const gradientClasses = `${styles.gradientOverlay} ${removerGradiente ? styles.gradientRemoved : ''}`;
 
 const openPrevWorks = () => {
-  setPrevWorksClosed(false)
+  setPrevWorksExpanded(true)
+  setRemoverGradiente(true);
 }
 
 /***** MODAL CONTATO ******/
@@ -1750,29 +1784,12 @@ const closeModalContato = () => {
         <div className={styles.modalClose} onClick={closeModal31} />
           <iframe className={styles.iframe31} src="/31.html" />
         </div> : null}
-
-      {prevWorksClosed ?
-
-        <div>
-          <div id='prevworks' ref={pwRef} className={styles.closedPrevWorks}>
-            <div className={styles.pwPoints} />
-            <div className={styles.pwTitle}>o que a gente já fez_</div>
-            <div className={styles.pwTitleTag} />
-            <div className={styles.pwGallery}>
-              <div className={styles.closedPicture} />
-            </div>
-          </div>
-          <div className={styles.pwButtonContainer}>
-            <div onClick={openPrevWorks} className={styles.prevWorksButton}>exibir mais</div>
-            <div className={styles.prevWorksButton2} />
-          </div>
-        </div>
-      :
+      
       <div id='prevworks' ref={pwRef} className={styles.previousWorks}>
         <div className={styles.pwPoints} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwTitleTag} />
-        <div className={styles.pwGallery}>
+        <div className={styles.pwGallery} style={{height: prevWorksExpanded ? galleryOpenHeight : galleryClosedHeight}}>
           <div className={styles.galleryContainer}>
             <div className={styles.gallery1} onClick={openModal1}/>
           </div>
@@ -1869,9 +1886,13 @@ const closeModalContato = () => {
           <div className={styles.galleryContainer}>
             <div className={styles.gallery32}/>
           </div>
+          <div id="gradientOverlay" className={gradientClasses} />
+        </div>
+        <div className={styles.pwButtonContainer} style={{display: prevWorksExpanded ? 'none' : 'flex'}}>
+          <div onClick={openPrevWorks} className={styles.prevWorksButton}>exibir mais</div>
+          <div className={styles.prevWorksButton2} />
         </div>
       </div>
-      }  
 
       <div id='cases' ref={casesRef} className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
