@@ -1412,7 +1412,7 @@ const closeModalContato = () => {
         </div>
         :
         size.width >= 768 ? 
-        <Swiper slidesPerView={4.8} spaceBetween={20} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
+        <Swiper slidesPerView={4.4} spaceBetween={-20} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
           <SwiperSlide className={styles.Mychel}>
             <div className={styles.MychelPicture} />
           </SwiperSlide>
@@ -1506,7 +1506,7 @@ const closeModalContato = () => {
         </div>
         :
         size.width >= 768 ? 
-        <Swiper slidesPerView={3.5} spaceBetween={50} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
+        <Swiper slidesPerView={3.1} spaceBetween={-20} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
           <SwiperSlide className={styles.wwd1}>
             <div className={styles.wwd1image} />
           </SwiperSlide>
@@ -1522,7 +1522,6 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.wwd5}>
             <div className={styles.wwd5image} />
           </SwiperSlide>
-          <SwiperSlide className={styles.wwd5} />
         </Swiper>
         :
         <Swiper slidesPerView={1.4} spaceBetween={-20} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
