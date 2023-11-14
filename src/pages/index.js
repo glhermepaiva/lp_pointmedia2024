@@ -1410,9 +1410,7 @@ const closeModalContato = () => {
             <div className={styles.DaniellePicture} />
           </div>
         </div>
-
         :
-
         size.width >= 768 ? 
         <Swiper slidesPerView={4.8} spaceBetween={20} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
           <SwiperSlide className={styles.Mychel}>
@@ -1444,7 +1442,7 @@ const closeModalContato = () => {
           </SwiperSlide>
         </Swiper>
         :
-        <Swiper slidesPerView={2.5} spaceBetween={20} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
+        <Swiper slidesPerView={2.2} spaceBetween={-25} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
           <SwiperSlide className={styles.Mychel}>
             <div className={styles.MychelPicture} />
           </SwiperSlide>
@@ -1527,7 +1525,7 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.wwd5} />
         </Swiper>
         :
-        <Swiper slidesPerView={1.9} spaceBetween={80} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
+        <Swiper slidesPerView={1.4} spaceBetween={-20} freeMode={true} modules={[FreeMode]} className={styles.wwdWorks}>
           <SwiperSlide className={styles.wwd1}>
             <div className={styles.wwd1image} />
           </SwiperSlide>
@@ -1543,7 +1541,6 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.wwd5}>
             <div className={styles.wwd5image} />
           </SwiperSlide>
-          <SwiperSlide className={styles.wwd6} />
         </Swiper>
         }
         <div className={styles.wwdWind} />

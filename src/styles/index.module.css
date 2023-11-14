@@ -111,7 +111,7 @@
 }
 
 .swiper {
-  width: 360px;
+  width: 100vw;
   height: 620px;
   margin: -50px 0 30px 0;
 }
@@ -3028,7 +3028,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 430px;
     height: 640px;
     margin: -40px 0 30px 0;
   }
@@ -3813,7 +3812,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 768px;
     height: 450px;
     margin: -40px 0 30px 0;
   }
@@ -5201,7 +5199,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 1280px;
     height: 600px;
     margin: -40px 0 30px 0;
   }
@@ -6944,7 +6941,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 1366px;
     height: 600px;
     margin: -20px 0 30px 0;
   }
@@ -8843,7 +8839,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 1600px;
     height: 600px;
     margin: -20px 0 30px 0;
   }
@@ -10745,7 +10740,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 100vw;
     height: 730px;
     margin: -20px 0 30px 0;
   }
@@ -12685,7 +12679,6 @@ background-color: #d8598e;
   }
 
   .swiper {
-    width: 100vw;
     height: 950px;
     margin: -20px 0 30px 0;
   }
