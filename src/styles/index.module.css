@@ -359,37 +359,32 @@
   transform: scale(0.8);
 }
 
-.hoverMenuInv {
-  position: fixed;
-  background-color: red;
-  width: 100vw;
-  height: 100vh;
-  z-index: 998;
-  top: 0;
-  right: 0;
-}
-
 .hoverMenu {
   position: fixed;
   background-color: #000;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   z-index: 999;
   top: 0;
-  right: 0;
+  right: -360px;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
   overflow-y: auto;
+  transition: right 1s ease;
+}
+
+.hoverMenu.open {
+  right: 0;
 }
 
 .menuClose {
   background-image: url(../assets/mobile/menuclose.png);
   width: 20px;
   height: 20px;
-  margin: 50px -20px 30px 600px;
+  margin: 28px 25px 30px 600px;
   cursor: pointer;
 }
 
@@ -2883,6 +2878,10 @@ background-color: #d8598e;
     margin: 0 20px 0 0;
     transform: scale(1.1);
   }
+
+  .hoverMenu {
+    right: -430px;
+  }
   
   .demoReelVideo {
     margin: 75px 0 30px 50vw;
@@ -3816,6 +3815,10 @@ background-color: #d8598e;
     transform: scale(1.1);
   }
 
+  .hoverMenu {
+    right: -768px;
+  }
+
   .demoReelVideo {
     height: auto;
     width: 150%;
@@ -4022,12 +4025,8 @@ background-color: #d8598e;
     margin: 50px 0 50px 0px;
   }
 
-  .hoverMenu {
-    width: 75vw;
-  }
-  
   .menuClose {
-    margin: 50px 0px 30px 600px;
+    margin: 28px 45px 30px 600px;
     transform: scale(1.2);
   }
   
@@ -5104,6 +5103,11 @@ background-color: #d8598e;
     transform: scale(1.1);
   }
 
+  .hoverMenu {
+    right: -1280px;
+    width: 512px;
+  }
+
   .demoReelVideo {
     height: auto;
     width: 100%;
@@ -5439,14 +5443,9 @@ background-color: #d8598e;
     justify-content: space-between;
     margin: 50px 0 50px 0px;
   }
-
-  .hoverMenu {
-    width: 45vw;
-    height: 100vh;
-  }
   
   .menuClose {
-    margin: 50px 0px 30px 600px;
+    margin: 27px 55px 30px 600px;
     transform: scale(1.2);
   }
   
@@ -6848,6 +6847,11 @@ background-color: #d8598e;
     transform: scale(1.2);
   }
 
+  .hoverMenu {
+    right: -1366px;
+    width: 546px;
+  }
+
   .demoReelVideo {
     height: auto;
     width: 100%;
@@ -7183,21 +7187,16 @@ background-color: #d8598e;
     justify-content: space-between;
     margin: 50px 0 50px 0px;
   }
-
-  .hoverMenu {
-    width: 45vw;
-    height: 100vh;
-  }
   
   .menuClose {
-    margin: 50px 0px 30px 600px;
+    margin: 27px 65px 30px 600px;
     transform: scale(1.2);
   }
   
   .menuLinks {
     font-weight: bold;
     font-size: 32px;
-    line-height: 55px;
+    line-height: 50px;
     margin: 0 80px 0 0;
   }
   
@@ -8748,6 +8747,11 @@ background-color: #d8598e;
     transform: scale(1.2);
   }
 
+  .hoverMenu {
+    right: -1600px;
+    width: 640px;
+  }
+
   .demoReelVideo {
     height: auto;
     width: 100%;
@@ -9083,22 +9087,17 @@ background-color: #d8598e;
     justify-content: space-between;
     margin: 50px 0 50px 0px;
   }
-
-  .hoverMenu {
-    width: 40vw;
-    height: 100vh;
-  }
   
   .menuClose {
-    margin: 50px 0px 30px 600px;
+    margin: 28px 75px 30px 600px;
     transform: scale(1.2);
   }
   
   .menuLinks {
     font-weight: bold;
     font-size: 32px;
-    line-height: 55px;
-    margin: 0 80px 0 0;
+    line-height: 50px;
+    margin: 0 100px 0 0;
   }
   
   .menuSocials {
@@ -9106,12 +9105,12 @@ background-color: #d8598e;
     justify-content: space-between;
     transform: scale(0.9);
     width: 300px;
-    margin: 30px 40px 0 0;
+    margin: 30px 60px 0 0;
   }
   
   .menuLogo {
     transform: scale(0.5);
-    margin: 0px 30px 0 0px;
+    margin: 0px 50px 0 0px;
   }
 
   .aboutPoint {
@@ -10653,6 +10652,11 @@ background-color: #d8598e;
     transform: scale(1.2);
   }
 
+  .hoverMenu {
+    right: -1920px;
+    width: 768px;
+  }
+
   .demoReelVideo {
     height: auto;
     width: 101%;
@@ -11001,22 +11005,17 @@ background-color: #d8598e;
     margin: 50px 0 50px 15px;
     transform: scale(1.2);
   }
-
-  .hoverMenu {
-    width: 40vw;
-    height: 100vh;
-  }
   
   .menuClose {
-    margin: 50px 0px 30px 600px;
+    margin: 40px 87px 30px 600px;
     transform: scale(1.2);
   }
   
   .menuLinks {
     font-weight: bold;
     font-size: 32px;
-    line-height: 60px;
-    margin: 0 80px 0 0;
+    line-height: 52px;
+    margin: 0 120px 0 0;
   }
   
   .menuSocials {
@@ -11024,12 +11023,12 @@ background-color: #d8598e;
     justify-content: space-between;
     transform: scale(0.9);
     width: 300px;
-    margin: 30px 40px 0 0;
+    margin: 30px 80px 0 0;
   }
   
   .menuLogo {
     transform: scale(0.5);
-    margin: 0px 30px 0 0px;
+    margin: 0px 65px 0 0px;
   }
 
   .aboutPoint {
@@ -12585,15 +12584,20 @@ background-color: #d8598e;
     background-image: url(../assets/new/pointlogo2.png);
     width: 297px;
     height: 111px;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 150px;
     transform: scale(0.8)
   }
   
   .hamburger {
-    margin: 0 170px 0 0;
+    margin: 0 120px 0 0;
     background-image: url(../assets/new/hamburger2.png);
     width: 91px;
     height: 97px;
+  }
+
+  .hoverMenu {
+    right: -2560px;
+    width: 768px;
   }
 
   .demoReelVideo {
@@ -12934,14 +12938,9 @@ background-color: #d8598e;
     color: #707070;
     margin: 30px 0 1px 0;
   }
-
-  .hoverMenu {
-    width: 40vw;
-    height: 100vh;
-  }
   
   .menuClose {
-    margin: 50px 10px 40px 600px;
+    margin: 67px 155px 40px 600px;
     transform: scale(2);
   }
   
@@ -12949,7 +12948,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
-    margin: 0 80px 0 0;
+    margin: 0 190px 0 0;
   }
   
   .menuSocials {
@@ -12957,12 +12956,12 @@ background-color: #d8598e;
     justify-content: space-between;
     transform: scale(1.3);
     width: 300px;
-    margin: 30px 90px 20px 0;
+    margin: 30px 200px 20px 0;
   }
   
   .menuLogo {
     transform: scale(1);
-    margin: 0px 70px 0 0px;
+    margin: 0px 185px 0 0px;
   }
 
   .aboutWrap {
@@ -14107,7 +14106,7 @@ background-color: #d8598e;
     background-image: url(../assets/new/casehavaianas.png);
     width: 859px;
     height: 609px;
-    margin: 50px 0 0 200px;
+    margin: 100px 0 0 200px;
     transform: scale(1.3);
   }
   

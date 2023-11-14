@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
@@ -361,20 +361,18 @@ function useWindowSize() {
   });
 
   useEffect(() => {
-    
       function handleResize() {
+
         setWindowSize({
           width: window.innerWidth,
           height: window.innerHeight,
         });
       }
-    
-      window.addEventListener("resize", handleResize);
-     
-      handleResize();
-    
-      return () => window.removeEventListener("resize", handleResize);
 
+      handleResize();
+      window.addEventListener("resize", handleResize);
+
+      return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return windowSize;
@@ -410,54 +408,96 @@ const size = useWindowSize();
 
 /***** ANCHOR LINKS  *****/
 
-  const anchorHeader = () => {
-    setMenuOpen(false)
-    window.location.replace("/#header")
-  }
+const videoRef = useRef(null);
+const aboutRef = useRef(null);
+const teamRef = useRef(null);  
+const wwdRef = useRef(null);
+const hwdRef = useRef(null);
+const pwRef = useRef(null);
+const casesRef = useRef(null);
+const clientsRef = useRef(null);
+const reanimateRef = useRef(null);
 
-  const anchorVideo = () => {
+
+const anchorVideo = () => {
     setMenuOpen(false)
-    window.location.replace("/#video")
+    const videoPosition = videoRef.current.offsetTop;
+    window.scrollTo({
+      top: videoPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorAbout = () => {
     setMenuOpen(false)
-    window.location.replace("/#about")
+    const aboutPosition = aboutRef.current.offsetTop;
+    window.scrollTo({
+      top: aboutPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorTeam = () => {
     setMenuOpen(false)
-    window.location.replace("/#team")
+    const teamPosition = teamRef.current.offsetTop;
+    window.scrollTo({
+      top: teamPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorWwd = () => {
     setMenuOpen(false)
-    window.location.replace("/#wwd")
+    const wwdPosition = wwdRef.current.offsetTop;
+    window.scrollTo({
+      top: wwdPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorHwd = () => {
     setMenuOpen(false)
-    window.location.replace("/#hwd")
+    const hwdPosition = hwdRef.current.offsetTop;
+    window.scrollTo({
+      top: hwdPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorPrevWorks = () => {
     setMenuOpen(false)
-    window.location.replace("/#prevworks")
+    const pwPosition = pwRef.current.offsetTop;
+    window.scrollTo({
+      top: pwPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorCases = () => {
     setMenuOpen(false)
-    window.location.replace("/#cases")
+    const casesPosition = casesRef.current.offsetTop;
+    window.scrollTo({
+      top: casesPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorClients = () => {
     setMenuOpen(false)
-    window.location.replace("/#clients")
+    const clientsPosition = clientsRef.current.offsetTop;
+    window.scrollTo({
+      top: clientsPosition,
+      behavior: 'smooth',
+    })
   }
 
   const anchorReanimate = () => {
     setMenuOpen(false)
-    window.location.replace("/#reanimate")
+    const reanimatePosition = reanimateRef.current.offsetTop;
+    window.scrollTo({
+      top: reanimatePosition,
+      behavior: 'smooth',
+    })
   }
 
 /***** EMAIL VALIDATIONS  *****/
@@ -533,13 +573,13 @@ const size = useWindowSize();
 
   const [englishActive, setEnglishActive] = useState(false);
 
-    function changeBR () {
-       setEnglishActive(false)
-    }
+  //   function changeBR () {
+  //      setEnglishActive(false)
+  //   }
 
-    function changeEN () {
-        setEnglishActive(true)
-     }
+  //   function changeEN () {
+  //       setEnglishActive(true)
+  //    }
 
 /***** BUTTON SHOW REEL *****/
 
@@ -627,7 +667,7 @@ const closeModalContato = () => {
           <div className={styles.linkedin} onClick={openLinkedin}/>
           <div className={styles.facebook} onClick={openFacebook}/>
         </div>
-        <div className={styles.menuLogo} onClick={anchorHeader}></div>
+        <div className={styles.menuLogo} onClick={anchorVideo}></div>
       </div> : <div className={styles.invisMenu} />}
 
       <div>
@@ -1156,7 +1196,7 @@ const closeModalContato = () => {
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={anchorContact}>contact us</div>
         </div>
-        <div className={styles.footerLogo} onClick={anchorHeader} />
+        <div className={styles.footerLogo} onClick={anchorVideo} />
         <div className={styles.footerSocials}>
           <div className={styles.whatsapp} onClick={openWhatsapp}></div>
           <div className={styles.instagram} onClick={openInstagram}></div>
@@ -1174,9 +1214,9 @@ const closeModalContato = () => {
     :
 
       <div>
-      {menuOpen ? <div className={styles.hoverMenu}>
-        <div className={styles.menuLinks}>
+      <div className={`${styles.hoverMenu} ${menuOpen ? styles.open : ''}`}>
         <div className={styles.menuClose} onClick={closeMenu}/>
+        <div className={styles.menuLinks}>
           <div className={styles.anchorAbout} onClick={anchorAbout}>a POINT</div>
           <div className={styles.anchorTeam} onClick={anchorTeam}>nosso time</div>
           <div className={styles.anchorWwd} onClick={anchorWwd}>o que a gente faz</div>
@@ -1194,9 +1234,9 @@ const closeModalContato = () => {
           <div className={styles.facebook} onClick={openFacebook}/>
         </div>
         <div className={styles.menuLogo} onClick={anchorVideo}></div>
-      </div> : <div className={styles.invisMenu} />}
+      </div> 
 
-      <div id='video' className={styles.headerVideoContainer}>
+      <div id='video' ref={videoRef} className={styles.headerVideoContainer}>
         {isLoading ? 
           <div className={styles.videoLoader}></div>
         :
@@ -1288,7 +1328,7 @@ const closeModalContato = () => {
         </SwiperSlide>
       </Swiper>
       
-      <div id='about' className={styles.about}>
+      <div id='about' ref={aboutRef} className={styles.about}>
         <div className={styles.aboutWind} />
         <div className={styles.aboutPointsV} />
         <div className={styles.aboutWrap}>
@@ -1303,7 +1343,7 @@ const closeModalContato = () => {
         <div className={styles.aboutPointsH} />
       </div>
 
-      <div id='team' className={styles.team}>
+      <div id='team' ref={teamRef} className={styles.team}>
         <div className={styles.teamQuote}>onde a inspiração ganha vida e o movimento nunca para!</div>
         {size.width >= 1280 ? 
 
@@ -1408,7 +1448,7 @@ const closeModalContato = () => {
         <div className={styles.teamPinkBalls} />
       </div>
       
-      <div id='wwd' className={styles.wwd}>
+      <div id='wwd' ref={wwdRef} className={styles.wwd}>
         <div className={styles.wwdTitle}>o que a gente faz_</div>
         <div className={styles.wwdTitleTag} />
         <div className={styles.wwdText}>
@@ -1476,7 +1516,7 @@ const closeModalContato = () => {
         <div className={styles.wwdPoints} />
       </div>
 
-      <div id='hwd' className={styles.hwd}>
+      <div id='hwd' ref={hwdRef} className={styles.hwd}>
         <div className={styles.hwdTitle}>como a gente faz_</div>
         <div className={styles.hwdTitleTag} />
         <div className={styles.hwdWind} />
@@ -1714,7 +1754,7 @@ const closeModalContato = () => {
       {prevWorksClosed ?
 
         <div>
-          <div id='prevworks' className={styles.closedPrevWorks}>
+          <div id='prevworks' ref={pwRef} className={styles.closedPrevWorks}>
             <div className={styles.pwPoints} />
             <div className={styles.pwTitle}>o que a gente já fez_</div>
             <div className={styles.pwTitleTag} />
@@ -1728,7 +1768,7 @@ const closeModalContato = () => {
           </div>
         </div>
       :
-      <div id='prevworks' className={styles.previousWorks}>
+      <div id='prevworks' ref={pwRef} className={styles.previousWorks}>
         <div className={styles.pwPoints} />
         <div className={styles.pwTitle}>o que a gente já fez_</div>
         <div className={styles.pwTitleTag} />
@@ -1833,7 +1873,7 @@ const closeModalContato = () => {
       </div>
       }  
 
-      <div id='cases' className={styles.cases}>
+      <div id='cases' ref={casesRef} className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.casesTitleTag} />
         <Swiper navigation={true} modules={[Navigation]} className={styles.cases}>
@@ -1874,7 +1914,7 @@ const closeModalContato = () => {
         </Swiper>
       </div>
      
-      <div id='clients' className={styles.clients}>
+      <div id='clients' ref={clientsRef} className={styles.clients}>
         <div className={styles.blueBalls}></div>
         <div className={styles.clientsTitle}>clientes atendidos_</div>
         <div className={styles.clientsTitleTag} />
@@ -2558,7 +2598,7 @@ const closeModalContato = () => {
         </div> 
       : null}
       
-      <div id='reanimate' className={styles.reanimate}>
+      <div id='reanimate' ref={reanimateRef} className={styles.reanimate}>
         <div className={styles.reanimateLogo}/>
         <div className={styles.reanimateText}>O <b>Re.animate</b> é uma Startup da POINT MEDIA utilizada na <b>produção de desdobramentos</b> de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
         <div className={styles.reanimateLines} />
