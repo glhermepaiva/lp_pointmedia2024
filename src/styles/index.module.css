@@ -14004,13 +14004,13 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 850px;
+    height: 870px;
     margin: -1px 0 0 0;
   }
 
   .casesSlide {
     overflow: hidden;
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
   }
   
   .casesTitle {
