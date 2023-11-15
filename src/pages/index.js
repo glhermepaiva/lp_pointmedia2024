@@ -4,12 +4,14 @@ import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, FreeMode, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
-import { Pagination, FreeMode, Navigation } from 'swiper/modules';
+
 
 export default function LandingPage() {
 
@@ -1893,7 +1895,7 @@ const closeModalContato = () => {
       <div id='cases' ref={casesRef} className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.casesTitleTag} />
-        <Swiper navigation={true} modules={[Navigation]} className={styles.cases}>
+        <Swiper navigation={true} modules={[Navigation]} className={styles.cases2}>
           <SwiperSlide className={styles.casesSlide}>
             <div className={styles.case1Image} />
             <div className={styles.case1logo} />

@@ -1512,7 +1512,7 @@
 .cases {
   background-color: #000;
   width: 100vw;
-  height: 650px;
+  height: 740px;
   position: relative;
   padding: 50px 0 0 0;
 }
@@ -1532,7 +1532,7 @@
   width: 145px;
   height: 10px;
   position: relative;
-  margin: -10px 0 0px 15px;
+  margin: -10px 0 40px 15px;
   z-index: 0;
 }
 
@@ -1645,7 +1645,7 @@
   position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin: 55px 0 0 130px;
+  margin: -20px 0 0 130px;
   z-index: 2;
 }
 
@@ -3423,7 +3423,7 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 690px;
+    height: 750px;
     position: relative;
     padding: 50px 0 0 0;
   }
@@ -3437,7 +3437,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 24px;
     line-height: 44px;
-    margin: -30px 0 0 28px;
+    margin: -10px 0 0 28px;
     position: relative;
     z-index: 1;
   }
@@ -3554,7 +3554,7 @@ background-color: #d8598e;
     position: relative;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 55px 0 0 130px;
+    margin: -20px 0 0 130px;
     z-index: 2;
   }
 
@@ -4574,13 +4574,14 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 500px;
+    height: 550px;
     position: relative;
     padding: 50px 0 0 0;
   }
 
   .casesSlide {
     overflow: hidden;
+    height: 430px;
   }
   
   .casesTitle {
@@ -4598,7 +4599,7 @@ background-color: #d8598e;
     width: 215px;
     height: 10px;
     position: relative;
-    margin: -15px 0 0 15px;
+    margin: -15px 0 0 40px;
     z-index: 0;
   }
   
@@ -4702,7 +4703,7 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 70%;
-    margin: 40px 0 -100px 450px;
+    margin: -50px 0 -100px 450px;
   }
 
   .clientsTitle {
@@ -6309,13 +6310,14 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 570px;
+    height: 630px;
     position: relative;
     padding: 50px 0 0 0;
   }
 
   .casesSlide {
     overflow: hidden;
+    height: 500px;
   }
   
   .casesTitle {
@@ -6437,7 +6439,7 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 100%;
-    margin: 15px 0 -100px 700px;
+    margin: -85px 0 -100px 700px;
     transform: scale(0.7);
   }
 
@@ -8205,13 +8207,14 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 630px;
+    height: 690px;
     position: relative;
     padding: 50px 0 0 0;
   }
 
   .casesSlide {
     overflow: hidden;
+    height: 550px;
   }
   
   .casesTitle {
@@ -8333,8 +8336,8 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 100%;
-    margin: 15px 0 -100px 800px;
-    transform: scale(0.7);
+    margin: -80px 0 -100px 800px;
+    transform: scale(0.8);
   }
 
   .clientsTitle {
@@ -10104,7 +10107,7 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 630px;
+    height: 700px;
     position: relative;
     padding: 50px 0 0 0;
     margin: -1px 0 0 0;
@@ -10112,6 +10115,7 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
+    height: 550px;
   }
   
   .casesTitle {
@@ -10233,8 +10237,8 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 100%;
-    margin: 30px 0 -100px 970px;
-    transform: scale(0.7);
+    margin: -80px 0 -100px 970px;
+    transform: scale(0.8);
   }
 
   .clientsTitle {
@@ -12041,14 +12045,24 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 650px;
+    height: 830px;
+    position: relative;
+    padding: 100px 0 0 0;
+    margin: -1px 0 0 -10px;
+  }
+
+  .cases2 {
+    background-color: #000;
+    width: 99vw;
+    height: 620px;
     position: relative;
     padding: 50px 0 0 0;
-    margin: -1px 0 0 -7px;
+    margin: 0 auto;
   }
 
   .casesSlide {
     overflow: hidden;
+    height: 570px;
   }
   
   .casesTitle {
@@ -12170,8 +12184,8 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 100%;
-    margin: 35px 0 -100px 1200px;
-    transform: scale(0.8);
+    margin: -75px 0 -100px 1200px;
+    transform: scale(0.85);
   }
 
   .clientsTitle {
@@ -13984,13 +13998,20 @@ background-color: #d8598e;
   .cases {
     background-color: #000;
     width: 100vw;
-    height: 870px;
+    height: 987px;
     margin: -1px 0 0 0;
+  }
+
+  .cases2 {
+    background-color: #000;
+    width: 99.8vw;
+    height: 870px;
+    margin: 0 auto;
   }
 
   .casesSlide {
     overflow: hidden;
-    margin: 30px 0 0 0;
+    margin: 30px auto 0 auto;
   }
   
   .casesTitle {
@@ -14120,8 +14141,8 @@ background-color: #d8598e;
     width: 572px;
     height: 236px;
     background-size: 100%;
-    margin: 65px 0 -100px 1600px;
-    transform: scale(1.3);
+    margin: -45px 0 -100px 1600px;
+    transform: scale(1.4);
   }
 
   .clientsTitle {
