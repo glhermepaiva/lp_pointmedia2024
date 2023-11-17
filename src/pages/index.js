@@ -11,6 +11,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
+import { register } from "swiper/element/bundle";
+
+register();
 
 
 export default function LandingPage() {
@@ -30,6 +33,59 @@ export default function LandingPage() {
   const closeMenu = () => {
     setMenuOpen(false)
   }
+
+/***** SWIPER  *****/
+
+const swiperRef = useRef(null);
+
+useEffect(() => {
+  const swiperContainer = swiperRef.current;
+  const params = {
+    navigation: true,
+    injectStyles: [
+      `
+        .swiper-button-next,
+        .swiper-button-prev {
+          padding: 0 0 0 0;
+          color: #EB6099;
+          transform: scale(1.4)
+        }
+        @media (min-width: 1280px) and (max-width: 1365px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            padding: 0 15px;
+            color: #EB6099;
+            transform: scale(1.4)
+          }
+        }
+        @media (min-width: 1366px) and (max-width: 1799px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            padding: 0 20px;
+          }
+        }
+        @media (min-width: 1800px) and (max-width: 2559px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            padding: 0 30px;
+            transform: scale(1.5)
+          }
+        }
+        @media (min-width: 2560px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            padding: 0 50px;
+            transform: scale(2.2)
+          }
+        }
+    `,
+    ],
+  };
+
+  Object.assign(swiperContainer, params);
+  swiperContainer.initialize();
+}, []);
+
 
 /***** MODAL GALLERY PIECES  *****/
 
@@ -1895,7 +1951,7 @@ const closeModalContato = () => {
       <div id='cases' ref={casesRef} className={styles.cases}>
         <div className={styles.casesTitle}>nossos cases_</div>
         <div className={styles.casesTitleTag} />
-        <Swiper navigation={true} modules={[Navigation]} className={styles.cases2}>
+        <swiper-container ref={swiperRef} init="false">
           <SwiperSlide className={styles.casesSlide}>
             <div className={styles.case1Image} />
             <div className={styles.case1logo} />
@@ -1930,7 +1986,7 @@ const closeModalContato = () => {
               • Criação de um dashboard com indicadores operacionais dos países.
             </div>
           </SwiperSlide>
-        </Swiper>
+        </swiper-container>
       </div>
      
       <div id='clients' ref={clientsRef} className={styles.clients}>

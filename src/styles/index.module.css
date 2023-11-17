@@ -4581,9 +4581,9 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
-    height: 430px;
+    padding: 0 0 100px 0;
   }
-  
+
   .casesTitle {
     color: #FFFFFF;
     font-weight: bold;
@@ -6317,7 +6317,7 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
-    height: 500px;
+    padding: 0 0 150px 0;
   }
   
   .casesTitle {
@@ -8214,7 +8214,7 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
-    height: 550px;
+    padding: 0 0 160px 0;
   }
   
   .casesTitle {
@@ -10115,7 +10115,7 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
-    height: 550px;
+    padding: 0 0 160px 0;
   }
   
   .casesTitle {
@@ -12062,7 +12062,7 @@ background-color: #d8598e;
 
   .casesSlide {
     overflow: hidden;
-    height: 570px;
+    padding: 0 0 160px 0;
   }
   
   .casesTitle {
@@ -14012,6 +14012,7 @@ background-color: #d8598e;
   .casesSlide {
     overflow: hidden;
     margin: 30px auto 0 auto;
+    padding: 0 0 220px 0;
   }
   
   .casesTitle {
