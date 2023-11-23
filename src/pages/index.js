@@ -6,11 +6,12 @@ import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, FreeMode, Navigation } from 'swiper/modules';
+import { FreeMode } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
+
 import { register } from "swiper/element/bundle";
 
 register();
@@ -50,6 +51,9 @@ useEffect(() => {
           color: #EB6099;
           transform: scale(1.4)
         }
+        .swiper-pagination-bullet {
+          width: 50px;
+        }
         @media (min-width: 1280px) and (max-width: 1365px) {
           .swiper-button-next,
           .swiper-button-prev {
@@ -76,6 +80,97 @@ useEffect(() => {
           .swiper-button-prev {
             padding: 0 50px;
             transform: scale(2.2)
+          }
+        }
+    `,
+    ],
+  };
+
+  Object.assign(swiperContainer, params);
+  swiperContainer.initialize();
+}, []);
+
+/***** PAGINATION *****/
+
+const paginationRef = useRef(null);
+
+useEffect(() => {
+  const swiperContainer = paginationRef.current;
+  const params = {
+    pagination: {
+      clickable: true,
+    },
+    injectStyles: [
+      `
+        .swiper-wrapper {
+          width: 100vw;
+          height: 600px;
+          margin: 0px 0 20px 0;
+        }
+        .swiper-pagination {
+          margin: -50px 0 0 0 !important;
+        } @media (min-width: 430px) and (max-width: 767px) {
+          .swiper-wrapper {
+            height: 640px;
+            margin: 0px 0 5px 0;
+          }
+          .swiper-pagination {
+            margin: -50px 0 0 0 !important;
+          }
+        } @media (min-width: 768px) and (max-width: 1279px) {
+          .swiper-wrapper {
+            height: 450px;
+            margin: 0px 0 0px 0;
+          }
+        } @media (min-width: 1280px) and (max-width: 1365px) {
+          .swiper-wrapper {
+            height: 600px;
+            margin: 0px 0 30px 0;
+          }
+          .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+            margin: 0px 10px !important;
+          }          
+        } @media (min-width: 1366px) and (max-width: 1599px) {
+          .swiper-wrapper {
+            height: 600px;
+            margin: 0px 0 30px 0;
+          }
+          .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+            margin: 0px 10px !important;
+          }          
+        } @media (min-width: 1600px) and (max-width: 1799px) {
+          .swiper-wrapper {
+            height: 600px;
+            margin: 0px 0 30px 0;
+          }
+          .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+            margin: 0px 10px !important;
+          }          
+        } @media (min-width: 1800px) and (max-width: 2559px) {
+          .swiper-wrapper {
+            height: 710px;
+            margin: 0px 0 30px 0;
+          }
+          .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+            margin: 0px 10px !important;
+          }
+        } @media (min-width: 2560px) {
+          .swiper-wrapper {
+            height: 900px;
+            margin: 0px 0 30px 0;
+          }
+          .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+            margin: 0px 15px !important;
           }
         }
     `,
@@ -1346,8 +1441,8 @@ const closeModalContato = () => {
         </div> : null}
 
       <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
-
-      <Swiper pagination={{clickable: true}} modules={[Pagination]} className={styles.swiper}>
+ 
+      <swiper-container ref={paginationRef} init="false">
         <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.news1Picture} />
@@ -1418,7 +1513,7 @@ const closeModalContato = () => {
           </div>
         </div>
         </SwiperSlide>
-      </Swiper>
+      </swiper-container>
       
       <div id='about' ref={aboutRef} className={styles.about}>
         <div className={styles.aboutWind} />

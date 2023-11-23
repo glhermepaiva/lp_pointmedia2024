@@ -94,7 +94,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
-  margin: -50px auto 70px auto;
+  margin: -50px auto 0px auto;
   position: relative;
   cursor: pointer;
 }
@@ -108,12 +108,6 @@
   height: 468px;
   transform: scale(0.55);
   margin: 0 0 0 0;
-}
-
-.swiper {
-  width: 100vw;
-  height: 620px;
-  margin: -50px 0 30px 0;
 }
 
 .news {
@@ -336,29 +330,6 @@
   margin: 20px 0 0 0;
 }
 
-.carouselBullets {
-  width: 160px;
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 50px auto 50px auto;
-}
-
-.blackBullet {
-  background-image: url(../assets/mobile/bulletblack.png);
-  width: 20px;
-  height: 20px;
-  transform: scale(0.8);
-  cursor: pointer;
-}
-
-.blueBullet {
-  background-image: url(../assets/mobile/bulletblue.png);
-  width: 20px;
-  height: 20px;
-  transform: scale(0.8);
-}
-
 .hoverMenu {
   position: fixed;
   background-color: #000;
@@ -552,7 +523,7 @@
   background-image: url(../assets/new/wind.png);
   width: 126px;
   height: 59px;
-  margin: -10px 0 0px 190px;
+  margin: 15px 0 0px 190px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -2887,14 +2858,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 60px auto;
-  }
-
-  .openReel {
-    width: 659px;
-    height: 468px;
-    transform: scale(0.7);
-    margin: 0 0px 0 0;
+    margin: -50px auto 10px auto;
   }
 
   .contact {
@@ -3025,11 +2989,6 @@ background-color: #d8598e;
     height: 468px;
     transform: scale(0.65);
     margin: 0 0 0 0;
-  }
-
-  .swiper {
-    height: 640px;
-    margin: -40px 0 30px 0;
   }
 
   .news1TagText {
@@ -3801,7 +3760,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 50px auto;
+    margin: -50px auto 20px auto;
   }
 
   .openReel {
@@ -3809,11 +3768,6 @@ background-color: #d8598e;
     height: 468px;
     transform: scale(1.1);
     margin: 0 0px 0 0;
-  }
-
-  .swiper {
-    height: 450px;
-    margin: -40px 0 30px 0;
   }
 
   .news {
@@ -5059,7 +5013,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 50px auto;
+    margin: -50px auto 20px auto;
   }
 
   .openReel {
@@ -5197,11 +5151,6 @@ background-color: #d8598e;
     height: 146px;
     margin: 10px 0 -70px -550px;
     transform: scale(0.7);
-  }
-
-  .swiper {
-    height: 600px;
-    margin: -40px 0 30px 0;
   }
 
   .news {
@@ -6802,7 +6751,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 40px auto;
+    margin: -50px auto 30px auto;
   }
 
   .openReel {
@@ -6940,11 +6889,6 @@ background-color: #d8598e;
     height: 146px;
     margin: 10px 0 -70px -800px;
     transform: scale(0.8);
-  }
-
-  .swiper {
-    height: 600px;
-    margin: -20px 0 30px 0;
   }
 
   .news {
@@ -8701,7 +8645,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 30px auto;
+    margin: -50px auto 20px auto;
   }
 
   .openReel {
@@ -8839,11 +8783,6 @@ background-color: #d8598e;
     height: 146px;
     margin: 10px 0 -70px -800px;
     transform: scale(0.8);
-  }
-
-  .swiper {
-    height: 600px;
-    margin: -20px 0 30px 0;
   }
 
   .news {
@@ -10605,7 +10544,7 @@ background-color: #d8598e;
     height: 40px;
     font-size: 20px;
     line-height: 30px;
-    margin: -50px auto 30px auto;
+    margin: -50px auto 20px auto;
   }
 
   .openReel {
@@ -10741,11 +10680,6 @@ background-color: #d8598e;
     height: 146px;
     margin: -20px 0 -70px -1200px;
     transform: scale(1);
-  }
-
-  .swiper {
-    height: 730px;
-    margin: -20px 0 30px 0;
   }
 
   .news {
@@ -12557,7 +12491,7 @@ background-color: #d8598e;
     font-size: 42px;
     line-height: 62px;
     border-radius: 36px;
-    margin: -60px auto 30px auto;
+    margin: -60px auto 20px auto;
   }
 
   .openReel {
@@ -12690,11 +12624,6 @@ background-color: #d8598e;
     height: 146px;
     margin: -20px 0 -70px -1200px;
     transform: scale(1);
-  }
-
-  .swiper {
-    height: 950px;
-    margin: -20px 0 30px 0;
   }
 
   .news {
