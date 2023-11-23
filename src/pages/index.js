@@ -109,6 +109,11 @@ useEffect(() => {
         }
         .swiper-pagination {
           margin: -50px 0 0 0 !important;
+        } 
+        .swiper-pagination-bullet {
+          width: 15px;
+          height: 15px;
+          margin: 0px 10px !important;
         } @media (min-width: 430px) and (max-width: 767px) {
           .swiper-wrapper {
             height: 640px;
@@ -126,41 +131,21 @@ useEffect(() => {
           .swiper-wrapper {
             height: 600px;
             margin: 0px 0 30px 0;
-          }
-          .swiper-pagination-bullet {
-            width: 15px;
-            height: 15px;
-            margin: 0px 10px !important;
-          }          
+          }       
         } @media (min-width: 1366px) and (max-width: 1599px) {
           .swiper-wrapper {
             height: 600px;
             margin: 0px 0 30px 0;
-          }
-          .swiper-pagination-bullet {
-            width: 15px;
-            height: 15px;
-            margin: 0px 10px !important;
-          }          
+          }      
         } @media (min-width: 1600px) and (max-width: 1799px) {
           .swiper-wrapper {
             height: 600px;
             margin: 0px 0 30px 0;
-          }
-          .swiper-pagination-bullet {
-            width: 15px;
-            height: 15px;
-            margin: 0px 10px !important;
-          }          
+          }   
         } @media (min-width: 1800px) and (max-width: 2559px) {
           .swiper-wrapper {
             height: 710px;
             margin: 0px 0 30px 0;
-          }
-          .swiper-pagination-bullet {
-            width: 15px;
-            height: 15px;
-            margin: 0px 10px !important;
           }
         } @media (min-width: 2560px) {
           .swiper-wrapper {
