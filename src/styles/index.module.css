@@ -5425,15 +5425,15 @@ background-color: #d8598e;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: -10px auto 0 auto;
-    width: 1020px;
+    width: 1000px;
+  }
+
+  .Louro {
+    margin: -50px 0px 0 0px;
   }
 
   .Tato {
-    margin: -50px -10px 0 70px;
-  }
-  
-  .Robson {
-    margin: -50px -10px 0 0;
+    margin: -50px 0px 0 0px;
   }
   
   .Priscila {
@@ -5441,7 +5441,7 @@ background-color: #d8598e;
   }
   
   .Danielle {
-    margin: -50px 100px 0 -10px;
+    margin: -50px 0px 0 0px;
   }
 
   .teamTitle {
@@ -7154,7 +7154,7 @@ background-color: #d8598e;
   .teamQuote {
     font-size: 40px;
     line-height: 44px;
-    margin: 70px 0 80px 40px;
+    margin: 70px 0 80px 70px;
     width: 380px;
   }
 
@@ -7162,43 +7162,38 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -270px 0 0 410px;
-    width: 900px;
+    margin: -310px 0 0 500px;
+    width: 740px;
   }
 
   .Mychel{
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Thiago {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Will {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Mariana {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Louro {
     width: 150px;
-    margin: 0px 0 0 0;
+    margin: -50px 0 0 0;
   }
   
   .Tato {
     width: 150px;
-    margin: -50px 0 0 70px;
-  }
-
-  .Robson {
-    width: 150px;
-    margin: -50px 0 0 0;
+    margin: -50px 0 0 0px;
   }
 
   .Priscila {
@@ -7208,14 +7203,14 @@ background-color: #d8598e;
   
   .Danielle {
     width: 150px;
-    margin: -50px 70px 0px 0;
+    margin: -50px 0px 0px 0;
   }
   
   .teamTitle {
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
-    margin: -300px 0 0 40px;
+    margin: -220px 0 0 70px;
     position: relative;
     z-index: 1;
   }
@@ -7225,7 +7220,7 @@ background-color: #d8598e;
     width: 250px;
     height: 20px;
     position: relative;
-    margin: -13px 0 20px 30px;
+    margin: -13px 0 20px 60px;
     z-index: 0;
   }
   
@@ -7233,7 +7228,7 @@ background-color: #d8598e;
     font-size: 18px;
     line-height: 22px;
     width: 330px;
-    margin: 10px 0 150px 40px;
+    margin: 10px 0 150px 70px;
   }
   
   .teamWind {
@@ -9048,7 +9043,7 @@ background-color: #d8598e;
   .teamQuote {
     font-size: 40px;
     line-height: 44px;
-    margin: 70px 0 80px 100px;
+    margin: 70px 0 80px 170px;
     width: 380px;
   }
 
@@ -9056,38 +9051,38 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -270px 0 0 550px;
-    width: 900px;
+    margin: -300px 0 0 650px;
+    width: 740px;
   }
 
   .Mychel{
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Thiago {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Will {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Mariana {
     width: 150px;
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
   
   .Louro {
     width: 150px;
-    margin: 0px 0 0 0;
+    margin: -50px 0 0 0;
   }
   
   .Tato {
     width: 150px;
-    margin: -50px 0 0 70px;
+    margin: -50px 0 0 0px;
   }
 
   .Robson {
@@ -9102,14 +9097,14 @@ background-color: #d8598e;
   
   .Danielle {
     width: 150px;
-    margin: -50px 70px 0px 0;
+    margin: -50px 0px 0px 0;
   }
   
   .teamTitle {
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
-    margin: -230px 0 0 100px;
+    margin: -230px 0 0 170px;
     position: relative;
     z-index: 1;
   }
@@ -9119,7 +9114,7 @@ background-color: #d8598e;
     width: 250px;
     height: 20px;
     position: relative;
-    margin: -13px 0 20px 90px;
+    margin: -13px 0 20px 160px;
     z-index: 0;
   }
   
@@ -9127,7 +9122,7 @@ background-color: #d8598e;
     font-size: 18px;
     line-height: 22px;
     width: 330px;
-    margin: 10px 0 130px 100px;
+    margin: 10px 0 130px 170px;
   }
   
   .teamWind {
@@ -10960,7 +10955,7 @@ background-color: #d8598e;
   .teamQuote {
     font-size: 48px;
     line-height: 52px;
-    margin: 70px 0 80px 100px;
+    margin: 70px 0 80px 150px;
     width: 450px;
   }
 
@@ -10968,12 +10963,12 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -280px 0 0 600px;
-    width: 1150px;
+    margin: -300px 0 0 720px;
+    width: 1020px;
   }
 
   .Mychel{
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .MychelPicture{
@@ -10981,7 +10976,7 @@ background-color: #d8598e;
   }
   
   .Thiago {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .ThiagoPicture{
@@ -10989,7 +10984,7 @@ background-color: #d8598e;
   }
   
   .Will {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .WillPicture{
@@ -10997,7 +10992,7 @@ background-color: #d8598e;
   }
   
   .Mariana {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .MarianaPicture{
@@ -11005,7 +11000,7 @@ background-color: #d8598e;
   }
   
   .Louro {
-    margin: 0px 0 0 0;
+    margin: 30px 0 0 0;
   }
 
   .LouroPicture{
@@ -11013,18 +11008,10 @@ background-color: #d8598e;
   }
   
   .Tato {
-    margin: 30px 0 0 70px;
+    margin: 30px 0 0 0px;
   }
 
   .TatoPicture{
-    transform: scale(1);
-  }
-
-  .Robson {
-    margin: 30px 0 0 0;
-  }
-
-  .RobsonPicture{
     transform: scale(1);
   }
 
@@ -11037,7 +11024,7 @@ background-color: #d8598e;
   }
   
   .Danielle {
-    margin: 30px 70px 0px 0;
+    margin: 30px 0px 0px 0;
   }
 
   .DaniellePicture{
@@ -11048,7 +11035,7 @@ background-color: #d8598e;
     font-weight: bold;
     font-size: 48px;
     line-height: 62px;
-    margin: -230px 0 0 100px;
+    margin: -230px 0 0 150px;
     position: relative;
     z-index: 1;
   }
@@ -11058,7 +11045,7 @@ background-color: #d8598e;
     width: 300px;
     height: 20px;
     position: relative;
-    margin: -20px 0 20px 90px;
+    margin: -20px 0 20px 140px;
     z-index: 0;
   }
   
@@ -11066,7 +11053,7 @@ background-color: #d8598e;
     font-size: 24px;
     line-height: 28px;
     width: 430px;
-    margin: 10px 0 130px 100px;
+    margin: 10px 0 130px 150px;
   }
   
   .teamWind {
@@ -12911,13 +12898,13 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -280px 0 0 1100px;
-    width: 1150px;
+    margin: -260px 0 0 1100px;
+    width: 1020px;
     transform: scale(1.3);
   }
 
   .Mychel{
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .MychelPicture{
@@ -12925,7 +12912,7 @@ background-color: #d8598e;
   }
   
   .Thiago {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .ThiagoPicture{
@@ -12933,7 +12920,7 @@ background-color: #d8598e;
   }
   
   .Will {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .WillPicture{
@@ -12941,7 +12928,7 @@ background-color: #d8598e;
   }
   
   .Mariana {
-    margin: 0px 10px 0 0;
+    margin: 0px 0px 0 0;
   }
 
   .MarianaPicture{
@@ -12949,7 +12936,7 @@ background-color: #d8598e;
   }
   
   .Louro {
-    margin: 0px 0 0 0;
+    margin: 30px 0 0 0;
   }
 
   .LouroPicture{
@@ -12957,20 +12944,13 @@ background-color: #d8598e;
   }
   
   .Tato {
-    margin: 30px 0 0 70px;
+    margin: 30px 0 0 0px;
   }
 
   .TatoPicture{
     transform: scale(1);
   }
 
-  .Robson {
-    margin: 30px 0 0 0;
-  }
-
-  .RobsonPicture{
-    transform: scale(1);
-  }
 
   .Priscila {
     margin: 30px 0 0 0;
@@ -12981,7 +12961,7 @@ background-color: #d8598e;
   }
   
   .Danielle {
-    margin: 30px 70px 0px 0;
+    margin: 30px 0px 0px 0;
   }
 
   .DaniellePicture{

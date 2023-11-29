@@ -1538,9 +1538,6 @@ const closeModalContato = () => {
           <div className={styles.Tato}>
             <div className={styles.TatoPicture} />
           </div>
-          <div className={styles.Robson}>
-            <div className={styles.RobsonPicture} />
-          </div>
           <div className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
           </div>
@@ -1569,9 +1566,6 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.Tato}>
             <div className={styles.TatoPicture} />
           </SwiperSlide>
-          <SwiperSlide className={styles.Robson}>
-            <div className={styles.RobsonPicture} />
-          </SwiperSlide>
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
           </SwiperSlide>
@@ -1598,9 +1592,6 @@ const closeModalContato = () => {
           </SwiperSlide>
           <SwiperSlide className={styles.Tato}>
             <div className={styles.TatoPicture} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.Robson}>
-            <div className={styles.RobsonPicture} />
           </SwiperSlide>
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
