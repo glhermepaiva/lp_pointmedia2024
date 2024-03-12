@@ -2769,11 +2769,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateMM1}>
@@ -2804,11 +2804,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -2843,11 +2843,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -2882,11 +2882,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -2921,11 +2921,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -2960,11 +2960,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -2999,11 +2999,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -3038,11 +3038,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
@@ -3076,11 +3076,11 @@ const closeModalContato = () => {
             <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateTM1}>
-          <div className={styles.reanimateTM}>
-            <div className={styles.reanimateTMlogo}/>
-            <div className={styles.reanimateTMtext}>Converta banners HTMLs em GIF ou MP4 em poucos segundos.</div>
-            <button className={styles.tmButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateRA1}>
+          <div className={styles.reanimateRA}>
+            <div className={styles.reanimateRAlogo}/>
+            <div className={styles.reanimateRAtext}>Desdobre a peça master em diversos formatos e especificações de mídia.</div>
+            <button className={styles.raButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
         </Swiper>
