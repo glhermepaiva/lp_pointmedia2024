@@ -907,16 +907,6 @@ const closeModalContato = () => {
             <div className={styles.RobsonName}>Robson</div>
             <div className={styles.RobsonJob}>Head of Media</div>
           </div>
-          <div className={styles.Tato}>
-            <div className={styles.TatoPicture} />
-            <div className={styles.TatoName}>Anderson</div>
-            <div className={styles.TatoJob}>Head of <br/>E-mail MKT</div>
-          </div>
-          <div className={styles.Danielle}>
-            <div className={styles.DaniellePicture} />
-            <div className={styles.DanielleName}>Danielle</div>
-            <div className={styles.DanielleJob}>Head of Financial</div>
-          </div>
         </div>
       </div>
       
@@ -1395,6 +1385,7 @@ const closeModalContato = () => {
           <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
+          <div className={styles.anchorClients}><a href="https://mosaico-pointmedia.vercel.app">mosaico</a></div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
@@ -1428,6 +1419,23 @@ const closeModalContato = () => {
       <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
  
       <swiper-container ref={paginationRef} init="false">
+
+      <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.newsFirstPicture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news1Tag}>
+              <div className={styles.news1TagText}>Track & Field é POINT MEDIA!</div>
+              <div className={styles.news1TagLineXl} />
+            </div>
+            <div className={styles.news1NewsText}>
+            <b></b> A <b>maior marca brasileira de esporte</b> no setor de vestuário entrou pro nosso time. É uma honra ter essa marca tão <b>gigante</b> e <b>inspiradora</b> com a gente e poder surfar na mesma onda! ❤️
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+
+
         <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.news1Picture} />
@@ -1535,15 +1543,10 @@ const closeModalContato = () => {
           <div className={styles.Louro}>
             <div className={styles.LouroPicture} />
           </div>
-          <div className={styles.Tato}>
-            <div className={styles.TatoPicture} />
-          </div>
           <div className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
           </div>
-          <div className={styles.Danielle}>
-            <div className={styles.DaniellePicture} />
-          </div>
+ 
         </div>
         :
         size.width >= 768 ? 
@@ -1563,14 +1566,8 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.Louro}>
             <div className={styles.LouroPicture} />
           </SwiperSlide>
-          <SwiperSlide className={styles.Tato}>
-            <div className={styles.TatoPicture} />
-          </SwiperSlide>
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.Danielle}>
-            <div className={styles.DaniellePicture} />
           </SwiperSlide>
         </Swiper>
         :
@@ -1590,14 +1587,8 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.Louro}>
             <div className={styles.LouroPicture} />
           </SwiperSlide>
-          <SwiperSlide className={styles.Tato}>
-            <div className={styles.TatoPicture} />
-          </SwiperSlide>
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
-          </SwiperSlide>
-          <SwiperSlide className={styles.Danielle}>
-            <div className={styles.DaniellePicture} />
           </SwiperSlide>
         </Swiper>
         }
@@ -2771,11 +2762,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -2806,11 +2797,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -2845,11 +2836,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -2884,11 +2875,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -2923,11 +2914,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -2962,11 +2953,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -3001,11 +2992,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -3040,11 +3031,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -3078,11 +3069,11 @@ const closeModalContato = () => {
             <button className={styles.daButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
-          <SwiperSlide className={styles.reanimateAM1}>
-          <div className={styles.reanimateAM}>
-            <div className={styles.reanimateAMlogo}/>
-            <div className={styles.reanimateAMtext}>Otimize a produção de e-mail marketing através do uso de componentes e templates personalizados.</div>
-            <button className={styles.amButton} onClick={openReanimate}>saiba mais &gt;</button>
+          <SwiperSlide className={styles.reanimateMM1}>
+          <div className={styles.reanimateMM}>
+            <div className={styles.reanimateMMlogo}/>
+            <div className={styles.reanimateMMtext}>Anime as peças masters em HTML5 sem a necessidade de saber o código CSS ou Java Script.</div>
+            <button className={styles.mmButton} onClick={openReanimate}>saiba mais &gt;</button>
           </div>
           </SwiperSlide>
           <SwiperSlide className={styles.reanimateTM1}>
@@ -3111,6 +3102,7 @@ const closeModalContato = () => {
           <div className={styles.footerLinksProducts}>
             <div className={styles.footerProducts}>PRODUTOS <br/>& SERVIÇOS</div>
             <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
+             <div className={styles.anchorCases}><a href="https://mosaico-pointmedia.vercel.app">mosaico</a></div>
             <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
             <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
             <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
@@ -3125,7 +3117,7 @@ const closeModalContato = () => {
         <div className={styles.footerLocation}>
           <div className={styles.address}>Vila Madalena - São Paulo - SP</div>
         </div>
-        <div className={styles.footerCopyright}>© pointmedia 2023</div>
+        <div className={styles.footerCopyright}>© pointmedia 2024</div>
         <button className={styles.complianceButton} onClick={openCompliance}>compliance &gt;</button>
       </div>
     </div>

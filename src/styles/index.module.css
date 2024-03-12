@@ -118,6 +118,15 @@
   margin: 0px 0 0 0;
   width: 100vw;
 }
+.newsFirstPicture{
+  background-image: url(../assets/new/track&field.png);
+  width: 360px;
+  height: 350px;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .news1Picture {
   background-image: url(../assets/new/picpay.png);
@@ -184,6 +193,15 @@
   height: 10px;
   position: relative;
   margin: -11px 0 0 -5px;
+  z-index: 0;
+}
+
+.news1TagLineXl{
+  background-color: #6CABDE;
+  width: 121px;
+  height: 10px;
+  position: relative;
+  margin: -11px 0 0 -2px;
   z-index: 0;
 }
 
@@ -671,17 +689,8 @@
   transform: scale(0.7);
 }
 
-.Tato {
-  margin: 0px 0 0 0;
-}
 
-.TatoPicture {
-  background-image: url(../assets/new/teamtato.png);
-  width: 205px;
-  height: 273px;
-  margin: 0px 0 0 0;
-  transform: scale(0.7);
-}
+
 
 .Robson {
   margin: 0px 0 0 0;
@@ -707,17 +716,6 @@
   transform: scale(0.7);
 }
 
-.Danielle {
-  margin: 0 0 0 0;
-}
-
-.DaniellePicture {
-  background-image: url(../assets/new/teamdani.png);
-  width: 205px;
-  height: 273px;
-  margin: 0px 0 0px 0;
-  transform: scale(0.7);
-}
 
 .teamTitle {
   font-weight: bold;
@@ -3007,6 +3005,15 @@ background-color: #d8598e;
     margin: -13px 0 0 -10px;
     z-index: 0;
   }
+
+  .news1TagLineXl {
+    background-color: #6CABDE;
+    width: 160px;
+    height: 10px;
+    position: relative;
+    margin: -13px 0 0 0;
+    z-index: 0;
+  }
   
   .news1NewsText {
     font-size: 18px;
@@ -3784,13 +3791,19 @@ background-color: #d8598e;
     align-items: left;
     margin: 0 0 0px 0;
   }
-
+  .newsFirstPicture {
+    width: 426px;
+    height: 401px;
+    margin: 0 0 0 -8px;
+    background-size: 100%;
+  }
   .news1Picture {
     width: 426px;
     height: 401px;
     margin: 0 0 0 -8px;
     background-size: 100%;
   }
+
   
   .news2Picture {
     width: 426px;
@@ -3834,6 +3847,14 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -13px 0 0 -10px;
+    z-index: 0;
+  }
+  .news1TagLineXl{
+    background-color: #6CABDE;
+    width: 158px;
+    height: 10px;
+    position: relative;
+    margin: -13px 0 0 3px;
     z-index: 0;
   }
   
@@ -4039,9 +4060,6 @@ background-color: #d8598e;
     margin: 0 0 0 10px;
   }
 
-  .Danielle {
-    margin: 0px 0px 0px 0;
-  }
 
   .teamTitle {
     font-weight: bold;
@@ -5168,6 +5186,12 @@ background-color: #d8598e;
     margin: 0 auto;
   }
 
+  .newsFirstPicture {
+    width: 620px;
+    height: 579px;
+    margin: 0 auto;
+    background-size: 100%;
+  }
   .news1Picture {
     width: 620px;
     height: 579px;
@@ -5217,6 +5241,15 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -20px 0 0 -13px;
+    z-index: 0;
+  }
+
+  .news1TagLineXl{
+    background-color: #6CABDE;
+    width: 269px;
+    height: 10px;
+    position: relative;
+    margin: -20px 0 0 -2px;
     z-index: 0;
   }
   
@@ -5421,18 +5454,23 @@ background-color: #d8598e;
   }
 
   .teamPictures {
+    place-items: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: -10px auto 0 auto;
-    width: 1000px;
+    width: 799px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr;
+    
+
   }
 
   .Louro {
     margin: -50px 0px 0 0px;
   }
 
-  .Tato {
+  .Mariana {
     margin: -50px 0px 0 0px;
   }
   
@@ -5440,9 +5478,6 @@ background-color: #d8598e;
     margin: -50px 0 0 0;
   }
   
-  .Danielle {
-    margin: -50px 0px 0 0px;
-  }
 
   .teamTitle {
     font-weight: bold;
@@ -6905,7 +6940,12 @@ background-color: #d8598e;
     align-items: left;
     margin: 0 auto;
   }
-
+  .newsFirstPicture {
+    width: 620px;
+    height: 579px;
+    margin: 0 0 0 102px;
+    background-size: 100%;
+  }
   .news1Picture {
     width: 620px;
     height: 579px;
@@ -6955,6 +6995,14 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -20px 0 0 -13px;
+    z-index: 0;
+  }
+  .news1TagLineXl{
+    background-color: #6CABDE;
+    width: 266px;
+    height: 10px;
+    position: relative;
+    margin: -20px 0 0 2px;
     z-index: 0;
   }
   
@@ -7162,8 +7210,10 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -310px 0 0 500px;
-    width: 740px;
+    width: 650px;
+    margin: -300px 0 0 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .Mychel{
@@ -7183,17 +7233,12 @@ background-color: #d8598e;
   
   .Mariana {
     width: 150px;
-    margin: 0px 0px 0 0;
+    margin: -50px 0px 0 0;
   }
   
   .Louro {
     width: 150px;
     margin: -50px 0 0 0;
-  }
-  
-  .Tato {
-    width: 150px;
-    margin: -50px 0 0 0px;
   }
 
   .Priscila {
@@ -7201,10 +7246,6 @@ background-color: #d8598e;
     margin: -50px 0 0 0;
   }
   
-  .Danielle {
-    width: 150px;
-    margin: -50px 0px 0px 0;
-  }
   
   .teamTitle {
     font-weight: bold;
@@ -8794,7 +8835,12 @@ background-color: #d8598e;
     align-items: left;
     margin: 0 auto;
   }
-
+  .newsFirstPicture {
+    width: 620px;
+    height: 579px;
+    margin: 0 -100px 0 200px;
+    background-size: 100%;
+  }
   .news1Picture {
     width: 620px;
     height: 579px;
@@ -8844,6 +8890,14 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -20px 0 0 -13px;
+    z-index: 0;
+  }
+  .news1TagLineXl{
+    background-color: #6CABDE;
+    width: 266px;
+    height: 10px;
+    position: relative;
+    margin: -20px 0 0 2px;
     z-index: 0;
   }
   
@@ -9051,8 +9105,10 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -300px 0 0 650px;
-    width: 740px;
+    margin: -300px 0 0 761px;
+    width: 1024px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
   }
 
   .Mychel{
@@ -9072,7 +9128,7 @@ background-color: #d8598e;
   
   .Mariana {
     width: 150px;
-    margin: 0px 0px 0 0;
+    margin: -50px 0px 0 0;
   }
   
   .Louro {
@@ -9080,10 +9136,6 @@ background-color: #d8598e;
     margin: -50px 0 0 0;
   }
   
-  .Tato {
-    width: 150px;
-    margin: -50px 0 0 0px;
-  }
 
   .Robson {
     width: 150px;
@@ -9095,10 +9147,6 @@ background-color: #d8598e;
     margin: -50px 0 0 0;
   }
   
-  .Danielle {
-    width: 150px;
-    margin: -50px 0px 0px 0;
-  }
   
   .teamTitle {
     font-weight: bold;
@@ -10691,7 +10739,13 @@ background-color: #d8598e;
     align-items: left;
     margin: 0 auto;
   }
-
+  .newsFirstPicture {
+    width: 620px;
+    height: 579px;
+    margin: 50px -60px 0 250px;
+    background-size: 100%;
+    transform: scale(1.2);
+  }
   .news1Picture {
     width: 620px;
     height: 579px;
@@ -10746,6 +10800,15 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -25px 0 0 -13px;
+    z-index: 0;
+  }
+
+  .news1TagLineXl{
+    background-color: #6CABDE;
+    width: 317px;
+    height: 10px;
+    position: relative;
+    margin: -25px 0 0 1px;
     z-index: 0;
   }
   
@@ -10963,8 +11026,9 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -300px 0 0 720px;
-    width: 1020px;
+    margin: -296px 0 0 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
   }
 
   .Mychel{
@@ -10992,7 +11056,7 @@ background-color: #d8598e;
   }
   
   .Mariana {
-    margin: 0px 0px 0 0;
+    margin: 28px 0px 0 0;
   }
 
   .MarianaPicture{
@@ -11006,14 +11070,7 @@ background-color: #d8598e;
   .LouroPicture{
     transform: scale(1);
   }
-  
-  .Tato {
-    margin: 30px 0 0 0px;
-  }
 
-  .TatoPicture{
-    transform: scale(1);
-  }
 
   .Priscila {
     margin: 30px 0 0 0;
@@ -11023,14 +11080,7 @@ background-color: #d8598e;
     transform: scale(1);
   }
   
-  .Danielle {
-    margin: 30px 0px 0px 0;
-  }
 
-  .DaniellePicture{
-    transform: scale(1);
-  }
-  
   .teamTitle {
     font-weight: bold;
     font-size: 48px;
@@ -12628,7 +12678,13 @@ background-color: #d8598e;
     margin: 0 auto;
     transform: scale(1.5);
   }
-
+  .newsFirstPicture {
+    width: 620px;
+    height: 579px;
+    margin: 150px -60px 0 350px;
+    background-size: 100%;
+    transform: scale(1.5);
+  }
   .news1Picture {
     width: 620px;
     height: 579px;
@@ -12683,6 +12739,15 @@ background-color: #d8598e;
     height: 10px;
     position: relative;
     margin: -25px 0 0 -13px;
+    z-index: 0;
+  }
+
+  .news1TagLineXl {
+    background-color: #6CABDE;
+    width: 324px;
+    height: 10px;
+    position: relative;
+    margin: -25px 0 0 -4px;
     z-index: 0;
   }
   
@@ -12898,9 +12963,11 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -260px 0 0 1100px;
-    width: 1020px;
+    margin: -260px 0 0 1380px;
+    width: 1134px;
     transform: scale(1.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .Mychel{
@@ -12928,7 +12995,7 @@ background-color: #d8598e;
   }
   
   .Mariana {
-    margin: 0px 0px 0 0;
+    margin: 28px 0px 0 0;
   }
 
   .MarianaPicture{
@@ -12941,10 +13008,6 @@ background-color: #d8598e;
 
   .LouroPicture{
     transform: scale(1);
-  }
-  
-  .Tato {
-    margin: 30px 0 0 0px;
   }
 
   .TatoPicture{
@@ -12960,13 +13023,6 @@ background-color: #d8598e;
     transform: scale(1);
   }
   
-  .Danielle {
-    margin: 30px 0px 0px 0;
-  }
-
-  .DaniellePicture{
-    transform: scale(1);
-  }
   
   .teamTitle {
     font-weight: bold;
