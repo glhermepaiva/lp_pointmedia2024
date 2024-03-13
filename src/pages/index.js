@@ -2737,7 +2737,7 @@ const closeModalContato = () => {
       
       <div id='reanimate' ref={reanimateRef} className={styles.reanimate}>
         <div className={styles.reanimateLogo}/>
-        <div className={styles.reanimateText}>O <b>Re.animate</b> é uma Startup da POINT MEDIA utilizada na <b>produção de desdobramentos</b> de banners estáticos, vídeos, html5 com motion e e-mail marketing.</div>
+        <div className={styles.reanimateText}>O <b>Re.animate</b> é uma Startup da POINT MEDIA utilizada na <b>produção de desdobramentos</b> de banners estáticos, vídeos e html5 com motion.</div>
         <div className={styles.reanimateLines} />
         {size.width >= 2400 ? 
         <Swiper slidesPerView={6} spaceBetween={10} freeMode={true} loop={true} modules={[FreeMode]} className={styles.reanimateCards}>
