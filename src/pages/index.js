@@ -1385,7 +1385,7 @@ const closeModalContato = () => {
           <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
-          <div className={styles.anchorClients}><a href="https://mosaico-pointmedia.vercel.app">mosaico</a></div>
+          <div className={styles.anchorClients}><a href="https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/index.html">mosaico</a></div>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
@@ -1527,26 +1527,54 @@ const closeModalContato = () => {
         <div className={styles.teamQuote}>onde a inspiração ganha vida e o movimento nunca para!</div>
         {size.width >= 1280 ? 
 
-        <div className={styles.teamPictures}>
-          <div className={styles.Mychel}>
-            <div className={styles.MychelPicture} />
+        <div>
+          <div className={styles.teamPictures}>
+            <div className={styles.Mychel}>
+              <div className={styles.MychelPicture} />
+            </div>
+            <div className={styles.Thiago}>
+              <div className={styles.ThiagoPicture} />
+            </div>
+            <div className={styles.Will}>
+              <div className={styles.WillPicture} />
+            </div>
+            <div className={styles.Mariana}>
+              <div className={styles.MarianaPicture} />
+            </div>
+            <div className={styles.Louro}>
+              <div className={styles.LouroPicture} />
+            </div>
+            <div className={styles.Priscila}>
+              <div className={styles.PriscilaPicture} />
+            </div>
           </div>
-          <div className={styles.Thiago}>
-            <div className={styles.ThiagoPicture} />
+
+          <div className={styles.teamPictures2}>
+            <div className={styles.Raphael}>
+              <div className={styles.RaphaelPicture} />
+            </div>
+            <div className={styles.Vinicius}>
+              <div className={styles.ViniciusPicture} />
+            </div>
+            <div className={styles.Leandro}>
+              <div className={styles.LeandroPicture} />
+            </div>
+            <div className={styles.Nicole}>
+              <div className={styles.NicolePicture} />
+            </div>
+            <div className={styles.Georgia}>
+              <div className={styles.GeorgiaPicture} />
+            </div>
+            <div className={styles.Marco}>
+              <div className={styles.MarcoPicture} />
+            </div>
+            <div className={styles.Thais}>
+              <div className={styles.ThaisPicture} />
+            </div>
+            <div className={styles.Andre}>
+              <div className={styles.AndrePicture} />
+            </div>
           </div>
-          <div className={styles.Will}>
-            <div className={styles.WillPicture} />
-          </div>
-          <div className={styles.Mariana}>
-            <div className={styles.MarianaPicture} />
-          </div>
-          <div className={styles.Louro}>
-            <div className={styles.LouroPicture} />
-          </div>
-          <div className={styles.Priscila}>
-            <div className={styles.PriscilaPicture} />
-          </div>
- 
         </div>
         :
         size.width >= 768 ? 
@@ -1569,6 +1597,30 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
           </SwiperSlide>
+          <SwiperSlide className={styles.Raphael}>
+            <div className={styles.RaphaelPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Vinicius}>
+            <div className={styles.ViniciusPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Leandro}>
+            <div className={styles.LeandroPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Nicole}>
+            <div className={styles.NicolePicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Georgia}>
+            <div className={styles.GeorgiaPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Marco}>
+            <div className={styles.MarcoPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Thais}>
+            <div className={styles.ThaisPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Andre}>
+            <div className={styles.AndrePicture} />
+          </SwiperSlide>
         </Swiper>
         :
         <Swiper slidesPerView={2.2} spaceBetween={-25} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
@@ -1590,8 +1642,118 @@ const closeModalContato = () => {
           <SwiperSlide className={styles.Priscila}>
             <div className={styles.PriscilaPicture} />
           </SwiperSlide>
+          <SwiperSlide className={styles.Raphael}>
+            <div className={styles.RaphaelPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Vinicius}>
+            <div className={styles.ViniciusPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Leandro}>
+            <div className={styles.LeandroPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Nicole}>
+            <div className={styles.NicolePicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Georgia}>
+            <div className={styles.GeorgiaPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Marco}>
+            <div className={styles.MarcoPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Thais}>
+            <div className={styles.ThaisPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Andre}>
+            <div className={styles.AndrePicture} />
+          </SwiperSlide>
         </Swiper>
         }
+
+        {/* {size.width >= 1280 ? 
+
+        <div className={styles.teamPictures}>
+          <div className={styles.Raphael}>
+            <div className={styles.RaphaelPicture} />
+          </div>
+          <div className={styles.Vinicius}>
+            <div className={styles.ViniciusPicture} />
+          </div>
+          <div className={styles.Leandro}>
+            <div className={styles.LeandroPicture} />
+          </div>
+          <div className={styles.Nicole}>
+            <div className={styles.NicolePicture} />
+          </div>
+          <div className={styles.Georgia}>
+            <div className={styles.GeorgiaPicture} />
+          </div>
+          <div className={styles.Marco}>
+            <div className={styles.MarcoPicture} />
+          </div>
+          <div className={styles.Thais}>
+            <div className={styles.ThaisPicture} />
+          </div>
+          <div className={styles.Andre}>
+            <div className={styles.AndrePicture} />
+          </div>
+
+        </div>
+        :
+        size.width >= 768 ? 
+        <Swiper slidesPerView={4.4} spaceBetween={-20} freeMode={true} modules={[FreeMode]} className={styles.teamPictures}>
+          <SwiperSlide className={styles.Raphael}>
+            <div className={styles.RaphaelPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Vinicius}>
+            <div className={styles.ViniciusPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Leandro}>
+            <div className={styles.LeandroPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Nicole}>
+            <div className={styles.NicolePicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Georgia}>
+            <div className={styles.GeorgiaPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Marco}>
+            <div className={styles.MarcoPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Thais}>
+            <div className={styles.ThaisPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Andre}>
+            <div className={styles.AndrePicture} />
+          </SwiperSlide>
+        </Swiper>
+        :
+        <Swiper slidesPerView={2.2} spaceBetween={0} freeMode={true} modules={[FreeMode]} className={styles.teamPictures2}>
+          <SwiperSlide className={styles.Raphael}>
+            <div className={styles.RaphaelPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Vinicius}>
+            <div className={styles.ViniciusPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Leandro}>
+            <div className={styles.LeandroPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Nicole}>
+            <div className={styles.NicolePicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Georgia}>
+            <div className={styles.GeorgiaPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Marco}>
+            <div className={styles.MarcoPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Thais}>
+            <div className={styles.ThaisPicture} />
+          </SwiperSlide>
+          <SwiperSlide className={styles.Andre}>
+            <div className={styles.AndrePicture} />
+          </SwiperSlide>
+        </Swiper>
+        } */}
         
         <div className={styles.teamTitle}>nosso time_</div>
         <div className={styles.teamTitleTag} />
@@ -3102,7 +3264,7 @@ const closeModalContato = () => {
           <div className={styles.footerLinksProducts}>
             <div className={styles.footerProducts}>PRODUTOS <br/>& SERVIÇOS</div>
             <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
-             <div className={styles.anchorCases}><a href="https://mosaico-pointmedia.vercel.app">mosaico</a></div>
+             <div className={styles.anchorCases}><a href="https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/index.html">mosaico</a></div>
             <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
             <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
             <div className={styles.anchorContact} onClick={openModalContato}>contato</div>

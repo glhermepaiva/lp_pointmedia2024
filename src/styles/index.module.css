@@ -689,9 +689,6 @@
   transform: scale(0.7);
 }
 
-
-
-
 .Robson {
   margin: 0px 0 0 0;
 }
@@ -716,6 +713,105 @@
   transform: scale(0.7);
 }
 
+.teamPictures2 {
+  width: 100vw;
+}
+
+.Raphael{
+  margin: 0 0 0 0px;
+}
+
+.RaphaelPicture{
+  background-image: url(../assets/new/teamraphael.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Vinicius{
+  margin: 0 0 0 0px;
+}
+
+.ViniciusPicture{
+  background-image: url(../assets/new/teamvinicius.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Leandro{
+  margin: 0 0 0 0px;
+}
+
+.LeandroPicture{
+  background-image: url(../assets/new/teamleandro.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Nicole{
+  margin: 0 0 0 0px;
+}
+
+.NicolePicture{
+  background-image: url(../assets/new/teamnicole.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Georgia{
+  margin: 0 0 0 0px;
+}
+
+.GeorgiaPicture{
+  background-image: url(../assets/new/teamgeorgia.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Marco{
+  margin: 0 0 0 0px;
+}
+
+.MarcoPicture{
+  background-image: url(../assets/new/teammarco.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Thais{
+  margin: 0 0 0 0px;
+}
+
+.ThaisPicture{
+  background-image: url(../assets/new/teamthais.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
+
+.Andre{
+  margin: 0 0 0 0px;
+}
+
+.AndrePicture{
+  background-image: url(../assets/new/teamandre.png);
+  width: 205px;
+  height: 273px;
+  margin: 0 0 0 0;
+  transform: scale(0.7);
+}
 
 .teamTitle {
   font-weight: bold;
@@ -5449,7 +5545,7 @@ background-color: #d8598e;
   .teamQuote {
     font-size: 40px;
     line-height: 40px;
-    margin: 30px 0 80px 75px;
+    margin: 30px 0 50px 75px;
     width: 640px;
   }
 
@@ -5458,24 +5554,82 @@ background-color: #d8598e;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -10px auto 0 auto;
-    width: 799px;
-    display: grid;
-    grid-template-columns: 4fr 4fr 1fr;
-    
-
+    margin: -20px auto 10px auto;
+    width: 1300px;
   }
 
-  .Louro {
-    margin: -50px 0px 0 0px;
+  .teamPictures2 {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -60px auto 10px auto;
+    width: 1300px;
+  }
+
+  .Mychel {
+    margin: 0px -20px 0 0px;
+  }
+
+  .Thiago {
+    margin: 0px -20px 0 -20px;
+  }
+
+  .Will {
+    margin: 0px -20px 0 -20px;
   }
 
   .Mariana {
-    margin: -50px 0px 0 0px;
+    margin: 0px -20px 0 -20px;
+  }
+
+  .Louro {
+    margin: 0px -20px 0 -20px;
   }
   
   .Priscila {
-    margin: -50px 0 0 0;
+    margin: 0px 0 0 -20px;
+  }
+
+
+  .Raphael {
+    margin: 0px -40px 0 0px;
+    transform: scale(0.9);
+  }
+
+  .Vinicius {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Leandro {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Nicole {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Georgia {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Marco {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Thais {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Andre {
+    margin: 0px 0 0 -40px;
+    transform: scale(0.9);
   }
   
 
@@ -7201,6 +7355,144 @@ background-color: #d8598e;
 
   .teamQuote {
     font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0 50px 75px;
+    width: 640px;
+  }
+
+  .teamPictures {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -20px auto 10px auto;
+    width: 1300px;
+  }
+
+  .teamPictures2 {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -60px auto 10px auto;
+    width: 1300px;
+  }
+
+  .Mychel {
+    margin: 0px -20px 0 0px;
+  }
+
+  .Thiago {
+    margin: 0px -20px 0 -20px;
+  }
+
+  .Will {
+    margin: 0px -20px 0 -20px;
+  }
+
+  .Mariana {
+    margin: 0px -20px 0 -20px;
+  }
+
+  .Louro {
+    margin: 0px -20px 0 -20px;
+  }
+  
+  .Priscila {
+    margin: 0px 0 0 -20px;
+  }
+
+
+  .Raphael {
+    margin: 0px -40px 0 0px;
+    transform: scale(0.9);
+  }
+
+  .Vinicius {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Leandro {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Nicole {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Georgia {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Marco {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Thais {
+    margin: 0px -40px 0 -40px;
+    transform: scale(0.9);
+  }
+
+  .Andre {
+    margin: 0px 0 0 -40px;
+    transform: scale(0.9);
+  }
+  
+
+  .teamTitle {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0px 0 0 70px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .teamTitleTag {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 20px;
+    position: relative;
+    margin: -13px 0 0 60px;
+    z-index: 0;
+  }
+  
+  .teamText {
+    font-size: 18px;
+    line-height: 22px;
+    width: 640px;
+    margin: 10px 0 100px 73px;
+  }
+  
+  .teamWind {
+    background-image: url(../assets/new/wind2.png);
+    width: 288px;
+    height: 120px;
+    margin: -50px 0 -85px 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .teamPinkBalls {
+    background-image: url(../assets/new/pinkballssmall.png);
+    width: 558px;
+    height: 51px;
+    margin: 0 0 -25px 600px;
+    display: block;
+  }
+
+  /* .team {
+    margin: -100px 0 0 0;
+    padding: 100px 0 0 0;
+  }
+
+  .teamQuote {
+    font-size: 40px;
     line-height: 44px;
     margin: 70px 0 80px 70px;
     width: 380px;
@@ -7287,7 +7579,7 @@ background-color: #d8598e;
     height: 51px;
     margin: 0 0 -25px 700px;
     display: block;
-  }
+  } */
 
   .wwdTitle {
     font-size: 40px;
@@ -9096,63 +9388,92 @@ background-color: #d8598e;
 
   .teamQuote {
     font-size: 40px;
-    line-height: 44px;
-    margin: 70px 0 80px 170px;
-    width: 380px;
+    line-height: 40px;
+    margin: 30px 0 50px 75px;
+    width: 640px;
   }
 
   .teamPictures {
+    place-items: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -300px 0 0 761px;
-    width: 1024px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    margin: -20px auto 10px auto;
+    width: 1600px;
   }
 
-  .Mychel{
-    width: 150px;
-    margin: 0px 0px 0 0;
+  .teamPictures2 {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -60px auto 10px auto;
+    width: 1600px;
   }
-  
+
+  .Mychel {
+    margin: 0px -20px 0 0px;
+  }
+
   .Thiago {
-    width: 150px;
-    margin: 0px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
-  
+
   .Will {
-    width: 150px;
-    margin: 0px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
-  
+
   .Mariana {
-    width: 150px;
-    margin: -50px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
-  
+
   .Louro {
-    width: 150px;
-    margin: -50px 0 0 0;
+    margin: 0px -20px 0 -20px;
   }
   
-
-  .Robson {
-    width: 150px;
-    margin: -50px 0 0 0;
-  }
-
   .Priscila {
-    width: 150px;
-    margin: -50px 0 0 0;
+    margin: 0px 0 0 -20px;
+  }
+
+
+  .Raphael {
+    margin: 0px -40px 0 0px;
+  }
+
+  .Vinicius {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Leandro {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Nicole {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Georgia {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Marco {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Thais {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Andre {
+    margin: 0px 0 0 -40px;
   }
   
-  
+
   .teamTitle {
     font-weight: bold;
     font-size: 40px;
     line-height: 44px;
-    margin: -230px 0 0 170px;
+    margin: 0px 0 0 70px;
     position: relative;
     z-index: 1;
   }
@@ -9162,22 +9483,22 @@ background-color: #d8598e;
     width: 250px;
     height: 20px;
     position: relative;
-    margin: -13px 0 20px 160px;
+    margin: -13px 0 0 60px;
     z-index: 0;
   }
   
   .teamText {
     font-size: 18px;
     line-height: 22px;
-    width: 330px;
-    margin: 10px 0 130px 170px;
+    width: 640px;
+    margin: 10px 0 100px 73px;
   }
   
   .teamWind {
     background-image: url(../assets/new/wind2.png);
     width: 288px;
     height: 120px;
-    margin: -50px 0 -85px 100px;
+    margin: -50px 0 -85px 60px;
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -9186,7 +9507,7 @@ background-color: #d8598e;
     background-image: url(../assets/new/pinkballssmall.png);
     width: 558px;
     height: 51px;
-    margin: 0 0 -25px 900px;
+    margin: 0 0 -25px 600px;
     display: block;
   }
 
@@ -11016,101 +11337,120 @@ background-color: #d8598e;
   }
 
   .teamQuote {
-    font-size: 48px;
-    line-height: 52px;
-    margin: 70px 0 80px 150px;
-    width: 450px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0 50px 75px;
+    width: 640px;
   }
 
   .teamPictures {
+    place-items: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -296px 0 0 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    margin: -20px auto 10px auto;
+    width: 1650px;
+    transform: scale(1.1);
   }
 
-  .Mychel{
-    margin: 0px 0px 0 0;
+  .teamPictures2 {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -30px auto 10px auto;
+    width: 1650px;
+    transform: scale(1.075);
   }
 
-  .MychelPicture{
-    transform: scale(1);
+  .Mychel {
+    margin: 0px -20px 0 0px;
   }
-  
+
   .Thiago {
-    margin: 0px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
 
-  .ThiagoPicture{
-    transform: scale(1);
-  }
-  
   .Will {
-    margin: 0px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
 
-  .WillPicture{
-    transform: scale(1);
-  }
-  
   .Mariana {
-    margin: 28px 0px 0 0;
+    margin: 0px -20px 0 -20px;
   }
 
-  .MarianaPicture{
-    transform: scale(1);
+  .Louro {
+    margin: 0px -20px 0 -20px;
   }
   
-  .Louro {
-    margin: 30px 0 0 0;
-  }
-
-  .LouroPicture{
-    transform: scale(1);
-  }
-
-
   .Priscila {
-    margin: 30px 0 0 0;
+    margin: 0px 0 0 -20px;
   }
 
-  .PriscilaPicture{
-    transform: scale(1);
+
+  .Raphael {
+    margin: 0px -40px 0 0px;
+  }
+
+  .Vinicius {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Leandro {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Nicole {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Georgia {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Marco {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Thais {
+    margin: 0px -40px 0 -40px;
+  }
+
+  .Andre {
+    margin: 0px 0 0 -40px;
   }
   
 
   .teamTitle {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 62px;
-    margin: -230px 0 0 150px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0px 0 0 70px;
     position: relative;
     z-index: 1;
   }
   
   .teamTitleTag {
     background-color: #FFFFFF;
-    width: 300px;
+    width: 250px;
     height: 20px;
     position: relative;
-    margin: -20px 0 20px 140px;
+    margin: -13px 0 0 60px;
     z-index: 0;
   }
   
   .teamText {
-    font-size: 24px;
-    line-height: 28px;
-    width: 430px;
-    margin: 10px 0 130px 150px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 640px;
+    margin: 10px 0 100px 73px;
   }
   
   .teamWind {
     background-image: url(../assets/new/wind2.png);
     width: 288px;
     height: 120px;
-    margin: -50px 0 -85px 100px;
+    margin: -50px 0 -85px 60px;
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -11119,7 +11459,7 @@ background-color: #d8598e;
     background-image: url(../assets/new/pinkballssmall.png);
     width: 558px;
     height: 51px;
-    margin: 0 0 -25px 1200px;
+    margin: 0 0 -25px 600px;
     display: block;
   }
 
@@ -12952,123 +13292,129 @@ background-color: #d8598e;
   }
 
   .teamQuote {
-    font-size: 48px;
-    line-height: 52px;
-    margin: 100px 0 80px 215px;
-    width: 450px;
-    transform: scale(1.3);
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0 50px 75px;
+    width: 640px;
   }
 
   .teamPictures {
+    place-items: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -260px 0 0 1380px;
-    width: 1134px;
+    margin: 20px auto 10px auto;
+    width: 2400px;
+    transform: scale(1.5);
+  }
+
+  .teamPictures2 {
+    place-items: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto 30px auto;
+    width: 2400px;
     transform: scale(1.3);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .Mychel{
-    margin: 0px 0px 0 0;
+  .Mychel {
+    margin: 0px -350px 0 0px;
   }
 
-  .MychelPicture{
-    transform: scale(1);
-  }
-  
   .Thiago {
-    margin: 0px 0px 0 0;
+    margin: 0px -350px 0 -350px;
   }
 
-  .ThiagoPicture{
-    transform: scale(1);
-  }
-  
   .Will {
-    margin: 0px 0px 0 0;
+    margin: 0px -350px 0 -350px;
   }
 
-  .WillPicture{
-    transform: scale(1);
-  }
-  
   .Mariana {
-    margin: 28px 0px 0 0;
+    margin: 0px -350px 0 -350px;
   }
 
-  .MarianaPicture{
-    transform: scale(1);
-  }
-  
   .Louro {
-    margin: 30px 0 0 0;
+    margin: 0px -350px 0 -350px;
   }
-
-  .LouroPicture{
-    transform: scale(1);
-  }
-
-  .TatoPicture{
-    transform: scale(1);
-  }
-
-
+  
   .Priscila {
-    margin: 30px 0 0 0;
+    margin: 0px 0 0 -350px;
   }
 
-  .PriscilaPicture{
-    transform: scale(1);
+
+  .Raphael {
+    margin: 0px -250px 0 0px;
   }
-  
-  
+
+  .Vinicius {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Leandro {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Nicole {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Georgia {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Marco {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Thais {
+    margin: 0px -250px 0 -250px;
+  }
+
+  .Andre {
+    margin: 0px 0 0 -250px;
+  }
+
   .teamTitle {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 62px;
-    margin: -230px 0 0 460px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0px 0 0 70px;
     position: relative;
     z-index: 1;
-    transform: scale(1.3);
   }
   
   .teamTitleTag {
     background-color: #FFFFFF;
-    width: 300px;
-    height: 25px;
+    width: 250px;
+    height: 20px;
     position: relative;
-    margin: -20px 0 60px 180px;
+    margin: -13px 0 0 60px;
     z-index: 0;
-    transform: scale(1.3);
   }
   
   .teamText {
-    font-size: 24px;
-    line-height: 28px;
-    width: 430px;
-    margin: 10px 0 200px 210px;
-    transform: scale(1.3);
+    font-size: 18px;
+    line-height: 22px;
+    width: 640px;
+    margin: 10px 0 100px 73px;
   }
   
   .teamWind {
     background-image: url(../assets/new/wind2.png);
     width: 288px;
     height: 120px;
-    margin: -50px 0 -85px 250px;
+    margin: -50px 0 -85px 60px;
     background-size: 100%;
     background-repeat: no-repeat;
-    transform: scale(1.3);
   }
   
   .teamPinkBalls {
     background-image: url(../assets/new/pinkballssmall.png);
     width: 558px;
     height: 51px;
-    margin: 0 0 -25px 1650px;
+    margin: 0 0 -25px 600px;
     display: block;
-    transform: scale(1.3);
   }
 
   .wwdTitle {
