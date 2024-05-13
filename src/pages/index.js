@@ -1422,6 +1422,36 @@ const closeModalContato = () => {
 
       <SwiperSlide>
         <div className={styles.news}>
+          <div className={styles.news6Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news1Tag}>
+              <div className={styles.news1TagText}>Suno é POINT MEDIA!</div>
+              <div className={styles.news6TagLine} />
+            </div>
+            <div className={styles.news1NewsText}>
+            A agência que vai além da publicidade é a nossa mais <b>nova parceira!</b> É um orgulho para nós participar dessa história de sucesso e poder criar com <b>pessoas tão geniais. Ready?</b> 🚀
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news7Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news1Tag}>
+              <div className={styles.news1TagText}>Cogna é POINT MEDIA!</div>
+              <div className={styles.news7TagLine} />
+            </div>
+            <div className={styles.news1NewsText}>
+            Além de ser uma das principais organizações educacionais do mundo, agora a Cogna também é nossa cliente! Vamos, lado a lado, <b>rumo ao inimaginável</b>. Muitas novidades estão por vir! 👀
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+
+      <SwiperSlide>
+        <div className={styles.news}>
           <div className={styles.newsFirstPicture} />
           <div className={styles.newsTextsContainer}>
             <div className={styles.news1Tag}>
@@ -1434,7 +1464,6 @@ const closeModalContato = () => {
           </div>
         </div>
         </SwiperSlide>
-
 
         <SwiperSlide>
         <div className={styles.news}>
