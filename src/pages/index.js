@@ -1419,22 +1419,6 @@ const closeModalContato = () => {
       <div className={styles.buttonReel} onClick={openReel}>VER REEL</div>
  
       <swiper-container ref={paginationRef} init="false">
-
-      <SwiperSlide>
-        <div className={styles.news}>
-          <div className={styles.news6Picture} />
-          <div className={styles.newsTextsContainer}>
-            <div className={styles.news1Tag}>
-              <div className={styles.news1TagText}>Suno é POINT MEDIA!</div>
-              <div className={styles.news6TagLine} />
-            </div>
-            <div className={styles.news1NewsText}>
-            A agência que vai além da publicidade é a nossa mais <b>nova parceira!</b> É um orgulho para nós participar dessa história de sucesso e poder criar com <b>pessoas tão geniais. Ready?</b> 🚀
-            </div>
-          </div>
-        </div>
-        </SwiperSlide>
-
         <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.news7Picture} />
@@ -1449,7 +1433,6 @@ const closeModalContato = () => {
           </div>
         </div>
         </SwiperSlide>
-
       <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.newsFirstPicture} />
@@ -1464,7 +1447,6 @@ const closeModalContato = () => {
           </div>
         </div>
         </SwiperSlide>
-
         <SwiperSlide>
         <div className={styles.news}>
           <div className={styles.news1Picture} />
@@ -1475,20 +1457,6 @@ const closeModalContato = () => {
             </div>
             <div className={styles.news1NewsText}>
               O jeito divertido de lidar com o dinheiro chegou na POINT! A empresa que <b>simplificou as finanças</b> dos brasileiros agora faz parte da nossa família de clientes. Vamos juntos <b>dar um pique</b> na vida financeira de milhares de pessoas! 😄
-            </div>
-          </div>
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.news}>
-          <div className={styles.news2Picture} />
-          <div className={styles.newsTextsContainer}>
-            <div className={styles.news2Tag}>
-              <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
-              <div className={styles.news2TagLine} />
-            </div>
-            <div className={styles.news2NewsText}>
-            Os especialistas em transformar <b>ideias em realidade</b> estão com a gente! Temos o prazer de sermos parceiros da agência DM9. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
             </div>
           </div>
         </div>
@@ -1535,6 +1503,35 @@ const closeModalContato = () => {
           </div>
         </div>
         </SwiperSlide>
+        {/* <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news6Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news1Tag}>
+              <div className={styles.news1TagText}>Suno é POINT MEDIA!</div>
+              <div className={styles.news6TagLine} />
+            </div>
+            <div className={styles.news1NewsText}>
+            A agência que vai além da publicidade é a nossa mais <b>nova parceira!</b> É um orgulho para nós participar dessa história de sucesso e poder criar com <b>pessoas tão geniais. Ready?</b> 🚀
+            </div>
+          </div>
+        </div>
+        </SwiperSlide> */}
+        <SwiperSlide>
+        <div className={styles.news}>
+          <div className={styles.news2Picture} />
+          <div className={styles.newsTextsContainer}>
+            <div className={styles.news2Tag}>
+              <div className={styles.news2TagText}>DM9 é POINT MEDIA!</div>
+              <div className={styles.news2TagLine} />
+            </div>
+            <div className={styles.news2NewsText}>
+            Os especialistas em transformar <b>ideias em realidade</b> estão com a gente! Temos o prazer de sermos parceiros da agência DM9. Juntos, estamos criando um mundo mais animado e cheio de surpresas. 😄🎉
+            </div>
+          </div>
+        </div>
+        </SwiperSlide>
+        
       </swiper-container>
       
       <div id='about' ref={aboutRef} className={styles.about}>
