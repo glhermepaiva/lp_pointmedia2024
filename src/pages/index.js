@@ -685,17 +685,17 @@ const anchorVideo = () => {
     setLoading(true)
 
     let formData = {
-      subject: e.target[0].value,
-      name: e.target[1].value,
-      email: e.target[2].value,
-      phone: e.target[3].value,
+      subject: e.target[3].value,
+      name: e.target[0].value,
+      email: e.target[1].value,
+      phone: e.target[2].value,
       message: e.target[4].value,
     }
 
     const isValid = await schema.isValid(formData);
 
     if (isValid && formData.subject == '1') {
-        emailjs.sendForm('service_ibuddku', 'template_comercial', e.target, 'user_qksKqi9BtojdtprKYCtue')
+        emailjs.sendForm('service_ibuddku', 'template_comercial', e.target, 'psXKDji6qs060IYw5')
 
         .then((result) => {
             console.log(result);
@@ -707,7 +707,7 @@ const anchorVideo = () => {
         });
 
     } else if (isValid && formData.subject == '2') {
-      emailjs.sendForm('service_ibuddku', 'template_atendimento', e.target, 'user_qksKqi9BtojdtprKYCtue')
+      emailjs.sendForm('service_ibuddku', 'template_atendimento', e.target, 'psXKDji6qs060IYw5')
 
       .then((result) => {
           console.log(result);
@@ -719,7 +719,7 @@ const anchorVideo = () => {
       });
 
     } else if (isValid && formData.subject == '3') {
-      emailjs.sendForm('service_ibuddku', 'template_financeiro', e.target, 'user_qksKqi9BtojdtprKYCtue')
+      emailjs.sendForm('service_ibuddku', 'template_financeiro', e.target, 'psXKDji6qs060IYw5')
 
       .then((result) => {
           console.log(result);
@@ -733,6 +733,7 @@ const anchorVideo = () => {
     } else {
         alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
         setLoading(false)
+        console.log(formData)
       }
   }
 
