@@ -2383,12 +2383,6 @@ const closeModalContato = () => {
             <div className={styles.client91} />
             <div className={styles.client92} />
           </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.client93} />
-            <div className={styles.client94} />
-            <div className={styles.client95} />
-            <div className={styles.client96} />
-          </SwiperSlide>
         </Swiper>
         :
         size.width >= 1600 ?
@@ -2530,12 +2524,6 @@ const closeModalContato = () => {
             <div className={styles.client90} />
             <div className={styles.client91} />
             <div className={styles.client92} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.client93} />
-            <div className={styles.client94} />
-            <div className={styles.client95} />
-            <div className={styles.client96} />
           </SwiperSlide>
         </Swiper>
         :
@@ -2679,12 +2667,6 @@ const closeModalContato = () => {
             <div className={styles.client91} />
             <div className={styles.client92} />
           </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.client93} />
-            <div className={styles.client94} />
-            <div className={styles.client95} />
-            <div className={styles.client96} />
-          </SwiperSlide>
         </Swiper>
         :
         size.width >= 768 ? 
@@ -2827,12 +2809,6 @@ const closeModalContato = () => {
             <div className={styles.client91} />
             <div className={styles.client92} />
           </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.client93} />
-            <div className={styles.client94} />
-            <div className={styles.client95} />
-            <div className={styles.client96} />
-          </SwiperSlide>
         </Swiper>
         :
         <Swiper slidesPerView={1.7} spaceBetween={10} freeMode={true} modules={[FreeMode]} className={styles.clientsGallery}>
@@ -2973,12 +2949,6 @@ const closeModalContato = () => {
             <div className={styles.client90} />
             <div className={styles.client91} />
             <div className={styles.client92} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.client93} />
-            <div className={styles.client94} />
-            <div className={styles.client95} />
-            <div className={styles.client96} />
           </SwiperSlide>
         </Swiper>
         }
