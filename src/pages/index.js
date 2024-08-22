@@ -733,7 +733,6 @@ const anchorVideo = () => {
     } else {
         alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
         setLoading(false)
-        console.log(formData)
       }
   }
 
