@@ -693,6 +693,7 @@ const anchorVideo = () => {
       message: e.target[4].value,
     }
 
+    console.log(formData)
     const isValid = await schema.isValid(formData);
 
     if (isValid && formData.subject == '1') {
