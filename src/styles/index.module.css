@@ -498,6 +498,20 @@
   position: absolute;
 }
 
+.anchorMosaico {
+  cursor: pointer;
+  margin: 0;
+}
+
+.anchorMosaico:hover {
+  color: #EB6099;
+}
+
+.anchorMosaico:hover::after {
+  content:'_';
+  position: absolute;
+}
+
 .anchorClients {
   cursor: pointer;
 }

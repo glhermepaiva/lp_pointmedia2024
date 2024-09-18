@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { useState, useEffect, useRef } from 'react'
+import Link from 'next/link'
 import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
@@ -1385,7 +1386,9 @@ const closeModalContato = () => {
           <div className={styles.anchorHwd} onClick={anchorHwd}>como a gente faz</div>
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
-          <div className={styles.anchorClients}><a href="https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/index.html">mosaico</a></div>
+          <Link href="/mosaico" >
+            <p className={styles.anchorMosaico}>mosaico</p>
+          </Link>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
           <div className={styles.anchorContact} onClick={openModalContato}>contato</div>
@@ -3350,7 +3353,9 @@ const closeModalContato = () => {
           <div className={styles.footerLinksProducts}>
             <div className={styles.footerProducts}>PRODUTOS <br/>& SERVIÇOS</div>
             <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
-             <div className={styles.anchorCases}><a href="https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/index.html">mosaico</a></div>
+            <Link href="/mosaico" >
+              <p className={styles.anchorMosaico}>mosaico</p>
+            </Link>
             <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
             <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
             <div className={styles.anchorContact} onClick={openModalContato}>contato</div>

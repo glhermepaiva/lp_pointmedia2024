@@ -1,0 +1,190 @@
+.body {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #252525;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.headerContainer {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    background-image: url(../assets/new/logopoint.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 105px;
+    height: 66px;
+    cursor: pointer;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.headerButtonClients {
+    border: 2px solid #555555;
+    border-radius: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.headerButtonClients:hover {
+    background-color: #EB6099;
+}
+
+.headerButtonCases {
+    border: 2px solid #555555;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 0 5px 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.headerButtonCases:hover {
+    background-color: #EB6099;
+}
+
+.main {
+    background-color: #000000;
+    flex: 1;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.mainContainer {
+    max-width: 85.5%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client {
+    width: 536px;
+    height: 534px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 9px 0;
+    filter: grayscale(100%);
+    background-size: 100%;
+    transition: filter 0.3s ease, background-size 0.5s ease;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.client:hover {
+    filter: grayscale(0%);
+    background-size: 110%;
+}
+
+.courtain {
+    width: 536px;
+    height: 534px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: #000000;
+    transition: opacity 0.6s ease;
+    /* top: 100%; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.clientLogo {
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.client:hover .courtain {
+    opacity: 100%;
+}
+
+.client:hover .clientLogo {
+    opacity: 100%;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.footerContainer {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLogo {
+    background-image: url(../assets/new/pointlogo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.footerSocials {
+    display: flex;
+}
+
+.whatsapp {
+    background-image: url(../assets/new/zap.png);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transform: scale(0.8);
+    margin: 0 0px 0 0;
+  }
+  
+  .linkedin {
+    background-image: url(../assets/new/link.png);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transform: scale(0.8);
+    margin: 0 0px 0 -10px;
+  }
+  
+  .instagram {
+    background-image: url(../assets/new/insta.png);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transform: scale(0.8);
+    margin: 0 0px 0 -10px;
+  }
+  
+  .facebook {
+    background-image: url(../assets/new/face.png);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transform: scale(0.8);
+    margin: 0 0px 0 -10px;
+  }
