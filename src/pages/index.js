@@ -1388,7 +1388,7 @@ const closeModalContato = () => {
           <div className={styles.anchorPrevWorks} onClick={anchorPrevWorks}>o que a gente já fez</div>
           <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
           <Link href="/mosaico" >
-            <p className={styles.anchorMosaico}>mosaico</p>
+            <a className={styles.anchorMosaico}>mosaico</a>
           </Link>
           <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
           <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>
@@ -3355,7 +3355,7 @@ const closeModalContato = () => {
             <div className={styles.footerProducts}>PRODUTOS <br/>& SERVIÇOS</div>
             <div className={styles.anchorCases} onClick={anchorCases}>nossos cases</div>
             <Link href="/mosaico" >
-              <p className={styles.anchorMosaico}>mosaico</p>
+              <a className={styles.anchorMosaico}>mosaico</a>
             </Link>
             <div className={styles.anchorClients} onClick={anchorClients}>clientes atendidos</div>
             <div className={styles.anchorReanimate} onClick={anchorReanimate}>re.animate</div>

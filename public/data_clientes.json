@@ -2,8 +2,39 @@
     {
       "cliente": "99",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_99.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_99.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_99.png",
+      "itens": ["reanimate", "video"],
+      "reanimate": [
+        {
+          "dimensao": "300x250",
+          "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png"
+          ],
+          "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/1/300x250.html",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/2/300x250.html"
+          ]
+        },
+        {
+          "dimensao": "300x600",
+          "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png"
+          ],
+          "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/1/300x600.html",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/2/300x600.html"
+          ]
+        },
+        {
+          "dimensao": "970x250",
+          "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/thumb_99.png"
+          ],
+          "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/1/970x250.html",
+            "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/99/2/970x250.html"
+          ]
+        }
+      ]
     },
+    
     {
       "cliente": "AMais",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_amais.png",
@@ -158,10 +189,5 @@
       "cliente": "Pilao",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_pilao.png",
       "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cafe_pilao.png"
-    },
-    {
-      "cliente": "Pilao",
-      "thumb": "",
-      "logo": ""
     }
   ]

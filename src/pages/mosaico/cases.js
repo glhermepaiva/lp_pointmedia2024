@@ -1,39 +1,43 @@
-import styles from "../styles/mosaico.module.css"
+import styles from "../../styles/mosaico.module.css"
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 const fetchEmpresas = async () => {
     const res = await fetch('/data_clientes.json');
     const data = await res.json();
     return data;
-  };
+};
 
-export default function formbr() {
+export default function mosaicoFormatos() {
 
     const [empresas, setEmpresas] = useState([]);
 
     useEffect(() => {
         fetchEmpresas().then(setEmpresas);
     }, []);
-    // teste
+    
     return (
         <div className={styles.body}>
             <div className={styles.header}>
                 <div className={styles.headerContainer}>
-                    <div className={styles.headerLogo} />
+                    <Link href="/">
+                        <div className={styles.headerLogo} />
+                    </Link>
                     <div className={styles.headerButtons}>
-                        <div className={styles.headerButtonClients}>clientes</div>
+                        <Link href="/mosaico">
+                            <div className={styles.headerButtonClients}>clientes</div>
+                        </Link>
                         <div className={styles.headerButtonCases}>cases</div>
                     </div>
                 </div>
             </div>
             <div className={styles.main}>
                 <div className={styles.mainContainer}>
-                {empresas.map((empresa, index) => (
-                    <div key={index} className={styles.client} style={{ backgroundImage: `url(${empresa.thumb})` }}>
-                        <div className={styles.courtain} />
-                        <img className={styles.clientLogo} src={empresa.logo} alt={`${empresa.nome} Logo`} />
-                    </div>
-                ))}
+                    {empresas.map((empresa, index) => (
+                        <Link href={`/mosaico/${empresa.cliente}`} key={index}>
+                        <div className={styles.clienteLista}>{empresa.cliente}</div>
+                        </Link>
+                    ))}
                 </div>
             </div>
             <div className={styles.footer}>
