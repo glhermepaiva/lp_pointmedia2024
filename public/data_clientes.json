@@ -38,156 +38,1861 @@
     {
       "cliente": "AMais",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_amais.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_amais.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_amais.png",
+      "itens": ["video", "emkt", "reanimate"],
+      "video": [{
+      "dimensao": "1920x1080",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/A_mais/thumb_amais.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/A_mais/thumb_amais.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/A_mais/a.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/A_mais/a2.mp4"
+      ]
+    }]
     },
+
     {
       "cliente": "BB",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_bb.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_bb.png"
-    },
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_bb.png",
+      "itens": ["video", "reanimate"],
+      "video": [{
+        "dimensao": "1080x1920",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/a.mp4"]
+      }],
+      
+      "reanimate": [
+      {
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/2/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/3/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/4/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/5/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/6/300x250.html"
+        ]
+      },
+
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/1/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/2/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/3/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/4/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/5/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/6/300x600.html"
+        ]
+      },
+
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/thumbs/thumb_bb.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/1/1.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/2/1.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/3/1.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/4/1.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/5/1.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BB2/6/1.html"
+        ]
+      }
+    ]
+  },
+
     {
       "cliente": "Bradesco",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_bradesco.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_bradesco.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_bradesco.png",
+      "itens": ["reanimate"],
+      "reanimate": [
+      {
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/300x250.html" ]
+      },
+
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/300x600.html" ]
+      },
+
+      {
+        "dimensao": "320x100",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/320x100.html" ]
+      },
+
+      {
+        "dimensao": "336x280",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/1.html" ]
+      },
+
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/2.html" ]
+      },
+
+      {
+        "dimensao": "970x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/thumbs/thumb_bradesco.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRADESCO/1/970x250.html" ]
+      }
+    ]
     },
+
     {
       "cliente": "Brastemp",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_brastemp.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_brastemp.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_brastemp.png",
+      "itens": ["reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/thumbs/thumb_brastemp.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/2/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/3/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/4/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/1/300x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/thumbs/thumb_brastemp.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/2/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/3/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/4/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/1/300x600.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/1.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/1/320x50.html"]
+      },
+      {
+        "dimensao": "970x150",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/4.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/2/970x150.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/3/970x150.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/4/970x150.html"
+        ]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/thumbs/thumb_brastemp.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/1/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/2/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/3/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/brastemp/4/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/BRASTEMP2/1/970x250.html"
+        ]
+      }
+    ]
     },
+
     {
       "cliente": "Cogna",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_cogna.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cogna.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cogna.png",
+      "itens": ["reanimate"],
+      "reanimate": [
+
+      {
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/thumbs/thumb_cogna.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/1/300x250.html" ]
+      },
+
+      {
+        "dimensao": "300x1050",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/thumbs/thumb_cogna.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/1/300x1050.html" ]
+      },
+
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/thumbs/thumb_cogna.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/COGNA/1/1.html" ]
+      }
+    ]
     },
+
     {
       "cliente": "Epson",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_epson.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_epson.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_epson.png",
+      "itens": ["video", "emkt", "reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/7.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/6/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/7/300x250.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/7.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/6/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/7/320x50.html"
+
+
+        ]
+      },
+      {
+        "dimensao": "320x480",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png"
+
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/320x480.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/320x480.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/320x480.html"
+        ]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/7.png"
+
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/6/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/7/300x600.html"
+        ]
+      },
+      {
+        "dimensao": "160x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/7.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/6/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/7/160x600.html"
+        ]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/7.png"
+        ],
+        "pecas": [
+
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/3/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/5/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/4/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/6/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/7/728x90.html"
+        ]
+      },
+      {
+        "dimensao": "570x108",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/thumbs/8.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/epson/8/570x108.html"
+        ]
+      }
+    ],
+
+    "emkt": [{
+      "dimensao": "650x600",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_008.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_009.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_02_fevereiro_23_25.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_1.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_008.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_009.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_02_fevereiro_23_25.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_1.png"
+      ]
+    }],
+
+    "video": [
+
+      {
+        "dimensao": "720x920",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/4.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/4/720x920_animado.mp4" ]
+      },
+
+      {
+        "dimensao": "1080x1080",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1080/1.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1080/2.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1080/3.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1080/4.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1080/5.mp4"
+        ]
+      },
+
+      {
+        "dimensao": "1080x1350",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/2_1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/2_2.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/2/arg_1080x1350.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/2/chi_1080x1350_02.mp4"
+        ]
+      },
+
+      {
+        "dimensao": "1080x1920",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/1/1080X1920_ESP.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/1/1080X1920_PORT.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/1.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/2.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/3.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/4.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/5.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1080x1920/6.mp4"
+        ]
+      },
+
+      {
+        "dimensao": "1920x1080",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/2_1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/2_2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson.png", 
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/thumbs/thumb_epson2.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/4/1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/2/arg_1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/2/chi_1920x1080_02_1.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/epson/pecas/3/1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1920x1080/1.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/EPSON2/1920x1080/2.mp4"
+        ]
+      }
+    ]
     },
+
     {
       "cliente": "Fatec",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_fatec.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_fatec.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_fatec.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao": "1080x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/FATEC/thumbs/thumb_fatec.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/FATEC/1.mp4"]
+      }]
     },
+
     {
       "cliente": "GPA",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_gpa.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_gpa.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_gpa.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao": "1080x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/thumbs/thumb_gpa.png","https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/thumbs/thumb_gpa.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/1080x1080/1.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/1080x1080/2.mp4"]
+      },
+      {
+      "dimensao":"1080x1920",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/thumbs/thumb_gpa.png","https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/thumbs/thumb_gpa.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/1080x1920/1.mp4","https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/GPA/1080x1920/2.mp4"]
+      }
+      ]
     },
+
     {
       "cliente": "JDE",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_jde.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_jde.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_jde.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao":"1920x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/JDE/thumbs/thumb_jde.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/JDE/1920x1080.mp4"]
+      }]
     },
+
     {
       "cliente": "KFC",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_kfc.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_kfc.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_kfc.png",
+      "itens": ["reanimate"],
+      "reanimate":[
+      {"dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/thumbs/thumb_kfc.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/1/300x250.html"]},
+      
+      {"dimensao": "300x600",  
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/thumbs/thumb_kfc.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/1/300x600.html"]},
+      
+      {"dimensao": "970x90",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/thumbs/thumb_kfc.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KFC/1/970x90.html"]}]
     },
+
     {
       "cliente": "Klick",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_klick.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_klick.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_klick.png",
+      "itens": ["reanimate"],
+      "reanimate":[
+      {"dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KLICK/thumbs/thumb_klick.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KLICK/300x250.html"]}
+      ]
     },
+
     {
       "cliente": "Kwai",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_kwai.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_kwai.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_kwai.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao":"1554x768",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KWAI2/thumbs/thumb_kwai.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KWAI2/1554x768/1.mp4"]
+      },
+      {
+      "dimensao":"1920x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KWAI2/thumbs/thumb_kwai2.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/KWAI2/1920x1080/1.mp4"]
+      }
+      ]
     },
+
     {
       "cliente": "Livelo",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_livelo.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_livelo.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_livelo.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao":"1080x1920",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/LIVELO/thumbs/thumb_livelo.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/LIVELO/1080x1920.mp4"]
+      }]
     },
+
     {
       "cliente": "Motorola",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_motorola.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_motorola.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_motorola.png",
+      "itens": ["video", "reanimate"],
+
+      "video":[
+      {
+      "dimensao": "1080x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/Moto_Edge_50_Pro 1080x1080.mp4"]
+      },
+      {
+      "dimensao":"1080x1350",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/2/1080x1350.mp4"]
+      },
+      {
+      "dimensao":"1080x1920",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/Moto_Edge_50_Pro 1080x1920.mp4"]
+      },
+      
+      {
+      "dimensao":"1920x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png",
+         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/Moto_Edge_50_Pro_6s 1920x1080.mp4",
+         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/Moto_Edge_50_Pro_30s 1920x1080.mp4"]
+      }
+      ],
+
+    "reanimate":[
+      {"dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/300x250.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/2/300x250.html"
+      ]},
+      
+      {"dimensao": "300x600",  
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/300x600.html"
+      ]},
+      
+      {"dimensao": "728x90",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/2/1.html"
+      ]},
+      
+      {"dimensao": "970x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/thumbs/thumb_motorola.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/1/970x250.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MOTOROLA/2/970x250.html"
+      ]}]
     },
+
     {
       "cliente": "Multiplan",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_multiplan.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_multiplan.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_multiplan.png",
+      "itens": ["video", "reanimate"],
+
+      "video":[
+      {
+      "dimensao":"1920x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/thumbs/thumb_multiplan.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/1.mp4"]
+      }],
+   
+      "reanimate":[
+      {"dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/thumbs/thumb_multiplan.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/1/300x250.html"]},
+      
+      {"dimensao": "300x600",  
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/thumbs/thumb_multiplan.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/1/300x600.html"]},
+      
+      {"dimensao": "970x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/thumbs/thumb_multiplan.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/MULTI PLAN/1/970x250.html"]}]
     },
+
     {
       "cliente": "Nutren",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_nutren.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_nutren.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_nutren.png",
+      "itens": ["reanimate"],
+      "reanimate":[
+      
+      {"dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/thumbs/thumb_nutren.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/1/300x250.html"]},
+      
+      {"dimensao": "300x600",  
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/thumbs/thumb_nutren.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/1/300x600.html"]},
+      
+      {"dimensao": "320x50",   
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/thumbs/thumb_nutren.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/2/320x50.html"]},
+
+      {"dimensao": "970x90",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/thumbs/thumb_nutren.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/1/970x90.html"]},
+      
+      {"dimensao": "970x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/thumbs/thumb_nutren.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/NUTREN/2/970x250.html"]}]
     },
+
     {
       "cliente": "Sadia",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_sadia.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_sadia.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_sadia.png",
+      "itens": ["video"],
+      "video":[
+        {
+        "dimensao": "1320x576",
+        "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SADIA/thumbs/thumb_sadia.png"],
+        "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SADIA/1320x576.mp4"]
+        }]
+      },
+
+      {
+        "cliente": "Sicred",
+        "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_sicred.png",
+        "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_sicredi.png",
+        "itens": ["reanimate"],
+
+        "reanimate":[
+        
+        {"dimensao": "300x250",
+        "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/thumbs/thumb_sicred.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/thumbs/thumb_sicred.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/thumbs/thumb_sicred.png"],
+        "pecas": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/1/300x250.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/1/300x250v02.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SICRED/1/300x250V03.html"]}
+        
+      ]
     },
-    {
-      "cliente": "Sicredi",
-      "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_sicred.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_sicredi.png"
-    },
+
     {
       "cliente": "TrackField",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_trackfield.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_trackfield.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_trackfield.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao": "1080x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/thumbs/thumb_trackfield.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/2/Compre e Ganhe Portugal_1080x1080.mp4"]
+      },
+      {
+      "dimensao":"1080x1920",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/thumbs/thumb_trackfield.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/thumbs/thumb_trackfield.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/1/1.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/2/Compre e Ganhe Portugal_1080x1920.mp4"]
+      },
+      {
+      "dimensao":"1920x1080",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/thumbs/thumb_trackfield.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/TRACKFIELD/3/Preview_1920x1280.mp4"]
+      }
+      ]
     },
+
     {
       "cliente": "Visa",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_visa.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_visa.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_visa.png",
+      "itens": ["video"],
+      "video":[
+      {
+      "dimensao": "1152x768",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/thumbs/thumb_visa.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/1/VisaInfinite_Paris_Aeroporto_15s_1152x768.mp4"]
+      },
+      {
+      "dimensao":"1080x1920",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/thumbs/thumb_visa.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/1/VisaMass-FY24-OlimpiadasParis2024-Meta-9x16-6seg.mp4"]
+      },
+      {
+      "dimensao":"1350x1350",
+      "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/thumbs/thumb_visa.png"],
+      "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/VISA2/1/VisaMass-FY24-OlimpiadasParis2024-Meta-1x1-6seg.mp4"]
+      }]
     },
+
     {
       "cliente": "xp",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_xp.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_xp.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_xp.png",
+      "itens": ["reanimate"],
+      "reanimate":[
+
+      {"dimensao": "300x250",
+        "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png"],
+        "pecas": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/600x500.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/728x90.html",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/1280x100.html"]}
+      ]
     },
+
     {
       "cliente": "Havaianas",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_havaianas.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_havaianas.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_havaianas.png",
+      "itens": ["video", "emkt", "reanimate"],
+      "video": [{
+        "dimensao": "1080x1080",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/1.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/2.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/1_carnaval/1080x1080.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/2_farm/1080x1080.mp4"]
+      },
+      {
+        "dimensao": "1080x1920",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/1.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/2.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/1.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/1_carnaval/1080x1920.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/2_farm/1080x1920.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/1_carnaval/Facebook_Produto_B_1080x1920_animado.mp4" ]
+      },
+      {
+        "dimensao": "1200x628",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/1.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/2.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/1_carnaval/1200x628.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/2_farm/1200x628.mp4" ]
+      },
+      {
+        "dimensao": "1920x1080",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/3.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/3_starWars/1920x1080.mp4" ]
+      },
+      {
+        "dimensao": "720x480",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/thumbs/4.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/havaianas/pecas/4_tns/720x480px.mp4" ]
+      }
+    ],
+
+    "emkt": [{
+      "dimensao": "650x600",
+      "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_1.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_2.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_3.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_4.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_5.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_6.jpg"
+      ],
+
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_3.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_4.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_5.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/havaianas/havaianas_6.png"
+      ]
+    }],
+
+
+    "reanimate": [{
+        "dimensao": "120x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/120x600/120x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/120x600/120x600.html"
+        ]
+      },
+
+      {
+        "dimensao": "160x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/160x600/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/160x600/160x600.html"
+        ]
+      },
+
+      {
+        "dimensao": "300x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/300x50/300x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/300x50/300x50.html"
+        ]
+      },
+
+      {
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/300x250/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/300x250/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/3/300x250/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/4/300x250/300x250.html"
+        ]
+      },
+
+
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/300x600/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/300x600/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/3/300x600/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/4/300x600/300x600.html"
+        ]
+      },
+
+
+      {
+        "dimensao": "320x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/3.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/320x50/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/320x50/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/3/320x50/320x50.html"
+        ]
+      },
+
+      {
+        "dimensao": "460x380",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/3.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/3/460x380/460x380.html" ]
+      },
+
+      {
+        "dimensao": "468x60",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/468x60/468x60.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/468x60/468x60.html"
+        ]
+      },
+
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/1/728x90/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/2/728x90/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/4/728x90/728x90.html"
+        ]
+      },
+
+      {
+        "dimensao": "970x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/3/970x250/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/havaianas/4/970x250/970x250.html"
+        ]
+      }
+    ]
     },
+
     {
       "cliente": "CeA",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_cea.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cea.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cea.png",
+      "itens": ["video", "emkt", "reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/300x250.html"]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/300x600.html"]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/320x50.html"]
+      },
+      {
+        "dimensao": "320x100",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/320x100.html"]
+      },
+      {
+        "dimensao": "970x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/970x90.html"]
+      },
+      {
+        "dimensao": "970x150",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/970x150.html"]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/thumbs/1.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/cea/1/970x250.html"]
+      }
+    ],
+    "emkt": [{
+      "dimensao": "600",
+      "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_1.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_2.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_3.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_4.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_5.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_6.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_7.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_8.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_9.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_10.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_11.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_12.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_13.jpg"
+
+      ],
+      "pecas": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_3.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_4.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_5.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_6.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_7.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_8.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_9.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_10.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_11.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_12.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/cea/c&a_13.png"
+      ]
+    }],
+    "video": [{
+      "dimensao": "1080x1080",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/3.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/1/1080x1080.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/2/1080x1080px.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/3/1080x1080.mp4"
+      ]
+    }, {
+      "dimensao": "1080x1920",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/3.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/1/1080x1920.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/2/1080x1920px.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/3/1080x1920.mp4"
+      ]
+    }, {
+      "dimensao": "1920x1080",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/1.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/thumbs/3.png" ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/1/1920x1080.mp4", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/CeA/pecas/3/1920x1080.mp4" ]
+    }]
     },
+
     {
       "cliente": "Consul",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_consul.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_consul.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_consul.png",
+      "itens": ["reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/2.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/2/300x250.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/1.png" ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/1/320x50.html"]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/2.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/1/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/2/970x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/2.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/2/300x600.html" ]
+      },
+      {
+        "dimensao": "970x150",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/thumbs/2.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/consul/2/970x150.html"
+        ]
+      }
+    ]
     },
+
     {
       "cliente": "Samsung",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_samsung.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_samsung.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_samsung.png",
+      "itens": ["reanimate"],
+      "reanimate": [{
+      "dimensao": "300x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/300x250/300x250.html"]
+    }, {
+      "dimensao": "336x280",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/336x280/336x280.html"]
+    }, {
+      "dimensao": "250x250",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/250x250/250x250.html"]
+    }, {
+      "dimensao": "200x200",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/200x200/200x200.html"]
+    }, {
+      "dimensao": "300x600",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/300x600/300x600.html"]
+    }, {
+      "dimensao": "160x600",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/160x600/160x600.html"]
+    }, {
+      "dimensao": "728x90",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/728x90/728x90.html"]
+    }, {
+      "dimensao": "970x90",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/970x90/970x90.html"]
+    }, {
+      "dimensao": "468x60",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/SAMSUNG_S23_300x250.png"],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/samsung/468x60/468x60.html"]
+    }]
     },
+
     {
       "cliente": "Tim",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_tim.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_tim.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_tim.png",
+      "itens": ["video", "reanimate"],
+      "reanimate": [{
+        "dimensao": "120x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/14.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/120x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/120x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/120x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/14/120x600.html"
+        ]
+      },
+      {
+        "dimensao": "160x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/14.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/14/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/160x600/tim_black_75gb_160x600.html"
+        ]
+      },
+      {
+        "dimensao": "200x200",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/200x200.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/200x200.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/200x200.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/200x200/tim_black_75gb_200x200.html"
+        ]
+      },
+      {
+        "dimensao": "250x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/250x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/250x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/250x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/250x250/tim_black_75gb_250x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x50",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/300x50.html"]
+      },
+      {
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/7.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/11.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/12.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/14.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_TECH_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/2/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/4/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/5/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/6/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/7/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/11/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/12/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/14/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/300x250/tim_black_75gb_300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/300x250/tim_tech_dcm_300x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_TECH_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/300x600/tim_tech_dcm_300x600.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/5/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/320x50.html"
+        ]
+      },
+      {
+        "dimensao": "320x100",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/7.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/11.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/12.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/2/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/4/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/5/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/6/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/7/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/11/320x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/12/320x100.html"
+        ]
+      },
+      {
+        "dimensao": "468x60",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/468x60.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/468x60.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/468x60.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/468x60/tim_black_75gb_468x60.html"
+        ]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/4.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/6.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/7.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/10.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/11.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/12.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/13.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/14.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_BLACK_300x250.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/TIM_TECH_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/2/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/4/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/6/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/7/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/10/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/11/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/12/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/13/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/14/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/728x90/tim_black_75gb_728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/lientes/tim/728x90/tim_tech_dcm_728x90.html"
+        ]
+      },
+      {
+        "dimensao": "970x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/5.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/970x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/5/970x90.html"
+        ]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/5.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/9.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/1/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/3/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/5/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/9/970x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x300",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/8.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/8/300x300.html"]
+      },
+      {
+        "dimensao": "1800x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/thumbs/8.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/tim/8/1800x600.html"]
+      }
+    ],
+
+    "video": [{
+        "dimensao": "1080x1080",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/1/Tim_Black_MOTO EDGE 30 NEO 5G_1080x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/2/Tim_Black_Aparelhos_1080x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/2/Tim_Black_Aparelhos1080x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/3/Tim_Black_Aparelhos_Tech_GALAXY A32 5G_1080x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/4/Tim_Black_Aparelhos_Tech_GALAXY A33 5G_1080x1080.mp4"
+        ]
+      },
+      {
+        "dimensao": "1080x1920",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/1/Tim_Black_MOTO EDGE 30 NEO 5G_1080x1920.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/2/Tim_Black_Aparelhos1080x1920.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/3/Tim_Black_Aparelhos_Tech_GALAXY A32 5G_1080x1920.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/4/Tim_Black_Aparelhos_Tech_GALAXY A33 5G_1080x1920.mp4"
+        ]
+      },
+      {
+        "dimensao": "1920x1080",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/1.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/2.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/3.png",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/thumbs/4.png"
+        ],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/1/Tim_Black_MOTO EDGE 30 NEO 5G_1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/2/Tim_Black_Aparelhos_Tech_GALAXY A32_1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/2/Tim_Black_Aparelhos1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/3/Tim_Black_Aparelhos_Tech_GALAXY A32 5G_1920x1080.mp4",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/tim/pecas/4/Tim_Black_Aparelhos_Tech_GALAXY A33 5G_1920x1080.mp4"
+        ]
+      }
+    ]
     },
+
     {
       "cliente": "Vivo",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_vivo.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_vivo.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_vivo.png",
+      "itens": ["emkt", "reanimate"],
+      "reanimate": [{
+        "dimensao": "160x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/160x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/160x600.html"
+        ]
+      },
+      {
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/VIVO_5G_HOMEMVR_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/vivo_5g_homemvr_300x250_dcm/300x250.html"
+        ]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/VIVO_5G_HOMEMVR_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/300x600.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/vivo_5g_homemvr_300x600_dcm/300x600.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/320x50.html"
+        ]
+      },
+      {
+        "dimensao": "320x480",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/320x480.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/320x480.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/320x480.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/320x480.html"
+        ]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/728x90.html"
+        ]
+      },
+      {
+        "dimensao": "970x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/VIVO_5G_HOMEMVR_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/vivo_5g_homemvr_970x90_dcm/970x90.html"]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/2.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/3.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/thumbs/4.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/1/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/2/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/3/970x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/vivo/4/970x250.html"
+        ]
+      }
+    ],
+    "emkt": [{
+      "dimensao": "650x600",
+      "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_1.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_2.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_3.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_4.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_5.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_6.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_7.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_8.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_9.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_10.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_11.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_12.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_13.jpg"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_001_247_6547_6547_vivo_eficiencia_energetica_governo.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_002_247_7028_7028_vivovaloriza_e_mail_purpura_silver_gold.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_003_247_7052_7052_vivo_valoriza_parceiros_vinhos_01.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_004_247_7340_7340_e_mail_condominio.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_005_247_7589_7589_welcome_b2b_beneficios_google_cloud_01.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_019_247_8125_8125_vivo_cultural_outubro_pt2.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_021_247_7991_7991_emkt_oferta_spotify_premium_01_podcasts.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_024_247_6396_6396_vivo_pets_novas_ongs_adocao_valoriza_belo_horizonte_op1.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_025_247_8412_8412_20_vod_filmes_promocionais_s4_halloween.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_026_247_7546_7546_vivo_play_programacao_aquisicao.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_028_247_8417_8417_vida_v_email1.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_032_247_8411_8411_20-_20comunicacao_destaques_skeelo_outubro.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/vivo/vivo_052_247_8074_8074_baby_sitting_welcome_vivo_play_op1.html.png"
+      ]
+    }]
     },
+
     {
       "cliente": "Veloe",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_veloe.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_veloe.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_veloe.png",
+      "itens": ["video", "emkt", "reanimate"],
+      "reanimate": [{
+        "dimensao": "160x600",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/160x600.html"
+        ]
+      },
+      {
+        "dimensao": "250x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/VELOE_G4_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/250x250/veloe_g4_dcm_250x250.html"]
+      },
+      {
+        "dimensao": "300x100",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/300x100.html"
+        ]
+      },
+      {
+        "dimensao": "300x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/VELOE_G4_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/300x250.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/300x250/veloe_g4_dcm_300x250.html"
+        ]
+      },
+      {
+        "dimensao": "320x50",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/320x50.html"
+        ]
+      },
+      {
+        "dimensao": "320x100",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/320x100.html"
+        ]
+      },
+      {
+        "dimensao": "320x115",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/320x115.html"
+        ]
+      },
+      {
+        "dimensao": "350x300",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/350x300.html"
+        ]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/VELOE_G4_300x250.png"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/728x90.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/728x90/veloe_g4_dcm_728x90.html"
+        ]
+      },
+      {
+        "dimensao": "920x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/VELOE_G4_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/920x90/veloe_g4_dcm_920x90.html"]
+      },
+      {
+        "dimensao": "970x90",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/970x90.html"
+        ]
+      },
+      {
+        "dimensao": "970x250",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/thumbs/1.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/1/970x250.html"
+        ]
+      },
+      {
+        "dimensao": "336x280",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/VELOE_G4_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/veloe/336x280/veloe_g4_dcm_336x280.html"]
+      }
+    ],
+    "emkt": [{
+      "dimensao": "650x600",
+      "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_1.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_2.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_3.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_4.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_5.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_6.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_7.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_8.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_9.jpg"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_04_abril_001_veloe_001_veloe_index.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_04_abril_002_veloe_index.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_04_abril_003_veloe_index.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_10_outubro_01_veloe_go_veloe_go.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_10_outubro_02_veloe_go_esqueci_senha_veloe_go_esqueci_senha.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_10_outubro_03_veloe_go_primeiro_acesso_veloe_go_primeiro_acesso.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_10_outubro_04_veloe_go_ativacao_tag_veloe_go_ativacao_tag.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_10_outubro_05_veloe_go_substituircartao_veloe_go_substituircartao.html.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/veloe/veloe_11_novembro_10_veloe_go_semdadosdepagamento_veloe_go_semdadosdepagamento.html.png"
+      ]
+    }],
+
+    "video": [{
+      "dimensao": "1080x1080",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/3.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/1/veloe_precarnaval1080x1080.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/2/veloe_promo1080x1080_V1.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/3/veloe_poscarnaval1080x1080.mp4"
+      ]
+    }, {
+      "dimensao": "1080x1350",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/3.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/1/veloe_precarnaval1080x1350.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/2/veloe_promo1080x1350_V1.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/3/veloe_poscarnaval1080x1350.mp4"
+      ]
+    }, {
+      "dimensao": "1200x628",
+      "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/1.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/2.png",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/thumbs/3.png"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/1/veloe_precarnaval1200x628.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/2/veloe_promo1200x628_V1.mp4",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/videos/veloe/pecas/3/veloe_poscarnaval1200x628.mp4"
+      ]
+    }]
     },
+
     {
       "cliente": "Caoa",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_caoa.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_caoa.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_caoa.png",
+      "itens": ["emkt", "reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/CAOA_NEOOH_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/300x250/caoa_neooh_dcm_300x250.html"]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/CAOA_NEOOH_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/300x600/caoa_neooh_dcm_300x600.html"]
+
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/CAOA_NEOOH_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/caoa/728x90/caoa_neooh_dcm_728x90.html"]
+      }
+    ],
+
+    "emkt": [{
+      "dimensao": "650x600",
+      "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/caoa_1.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/caoa_2.jpg",
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/caoa_3.jpg"
+      ],
+      "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/caoa/caoa_01_emkt_d21_caoachery_emkt_d21_caoachery.html.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/caoa/caoa_03_revisaodeferias_julho.png", "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/caoa/caoa_04_caoa_quatrorodaspesquisa_emkt_caoa_quatrorodaspesquisa_emkt.html.png" ]
+    }]
     },
+
     {
       "cliente": "Citroen",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_citroen.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_citroen.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_citroen.png",
+      "itens": ["reanimate"],
+      "reanimate": [{
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/EXPLORATION_TECNOLOGIA_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/300x250/exploration_tecnologia_dcm_300x250.html"]
+      },
+      {
+        "dimensao": "300x600",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/EXPLORATION_TECNOLOGIA_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/300x600/exploration_tecnologia_dcm_300x600.html"]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/EXPLORATION_TECNOLOGIA_300x250.png"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/citroen/728x90/exploration_tecnologia_dcm_728x90.html"]
+      }
+    ]
     },
+
     {
       "cliente": "Pilao",
       "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_pilao.png",
-      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cafe_pilao.png"
+      "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_cafe_pilao.png",
+      "itens": ["reanimate"],
+      "reanimate": [{
+        "dimensao": "320x50",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/2.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/1/320x50.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/2/320x50.html"
+        ]
+      },
+      {
+        "dimensao": "970x66",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/2.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/1/970x66.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/2/970x66.html"
+        ]
+      },
+      {
+        "dimensao": "1280x100",
+        "thumb": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/1.jpg",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/2.jpg"
+        ],
+        "pecas": [
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/1/1280x100.html",
+          "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/2/1280x100.html"
+        ]
+      },
+      {
+        "dimensao": "300x250",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/2.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/2/300x250.html"]
+      },
+      {
+        "dimensao": "728x90",
+        "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/thumbs/2.jpg"],
+        "pecas": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/pilao_jde/2/728x90.html"]
+      }
+    ]
     }
   ]

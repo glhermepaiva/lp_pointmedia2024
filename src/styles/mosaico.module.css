@@ -201,32 +201,31 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   .clientButtonVideo {
     background-color: #6CABDE;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 22px;
     margin: 0 0 10px 0;
     font-weight: lighter;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
+    display: flex;
+    width: 100%;
   }
 
   .clientButtonEmkt {
     background-color: #EC6099;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 22px;
     margin: 0 0 10px 0;
     font-weight: lighter;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
+    display: flex;
+    width: 100%;
   }
 
   .clientButtonReanimate {
@@ -237,27 +236,46 @@
     font-weight: lighter;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
+    display: flex;
+    width: 100%;
   }
 
   .arrowDown {
     background-image: url(../assets/mobile/arrowright.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 31px;
-    height: 56px;
-    transform: scale(0.4) rotate(90deg);
-    margin: 5px 0 0 10px;
+    width: 11px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin: 8px 0 0 15px;
+  }
+
+  .arrowUp {
+    background-image: url(../assets/mobile/arrowright.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 20px;
+    transform: rotate(-90deg);
+    margin: 8px 0 0 15px;
   }
   
   .clientButtonFormats {
     font-size: 16px;
     font-weight: lighter;
-    text-align: center;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px 30px;
+  }
+
+  .buttonFormat {
+    cursor: pointer;
   }
 
   .buttonFormat:hover {
     text-shadow: 1px 0 0 currentColor;
+  }
+
+  .active {
+    color: #6CABDE
   }
 
   .clientTitleContent {
