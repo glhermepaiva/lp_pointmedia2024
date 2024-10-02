@@ -195,6 +195,7 @@
     font-size: 40px;
     font-weight: bold;
     min-height: 400px;
+    margin: 0 50px 0 0;
   }
 
   .formatsButtons {
@@ -275,11 +276,12 @@
   }
 
   .active {
-    color: #6CABDE
+    color: #6CABDE;
+    font-weight: bold;
   }
 
   .clientTitleContent {
-    margin: 0 0 0 50px;
+    max-width: 83%;
   }
 
   .clientTitle {
@@ -291,9 +293,71 @@
     color: #DD1B58;
   }
 
-  .clientContent {
+  .iframeContainer {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    background-color: red;
+    margin: 5px;
+  }
+
+  .iframeContainer img {
+    width: 300px;
+  }
+
+  .clientContentContainer {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
     justify-content: center;
-    background-color: green;
+    align-items: center;
+    z-index: 9999;
+    pointer-events: auto;
+  }
+  
+  .modalContent {
+    position: relative;
+    z-index: 10000;
+    pointer-events: auto;
+    padding: 10px 10px 5px 10px;
+    background-color: #6CABDE;
+    border-radius: 30px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #6CABDE;
+    border-radius: 0px 30px 10px 30px;
+    color: white;
+    border: none;
+    padding: 5px 20px 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+
+  .closeButton:hover {
+    color: #DD1B58;
+  }
+
+  .iframe {
+    border: none;
+    z-index: 10001;
+    pointer-events: auto;
+    max-height: 70vh;
+    max-width: 70vw;
+    border-radius: 30px;
   }

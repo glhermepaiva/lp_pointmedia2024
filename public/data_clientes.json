@@ -117,7 +117,7 @@
         ]
       }
     ]
-  },
+    },
 
     {
       "cliente": "Bradesco",
@@ -708,9 +708,9 @@
         "thumb":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SADIA/thumbs/thumb_sadia.png"],
         "pecas":["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/SADIA/1320x576.mp4"]
         }]
-      },
+    },
 
-      {
+    {
         "cliente": "Sicred",
         "thumb": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/thumb_clientes/cliente_sicred.png",
         "logo": "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/logo_clientes/logo_sicredi.png",

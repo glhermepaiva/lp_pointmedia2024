@@ -22,6 +22,10 @@ export default function mosaicoCliente() {
     const [itemAtivoReanimate, setItemAtivoReanimate] = useState(null);
     const [itemAtivoVideo, setItemAtivoVideo] = useState(null);
     const [itemAtivoEmkt, setItemAtivoEmkt] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedPecaLink, setSelectedPecaLink] = useState(null);
+
+    const [width, height] = formatoAtivo.split('x').map(Number);
 
     useEffect(() => {
         const getData = async () => {
@@ -68,6 +72,17 @@ export default function mosaicoCliente() {
 
     const toggleMenuEmkt = () => {
         setMenuEmktAberto(!menuEmktAberto);
+    };
+
+    const handleOpenModal = (pecaLink) => {
+        console.log("Peça clicada:", pecaLink);
+        setSelectedPecaLink(pecaLink);
+        setModalOpen(true);
+    };
+      
+    const handleCloseModal = () => {
+        setModalOpen(false);
+        setSelectedPecaLink(null);
     };
 
     return (
@@ -166,14 +181,67 @@ export default function mosaicoCliente() {
                     <div className={styles.clientTitleContent}>
                         <div className={styles.clientTitle}>{categoriaAtiva}_ {formatoAtivo}px</div>
                         <div className={styles.clientContent}>
-                            {dataCliente ?
+                        {dataCliente && categoriaAtiva && formatoAtivo ? (
                             <div>
-                                Oi mundo
+                            {categoriaAtiva === 'reanimate' &&
+                                dataCliente.reanimate &&
+                                dataCliente.reanimate
+                                .filter((peca) => peca.dimensao === formatoAtivo)
+                                .map((pecaFiltrada, idx) => (
+                                    <div className={styles.clientContentContainer} key={idx}>
+                                    {pecaFiltrada.thumb.map((thumbLink, index) => (
+                                        <div className={styles.iframeContainer} key={index}>
+                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
+                                        </div>
+                                    ))}
+                                    </div>
+                                ))}
+
+                            {categoriaAtiva === 'video' &&
+                                dataCliente.video &&
+                                dataCliente.video
+                                .filter((peca) => peca.dimensao === formatoAtivo)
+                                .map((pecaFiltrada, idx) => (
+                                    <div className={styles.clientContentContainer} key={idx}>
+                                    {pecaFiltrada.thumb.map((thumbLink, index) => (
+                                        <div className={styles.iframeContainer} key={index}>
+                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
+                                        </div>
+                                    ))}
+                                    </div>
+                                ))}
+
+                            {categoriaAtiva === 'emkt' &&
+                                dataCliente.emkt &&
+                                dataCliente.emkt
+                                .filter((peca) => peca.dimensao === formatoAtivo)
+                                .map((pecaFiltrada, idx) => (
+                                    <div className={styles.clientContentContainer} key={idx}>
+                                    {pecaFiltrada.thumb.map((thumbLink, index) => (
+                                        <div className={styles.iframeContainer} key={index}>
+                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
+                                        </div>
+                                    ))}
+                                    </div>
+                                ))}
                             </div>
-                            :
-                            <div></div>
-                            }
+                        ) : (
+                            <div>Selecione uma categoria e formato para ver as peças.</div>
+                        )}
                         </div>
+                        {modalOpen && selectedPecaLink && (
+                            <div className={styles.modal}>
+                                <div className={styles.modalContent}>
+                                <button className={styles.closeButton} onClick={handleCloseModal}>Fechar</button>
+                                <iframe className={styles.iframe}
+                                src={`${selectedPecaLink}?autoplay=1&muted=1`}
+                                allowFullScreen allow="autoplay; encrypted-media"
+                                width={width}
+                                height={height}
+                                />
+                                </div>
+                            </div>
+                            )}
                     </div>
                 </div>
             </div>
