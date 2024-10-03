@@ -13,6 +13,7 @@ export default function mosaicoCliente() {
 
     const router = useRouter();
     const { cliente } = router.query;
+    
     const [dataCliente, setDataCliente] = useState(null);
     const [menuReanimateAberto, setMenuReanimateAberto] = useState(false);
     const [menuVideoAberto, setMenuVideoAberto] = useState(false);
@@ -74,8 +75,7 @@ export default function mosaicoCliente() {
         setMenuEmktAberto(!menuEmktAberto);
     };
 
-    const handleOpenModal = (pecaLink) => {
-        console.log("Peça clicada:", pecaLink);
+    const handleOpenModal = (pecaLink, index) => {
         setSelectedPecaLink(pecaLink);
         setModalOpen(true);
     };
@@ -232,10 +232,11 @@ export default function mosaicoCliente() {
                         {modalOpen && selectedPecaLink && (
                             <div className={styles.modal}>
                                 <div className={styles.modalContent}>
-                                <button className={styles.closeButton} onClick={handleCloseModal}>Fechar</button>
+                                <div className={styles.closeButton} onClick={handleCloseModal} />
                                 <iframe className={styles.iframe}
                                 src={`${selectedPecaLink}?autoplay=1&muted=1`}
-                                allowFullScreen allow="autoplay; encrypted-media"
+                                allowFullScreen
+                                allow="autoplay; encrypted-media"
                                 width={width}
                                 height={height}
                                 />

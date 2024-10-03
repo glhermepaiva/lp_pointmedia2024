@@ -297,7 +297,6 @@
     width: 300px;
     height: 250px;
     cursor: pointer;
-    background-color: red;
     margin: 5px;
   }
 
@@ -329,24 +328,22 @@
     position: relative;
     z-index: 10000;
     pointer-events: auto;
-    padding: 10px 10px 5px 10px;
-    background-color: #6CABDE;
-    border-radius: 30px;
+    padding: 10px 100px 5px 100px;
+    background-color: #000000;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 25px;
   }
   
   .closeButton {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #6CABDE;
-    border-radius: 0px 30px 10px 30px;
-    color: white;
-    border: none;
-    padding: 5px 20px 10px 20px;
+    top: -20px;
+    right: -20px;
+    background-image: url(../assets/new/iconclose.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Helvetica;
+    border: none;
   }
 
   .closeButton:hover {
@@ -359,5 +356,4 @@
     pointer-events: auto;
     max-height: 70vh;
     max-width: 70vw;
-    border-radius: 30px;
   }
