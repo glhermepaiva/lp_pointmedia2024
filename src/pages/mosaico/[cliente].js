@@ -96,7 +96,9 @@ export default function mosaicoCliente() {
                         <Link href="/mosaico">
                             <div className={styles.headerButtonClients}>clientes</div>
                         </Link>
-                        <div className={styles.headerButtonCases}>cases</div>
+                        <Link href="/mosaico/cases">
+                            <div className={styles.headerButtonCases}>cases</div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -252,7 +254,6 @@ export default function mosaicoCliente() {
                         <div className={styles.footerLogo} />
                     </Link>
                     <div className={styles.footerSocials}>
-                        <div className={styles.whatsapp} />
                         <div className={styles.linkedin} />
                         <div className={styles.instagram} />
                         <div className={styles.facebook} />

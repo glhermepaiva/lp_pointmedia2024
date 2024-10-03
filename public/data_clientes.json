@@ -385,7 +385,7 @@
     ],
 
     "emkt": [{
-      "dimensao": "650x600",
+      "dimensao": "600px",
       "thumb": ["https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_008.png",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_01_janeiro_23_009.png",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/epson/epson_02_fevereiro_23_25.png",
@@ -832,7 +832,7 @@
     ],
 
     "emkt": [{
-      "dimensao": "650x600",
+      "dimensao": "600px",
       "thumb": [
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_1.jpg",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/havainas_2.jpg",
@@ -1006,7 +1006,7 @@
       }
     ],
     "emkt": [{
-      "dimensao": "600",
+      "dimensao": "600px",
       "thumb": [
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_1.jpg",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/cea_2.jpg",
@@ -1582,7 +1582,7 @@
       }
     ],
     "emkt": [{
-      "dimensao": "650x600",
+      "dimensao": "600px",
       "thumb": [
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_1.jpg",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/vivo_2.jpg",
@@ -1731,7 +1731,7 @@
       }
     ],
     "emkt": [{
-      "dimensao": "650x600",
+      "dimensao": "600px",
       "thumb": [
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_1.jpg",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/veloe_2.jpg",
@@ -1812,7 +1812,7 @@
     ],
 
     "emkt": [{
-      "dimensao": "650x600",
+      "dimensao": "600px",
       "thumb": [
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/caoa_1.jpg",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/emkt/thumbs_emkt/caoa_2.jpg",

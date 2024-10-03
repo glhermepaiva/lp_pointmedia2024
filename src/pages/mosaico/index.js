@@ -12,10 +12,6 @@ const handleReload = () => {
     window.location.href = '/mosaico';
 };
 
-const openWhatsapp = () => {
-    window.open('https://web.whatsapp.com/send?phone=5599111112222');
-  }
-
   const openInstagram = () => {
     window.open('https://www.instagram.com/pointmediaoficial/');
   }
