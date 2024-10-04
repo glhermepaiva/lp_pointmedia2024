@@ -13,6 +13,9 @@ export default function mosaicoFormatos() {
     const [menuEmktAberto, setMenuEmktAberto] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
     const [selectedPecaLink, setSelectedPecaLink] = useState(null);
+    const [itemAtivoReanimate, setItemAtivoReanimate] = useState(null);
+    const [itemAtivoVideo, setItemAtivoVideo] = useState(null);
+    const [itemAtivoEmkt, setItemAtivoEmkt] = useState(null);
 
     const [width, height] = formatoAtivo.split('x').map(Number);
 
@@ -166,8 +169,11 @@ export default function mosaicoFormatos() {
                                 )}
                                 {menuReanimateAberto && (
                                     <div className={styles.clientButtonFormats}>
-                                        {formatosDisponiveis.map((formato, index) => (
-                                            <div className={styles.buttonFormat} key={index} onClick={() => handleFormatoClick(formato, 'reanimate')}>
+                                        {formatosDisponiveis.map((formato, idx1) => (
+                                            <div className={`${styles.buttonFormat} ${itemAtivoReanimate === idx1 ? styles.active : ''}`} key={idx1} onClick={() => {
+                                                handleFormatoClick(formato, 'reanimate')
+                                                setItemAtivoReanimate(idx1); 
+                                            }}>
                                                 {formato}
                                             </div>
                                         ))}
@@ -190,8 +196,11 @@ export default function mosaicoFormatos() {
                                 )}
                                 {menuVideoAberto && (
                                     <div className={styles.clientButtonFormats}>
-                                        {formatosDisponiveis.map((formato, index) => (
-                                            <div className={styles.buttonFormat} key={index} onClick={() => handleFormatoClick(formato, 'video')}>
+                                        {formatosDisponiveis.map((formato, idx2) => (
+                                            <div className={`${styles.buttonFormat} ${itemAtivoVideo === idx2 ? styles.active : ''}`} key={idx2} onClick={() => {
+                                                handleFormatoClick(formato, 'video');
+                                                setItemAtivoVideo(idx2); 
+                                            }}>
                                                 {formato}
                                             </div>
                                         ))}
@@ -214,8 +223,11 @@ export default function mosaicoFormatos() {
                                 )}
                                 {menuEmktAberto && (
                                     <div className={styles.clientButtonFormats}>
-                                        {formatosDisponiveis.map((formato, index) => (
-                                            <div className={styles.buttonFormat} key={index} onClick={() => handleFormatoClick(formato, 'emkt')}>
+                                        {formatosDisponiveis.map((formato, idx3) => (
+                                            <div className={`${styles.buttonFormat} ${itemAtivoEmkt === idx3 ? styles.active : ''}`} key={idx3} onClick={() => {
+                                                handleFormatoClick(formato, 'emkt');
+                                                setItemAtivoEmkt(idx3); 
+                                            }}>
                                                 {formato}
                                             </div>
                                         ))}

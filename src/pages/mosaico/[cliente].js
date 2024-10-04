@@ -25,6 +25,7 @@ export default function mosaicoCliente() {
     const [itemAtivoEmkt, setItemAtivoEmkt] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
     const [selectedPecaLink, setSelectedPecaLink] = useState(null);
+    const [activePecaIndex, setActivePecaIndex] = useState(0);
 
     const [width, height] = formatoAtivo.split('x').map(Number);
 
@@ -55,6 +56,13 @@ export default function mosaicoCliente() {
         }
     }, [dataCliente]);
 
+    useEffect(() => {
+        if (modalOpen && selectedPecaLink) {
+            const index = dataCliente[categoriaAtiva].find((item) => item.dimensao === formatoAtivo).pecas.indexOf(selectedPecaLink);
+            setActivePecaIndex(index);
+        }
+    }, [modalOpen, selectedPecaLink, categoriaAtiva, formatoAtivo, dataCliente]);
+
     if (!dataCliente) {
         return <div>Carregando...</div>;
     }
@@ -75,7 +83,7 @@ export default function mosaicoCliente() {
         setMenuEmktAberto(!menuEmktAberto);
     };
 
-    const handleOpenModal = (pecaLink, index) => {
+    const handleOpenModal = (pecaLink) => {
         setSelectedPecaLink(pecaLink);
         setModalOpen(true);
     };
@@ -84,6 +92,22 @@ export default function mosaicoCliente() {
         setModalOpen(false);
         setSelectedPecaLink(null);
     };
+    
+    // SETAS DE NAVEGAÇÃO DAS PEÇAS
+
+    const handlePrevModal = (pecasLength) => {
+        const newIndex = activePecaIndex === 0 ? pecasLength - 1 : activePecaIndex - 1;
+        setActivePecaIndex(newIndex);
+        setSelectedPecaLink(dataCliente[categoriaAtiva].find((item) => item.dimensao === formatoAtivo).pecas[newIndex]);
+    };
+    
+    const handleNextModal = (pecasLength) => {
+        const newIndex = activePecaIndex === pecasLength - 1 ? 0 : activePecaIndex + 1;
+        setActivePecaIndex(newIndex);
+        setSelectedPecaLink(dataCliente[categoriaAtiva].find((item) => item.dimensao === formatoAtivo).pecas[newIndex]);
+    };
+
+    // FIM DAS SETAS DE NAVEGAÇÃO DAS PEÇAS
 
     return (
         <div className={styles.body}>
@@ -232,17 +256,19 @@ export default function mosaicoCliente() {
                         {modalOpen && selectedPecaLink && (
                             <div className={styles.modal}>
                                 <div className={styles.modalContent}>
-                                <div className={styles.closeButton} onClick={handleCloseModal} />
-                                <iframe className={styles.iframe}
-                                src={`${selectedPecaLink}?autoplay=1&muted=1`}
-                                allowFullScreen
-                                allow="autoplay; encrypted-media"
-                                width={width}
-                                height={height}
-                                />
+                                    <div className={styles.closeButton} onClick={handleCloseModal} />
+                                    <div className={styles.prevArrowModal} onClick={() => handlePrevModal(dataCliente[categoriaAtiva].find(item => item.dimensao === formatoAtivo).pecas.length)} />
+                                    <iframe className={styles.iframe}
+                                        src={`${selectedPecaLink}?autoplay=1&muted=1`}
+                                        allowFullScreen
+                                        allow="autoplay; encrypted-media"
+                                        width={width}
+                                        height={height}
+                                    />
+                                    <div className={styles.nextArrowModal} onClick={() => handleNextModal(dataCliente[categoriaAtiva].find(item => item.dimensao === formatoAtivo).pecas.length)} />
                                 </div>
                             </div>
-                            )}
+                        )}
                     </div>
                 </div>
             </div>
