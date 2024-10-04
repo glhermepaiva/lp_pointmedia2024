@@ -11,6 +11,10 @@ export default function mosaicoFormatos() {
     const [menuReanimateAberto, setMenuReanimateAberto] = useState(false);
     const [menuVideoAberto, setMenuVideoAberto] = useState(false);
     const [menuEmktAberto, setMenuEmktAberto] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedPecaLink, setSelectedPecaLink] = useState(null);
+
+    const [width, height] = formatoAtivo.split('x').map(Number);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -44,9 +48,9 @@ export default function mosaicoFormatos() {
             });
 
             formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]); // Obter a largura
-                const numB = parseInt(b.split('x')[0]); // Obter a largura
-                return numA - numB; // Ordenar em ordem crescente
+                const numA = parseInt(a.split('x')[0]);
+                const numB = parseInt(b.split('x')[0]);
+                return numA - numB;
             });
     
             setFormatosDisponiveis(formatos);
@@ -73,9 +77,9 @@ export default function mosaicoFormatos() {
             });
 
             formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]); // Obter a largura
-                const numB = parseInt(b.split('x')[0]); // Obter a largura
-                return numA - numB; // Ordenar em ordem crescente
+                const numA = parseInt(a.split('x')[0]);
+                const numB = parseInt(b.split('x')[0]);
+                return numA - numB;
             });
     
             setFormatosDisponiveis(formatos);
@@ -102,15 +106,25 @@ export default function mosaicoFormatos() {
             });
 
             formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]); // Obter a largura
-                const numB = parseInt(b.split('x')[0]); // Obter a largura
-                return numA - numB; // Ordenar em ordem crescente
+                const numA = parseInt(a.split('x')[0]);
+                const numB = parseInt(b.split('x')[0]);
+                return numA - numB;
             });
     
             setFormatosDisponiveis(formatos);
         }
         setMenuReanimateAberto(false);
         setMenuVideoAberto(false);
+    };
+
+    const handleOpenModal = (pecaLink) => {
+        setSelectedPecaLink(pecaLink);
+        setModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+        setSelectedPecaLink(null);
     };
     
     return (
@@ -224,19 +238,26 @@ export default function mosaicoFormatos() {
                                 {dataClientes.map((cliente) =>
                                     cliente[categoriaAtiva]?.map((peca, pecaIdx) =>
                                     peca.dimensao === formatoAtivo ? (
-                                        <div className={styles.caseThumb} key={pecaIdx}>
-                                        <img
-                                            src={peca.thumb[0]}
-                                            alt={`Thumbnail de ${formatoAtivo}`}
-                                            onClick={() => handleOpenModal(peca.pecas[0])}
-                                        />
-                                        </div>
+                                        <div className={styles.caseThumb} key={pecaIdx} style={{ backgroundImage: `url(${peca.thumb[0]})` }} onClick={() => handleOpenModal(peca.pecas[0])} />
                                     ) : null
                                     )
                                 )}
                             </div>
                         )}
-                        
+                        {modalOpen && selectedPecaLink && (
+                            <div className={styles.modal}>
+                                <div className={styles.modalContent}>
+                                <div className={styles.closeButton} onClick={handleCloseModal} />
+                                <iframe className={styles.iframe}
+                                src={`${selectedPecaLink}?autoplay=1&muted=1`}
+                                allowFullScreen
+                                allow="autoplay; encrypted-media"
+                                width={width}
+                                height={height}
+                                />
+                                </div>
+                            </div>
+                            )}
                 </div>
             </div>
         </div>

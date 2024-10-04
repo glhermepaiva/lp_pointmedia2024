@@ -192,9 +192,7 @@ export default function mosaicoCliente() {
                                 .map((pecaFiltrada, idx) => (
                                     <div className={styles.clientContentContainer} key={idx}>
                                     {pecaFiltrada.thumb.map((thumbLink, index) => (
-                                        <div className={styles.iframeContainer} key={index}>
-                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
-                                        </div>
+                                        <div className={styles.iframeContainer} key={index} style={{ backgroundImage: `url(${thumbLink})`}} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
                                     ))}
                                     </div>
                                 ))}
