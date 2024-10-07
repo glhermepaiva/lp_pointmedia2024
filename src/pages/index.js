@@ -800,9 +800,6 @@ const closeModalContato = () => {
       </Head>
 
       <GoogleTagManager gtmId="GTM-WC43G6L2" />
-
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC43G6L2"
-      height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
       
       <div id='header' className={styles.header}>
         <div className={styles.logoPoint} onClick={anchorVideo} />
