@@ -92,8 +92,6 @@ export default function mosaicoCliente() {
         setModalOpen(false);
         setSelectedPecaLink(null);
     };
-    
-    // SETAS DE NAVEGAÇÃO DAS PEÇAS
 
     const handlePrevModal = (pecasLength) => {
         const newIndex = activePecaIndex === 0 ? pecasLength - 1 : activePecaIndex - 1;
@@ -106,8 +104,6 @@ export default function mosaicoCliente() {
         setActivePecaIndex(newIndex);
         setSelectedPecaLink(dataCliente[categoriaAtiva].find((item) => item.dimensao === formatoAtivo).pecas[newIndex]);
     };
-
-    // FIM DAS SETAS DE NAVEGAÇÃO DAS PEÇAS
 
     return (
         <div className={styles.body}>
@@ -127,7 +123,7 @@ export default function mosaicoCliente() {
                 </div>
             </div>
             <div className={styles.main}>
-                <div className={styles.mainContainer}>
+                <div className={styles.mainContainerCliente}>
                     <div className={styles.clientSidebar}>
                         {dataCliente ?
                         <div>{dataCliente.cliente}</div>

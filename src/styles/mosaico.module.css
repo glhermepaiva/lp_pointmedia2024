@@ -121,6 +121,14 @@
     opacity: 100%;
 }
 
+.mainContainerCliente {
+  max-width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .footer {
     background-color: #FFFFFF;
     padding: 20px 0;
@@ -298,7 +306,6 @@
     height: 250px;
     cursor: pointer;
     margin: 5px;
-
     background-size: 100%;
     transition: background-size 0.5s ease;
     background-position: center;
@@ -370,7 +377,7 @@
     pointer-events: auto;
     max-height: 70vh;
     max-width: 70vw;
-    margin: 0 50px;
+    margin: 20px 50px;
   }
 
   .nextArrowModal {
@@ -395,7 +402,7 @@
   }
 
   .caseThumb {
-    margin: 5px 5px 0px 5px;
+    margin: 5px 5px 5px 5px;
     cursor: pointer;
     width: 300px;
     height: 250px;
@@ -414,4 +421,208 @@
 
   .caseThumb:hover {
     background-size: 120%;
+  }
+
+  @media (min-width: 1817px) and (max-width: 1901px) {
+
+    .mainContainer {
+      max-width: 90%;
+      justify-content: center;
+  }
+
+  }
+
+  @media (min-width: 1600px) and (max-width: 1816px) {
+
+  .mainContainer {
+    max-width: 90%;
+    justify-content: center;
+  }
+
+  .client {
+    width: 436px;
+    height: 434px;
+  }
+  
+  .courtain {
+    width: 436px;
+    height: 434px;
+  }
+
+  .mainContainerCliente {
+    max-width: 90%;
+  }
+
+  .clientTitleContent {
+    max-width: 82%;
+  }
+
+  }
+
+  @media (min-width: 1400px) and (max-width: 1599px) {
+
+  .mainContainer {
+    max-width: 90%;
+    justify-content: center;
+  }
+
+  .client {
+    width: 406px;
+    height: 404px;
+  }
+  
+  .courtain {
+    width: 406px;
+    height: 404px;
+  }
+
+  .mainContainerCliente {
+    max-width: 90%;
+  }
+
+  .clientTitleContent {
+    max-width: 79%;
+  }
+
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399px) {
+
+    .mainContainer {
+      max-width: 90%;
+      justify-content: center;
+    }
+  
+    .client {
+      width: 346px;
+      height: 344px;
+    }
+    
+    .courtain {
+      width: 346px;
+      height: 344px;
+    }
+
+    .mainContainerCliente {
+      max-width: 95%;
+      margin: 0 0 0 50px;
+    }
+  
+    .clientTitleContent {
+      max-width: 77%;
+    }
+  
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+
+    .mainContainer {
+      max-width: 90%;
+      justify-content: center;
+    }
+  
+    .client {
+      width: 306px;
+      height: 304px;
+    }
+    
+    .courtain {
+      width: 306px;
+      height: 304px;
+    }
+
+    .mainContainerCliente {
+      max-width: 95%;
+    }
+  
+    .clientTitleContent {
+      max-width: 65%;
+      margin: 0 0 0 -20px;
+    }
+
+    .nextArrowModal {
+      position: absolute;
+      bottom: -15px;
+      right: -15px;
+    }
+  
+    .prevArrowModal {
+      position: absolute;
+      bottom: -15px;
+      left: -15px;
+    }
+    
+    .modalContent {
+      max-width: 90vw;
+    }
+  
+  }
+
+  @media (min-width: 430px) and (max-width: 767px) {
+
+    .headerButtons {
+      margin: 0 -15px 0 0;
+    }
+
+    .headerButtonCases {
+      margin: 0 5px 0 15px;
+    }
+
+    .mainContainer {
+      max-width: 90%;
+      justify-content: center;
+    }
+  
+    .client {
+      width: 356px;
+      height: 354px;
+    }
+    
+    .courtain {
+      width: 356px;
+      height: 354px;
+    }
+
+    .mainContainerCliente {
+      max-width: 85%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .clientSidebar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      font-size: 40px;
+      font-weight: bold;
+      min-height: 0px;
+      margin: 0 50px 30px 0;
+    }
+  
+    .clientTitleContent {
+      max-width: 100%;
+      margin: 0px 0 0 0;
+    }
+
+    .nextArrowModal {
+      position: absolute;
+      bottom: -15px;
+      right: -15px;
+    }
+  
+    .prevArrowModal {
+      position: absolute;
+      bottom: -15px;
+      left: -15px;
+    }
+    
+    .modalContent {
+      max-width: 90vw;
+    }
+
+    .footerContainer {
+      height: 170px;
+      flex-direction: column;
+    }
+  
   }
