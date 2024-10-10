@@ -223,6 +223,7 @@
     cursor: pointer;
     display: flex;
     width: 100%;
+    justify-content: center;
   }
 
   .clientButtonEmkt {
@@ -235,6 +236,7 @@
     cursor: pointer;
     display: flex;
     width: 100%;
+    justify-content: center;
   }
 
   .clientButtonReanimate {
@@ -247,6 +249,7 @@
     cursor: pointer;
     display: flex;
     width: 100%;
+    justify-content: center;
   }
 
   .arrowDown {
@@ -650,7 +653,7 @@
     }
 
     .headerButtonCases {
-      margin: 0 5px 0 0px;
+      margin: 0 5px 0 5px;
     }
 
     .mainContainer {
@@ -670,17 +673,13 @@
     }
 
     .mainContainerCliente {
-      max-width: 85%;
+      max-width: 90%;
       display: flex;
       flex-direction: column;
     }
 
     .clientSidebar {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      font-size: 40px;
-      font-weight: bold;
+      font-size: 50px;
       min-height: 0px;
       margin: 0 50px 30px 0;
     }
