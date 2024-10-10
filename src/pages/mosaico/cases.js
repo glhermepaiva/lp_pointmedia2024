@@ -1,134 +1,159 @@
-import styles from "../../styles/mosaico.module.css"
+import styles from "../../styles/mosaico.module.css";
 import { useEffect, useState } from "react";
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function mosaicoFormatos() {
+  const [dataClientes, setDataClientes] = useState([]);
+  const [categoriaAtiva, setCategoriaAtiva] = useState('reanimate');
+  const [formatoAtivo, setFormatoAtivo] = useState('300x250');
+  const [formatosDisponiveis, setFormatosDisponiveis] = useState([]);
+  const [menuReanimateAberto, setMenuReanimateAberto] = useState(false);
+  const [menuVideoAberto, setMenuVideoAberto] = useState(false);
+  const [menuEmktAberto, setMenuEmktAberto] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPecaLink, setSelectedPecaLink] = useState(null);
+  const [selectedPecaIndex, setSelectedPecaIndex] = useState(null); // Armazena o índice da peça ativa
+  const [currentPecas, setCurrentPecas] = useState([]); // Lista de peças da categoria e formato ativos
 
-    const [dataClientes, setDataClientes] = useState([]);
-    const [categoriaAtiva, setCategoriaAtiva] = useState('reanimate');
-    const [formatoAtivo, setFormatoAtivo] = useState('300x250');
-    const [formatosDisponiveis, setFormatosDisponiveis] = useState([]);
-    const [menuReanimateAberto, setMenuReanimateAberto] = useState(false);
-    const [menuVideoAberto, setMenuVideoAberto] = useState(false);
-    const [menuEmktAberto, setMenuEmktAberto] = useState(false);
-    const [modalOpen, setModalOpen] = useState(false);
-    const [selectedPecaLink, setSelectedPecaLink] = useState(null);
-    const [itemAtivoReanimate, setItemAtivoReanimate] = useState(null);
-    const [itemAtivoVideo, setItemAtivoVideo] = useState(null);
-    const [itemAtivoEmkt, setItemAtivoEmkt] = useState(null);
+  const [width, height] = formatoAtivo.split('x').map(Number);
 
-    const [width, height] = formatoAtivo.split('x').map(Number);
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch('/data_clientes.json');
+      const data = await res.json();
+      setDataClientes(data);
+    };
+    fetchData();
+  }, []);
 
-    useEffect(() => {
-        const fetchData = async () => {
-          const res = await fetch('/data_clientes.json');
-          const data = await res.json();
-          setDataClientes(data);
-        };
-        fetchData();
-      }, []);
-    
-      const handleFormatoClick = (formato, categoria) => {
-        setFormatoAtivo(formato);
-        setCategoriaAtiva(categoria)
-      };
+  const handleFormatoClick = (formato, categoria) => {
+    setFormatoAtivo(formato);
+    setCategoriaAtiva(categoria);
+  };
 
-      const toggleMenuReanimate = () => {
-        setMenuReanimateAberto(prev => !prev);
-    
-        if (!menuReanimateAberto) {
-            const categoria = 'reanimate';
-    
-            const formatos = [];
-            dataClientes.forEach(cliente => {
-                if (cliente[categoria]) {
-                    cliente[categoria].forEach(peca => {
-                        if (!formatos.includes(peca.dimensao)) {
-                            formatos.push(peca.dimensao);
-                        }
-                    });
-                }
-            });
+  const toggleMenuReanimate = () => {
+    setMenuReanimateAberto(prev => !prev);
 
-            formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]);
-                const numB = parseInt(b.split('x')[0]);
-                return numA - numB;
-            });
-    
-            setFormatosDisponiveis(formatos);
+    if (!menuReanimateAberto) {
+      const categoria = 'reanimate';
+
+      const formatos = [];
+      dataClientes.forEach(cliente => {
+        if (cliente[categoria]) {
+          cliente[categoria].forEach(peca => {
+            if (!formatos.includes(peca.dimensao)) {
+              formatos.push(peca.dimensao);
+            }
+          });
         }
-        setMenuVideoAberto(false);
-        setMenuEmktAberto(false);
-    };
+      });
 
-    const toggleMenuVideo = () => {
-        setMenuVideoAberto(prev => !prev);
-    
-        if (!menuVideoAberto) {
-            const categoria = 'video';
-    
-            const formatos = [];
-            dataClientes.forEach(cliente => {
-                if (cliente[categoria]) {
-                    cliente[categoria].forEach(peca => {
-                        if (!formatos.includes(peca.dimensao)) {
-                            formatos.push(peca.dimensao);
-                        }
-                    });
-                }
-            });
+      formatos.sort((a, b) => {
+        const numA = parseInt(a.split('x')[0]);
+        const numB = parseInt(b.split('x')[0]);
+        return numA - numB;
+      });
 
-            formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]);
-                const numB = parseInt(b.split('x')[0]);
-                return numA - numB;
-            });
-    
-            setFormatosDisponiveis(formatos);
+      setFormatosDisponiveis(formatos);
+    }
+    setMenuVideoAberto(false);
+    setMenuEmktAberto(false);
+  };
+
+  const toggleMenuVideo = () => {
+    setMenuVideoAberto(prev => !prev);
+
+    if (!menuVideoAberto) {
+      const categoria = 'video';
+
+      const formatos = [];
+      dataClientes.forEach(cliente => {
+        if (cliente[categoria]) {
+          cliente[categoria].forEach(peca => {
+            if (!formatos.includes(peca.dimensao)) {
+              formatos.push(peca.dimensao);
+            }
+          });
         }
-        setMenuReanimateAberto(false);
-        setMenuEmktAberto(false);
-    };
-    
-    const toggleMenuEmkt = () => {
-        setMenuEmktAberto(prev => !prev);
-    
-        if (!menuEmktAberto) {
-            const categoria = 'emkt';
-    
-            const formatos = [];
-            dataClientes.forEach(cliente => {
-                if (cliente[categoria]) {
-                    cliente[categoria].forEach(peca => {
-                        if (!formatos.includes(peca.dimensao)) {
-                            formatos.push(peca.dimensao);
-                        }
-                    });
-                }
-            });
+      });
 
-            formatos.sort((a, b) => {
-                const numA = parseInt(a.split('x')[0]);
-                const numB = parseInt(b.split('x')[0]);
-                return numA - numB;
-            });
-    
-            setFormatosDisponiveis(formatos);
+      formatos.sort((a, b) => {
+        const numA = parseInt(a.split('x')[0]);
+        const numB = parseInt(b.split('x')[0]);
+        return numA - numB;
+      });
+
+      setFormatosDisponiveis(formatos);
+    }
+    setMenuReanimateAberto(false);
+    setMenuEmktAberto(false);
+  };
+
+  const toggleMenuEmkt = () => {
+    setMenuEmktAberto(prev => !prev);
+
+    if (!menuEmktAberto) {
+      const categoria = 'emkt';
+
+      const formatos = [];
+      dataClientes.forEach(cliente => {
+        if (cliente[categoria]) {
+          cliente[categoria].forEach(peca => {
+            if (!formatos.includes(peca.dimensao)) {
+              formatos.push(peca.dimensao);
+            }
+          });
         }
-        setMenuReanimateAberto(false);
-        setMenuVideoAberto(false);
-    };
+      });
 
-    const handleOpenModal = (pecaLink) => {
-        setSelectedPecaLink(pecaLink);
-        setModalOpen(true);
-    };
+      formatos.sort((a, b) => {
+        const numA = parseInt(a.split('x')[0]);
+        const numB = parseInt(b.split('x')[0]);
+        return numA - numB;
+      });
 
-    const handleCloseModal = () => {
-        setModalOpen(false);
-        setSelectedPecaLink(null);
-    };
+      setFormatosDisponiveis(formatos);
+    }
+    setMenuReanimateAberto(false);
+    setMenuVideoAberto(false);
+  };
+
+  const handleOpenModal = (pecaLink, index, pecasList) => {
+    setSelectedPecaLink(pecaLink);
+    setSelectedPecaIndex(index); // Define o índice da peça atual
+    setCurrentPecas(pecasList); // Define a lista de peças atuais
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    setSelectedPecaLink(null);
+    setSelectedPecaIndex(null);
+  };
+
+  const handleNextPeca = () => {
+    const currentPecas = dataClientes
+        .flatMap(cliente => cliente[categoriaAtiva]?.filter(peca => peca.dimensao === formatoAtivo))
+        .filter(Boolean);
+
+    if (currentPecas.length > 0) {
+        const currentIndex = currentPecas.findIndex(peca => peca.pecas[0] === selectedPecaLink);
+        const nextIndex = (currentIndex + 1) % currentPecas.length;
+        setSelectedPecaLink(currentPecas[nextIndex].pecas[0]);
+    }
+};
+
+const handlePrevPeca = () => {
+    const currentPecas = dataClientes
+        .flatMap(cliente => cliente[categoriaAtiva]?.filter(peca => peca.dimensao === formatoAtivo))
+        .filter(Boolean);
+
+    if (currentPecas.length > 0) {
+        const currentIndex = currentPecas.findIndex(peca => peca.pecas[0] === selectedPecaLink);
+        const prevIndex = (currentIndex - 1 + currentPecas.length) % currentPecas.length;
+        setSelectedPecaLink(currentPecas[prevIndex].pecas[0]);
+    }
+};
     
     return (
         <div className={styles.body}>
@@ -149,7 +174,7 @@ export default function mosaicoFormatos() {
                 
 
 
-            <div className={styles.mainContainer}>
+            <div className={styles.mainContainerCliente}>
                 <div className={styles.clientSidebar}>
                     <div>Cases</div>
                     <div className={styles.formatsButtons}>
@@ -258,18 +283,21 @@ export default function mosaicoFormatos() {
                         )}
                         {modalOpen && selectedPecaLink && (
                             <div className={styles.modal}>
-                                <div className={styles.modalContent}>
+                            <div className={styles.modalContent}>
                                 <div className={styles.closeButton} onClick={handleCloseModal} />
-                                <iframe className={styles.iframe}
+                                <div className={styles.prevArrowModal} onClick={handlePrevPeca} />
+                                <iframe
+                                className={styles.iframe}
                                 src={`${selectedPecaLink}?autoplay=1&muted=1`}
                                 allowFullScreen
                                 allow="autoplay; encrypted-media"
                                 width={width}
                                 height={height}
                                 />
-                                </div>
+                                <div className={styles.nextArrowModal} onClick={handleNextPeca} />
                             </div>
-                            )}
+                            </div>
+                        )}
                 </div>
             </div>
         </div>

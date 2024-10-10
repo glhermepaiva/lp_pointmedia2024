@@ -484,6 +484,10 @@
     max-width: 79%;
   }
 
+  .iframe {
+    max-width: 65vw;
+  }
+
   }
 
   @media (min-width: 1200px) and (max-width: 1399px) {
@@ -510,6 +514,10 @@
   
     .clientTitleContent {
       max-width: 77%;
+    }
+
+    .iframe {
+      max-width: 60vw;
     }
   
   }
@@ -554,6 +562,10 @@
     
     .modalContent {
       max-width: 90vw;
+    }
+
+    .clientTitle {
+      font-size: 38px;
     }
   
   }

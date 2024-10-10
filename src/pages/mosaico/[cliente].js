@@ -86,6 +86,7 @@ export default function mosaicoCliente() {
     const handleOpenModal = (pecaLink) => {
         setSelectedPecaLink(pecaLink);
         setModalOpen(true);
+        console.log(pecaLink)
     };
       
     const handleCloseModal = () => {
@@ -126,7 +127,7 @@ export default function mosaicoCliente() {
                 <div className={styles.mainContainerCliente}>
                     <div className={styles.clientSidebar}>
                         {dataCliente ?
-                        <div>{dataCliente.cliente}</div>
+                        <div onClick={() => console.log(dataCliente)}>{dataCliente.cliente}</div>
                         :
                         <div></div>
                         }
@@ -224,9 +225,7 @@ export default function mosaicoCliente() {
                                 .map((pecaFiltrada, idx) => (
                                     <div className={styles.clientContentContainer} key={idx}>
                                     {pecaFiltrada.thumb.map((thumbLink, index) => (
-                                        <div className={styles.iframeContainer} key={index}>
-                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
-                                        </div>
+                                        <div className={styles.iframeContainer} key={index} style={{ backgroundImage: `url(${thumbLink})`}} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
                                     ))}
                                     </div>
                                 ))}
@@ -238,9 +237,7 @@ export default function mosaicoCliente() {
                                 .map((pecaFiltrada, idx) => (
                                     <div className={styles.clientContentContainer} key={idx}>
                                     {pecaFiltrada.thumb.map((thumbLink, index) => (
-                                        <div className={styles.iframeContainer} key={index}>
-                                            <img src={thumbLink} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
-                                        </div>
+                                        <div className={styles.iframeContainer} key={index} style={{ backgroundImage: `url(${thumbLink})`}} onClick={() => handleOpenModal(pecaFiltrada.pecas[index])} />
                                     ))}
                                     </div>
                                 ))}
