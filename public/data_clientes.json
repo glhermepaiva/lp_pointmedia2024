@@ -785,15 +785,24 @@
       "itens": ["reanimate"],
       "reanimate":[
 
-      {"dimensao": "300x250",
+      {"dimensao": "600x500",
         "thumb": [
-        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png",
-        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png",
         "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png"],
         "pecas": [
-        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/600x500.html",
-        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/728x90.html",
-        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/1280x100.html"]}
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/600x500.html"]
+      },
+      {"dimensao": "728x90",
+        "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png"],
+        "pecas": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/728x90.html"]
+      },
+      {"dimensao": "1280x100",
+        "thumb": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/thumbs/thumb_xp.png"],
+        "pecas": [
+        "https://producaopoint.s3.sa-east-1.amazonaws.com/mosaico/assets/pecas/clientes/xp/1/1280x100.html"]
+      }
       ]
     },
 
