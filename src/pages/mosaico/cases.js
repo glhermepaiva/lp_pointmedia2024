@@ -12,8 +12,11 @@ export default function mosaicoFormatos() {
   const [menuEmktAberto, setMenuEmktAberto] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedPecaLink, setSelectedPecaLink] = useState(null);
-  const [selectedPecaIndex, setSelectedPecaIndex] = useState(null); // Armazena o índice da peça ativa
-  const [currentPecas, setCurrentPecas] = useState([]); // Lista de peças da categoria e formato ativos
+  const [selectedPecaIndex, setSelectedPecaIndex] = useState(null);
+  const [currentPecas, setCurrentPecas] = useState([]);
+  const [itemAtivoReanimate, setItemAtivoReanimate] = useState(null);
+  const [itemAtivoVideo, setItemAtivoVideo] = useState(null);
+  const [itemAtivoEmkt, setItemAtivoEmkt] = useState(null);
 
   const [width, height] = formatoAtivo.split('x').map(Number);
 
@@ -120,8 +123,8 @@ export default function mosaicoFormatos() {
 
   const handleOpenModal = (pecaLink, index, pecasList) => {
     setSelectedPecaLink(pecaLink);
-    setSelectedPecaIndex(index); // Define o índice da peça atual
-    setCurrentPecas(pecasList); // Define a lista de peças atuais
+    setSelectedPecaIndex(index);
+    setCurrentPecas(pecasList);
     setModalOpen(true);
   };
 
@@ -195,10 +198,16 @@ const handlePrevPeca = () => {
                                 {menuReanimateAberto && (
                                     <div className={styles.clientButtonFormats}>
                                         {formatosDisponiveis.map((formato, idx1) => (
-                                            <div className={`${styles.buttonFormat} ${itemAtivoReanimate === idx1 ? styles.active : ''}`} key={idx1} onClick={() => {
-                                                handleFormatoClick(formato, 'reanimate')
-                                                setItemAtivoReanimate(idx1); 
-                                            }}>
+                                            <div 
+                                                className={`${styles.buttonFormat} ${itemAtivoReanimate === idx1 ? styles.active : ''}`} 
+                                                key={idx1} 
+                                                onClick={() => {
+                                                    handleFormatoClick(formato, 'reanimate');
+                                                    setItemAtivoReanimate(idx1);
+                                                    setItemAtivoVideo(null);
+                                                    setItemAtivoEmkt(null); 
+                                                }}
+                                            >
                                                 {formato}
                                             </div>
                                         ))}
@@ -222,10 +231,16 @@ const handlePrevPeca = () => {
                                 {menuVideoAberto && (
                                     <div className={styles.clientButtonFormats}>
                                         {formatosDisponiveis.map((formato, idx2) => (
-                                            <div className={`${styles.buttonFormat} ${itemAtivoVideo === idx2 ? styles.active : ''}`} key={idx2} onClick={() => {
-                                                handleFormatoClick(formato, 'video');
-                                                setItemAtivoVideo(idx2); 
-                                            }}>
+                                            <div 
+                                                className={`${styles.buttonFormat} ${itemAtivoVideo === idx2 ? styles.active : ''}`} 
+                                                key={idx2} 
+                                                onClick={() => {
+                                                    handleFormatoClick(formato, 'video');
+                                                    setItemAtivoVideo(idx2);
+                                                    setItemAtivoReanimate(null);
+                                                    setItemAtivoEmkt(null);
+                                                }}
+                                            >
                                                 {formato}
                                             </div>
                                         ))}
@@ -249,10 +264,16 @@ const handlePrevPeca = () => {
                                 {menuEmktAberto && (
                                     <div className={styles.clientButtonFormats}>
                                         {formatosDisponiveis.map((formato, idx3) => (
-                                            <div className={`${styles.buttonFormat} ${itemAtivoEmkt === idx3 ? styles.active : ''}`} key={idx3} onClick={() => {
-                                                handleFormatoClick(formato, 'emkt');
-                                                setItemAtivoEmkt(idx3); 
-                                            }}>
+                                            <div 
+                                                className={`${styles.buttonFormat} ${itemAtivoEmkt === idx3 ? styles.active : ''}`} 
+                                                key={idx3} 
+                                                onClick={() => {
+                                                    handleFormatoClick(formato, 'emkt');
+                                                    setItemAtivoEmkt(idx3);
+                                                    setItemAtivoReanimate(null);
+                                                    setItemAtivoVideo(null);
+                                                }}
+                                            >
                                                 {formato}
                                             </div>
                                         ))}
