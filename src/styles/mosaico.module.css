@@ -638,3 +638,78 @@
     }
   
   }
+
+  @media (min-width: 350px) and (max-width: 429px) {
+
+    .headerLogo {
+      margin: 0 0 0 -5px;
+  }
+    
+    .headerButtons {
+      margin: 0 -20px 0 0;
+    }
+
+    .headerButtonCases {
+      margin: 0 5px 0 0px;
+    }
+
+    .mainContainer {
+      max-width: 95%;
+      justify-content: center;
+      margin: 0px 0 0 12px;
+  }
+  
+    .client {
+      width: 306px;
+      height: 304px;
+    }
+    
+    .courtain {
+      width: 306px;
+      height: 304px;
+    }
+
+    .mainContainerCliente {
+      max-width: 85%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .clientSidebar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      font-size: 40px;
+      font-weight: bold;
+      min-height: 0px;
+      margin: 0 50px 30px 0;
+    }
+  
+    .clientTitleContent {
+      max-width: 100%;
+      margin: 0px 0 0 0;
+    }
+
+    .nextArrowModal {
+      position: absolute;
+      bottom: -15px;
+      right: -15px;
+    }
+  
+    .prevArrowModal {
+      position: absolute;
+      bottom: -15px;
+      left: -15px;
+    }
+    
+    .modalContent {
+      max-width: 90vw;
+    }
+
+    .footerContainer {
+      margin: 20px auto 0 auto;
+      height: 170px;
+      flex-direction: column;
+    }
+
+  }
