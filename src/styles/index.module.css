@@ -5755,10 +5755,6 @@ background-color: #d8598e;
     margin: 0px -20px 0 -20px;
   }
 
-  .Mariana {
-    margin: 0px -20px 0 -20px;
-  }
-
   .Louro {
     margin: 0px -20px 0 -20px;
   }
@@ -7600,10 +7596,6 @@ background-color: #d8598e;
     margin: 0px -20px 0 -20px;
   }
 
-  .Mariana {
-    margin: 0px -20px 0 -20px;
-  }
-
   .Louro {
     margin: 0px -20px 0 -20px;
   }
@@ -7695,101 +7687,6 @@ background-color: #d8598e;
     margin: 0 0 -25px 600px;
     display: block;
   }
-
-  /* .team {
-    margin: -100px 0 0 0;
-    padding: 100px 0 0 0;
-  }
-
-  .teamQuote {
-    font-size: 40px;
-    line-height: 44px;
-    margin: 70px 0 80px 70px;
-    width: 380px;
-  }
-
-  .teamPictures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 650px;
-    margin: -300px 0 0 720px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .Mychel{
-    width: 150px;
-    margin: 0px 0px 0 0;
-  }
-  
-  .Thiago {
-    width: 150px;
-    margin: 0px 0px 0 0;
-  }
-  
-  .Will {
-    width: 150px;
-    margin: 0px 0px 0 0;
-  }
-  
-  .Mariana {
-    width: 150px;
-    margin: -50px 0px 0 0;
-  }
-  
-  .Louro {
-    width: 150px;
-    margin: -50px 0 0 0;
-  }
-
-  .Priscila {
-    width: 150px;
-    margin: -50px 0 0 0;
-  }
-  
-  
-  .teamTitle {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 44px;
-    margin: -220px 0 0 70px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .teamTitleTag {
-    background-color: #FFFFFF;
-    width: 250px;
-    height: 20px;
-    position: relative;
-    margin: -13px 0 20px 60px;
-    z-index: 0;
-  }
-  
-  .teamText {
-    font-size: 18px;
-    line-height: 22px;
-    width: 330px;
-    margin: 10px 0 150px 70px;
-  }
-  
-  .teamWind {
-    background-image: url(../assets/new/wind2.png);
-    width: 288px;
-    height: 120px;
-    margin: -50px 0 -85px 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  
-  .teamPinkBalls {
-    background-image: url(../assets/new/pinkballssmall.png);
-    width: 558px;
-    height: 51px;
-    margin: 0 0 -25px 700px;
-    display: block;
-  } */
 
   .wwdTitle {
     font-size: 40px;
@@ -9664,10 +9561,6 @@ background-color: #d8598e;
   }
 
   .Will {
-    margin: 0px -20px 0 -20px;
-  }
-
-  .Mariana {
     margin: 0px -20px 0 -20px;
   }
 
@@ -11652,10 +11545,6 @@ background-color: #d8598e;
   }
 
   .Will {
-    margin: 0px -20px 0 -20px;
-  }
-
-  .Mariana {
     margin: 0px -20px 0 -20px;
   }
 
@@ -13645,11 +13534,7 @@ background-color: #d8598e;
   .Will {
     margin: 0px -350px 0 -350px;
   }
-
-  .Mariana {
-    margin: 0px -350px 0 -350px;
-  }
-
+  
   .Louro {
     margin: 0px -350px 0 -350px;
   }
