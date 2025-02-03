@@ -5,7 +5,6 @@ import styles from '../styles/index.module.css'
 import * as yup from 'yup'
 import emailjs from 'emailjs-com'
 import ReactLoading from 'react-loading'
-import { GoogleTagManager } from '@next/third-parties/google'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { register } from "swiper/element/bundle";
 import { FreeMode } from 'swiper/modules';
@@ -798,8 +797,6 @@ const closeModalContato = () => {
         <title>POINT MEDIA</title>
         <meta name='description' content='Motion é o que realmente nos move' />
       </Head>
-
-      <GoogleTagManager gtmId="GTM-WC43G6L2" />
       
       <div id='header' className={styles.header}>
         <div className={styles.logoPoint} onClick={anchorVideo} />
